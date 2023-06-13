@@ -241,3 +241,140 @@
 [2023-06-14 00:07:17] INFO root fetch - processPackages [meerk40t]: Remove: archive file [/home/abi/fetcher/tmp/meerk40t-0.8.5000.tar.gz]
 [2023-06-14 00:07:17] INFO root fetch - main [MainThread]: End processing [meerk40t]: success
 [2023-06-14 00:07:17] INFO root fetch - main [MainThread]: Store serial: [18491742]
+[2023-06-14 00:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18491742]
+[2023-06-14 00:12:26] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainforge
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmem-cmemc
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: label-sleuth
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirro
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: csdid
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appian-locust
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyutils
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-14 00:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aifunc
+[2023-06-14 00:12:26] INFO root fetch - processPackages [cmem-cmemc]: New version: [23.1.3] Old Version: [23.1.2rc1]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [chainforge]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [csdid]: New version: [0.1.51] Old Version: [0.1.5]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [aifunc]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [pyutils]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [appian-locust]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [cirro]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 00:12:26] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/52/42/35b5832a1336df3e3a0e1c87bda571b945142dc5fb4166512403d6adb09b/aifunc-0.3.3.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/e9/4c/cb7adb16a0054e21dc3127742be6cb4fb530732a5d94dfe5aef53baa9ee1/appian-locust-2.0.0a8.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [kfish]: New version: [99.0.202306132207] Old Version: [99.0.202306132123]
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cirro]: Downloading https://files.pythonhosted.org/packages/59/a3/50fdcca42068f862571678bce317ff162eeaa5dd06a14d3931ce575deedf/cirro-0.7.1.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/cb/73/f34f681ca5f207d193f16a63e23dc0aacad9fdfade6bde6b8ac0615830d2/chainforge-0.1.5.2.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/2d/c9/975c2ba49f48ec3d2c6f9cf2e1f9d3f0d3d738403134e3ff0ab56eca2016/csdid-0.1.5.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/88/b4/29249a280d48fb0f50e92cbd3049bea6b1d7ca7afc0cae937af87523ffa0/cmem_cmemc-23.1.2rc1.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/27/50/3ae892a4bd4fcdaa42f4a04d9bd0076733357c659cf7c794bdc24883d3cf/pyutils-0.0.1b8-py3-none-any.whl
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/c5/46/df9be7e2e43d09e111d32f56ec92d3200705a00bf0970ef1b307efe53ba6/aifunc-0.3.4.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/19/73/611ad85ab04771317f36b95d9d1ec1d7e3bceaaaa6e732a040914244fd96/kfish-99.0.202306132123-py3-none-any.whl
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cirro]: Downloading https://files.pythonhosted.org/packages/75/bb/fd42394fe6e3d45b0a011f841528da464ea64b557e7047662250335ca677/cirro-0.7.2.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [appian-locust]: Downloading https://files.pythonhosted.org/packages/a2/64/3ae6a268fdfbf4802cf40b7af560a886241d4cfb73cc1a155f5a3bb4564a/appian-locust-2.0.0a9.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230614/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.3.3.tar.gz tmp/aifunc-0.3.4.tar.gz --markdown 20230614/a/aifunc/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/32/5c/c8240bf3e65ed3d5e51896fd248659c0cac29ac30c269ccc709d32fa845f/csdid-0.1.51.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/57/91/fd5a2da233bcf7913ae957d51e207e3b173a102b363af11344930e22331e/chainforge-0.1.5.3.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cirro]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cirro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirro-0.7.1.tar.gz tmp/cirro-0.7.2.tar.gz --markdown 20230614/c/cirro/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pyutils]: Downloading https://files.pythonhosted.org/packages/c8/9a/0d17bafc8102fc91fad611435c794bf7de1fd2751d1710ad8a41f99a4da1/pyutils-0.0.1b9-py3-none-any.whl
+[2023-06-14 00:12:27] INFO root fetch - processPackages [appian-locust]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [appian-locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appian-locust-2.0.0a8.tar.gz tmp/appian-locust-2.0.0a9.tar.gz --markdown 20230614/a/appian-locust/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cmem-cmemc]: Downloading https://files.pythonhosted.org/packages/21/87/7c191205448d3013413128900fdecadd9f7e0a15e8d23f7ec55031a2db6c/cmem_cmemc-23.1.3.tar.gz
+[2023-06-14 00:12:27] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.5.tar.gz tmp/csdid-0.1.51.tar.gz --markdown 20230614/c/csdid/0.1.5-0.1.51/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d0/bf/e452a61164828f46d1b0e5f4cfdf89a8d024cf39801f1e3e5a520821af48/kfish-99.0.202306132207-py3-none-any.whl
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pyutils]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils-0.0.1b8-py3-none-any.whl.zip tmp/pyutils-0.0.1b9-py3-none-any.whl.zip --markdown 20230614/p/pyutils/0.0.1b8-0.0.1b9/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cmem-cmemc]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [cmem-cmemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmemc-23.1.2rc1.tar.gz tmp/cmem_cmemc-23.1.3.tar.gz --markdown 20230614/c/cmem-cmemc/23.1.2rc1-23.1.3/diff.md --exclude *.pyd
+[2023-06-14 00:12:27] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-14 00:12:27] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306132123-py3-none-any.whl.zip tmp/kfish-99.0.202306132207-py3-none-any.whl.zip --markdown 20230614/k/kfish/99.0.202306132123-99.0.202306132207/diff.md --exclude *.pyd
+[2023-06-14 00:12:28] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-06-14 00:12:28] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.1.5.2.tar.gz tmp/chainforge-0.1.5.3.tar.gz --markdown 20230614/c/chainforge/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-06-14 00:12:28] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-06-14 00:12:28] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.3.3.tar.gz]
+[2023-06-14 00:12:28] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.3.4.tar.gz]
+[2023-06-14 00:12:28] INFO root fetch - processPackages [aifunc]: Start processing: codespeak
+[2023-06-14 00:12:28] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-14 00:12:28] INFO root fetch - processPackages [codespeak]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 00:12:28] INFO root fetch - processPackages [codespeak]: Downloading https://files.pythonhosted.org/packages/4c/bc/0f21ddfbb30c6d992d1fc8007b5336645fb4acbd28f778d6905527964ca2/codespeak-0.1.0.tar.gz
+[2023-06-14 00:12:28] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306132123-py3-none-any.whl.zip]
+[2023-06-14 00:12:28] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306132207-py3-none-any.whl.zip]
+[2023-06-14 00:12:28] INFO root fetch - processPackages [kfish]: Start processing: csdid
+[2023-06-14 00:12:28] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-14 00:12:28] INFO root fetch - processPackages [csdid]: New version: [0.1.51] Old Version: [0.1.5]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [appian-locust]: Remove: archive file [/home/abi/fetcher/tmp/appian-locust-2.0.0a8.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [appian-locust]: Remove: archive file [/home/abi/fetcher/tmp/appian-locust-2.0.0a9.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [appian-locust]: Start processing: pueda
+[2023-06-14 00:12:29] INFO root fetch - main [MainThread]: End processing [appian-locust]: success
+[2023-06-14 00:12:29] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-14 00:12:29] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.5.tar.gz tmp/csdid-0.1.51.tar.gz --markdown 20230614/c/csdid/0.1.5-0.1.51/diff.md --exclude *.pyd
+[2023-06-14 00:12:29] INFO root fetch - processPackages [pueda]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [codespeak]: Downloading https://files.pythonhosted.org/packages/e3/7e/b30dba4441c2458d666d215e2b7cc0a504a660acdaaf2ca10a4efc9070ec/codespeak-0.1.1.tar.gz
+[2023-06-14 00:12:29] INFO root fetch - processPackages [codespeak]: executing diffoscope
+[2023-06-14 00:12:29] INFO root fetch - processPackages [codespeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codespeak-0.1.0.tar.gz tmp/codespeak-0.1.1.tar.gz --markdown 20230614/c/codespeak/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 00:12:29] INFO root fetch - processPackages [pueda]: Downloading https://files.pythonhosted.org/packages/97/d2/a2c11b439909d2354773fde519cc03ff5458ab739fbbe0509e6a24304e0b/pueda-0.1.3.tar.gz
+[2023-06-14 00:12:29] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-06-14 00:12:29] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230614/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 00:12:29] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.5.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.51.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [csdid]: Start processing: kaspersmicrobit
+[2023-06-14 00:12:29] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-14 00:12:29] INFO root fetch - processPackages [kaspersmicrobit]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [pueda]: Downloading https://files.pythonhosted.org/packages/b0/1e/2ce5f48042a5a9c766cc96ce46ef6110222c2d18f3934de4bd96a1da0c24/pueda-0.1.4.tar.gz
+[2023-06-14 00:12:29] INFO root fetch - processPackages [kaspersmicrobit]: Downloading https://files.pythonhosted.org/packages/13/2e/50e9648655d17065e28acd437fcec8f812e14ad55f08450b3192f1fbe92b/kaspersmicrobit-0.4.0.tar.gz
+[2023-06-14 00:12:29] INFO root fetch - processPackages [pueda]: executing diffoscope
+[2023-06-14 00:12:29] INFO root fetch - processPackages [pueda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pueda-0.1.3.tar.gz tmp/pueda-0.1.4.tar.gz --markdown 20230614/p/pueda/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-14 00:12:29] INFO root fetch - processPackages [cirro]: Remove: archive file [/home/abi/fetcher/tmp/cirro-0.7.1.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [cirro]: Remove: archive file [/home/abi/fetcher/tmp/cirro-0.7.2.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [cirro]: Start processing: arize-phoenix
+[2023-06-14 00:12:29] INFO root fetch - main [MainThread]: End processing [cirro]: success
+[2023-06-14 00:12:29] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [kaspersmicrobit]: Downloading https://files.pythonhosted.org/packages/d0/c8/780633145542abfef73e3d143a7f982fd3b84f99cf9a01ce0d162ffc8b7d/kaspersmicrobit-0.4.1.tar.gz
+[2023-06-14 00:12:29] INFO root fetch - processPackages [kaspersmicrobit]: executing diffoscope
+[2023-06-14 00:12:29] INFO root fetch - processPackages [kaspersmicrobit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaspersmicrobit-0.4.0.tar.gz tmp/kaspersmicrobit-0.4.1.tar.gz --markdown 20230614/k/kaspersmicrobit/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 00:12:29] ERROR root fetch - processPackages [csdid]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/csdid-0.1.5.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/csdid-0.1.51.tar.gz: No such file or directory
+
+[2023-06-14 00:12:29] INFO root fetch - main [MainThread]: End processing [csdid] error
+[2023-06-14 00:12:29] INFO root fetch - processPackages [cmem-cmemc]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmemc-23.1.2rc1.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - processPackages [cmem-cmemc]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmemc-23.1.3.tar.gz]
+[2023-06-14 00:12:29] INFO root fetch - main [MainThread]: End processing [cmem-cmemc]: success
+[2023-06-14 00:12:29] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/aa/cd/6114a7b8cf79cdb8874b7fc09dd26b6b6193c6fd1d0872c07b33869e4529/arize_phoenix-0.0.8.tar.gz
+[2023-06-14 00:12:30] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b8-py3-none-any.whl.zip]
+[2023-06-14 00:12:30] INFO root fetch - processPackages [pyutils]: Remove: archive file [/home/abi/fetcher/tmp/pyutils-0.0.1b9-py3-none-any.whl.zip]
+[2023-06-14 00:12:30] INFO root fetch - main [MainThread]: End processing [pyutils]: success
+[2023-06-14 00:12:30] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-14 00:12:30] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-14 00:12:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-14 00:12:30] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/af/d8/2db399e5e20785b2485581651ae7b1b6686105545492f859f0bf3a9c73f5/arize_phoenix-0.0.9.tar.gz
+[2023-06-14 00:12:30] INFO root fetch - processPackages [codespeak]: Remove: archive file [/home/abi/fetcher/tmp/codespeak-0.1.0.tar.gz]
+[2023-06-14 00:12:30] INFO root fetch - processPackages [codespeak]: Remove: archive file [/home/abi/fetcher/tmp/codespeak-0.1.1.tar.gz]
+[2023-06-14 00:12:30] INFO root fetch - main [MainThread]: End processing [codespeak]: success
+[2023-06-14 00:12:30] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-06-14 00:12:30] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230614/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 00:12:30] INFO root fetch - processPackages [pueda]: Remove: archive file [/home/abi/fetcher/tmp/pueda-0.1.3.tar.gz]
+[2023-06-14 00:12:30] INFO root fetch - processPackages [pueda]: Remove: archive file [/home/abi/fetcher/tmp/pueda-0.1.4.tar.gz]
+[2023-06-14 00:12:30] INFO root fetch - main [MainThread]: End processing [pueda]: success
+[2023-06-14 00:12:31] INFO root fetch - processPackages [kaspersmicrobit]: Remove: archive file [/home/abi/fetcher/tmp/kaspersmicrobit-0.4.0.tar.gz]
+[2023-06-14 00:12:31] INFO root fetch - processPackages [kaspersmicrobit]: Remove: archive file [/home/abi/fetcher/tmp/kaspersmicrobit-0.4.1.tar.gz]
+[2023-06-14 00:12:31] INFO root fetch - main [MainThread]: End processing [kaspersmicrobit]: success
+[2023-06-14 00:12:49] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.8.tar.gz]
+[2023-06-14 00:12:49] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-0.0.9.tar.gz]
+[2023-06-14 00:12:49] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-06-14 00:13:11] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-06-14 00:13:11] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-06-14 00:13:11] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-06-14 00:13:32] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.5.2.tar.gz]
+[2023-06-14 00:13:32] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.5.3.tar.gz]
+[2023-06-14 00:13:32] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-06-14 00:13:32] INFO root fetch - main [MainThread]: Store serial: [18491800]
