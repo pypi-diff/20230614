@@ -1865,3 +1865,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:49:41] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.56.1.tar.gz]
 [2023-06-14 01:49:41] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
 [2023-06-14 01:49:41] INFO root fetch - main [MainThread]: Store serial: [18492375]
+[2023-06-14 01:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492375]
+[2023-06-14 01:54:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinjax
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: squad-gunicorn
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylambdarest
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-redisdb
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-datadriver
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threatingestor
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: econbeautylib
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: holamundoplayerandresn
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Logic-Circuits-Evolution
+[2023-06-14 01:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: honeybee-doe2
+[2023-06-14 01:54:51] INFO root fetch - processPackages [jinjax]: New version: [0.24] Old Version: [0.23]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [squad-gunicorn]: New version: [20.0.4] Old Version: [121.0.4]
+[2023-06-14 01:54:51] WARNING root fetch - processPackages [holamundoplayerandresn]: Skipping, unable to determine old version
+[2023-06-14 01:54:51] INFO root fetch - processPackages [holamundoplayerandresn]: Start processing: velesresearch
+[2023-06-14 01:54:51] INFO root fetch - main [MainThread]: End processing [holamundoplayerandresn] error
+[2023-06-14 01:54:51] INFO root fetch - processPackages [econbeautylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [pylambdarest]: New version: [0.3.0rc4] Old Version: [0.3.0rc3]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [cdk-redisdb]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [Logic-Circuits-Evolution]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [threatingestor]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [honeybee-doe2]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [velesresearch]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [robotframework-datadriver]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-06-14 01:54:51] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/54/15225f72625b525b291c5e4e51abc0c163a329360ab295d18516083fa47e/econbeautylib-0.0.8.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/da/9a/fcd7fda0f3b7bd9fbc86b2f3d3591622c675f386e4cb31c581c0b3c10a3c/cdk-redisdb-0.0.28.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/6b/09/2c87451c88a7d0d23cec2bce1bf25250a350b20a741dfada441aef55013e/velesresearch-0.0.7.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Downloading https://files.pythonhosted.org/packages/d4/86/08c32b39b08523e4127239de8563fa2f65ad7027c5664719093fc0aa0ed9/Logic%20Circuits%20Evolution-1.0.2.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [pylambdarest]: Downloading https://files.pythonhosted.org/packages/4c/73/0df042c18716b30dd08f1dfb007b55c7eeff084881b8a3cebdcf919c6278/pylambdarest-0.3.0rc3.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [squad-gunicorn]: Downloading https://files.pythonhosted.org/packages/1d/a5/7b495d7a2f14b6a13f0e52b750bd3298509f450f32276518116da8c65cbc/squad-gunicorn-121.0.4.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/dd/17a982baeba8ae643e6a7eca352e39d15629bdd9ea1067bad349087c4df8/econbeautylib-0.0.9.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [jinjax]: Downloading https://files.pythonhosted.org/packages/31/40/129d3ee67b3681918742d50be0eb28a6f0e3791bd81d3d35ba13c4ffe627/jinjax-0.23.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [velesresearch]: Downloading https://files.pythonhosted.org/packages/d4/47/f403bfae871a2804e955911398b6a50c78be6c3b05f7f4c0a8e817c893ac/velesresearch-0.0.8.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [threatingestor]: Downloading https://files.pythonhosted.org/packages/23/15/07857726f8254d0fe1d5aa60ccce9984f2ee89bbd3a7388c2a0001cbf76e/threatingestor-1.1.1.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [econbeautylib]: executing diffoscope
+[2023-06-14 01:54:51] INFO root fetch - processPackages [econbeautylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econbeautylib-0.0.8.tar.gz tmp/econbeautylib-0.0.9.tar.gz --markdown 20230614/e/econbeautylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 01:54:51] INFO root fetch - processPackages [robotframework-datadriver]: Downloading https://files.pythonhosted.org/packages/06/79/f3be06165696a5bc9a8ee41a7bd194be8cd863d3343b788a9014feb5b094/robotframework-datadriver-1.7.0.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/f1/0c/c2adbdcd3f884eca70ddde9f082d26517dfdb94d10bfe95f30c988ac850f/honeybee-doe2-0.6.0.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [velesresearch]: executing diffoscope
+[2023-06-14 01:54:51] INFO root fetch - processPackages [velesresearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velesresearch-0.0.7.tar.gz tmp/velesresearch-0.0.8.tar.gz --markdown 20230614/v/velesresearch/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 01:54:51] INFO root fetch - processPackages [cdk-redisdb]: Downloading https://files.pythonhosted.org/packages/2e/e2/189110c714e9ed38e733074feaaf9d957bf64d14b0676fea17434339ceb0/cdk-redisdb-0.0.29.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Downloading https://files.pythonhosted.org/packages/74/f3/8934af4b84881117cde1692b82fd63b468cd412ef6bad9152a7c314ea96f/Logic%20Circuits%20Evolution-1.0.3.tar.gz
+[2023-06-14 01:54:51] INFO root fetch - processPackages [Logic-Circuits-Evolution]: executing diffoscope
+[2023-06-14 01:54:51] INFO root fetch - processPackages [Logic-Circuits-Evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Logic Circuits Evolution-1.0.2.tar.gz tmp/Logic Circuits Evolution-1.0.3.tar.gz --markdown 20230614/L/Logic-Circuits-Evolution/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [pylambdarest]: Downloading https://files.pythonhosted.org/packages/97/df/558664413b8bd409e51791ad8e6d5b2167ba1eef688b4b6203d0b646d121/pylambdarest-0.3.0rc4.tar.gz
+[2023-06-14 01:54:52] INFO root fetch - processPackages [cdk-redisdb]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [cdk-redisdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-redisdb-0.0.28.tar.gz tmp/cdk-redisdb-0.0.29.tar.gz --markdown 20230614/c/cdk-redisdb/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [squad-gunicorn]: Downloading https://files.pythonhosted.org/packages/e1/3b/bf96ba81637a96cf082a804ecaeea75fa3cdaa9dc833578d8e5423b61f04/squad-gunicorn-20.0.4.tar.gz
+[2023-06-14 01:54:52] INFO root fetch - processPackages [honeybee-doe2]: Downloading https://files.pythonhosted.org/packages/be/c9/96c8381b6cfaf176997d7402ec6162b955401c51b33650c18e5da3873c16/honeybee-doe2-0.6.1.tar.gz
+[2023-06-14 01:54:52] INFO root fetch - processPackages [jinjax]: Downloading https://files.pythonhosted.org/packages/9e/0e/973adcafc19070fbff56174d530c118ca99e1a5050390bd9ededb5de5846/jinjax-0.24.tar.gz
+[2023-06-14 01:54:52] INFO root fetch - processPackages [honeybee-doe2]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [honeybee-doe2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-doe2-0.6.0.tar.gz tmp/honeybee-doe2-0.6.1.tar.gz --markdown 20230614/h/honeybee-doe2/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [jinjax]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [jinjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinjax-0.23.tar.gz tmp/jinjax-0.24.tar.gz --markdown 20230614/j/jinjax/0.23-0.24/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [pylambdarest]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [pylambdarest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylambdarest-0.3.0rc3.tar.gz tmp/pylambdarest-0.3.0rc4.tar.gz --markdown 20230614/p/pylambdarest/0.3.0rc3-0.3.0rc4/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [threatingestor]: Downloading https://files.pythonhosted.org/packages/ce/f0/6102d436761a8a89a7a5d3d8580fba7ccfa5e8efaabbdbb6e090a2e68c97/threatingestor-1.2.0.tar.gz
+[2023-06-14 01:54:52] INFO root fetch - processPackages [robotframework-datadriver]: Downloading https://files.pythonhosted.org/packages/50/1e/d08358cb1b39aab6a0ac9f532431c6fc85cb5dce75bd2da9a0a8fcf8eab5/robotframework-datadriver-1.8.0.tar.gz
+[2023-06-14 01:54:52] INFO root fetch - processPackages [threatingestor]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [threatingestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threatingestor-1.1.1.tar.gz tmp/threatingestor-1.2.0.tar.gz --markdown 20230614/t/threatingestor/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [robotframework-datadriver]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [robotframework-datadriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-datadriver-1.7.0.tar.gz tmp/robotframework-datadriver-1.8.0.tar.gz --markdown 20230614/r/robotframework-datadriver/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-06-14 01:54:52] INFO root fetch - processPackages [squad-gunicorn]: executing diffoscope
+[2023-06-14 01:54:52] INFO root fetch - processPackages [squad-gunicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squad-gunicorn-121.0.4.tar.gz tmp/squad-gunicorn-20.0.4.tar.gz --markdown 20230614/s/squad-gunicorn/121.0.4-20.0.4/diff.md --exclude *.pyd
+[2023-06-14 01:54:53] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Remove: archive file [/home/abi/fetcher/tmp/Logic Circuits Evolution-1.0.2.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Remove: archive file [/home/abi/fetcher/tmp/Logic Circuits Evolution-1.0.3.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - main [MainThread]: End processing [Logic-Circuits-Evolution]: success
+[2023-06-14 01:54:53] INFO root fetch - processPackages [cdk-redisdb]: Remove: archive file [/home/abi/fetcher/tmp/cdk-redisdb-0.0.28.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - processPackages [cdk-redisdb]: Remove: archive file [/home/abi/fetcher/tmp/cdk-redisdb-0.0.29.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - main [MainThread]: End processing [cdk-redisdb]: success
+[2023-06-14 01:54:53] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.7.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - processPackages [velesresearch]: Remove: archive file [/home/abi/fetcher/tmp/velesresearch-0.0.8.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - main [MainThread]: End processing [velesresearch]: success
+[2023-06-14 01:54:53] INFO root fetch - processPackages [jinjax]: Remove: archive file [/home/abi/fetcher/tmp/jinjax-0.23.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - processPackages [jinjax]: Remove: archive file [/home/abi/fetcher/tmp/jinjax-0.24.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - main [MainThread]: End processing [jinjax]: success
+[2023-06-14 01:54:53] INFO root fetch - processPackages [pylambdarest]: Remove: archive file [/home/abi/fetcher/tmp/pylambdarest-0.3.0rc3.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - processPackages [pylambdarest]: Remove: archive file [/home/abi/fetcher/tmp/pylambdarest-0.3.0rc4.tar.gz]
+[2023-06-14 01:54:53] INFO root fetch - main [MainThread]: End processing [pylambdarest]: success
+[2023-06-14 01:54:54] INFO root fetch - processPackages [threatingestor]: Remove: archive file [/home/abi/fetcher/tmp/threatingestor-1.1.1.tar.gz]
+[2023-06-14 01:54:54] INFO root fetch - processPackages [threatingestor]: Remove: archive file [/home/abi/fetcher/tmp/threatingestor-1.2.0.tar.gz]
+[2023-06-14 01:54:54] INFO root fetch - main [MainThread]: End processing [threatingestor]: success
+[2023-06-14 01:54:54] INFO root fetch - processPackages [robotframework-datadriver]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-datadriver-1.7.0.tar.gz]
+[2023-06-14 01:54:54] INFO root fetch - processPackages [robotframework-datadriver]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-datadriver-1.8.0.tar.gz]
+[2023-06-14 01:54:54] INFO root fetch - main [MainThread]: End processing [robotframework-datadriver]: success
+[2023-06-14 01:54:55] INFO root fetch - processPackages [squad-gunicorn]: Remove: archive file [/home/abi/fetcher/tmp/squad-gunicorn-121.0.4.tar.gz]
+[2023-06-14 01:54:55] INFO root fetch - processPackages [squad-gunicorn]: Remove: archive file [/home/abi/fetcher/tmp/squad-gunicorn-20.0.4.tar.gz]
+[2023-06-14 01:54:55] INFO root fetch - main [MainThread]: End processing [squad-gunicorn]: success
+[2023-06-14 01:55:54] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.8.tar.gz]
+[2023-06-14 01:55:54] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.9.tar.gz]
+[2023-06-14 01:55:54] INFO root fetch - main [MainThread]: End processing [econbeautylib]: success
+[2023-06-14 01:55:54] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.6.0.tar.gz]
+[2023-06-14 01:55:54] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.6.1.tar.gz]
+[2023-06-14 01:55:54] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
+[2023-06-14 01:55:54] INFO root fetch - main [MainThread]: Store serial: [18492408]
