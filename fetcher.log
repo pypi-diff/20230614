@@ -984,3 +984,60 @@
 [2023-06-14 00:47:09] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2023-06-14 00:47:09] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-06-14 00:47:09] INFO root fetch - main [MainThread]: Store serial: [18492057]
+[2023-06-14 00:52:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492057]
+[2023-06-14 00:52:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-14 00:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-oci
+[2023-06-14 00:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinabs
+[2023-06-14 00:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kubernetes
+[2023-06-14 00:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-data-tables
+[2023-06-14 00:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: restsession
+[2023-06-14 00:52:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapeghost
+[2023-06-14 00:52:18] INFO root fetch - processPackages [restsession]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 00:52:18] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev5] Old Version: [1.2.6.dev4]
+[2023-06-14 00:52:18] INFO root fetch - processPackages [pulumi-oci]: New version: [1.0.0] Old Version: [0.9.1a1677791364]
+[2023-06-14 00:52:18] INFO root fetch - processPackages [scrapeghost]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-14 00:52:18] INFO root fetch - processPackages [azure-data-tables]: New version: [12.4.3] Old Version: [12.4.2]
+[2023-06-14 00:52:18] INFO root fetch - processPackages [kubernetes]: New version: [9.0.1] Old Version: [9.0.0b1]
+[2023-06-14 00:52:18] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/31/ec/d344f782d0884ff18058b2d886d87b0acaa63095b9191270dfe41e51e469/sinabs-1.2.6.dev4.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [restsession]: Downloading https://files.pythonhosted.org/packages/81/5a/448e1f36bbdcce7da7a5cf7ab6cc3538509961aef501dd21052b2c1b0076/restsession-0.0.2.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [scrapeghost]: Downloading https://files.pythonhosted.org/packages/ed/bb/c8dfd1a648dce912b52a1af85b8a0406ef68ad45c0183820aaa47b5c5932/scrapeghost-0.5.0.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/ae/1c/caa45d3eb463eabcc7e326f90bc431682f4f58498dd3c98403b45d9f9a58/sinabs-1.2.6.dev5.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [kubernetes]: Downloading https://files.pythonhosted.org/packages/d1/f4/b57dff8d83d4b7cdc34797c203c65ea0a8869c11187b65ac128eada0d79b/kubernetes-9.0.0b1.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [azure-data-tables]: Downloading https://files.pythonhosted.org/packages/91/03/606dc3a49f054e3055b7eaf581ea988b76376b66874a2a59ccf1e988c5ee/azure-data-tables-12.4.2.zip
+[2023-06-14 00:52:18] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/86/ea/282f83d0758757c8cabe17bc90aa9af50c1f1b9aa736f9ad87ee2c19659e/pulumi_oci-0.9.1a1677791364.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-06-14 00:52:18] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev4.tar.gz tmp/sinabs-1.2.6.dev5.tar.gz --markdown 20230614/s/sinabs/1.2.6.dev4-1.2.6.dev5/diff.md --exclude *.pyd
+[2023-06-14 00:52:18] INFO root fetch - processPackages [restsession]: Downloading https://files.pythonhosted.org/packages/f5/9d/017ba77fda516c749abb1c8f5a6627d168ca6b5efcd266a36706f08f1ee5/restsession-0.0.3.tar.gz
+[2023-06-14 00:52:18] INFO root fetch - processPackages [restsession]: executing diffoscope
+[2023-06-14 00:52:18] INFO root fetch - processPackages [restsession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restsession-0.0.2.tar.gz tmp/restsession-0.0.3.tar.gz --markdown 20230614/r/restsession/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 00:52:18] INFO root fetch - processPackages [scrapeghost]: Downloading https://files.pythonhosted.org/packages/2d/ec/8adb0d443dfeba18797ee420f0ba55e72397f51fe61c204de3283ab8c659/scrapeghost-0.5.1.tar.gz
+[2023-06-14 00:52:19] INFO root fetch - processPackages [scrapeghost]: executing diffoscope
+[2023-06-14 00:52:19] INFO root fetch - processPackages [scrapeghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapeghost-0.5.0.tar.gz tmp/scrapeghost-0.5.1.tar.gz --markdown 20230614/s/scrapeghost/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-14 00:52:19] INFO root fetch - processPackages [kubernetes]: Downloading https://files.pythonhosted.org/packages/92/11/25f8b90cded6debf9e5130b14047733a4805ec17765dec887066cbbb2a74/kubernetes-9.0.1.tar.gz
+[2023-06-14 00:52:19] INFO root fetch - processPackages [azure-data-tables]: Downloading https://files.pythonhosted.org/packages/ba/ac/408a1a30a4f9a1e288c65d619f24a9a02c8ff385b34816a3ce1f63f43bcc/azure-data-tables-12.4.3.zip
+[2023-06-14 00:52:19] INFO root fetch - processPackages [azure-data-tables]: executing diffoscope
+[2023-06-14 00:52:19] INFO root fetch - processPackages [azure-data-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-data-tables-12.4.2.zip tmp/azure-data-tables-12.4.3.zip --markdown 20230614/a/azure-data-tables/12.4.2-12.4.3/diff.md --exclude *.pyd
+[2023-06-14 00:52:19] INFO root fetch - processPackages [kubernetes]: executing diffoscope
+[2023-06-14 00:52:19] INFO root fetch - processPackages [kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernetes-9.0.0b1.tar.gz tmp/kubernetes-9.0.1.tar.gz --markdown 20230614/k/kubernetes/9.0.0b1-9.0.1/diff.md --exclude *.pyd
+[2023-06-14 00:52:19] INFO root fetch - processPackages [pulumi-oci]: Downloading https://files.pythonhosted.org/packages/74/31/33b17b31d205d8da53a1ffccda068da282d3595412005d64320d2cc96b74/pulumi_oci-1.0.0.tar.gz
+[2023-06-14 00:52:19] INFO root fetch - processPackages [restsession]: Remove: archive file [/home/abi/fetcher/tmp/restsession-0.0.2.tar.gz]
+[2023-06-14 00:52:19] INFO root fetch - processPackages [restsession]: Remove: archive file [/home/abi/fetcher/tmp/restsession-0.0.3.tar.gz]
+[2023-06-14 00:52:19] INFO root fetch - main [MainThread]: End processing [restsession]: success
+[2023-06-14 00:52:20] INFO root fetch - processPackages [scrapeghost]: Remove: archive file [/home/abi/fetcher/tmp/scrapeghost-0.5.0.tar.gz]
+[2023-06-14 00:52:20] INFO root fetch - processPackages [scrapeghost]: Remove: archive file [/home/abi/fetcher/tmp/scrapeghost-0.5.1.tar.gz]
+[2023-06-14 00:52:20] INFO root fetch - main [MainThread]: End processing [scrapeghost]: success
+[2023-06-14 00:52:20] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev4.tar.gz]
+[2023-06-14 00:52:20] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev5.tar.gz]
+[2023-06-14 00:52:20] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-06-14 00:52:20] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-06-14 00:52:20] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.1a1677791364.tar.gz tmp/pulumi_oci-1.0.0.tar.gz --markdown 20230614/p/pulumi-oci/0.9.1a1677791364-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 00:52:21] INFO root fetch - processPackages [azure-data-tables]: Remove: archive file [/home/abi/fetcher/tmp/azure-data-tables-12.4.2.zip]
+[2023-06-14 00:52:21] INFO root fetch - processPackages [azure-data-tables]: Remove: archive file [/home/abi/fetcher/tmp/azure-data-tables-12.4.3.zip]
+[2023-06-14 00:52:21] INFO root fetch - main [MainThread]: End processing [azure-data-tables]: success
+[2023-06-14 00:52:41] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.0b1.tar.gz]
+[2023-06-14 00:52:41] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.1.tar.gz]
+[2023-06-14 00:52:41] INFO root fetch - main [MainThread]: End processing [kubernetes]: success
+[2023-06-14 00:54:47] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-0.9.1a1677791364.tar.gz]
+[2023-06-14 00:54:47] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.0.0.tar.gz]
+[2023-06-14 00:54:47] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-06-14 00:54:47] INFO root fetch - main [MainThread]: Store serial: [18492075]
