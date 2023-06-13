@@ -1195,3 +1195,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-14 01:00:03] INFO root fetch - main [MainThread]: End processing [econbeautylib] error
 [2023-06-14 01:00:03] INFO root fetch - main [MainThread]: Store serial: [18492098]
+[2023-06-14 01:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492098]
+[2023-06-14 01:05:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h2o-mlops
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gtnet
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt-cu101
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iron-toolbox
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mosaicml-cli
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiomql
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calculator_mcc
+[2023-06-14 01:05:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kfish
+[2023-06-14 01:05:12] WARNING root fetch - processPackages [h2o-mlops]: Skipping, unable to determine old version
+[2023-06-14 01:05:12] INFO root fetch - main [MainThread]: End processing [h2o-mlops] error
+[2023-06-14 01:05:12] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [gtnet]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [aiomql]: New version: [2.0.0] Old Version: [1]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kfish]: New version: [99.0.202306132207] Old Version: [99.0.202306132123]
+[2023-06-14 01:05:12] ERROR root fetch - processPackages [calculator_mcc]: Unable to get metadata: No such project 'calculator_mcc'
+[2023-06-14 01:05:12] INFO root fetch - main [MainThread]: End processing [calculator_mcc] error
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230613] Old Version: [0.7.0b20230612]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230613] Old Version: [0.7.0b20230612]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kcli]: New version: [99.0.202306132302] Old Version: [99.0.202306132205]
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/19/73/611ad85ab04771317f36b95d9d1ec1d7e3bceaaaa6e732a040914244fd96/kfish-99.0.202306132123-py3-none-any.whl
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/36/a4/0e2f54ff07ee55d2fd9505f427e7a67e3c18d9b6c56c26d8471eff97c7df/tmnt-cu101-0.7.0b20230612.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [aiomql]: Downloading https://files.pythonhosted.org/packages/ee/9f/6d2ca71c79431a5fa7fde9f41adc39da459370c3b5b0d89f9ba5c18c935b/aiomql-1.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/06/65/5404225f9f481d7c0a88ce166e88721085a2b1dfb1493dd5942215f7d37e/kcli-99.0.202306132205-py3-none-any.whl
+[2023-06-14 01:05:12] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/28/3c/b41cf01475f9e4a0c63fee8cad7485a8a6c98dddc49e8f1a948f30650153/mosaicml-cli-0.4.7.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/14/56/607715d5f0a4a64f571ffe260dbd6c986eb107b6942e4a94bd250688ae9d/iron_toolbox-1.0.8.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [gtnet]: Downloading https://files.pythonhosted.org/packages/c8/87/c11a60f211b447e9043b6cf822673ad99059e4311310af50b7eefae11e9f/gtnet-0.0.1.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/bc/93/29649334b5b298d2934cf7c1a65f053075f915f0a166ddead1757be91e1a/tmnt-0.7.0b20230612.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d0/bf/e452a61164828f46d1b0e5f4cfdf89a8d024cf39801f1e3e5a520821af48/kfish-99.0.202306132207-py3-none-any.whl
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/a6/3c/a6d62eb55e88df42ddf14bf06c4975e1f9f6c94600edcb3f8df035bd89a0/tmnt-cu101-0.7.0b20230613.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-14 01:05:12] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306132123-py3-none-any.whl.zip tmp/kfish-99.0.202306132207-py3-none-any.whl.zip --markdown 20230614/k/kfish/99.0.202306132123-99.0.202306132207/diff.md --exclude *.pyd
+[2023-06-14 01:05:12] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/08/41/a9c5dd61375b8ef9f749f0e1e0c1277adfbac1e63a96dfd08d91eb55a11f/mosaicml-cli-0.4.8.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/15/c9/6ddb477d6f0ec6bef2b9ab1904ced650193c203c83b26b8b7371a39bbe01/iron_toolbox-1.0.9.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [aiomql]: Downloading https://files.pythonhosted.org/packages/a1/43/0fea1ded75d88360bbfed8ea98b93db78e44d0a032d420e917d564b83250/aiomql-2.0.0.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f1/7f/296109b02bdcedbcd9344659552c09c96bde764f2a848e4803b1c994c9e6/tmnt-0.7.0b20230613.tar.gz
+[2023-06-14 01:05:12] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-06-14 01:05:12] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.7.tar.gz tmp/mosaicml-cli-0.4.8.tar.gz --markdown 20230614/m/mosaicml-cli/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-14 01:05:12] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230612.tar.gz tmp/tmnt-cu101-0.7.0b20230613.tar.gz --markdown 20230614/t/tmnt-cu101/0.7.0b20230612-0.7.0b20230613/diff.md --exclude *.pyd
+[2023-06-14 01:05:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/18/02/363c23e2908dbae34f44d92ea99032100e222532cc44bd4e46041c593f80/kcli-99.0.202306132302-py3-none-any.whl
+[2023-06-14 01:05:13] INFO root fetch - processPackages [aiomql]: executing diffoscope
+[2023-06-14 01:05:13] INFO root fetch - processPackages [aiomql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomql-1.tar.gz tmp/aiomql-2.0.0.tar.gz --markdown 20230614/a/aiomql/1-2.0.0/diff.md --exclude *.pyd
+[2023-06-14 01:05:13] INFO root fetch - processPackages [gtnet]: Downloading https://files.pythonhosted.org/packages/20/fa/899f2d705a6ad90e13ecb9dab6c62fe62ecdf643af9a988b599fd998cc5c/gtnet-0.0.2.tar.gz
+[2023-06-14 01:05:13] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-06-14 01:05:13] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230614/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 01:05:13] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-14 01:05:13] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230612.tar.gz tmp/tmnt-0.7.0b20230613.tar.gz --markdown 20230614/t/tmnt/0.7.0b20230612-0.7.0b20230613/diff.md --exclude *.pyd
+[2023-06-14 01:05:13] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-14 01:05:13] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306132205-py3-none-any.whl.zip tmp/kcli-99.0.202306132302-py3-none-any.whl.zip --markdown 20230614/k/kcli/99.0.202306132205-99.0.202306132302/diff.md --exclude *.pyd
+[2023-06-14 01:05:13] INFO root fetch - processPackages [gtnet]: executing diffoscope
+[2023-06-14 01:05:13] INFO root fetch - processPackages [gtnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtnet-0.0.1.tar.gz tmp/gtnet-0.0.2.tar.gz --markdown 20230614/g/gtnet/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 01:05:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306132123-py3-none-any.whl.zip]
+[2023-06-14 01:05:14] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306132207-py3-none-any.whl.zip]
+[2023-06-14 01:05:14] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-14 01:05:14] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230612.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230613.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-14 01:05:14] INFO root fetch - processPackages [aiomql]: Remove: archive file [/home/abi/fetcher/tmp/aiomql-1.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - processPackages [aiomql]: Remove: archive file [/home/abi/fetcher/tmp/aiomql-2.0.0.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - main [MainThread]: End processing [aiomql]: success
+[2023-06-14 01:05:14] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230612.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230613.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-14 01:05:14] INFO root fetch - processPackages [iron-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/iron_toolbox-1.0.8.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - processPackages [iron-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/iron_toolbox-1.0.9.tar.gz]
+[2023-06-14 01:05:14] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-06-14 01:05:16] INFO root fetch - processPackages [gtnet]: Remove: archive file [/home/abi/fetcher/tmp/gtnet-0.0.1.tar.gz]
+[2023-06-14 01:05:16] INFO root fetch - processPackages [gtnet]: Remove: archive file [/home/abi/fetcher/tmp/gtnet-0.0.2.tar.gz]
+[2023-06-14 01:05:16] INFO root fetch - main [MainThread]: End processing [gtnet]: success
+[2023-06-14 01:05:17] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.7.tar.gz]
+[2023-06-14 01:05:17] INFO root fetch - processPackages [mosaicml-cli]: Remove: archive file [/home/abi/fetcher/tmp/mosaicml-cli-0.4.8.tar.gz]
+[2023-06-14 01:05:17] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-06-14 01:05:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132205-py3-none-any.whl.zip]
+[2023-06-14 01:05:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132302-py3-none-any.whl.zip]
+[2023-06-14 01:05:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-14 01:05:19] INFO root fetch - main [MainThread]: Store serial: [18492127]
