@@ -1480,3 +1480,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:22:41] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
 [2023-06-14 01:22:41] INFO root fetch - main [MainThread]: End processing [ai-services]: success
 [2023-06-14 01:22:41] INFO root fetch - main [MainThread]: Store serial: [18492210]
+[2023-06-14 01:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492210]
+[2023-06-14 01:27:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Logic-Circuits-Evolution
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acapela-downloader-py
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secureli
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chiapos
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculator_mcc
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artd-colombian-cities
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netcheck
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napatrackmater
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fridex-connection
+[2023-06-14 01:27:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: navi-pro
+[2023-06-14 01:27:50] INFO root fetch - processPackages [acapela-downloader-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-14 01:27:50] INFO root fetch - processPackages [secureli]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-14 01:27:50] WARNING root fetch - processPackages [Logic-Circuits-Evolution]: Skipping, unable to determine old version
+[2023-06-14 01:27:50] INFO root fetch - main [MainThread]: End processing [Logic-Circuits-Evolution] error
+[2023-06-14 01:27:50] INFO root fetch - processPackages [napatrackmater]: New version: [3.7.5] Old Version: [3.7.4]
+[2023-06-14 01:27:50] INFO root fetch - processPackages [artd-colombian-cities]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-06-14 01:27:50] INFO root fetch - processPackages [netcheck]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-14 01:27:50] INFO root fetch - processPackages [chiapos]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 01:27:50] ERROR root fetch - processPackages [fridex-connection]: Unable to get metadata: No such project 'fridex-connection'
+[2023-06-14 01:27:50] INFO root fetch - main [MainThread]: End processing [fridex-connection] error
+[2023-06-14 01:27:50] WARNING root fetch - processPackages [calculator_mcc]: Skipping, unable to determine old version
+[2023-06-14 01:27:50] INFO root fetch - main [MainThread]: End processing [calculator_mcc] error
+[2023-06-14 01:27:50] INFO root fetch - processPackages [navi-pro]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-06-14 01:27:50] INFO root fetch - processPackages [acapela-downloader-py]: Downloading https://files.pythonhosted.org/packages/3e/80/b67c7bea26d6a5369082bc09ef8984a562d6a13bf37ee4edbb9aa90706ba/acapela_downloader_py-0.1.6.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/63/ba/b8a073b352427f4be6b8ba9b3cf4b865bd816aebfb6bce60fcb4486e4409/napatrackmater-3.7.4.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/47/35/e2994f5a16796e6108032687b1a9e398958a1738f47b3168e35d9287249f/secureli-0.3.8.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/3a/6b/829161105128be69efdce127be57aea1c28105d76c5c30a1c753caed0a4d/chiapos-1.0.8.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [secureli]: Downloading https://files.pythonhosted.org/packages/c7/16/a202bf67f0eef5fa7958f5c44cfba2d8752ae133930d6b30f3bb7aa8f3f1/secureli-0.3.9.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [secureli]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [secureli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secureli-0.3.8.tar.gz tmp/secureli-0.3.9.tar.gz --markdown 20230614/s/secureli/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-14 01:27:50] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/73/36/74edaa1b34d26ce6979c56c3d1bb5f7b17a906f31492014dfe21131dcac5/artd_colombian_cities-0.0.15.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [navi-pro]: Downloading https://files.pythonhosted.org/packages/11/5b/b7b3c6880e997e96267e73a5ad0ad17110f5635803001d629fb4d6da9599/navi%20pro-7.1.8.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [acapela-downloader-py]: Downloading https://files.pythonhosted.org/packages/75/98/c68bb5b98d93341eb1858fd56bd2da5b8fe11828ae836ec448425e6b9373/acapela_downloader_py-0.1.7.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [netcheck]: Downloading https://files.pythonhosted.org/packages/c3/61/699c473fe082731e6c73cb00f0f3fe55759d568d8430988b3e522ce11cb8/netcheck-0.4.1.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/27/b5/cfc684a398db3c4d671b2baf9749cd589978252a04749962e1f1b1fae313/chiapos-1.0.9.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [acapela-downloader-py]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [acapela-downloader-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acapela_downloader_py-0.1.6.tar.gz tmp/acapela_downloader_py-0.1.7.tar.gz --markdown 20230614/a/acapela-downloader-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-14 01:27:50] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/7e/65/11866a46ce571f7adb67681dc1a20cb0765fb4a813d390610a3409f037dc/napatrackmater-3.7.5.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/98/1a/6419e8bdae1ba104942f3d46de7fb60299a2283bd9a02210fd974a36ce6e/artd_colombian_cities-0.0.16.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-1.0.8.tar.gz tmp/chiapos-1.0.9.tar.gz --markdown 20230614/c/chiapos/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 01:27:50] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.7.4.tar.gz tmp/napatrackmater-3.7.5.tar.gz --markdown 20230614/n/napatrackmater/3.7.4-3.7.5/diff.md --exclude *.pyd
+[2023-06-14 01:27:50] INFO root fetch - processPackages [artd-colombian-cities]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [artd-colombian-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_colombian_cities-0.0.15.tar.gz tmp/artd_colombian_cities-0.0.16.tar.gz --markdown 20230614/a/artd-colombian-cities/0.0.15-0.0.16/diff.md --exclude *.pyd
+[2023-06-14 01:27:50] INFO root fetch - processPackages [navi-pro]: Downloading https://files.pythonhosted.org/packages/22/03/8668c4d06fb58aa7c1db0cd41a69526521462525427e2bfedf5fad67c5c6/navi%20pro-7.1.9.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [netcheck]: Downloading https://files.pythonhosted.org/packages/0e/53/abb10ec78752f4327d8194519d97347033786dce35867366cf41817fb908/netcheck-0.4.2.tar.gz
+[2023-06-14 01:27:50] INFO root fetch - processPackages [navi-pro]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [navi-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navi pro-7.1.8.tar.gz tmp/navi pro-7.1.9.tar.gz --markdown 20230614/n/navi-pro/7.1.8-7.1.9/diff.md --exclude *.pyd
+[2023-06-14 01:27:50] INFO root fetch - processPackages [netcheck]: executing diffoscope
+[2023-06-14 01:27:50] INFO root fetch - processPackages [netcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netcheck-0.4.1.tar.gz tmp/netcheck-0.4.2.tar.gz --markdown 20230614/n/netcheck/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-14 01:27:51] INFO root fetch - processPackages [acapela-downloader-py]: Remove: archive file [/home/abi/fetcher/tmp/acapela_downloader_py-0.1.6.tar.gz]
+[2023-06-14 01:27:51] INFO root fetch - processPackages [acapela-downloader-py]: Remove: archive file [/home/abi/fetcher/tmp/acapela_downloader_py-0.1.7.tar.gz]
+[2023-06-14 01:27:51] INFO root fetch - main [MainThread]: End processing [acapela-downloader-py]: success
+[2023-06-14 01:27:51] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.4.tar.gz]
+[2023-06-14 01:27:51] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.5.tar.gz]
+[2023-06-14 01:27:51] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-14 01:27:51] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.15.tar.gz]
+[2023-06-14 01:27:51] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.16.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - main [MainThread]: End processing [artd-colombian-cities]: success
+[2023-06-14 01:27:52] INFO root fetch - processPackages [netcheck]: Remove: archive file [/home/abi/fetcher/tmp/netcheck-0.4.1.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - processPackages [netcheck]: Remove: archive file [/home/abi/fetcher/tmp/netcheck-0.4.2.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - main [MainThread]: End processing [netcheck]: success
+[2023-06-14 01:27:52] INFO root fetch - processPackages [navi-pro]: Remove: archive file [/home/abi/fetcher/tmp/navi pro-7.1.8.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - processPackages [navi-pro]: Remove: archive file [/home/abi/fetcher/tmp/navi pro-7.1.9.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - main [MainThread]: End processing [navi-pro]: success
+[2023-06-14 01:27:52] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.3.8.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - processPackages [secureli]: Remove: archive file [/home/abi/fetcher/tmp/secureli-0.3.9.tar.gz]
+[2023-06-14 01:27:52] INFO root fetch - main [MainThread]: End processing [secureli]: success
+[2023-06-14 01:27:53] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.8.tar.gz]
+[2023-06-14 01:27:53] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.9.tar.gz]
+[2023-06-14 01:27:53] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-06-14 01:27:53] INFO root fetch - main [MainThread]: Store serial: [18492267]
