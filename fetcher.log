@@ -621,3 +621,60 @@
 [2023-06-14 00:24:07] INFO root fetch - processPackages [hveto]: Remove: archive file [/home/abi/fetcher/tmp/hveto-2.1.0.tar.gz]
 [2023-06-14 00:24:07] INFO root fetch - main [MainThread]: End processing [hveto]: success
 [2023-06-14 00:24:07] INFO root fetch - main [MainThread]: Store serial: [18491898]
+[2023-06-14 00:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18491898]
+[2023-06-14 00:29:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-14 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: viam-sdk
+[2023-06-14 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aifunc
+[2023-06-14 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airunner
+[2023-06-14 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HandGestureRecSiliconM1
+[2023-06-14 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: expert-intelligence-toolbox
+[2023-06-14 00:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CalibrationCurve
+[2023-06-14 00:29:17] INFO root fetch - processPackages [aifunc]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-14 00:29:17] INFO root fetch - processPackages [HandGestureRecSiliconM1]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-14 00:29:17] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-14 00:29:18] INFO root fetch - processPackages [CalibrationCurve]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 00:29:18] INFO root fetch - processPackages [expert-intelligence-toolbox]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 00:29:18] INFO root fetch - processPackages [viam-sdk]: New version: [0.4.1rc1] Old Version: [0.4.0rc1]
+[2023-06-14 00:29:18] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/c5/46/df9be7e2e43d09e111d32f56ec92d3200705a00bf0970ef1b307efe53ba6/aifunc-0.3.4.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/d3/ef/127205f6ebc414085e3a6d87d4990fd45e1e5c12bf4978011903698e2f87/CalibrationCurve-0.0.3.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [viam-sdk]: Downloading https://files.pythonhosted.org/packages/6f/e7/9ab3054683c751607124f734358c2673ae42d63e2b03e0e06ad7b1f6485a/viam_sdk-0.4.0rc1-py3-none-manylinux2014_x86_64.whl
+[2023-06-14 00:29:18] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Downloading https://files.pythonhosted.org/packages/e5/36/f8dd8ea7bddbaf903561c897b3ce08b49aaa2b6cc05a8db3b626cc68b421/HandGestureRecSiliconM1-0.1.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/72/59/4c77cdfd28b3fe45cd29459b10769ca30fd142f20882ba17435af1cc0114/expert_intelligence_toolbox-0.0.3.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/98/fe/3f707632bdd2eeb599bfc4158f330f52ae9abb323ccee683ac9515e76729/aifunc-0.3.5.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/fd/2c/48652e3090eab1c1f5ae005d717fb025439b7e550bc352b2270977b2dacd/CalibrationCurve-0.0.4.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Downloading https://files.pythonhosted.org/packages/53/e3/1c7e45f2aa224904d636f9c8415cb8653879f0b100e3bc73b6a9c4ed569e/HandGestureRecSiliconM1-0.1.2.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-14 00:29:18] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230614/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-14 00:29:18] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-14 00:29:18] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.3.4.tar.gz tmp/aifunc-0.3.5.tar.gz --markdown 20230614/a/aifunc/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-14 00:29:18] INFO root fetch - processPackages [expert-intelligence-toolbox]: Downloading https://files.pythonhosted.org/packages/d0/24/575268de35ef681f5c14ff5b47237310a235fe0a8186f27ce1752a9f8352/expert_intelligence_toolbox-0.0.4.tar.gz
+[2023-06-14 00:29:18] INFO root fetch - processPackages [CalibrationCurve]: executing diffoscope
+[2023-06-14 00:29:18] INFO root fetch - processPackages [CalibrationCurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalibrationCurve-0.0.3.tar.gz tmp/CalibrationCurve-0.0.4.tar.gz --markdown 20230614/C/CalibrationCurve/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 00:29:18] INFO root fetch - processPackages [HandGestureRecSiliconM1]: executing diffoscope
+[2023-06-14 00:29:18] INFO root fetch - processPackages [HandGestureRecSiliconM1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandGestureRecSiliconM1-0.1.tar.gz tmp/HandGestureRecSiliconM1-0.1.2.tar.gz --markdown 20230614/H/HandGestureRecSiliconM1/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 00:29:18] INFO root fetch - processPackages [expert-intelligence-toolbox]: executing diffoscope
+[2023-06-14 00:29:18] INFO root fetch - processPackages [expert-intelligence-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expert_intelligence_toolbox-0.0.3.tar.gz tmp/expert_intelligence_toolbox-0.0.4.tar.gz --markdown 20230614/e/expert-intelligence-toolbox/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 00:29:19] INFO root fetch - processPackages [viam-sdk]: Downloading https://files.pythonhosted.org/packages/db/92/008e4da425794d7b723694f4df388d518f213c7a2583ee4b12530aaf538a/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl
+[2023-06-14 00:29:19] INFO root fetch - processPackages [viam-sdk]: executing diffoscope
+[2023-06-14 00:29:19] INFO root fetch - processPackages [viam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viam_sdk-0.4.0rc1-py3-none-manylinux2014_x86_64.whl.zip tmp/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230614/v/viam-sdk/0.4.0rc1-0.4.1rc1/diff.md --exclude *.pyd
+[2023-06-14 00:29:19] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.3.4.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.3.5.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-14 00:29:19] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-14 00:29:19] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.3.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.4.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - main [MainThread]: End processing [CalibrationCurve]: success
+[2023-06-14 00:29:19] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRecSiliconM1-0.1.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRecSiliconM1-0.1.2.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - main [MainThread]: End processing [HandGestureRecSiliconM1]: success
+[2023-06-14 00:29:19] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.3.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - processPackages [expert-intelligence-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/expert_intelligence_toolbox-0.0.4.tar.gz]
+[2023-06-14 00:29:19] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox]: success
+[2023-06-14 00:29:24] INFO root fetch - processPackages [viam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/viam_sdk-0.4.0rc1-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:29:24] INFO root fetch - processPackages [viam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:29:24] INFO root fetch - main [MainThread]: End processing [viam-sdk]: success
+[2023-06-14 00:29:24] INFO root fetch - main [MainThread]: Store serial: [18491920]
