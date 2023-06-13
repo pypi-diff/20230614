@@ -1351,3 +1351,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:10:36] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132306-py3-none-any.whl.zip]
 [2023-06-14 01:10:36] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-14 01:10:36] INFO root fetch - main [MainThread]: Store serial: [18492160]
+[2023-06-14 01:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492160]
+[2023-06-14 01:15:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: memento-scorecard
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pickley
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pre-commit
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Get-API-Blaze
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorboard-data-server
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iqplot
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-14 01:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysisu
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pre-commit]: New version: [3.3.3] Old Version: [3.3.2]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pickley]: New version: [3.5.4] Old Version: [3.5.3]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [memento-scorecard]: New version: [0.3.3] Old Version: [0.2.7]
+[2023-06-14 01:15:45] WARNING root fetch - processPackages [Get-API-Blaze]: Skipping, unable to determine old version
+[2023-06-14 01:15:45] INFO root fetch - main [MainThread]: End processing [Get-API-Blaze] error
+[2023-06-14 01:15:45] INFO root fetch - processPackages [tensorboard-data-server]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pysisu]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kfish]: New version: [99.0.202306132314] Old Version: [99.0.202306132309]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.359] Old Version: [0.3.358]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [iqplot]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kcli]: New version: [99.0.202306132311] Old Version: [99.0.202306132306]
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/47/a8/5415238ccd591a8b30629ecc2f7e332b272210b85ae40447eaff6ea7e347/kfish-99.0.202306132309-py3-none-any.whl
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f1/68/98c525d3147c9be980aa7c9706b1c003e5d7aefb9599af0aadc8a793f5d8/kcli-99.0.202306132306-py3-none-any.whl
+[2023-06-14 01:15:45] INFO root fetch - processPackages [iqplot]: Downloading https://files.pythonhosted.org/packages/69/df/b8fa02edad84b9008a598992e285f85a5f161dc36fcb63b1dea55f2d69af/iqplot-0.3.2.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pre-commit]: Downloading https://files.pythonhosted.org/packages/21/55/fccc69a49b66c54dcb9a7d8620131a2566db973837c6611b516a2d4e87d7/pre_commit-3.3.2.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [tensorboard-data-server]: Downloading https://files.pythonhosted.org/packages/c6/a1/a1bfd5afa8198fd5494db2e7658d69c0c91327b1f33f22550114210d022c/tensorboard_data_server-0.7.0-py3-none-manylinux2014_x86_64.whl
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/7d/d7/b890cf8d23787c1168aeeadb59e48d485ea68a774f78ce500d760d7d549a/pickley-3.5.3.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/a3/aa/6941210a5431cdf43cc7300757ac95b1b96c6a5bf5a2cf5088e50ca4f3b8/memento-scorecard-0.2.7.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a1/97/3e95677c75cf58ab7e48497800c206be6da79effad7503a8efac6efdf424/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c9/87/7ebf8e484dd92a42517b3fccd72ade5681ccf9d2e79511eb453c017e408e/kfish-99.0.202306132314-py3-none-any.whl
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pysisu]: Downloading https://files.pythonhosted.org/packages/e9/d0/bd9870511a6b2a5c443ef4ef526351741bbb81f8070af1b560b763756923/pysisu-0.4.8.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306132309-py3-none-any.whl.zip tmp/kfish-99.0.202306132314-py3-none-any.whl.zip --markdown 20230614/k/kfish/99.0.202306132309-99.0.202306132314/diff.md --exclude *.pyd
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8a/46/d17c13a49ed27facada3cede7addda984cbdba37f0527087cc159dd3e1c8/kcli-99.0.202306132311-py3-none-any.whl
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/c2/a4/945f045d2952aefdb3db06dd1bd3ec8ea49f03b3211b0b8f61ca416a7aa5/pickley-3.5.4.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/1a/3e/a22778f4f38ec2d3a826b0786c076446b3786a8dcf743d22f85477280aa1/memento-scorecard-0.3.3.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pre-commit]: Downloading https://files.pythonhosted.org/packages/35/0e/564c71fe3cdf59a4acaaccaea354d066e5d9044eba564dac070bb2075432/pre_commit-3.3.3.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/6d/ef/78853a03c5b54f6f77588ff67584348f4a803dd3e3e4ac908e1a510b73a5/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz
+[2023-06-14 01:15:45] INFO root fetch - processPackages [tensorboard-data-server]: Downloading https://files.pythonhosted.org/packages/02/52/fb9e51fba47951aabd7a6b25e41d73eae94208ccf62d886168096941a781/tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.5.3.tar.gz tmp/pickley-3.5.4.tar.gz --markdown 20230614/p/pickley/3.5.3-3.5.4/diff.md --exclude *.pyd
+[2023-06-14 01:15:45] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306132306-py3-none-any.whl.zip tmp/kcli-99.0.202306132311-py3-none-any.whl.zip --markdown 20230614/k/kcli/99.0.202306132306-99.0.202306132311/diff.md --exclude *.pyd
+[2023-06-14 01:15:45] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2023-06-14 01:15:45] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-0.2.7.tar.gz tmp/memento-scorecard-0.3.3.tar.gz --markdown 20230614/m/memento-scorecard/0.2.7-0.3.3/diff.md --exclude *.pyd
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz --markdown 20230614/p/pepperize.cdk-ses-smtp-credentials/0.3.358-0.3.359/diff.md --exclude *.pyd
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pre-commit]: executing diffoscope
+[2023-06-14 01:15:45] INFO root fetch - processPackages [pre-commit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit-3.3.2.tar.gz tmp/pre_commit-3.3.3.tar.gz --markdown 20230614/p/pre-commit/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2023-06-14 01:15:46] INFO root fetch - processPackages [pysisu]: Downloading https://files.pythonhosted.org/packages/e8/49/103e67d62cc5ae2a310e3f9762e3be83dfd9d54004711517609d2f3a5282/pysisu-0.4.9.tar.gz
+[2023-06-14 01:15:46] INFO root fetch - processPackages [tensorboard-data-server]: executing diffoscope
+[2023-06-14 01:15:46] INFO root fetch - processPackages [tensorboard-data-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorboard_data_server-0.7.0-py3-none-manylinux2014_x86_64.whl.zip tmp/tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230614/t/tensorboard-data-server/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-14 01:15:46] INFO root fetch - processPackages [iqplot]: Downloading https://files.pythonhosted.org/packages/e9/89/55cf7d5ad0d1b036af8690a0170b84f9532c4d63b059a6ad21289b33f64a/iqplot-0.3.3.tar.gz
+[2023-06-14 01:15:46] INFO root fetch - processPackages [pysisu]: executing diffoscope
+[2023-06-14 01:15:46] INFO root fetch - processPackages [pysisu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysisu-0.4.8.tar.gz tmp/pysisu-0.4.9.tar.gz --markdown 20230614/p/pysisu/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-14 01:15:46] INFO root fetch - processPackages [iqplot]: executing diffoscope
+[2023-06-14 01:15:46] INFO root fetch - processPackages [iqplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqplot-0.3.2.tar.gz tmp/iqplot-0.3.3.tar.gz --markdown 20230614/i/iqplot/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-14 01:15:47] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306132309-py3-none-any.whl.zip]
+[2023-06-14 01:15:47] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306132314-py3-none-any.whl.zip]
+[2023-06-14 01:15:47] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-14 01:15:47] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.2.7.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.3.3.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2023-06-14 01:15:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.358.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.359.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-14 01:15:47] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.3.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.4.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-06-14 01:15:47] INFO root fetch - processPackages [pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit-3.3.2.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - processPackages [pre-commit]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit-3.3.3.tar.gz]
+[2023-06-14 01:15:47] INFO root fetch - main [MainThread]: End processing [pre-commit]: success
+[2023-06-14 01:15:48] INFO root fetch - processPackages [pysisu]: Remove: archive file [/home/abi/fetcher/tmp/pysisu-0.4.8.tar.gz]
+[2023-06-14 01:15:48] INFO root fetch - processPackages [pysisu]: Remove: archive file [/home/abi/fetcher/tmp/pysisu-0.4.9.tar.gz]
+[2023-06-14 01:15:48] INFO root fetch - main [MainThread]: End processing [pysisu]: success
+[2023-06-14 01:15:51] INFO root fetch - processPackages [iqplot]: Remove: archive file [/home/abi/fetcher/tmp/iqplot-0.3.2.tar.gz]
+[2023-06-14 01:15:51] INFO root fetch - processPackages [iqplot]: Remove: archive file [/home/abi/fetcher/tmp/iqplot-0.3.3.tar.gz]
+[2023-06-14 01:15:51] INFO root fetch - main [MainThread]: End processing [iqplot]: success
+[2023-06-14 01:15:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132306-py3-none-any.whl.zip]
+[2023-06-14 01:15:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132311-py3-none-any.whl.zip]
+[2023-06-14 01:15:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-14 01:17:14] INFO root fetch - processPackages [tensorboard-data-server]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard_data_server-0.7.0-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-06-14 01:17:14] INFO root fetch - processPackages [tensorboard-data-server]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-06-14 01:17:15] INFO root fetch - main [MainThread]: End processing [tensorboard-data-server]: success
+[2023-06-14 01:17:15] INFO root fetch - main [MainThread]: Store serial: [18492190]
