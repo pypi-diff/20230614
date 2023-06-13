@@ -678,3 +678,99 @@
 [2023-06-14 00:29:24] INFO root fetch - processPackages [viam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl.zip]
 [2023-06-14 00:29:24] INFO root fetch - main [MainThread]: End processing [viam-sdk]: success
 [2023-06-14 00:29:24] INFO root fetch - main [MainThread]: Store serial: [18491920]
+[2023-06-14 00:34:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18491920]
+[2023-06-14 00:34:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySailingVLM
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazydev
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sops-secrets
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-hub
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: determined
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: femr
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jncep
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: femr-cuda
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: case-switcher
+[2023-06-14 00:34:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: femr-oldcpu
+[2023-06-14 00:34:34] INFO root fetch - processPackages [lazydev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [model-hub]: New version: [0.23.0rc4] Old Version: [0.23.0rc3]
+[2023-06-14 00:34:34] WARNING root fetch - processPackages [pySailingVLM]: Skipping, unable to determine old version
+[2023-06-14 00:34:34] INFO root fetch - processPackages [pySailingVLM]: Start processing: CalibrationCurve
+[2023-06-14 00:34:34] INFO root fetch - processPackages [case-switcher]: New version: [1.3.4] Old Version: [1.3.13]
+[2023-06-14 00:34:34] INFO root fetch - main [MainThread]: End processing [pySailingVLM] error
+[2023-06-14 00:34:34] INFO root fetch - processPackages [femr]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [femr-cuda]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [jncep]: New version: [45] Old Version: [44]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [determined]: New version: [0.23.0rc4] Old Version: [0.23.0rc3]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [CalibrationCurve]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/c7/fe/0b2c9ff1e2a8ba8d30e01db6288feaef90f69d8d5b7b735f118cd6e23461/lazydev-0.0.8.tar.gz
+[2023-06-14 00:34:34] INFO root fetch - processPackages [femr-oldcpu]: New version: [0.1.8] Old Version: [0.0.20]
+[2023-06-14 00:34:34] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-14 00:34:34] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/d3/ef/127205f6ebc414085e3a6d87d4990fd45e1e5c12bf4978011903698e2f87/CalibrationCurve-0.0.3.tar.gz
+[2023-06-14 00:34:34] INFO root fetch - processPackages [jncep]: Downloading https://files.pythonhosted.org/packages/a6/76/c5b1bee88dde49f9a806d7861385801d998443a9f723739653f672bd0019/jncep-44.tar.gz
+[2023-06-14 00:34:34] INFO root fetch - processPackages [case-switcher]: Downloading https://files.pythonhosted.org/packages/98/eb/e14630681b062aa9a50f3f2f7b8d454cddbae22c7e97110368ecc96aa835/case-switcher-1.3.13.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/47/4a/751ab6007fcde8c31d161812ff5403ac7485b4a43eee595fb398da2d0ca2/femr_cuda-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/dd/64/07c74e7de6ef14191544b44041f2cad46f9fca954b765b21a58382bad514/model_hub-0.23.0rc3-py3-none-any.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/05/12/81ae4a5b1dd3aad27a74fbb4da2f103977ed5e3b3b81cc929410554cde17/femr-0.1.7.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/cd/e2/a5c9912686491f72d9552443e2922afdc65615d76e7285f73fcc1717f242/determined-0.23.0rc3-py3-none-any.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-oldcpu]: Downloading https://files.pythonhosted.org/packages/6c/c8/16132033ca68b065b6e0d0e1bc7236da86e6934a7be2bcb4f14d6359896b/femr_oldcpu-0.0.20-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/fd/2c/48652e3090eab1c1f5ae005d717fb025439b7e550bc352b2270977b2dacd/CalibrationCurve-0.0.4.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [lazydev]: Downloading https://files.pythonhosted.org/packages/1b/c8/cb7c86b82aefe5da7e61cd55b45e6d146a4929d0a564821e19d9c33e3f32/lazydev-0.0.9.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [CalibrationCurve]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [CalibrationCurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalibrationCurve-0.0.3.tar.gz tmp/CalibrationCurve-0.0.4.tar.gz --markdown 20230614/C/CalibrationCurve/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [case-switcher]: Downloading https://files.pythonhosted.org/packages/74/11/0a3126ed64df66f0911775279520097e4c5cddfc4c337592dc91e06ba1d4/case-switcher-1.3.4.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [jncep]: Downloading https://files.pythonhosted.org/packages/e7/2b/65546570a6a2f2e7e936e89e71ad6cb5225171e811080c578778f7258673/jncep-45.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [lazydev]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [lazydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazydev-0.0.8.tar.gz tmp/lazydev-0.0.9.tar.gz --markdown 20230614/l/lazydev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [case-switcher]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [case-switcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/case-switcher-1.3.13.tar.gz tmp/case-switcher-1.3.4.tar.gz --markdown 20230614/c/case-switcher/1.3.13-1.3.4/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [jncep]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [jncep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jncep-44.tar.gz tmp/jncep-45.tar.gz --markdown 20230614/j/jncep/44-45/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/34/47/2ef00c34cdb04ad44549c25e2fa5898cf26da331e89753edd9f150ee01e4/model_hub-0.23.0rc4-py3-none-any.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/05/23/70bfd6795307c6f2ab90710227256dd47d43ea6c23a6e0f1737cf0788427/determined-0.23.0rc4-py3-none-any.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230614/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip tmp/model_hub-0.23.0rc4-py3-none-any.whl.zip --markdown 20230614/m/model-hub/0.23.0rc3-0.23.0rc4/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr]: Downloading https://files.pythonhosted.org/packages/ff/bf/0e8a5ba345650ad69da87255688668f9c2318f9cb544d8278dd2a37fcffb/femr-0.1.8.tar.gz
+[2023-06-14 00:34:35] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.0rc3-py3-none-any.whl.zip tmp/determined-0.23.0rc4-py3-none-any.whl.zip --markdown 20230614/d/determined/0.23.0rc3-0.23.0rc4/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-cuda]: Downloading https://files.pythonhosted.org/packages/67/7f/df7956701c7ea7a0fbaa637d2d8a9b688fbd5b01b2646fa917c7a6a5675b/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr-0.1.7.tar.gz tmp/femr-0.1.8.tar.gz --markdown 20230614/f/femr/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-cuda]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr_cuda-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230614/f/femr-cuda/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-oldcpu]: Downloading https://files.pythonhosted.org/packages/cb/f3/e541dc14821d86ba255ff4b11d13f991266c95f4efcdad29c10546926229/femr_oldcpu-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-oldcpu]: executing diffoscope
+[2023-06-14 00:34:35] INFO root fetch - processPackages [femr-oldcpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femr_oldcpu-0.0.20-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/femr_oldcpu-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230614/f/femr-oldcpu/0.0.20-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 00:34:36] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.3.tar.gz]
+[2023-06-14 00:34:36] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.4.tar.gz]
+[2023-06-14 00:34:36] INFO root fetch - main [MainThread]: End processing [CalibrationCurve]: success
+[2023-06-14 00:34:36] INFO root fetch - processPackages [case-switcher]: Remove: archive file [/home/abi/fetcher/tmp/case-switcher-1.3.13.tar.gz]
+[2023-06-14 00:34:36] INFO root fetch - processPackages [case-switcher]: Remove: archive file [/home/abi/fetcher/tmp/case-switcher-1.3.4.tar.gz]
+[2023-06-14 00:34:36] INFO root fetch - main [MainThread]: End processing [case-switcher]: success
+[2023-06-14 00:34:37] INFO root fetch - processPackages [lazydev]: Remove: archive file [/home/abi/fetcher/tmp/lazydev-0.0.8.tar.gz]
+[2023-06-14 00:34:37] INFO root fetch - processPackages [lazydev]: Remove: archive file [/home/abi/fetcher/tmp/lazydev-0.0.9.tar.gz]
+[2023-06-14 00:34:37] INFO root fetch - main [MainThread]: End processing [lazydev]: success
+[2023-06-14 00:34:37] INFO root fetch - processPackages [jncep]: Remove: archive file [/home/abi/fetcher/tmp/jncep-44.tar.gz]
+[2023-06-14 00:34:37] INFO root fetch - processPackages [jncep]: Remove: archive file [/home/abi/fetcher/tmp/jncep-45.tar.gz]
+[2023-06-14 00:34:37] INFO root fetch - main [MainThread]: End processing [jncep]: success
+[2023-06-14 00:34:37] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip]
+[2023-06-14 00:34:37] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.0rc4-py3-none-any.whl.zip]
+[2023-06-14 00:34:37] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-14 00:34:38] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-14 00:34:38] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-14 00:34:38] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-14 00:34:38] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc3-py3-none-any.whl.zip]
+[2023-06-14 00:34:38] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc4-py3-none-any.whl.zip]
+[2023-06-14 00:34:38] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-14 00:34:39] INFO root fetch - processPackages [femr]: Remove: archive file [/home/abi/fetcher/tmp/femr-0.1.7.tar.gz]
+[2023-06-14 00:34:39] INFO root fetch - processPackages [femr]: Remove: archive file [/home/abi/fetcher/tmp/femr-0.1.8.tar.gz]
+[2023-06-14 00:34:39] INFO root fetch - main [MainThread]: End processing [femr]: success
+[2023-06-14 00:34:48] INFO root fetch - processPackages [femr-cuda]: Remove: archive file [/home/abi/fetcher/tmp/femr_cuda-0.1.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:34:48] INFO root fetch - processPackages [femr-cuda]: Remove: archive file [/home/abi/fetcher/tmp/femr_cuda-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:34:48] INFO root fetch - main [MainThread]: End processing [femr-cuda]: success
+[2023-06-14 00:34:48] INFO root fetch - processPackages [femr-oldcpu]: Remove: archive file [/home/abi/fetcher/tmp/femr_oldcpu-0.0.20-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:34:48] INFO root fetch - processPackages [femr-oldcpu]: Remove: archive file [/home/abi/fetcher/tmp/femr_oldcpu-0.1.8-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:34:48] INFO root fetch - main [MainThread]: End processing [femr-oldcpu]: success
+[2023-06-14 00:34:48] INFO root fetch - main [MainThread]: Store serial: [18491967]
