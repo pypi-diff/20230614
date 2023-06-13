@@ -510,3 +510,114 @@
 [2023-06-14 00:18:55] INFO root fetch - processPackages [sonusai]: Remove: archive file [/home/abi/fetcher/tmp/sonusai-0.9.1.tar.gz]
 [2023-06-14 00:18:55] INFO root fetch - main [MainThread]: End processing [sonusai]: success
 [2023-06-14 00:18:55] INFO root fetch - main [MainThread]: Store serial: [18491855]
+[2023-06-14 00:23:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18491855]
+[2023-06-14 00:24:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyTableParser
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zanj
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gamedetector
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyWebUIFramework
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataset-librarian
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodexa
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BlizzardWarcraftAPI
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intake-erddap
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polygon-sdk
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: artd-colombian-cities
+[2023-06-14 00:24:04] WARNING root fetch - processPackages [PyTableParser]: Skipping, unable to determine old version
+[2023-06-14 00:24:04] INFO root fetch - processPackages [PyTableParser]: Start processing: ra-libpythonpro
+[2023-06-14 00:24:04] INFO root fetch - main [MainThread]: End processing [PyTableParser] error
+[2023-06-14 00:24:04] INFO root fetch - processPackages [polygon-sdk]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [BlizzardWarcraftAPI]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [zanj]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [PyWebUIFramework]: New version: [2.6] Old Version: [2.5]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [gamedetector]: New version: [0.2.3] Old Version: [0.1.4]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [intake-erddap]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [dataset-librarian]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [artd-colombian-cities]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-06-14 00:24:04] WARNING root fetch - processPackages [ra-libpythonpro]: Skipping, unable to determine old version
+[2023-06-14 00:24:04] INFO root fetch - processPackages [ra-libpythonpro]: Start processing: pickley
+[2023-06-14 00:24:04] INFO root fetch - main [MainThread]: End processing [ra-libpythonpro] error
+[2023-06-14 00:24:04] INFO root fetch - processPackages [polygon-sdk]: Downloading https://files.pythonhosted.org/packages/f2/c3/4c9cc8b77a377998f906dd43f4ddb90b74a25e039bb7c8f22f89d058549c/polygon-sdk-1.0.3.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [pickley]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-06-14 00:24:04] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [dataset-librarian]: Downloading https://files.pythonhosted.org/packages/cf/37/8df12f15247c6d10cef4b40d03f944abd07651e288a5148d5041d9bf31a9/dataset_librarian-1.0.2.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/f5/7f/5ff538852389d2d41d0465baa2e06151cf06f4f808ba27482b16e36fca40/artd_colombian_cities-0.0.13-py3-none-any.whl
+[2023-06-14 00:24:04] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/f2/10/3c574813be4c6229c16a09a4e31c7329cbfefe8d28ae987202f7c642f85b/pickley-3.5.1.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/dd/ba/0bb82c57a4353d8edc1b3d6074daf093067ed74db1feaa4bb04a1bca83bd/zanj-0.1.1.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/d3/30/fe5c5bfe9ae4764411fbaf59c262989ba414d510cd72afcf2ce3d9ff70de/PyWebUIFramework-2.5.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/b3/76/d750f7097d9f83727bfd63a43d07c3720bf98d2cb166cdcb366d3fba6f8b/gamedetector-0.1.4.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Downloading https://files.pythonhosted.org/packages/71/b0/b67f7f96757a5df53f56bc50c9515eb04fe6a2f8b7ea593cb65239537bf9/BlizzardWarcraftAPI-0.0.1.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230614/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [intake-erddap]: Downloading https://files.pythonhosted.org/packages/1b/09/06841b2588585cf6ddbc9c65a16eaaf00c67057cb55ca71eb8782fe90f1f/intake-erddap-0.2.4.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/99/24/9746d579b40ee335fe3e89c5904e6d2cfce63dc0d0fff6ed71cc99b2e75f/pickley-3.5.2.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [polygon-sdk]: Downloading https://files.pythonhosted.org/packages/74/79/bd97331e1144c07d9a6c64998e20395a304742372d45282c6683b3876a18/polygon-sdk-1.0.5.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.5.1.tar.gz tmp/pickley-3.5.2.tar.gz --markdown 20230614/p/pickley/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [polygon-sdk]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [polygon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polygon-sdk-1.0.3.tar.gz tmp/polygon-sdk-1.0.5.tar.gz --markdown 20230614/p/polygon-sdk/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [dataset-librarian]: Downloading https://files.pythonhosted.org/packages/07/d8/c28f348077ddf39d8e1a47bb537db89ab91148c0482a6e6ddfac524d414e/dataset_librarian-1.0.3.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/76/81/348541b239f2a477d84b3896811989ef6df5f3a7b3cf93d6772d07e69cf3/artd_colombian_cities-0.0.14.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Downloading https://files.pythonhosted.org/packages/0c/7e/e9b3bf361c0b5db215b181da0ec7a187adaa6da73819c3b7ea38d732f6c1/BlizzardWarcraftAPI-0.1.0.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [dataset-librarian]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [dataset-librarian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset_librarian-1.0.2.tar.gz tmp/dataset_librarian-1.0.3.tar.gz --markdown 20230614/d/dataset-librarian/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [artd-colombian-cities]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [artd-colombian-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_colombian_cities-0.0.13-py3-none-any.whl.zip tmp/artd_colombian_cities-0.0.14.tar.gz --markdown 20230614/a/artd-colombian-cities/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [PyWebUIFramework]: Downloading https://files.pythonhosted.org/packages/c6/b8/ced6160a8979424a325b2f8fb87b22fa070e2a220cdb3636b98f1e2ef95b/PyWebUIFramework-2.6.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [BlizzardWarcraftAPI]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [BlizzardWarcraftAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlizzardWarcraftAPI-0.0.1.tar.gz tmp/BlizzardWarcraftAPI-0.1.0.tar.gz --markdown 20230614/B/BlizzardWarcraftAPI/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/7a/d9/1c80e3a25a845a3a73fe5e7566813b1c8f08eefd44e5f2ccd2bb77b51dd5/zanj-0.1.2.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [gamedetector]: Downloading https://files.pythonhosted.org/packages/8c/79/83b982454393858577c1d712d6d406523961954d49a14139e011b962c1d9/gamedetector-0.2.3.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [PyWebUIFramework]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [PyWebUIFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyWebUIFramework-2.5.tar.gz tmp/PyWebUIFramework-2.6.tar.gz --markdown 20230614/P/PyWebUIFramework/2.5-2.6/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [intake-erddap]: Downloading https://files.pythonhosted.org/packages/a6/9b/1aa12a473b2fa46a9341536158d634f13c41fc17e6f04cc4fe0deb4c88f7/intake-erddap-0.3.0.tar.gz
+[2023-06-14 00:24:04] INFO root fetch - processPackages [zanj]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [zanj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zanj-0.1.1.tar.gz tmp/zanj-0.1.2.tar.gz --markdown 20230614/z/zanj/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [gamedetector]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [gamedetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamedetector-0.1.4.tar.gz tmp/gamedetector-0.2.3.tar.gz --markdown 20230614/g/gamedetector/0.1.4-0.2.3/diff.md --exclude *.pyd
+[2023-06-14 00:24:04] INFO root fetch - processPackages [intake-erddap]: executing diffoscope
+[2023-06-14 00:24:04] INFO root fetch - processPackages [intake-erddap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake-erddap-0.2.4.tar.gz tmp/intake-erddap-0.3.0.tar.gz --markdown 20230614/i/intake-erddap/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-14 00:24:06] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.1.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.2.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [pickley]: Start processing: expert-intelligence-toolbox
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-06-14 00:24:06] WARNING root fetch - processPackages [expert-intelligence-toolbox]: Skipping, unable to determine old version
+[2023-06-14 00:24:06] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: hveto
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox] error
+[2023-06-14 00:24:06] INFO root fetch - processPackages [hveto]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.13-py3-none-any.whl.zip]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.14.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [artd-colombian-cities]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/BlizzardWarcraftAPI-0.0.1.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/BlizzardWarcraftAPI-0.1.0.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [BlizzardWarcraftAPI]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.1.4.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [gamedetector]: Remove: archive file [/home/abi/fetcher/tmp/gamedetector-0.2.3.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [gamedetector]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.1.1.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.1.2.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [zanj]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [hveto]: Downloading https://files.pythonhosted.org/packages/bb/84/0ac5d9448f1b31045e41adfddd849326344d517602123fde2e4b4ee1c3dd/hveto-2.0.1.tar.gz
+[2023-06-14 00:24:06] INFO root fetch - processPackages [intake-erddap]: Remove: archive file [/home/abi/fetcher/tmp/intake-erddap-0.2.4.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [intake-erddap]: Remove: archive file [/home/abi/fetcher/tmp/intake-erddap-0.3.0.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [intake-erddap]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [dataset-librarian]: Remove: archive file [/home/abi/fetcher/tmp/dataset_librarian-1.0.2.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [dataset-librarian]: Remove: archive file [/home/abi/fetcher/tmp/dataset_librarian-1.0.3.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [dataset-librarian]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [hveto]: Downloading https://files.pythonhosted.org/packages/da/a5/5b4ac8608731d46a0d81d34b8670dc53f1b7d9edd783ec4d4947e76f9623/hveto-2.1.0.tar.gz
+[2023-06-14 00:24:06] INFO root fetch - processPackages [PyWebUIFramework]: Remove: archive file [/home/abi/fetcher/tmp/PyWebUIFramework-2.5.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [PyWebUIFramework]: Remove: archive file [/home/abi/fetcher/tmp/PyWebUIFramework-2.6.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [PyWebUIFramework]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [polygon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polygon-sdk-1.0.3.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - processPackages [polygon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polygon-sdk-1.0.5.tar.gz]
+[2023-06-14 00:24:06] INFO root fetch - main [MainThread]: End processing [polygon-sdk]: success
+[2023-06-14 00:24:06] INFO root fetch - processPackages [hveto]: executing diffoscope
+[2023-06-14 00:24:06] INFO root fetch - processPackages [hveto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hveto-2.0.1.tar.gz tmp/hveto-2.1.0.tar.gz --markdown 20230614/h/hveto/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-14 00:24:07] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-06-14 00:24:07] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-06-14 00:24:07] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-14 00:24:07] INFO root fetch - processPackages [hveto]: Remove: archive file [/home/abi/fetcher/tmp/hveto-2.0.1.tar.gz]
+[2023-06-14 00:24:07] INFO root fetch - processPackages [hveto]: Remove: archive file [/home/abi/fetcher/tmp/hveto-2.1.0.tar.gz]
+[2023-06-14 00:24:07] INFO root fetch - main [MainThread]: End processing [hveto]: success
+[2023-06-14 00:24:07] INFO root fetch - main [MainThread]: Store serial: [18491898]
