@@ -1555,3 +1555,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:27:53] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-1.0.9.tar.gz]
 [2023-06-14 01:27:53] INFO root fetch - main [MainThread]: End processing [chiapos]: success
 [2023-06-14 01:27:53] INFO root fetch - main [MainThread]: Store serial: [18492267]
+[2023-06-14 01:32:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492267]
+[2023-06-14 01:33:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artd-colombian-cities
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: egcs
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Bubbelz
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: econbeautylib
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: askedith
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hexo-inpainting
+[2023-06-14 01:33:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cukcuk-sdk
+[2023-06-14 01:33:01] WARNING root fetch - processPackages [hexo-inpainting]: Skipping, unable to determine old version
+[2023-06-14 01:33:01] INFO root fetch - main [MainThread]: End processing [hexo-inpainting] error
+[2023-06-14 01:33:01] ERROR root fetch - processPackages [egcs]: Unable to get metadata: No such project 'egcs'
+[2023-06-14 01:33:01] INFO root fetch - main [MainThread]: End processing [egcs] error
+[2023-06-14 01:33:01] WARNING root fetch - processPackages [cukcuk-sdk]: Skipping, unable to determine old version
+[2023-06-14 01:33:01] WARNING root fetch - processPackages [Bubbelz]: Skipping, unable to determine old version
+[2023-06-14 01:33:01] INFO root fetch - main [MainThread]: End processing [cukcuk-sdk] error
+[2023-06-14 01:33:01] INFO root fetch - main [MainThread]: End processing [Bubbelz] error
+[2023-06-14 01:33:01] INFO root fetch - processPackages [artd-colombian-cities]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-06-14 01:33:01] INFO root fetch - processPackages [askedith]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-14 01:33:01] INFO root fetch - processPackages [econbeautylib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 01:33:01] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/98/1a/6419e8bdae1ba104942f3d46de7fb60299a2283bd9a02210fd974a36ce6e/artd_colombian_cities-0.0.16.tar.gz
+[2023-06-14 01:33:01] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/8b/9c/d857e04273c372f4bc184a0812fe15424d0c269deca5617a8486d4fd8e97/askedith-0.9.6-py3-none-any.whl
+[2023-06-14 01:33:01] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/44/fd/56507e2ff65f11789bc7cfe9a885939efebbf55010dd6237243498d3f933/econbeautylib-0.0.7.tar.gz
+[2023-06-14 01:33:01] INFO root fetch - processPackages [askedith]: Downloading https://files.pythonhosted.org/packages/56/82/c1a6938e9e7452568ffff201a420669db73f22068f98a93e809a76c1381e/askedith-0.9.7-py3-none-any.whl
+[2023-06-14 01:33:01] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/54/15225f72625b525b291c5e4e51abc0c163a329360ab295d18516083fa47e/econbeautylib-0.0.8.tar.gz
+[2023-06-14 01:33:01] INFO root fetch - processPackages [askedith]: executing diffoscope
+[2023-06-14 01:33:01] INFO root fetch - processPackages [askedith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askedith-0.9.6-py3-none-any.whl.zip tmp/askedith-0.9.7-py3-none-any.whl.zip --markdown 20230614/a/askedith/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-14 01:33:02] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/ee/fd/add50081d176307382bf038dd8601d37aabafdf7e3d2ff80c20e74627c99/artd_colombian_cities-0.0.17.tar.gz
+[2023-06-14 01:33:02] INFO root fetch - processPackages [econbeautylib]: executing diffoscope
+[2023-06-14 01:33:02] INFO root fetch - processPackages [econbeautylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econbeautylib-0.0.7.tar.gz tmp/econbeautylib-0.0.8.tar.gz --markdown 20230614/e/econbeautylib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 01:33:02] INFO root fetch - processPackages [artd-colombian-cities]: executing diffoscope
+[2023-06-14 01:33:02] INFO root fetch - processPackages [artd-colombian-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_colombian_cities-0.0.16.tar.gz tmp/artd_colombian_cities-0.0.17.tar.gz --markdown 20230614/a/artd-colombian-cities/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-06-14 01:33:03] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.6-py3-none-any.whl.zip]
+[2023-06-14 01:33:03] INFO root fetch - processPackages [askedith]: Remove: archive file [/home/abi/fetcher/tmp/askedith-0.9.7-py3-none-any.whl.zip]
+[2023-06-14 01:33:03] INFO root fetch - main [MainThread]: End processing [askedith]: success
+[2023-06-14 01:33:03] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.7.tar.gz]
+[2023-06-14 01:33:03] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.8.tar.gz]
+[2023-06-14 01:33:03] INFO root fetch - main [MainThread]: End processing [econbeautylib]: success
+[2023-06-14 01:33:03] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.16.tar.gz]
+[2023-06-14 01:33:03] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.17.tar.gz]
+[2023-06-14 01:33:03] INFO root fetch - main [MainThread]: End processing [artd-colombian-cities]: success
+[2023-06-14 01:33:03] INFO root fetch - main [MainThread]: Store serial: [18492292]
