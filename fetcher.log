@@ -112,3 +112,132 @@
 [2023-06-14 00:01:56] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2023-06-14 00:01:56] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-06-14 00:01:56] INFO root fetch - main [MainThread]: Store serial: [18491678]
+[2023-06-14 00:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18491678]
+[2023-06-14 00:07:05] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polygon-sdk
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meerk40t
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reactivated
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Mahdi
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpu-controller
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pickley
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: canaverall
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: foundation-cancer-image-biomarker
+[2023-06-14 00:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csdid
+[2023-06-14 00:07:05] INFO root fetch - processPackages [pickley]: New version: [3.5.1] Old Version: [3.4.5]
+[2023-06-14 00:07:05] INFO root fetch - processPackages [meerk40t]: New version: [0.8.5000] Old Version: [0.8.4000]
+[2023-06-14 00:07:05] WARNING root fetch - processPackages [gpu-controller]: Skipping, unable to determine old version
+[2023-06-14 00:07:05] INFO root fetch - processPackages [csdid]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-14 00:07:05] WARNING root fetch - processPackages [canaverall]: Skipping, unable to determine old version
+[2023-06-14 00:07:05] INFO root fetch - processPackages [gpu-controller]: Start processing: expert-intelligence-toolbox
+[2023-06-14 00:07:05] INFO root fetch - main [MainThread]: End processing [gpu-controller] error
+[2023-06-14 00:07:05] WARNING root fetch - processPackages [polygon-sdk]: Skipping, unable to determine old version
+[2023-06-14 00:07:05] INFO root fetch - processPackages [canaverall]: Start processing: kcli
+[2023-06-14 00:07:05] INFO root fetch - main [MainThread]: End processing [canaverall] error
+[2023-06-14 00:07:05] INFO root fetch - processPackages [polygon-sdk]: Start processing: flask-signing
+[2023-06-14 00:07:05] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-14 00:07:05] INFO root fetch - main [MainThread]: End processing [polygon-sdk] error
+[2023-06-14 00:07:05] WARNING root fetch - processPackages [expert-intelligence-toolbox]: Skipping, unable to determine old version
+[2023-06-14 00:07:05] INFO root fetch - processPackages [expert-intelligence-toolbox]: Start processing: FiberFusing
+[2023-06-14 00:07:05] INFO root fetch - main [MainThread]: End processing [expert-intelligence-toolbox] error
+[2023-06-14 00:07:05] INFO root fetch - processPackages [reactivated]: New version: [3.0.0a64] Old Version: [0.9.0]
+[2023-06-14 00:07:05] INFO root fetch - processPackages [coiled]: New version: [0.7.5.dev2] Old Version: [0.7.5.dev1]
+[2023-06-14 00:07:05] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/8c/9b/879ecec503ef473bc2eabc7538a0b74c80f2ae0941cccad8d633ce97ac70/csdid-0.1.3.tar.gz
+[2023-06-14 00:07:05] INFO root fetch - processPackages [flask-signing]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-14 00:07:05] INFO root fetch - processPackages [FiberFusing]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-14 00:07:05] INFO root fetch - processPackages [kcli]: New version: [99.0.202306132205] Old Version: [99.0.202306132120]
+[2023-06-14 00:07:05] WARNING root fetch - processPackages [Mahdi]: Skipping, unable to determine old version
+[2023-06-14 00:07:05] INFO root fetch - processPackages [Mahdi]: Start processing: croydon
+[2023-06-14 00:07:05] INFO root fetch - main [MainThread]: End processing [Mahdi] error
+[2023-06-14 00:07:05] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/5d/5e/05048c9da468777b2fdbfa372694b2961c28868721be2800264516ea4d3d/flask_signing-0.3.0.tar.gz
+[2023-06-14 00:07:05] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/1a/71/35446a123e19409f94888e6e11acb49110c8ff7c7a45a894cb072e06ec46/reactivated-0.9.0.tar.gz
+[2023-06-14 00:07:05] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/60/6d/76d0232ac83f8f948f5c1aefb020061b6b2ced4b2ca5e9fb56cb72fc9b9a/foundation_cancer_image_biomarker-0.0.1a8.tar.gz
+[2023-06-14 00:07:05] INFO root fetch - processPackages [croydon]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-14 00:07:05] INFO root fetch - processPackages [meerk40t]: Downloading https://files.pythonhosted.org/packages/3d/b5/e367934beb71a082d1dcce2fb3541f2db12cd9867227391cb90b29405221/meerk40t-0.8.4000.tar.gz
+[2023-06-14 00:07:05] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/8f/23/59276ea8901c9d7e6d675111626865c10bbda893cddb6cf2144637c0d607/croydon-0.9.0.tar.gz
+[2023-06-14 00:07:05] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/6d/a0/3b713f3ac4b773d8e03b002182b3e1200423284d4ee81e7cd5a1bd86a5e3/pickley-3.4.5.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/bf/9c/a15365575739cd5962d3b0b0cc43ad2dfac0c4d420a5f57e2fe677896a83/coiled-0.7.5.dev1.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/a8/92/24715f35af53f45dcaeea9169c15617771e0a99f9729e39ea23bdc058ec1/foundation_cancer_image_biomarker-0.0.1a9.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f5/1c/480b90fe60e654138612d7e91e98f88388911836974bff11efa76487bf46/kcli-99.0.202306132120-py3-none-any.whl
+[2023-06-14 00:07:06] INFO root fetch - processPackages [reactivated]: Downloading https://files.pythonhosted.org/packages/bc/d8/5e07e04244e84ca0f743649c1aa5514ec10843e552f82eb830dbb5e7cca7/reactivated-3.0.0a64.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [csdid]: Downloading https://files.pythonhosted.org/packages/a3/17/d5f2fcb42595b495c0851181ad522ce8f428fe16970205d219c27099f55e/csdid-0.1.4.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/c8/9e/4739b9238e83e0d188c997b1ac640814843ae22497a9e1ec6805dcf7385b/FiberFusing-0.4.2-py3-none-any.whl
+[2023-06-14 00:07:06] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/95/8a/72515bf86c067eda1d857c4bc654fd4dfced2c0b0504b37b76ad5c49ae02/flask_signing-0.3.1.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [croydon]: Downloading https://files.pythonhosted.org/packages/0f/a7/2941c78a03d5afe7b6cd8bb571d61a9caa4a3c07479b0bd17ea6c4f2aba6/croydon-0.9.1.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [reactivated]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [reactivated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactivated-0.9.0.tar.gz tmp/reactivated-3.0.0a64.tar.gz --markdown 20230614/r/reactivated/0.9.0-3.0.0a64/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [croydon]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [csdid]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [croydon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croydon-0.9.0.tar.gz tmp/croydon-0.9.1.tar.gz --markdown 20230614/c/croydon/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [csdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csdid-0.1.3.tar.gz tmp/csdid-0.1.4.tar.gz --markdown 20230614/c/csdid/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz --markdown 20230614/f/foundation-cancer-image-biomarker/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [flask-signing]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [flask-signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_signing-0.3.0.tar.gz tmp/flask_signing-0.3.1.tar.gz --markdown 20230614/f/flask-signing/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/f2/10/3c574813be4c6229c16a09a4e31c7329cbfefe8d28ae987202f7c642f85b/pickley-3.5.1.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [FiberFusing]: Downloading https://files.pythonhosted.org/packages/f1/f8/9e0b44582fc9eaa2892ee96c4cca5b101346b20876e9f34a5e317db2032e/FiberFusing-0.4.3-py3-none-any.whl
+[2023-06-14 00:07:06] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/ab/772e14557bf9307ad244fd6b6587841e39363f581e4413266ce2cc25f0ee/coiled-0.7.5.dev2.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [FiberFusing]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [FiberFusing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FiberFusing-0.4.2-py3-none-any.whl.zip tmp/FiberFusing-0.4.3-py3-none-any.whl.zip --markdown 20230614/F/FiberFusing/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [meerk40t]: Downloading https://files.pythonhosted.org/packages/70/75/f5cff1bb5ed54d41cf5a980a43925969095bb49149f4f41fcee9ec4ef3f1/meerk40t-0.8.5000.tar.gz
+[2023-06-14 00:07:06] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.4.5.tar.gz tmp/pickley-3.5.1.tar.gz --markdown 20230614/p/pickley/3.4.5-3.5.1/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.5.dev1.tar.gz tmp/coiled-0.7.5.dev2.tar.gz --markdown 20230614/c/coiled/0.7.5.dev1-0.7.5.dev2/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [meerk40t]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [meerk40t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerk40t-0.8.4000.tar.gz tmp/meerk40t-0.8.5000.tar.gz --markdown 20230614/m/meerk40t/0.8.4000-0.8.5000/diff.md --exclude *.pyd
+[2023-06-14 00:07:06] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/06/65/5404225f9f481d7c0a88ce166e88721085a2b1dfb1493dd5942215f7d37e/kcli-99.0.202306132205-py3-none-any.whl
+[2023-06-14 00:07:06] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-14 00:07:06] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306132120-py3-none-any.whl.zip tmp/kcli-99.0.202306132205-py3-none-any.whl.zip --markdown 20230614/k/kcli/99.0.202306132120-99.0.202306132205/diff.md --exclude *.pyd
+[2023-06-14 00:07:07] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.3.tar.gz]
+[2023-06-14 00:07:07] INFO root fetch - processPackages [csdid]: Remove: archive file [/home/abi/fetcher/tmp/csdid-0.1.4.tar.gz]
+[2023-06-14 00:07:07] INFO root fetch - processPackages [csdid]: Start processing: uintel
+[2023-06-14 00:07:07] INFO root fetch - main [MainThread]: End processing [csdid]: success
+[2023-06-14 00:07:07] INFO root fetch - processPackages [uintel]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-14 00:07:07] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.4.5.tar.gz]
+[2023-06-14 00:07:07] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.1.tar.gz]
+[2023-06-14 00:07:07] INFO root fetch - processPackages [pickley]: Start processing: ik-solvers
+[2023-06-14 00:07:07] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-06-14 00:07:08] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/97/1c/04423bced353fdeeaae2b2b1e2facb4e1c5b839dfed41a7f61969bd43a97/uintel-0.4.5.tar.gz
+[2023-06-14 00:07:08] INFO root fetch - processPackages [ik-solvers]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 00:07:08] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.2-py3-none-any.whl.zip]
+[2023-06-14 00:07:08] INFO root fetch - processPackages [FiberFusing]: Remove: archive file [/home/abi/fetcher/tmp/FiberFusing-0.4.3-py3-none-any.whl.zip]
+[2023-06-14 00:07:08] INFO root fetch - processPackages [FiberFusing]: Start processing: HandGestureRecSiliconM1
+[2023-06-14 00:07:08] INFO root fetch - main [MainThread]: End processing [FiberFusing]: success
+[2023-06-14 00:07:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev1.tar.gz]
+[2023-06-14 00:07:08] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev2.tar.gz]
+[2023-06-14 00:07:08] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-14 00:07:08] INFO root fetch - processPackages [ik-solvers]: Downloading https://files.pythonhosted.org/packages/0f/e6/a999f6b680fc71c1f10498dea4b6dea2cffcf31f9bf18cce3850d4855301/ik_solvers-1.0.1.tar.gz
+[2023-06-14 00:07:08] WARNING root fetch - processPackages [HandGestureRecSiliconM1]: Skipping, unable to determine old version
+[2023-06-14 00:07:08] INFO root fetch - main [MainThread]: End processing [HandGestureRecSiliconM1] error
+[2023-06-14 00:07:08] INFO root fetch - processPackages [uintel]: Downloading https://files.pythonhosted.org/packages/eb/ab/c825ed9ac2f564cdff89e476cbc26ca4932817c3bf5671465e2f7b116e85/uintel-0.4.6.tar.gz
+[2023-06-14 00:07:08] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz]
+[2023-06-14 00:07:08] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz]
+[2023-06-14 00:07:08] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-14 00:07:08] INFO root fetch - processPackages [ik-solvers]: Downloading https://files.pythonhosted.org/packages/ee/68/0806f61fc2b7ba27433074a85fd56d573fe83392f2dc2189a15dd678ee80/ik_solvers-1.0.2.tar.gz
+[2023-06-14 00:07:08] INFO root fetch - processPackages [uintel]: executing diffoscope
+[2023-06-14 00:07:08] INFO root fetch - processPackages [uintel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uintel-0.4.5.tar.gz tmp/uintel-0.4.6.tar.gz --markdown 20230614/u/uintel/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-14 00:07:08] INFO root fetch - processPackages [ik-solvers]: executing diffoscope
+[2023-06-14 00:07:08] INFO root fetch - processPackages [ik-solvers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ik_solvers-1.0.1.tar.gz tmp/ik_solvers-1.0.2.tar.gz --markdown 20230614/i/ik-solvers/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 00:07:09] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.3.0.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.3.1.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - main [MainThread]: End processing [flask-signing]: success
+[2023-06-14 00:07:09] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-0.9.0.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - processPackages [reactivated]: Remove: archive file [/home/abi/fetcher/tmp/reactivated-3.0.0a64.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - main [MainThread]: End processing [reactivated]: success
+[2023-06-14 00:07:09] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.0.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - processPackages [croydon]: Remove: archive file [/home/abi/fetcher/tmp/croydon-0.9.1.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - main [MainThread]: End processing [croydon]: success
+[2023-06-14 00:07:09] INFO root fetch - processPackages [uintel]: Remove: archive file [/home/abi/fetcher/tmp/uintel-0.4.5.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - processPackages [uintel]: Remove: archive file [/home/abi/fetcher/tmp/uintel-0.4.6.tar.gz]
+[2023-06-14 00:07:09] INFO root fetch - main [MainThread]: End processing [uintel]: success
+[2023-06-14 00:07:12] INFO root fetch - processPackages [ik-solvers]: Remove: archive file [/home/abi/fetcher/tmp/ik_solvers-1.0.1.tar.gz]
+[2023-06-14 00:07:12] INFO root fetch - processPackages [ik-solvers]: Remove: archive file [/home/abi/fetcher/tmp/ik_solvers-1.0.2.tar.gz]
+[2023-06-14 00:07:12] INFO root fetch - main [MainThread]: End processing [ik-solvers]: success
+[2023-06-14 00:07:14] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132120-py3-none-any.whl.zip]
+[2023-06-14 00:07:14] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306132205-py3-none-any.whl.zip]
+[2023-06-14 00:07:14] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-14 00:07:17] INFO root fetch - processPackages [meerk40t]: Remove: archive file [/home/abi/fetcher/tmp/meerk40t-0.8.4000.tar.gz]
+[2023-06-14 00:07:17] INFO root fetch - processPackages [meerk40t]: Remove: archive file [/home/abi/fetcher/tmp/meerk40t-0.8.5000.tar.gz]
+[2023-06-14 00:07:17] INFO root fetch - main [MainThread]: End processing [meerk40t]: success
+[2023-06-14 00:07:17] INFO root fetch - main [MainThread]: Store serial: [18491742]
