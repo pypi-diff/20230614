@@ -1438,3 +1438,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:17:14] INFO root fetch - processPackages [tensorboard-data-server]: Remove: archive file [/home/abi/fetcher/tmp/tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl.zip]
 [2023-06-14 01:17:15] INFO root fetch - main [MainThread]: End processing [tensorboard-data-server]: success
 [2023-06-14 01:17:15] INFO root fetch - main [MainThread]: Store serial: [18492190]
+[2023-06-14 01:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492190]
+[2023-06-14 01:22:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlt
+[2023-06-14 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Pytes304
+[2023-06-14 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monarch-py
+[2023-06-14 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflake-snowpark-python
+[2023-06-14 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-services
+[2023-06-14 01:22:36] INFO root fetch - processPackages [dlt]: New version: [0.3.1a0] Old Version: [0.3.0]
+[2023-06-14 01:22:36] WARNING root fetch - processPackages [Pytes304]: Skipping, unable to determine old version
+[2023-06-14 01:22:36] INFO root fetch - main [MainThread]: End processing [Pytes304] error
+[2023-06-14 01:22:36] INFO root fetch - processPackages [monarch-py]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-14 01:22:36] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/6d/48/f8584db7808c58dfe36efe458cdf928f83c7345eafb177d0517f07dac0c4/monarch_py-0.9.4.tar.gz
+[2023-06-14 01:22:36] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-06-14 01:22:36] INFO root fetch - processPackages [snowflake-snowpark-python]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-06-14 01:22:36] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/df/07/9e53a960c7a49a24f3516fc9160355baa09f6d772a4d08ef4a83187d5d64/dlt-0.3.0.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/e0/65/6e70f1e6e184735db86d5ba761e1692aa4a393c2ee068c952cbe6f56352c/snowflake-snowpark-python-1.4.0.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [monarch-py]: Downloading https://files.pythonhosted.org/packages/f2/a8/60e40f29cd6213ebb7999bf65fcc3c1afdcb0e84887f0d2d7736866e4844/monarch_py-0.9.5.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/a3/d4/1cc89ec416257fac50216368462791a0883deaccf61c9b8dccb5ea1d627d/dlt-0.3.1a0.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [monarch-py]: executing diffoscope
+[2023-06-14 01:22:37] INFO root fetch - processPackages [monarch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monarch_py-0.9.4.tar.gz tmp/monarch_py-0.9.5.tar.gz --markdown 20230614/m/monarch-py/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-14 01:22:37] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-14 01:22:37] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.3.0.tar.gz tmp/dlt-0.3.1a0.tar.gz --markdown 20230614/d/dlt/0.3.0-0.3.1a0/diff.md --exclude *.pyd
+[2023-06-14 01:22:37] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/64/8a/bbbaac334f8b280b7713fe67764a09f6f2a97ef3b387bcb84347a085ba3f/snowflake-snowpark-python-1.5.0.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-06-14 01:22:37] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-06-14 01:22:37] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230614/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-06-14 01:22:37] INFO root fetch - processPackages [snowflake-snowpark-python]: executing diffoscope
+[2023-06-14 01:22:37] INFO root fetch - processPackages [snowflake-snowpark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-snowpark-python-1.4.0.tar.gz tmp/snowflake-snowpark-python-1.5.0.tar.gz --markdown 20230614/s/snowflake-snowpark-python/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-06-14 01:22:38] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.4.tar.gz]
+[2023-06-14 01:22:38] INFO root fetch - processPackages [monarch-py]: Remove: archive file [/home/abi/fetcher/tmp/monarch_py-0.9.5.tar.gz]
+[2023-06-14 01:22:38] INFO root fetch - main [MainThread]: End processing [monarch-py]: success
+[2023-06-14 01:22:39] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.0.tar.gz]
+[2023-06-14 01:22:39] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.3.1a0.tar.gz]
+[2023-06-14 01:22:39] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-14 01:22:39] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.4.0.tar.gz]
+[2023-06-14 01:22:39] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.5.0.tar.gz]
+[2023-06-14 01:22:39] INFO root fetch - main [MainThread]: End processing [snowflake-snowpark-python]: success
+[2023-06-14 01:22:41] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc8.tar.gz]
+[2023-06-14 01:22:41] INFO root fetch - processPackages [ai-services]: Remove: archive file [/home/abi/fetcher/tmp/ai_services-0.5.0rc9.tar.gz]
+[2023-06-14 01:22:41] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-06-14 01:22:41] INFO root fetch - main [MainThread]: Store serial: [18492210]
