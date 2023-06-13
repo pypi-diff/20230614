@@ -1772,3 +1772,96 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:44:28] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2023-06-14 01:44:28] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-06-14 01:44:28] INFO root fetch - main [MainThread]: Store serial: [18492341]
+[2023-06-14 01:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492341]
+[2023-06-14 01:49:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-oasis4
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emmet-builders
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inventree-shopify
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiomqtt
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-plugin-manager
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: emmet-api
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pickley
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bsl-appcli
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Logic-Circuits-Evolution
+[2023-06-14 01:49:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-radar
+[2023-06-14 01:49:37] INFO root fetch - processPackages [aiomqtt]: New version: [0.17.0] Old Version: [0.1.3]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [inventree-shopify]: New version: [1.0.0] Old Version: [0.0.4a4]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [django-oasis4]: New version: [1.1.2b1] Old Version: [1.1.2a3]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [Logic-Circuits-Evolution]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [napari-plugin-manager]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [bsl-appcli]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [cloud-radar]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [pickley]: New version: [3.5.5] Old Version: [3.5.4]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-api]: New version: [0.56.1] Old Version: [0.56.0]
+[2023-06-14 01:49:37] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Downloading https://files.pythonhosted.org/packages/6a/aa/9bed7dbd42560b72cbc3b6d06cff86765df05a9640a8c73675000e056368/Logic%20Circuits%20Evolution-1.0.1.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/8f/70/c8c8af18c153d858a97f34683ca320916330ad70bda8319dd48af8fdb166/django-oasis4-1.1.2a3.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/c2/a4/945f045d2952aefdb3db06dd1bd3ec8ea49f03b3211b0b8f61ca416a7aa5/pickley-3.5.4.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/d9/65/04e7c61103edd73e2c374c33f288bc8c482d25d40f4e8d3781f1cd0ad187/emmet-api-0.56.0.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [aiomqtt]: Downloading https://files.pythonhosted.org/packages/c6/a7/af5d18fe8a6d3b92f9801867ec41b2bbaf89d7d70ddd62af44d7ebb7d107/aiomqtt-0.1.3.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [inventree-shopify]: Downloading https://files.pythonhosted.org/packages/95/d8/a186a6e79821b423a81a9859810f4e97905e4652477462575eea831776f6/inventree-shopify-0.0.4a4.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [napari-plugin-manager]: Downloading https://files.pythonhosted.org/packages/34/06/587f255193367e4125b5173c16f5c7c98ef8aab3903631bc76f29876a6b9/napari-plugin-manager-0.1.0a1.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/de/51/c69c28ab34222c2f2784a22b74725ac6aa66acc2d71697da82f16597fcf7/bsl-appcli-2.0.0.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/2a/12/324cfae9e718da64d086aedf722a9d3ab66bb07e0db5f796a7e5ce0b94c6/django-oasis4-1.1.2b1.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/41/57/0ffdb37a00f1ded72aa5d1bbf652b27517ed15937c51b76da6029d935078/pickley-3.5.5.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Downloading https://files.pythonhosted.org/packages/d4/86/08c32b39b08523e4127239de8563fa2f65ad7027c5664719093fc0aa0ed9/Logic%20Circuits%20Evolution-1.0.2.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/36/2d/d0ab2a20328fc3d9e49ebe2c7eccc1b2d40b7af87881c6a9ce086d207594/cloud_radar-0.7.1.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/36/e5/c005429f00a79a621c42f3fea048b3ef3f9fa9aeb32971abe6b0082e2333/emmet-api-0.56.1.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [Logic-Circuits-Evolution]: executing diffoscope
+[2023-06-14 01:49:37] INFO root fetch - processPackages [Logic-Circuits-Evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Logic Circuits Evolution-1.0.1.tar.gz tmp/Logic Circuits Evolution-1.0.2.tar.gz --markdown 20230614/L/Logic-Circuits-Evolution/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 01:49:37] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-06-14 01:49:37] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.5.4.tar.gz tmp/pickley-3.5.5.tar.gz --markdown 20230614/p/pickley/3.5.4-3.5.5/diff.md --exclude *.pyd
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.56.0.tar.gz tmp/emmet-api-0.56.1.tar.gz --markdown 20230614/e/emmet-api/0.56.0-0.56.1/diff.md --exclude *.pyd
+[2023-06-14 01:49:37] INFO root fetch - processPackages [django-oasis4]: executing diffoscope
+[2023-06-14 01:49:37] INFO root fetch - processPackages [django-oasis4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-1.1.2a3.tar.gz tmp/django-oasis4-1.1.2b1.tar.gz --markdown 20230614/d/django-oasis4/1.1.2a3-1.1.2b1/diff.md --exclude *.pyd
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-06-14 01:49:37] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230614/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-14 01:49:37] INFO root fetch - processPackages [aiomqtt]: Downloading https://files.pythonhosted.org/packages/e3/27/9b4449eb31a21794b6aa1fc5e4943dab56df4a3221c0fb0c5090dac74050/aiomqtt-0.17.0.tar.gz
+[2023-06-14 01:49:37] INFO root fetch - processPackages [inventree-shopify]: Downloading https://files.pythonhosted.org/packages/50/b3/486b505d81b655e19486c9f5d3e4e5a7bf207acea743f3a44799116c92f9/inventree-shopify-1.0.0.tar.gz
+[2023-06-14 01:49:38] INFO root fetch - processPackages [aiomqtt]: executing diffoscope
+[2023-06-14 01:49:38] INFO root fetch - processPackages [aiomqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomqtt-0.1.3.tar.gz tmp/aiomqtt-0.17.0.tar.gz --markdown 20230614/a/aiomqtt/0.1.3-0.17.0/diff.md --exclude *.pyd
+[2023-06-14 01:49:38] INFO root fetch - processPackages [napari-plugin-manager]: Downloading https://files.pythonhosted.org/packages/28/d0/07d243176a9abcdc21b61f07bc64970100da1dc546b7a880b66c9540d63c/napari-plugin-manager-0.1.0a2.tar.gz
+[2023-06-14 01:49:38] INFO root fetch - processPackages [inventree-shopify]: executing diffoscope
+[2023-06-14 01:49:38] INFO root fetch - processPackages [inventree-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventree-shopify-0.0.4a4.tar.gz tmp/inventree-shopify-1.0.0.tar.gz --markdown 20230614/i/inventree-shopify/0.0.4a4-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 01:49:38] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/37/99/154e84a0344211dee027cff5e25b952950ec4b4bc2c1f98b8bdd19be6217/cloud_radar-0.7.2.tar.gz
+[2023-06-14 01:49:38] INFO root fetch - processPackages [bsl-appcli]: Downloading https://files.pythonhosted.org/packages/62/1e/c7f703638ba3f991817f22b4e029e85d235c06af91361e571235f406a65f/bsl-appcli-2.1.0.tar.gz
+[2023-06-14 01:49:38] INFO root fetch - processPackages [bsl-appcli]: executing diffoscope
+[2023-06-14 01:49:38] INFO root fetch - processPackages [bsl-appcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bsl-appcli-2.0.0.tar.gz tmp/bsl-appcli-2.1.0.tar.gz --markdown 20230614/b/bsl-appcli/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-14 01:49:38] INFO root fetch - processPackages [napari-plugin-manager]: executing diffoscope
+[2023-06-14 01:49:38] INFO root fetch - processPackages [napari-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-plugin-manager-0.1.0a1.tar.gz tmp/napari-plugin-manager-0.1.0a2.tar.gz --markdown 20230614/n/napari-plugin-manager/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-06-14 01:49:38] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-06-14 01:49:38] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.7.1.tar.gz tmp/cloud_radar-0.7.2.tar.gz --markdown 20230614/c/cloud-radar/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-14 01:49:39] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Remove: archive file [/home/abi/fetcher/tmp/Logic Circuits Evolution-1.0.1.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [Logic-Circuits-Evolution]: Remove: archive file [/home/abi/fetcher/tmp/Logic Circuits Evolution-1.0.2.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [Logic-Circuits-Evolution]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/aiomqtt-0.1.3.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/aiomqtt-0.17.0.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [aiomqtt]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [inventree-shopify]: Remove: archive file [/home/abi/fetcher/tmp/inventree-shopify-0.0.4a4.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [inventree-shopify]: Remove: archive file [/home/abi/fetcher/tmp/inventree-shopify-1.0.0.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [inventree-shopify]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [napari-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/napari-plugin-manager-0.1.0a1.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [napari-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/napari-plugin-manager-0.1.0a2.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [napari-plugin-manager]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.7.1.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.7.2.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.4.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.5.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [django-oasis4]: Remove: archive file [/home/abi/fetcher/tmp/django-oasis4-1.1.2a3.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [django-oasis4]: Remove: archive file [/home/abi/fetcher/tmp/django-oasis4-1.1.2b1.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
+[2023-06-14 01:49:39] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.0.0.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - processPackages [bsl-appcli]: Remove: archive file [/home/abi/fetcher/tmp/bsl-appcli-2.1.0.tar.gz]
+[2023-06-14 01:49:39] INFO root fetch - main [MainThread]: End processing [bsl-appcli]: success
+[2023-06-14 01:49:41] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.56.0.tar.gz]
+[2023-06-14 01:49:41] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.56.1.tar.gz]
+[2023-06-14 01:49:41] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-06-14 01:49:41] INFO root fetch - main [MainThread]: Store serial: [18492375]
