@@ -378,3 +378,135 @@
 [2023-06-14 00:13:32] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.1.5.3.tar.gz]
 [2023-06-14 00:13:32] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-06-14 00:13:32] INFO root fetch - main [MainThread]: Store serial: [18491800]
+[2023-06-14 00:18:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18491800]
+[2023-06-14 00:18:48] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mend-sca-cleanup-tool
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: earthmover
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redis-rate-limiters
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wrangles
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-hr-attendance-mitxelena
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: devilmanplayer
+[2023-06-14 00:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: konsepy
+[2023-06-14 00:18:48] INFO root fetch - processPackages [redis-rate-limiters]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-14 00:18:48] WARNING root fetch - processPackages [devilmanplayer]: Skipping, unable to determine old version
+[2023-06-14 00:18:48] INFO root fetch - processPackages [devilmanplayer]: Start processing: pickley
+[2023-06-14 00:18:48] INFO root fetch - main [MainThread]: End processing [devilmanplayer] error
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [mend-sca-cleanup-tool]: New version: [23.6.1.1] Old Version: [23.6.1]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [konsepy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [wrangles]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [earthmover]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [pickley]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-06-14 00:18:48] INFO root fetch - processPackages [konsepy]: Downloading https://files.pythonhosted.org/packages/3b/64/67504c7c8261848be942c39ffe3f24e74a5752f301ac0e40f23574415e07/konsepy-0.0.7.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/f2/10/3c574813be4c6229c16a09a4e31c7329cbfefe8d28ae987202f7c642f85b/pickley-3.5.1.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [redis-rate-limiters]: Downloading https://files.pythonhosted.org/packages/12/ba/71270d6cf01b81eaa0600aebe321eba4d437de015092515af6a2fdf7fef7/redis_rate_limiters-0.1.1.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/20/18/830739aeeaa2d95d595a9e28bf8b46b34fe0e63c3f253f3fc55953c289b4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/20/18/830739aeeaa2d95d595a9e28bf8b46b34fe0e63c3f253f3fc55953c289b4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [mend-sca-cleanup-tool]: Downloading https://files.pythonhosted.org/packages/4e/6e/f90b69a47f501aef97d3a9b92973024bcfef73d5befce067e4eb1458a3da/mend_sca_cleanup_tool-23.6.1-py3-none-any.whl
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/20/18/830739aeeaa2d95d595a9e28bf8b46b34fe0e63c3f253f3fc55953c289b4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/20/18/830739aeeaa2d95d595a9e28bf8b46b34fe0e63c3f253f3fc55953c289b4/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [earthmover]: Downloading https://files.pythonhosted.org/packages/48/c9/4679ef30eadf8c2bbdba449e5035cb324b44f753570a56826f8095fd7c1f/earthmover-0.1.4-py3-none-any.whl
+[2023-06-14 00:18:48] INFO root fetch - processPackages [wrangles]: Downloading https://files.pythonhosted.org/packages/bb/f4/88f17cd374dd8f834ac866002a8acc30821113621e9ed0bac9e336a0bfef/wrangles-1.3.0.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [konsepy]: Downloading https://files.pythonhosted.org/packages/65/0b/d988464944b8f32d3b78f606243c92bae69beb15147da42748e1e576a4de/konsepy-0.0.8.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [pickley]: Downloading https://files.pythonhosted.org/packages/99/24/9746d579b40ee335fe3e89c5904e6d2cfce63dc0d0fff6ed71cc99b2e75f/pickley-3.5.2.tar.gz
+[2023-06-14 00:18:48] INFO root fetch - processPackages [konsepy]: executing diffoscope
+[2023-06-14 00:18:48] INFO root fetch - processPackages [konsepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konsepy-0.0.7.tar.gz tmp/konsepy-0.0.8.tar.gz --markdown 20230614/k/konsepy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 00:18:48] INFO root fetch - processPackages [pickley]: executing diffoscope
+[2023-06-14 00:18:48] INFO root fetch - processPackages [pickley]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pickley-3.5.1.tar.gz tmp/pickley-3.5.2.tar.gz --markdown 20230614/p/pickley/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/0a/26/fbd6180c8e74817f61fc860221dd651cb9338bf8785ebb0fe8cf53b18464/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/0a/26/fbd6180c8e74817f61fc860221dd651cb9338bf8785ebb0fe8cf53b18464/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/0a/26/fbd6180c8e74817f61fc860221dd651cb9338bf8785ebb0fe8cf53b18464/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Downloading https://files.pythonhosted.org/packages/0a/26/fbd6180c8e74817f61fc860221dd651cb9338bf8785ebb0fe8cf53b18464/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz
+[2023-06-14 00:18:49] INFO root fetch - processPackages [redis-rate-limiters]: Downloading https://files.pythonhosted.org/packages/29/dd/4829650a27b5b433b760aac40dc9030b3c7b8ce6d727d8a65db41be772d9/redis_rate_limiters-0.2.0.tar.gz
+[2023-06-14 00:18:49] INFO root fetch - processPackages [mend-sca-cleanup-tool]: Downloading https://files.pythonhosted.org/packages/d8/a2/146ec8c34cc77fc338c1a89f7e1718c9f2a50c111ed4fb0e33e7cef5d98a/mend_sca_cleanup_tool-23.6.1.1-py3-none-any.whl
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz --markdown 20230614/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz --markdown 20230614/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz --markdown 20230614/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz --markdown 20230614/o/odoo14-addon-hr-attendance-mitxelena/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [redis-rate-limiters]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [earthmover]: Downloading https://files.pythonhosted.org/packages/66/7e/aed5635955604cad42ae29a66998ff9c6a36aee1d739c801b7327a037bbb/earthmover-0.1.5-py3-none-any.whl
+[2023-06-14 00:18:49] INFO root fetch - processPackages [redis-rate-limiters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_rate_limiters-0.1.1.tar.gz tmp/redis_rate_limiters-0.2.0.tar.gz --markdown 20230614/r/redis-rate-limiters/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [wrangles]: Downloading https://files.pythonhosted.org/packages/79/ad/014eee0b86ec678fb41c17e8621ea736d8ecad6a371ef80ee8547b225871/wrangles-1.3.1.tar.gz
+[2023-06-14 00:18:49] INFO root fetch - processPackages [mend-sca-cleanup-tool]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [mend-sca-cleanup-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mend_sca_cleanup_tool-23.6.1-py3-none-any.whl.zip tmp/mend_sca_cleanup_tool-23.6.1.1-py3-none-any.whl.zip --markdown 20230614/m/mend-sca-cleanup-tool/23.6.1-23.6.1.1/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [earthmover]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [earthmover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthmover-0.1.4-py3-none-any.whl.zip tmp/earthmover-0.1.5-py3-none-any.whl.zip --markdown 20230614/e/earthmover/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 00:18:49] INFO root fetch - processPackages [wrangles]: executing diffoscope
+[2023-06-14 00:18:49] INFO root fetch - processPackages [wrangles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrangles-1.3.0.tar.gz tmp/wrangles-1.3.1.tar.gz --markdown 20230614/w/wrangles/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-14 00:18:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.2.tar.gz]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-hr_attendance_mitxelena-14.0.1.0.3.tar.gz]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Start processing: polygon-sdk
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2023-06-14 00:18:50] WARNING root fetch - processPackages [polygon-sdk]: Skipping, unable to determine old version
+[2023-06-14 00:18:50] INFO root fetch - processPackages [polygon-sdk]: Start processing: bhv
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [polygon-sdk] error
+[2023-06-14 00:18:50] INFO root fetch - processPackages [bhv]: New version: [0.5.8] Old Version: [0.5.7rc0]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [mend-sca-cleanup-tool]: Remove: archive file [/home/abi/fetcher/tmp/mend_sca_cleanup_tool-23.6.1-py3-none-any.whl.zip]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [mend-sca-cleanup-tool]: Remove: archive file [/home/abi/fetcher/tmp/mend_sca_cleanup_tool-23.6.1.1-py3-none-any.whl.zip]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [mend-sca-cleanup-tool]: Start processing: sonusai
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [mend-sca-cleanup-tool]: success
+[2023-06-14 00:18:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Start processing: elegantmotd
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2023-06-14 00:18:50] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/c4/c2/f856bc9a39143020c54997819c8df6b4b949b46a4d821ec3e8fc7215b76f/bhv-0.5.7rc0.tar.gz
+[2023-06-14 00:18:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Start processing: kodexa
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2023-06-14 00:18:50] INFO root fetch - processPackages [elegantmotd]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [odoo14-addon-hr-attendance-mitxelena]: Start processing: artd-colombian-cities
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-mitxelena]: success
+[2023-06-14 00:18:50] INFO root fetch - processPackages [konsepy]: Remove: archive file [/home/abi/fetcher/tmp/konsepy-0.0.7.tar.gz]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [konsepy]: Remove: archive file [/home/abi/fetcher/tmp/konsepy-0.0.8.tar.gz]
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [konsepy]: success
+[2023-06-14 00:18:50] INFO root fetch - processPackages [sonusai]: New version: [0.9.1] Old Version: [0.8.8]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [kodexa]: New version: [6.2.3a5260876523] Old Version: [6.2.3a5260620995]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/ac/bb/fd4e06b29277f0e4f9b38d1bbebce8984a941ac89a740d377d5fe32a809c/bhv-0.5.8.tar.gz
+[2023-06-14 00:18:50] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/5d/4b/e7ced7ca14408b830a8328f39e2d8f45aaf6d9ecbf973158d33f0eb56629/kodexa-6.2.3a5260620995.tar.gz
+[2023-06-14 00:18:50] WARNING root fetch - processPackages [artd-colombian-cities]: Skipping, unable to determine old version
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [artd-colombian-cities] error
+[2023-06-14 00:18:50] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-14 00:18:50] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.5.7rc0.tar.gz tmp/bhv-0.5.8.tar.gz --markdown 20230614/b/bhv/0.5.7rc0-0.5.8/diff.md --exclude *.pyd
+[2023-06-14 00:18:50] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.1.tar.gz]
+[2023-06-14 00:18:50] INFO root fetch - processPackages [pickley]: Remove: archive file [/home/abi/fetcher/tmp/pickley-3.5.2.tar.gz]
+[2023-06-14 00:18:50] INFO root fetch - main [MainThread]: End processing [pickley]: success
+[2023-06-14 00:18:50] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/10/13/9a2d8e7b49dac23f22c9604e3b0d20a8cf42765c459b93bd77fa09241c5e/elegantmotd-0.2.5.tar.gz
+[2023-06-14 00:18:50] INFO root fetch - processPackages [sonusai]: Downloading https://files.pythonhosted.org/packages/01/bc/b29241da5226b7c86354b898c731df2e09fe1e9001c56b46ec07b45746a3/sonusai-0.8.8.tar.gz
+[2023-06-14 00:18:51] INFO root fetch - processPackages [redis-rate-limiters]: Remove: archive file [/home/abi/fetcher/tmp/redis_rate_limiters-0.1.1.tar.gz]
+[2023-06-14 00:18:51] INFO root fetch - processPackages [redis-rate-limiters]: Remove: archive file [/home/abi/fetcher/tmp/redis_rate_limiters-0.2.0.tar.gz]
+[2023-06-14 00:18:51] INFO root fetch - main [MainThread]: End processing [redis-rate-limiters]: success
+[2023-06-14 00:18:51] INFO root fetch - processPackages [wrangles]: Remove: archive file [/home/abi/fetcher/tmp/wrangles-1.3.0.tar.gz]
+[2023-06-14 00:18:51] INFO root fetch - processPackages [wrangles]: Remove: archive file [/home/abi/fetcher/tmp/wrangles-1.3.1.tar.gz]
+[2023-06-14 00:18:51] INFO root fetch - main [MainThread]: End processing [wrangles]: success
+[2023-06-14 00:18:51] INFO root fetch - processPackages [earthmover]: Remove: archive file [/home/abi/fetcher/tmp/earthmover-0.1.4-py3-none-any.whl.zip]
+[2023-06-14 00:18:51] INFO root fetch - processPackages [earthmover]: Remove: archive file [/home/abi/fetcher/tmp/earthmover-0.1.5-py3-none-any.whl.zip]
+[2023-06-14 00:18:51] INFO root fetch - main [MainThread]: End processing [earthmover]: success
+[2023-06-14 00:18:51] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/4a/66/617dd208a245435e376984f62632bbda4041e15ec88b301ccf1e07f3d6fd/kodexa-6.2.3a5260876523.tar.gz
+[2023-06-14 00:18:51] INFO root fetch - processPackages [elegantmotd]: Downloading https://files.pythonhosted.org/packages/ae/6c/c5c0b7a4a5e3b6133e0a4ac9b636411572e51a3af41822ff2a193d7dbc15/elegantmotd-0.3.0.tar.gz
+[2023-06-14 00:18:51] INFO root fetch - processPackages [elegantmotd]: executing diffoscope
+[2023-06-14 00:18:51] INFO root fetch - processPackages [elegantmotd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elegantmotd-0.2.5.tar.gz tmp/elegantmotd-0.3.0.tar.gz --markdown 20230614/e/elegantmotd/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-06-14 00:18:51] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-14 00:18:51] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.3a5260620995.tar.gz tmp/kodexa-6.2.3a5260876523.tar.gz --markdown 20230614/k/kodexa/6.2.3a5260620995-6.2.3a5260876523/diff.md --exclude *.pyd
+[2023-06-14 00:18:51] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.7rc0.tar.gz]
+[2023-06-14 00:18:51] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.8.tar.gz]
+[2023-06-14 00:18:51] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-14 00:18:52] INFO root fetch - processPackages [sonusai]: Downloading https://files.pythonhosted.org/packages/75/67/eded2dfbb1dfea6a6fb92384facdfdd02363e197dfc4320e2e761a2aa80f/sonusai-0.9.1.tar.gz
+[2023-06-14 00:18:52] INFO root fetch - processPackages [elegantmotd]: Remove: archive file [/home/abi/fetcher/tmp/elegantmotd-0.2.5.tar.gz]
+[2023-06-14 00:18:52] INFO root fetch - processPackages [elegantmotd]: Remove: archive file [/home/abi/fetcher/tmp/elegantmotd-0.3.0.tar.gz]
+[2023-06-14 00:18:52] INFO root fetch - main [MainThread]: End processing [elegantmotd]: success
+[2023-06-14 00:18:52] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260620995.tar.gz]
+[2023-06-14 00:18:52] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.3a5260876523.tar.gz]
+[2023-06-14 00:18:52] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-14 00:18:52] INFO root fetch - processPackages [sonusai]: executing diffoscope
+[2023-06-14 00:18:52] INFO root fetch - processPackages [sonusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonusai-0.8.8.tar.gz tmp/sonusai-0.9.1.tar.gz --markdown 20230614/s/sonusai/0.8.8-0.9.1/diff.md --exclude *.pyd
+[2023-06-14 00:18:55] INFO root fetch - processPackages [sonusai]: Remove: archive file [/home/abi/fetcher/tmp/sonusai-0.8.8.tar.gz]
+[2023-06-14 00:18:55] INFO root fetch - processPackages [sonusai]: Remove: archive file [/home/abi/fetcher/tmp/sonusai-0.9.1.tar.gz]
+[2023-06-14 00:18:55] INFO root fetch - main [MainThread]: End processing [sonusai]: success
+[2023-06-14 00:18:55] INFO root fetch - main [MainThread]: Store serial: [18491855]
