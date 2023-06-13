@@ -1597,3 +1597,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:33:03] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.17.tar.gz]
 [2023-06-14 01:33:03] INFO root fetch - main [MainThread]: End processing [artd-colombian-cities]: success
 [2023-06-14 01:33:03] INFO root fetch - main [MainThread]: Store serial: [18492292]
+[2023-06-14 01:38:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492292]
+[2023-06-14 01:38:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-oasis4
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangofoundry
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGeodesy
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satori-playbook-validator
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: econbeautylib
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemuc
+[2023-06-14 01:38:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faker-file
+[2023-06-14 01:38:14] INFO root fetch - processPackages [django-oasis4]: New version: [1.1.2a3] Old Version: [1.1.2a2]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [satori-playbook-validator]: New version: [2.1.0] Old Version: [2.0.2]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [djangofoundry]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [econbeautylib]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [PyGeodesy]: New version: [23.6.6] Old Version: [23.6.12]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/44/fd/56507e2ff65f11789bc7cfe9a885939efebbf55010dd6237243498d3f933/econbeautylib-0.0.7.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [pymemuc]: New version: [0.4.0] Old Version: [0.3.6]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-14 01:38:14] INFO root fetch - processPackages [djangofoundry]: Downloading https://files.pythonhosted.org/packages/4d/dc/1aa164a2f22a561413e04a2d4317e0cc06df44197f97580d1b76ace894ba/djangofoundry-0.0.2.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/e9/22/b3a1b2ffa89b348db3135f79811dfecb058e2951ff608065d2cf9be1c6f5/satori_playbook_validator-2.0.2.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/cc/5d/c1b9ebae7ddf7742f121d2e9256ee791323d525057d3c7c2cf7d8136d6ab/PyGeodesy-23.6.12.zip
+[2023-06-14 01:38:14] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/54/15225f72625b525b291c5e4e51abc0c163a329360ab295d18516083fa47e/econbeautylib-0.0.8.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/e7/79/cf37c304ee91c28224b5e370b4fb682a4cbb3ebafdab7965f514dfea1625/django-oasis4-1.1.2a2.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [econbeautylib]: executing diffoscope
+[2023-06-14 01:38:14] INFO root fetch - processPackages [econbeautylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econbeautylib-0.0.7.tar.gz tmp/econbeautylib-0.0.8.tar.gz --markdown 20230614/e/econbeautylib/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 01:38:14] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/e8/32/e0f5b8d29d76fb47e162a9dd816e3a05e77bfa9e7c33126e75bf05593c51/pymemuc-0.3.6.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/78/28/ba788800275fc7c5473d71e0e4797b5b4767e1cd9fd7727bd059b1feb308/satori_playbook_validator-2.1.0.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [djangofoundry]: Downloading https://files.pythonhosted.org/packages/ef/00/e975479600fb93828e716b91de47459e383e8918e43065d235ffb1624a92/djangofoundry-0.0.3.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [PyGeodesy]: Downloading https://files.pythonhosted.org/packages/64/04/54ef188436114182e198c634025dc5524663da6077094da0e0c891bb4f3f/PyGeodesy-23.6.6.zip
+[2023-06-14 01:38:14] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-06-14 01:38:14] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-2.0.2.tar.gz tmp/satori_playbook_validator-2.1.0.tar.gz --markdown 20230614/s/satori-playbook-validator/2.0.2-2.1.0/diff.md --exclude *.pyd
+[2023-06-14 01:38:14] INFO root fetch - processPackages [djangofoundry]: executing diffoscope
+[2023-06-14 01:38:14] INFO root fetch - processPackages [djangofoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangofoundry-0.0.2.tar.gz tmp/djangofoundry-0.0.3.tar.gz --markdown 20230614/d/djangofoundry/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 01:38:14] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/b1/e5/8b87428b16090d2c0beeb481dc928e41e314bb87bd096f22d34a8d790c99/pymemuc-0.4.0.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [django-oasis4]: Downloading https://files.pythonhosted.org/packages/8f/70/c8c8af18c153d858a97f34683ca320916330ad70bda8319dd48af8fdb166/django-oasis4-1.1.2a3.tar.gz
+[2023-06-14 01:38:14] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-06-14 01:38:15] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-06-14 01:38:15] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.3.6.tar.gz tmp/pymemuc-0.4.0.tar.gz --markdown 20230614/p/pymemuc/0.3.6-0.4.0/diff.md --exclude *.pyd
+[2023-06-14 01:38:15] INFO root fetch - processPackages [django-oasis4]: executing diffoscope
+[2023-06-14 01:38:15] INFO root fetch - processPackages [django-oasis4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oasis4-1.1.2a2.tar.gz tmp/django-oasis4-1.1.2a3.tar.gz --markdown 20230614/d/django-oasis4/1.1.2a2-1.1.2a3/diff.md --exclude *.pyd
+[2023-06-14 01:38:15] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-06-14 01:38:15] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230614/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-14 01:38:15] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.7.tar.gz]
+[2023-06-14 01:38:15] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.8.tar.gz]
+[2023-06-14 01:38:15] INFO root fetch - main [MainThread]: End processing [econbeautylib]: success
+[2023-06-14 01:38:15] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.0.2.tar.gz]
+[2023-06-14 01:38:15] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.1.0.tar.gz]
+[2023-06-14 01:38:15] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-06-14 01:38:16] INFO root fetch - processPackages [PyGeodesy]: executing diffoscope
+[2023-06-14 01:38:16] INFO root fetch - processPackages [PyGeodesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeodesy-23.6.12.zip tmp/PyGeodesy-23.6.6.zip --markdown 20230614/P/PyGeodesy/23.6.12-23.6.6/diff.md --exclude *.pyd
+[2023-06-14 01:38:16] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.3.6.tar.gz]
+[2023-06-14 01:38:16] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.0.tar.gz]
+[2023-06-14 01:38:16] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-06-14 01:38:16] INFO root fetch - processPackages [djangofoundry]: Remove: archive file [/home/abi/fetcher/tmp/djangofoundry-0.0.2.tar.gz]
+[2023-06-14 01:38:16] INFO root fetch - processPackages [djangofoundry]: Remove: archive file [/home/abi/fetcher/tmp/djangofoundry-0.0.3.tar.gz]
+[2023-06-14 01:38:16] INFO root fetch - main [MainThread]: End processing [djangofoundry]: success
+[2023-06-14 01:38:16] INFO root fetch - processPackages [django-oasis4]: Remove: archive file [/home/abi/fetcher/tmp/django-oasis4-1.1.2a2.tar.gz]
+[2023-06-14 01:38:16] INFO root fetch - processPackages [django-oasis4]: Remove: archive file [/home/abi/fetcher/tmp/django-oasis4-1.1.2a3.tar.gz]
+[2023-06-14 01:38:16] INFO root fetch - main [MainThread]: End processing [django-oasis4]: success
+[2023-06-14 01:38:17] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-06-14 01:38:17] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-06-14 01:38:17] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-06-14 01:39:12] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-23.6.12.zip]
+[2023-06-14 01:39:12] INFO root fetch - processPackages [PyGeodesy]: Remove: archive file [/home/abi/fetcher/tmp/PyGeodesy-23.6.6.zip]
+[2023-06-14 01:39:12] INFO root fetch - main [MainThread]: End processing [PyGeodesy]: success
+[2023-06-14 01:39:12] INFO root fetch - main [MainThread]: Store serial: [18492312]
