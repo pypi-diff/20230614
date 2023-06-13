@@ -859,3 +859,128 @@
 [2023-06-14 00:41:49] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-06-14 00:41:49] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-06-14 00:41:49] INFO root fetch - main [MainThread]: Store serial: [18492011]
+[2023-06-14 00:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492011]
+[2023-06-14 00:46:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CalibrationCurve
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lollms
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anyscale
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viam-sdk
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gptbase
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: artd-colombian-cities
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stock-quote-scraper
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: numalogic-prometheus
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymlab
+[2023-06-14 00:46:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-assortment
+[2023-06-14 00:46:58] INFO root fetch - processPackages [CalibrationCurve]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [stock-quote-scraper]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [gptbase]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.74]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [artd-colombian-cities]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [viam-sdk]: New version: [0.4.1rc1] Old Version: [0.4.1]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [odoo-addon-product-assortment]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.3]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [pymlab]: New version: [0.5.dev202306132244] Old Version: [0.5.dev202212182151]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [numalogic-prometheus]: New version: [0.4.4] Old Version: [0.4.1]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [gptbase]: Downloading https://files.pythonhosted.org/packages/64/e0/201bcddc806234e5f274bea91500721244081495ec15bd20388ad7743668/gptbase-0.2.3.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/cc/0b/8e8d30dc2a5bc3ef6128fb286aff9d30f0e443c12acdfef6d17e8fed8b24/CalibrationCurve-0.0.5.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/97/f1/acac6e10ea2cd1223dede236f02ba3d40db053ed3b3a15163c06b83b0d72/lollms-1.1.74.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [viam-sdk]: Downloading https://files.pythonhosted.org/packages/c4/85/013ee3fbe900b426970ff1ea80e7d9ff15a84c930bb730bf277983072e91/viam_sdk-0.4.1-py3-none-manylinux2014_x86_64.whl
+[2023-06-14 00:46:58] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [stock-quote-scraper]: Downloading https://files.pythonhosted.org/packages/33/51/26adf3aa12658fae4f3573afae452d511edd7e095d6bb619f9dcc00cabe1/stock-quote-scraper-0.0.0.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [pymlab]: Downloading https://files.pythonhosted.org/packages/f6/85/855f1e48ea47439cf6b190554089acae605e96e02b84a9457ee6e3765237/pymlab-0.5.dev202212182151.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [odoo-addon-product-assortment]: Downloading https://files.pythonhosted.org/packages/08/48/d9391063fcba73c5fd506b7370311b7b366a9cdff487c71dbcb94f6025fa/odoo_addon_product_assortment-16.0.1.0.2.3-py3-none-any.whl
+[2023-06-14 00:46:58] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/76/81/348541b239f2a477d84b3896811989ef6df5f3a7b3cf93d6772d07e69cf3/artd_colombian_cities-0.0.14.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [gptbase]: Downloading https://files.pythonhosted.org/packages/d2/ce/37b82ed4c2227b341c06d15d52a152c828b6d1ca16450d16e24ac99e9b8a/gptbase-0.2.4.tar.gz
+[2023-06-14 00:46:58] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 27186356>=10485760
+[2023-06-14 00:46:58] INFO root fetch - processPackages [lollms]: Start processing: memento-scorecard
+[2023-06-14 00:46:58] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/e4/6f/9975959b8bf0178ac4a58780b6d2fa9d2898b40b6d353ff54a1deb3f5263/numalogic_prometheus-0.4.1.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-14 00:46:58] INFO root fetch - processPackages [memento-scorecard]: New version: [0.9.7] Old Version: [0.2.7]
+[2023-06-14 00:46:58] INFO root fetch - processPackages [gptbase]: executing diffoscope
+[2023-06-14 00:46:58] INFO root fetch - processPackages [gptbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptbase-0.2.3.tar.gz tmp/gptbase-0.2.4.tar.gz --markdown 20230614/g/gptbase/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-14 00:46:58] INFO root fetch - processPackages [CalibrationCurve]: Downloading https://files.pythonhosted.org/packages/7a/95/bc312793a2c1784d9bdc12c24399432b8963bbeed096238d677688880c58/CalibrationCurve-0.0.6.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [artd-colombian-cities]: Downloading https://files.pythonhosted.org/packages/73/36/74edaa1b34d26ce6979c56c3d1bb5f7b17a906f31492014dfe21131dcac5/artd_colombian_cities-0.0.15.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/a3/aa/6941210a5431cdf43cc7300757ac95b1b96c6a5bf5a2cf5088e50ca4f3b8/memento-scorecard-0.2.7.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [artd-colombian-cities]: executing diffoscope
+[2023-06-14 00:46:58] INFO root fetch - processPackages [artd-colombian-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artd_colombian_cities-0.0.14.tar.gz tmp/artd_colombian_cities-0.0.15.tar.gz --markdown 20230614/a/artd-colombian-cities/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-06-14 00:46:58] INFO root fetch - processPackages [stock-quote-scraper]: Downloading https://files.pythonhosted.org/packages/88/ca/1929e1ecb9daa602e1d52ba92de87372aa5bb6a8234fd4527531f5335cea/stock-quote-scraper-0.1.0.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [pymlab]: Downloading https://files.pythonhosted.org/packages/2b/2e/a001cb4697f4d24707b45c7e303235ec253fe5d3d7e086bbf49e0ebd50f7/pymlab-0.5.dev202306132244.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [CalibrationCurve]: executing diffoscope
+[2023-06-14 00:46:58] INFO root fetch - processPackages [CalibrationCurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CalibrationCurve-0.0.5.tar.gz tmp/CalibrationCurve-0.0.6.tar.gz --markdown 20230614/C/CalibrationCurve/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 00:46:58] INFO root fetch - processPackages [stock-quote-scraper]: executing diffoscope
+[2023-06-14 00:46:58] INFO root fetch - processPackages [stock-quote-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-quote-scraper-0.0.0.tar.gz tmp/stock-quote-scraper-0.1.0.tar.gz --markdown 20230614/s/stock-quote-scraper/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 00:46:58] INFO root fetch - processPackages [odoo-addon-product-assortment]: Downloading https://files.pythonhosted.org/packages/e6/b1/9d854c16530e7211e2b1e65483e5a1ac35e06bdb401385f88021bde6eaff/odoo_addon_product_assortment-16.0.1.0.2.5-py3-none-any.whl
+[2023-06-14 00:46:58] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [numalogic-prometheus]: Downloading https://files.pythonhosted.org/packages/83/59/74913b6a6f14c6e76a349e31ad586e960ce69546f117c717acd4f3e3e173/numalogic_prometheus-0.4.4.tar.gz
+[2023-06-14 00:46:58] INFO root fetch - processPackages [odoo-addon-product-assortment]: executing diffoscope
+[2023-06-14 00:46:58] INFO root fetch - processPackages [odoo-addon-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_assortment-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_product_assortment-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-product-assortment/16.0.1.0.2.3-16.0.1.0.2.5/diff.md --exclude *.pyd
+[2023-06-14 00:46:59] INFO root fetch - processPackages [numalogic-prometheus]: executing diffoscope
+[2023-06-14 00:46:59] INFO root fetch - processPackages [numalogic-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numalogic_prometheus-0.4.1.tar.gz tmp/numalogic_prometheus-0.4.4.tar.gz --markdown 20230614/n/numalogic-prometheus/0.4.1-0.4.4/diff.md --exclude *.pyd
+[2023-06-14 00:46:59] INFO root fetch - processPackages [pymlab]: executing diffoscope
+[2023-06-14 00:46:59] INFO root fetch - processPackages [pymlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymlab-0.5.dev202212182151.tar.gz tmp/pymlab-0.5.dev202306132244.tar.gz --markdown 20230614/p/pymlab/0.5.dev202212182151-0.5.dev202306132244/diff.md --exclude *.pyd
+[2023-06-14 00:46:59] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-06-14 00:46:59] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230614/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-14 00:46:59] INFO root fetch - processPackages [memento-scorecard]: Downloading https://files.pythonhosted.org/packages/83/bd/538aab1cfd666bf3c8a6c420ef8530953160bb35b89d10955d02d65dd471/memento-scorecard-0.9.7.tar.gz
+[2023-06-14 00:46:59] INFO root fetch - processPackages [memento-scorecard]: executing diffoscope
+[2023-06-14 00:46:59] INFO root fetch - processPackages [memento-scorecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memento-scorecard-0.2.7.tar.gz tmp/memento-scorecard-0.9.7.tar.gz --markdown 20230614/m/memento-scorecard/0.2.7-0.9.7/diff.md --exclude *.pyd
+[2023-06-14 00:47:00] INFO root fetch - processPackages [gptbase]: Remove: archive file [/home/abi/fetcher/tmp/gptbase-0.2.3.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [gptbase]: Remove: archive file [/home/abi/fetcher/tmp/gptbase-0.2.4.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [gptbase]: Start processing: sinabs
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [gptbase]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [sinabs]: New version: [1.2.6.dev5] Old Version: [1.2.6.dev4]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/31/ec/d344f782d0884ff18058b2d886d87b0acaa63095b9191270dfe41e51e469/sinabs-1.2.6.dev4.tar.gz
+[2023-06-14 00:47:00] INFO root fetch - processPackages [stock-quote-scraper]: Remove: archive file [/home/abi/fetcher/tmp/stock-quote-scraper-0.0.0.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [stock-quote-scraper]: Remove: archive file [/home/abi/fetcher/tmp/stock-quote-scraper-0.1.0.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [stock-quote-scraper]: Start processing: ptf
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [stock-quote-scraper]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [viam-sdk]: Downloading https://files.pythonhosted.org/packages/db/92/008e4da425794d7b723694f4df388d518f213c7a2583ee4b12530aaf538a/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl
+[2023-06-14 00:47:00] INFO root fetch - processPackages [ptf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [sinabs]: Downloading https://files.pythonhosted.org/packages/ae/1c/caa45d3eb463eabcc7e326f90bc431682f4f58498dd3c98403b45d9f9a58/sinabs-1.2.6.dev5.tar.gz
+[2023-06-14 00:47:00] INFO root fetch - processPackages [ptf]: Downloading https://files.pythonhosted.org/packages/e1/c5/3ebf8ae63763e9ba1841ffb9e143b2c1316e9e259df23b93a169e774891e/ptf-0.9.3-0-py3-none-any.whl
+[2023-06-14 00:47:00] INFO root fetch - processPackages [odoo-addon-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_assortment-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [odoo-addon-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_assortment-16.0.1.0.2.5-py3-none-any.whl.zip]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [odoo-addon-product-assortment]: Start processing: opentelemetry-instrument-openai
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-assortment]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [opentelemetry-instrument-openai]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.5.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [CalibrationCurve]: Remove: archive file [/home/abi/fetcher/tmp/CalibrationCurve-0.0.6.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [CalibrationCurve]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [numalogic-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/numalogic_prometheus-0.4.1.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [numalogic-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/numalogic_prometheus-0.4.4.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [numalogic-prometheus]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [pymlab]: Remove: archive file [/home/abi/fetcher/tmp/pymlab-0.5.dev202212182151.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [pymlab]: Remove: archive file [/home/abi/fetcher/tmp/pymlab-0.5.dev202306132244.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [pymlab]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [opentelemetry-instrument-openai]: Downloading https://files.pythonhosted.org/packages/09/65/02abff5ad2870e3925b2e14c08485d723103fd15e03eff72f1303294a7e7/opentelemetry_instrument_openai-0.4.0.tar.gz
+[2023-06-14 00:47:00] INFO root fetch - processPackages [ptf]: Downloading https://files.pythonhosted.org/packages/c2/c6/d4889d2105b3e36378e6e866ec59214d1e72f6f5ae734cb422edf0e68f4b/ptf-0.9.4.tar.gz
+[2023-06-14 00:47:00] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.14.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [artd-colombian-cities]: Remove: archive file [/home/abi/fetcher/tmp/artd_colombian_cities-0.0.15.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [sinabs]: executing diffoscope
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [artd-colombian-cities]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [sinabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-1.2.6.dev4.tar.gz tmp/sinabs-1.2.6.dev5.tar.gz --markdown 20230614/s/sinabs/1.2.6.dev4-1.2.6.dev5/diff.md --exclude *.pyd
+[2023-06-14 00:47:00] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.2.7.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - processPackages [memento-scorecard]: Remove: archive file [/home/abi/fetcher/tmp/memento-scorecard-0.9.7.tar.gz]
+[2023-06-14 00:47:00] INFO root fetch - main [MainThread]: End processing [memento-scorecard]: success
+[2023-06-14 00:47:00] INFO root fetch - processPackages [opentelemetry-instrument-openai]: Downloading https://files.pythonhosted.org/packages/b1/ad/6e8d45500f99c28e896c0fd08a4965cdf153df4a65f342b7014ac5b22331/opentelemetry_instrument_openai-0.5.0.tar.gz
+[2023-06-14 00:47:00] INFO root fetch - processPackages [ptf]: executing diffoscope
+[2023-06-14 00:47:00] INFO root fetch - processPackages [ptf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptf-0.9.3-0-py3-none-any.whl.zip tmp/ptf-0.9.4.tar.gz --markdown 20230614/p/ptf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 00:47:01] INFO root fetch - processPackages [opentelemetry-instrument-openai]: executing diffoscope
+[2023-06-14 00:47:01] INFO root fetch - processPackages [opentelemetry-instrument-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrument_openai-0.4.0.tar.gz tmp/opentelemetry_instrument_openai-0.5.0.tar.gz --markdown 20230614/o/opentelemetry-instrument-openai/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 00:47:01] INFO root fetch - processPackages [ptf]: Remove: archive file [/home/abi/fetcher/tmp/ptf-0.9.3-0-py3-none-any.whl.zip]
+[2023-06-14 00:47:01] INFO root fetch - processPackages [ptf]: Remove: archive file [/home/abi/fetcher/tmp/ptf-0.9.4.tar.gz]
+[2023-06-14 00:47:01] INFO root fetch - main [MainThread]: End processing [ptf]: success
+[2023-06-14 00:47:01] INFO root fetch - processPackages [opentelemetry-instrument-openai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrument_openai-0.4.0.tar.gz]
+[2023-06-14 00:47:01] INFO root fetch - processPackages [opentelemetry-instrument-openai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrument_openai-0.5.0.tar.gz]
+[2023-06-14 00:47:01] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrument-openai]: success
+[2023-06-14 00:47:02] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev4.tar.gz]
+[2023-06-14 00:47:02] INFO root fetch - processPackages [sinabs]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-1.2.6.dev5.tar.gz]
+[2023-06-14 00:47:02] INFO root fetch - main [MainThread]: End processing [sinabs]: success
+[2023-06-14 00:47:02] INFO root fetch - processPackages [viam-sdk]: executing diffoscope
+[2023-06-14 00:47:02] INFO root fetch - processPackages [viam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viam_sdk-0.4.1-py3-none-manylinux2014_x86_64.whl.zip tmp/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl.zip --markdown 20230614/v/viam-sdk/0.4.1-0.4.1rc1/diff.md --exclude *.pyd
+[2023-06-14 00:47:07] INFO root fetch - processPackages [viam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/viam_sdk-0.4.1-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:47:07] INFO root fetch - processPackages [viam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/viam_sdk-0.4.1rc1-py3-none-manylinux2014_x86_64.whl.zip]
+[2023-06-14 00:47:07] INFO root fetch - main [MainThread]: End processing [viam-sdk]: success
+[2023-06-14 00:47:09] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2023-06-14 00:47:09] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2023-06-14 00:47:09] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-06-14 00:47:09] INFO root fetch - main [MainThread]: Store serial: [18492057]
