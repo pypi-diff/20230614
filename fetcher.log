@@ -9596,3 +9596,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:53:53] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
 [2023-06-14 03:53:53] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
 [2023-06-14 03:53:53] INFO root fetch - main [MainThread]: Store serial: [18495131]
+[2023-06-14 03:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495131]
+[2023-06-14 03:59:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clife-svc
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phanterpwa
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinabs-dynapcnn
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vcr-langchain
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meteva-base
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tpaw
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: janis-pipelines.core
+[2023-06-14 03:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devvio-util
+[2023-06-14 03:59:02] INFO root fetch - processPackages [clife-svc]: New version: [1.14] Old Version: [1.13]
+[2023-06-14 03:59:02] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-06-14 03:59:02] INFO root fetch - processPackages [phanterpwa]: New version: [13.13.8] Old Version: [13.13.7]
+[2023-06-14 03:59:02] INFO root fetch - processPackages [vcr-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 03:59:02] WARNING root fetch - processPackages [tpaw]: Skipping, unable to determine old version
+[2023-06-14 03:59:02] INFO root fetch - main [MainThread]: End processing [tpaw] error
+[2023-06-14 03:59:02] INFO root fetch - processPackages [devvio-util]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-06-14 03:59:02] WARNING root fetch - processPackages [meteva-base]: Skipping, unable to determine old version
+[2023-06-14 03:59:02] INFO root fetch - main [MainThread]: End processing [meteva-base] error
+[2023-06-14 03:59:02] INFO root fetch - processPackages [janis-pipelines.core]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 03:59:02] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/68/3a/4aa8be19839c1266e9ac67e1c8440466095425479032b35665a7a8f3b502/clife_svc-1.13.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/56/32/e129d91df11cb2896653dd04fded6a8d28dda2a6ff281d9c30ff402c27de/devvio_util-1.5.4.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/95/e7/aa537f7f4db805285f455ffd6439958716bb745795d7dca345a60cceba82/phanterpwa-13.13.7.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/5f/21/7e537b7c4bd9033bb7d2e64c9b1fa8441737278706c814c0efff22c2cf5a/vcr_langchain-0.0.8.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [janis-pipelines.core]: Downloading https://files.pythonhosted.org/packages/9d/d4/24c5c1a597b60e0e8d952a4ae8bf843a3c2c406f12874b89ae2ed49b89ae/janis-pipelines.core-0.9.8.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [clife-svc]: Downloading https://files.pythonhosted.org/packages/93/d3/52232d5bc7703dfdb6b35ae3d9340c1cefbe0cd6481138f75a6189135c00/clife_svc-1.14.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/d8/6c/e694a34fbe42927e3d9f42f60cbed199e2d4da70544923d046780ca37c11/devvio_util-1.5.5.tar.gz
+[2023-06-14 03:59:02] INFO root fetch - processPackages [clife-svc]: executing diffoscope
+[2023-06-14 03:59:02] INFO root fetch - processPackages [clife-svc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clife_svc-1.13.tar.gz tmp/clife_svc-1.14.tar.gz --markdown 20230614/c/clife-svc/1.13-1.14/diff.md --exclude *.pyd
+[2023-06-14 03:59:03] INFO root fetch - processPackages [janis-pipelines.core]: Downloading https://files.pythonhosted.org/packages/68/6b/a5d3949ac632f81703ce9b8273f8f24628e49bff649209d1958b54b66248/janis-pipelines.core-0.9.9.tar.gz
+[2023-06-14 03:59:03] INFO root fetch - processPackages [devvio-util]: executing diffoscope
+[2023-06-14 03:59:03] INFO root fetch - processPackages [devvio-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devvio_util-1.5.4.tar.gz tmp/devvio_util-1.5.5.tar.gz --markdown 20230614/d/devvio-util/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-06-14 03:59:03] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/97/8f/f07337a3f46ccc9c3e3142a0c4a5070d5315476f1894d5a7003418d29249/vcr_langchain-0.0.9.tar.gz
+[2023-06-14 03:59:03] INFO root fetch - processPackages [vcr-langchain]: executing diffoscope
+[2023-06-14 03:59:03] INFO root fetch - processPackages [vcr-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcr_langchain-0.0.8.tar.gz tmp/vcr_langchain-0.0.9.tar.gz --markdown 20230614/v/vcr-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 03:59:03] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/68/e3/5f4705d07b6b97004d33927087f8016be5de3b44f4f4949e7975e47df5b1/phanterpwa-13.13.8.tar.gz
+[2023-06-14 03:59:03] INFO root fetch - processPackages [janis-pipelines.core]: executing diffoscope
+[2023-06-14 03:59:03] INFO root fetch - processPackages [janis-pipelines.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis-pipelines.core-0.9.8.tar.gz tmp/janis-pipelines.core-0.9.9.tar.gz --markdown 20230614/j/janis-pipelines.core/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 03:59:03] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-06-14 03:59:03] INFO root fetch - processPackages [phanterpwa]: executing diffoscope
+[2023-06-14 03:59:03] INFO root fetch - processPackages [phanterpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanterpwa-13.13.7.tar.gz tmp/phanterpwa-13.13.8.tar.gz --markdown 20230614/p/phanterpwa/13.13.7-13.13.8/diff.md --exclude *.pyd
+[2023-06-14 03:59:03] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-06-14 03:59:03] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230614/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-06-14 03:59:04] INFO root fetch - processPackages [clife-svc]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc-1.13.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - processPackages [clife-svc]: Remove: archive file [/home/abi/fetcher/tmp/clife_svc-1.14.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - main [MainThread]: End processing [clife-svc]: success
+[2023-06-14 03:59:04] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.8.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.9.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - main [MainThread]: End processing [vcr-langchain]: success
+[2023-06-14 03:59:04] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.4.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.5.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - main [MainThread]: End processing [devvio-util]: success
+[2023-06-14 03:59:04] INFO root fetch - processPackages [janis-pipelines.core]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.core-0.9.8.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - processPackages [janis-pipelines.core]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.core-0.9.9.tar.gz]
+[2023-06-14 03:59:04] INFO root fetch - main [MainThread]: End processing [janis-pipelines.core]: success
+[2023-06-14 03:59:05] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-06-14 03:59:05] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-06-14 03:59:05] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-06-14 03:59:07] INFO root fetch - processPackages [phanterpwa]: Remove: archive file [/home/abi/fetcher/tmp/phanterpwa-13.13.7.tar.gz]
+[2023-06-14 03:59:07] INFO root fetch - processPackages [phanterpwa]: Remove: archive file [/home/abi/fetcher/tmp/phanterpwa-13.13.8.tar.gz]
+[2023-06-14 03:59:07] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
+[2023-06-14 03:59:07] INFO root fetch - main [MainThread]: Store serial: [18495158]
