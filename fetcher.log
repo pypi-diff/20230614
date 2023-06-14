@@ -18648,3 +18648,161 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:11:22] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.0a8.tar.gz]
 [2023-06-14 11:11:22] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
 [2023-06-14 11:11:22] INFO root fetch - main [MainThread]: Store serial: [18498834]
+[2023-06-14 11:16:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498834]
+[2023-06-14 11:16:32] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-it-delivery-note-rma
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: current-events-magnifier
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-mail-thunder-dev
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hgutilities
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy_baseline
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: turborest
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kadaster-kikinzage-client
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gender-detection-local
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sma-manager
+[2023-06-14 11:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: labeltransform2
+[2023-06-14 11:16:32] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [hgutilities]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-14 11:16:32] WARNING root fetch - processPackages [odoo14-addon-l10n-it-delivery-note-rma]: Skipping, unable to determine old version
+[2023-06-14 11:16:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note-rma]: Start processing: chatgpt-block
+[2023-06-14 11:16:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note-rma] error
+[2023-06-14 11:16:32] WARNING root fetch - processPackages [kadaster-kikinzage-client]: Skipping, unable to determine old version
+[2023-06-14 11:16:32] WARNING root fetch - processPackages [turborest]: Skipping, unable to determine old version
+[2023-06-14 11:16:32] INFO root fetch - processPackages [kadaster-kikinzage-client]: Start processing: hot-fair-utilities
+[2023-06-14 11:16:32] INFO root fetch - main [MainThread]: End processing [kadaster-kikinzage-client] error
+[2023-06-14 11:16:32] INFO root fetch - processPackages [turborest]: Start processing: structured-pruning-adapters
+[2023-06-14 11:16:32] INFO root fetch - processPackages [labeltransform2]: New version: [1.5] Old Version: [1.4]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [mypy_baseline]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [sma-manager]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-06-14 11:16:32] INFO root fetch - main [MainThread]: End processing [turborest] error
+[2023-06-14 11:16:32] INFO root fetch - processPackages [gender-detection-local]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [hot-fair-utilities]: New version: [1.0.51] Old Version: [1.0.50]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [chatgpt-block]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [structured-pruning-adapters]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-06-14 11:16:32] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/2f/96/a36c227afb80c2395690020f8d10b7efdf41317cbcc5aad0d18d889bdfd4/current_events_magnifier-0.1.1.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/ce/aa/fb814f887723b5c8ef8e67c58fb7eda01ad04a7c3eba700c89a40a7d67bd/labeltransform2-1.4.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/5d/d6/88b9fbbe94f4fb656da3eb93795a32ad0ec8b2e7ccf6f7c4e42fc840e5dc/hgutilities-1.0.5.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/d1/2c/2d94edd4867ed0b406b0c34aede9e1aa8808850faa4ac8e0cf348bd72d51/gender-detection-local-0.0.4.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [mypy_baseline]: Downloading https://files.pythonhosted.org/packages/64/2c/5f23d2663b5f0cf458c2a1b078b6f3d18c2ac4defa080fc196f4c0a010eb/mypy_baseline-0.5.1.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [sma-manager]: Downloading https://files.pythonhosted.org/packages/e1/b2/eca2741ee04407ff4899e3b3163ea44121c86bba54109da21136234ebda4/sma-manager-1.0.0.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/a8/f2/e4c0c3502a2bc0561fd8c326012fab4425addb33949fc82d4bcfd3f4dfee/hot-fair-utilities-1.0.50.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [chatgpt-block]: Downloading https://files.pythonhosted.org/packages/a6/9e/75a8ee32da5294ed39b9e9ed0f6a45b0f9d992ee6ae7b377e85352293c6b/chatgpt_block-0.1.5.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [structured-pruning-adapters]: Downloading https://files.pythonhosted.org/packages/1b/05/3e6aa9d5d4659a7cf74f6d7d18dcc7d23bb514356db7d7c86e39779b2939/structured-pruning-adapters-0.5.2.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/51/2e/05219bd60ca063f726241ecf7e1e1df9612f050c19253284faba470e69ac/labeltransform2-1.5.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/88/f6/f0d9ca13dbd77a0cf0348d98454c9b074d4f0535f8851fc01085913aa663/current_events_magnifier-0.1.2.tar.gz
+[2023-06-14 11:16:32] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-14 11:16:32] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.4.tar.gz tmp/labeltransform2-1.5.tar.gz --markdown 20230614/l/labeltransform2/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-14 11:16:32] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/0a/99/ca8e332d7e8a1bb5653f76cb53502c788dcb8a56eb08495c7faa7dc61eaf/hgutilities-1.0.6.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.1.tar.gz tmp/current_events_magnifier-0.1.2.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [sma-manager]: Downloading https://files.pythonhosted.org/packages/2e/c0/84aef1ccbd225aac0c19a182a79399f92a95493242ead6799345a5f014ef/sma-manager-2.0.0.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [chatgpt-block]: Downloading https://files.pythonhosted.org/packages/38/e5/ce70b2f1175264090f0c170c3b4cda3a5b1359f94ffd21ada7accec4c91a/chatgpt_block-0.1.6.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [structured-pruning-adapters]: Downloading https://files.pythonhosted.org/packages/83/8a/60d07ddf872a80c915705577ac33a466cc427af094b2cd76130eb82fcc48/structured-pruning-adapters-0.6.0.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [hgutilities]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [hgutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgutilities-1.0.5.tar.gz tmp/hgutilities-1.0.6.tar.gz --markdown 20230614/h/hgutilities/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [mypy_baseline]: Downloading https://files.pythonhosted.org/packages/f4/af/dba534682996760325178cc0c4900f394cfced4f55760c0ac7ac63542c30/mypy_baseline-0.5.2.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [hot-fair-utilities]: Downloading https://files.pythonhosted.org/packages/8b/eb/5f64ce5d90c336d3b74c2be89dccb1dea6640ef472f457151738ae64e07f/hot-fair-utilities-1.0.51.tar.gz
+[2023-06-14 11:16:33] INFO root fetch - processPackages [sma-manager]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [sma-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sma-manager-1.0.0.tar.gz tmp/sma-manager-2.0.0.tar.gz --markdown 20230614/s/sma-manager/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230614/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [chatgpt-block]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [chatgpt-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_block-0.1.5.tar.gz tmp/chatgpt_block-0.1.6.tar.gz --markdown 20230614/c/chatgpt-block/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [structured-pruning-adapters]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [structured-pruning-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structured-pruning-adapters-0.5.2.tar.gz tmp/structured-pruning-adapters-0.6.0.tar.gz --markdown 20230614/s/structured-pruning-adapters/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [hot-fair-utilities]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [hot-fair-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot-fair-utilities-1.0.50.tar.gz tmp/hot-fair-utilities-1.0.51.tar.gz --markdown 20230614/h/hot-fair-utilities/1.0.50-1.0.51/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [mypy_baseline]: executing diffoscope
+[2023-06-14 11:16:33] INFO root fetch - processPackages [mypy_baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_baseline-0.5.1.tar.gz tmp/mypy_baseline-0.5.2.tar.gz --markdown 20230614/m/mypy_baseline/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-14 11:16:33] INFO root fetch - processPackages [gender-detection-local]: Downloading https://files.pythonhosted.org/packages/15/98/4780dd37d16103df3b201abaabcfe3e486edae0ff2a4cedfa5ef6fd85348/gender-detection-local-0.0.5.tar.gz
+[2023-06-14 11:16:34] INFO root fetch - processPackages [gender-detection-local]: executing diffoscope
+[2023-06-14 11:16:34] INFO root fetch - processPackages [gender-detection-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender-detection-local-0.0.4.tar.gz tmp/gender-detection-local-0.0.5.tar.gz --markdown 20230614/g/gender-detection-local/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 11:16:35] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.4.tar.gz]
+[2023-06-14 11:16:35] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.5.tar.gz]
+[2023-06-14 11:16:35] INFO root fetch - processPackages [labeltransform2]: Start processing: tbp-nightly
+[2023-06-14 11:16:35] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-14 11:16:35] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-14 11:16:35] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-14 11:16:36] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.1.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.2.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [current-events-magnifier]: Start processing: resc-helm-wizard
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 11:16:36] INFO root fetch - processPackages [resc-helm-wizard]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [sma-manager]: Remove: archive file [/home/abi/fetcher/tmp/sma-manager-1.0.0.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [sma-manager]: Remove: archive file [/home/abi/fetcher/tmp/sma-manager-2.0.0.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [sma-manager]: Start processing: pySSRSapi
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [sma-manager]: success
+[2023-06-14 11:16:36] INFO root fetch - processPackages [resc-helm-wizard]: Downloading https://files.pythonhosted.org/packages/35/cc/37d7efe2b7979fce8ffb068c1bccbb7429ddf185ef0a0dfd5e4687ad352f/resc_helm_wizard-1.0.2.tar.gz
+[2023-06-14 11:16:36] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [je-mail-thunder-dev]: Start processing: odoo14-addon-l10n-es-aeat-mod123
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-06-14 11:16:36] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [chatgpt-block]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_block-0.1.5.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [chatgpt-block]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_block-0.1.6.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [chatgpt-block]: Start processing: labrad-asyncio
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [chatgpt-block]: success
+[2023-06-14 11:16:36] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/c1/1f/3cdcbe16d3596d5f4c8b2bd2a676c177f21741fde5a400918310da0cf6ef/pySSRSapi-0.0.8.tar.gz
+[2023-06-14 11:16:36] WARNING root fetch - processPackages [labrad-asyncio]: Skipping, unable to determine old version
+[2023-06-14 11:16:36] INFO root fetch - processPackages [labrad-asyncio]: Start processing: arivo-settings-models
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [labrad-asyncio] error
+[2023-06-14 11:16:36] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.50.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [hot-fair-utilities]: Remove: archive file [/home/abi/fetcher/tmp/hot-fair-utilities-1.0.51.tar.gz]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [hot-fair-utilities]: Start processing: selis
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [hot-fair-utilities]: success
+[2023-06-14 11:16:36] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/b4/48/a16c2ecd67b99b2b59a752cfaf448053bb07a896d0ece6d4987e051cc853/odoo14_addon_l10n_es_aeat_mod123-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-14 11:16:36] INFO root fetch - processPackages [selis]: New version: [1.2] Old Version: [1.1]
+[2023-06-14 11:16:36] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/e7/e3/10b87a0611fb86d9d099516e1718e3378891826360b010697c16395fcb5c/selis-1.1.tar.gz
+[2023-06-14 11:16:36] WARNING root fetch - processPackages [arivo-settings-models]: Skipping, unable to determine old version
+[2023-06-14 11:16:36] INFO root fetch - processPackages [arivo-settings-models]: Start processing: lollms
+[2023-06-14 11:16:36] INFO root fetch - main [MainThread]: End processing [arivo-settings-models] error
+[2023-06-14 11:16:37] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.74]
+[2023-06-14 11:16:37] INFO root fetch - processPackages [structured-pruning-adapters]: Remove: archive file [/home/abi/fetcher/tmp/structured-pruning-adapters-0.5.2.tar.gz]
+[2023-06-14 11:16:37] INFO root fetch - processPackages [structured-pruning-adapters]: Remove: archive file [/home/abi/fetcher/tmp/structured-pruning-adapters-0.6.0.tar.gz]
+[2023-06-14 11:16:37] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/28/33/55f9f8da569cf0d93252ba2a1cdba374c9c59c45ca96b8374e8925475457/pySSRSapi-0.0.9.tar.gz
+[2023-06-14 11:16:37] INFO root fetch - main [MainThread]: End processing [structured-pruning-adapters]: success
+[2023-06-14 11:16:37] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-14 11:16:37] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/97/f1/acac6e10ea2cd1223dede236f02ba3d40db053ed3b3a15163c06b83b0d72/lollms-1.1.74.tar.gz
+[2023-06-14 11:16:37] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 27186356>=10485760
+[2023-06-14 11:16:37] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-14 11:16:37] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/c0/21/58478cbd12b121d79f7dafc3e7056acd58bbfea3ce00a78658c017f46857/selis-1.2.tar.gz
+[2023-06-14 11:16:37] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-14 11:16:37] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.8.tar.gz tmp/pySSRSapi-0.0.9.tar.gz --markdown 20230614/p/pySSRSapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:16:37] INFO root fetch - processPackages [resc-helm-wizard]: Downloading https://files.pythonhosted.org/packages/ee/6b/a72429d4540449d00dadf9ab43912c932131a819871d6d8ab996f53bf026/resc_helm_wizard-1.0.3.tar.gz
+[2023-06-14 11:16:37] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-14 11:16:37] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-1.1.tar.gz tmp/selis-1.2.tar.gz --markdown 20230614/s/selis/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-14 11:16:37] INFO root fetch - processPackages [resc-helm-wizard]: executing diffoscope
+[2023-06-14 11:16:37] INFO root fetch - processPackages [resc-helm-wizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_helm_wizard-1.0.2.tar.gz tmp/resc_helm_wizard-1.0.3.tar.gz --markdown 20230614/r/resc-helm-wizard/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 11:16:37] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: Downloading https://files.pythonhosted.org/packages/8c/26/fadd6ab2707e4fccc3f8d69326a46d57b6c3660757efe2a1de7715f37a29/odoo14_addon_l10n_es_aeat_mod123-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-14 11:16:37] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: executing diffoscope
+[2023-06-14 11:16:37] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_es_aeat_mod123-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_l10n_es_aeat_mod123-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-l10n-es-aeat-mod123/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-14 11:16:38] INFO root fetch - processPackages [mypy_baseline]: Remove: archive file [/home/abi/fetcher/tmp/mypy_baseline-0.5.1.tar.gz]
+[2023-06-14 11:16:38] INFO root fetch - processPackages [mypy_baseline]: Remove: archive file [/home/abi/fetcher/tmp/mypy_baseline-0.5.2.tar.gz]
+[2023-06-14 11:16:38] INFO root fetch - main [MainThread]: End processing [mypy_baseline]: success
+[2023-06-14 11:16:38] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-14 11:16:38] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230614/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-14 11:16:39] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.8.tar.gz]
+[2023-06-14 11:16:39] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.9.tar.gz]
+[2023-06-14 11:16:39] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-14 11:16:39] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.1.tar.gz]
+[2023-06-14 11:16:39] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.2.tar.gz]
+[2023-06-14 11:16:39] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-14 11:16:39] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.5.tar.gz]
+[2023-06-14 11:16:39] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.6.tar.gz]
+[2023-06-14 11:16:39] INFO root fetch - main [MainThread]: End processing [hgutilities]: success
+[2023-06-14 11:16:40] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod123-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-14 11:16:40] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod123]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod123-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-14 11:16:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-mod123]: success
+[2023-06-14 11:16:42] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.0.4.tar.gz]
+[2023-06-14 11:16:42] INFO root fetch - processPackages [gender-detection-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-detection-local-0.0.5.tar.gz]
+[2023-06-14 11:16:42] INFO root fetch - main [MainThread]: End processing [gender-detection-local]: success
+[2023-06-14 11:16:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-14 11:16:42] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-14 11:16:42] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-14 11:16:42] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.2.tar.gz]
+[2023-06-14 11:16:42] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.3.tar.gz]
+[2023-06-14 11:16:42] INFO root fetch - main [MainThread]: End processing [resc-helm-wizard]: success
+[2023-06-14 11:16:42] INFO root fetch - main [MainThread]: Store serial: [18498916]
