@@ -15899,3 +15899,98 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:23:13] INFO root fetch - processPackages [leggedsnake]: Remove: archive file [/home/abi/fetcher/tmp/leggedsnake-0.3.1.tar.gz]
 [2023-06-14 09:23:13] INFO root fetch - main [MainThread]: End processing [leggedsnake]: success
 [2023-06-14 09:23:13] INFO root fetch - main [MainThread]: Store serial: [18497534]
+[2023-06-14 09:28:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497534]
+[2023-06-14 09:28:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netspresso
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-simplejwt-additions
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leanit-mweb
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmsdna-lakeapi
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vwo-python-sdk
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-shopinvader-delivery-carrier-category-keep-carrier
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OpenGeode-core
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: QuNet
+[2023-06-14 09:28:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: UAutoml
+[2023-06-14 09:28:24] WARNING root fetch - processPackages [odoo14-addon-shopinvader-delivery-carrier-category-keep-carrier]: Skipping, unable to determine old version
+[2023-06-14 09:28:24] INFO root fetch - processPackages [odoo14-addon-shopinvader-delivery-carrier-category-keep-carrier]: Start processing: autobahn
+[2023-06-14 09:28:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-delivery-carrier-category-keep-carrier] error
+[2023-06-14 09:28:24] INFO root fetch - processPackages [vwo-python-sdk]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [drf-simplejwt-additions]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [UAutoml]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [netspresso]: New version: [1.0.0] Old Version: [0.1.9]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.86]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [autobahn]: New version: [23.6.2] Old Version: [23.6.1]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.3.2rc3]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-14 09:28:24] INFO root fetch - processPackages [drf-simplejwt-additions]: Downloading https://files.pythonhosted.org/packages/09/f7/be8b4bae07adf1163c95344dd1fcc159f7bf3a08bb827a4a98e1edafd952/drf-simplejwt-additions-1.1.0.tar.gz
+[2023-06-14 09:28:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-14 09:28:24] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/43/9e/831877c33ce8e4f020b1efcae45cc76f3cf9f114301cf91c925dadedbad4/vwo-python-sdk-1.8.2.tar.gz
+[2023-06-14 09:28:24] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/7c/66/a7ee6a90bb74e023e65550484eb21a4d166abb4ae828508961ffcb58b418/OpenGeode_core-14.3.2rc3-cp38-cp38-manylinux2014_x86_64.whl
+[2023-06-14 09:28:24] INFO root fetch - processPackages [UAutoml]: Downloading https://files.pythonhosted.org/packages/69/26/cac1d1365a420ba1350724fbed1ded5d9211e3a41a242ece994c87270e02/UAutoml-0.0.3.tar.gz
+[2023-06-14 09:28:24] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/e3/d0/8c5e3921ce223331411d07702b5a482ff39b4312be82341c518fe3649360/leanit-mweb-23.6.8.tar.gz
+[2023-06-14 09:28:24] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/87/cf/2a6a7612e132687da9c8a5b1e5805aff9d8641bd442ed35dfbea69fe50ab/bmsdna_lakeapi-0.8.2.tar.gz
+[2023-06-14 09:28:24] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/b6/57/15da4fc9ed0d20043110af938a8a1b2abd3b92d705c3edbab0cddb4fbcb5/netspresso-0.1.9-py3-none-any.whl
+[2023-06-14 09:28:24] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/a9/e2/3ec686d10218fa44d59f5e570c7e2d1d3e1c039cc2cc0469f9e535228c95/QuNet-0.0.86-py3-none-any.whl
+[2023-06-14 09:28:24] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14095115>=10485760
+[2023-06-14 09:28:24] INFO root fetch - processPackages [OpenGeode-core]: Start processing: ipproxy
+[2023-06-14 09:28:24] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-06-14 09:28:25] INFO root fetch - processPackages [autobahn]: Downloading https://files.pythonhosted.org/packages/dd/49/239715f7c1a59e2cf6c85418f74d5aefb5db1f4fc4e66dff153f25c01125/autobahn-23.6.1.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [drf-simplejwt-additions]: Downloading https://files.pythonhosted.org/packages/e2/7a/b3a3cd9d13f8a06c1665ad654579799cf1219d78d4e8d927497945cd7e61/drf-simplejwt-additions-1.1.1.tar.gz
+[2023-06-14 09:28:25] WARNING root fetch - processPackages [ipproxy]: Skipping, unable to determine old version
+[2023-06-14 09:28:25] INFO root fetch - main [MainThread]: End processing [ipproxy] error
+[2023-06-14 09:28:25] INFO root fetch - processPackages [vwo-python-sdk]: Downloading https://files.pythonhosted.org/packages/da/72/3c1b74f57b5b647b27a01d8c3a65b25ee7acc4aa566fa905f1dde110e5d2/vwo-python-sdk-1.9.0.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [UAutoml]: Downloading https://files.pythonhosted.org/packages/41/68/754b20b1dd793952535ea3a115643d07f759abfa5e1a643a79e34371c58c/UAutoml-0.0.4.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [netspresso]: Downloading https://files.pythonhosted.org/packages/49/31/e6884964b697b5ec27624420086d6216bd5844c22858dd33f7d487d87409/netspresso-1.0.0-py3-none-any.whl
+[2023-06-14 09:28:25] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/62/da/dff39dbee7ffe605f2c6dfdec726938533810a365631db1d56a9bdfa75ae/bmsdna_lakeapi-0.8.3.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-14 09:28:25] INFO root fetch - processPackages [drf-simplejwt-additions]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [drf-simplejwt-additions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-simplejwt-additions-1.1.0.tar.gz tmp/drf-simplejwt-additions-1.1.1.tar.gz --markdown 20230614/d/drf-simplejwt-additions/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [vwo-python-sdk]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [vwo-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vwo-python-sdk-1.8.2.tar.gz tmp/vwo-python-sdk-1.9.0.tar.gz --markdown 20230614/v/vwo-python-sdk/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [UAutoml]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [UAutoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UAutoml-0.0.3.tar.gz tmp/UAutoml-0.0.4.tar.gz --markdown 20230614/U/UAutoml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [autobahn]: Downloading https://files.pythonhosted.org/packages/92/ee/c3320c326919394ff597592549ff5d29d2f7bf12be9ddaa9017caff1a170/autobahn-23.6.2.tar.gz
+[2023-06-14 09:28:25] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.8.2.tar.gz tmp/bmsdna_lakeapi-0.8.3.tar.gz --markdown 20230614/b/bmsdna-lakeapi/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.8.tar.gz tmp/leanit-mweb-23.6.9.tar.gz --markdown 20230614/l/leanit-mweb/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.86-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230614/Q/QuNet/0.0.86-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [netspresso]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [netspresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso-0.1.9-py3-none-any.whl.zip tmp/netspresso-1.0.0-py3-none-any.whl.zip --markdown 20230614/n/netspresso/0.1.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230614/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 09:28:25] INFO root fetch - processPackages [autobahn]: executing diffoscope
+[2023-06-14 09:28:25] INFO root fetch - processPackages [autobahn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobahn-23.6.1.tar.gz tmp/autobahn-23.6.2.tar.gz --markdown 20230614/a/autobahn/23.6.1-23.6.2/diff.md --exclude *.pyd
+[2023-06-14 09:28:26] INFO root fetch - processPackages [UAutoml]: Remove: archive file [/home/abi/fetcher/tmp/UAutoml-0.0.3.tar.gz]
+[2023-06-14 09:28:26] INFO root fetch - processPackages [UAutoml]: Remove: archive file [/home/abi/fetcher/tmp/UAutoml-0.0.4.tar.gz]
+[2023-06-14 09:28:26] INFO root fetch - main [MainThread]: End processing [UAutoml]: success
+[2023-06-14 09:28:26] INFO root fetch - processPackages [drf-simplejwt-additions]: Remove: archive file [/home/abi/fetcher/tmp/drf-simplejwt-additions-1.1.0.tar.gz]
+[2023-06-14 09:28:26] INFO root fetch - processPackages [drf-simplejwt-additions]: Remove: archive file [/home/abi/fetcher/tmp/drf-simplejwt-additions-1.1.1.tar.gz]
+[2023-06-14 09:28:26] INFO root fetch - main [MainThread]: End processing [drf-simplejwt-additions]: success
+[2023-06-14 09:28:27] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.8.2.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - processPackages [vwo-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/vwo-python-sdk-1.9.0.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - main [MainThread]: End processing [vwo-python-sdk]: success
+[2023-06-14 09:28:27] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-0.1.9-py3-none-any.whl.zip]
+[2023-06-14 09:28:27] INFO root fetch - processPackages [netspresso]: Remove: archive file [/home/abi/fetcher/tmp/netspresso-1.0.0-py3-none-any.whl.zip]
+[2023-06-14 09:28:27] INFO root fetch - main [MainThread]: End processing [netspresso]: success
+[2023-06-14 09:28:27] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.2.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.8.3.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-06-14 09:28:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-14 09:28:27] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.86-py3-none-any.whl.zip]
+[2023-06-14 09:28:27] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 09:28:27] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-14 09:28:27] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.8.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-06-14 09:28:27] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-14 09:28:28] INFO root fetch - processPackages [autobahn]: Remove: archive file [/home/abi/fetcher/tmp/autobahn-23.6.1.tar.gz]
+[2023-06-14 09:28:28] INFO root fetch - processPackages [autobahn]: Remove: archive file [/home/abi/fetcher/tmp/autobahn-23.6.2.tar.gz]
+[2023-06-14 09:28:28] INFO root fetch - main [MainThread]: End processing [autobahn]: success
+[2023-06-14 09:28:28] INFO root fetch - main [MainThread]: Store serial: [18497570]
