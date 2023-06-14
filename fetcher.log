@@ -20095,3 +20095,95 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 12:05:17] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.3.0b1.tar.gz]
 [2023-06-14 12:05:17] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
 [2023-06-14 12:05:17] INFO root fetch - main [MainThread]: Store serial: [18499512]
+[2023-06-14 12:10:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499512]
+[2023-06-14 12:10:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-mail-thunder
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-mail-thunder-dev
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JenishVidjaPractical
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blockpipe-db
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ersilia
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaohn-common-utils
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumiverse-mssql
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GTST
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-testing-platform
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gefpy
+[2023-06-14 12:10:26] INFO root fetch - processPackages [pulumiverse-mssql]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 12:10:26] WARNING root fetch - processPackages [JenishVidjaPractical]: Skipping, unable to determine old version
+[2023-06-14 12:10:26] INFO root fetch - processPackages [JenishVidjaPractical]: Start processing: nmma
+[2023-06-14 12:10:26] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.49] Old Version: [0.0.48]
+[2023-06-14 12:10:26] INFO root fetch - main [MainThread]: End processing [JenishVidjaPractical] error
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [gefpy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [blockpipe-db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [GTST]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [nmma]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/ff/73/871bacb4e91295d621f9ab0a77f7d0af9c6113b57b6f5d2f4aa8b10e9709/raga-testing-platform-1.0.2.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [nmma]: Downloading https://files.pythonhosted.org/packages/f2/94/e01c3150b9a1fe4ae8938894e51f0aba089c3e5fc00736f14fe846c674d3/nmma-0.0.8.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [pulumiverse-mssql]: Downloading https://files.pythonhosted.org/packages/70/a0/98dff76e691a192eca7504f8b31e694542753c588965f033cd52c99ba437/pulumiverse_mssql-0.0.6.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/00/f5/1fddea644fa72ad7caf4c3541fd95402c82966b9bf3cee33a9664308ae54/je_mail_thunder-0.0.8.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/82/06/fbd41c8ec69461af65ecfe3341dff4cf6ccf24d78368b58747dd6ed350e1/gaohn-common-utils-0.0.48.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [GTST]: Downloading https://files.pythonhosted.org/packages/5d/fa/99e3b5cad1bb5fb6ef1dbe375af41835c6d77439b066c1d2b544b29b2e62/gtst-0.0.5.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [blockpipe-db]: Downloading https://files.pythonhosted.org/packages/4a/98/9c554d6e4a1dbb340da5b6c93593b926987a3b4f6c6a15af0552d3d57720/blockpipe_db-0.1.8.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/41/d5/24e7698e63e60ced965283a80d676ed4b0d1b15555fb702520831f04ea27/gefpy-0.6.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 12:10:26] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/96/72/3873f61205a670ef64026d8c85eb0e7d8a7b4e86ca0247737d78a12e900d/raga-testing-platform-1.0.3.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-06-14 12:10:26] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230614/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 12:10:26] INFO root fetch - processPackages [nmma]: Downloading https://files.pythonhosted.org/packages/00/70/05561af5dadf020542dc2e2f5108c81dcd2790d9427cbf8ae4dbc1654bb3/nmma-0.0.9.tar.gz
+[2023-06-14 12:10:27] INFO root fetch - processPackages [pulumiverse-mssql]: Downloading https://files.pythonhosted.org/packages/a6/5d/dc4ec67c106f3d48cea5348f7e66df618428f6a35a458c6262ac3a66d038/pulumiverse_mssql-0.0.7.tar.gz
+[2023-06-14 12:10:27] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230614/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/76/c7/482286f47a1fe2dd0b01d4db6cfe4b666b25f3d0c0328568e9691eb32554/gaohn-common-utils-0.0.49.tar.gz
+[2023-06-14 12:10:27] INFO root fetch - processPackages [blockpipe-db]: Downloading https://files.pythonhosted.org/packages/2d/39/0bf5c902e939ad599c747dff4f82afc06daad4a9bb0eb60e00eee23a966d/blockpipe_db-0.1.9.tar.gz
+[2023-06-14 12:10:27] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [nmma]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.2.tar.gz tmp/raga-testing-platform-1.0.3.tar.gz --markdown 20230614/r/raga-testing-platform/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [nmma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmma-0.0.8.tar.gz tmp/nmma-0.0.9.tar.gz --markdown 20230614/n/nmma/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [pulumiverse-mssql]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [pulumiverse-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_mssql-0.0.6.tar.gz tmp/pulumiverse_mssql-0.0.7.tar.gz --markdown 20230614/p/pulumiverse-mssql/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [GTST]: Downloading https://files.pythonhosted.org/packages/85/30/fa8ed601def515a78039bd2d025ad9e1288f6758693d6e35f2f95dccc9a9/GTST-0.0.6.tar.gz
+[2023-06-14 12:10:27] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.48.tar.gz tmp/gaohn-common-utils-0.0.49.tar.gz --markdown 20230614/g/gaohn-common-utils/0.0.48-0.0.49/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [blockpipe-db]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [blockpipe-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockpipe_db-0.1.8.tar.gz tmp/blockpipe_db-0.1.9.tar.gz --markdown 20230614/b/blockpipe-db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [GTST]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [GTST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtst-0.0.5.tar.gz tmp/GTST-0.0.6.tar.gz --markdown 20230614/G/GTST/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 12:10:27] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/0e/52/72dbb2396dffc495c2d329b371da485bd85f60db90b846ea3b2ad2944f73/je_mail_thunder-0.0.9.tar.gz
+[2023-06-14 12:10:27] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 30509572>=10485760
+[2023-06-14 12:10:27] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-06-14 12:10:27] INFO root fetch - processPackages [je-mail-thunder]: executing diffoscope
+[2023-06-14 12:10:27] INFO root fetch - processPackages [je-mail-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder-0.0.8.tar.gz tmp/je_mail_thunder-0.0.9.tar.gz --markdown 20230614/j/je-mail-thunder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 12:10:28] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-06-14 12:10:28] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.2.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.3.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-14 12:10:28] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.48.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.49.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-14 12:10:28] INFO root fetch - processPackages [blockpipe-db]: Remove: archive file [/home/abi/fetcher/tmp/blockpipe_db-0.1.8.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - processPackages [blockpipe-db]: Remove: archive file [/home/abi/fetcher/tmp/blockpipe_db-0.1.9.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - main [MainThread]: End processing [blockpipe-db]: success
+[2023-06-14 12:10:28] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.8.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.9.tar.gz]
+[2023-06-14 12:10:28] INFO root fetch - main [MainThread]: End processing [je-mail-thunder]: success
+[2023-06-14 12:10:29] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2023-06-14 12:10:29] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2023-06-14 12:10:29] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-06-14 12:10:30] INFO root fetch - processPackages [GTST]: Remove: archive file [/home/abi/fetcher/tmp/gtst-0.0.5.tar.gz]
+[2023-06-14 12:10:30] INFO root fetch - processPackages [GTST]: Remove: archive file [/home/abi/fetcher/tmp/GTST-0.0.6.tar.gz]
+[2023-06-14 12:10:30] INFO root fetch - main [MainThread]: End processing [GTST]: success
+[2023-06-14 12:10:31] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.8.tar.gz]
+[2023-06-14 12:10:31] INFO root fetch - processPackages [nmma]: Remove: archive file [/home/abi/fetcher/tmp/nmma-0.0.9.tar.gz]
+[2023-06-14 12:10:31] INFO root fetch - main [MainThread]: End processing [nmma]: success
+[2023-06-14 12:11:26] INFO root fetch - processPackages [pulumiverse-mssql]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_mssql-0.0.6.tar.gz]
+[2023-06-14 12:11:26] INFO root fetch - processPackages [pulumiverse-mssql]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_mssql-0.0.7.tar.gz]
+[2023-06-14 12:11:26] INFO root fetch - main [MainThread]: End processing [pulumiverse-mssql]: success
+[2023-06-14 12:11:26] INFO root fetch - main [MainThread]: Store serial: [18499550]
