@@ -5226,3 +5226,118 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 02:40:47] INFO root fetch - processPackages [tencentcloud-sdk-python-youmall]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-youmall-3.0.913.tar.gz]
 [2023-06-14 02:40:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-youmall]: success
 [2023-06-14 02:40:47] INFO root fetch - main [MainThread]: Store serial: [18493615]
+[2023-06-14 02:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18493615]
+[2023-06-14 02:45:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-zj
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-radar
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: control-rod
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-ai-language-conversations
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vocex
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtfield
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Auto3D
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WinTraceroute
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catencfamily
+[2023-06-14 02:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: determined
+[2023-06-14 02:45:57] INFO root fetch - processPackages [cloud-radar]: New version: [0.8.0a0] Old Version: [0.7.3a3]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [azure-ai-language-conversations]: New version: [1.1.0b3] Old Version: [1.1.0b2]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [dtfield]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [vocex]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [control-rod]: New version: [2023.6.13.0] Old Version: [2023.5.6.1]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [Auto3D]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [catencfamily]: New version: [0.0.72] Old Version: [0.0.71]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [WinTraceroute]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [determined]: New version: [0.23.0rc4] Old Version: [0.23.0rc3]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: New version: [3.0.914] Old Version: [3.0.913]
+[2023-06-14 02:45:57] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/aa/f8/3d5ce439640621e728d51776cc1cbe32596a8925da9dd7c6fb060dc5780b/dtfield-0.1.9.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/c2/bb/22af7dcf5c0e18611d9ced2bbd308d4e1d08e15369781feab45c19cbc48f/catencfamily-0.0.71.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/2e/b9/9ee33d2c1d730f203e981a1d1e1a40d073c82257c5fd6996a2594de620ce/WinTraceroute-1.3.8.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/cd/e2/a5c9912686491f72d9552443e2922afdc65615d76e7285f73fcc1717f242/determined-0.23.0rc3-py3-none-any.whl
+[2023-06-14 02:45:57] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/fa/a7/01cbd172b62c464735d060f8f43bed548bc60a5454fb946b34452f5d6dfc/cloud_radar-0.7.3a3.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/0c/91/8870111dd66a7b9a154f3d9e55abc44b13b0cdc963564cd404f552a623cd/control_rod-2023.5.6.1.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [Auto3D]: Downloading https://files.pythonhosted.org/packages/ea/b7/97fb2e7280444a15f69d7918bed6dceba3de083340704424cbf444a9cf1c/Auto3D-2.0.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/f0/f1/eb7e7283283a9622c2b57a1912939594fa42359761b0e7c6e34f2945e42c/WinTraceroute-1.3.9.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [dtfield]: Downloading https://files.pythonhosted.org/packages/92/f7/a7dc8547481edca116ec1c271608c33d44f3996df5325a1bd81fa5b1ca82/dtfield-0.2.0.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [vocex]: Downloading https://files.pythonhosted.org/packages/2a/d2/bc3e3acfaec9fef7bc8306ad15d8b8c12dd8aea52b0901f1b4cff114ae6b/vocex-0.1.6.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [azure-ai-language-conversations]: Downloading https://files.pythonhosted.org/packages/45/f9/f196fd29a819871a76e0f747ed07e947ba1fb98e6e3421ba0d437cbe9f00/azure-ai-language-conversations-1.1.0b2.zip
+[2023-06-14 02:45:57] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/c8/2c/3e9cc7d0d3d19fbba19464d0593f37f9cb812ba505a29ea500998a3998da/tencentcloud-sdk-python-zj-3.0.913.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/05/23/70bfd6795307c6f2ab90710227256dd47d43ea6c23a6e0f1737cf0788427/determined-0.23.0rc4-py3-none-any.whl
+[2023-06-14 02:45:57] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/6b/af/5089b72cee8adc61a31fffacb8d87a883811ecb666f5494e66a3b15eff2d/catencfamily-0.0.72.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-06-14 02:45:57] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.3.8.tar.gz tmp/WinTraceroute-1.3.9.tar.gz --markdown 20230614/W/WinTraceroute/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-14 02:45:57] INFO root fetch - processPackages [dtfield]: executing diffoscope
+[2023-06-14 02:45:57] INFO root fetch - processPackages [dtfield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtfield-0.1.9.tar.gz tmp/dtfield-0.2.0.tar.gz --markdown 20230614/d/dtfield/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 02:45:57] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-14 02:45:57] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.71.tar.gz tmp/catencfamily-0.0.72.tar.gz --markdown 20230614/c/catencfamily/0.0.71-0.0.72/diff.md --exclude *.pyd
+[2023-06-14 02:45:57] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/5c/98/bb9c5ad9e5f83cb58881f4f0da0f707beebe6b67bb202e64442c7d3f46bf/cloud_radar-0.8.0a0.tar.gz
+[2023-06-14 02:45:57] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-14 02:45:57] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.0rc3-py3-none-any.whl.zip tmp/determined-0.23.0rc4-py3-none-any.whl.zip --markdown 20230614/d/determined/0.23.0rc3-0.23.0rc4/diff.md --exclude *.pyd
+[2023-06-14 02:45:57] WARNING root fetch - processPackages [Auto3D]: Skipping package: exceeds size limit 41930935>=10485760
+[2023-06-14 02:45:57] INFO root fetch - processPackages [Auto3D]: Start processing: model-hub
+[2023-06-14 02:45:57] INFO root fetch - main [MainThread]: End processing [Auto3D] error
+[2023-06-14 02:45:57] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-06-14 02:45:57] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.7.3a3.tar.gz tmp/cloud_radar-0.8.0a0.tar.gz --markdown 20230614/c/cloud-radar/0.7.3a3-0.8.0a0/diff.md --exclude *.pyd
+[2023-06-14 02:45:57] INFO root fetch - processPackages [model-hub]: New version: [0.23.0rc4] Old Version: [0.23.0rc3]
+[2023-06-14 02:45:58] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Downloading https://files.pythonhosted.org/packages/fd/fd/e001b837255f76d82d968f51925c1dfc0a716fd1ee344bfa26dea2970bfb/tencentcloud-sdk-python-zj-3.0.914.tar.gz
+[2023-06-14 02:45:58] INFO root fetch - processPackages [vocex]: Downloading https://files.pythonhosted.org/packages/8a/14/31d687ffdc94ba496b5260118fb03fbf41f68a3be1c6021af97e3dc64d06/vocex-0.1.7.tar.gz
+[2023-06-14 02:45:58] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/dd/64/07c74e7de6ef14191544b44041f2cad46f9fca954b765b21a58382bad514/model_hub-0.23.0rc3-py3-none-any.whl
+[2023-06-14 02:45:58] INFO root fetch - processPackages [azure-ai-language-conversations]: Downloading https://files.pythonhosted.org/packages/f6/c4/437007df481bd5a014b085dc285dd4baf238a62eb05976bf93039f218df3/azure-ai-language-conversations-1.1.0b3.zip
+[2023-06-14 02:45:58] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: executing diffoscope
+[2023-06-14 02:45:58] INFO root fetch - processPackages [vocex]: executing diffoscope
+[2023-06-14 02:45:58] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-zj-3.0.913.tar.gz tmp/tencentcloud-sdk-python-zj-3.0.914.tar.gz --markdown 20230614/t/tencentcloud-sdk-python-zj/3.0.913-3.0.914/diff.md --exclude *.pyd
+[2023-06-14 02:45:58] INFO root fetch - processPackages [vocex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocex-0.1.6.tar.gz tmp/vocex-0.1.7.tar.gz --markdown 20230614/v/vocex/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-14 02:45:58] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/34/47/2ef00c34cdb04ad44549c25e2fa5898cf26da331e89753edd9f150ee01e4/model_hub-0.23.0rc4-py3-none-any.whl
+[2023-06-14 02:45:58] INFO root fetch - processPackages [azure-ai-language-conversations]: executing diffoscope
+[2023-06-14 02:45:58] INFO root fetch - processPackages [azure-ai-language-conversations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-ai-language-conversations-1.1.0b2.zip tmp/azure-ai-language-conversations-1.1.0b3.zip --markdown 20230614/a/azure-ai-language-conversations/1.1.0b2-1.1.0b3/diff.md --exclude *.pyd
+[2023-06-14 02:45:58] INFO root fetch - processPackages [control-rod]: Downloading https://files.pythonhosted.org/packages/45/4b/d9ccd9a4fb13265df04260e1fb776fd265ec88c16acc5e1e83081c569b26/control_rod-2023.6.13.0.tar.gz
+[2023-06-14 02:45:58] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-14 02:45:58] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip tmp/model_hub-0.23.0rc4-py3-none-any.whl.zip --markdown 20230614/m/model-hub/0.23.0rc3-0.23.0rc4/diff.md --exclude *.pyd
+[2023-06-14 02:45:58] INFO root fetch - processPackages [control-rod]: executing diffoscope
+[2023-06-14 02:45:58] INFO root fetch - processPackages [control-rod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/control_rod-2023.5.6.1.tar.gz tmp/control_rod-2023.6.13.0.tar.gz --markdown 20230614/c/control-rod/2023.5.6.1-2023.6.13.0/diff.md --exclude *.pyd
+[2023-06-14 02:45:59] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.7.3a3.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.8.0a0.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [cloud-radar]: Start processing: tfds-nightly
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-06-14 02:45:59] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306130044] Old Version: [4.9.2.dev202306120045]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.913.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-zj-3.0.914.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [tencentcloud-sdk-python-zj]: Start processing: WinTraceroute
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-zj]: success
+[2023-06-14 02:45:59] INFO root fetch - processPackages [WinTraceroute]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.71.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.72.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-14 02:45:59] INFO root fetch - processPackages [vocex]: Remove: archive file [/home/abi/fetcher/tmp/vocex-0.1.6.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [vocex]: Remove: archive file [/home/abi/fetcher/tmp/vocex-0.1.7.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [vocex]: success
+[2023-06-14 02:45:59] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-06-14 02:45:59] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.3.8.tar.gz tmp/WinTraceroute-1.3.9.tar.gz --markdown 20230614/W/WinTraceroute/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-14 02:45:59] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/3f/7d/0bacc2f484c9f2d4203ba44c932bba3f959c5c2551721997d4116b6ed1b9/tfds-nightly-4.9.2.dev202306120045.tar.gz
+[2023-06-14 02:45:59] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.1.9.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [dtfield]: Remove: archive file [/home/abi/fetcher/tmp/dtfield-0.2.0.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [dtfield]: success
+[2023-06-14 02:45:59] INFO root fetch - processPackages [WinTraceroute]: Remove: archive file [/home/abi/fetcher/tmp/WinTraceroute-1.3.8.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [WinTraceroute]: Remove: archive file [/home/abi/fetcher/tmp/WinTraceroute-1.3.9.tar.gz]
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-06-14 02:45:59] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.0rc3-py3-none-any.whl.zip]
+[2023-06-14 02:45:59] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.0rc4-py3-none-any.whl.zip]
+[2023-06-14 02:45:59] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-14 02:46:00] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/aa/e2/5917e11b1dbdcc27c412d02e119b22351e7b14785a1b7d04f89f304c3458/tfds-nightly-4.9.2.dev202306130044.tar.gz
+[2023-06-14 02:46:00] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-14 02:46:00] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306120045.tar.gz tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz --markdown 20230614/t/tfds-nightly/4.9.2.dev202306120045-4.9.2.dev202306130044/diff.md --exclude *.pyd
+[2023-06-14 02:46:00] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.5.6.1.tar.gz]
+[2023-06-14 02:46:00] INFO root fetch - processPackages [control-rod]: Remove: archive file [/home/abi/fetcher/tmp/control_rod-2023.6.13.0.tar.gz]
+[2023-06-14 02:46:00] INFO root fetch - main [MainThread]: End processing [control-rod]: success
+[2023-06-14 02:46:00] ERROR root fetch - processPackages [WinTraceroute]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/WinTraceroute-1.3.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/WinTraceroute-1.3.9.tar.gz: No such file or directory
+
+[2023-06-14 02:46:00] INFO root fetch - main [MainThread]: End processing [WinTraceroute] error
+[2023-06-14 02:46:00] INFO root fetch - processPackages [azure-ai-language-conversations]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-language-conversations-1.1.0b2.zip]
+[2023-06-14 02:46:00] INFO root fetch - processPackages [azure-ai-language-conversations]: Remove: archive file [/home/abi/fetcher/tmp/azure-ai-language-conversations-1.1.0b3.zip]
+[2023-06-14 02:46:00] INFO root fetch - main [MainThread]: End processing [azure-ai-language-conversations]: success
+[2023-06-14 02:46:01] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc3-py3-none-any.whl.zip]
+[2023-06-14 02:46:01] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.0rc4-py3-none-any.whl.zip]
+[2023-06-14 02:46:01] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-14 02:46:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306120045.tar.gz]
+[2023-06-14 02:46:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz]
+[2023-06-14 02:46:11] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-14 02:46:11] INFO root fetch - main [MainThread]: Store serial: [18493655]
