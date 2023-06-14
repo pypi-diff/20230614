@@ -9743,3 +9743,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:04:23] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.6-py2.py3-none-any.whl.zip]
 [2023-06-14 04:04:23] INFO root fetch - main [MainThread]: End processing [pyocs]: success
 [2023-06-14 04:04:23] INFO root fetch - main [MainThread]: Store serial: [18495195]
+[2023-06-14 04:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495195]
+[2023-06-14 04:09:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 04:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: circuitpython-build-tools
+[2023-06-14 04:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-14 04:09:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oceanumlab
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctidb
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssi-fctrading
+[2023-06-14 04:09:34] INFO root fetch - processPackages [circuitpython-build-tools]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-06-14 04:09:34] INFO root fetch - processPackages [yplib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ctidb]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 04:09:34] WARNING root fetch - processPackages [ssi-fctrading]: Skipping, unable to determine old version
+[2023-06-14 04:09:34] INFO root fetch - main [MainThread]: End processing [ssi-fctrading] error
+[2023-06-14 04:09:34] INFO root fetch - processPackages [oceanumlab]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/bd/14/fb2ebc466c39aeb7a4e3cf4f7530bfa3db0e3c6e5a2b4acda89fcf8a6da9/ctidb-0.0.4.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/95/2a/3b5f123abbeea751cad3bc84a7db0ee8b5eb395037703109d2f282e2d336/yplib-1.1.0.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [circuitpython-build-tools]: Downloading https://files.pythonhosted.org/packages/f7/a7/62a98a7db8ad85e758802dddfad1d6f3093128d2c7487059629ffcc5d1e6/circuitpython-build-tools-1.8.6.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [oceanumlab]: Downloading https://files.pythonhosted.org/packages/52/63/3d85789f70144eb0997cf6e6dab582ab2abc0005203a5cac24f8def4e9f0/oceanumlab-0.4.0.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/4e/aa/4cdd794213911cc97310bcdc6b44724b411a086948d23ce61c266d129b8c/yplib-1.1.1.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ctidb]: Downloading https://files.pythonhosted.org/packages/8c/2d/485bceb61457769be67f76ae854a9f96f46c56d231f517be7c9117eeda8d/ctidb-0.0.5.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 04:09:34] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.0.tar.gz tmp/yplib-1.1.1.tar.gz --markdown 20230614/y/yplib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ctidb]: executing diffoscope
+[2023-06-14 04:09:34] INFO root fetch - processPackages [ctidb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctidb-0.0.4.tar.gz tmp/ctidb-0.0.5.tar.gz --markdown 20230614/c/ctidb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 04:09:34] INFO root fetch - processPackages [oceanumlab]: Downloading https://files.pythonhosted.org/packages/7d/ca/622cdcc654d312a580795f185c3e5256790164396434e2dfd80fa5d318f0/oceanumlab-0.4.1.tar.gz
+[2023-06-14 04:09:34] INFO root fetch - processPackages [oceanumlab]: executing diffoscope
+[2023-06-14 04:09:34] INFO root fetch - processPackages [oceanumlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanumlab-0.4.0.tar.gz tmp/oceanumlab-0.4.1.tar.gz --markdown 20230614/o/oceanumlab/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 04:09:35] INFO root fetch - processPackages [circuitpython-build-tools]: Downloading https://files.pythonhosted.org/packages/91/65/1835f5e3902aac3369459170b3d4658524d43e0317e7907a0f88c851e149/circuitpython-build-tools-1.9.0.tar.gz
+[2023-06-14 04:09:35] INFO root fetch - processPackages [circuitpython-build-tools]: executing diffoscope
+[2023-06-14 04:09:35] INFO root fetch - processPackages [circuitpython-build-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-build-tools-1.8.6.tar.gz tmp/circuitpython-build-tools-1.9.0.tar.gz --markdown 20230614/c/circuitpython-build-tools/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 04:09:35] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.0.tar.gz]
+[2023-06-14 04:09:35] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.1.tar.gz]
+[2023-06-14 04:09:35] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 04:09:35] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-0.0.4.tar.gz]
+[2023-06-14 04:09:35] INFO root fetch - processPackages [ctidb]: Remove: archive file [/home/abi/fetcher/tmp/ctidb-0.0.5.tar.gz]
+[2023-06-14 04:09:35] INFO root fetch - main [MainThread]: End processing [ctidb]: success
+[2023-06-14 04:09:36] INFO root fetch - processPackages [circuitpython-build-tools]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-build-tools-1.8.6.tar.gz]
+[2023-06-14 04:09:36] INFO root fetch - processPackages [circuitpython-build-tools]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-build-tools-1.9.0.tar.gz]
+[2023-06-14 04:09:36] INFO root fetch - main [MainThread]: End processing [circuitpython-build-tools]: success
+[2023-06-14 04:09:36] INFO root fetch - processPackages [oceanumlab]: Remove: archive file [/home/abi/fetcher/tmp/oceanumlab-0.4.0.tar.gz]
+[2023-06-14 04:09:36] INFO root fetch - processPackages [oceanumlab]: Remove: archive file [/home/abi/fetcher/tmp/oceanumlab-0.4.1.tar.gz]
+[2023-06-14 04:09:36] INFO root fetch - main [MainThread]: End processing [oceanumlab]: success
+[2023-06-14 04:09:36] INFO root fetch - main [MainThread]: Store serial: [18495211]
