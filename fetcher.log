@@ -10486,3 +10486,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:54:04] INFO root fetch - processPackages [solox]: Remove: archive file [/home/abi/fetcher/tmp/solox-2.6.5.tar.gz]
 [2023-06-14 04:54:04] INFO root fetch - main [MainThread]: End processing [solox]: success
 [2023-06-14 04:54:04] INFO root fetch - main [MainThread]: Store serial: [18495455]
+[2023-06-14 04:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495455]
+[2023-06-14 04:59:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 04:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tgtoolsinsta
+[2023-06-14 04:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-folders-aws-s3
+[2023-06-14 04:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradchat
+[2023-06-14 04:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwsurrogate
+[2023-06-14 04:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi
+[2023-06-14 04:59:14] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-06-14 04:59:14] WARNING root fetch - processPackages [tgtoolsinsta]: Skipping, unable to determine old version
+[2023-06-14 04:59:14] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-06-14 04:59:14] INFO root fetch - main [MainThread]: End processing [tgtoolsinsta] error
+[2023-06-14 04:59:14] INFO root fetch - processPackages [gwsurrogate]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-14 04:59:14] INFO root fetch - processPackages [heaserver-folders-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-14 04:59:14] INFO root fetch - processPackages [hyfi]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-14 04:59:14] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/2f/ed/69731055e3f58c41573513cdfcc3be1a82dd86658588fc85dad1f4648699/hyfi-0.5.0.tar.gz
+[2023-06-14 04:59:14] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f8/10/3a86463ed5a3cada680e1678f42cfdf2a07f27f8cdb90c8d0c3f57f9ab82/heaserver-folders-aws-s3-1.0.0a8.tar.gz
+[2023-06-14 04:59:14] INFO root fetch - processPackages [gwsurrogate]: Downloading https://files.pythonhosted.org/packages/e2/4e/8e0e61b1f71505349880d70aa50891b83f355c8c2043b7d46627fdbff6e7/gwsurrogate-1.1.3.tar.gz
+[2023-06-14 04:59:15] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/f7/7c/b8a975ac49b2a45cae33edfc8d3970aa325e25520e604cd462feb83b3cf0/hyfi-0.5.1.tar.gz
+[2023-06-14 04:59:15] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Downloading https://files.pythonhosted.org/packages/f0/b0/dda81eace819afe1df5d783a040e576f769b7f6834886d20e39ca1737454/heaserver-folders-aws-s3-1.0.0a9.tar.gz
+[2023-06-14 04:59:15] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-14 04:59:15] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.5.0.tar.gz tmp/hyfi-0.5.1.tar.gz --markdown 20230614/h/hyfi/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-14 04:59:15] INFO root fetch - processPackages [heaserver-folders-aws-s3]: executing diffoscope
+[2023-06-14 04:59:15] INFO root fetch - processPackages [heaserver-folders-aws-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz --markdown 20230614/h/heaserver-folders-aws-s3/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-14 04:59:16] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a8.tar.gz]
+[2023-06-14 04:59:16] INFO root fetch - processPackages [heaserver-folders-aws-s3]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-folders-aws-s3-1.0.0a9.tar.gz]
+[2023-06-14 04:59:16] INFO root fetch - main [MainThread]: End processing [heaserver-folders-aws-s3]: success
+[2023-06-14 04:59:16] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.5.0.tar.gz]
+[2023-06-14 04:59:16] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.5.1.tar.gz]
+[2023-06-14 04:59:16] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-14 04:59:16] INFO root fetch - processPackages [gwsurrogate]: Downloading https://files.pythonhosted.org/packages/da/d9/e2c6d1d1bfd08975e811f6f5e01b9bd7ac43f74d4185bf86b8593bf4ab1b/gwsurrogate-1.1.4.tar.gz
+[2023-06-14 04:59:17] INFO root fetch - processPackages [gwsurrogate]: executing diffoscope
+[2023-06-14 04:59:17] INFO root fetch - processPackages [gwsurrogate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwsurrogate-1.1.3.tar.gz tmp/gwsurrogate-1.1.4.tar.gz --markdown 20230614/g/gwsurrogate/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-14 04:59:20] INFO root fetch - processPackages [gwsurrogate]: Remove: archive file [/home/abi/fetcher/tmp/gwsurrogate-1.1.3.tar.gz]
+[2023-06-14 04:59:20] INFO root fetch - processPackages [gwsurrogate]: Remove: archive file [/home/abi/fetcher/tmp/gwsurrogate-1.1.4.tar.gz]
+[2023-06-14 04:59:20] INFO root fetch - main [MainThread]: End processing [gwsurrogate]: success
+[2023-06-14 04:59:20] INFO root fetch - main [MainThread]: Store serial: [18495472]
