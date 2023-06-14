@@ -12327,3 +12327,368 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:32:09] INFO root fetch - processPackages [esp-secure-cert-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-secure-cert-tool-1.0.1.tar.gz]
 [2023-06-14 06:32:09] INFO root fetch - main [MainThread]: End processing [esp-secure-cert-tool]: success
 [2023-06-14 06:32:09] INFO root fetch - main [MainThread]: Store serial: [18496094]
+[2023-06-14 06:37:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496094]
+[2023-06-14 06:37:19] INFO root fetch - main [MainThread]: Found 42 changed packages
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satori-playbook-validator
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: re2shield
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flytekit
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flytekitplugins-athena
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flytekitplugins-awsbatch
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flytekitplugins-awssagemaker
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flytekitplugins-bigquery
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flytekitplugins-dask
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flytekitplugins-data-fsspec
+[2023-06-14 06:37:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flytekitplugins-dbt
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-athena]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [satori-playbook-validator]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-dask]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-bigquery]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-dbt]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekit]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] WARNING root fetch - processPackages [re2shield]: Skipping, unable to determine old version
+[2023-06-14 06:37:19] INFO root fetch - processPackages [re2shield]: Start processing: flytekitplugins-deck-standard
+[2023-06-14 06:37:19] INFO root fetch - main [MainThread]: End processing [re2shield] error
+[2023-06-14 06:37:19] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/78/28/ba788800275fc7c5473d71e0e4797b5b4767e1cd9fd7727bd059b1feb308/satori_playbook_validator-2.1.0.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-deck-standard]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Downloading https://files.pythonhosted.org/packages/38/e8/9aa4d29f2047d46d923dd0dcbfe055b1a01a0d2788444c924477cfde8d4c/flytekitplugins-awsbatch-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-bigquery]: Downloading https://files.pythonhosted.org/packages/88/b7/48abf628d5ab4070fa53d10ef22a94017342083c5f64e309c5401d58ee1b/flytekitplugins-bigquery-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-dbt]: Downloading https://files.pythonhosted.org/packages/dc/aa/16b9c4f61253132fb5655cbcd7d9b68174c27d8e9f8d14b3f7edfe8586c9/flytekitplugins-dbt-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekit]: Downloading https://files.pythonhosted.org/packages/39/29/6b681b8c342f2e8af702eb35ee2b094953cae168dbb27dc602cdc8fcf5bf/flytekit-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: Downloading https://files.pythonhosted.org/packages/27/7a/da9ffad5c8ed9ffa7ae73d60759e5182c740174873136bb77c17f862731f/flytekitplugins-data-fsspec-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-athena]: Downloading https://files.pythonhosted.org/packages/db/29/b839ee6bec6cc8ea3a45d601aee763c6edd474e633319622c5c6b8c22e0c/flytekitplugins-athena-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: Downloading https://files.pythonhosted.org/packages/23/0d/6c0f254799b2c2d936d8edeafb11965c83211e3e6c1dff532dda7deb23b3/flytekitplugins-awssagemaker-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-dask]: Downloading https://files.pythonhosted.org/packages/2e/16/604d0344bd124e81a0cd90efc3677d2e64067394ceebf96f042c455f6a39/flytekitplugins-dask-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-deck-standard]: Downloading https://files.pythonhosted.org/packages/8d/19/ae04585dcdd0285c801553d9fa84dba764be8681054203be69680067d109/flytekitplugins-deck-standard-1.6.2b1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [satori-playbook-validator]: Downloading https://files.pythonhosted.org/packages/47/54/60c5ec879531ffaeed8bda58e8304fbc4cb71a7d17f806958937a1234e9c/satori_playbook_validator-2.1.1.tar.gz
+[2023-06-14 06:37:19] INFO root fetch - processPackages [satori-playbook-validator]: executing diffoscope
+[2023-06-14 06:37:19] INFO root fetch - processPackages [satori-playbook-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_playbook_validator-2.1.0.tar.gz tmp/satori_playbook_validator-2.1.1.tar.gz --markdown 20230614/s/satori-playbook-validator/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-14 06:37:19] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Downloading https://files.pythonhosted.org/packages/9c/35/66712e79c4c5a624f4eab0ca2a508b51ade0f8258ddfd8eae5ce38ceeb86/flytekitplugins-awsbatch-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-awsbatch]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-awsbatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-awsbatch-1.6.2b1.tar.gz tmp/flytekitplugins-awsbatch-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-awsbatch/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-bigquery]: Downloading https://files.pythonhosted.org/packages/ee/5f/4d15b56beb1ac9397c7fa7d79e661f2b3e9f24979c6baa1f786fcbfb91a8/flytekitplugins-bigquery-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: Downloading https://files.pythonhosted.org/packages/af/92/0735426f5f4e370f5e05b69f20b653410e7031689154cf6401d87ae32d86/flytekitplugins-data-fsspec-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-dbt]: Downloading https://files.pythonhosted.org/packages/c8/c2/dd15991aaf432103197bc15db7c8688feccdd762523f6ef4b3aa97907c4e/flytekitplugins-dbt-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekit]: Downloading https://files.pythonhosted.org/packages/54/f1/657178fccf8dc7b58eb8e38c02b0cda26e91e8c4ec6fde16794b95c2f14a/flytekit-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-dask]: Downloading https://files.pythonhosted.org/packages/75/6a/32435bf05619f9197a81bde3fbec30d08cdcbfc75d0fd9aa55f8a216ec2d/flytekitplugins-dask-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: Downloading https://files.pythonhosted.org/packages/62/d7/0c59968a50d08d2962edfb28ca5edb5393a0f89a804b0c29f936929f006e/flytekitplugins-awssagemaker-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-bigquery]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-bigquery-1.6.2b1.tar.gz tmp/flytekitplugins-bigquery-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-bigquery/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-athena]: Downloading https://files.pythonhosted.org/packages/71/65/47538e5761d0040037691d0e5ad23c8bd49a985daecdfe76230e2a0ab376/flytekitplugins-athena-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-data-fsspec-1.6.2b1.tar.gz tmp/flytekitplugins-data-fsspec-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-data-fsspec/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-dask]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekit]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-dask-1.6.2b1.tar.gz tmp/flytekitplugins-dask-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-dask/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-dbt]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-deck-standard]: Downloading https://files.pythonhosted.org/packages/3c/17/f4e11379b7ae3338ecb1371006d849de3a347ac48fc48e730ee754dad3ed/flytekitplugins-deck-standard-1.7.0.tar.gz
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekit-1.6.2b1.tar.gz tmp/flytekit-1.7.0.tar.gz --markdown 20230614/f/flytekit/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-dbt-1.6.2b1.tar.gz tmp/flytekitplugins-dbt-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-dbt/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-awssagemaker-1.6.2b1.tar.gz tmp/flytekitplugins-awssagemaker-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-awssagemaker/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-athena]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-athena-1.6.2b1.tar.gz tmp/flytekitplugins-athena-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-athena/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-deck-standard]: executing diffoscope
+[2023-06-14 06:37:20] INFO root fetch - processPackages [flytekitplugins-deck-standard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-deck-standard-1.6.2b1.tar.gz tmp/flytekitplugins-deck-standard-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-deck-standard/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:21] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.1.0.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [satori-playbook-validator]: Remove: archive file [/home/abi/fetcher/tmp/satori_playbook_validator-2.1.1.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [satori-playbook-validator]: Start processing: flytekitplugins-dolt
+[2023-06-14 06:37:21] INFO root fetch - main [MainThread]: End processing [satori-playbook-validator]: success
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-awsbatch-1.6.2b1.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-awsbatch-1.7.0.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-awsbatch]: Start processing: flytekitplugins-duckdb
+[2023-06-14 06:37:21] INFO root fetch - main [MainThread]: End processing [flytekitplugins-awsbatch]: success
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-duckdb]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-dolt]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-data-fsspec-1.6.2b1.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-data-fsspec-1.7.0.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-data-fsspec]: Start processing: flytekitplugins-envd
+[2023-06-14 06:37:21] INFO root fetch - main [MainThread]: End processing [flytekitplugins-data-fsspec]: success
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-envd]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-duckdb]: Downloading https://files.pythonhosted.org/packages/ee/b8/9669b8888952efa91dc9855b0d9c48fdb6448025cb2fb439a73ce37a4391/flytekitplugins-duckdb-1.6.2b1.tar.gz
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-bigquery-1.6.2b1.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-bigquery-1.7.0.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-bigquery]: Start processing: flytekitplugins-great-expectations
+[2023-06-14 06:37:21] INFO root fetch - main [MainThread]: End processing [flytekitplugins-bigquery]: success
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-dolt]: Downloading https://files.pythonhosted.org/packages/b9/b9/436b2b3af4ef7f33a508851656c86f620096f5604223baf02012c65c20b4/flytekitplugins-dolt-1.6.2b1.tar.gz
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-great-expectations]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-envd]: Downloading https://files.pythonhosted.org/packages/ed/b1/b45f36d177c9c6222ddd3013c444ceb9b956435016856d569292c322dd69/flytekitplugins-envd-1.6.2b1.tar.gz
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-awssagemaker-1.6.2b1.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-awssagemaker-1.7.0.tar.gz]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-awssagemaker]: Start processing: flytekitplugins-hive
+[2023-06-14 06:37:21] INFO root fetch - main [MainThread]: End processing [flytekitplugins-awssagemaker]: success
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-hive]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-great-expectations]: Downloading https://files.pythonhosted.org/packages/c1/e8/69c5d197c81276107eaad842091dfa9107341f2fbb129ea25bcb23c23d53/flytekitplugins-great_expectations-1.6.2b1.tar.gz
+[2023-06-14 06:37:21] INFO root fetch - processPackages [flytekitplugins-duckdb]: Downloading https://files.pythonhosted.org/packages/b8/3f/86967a84c555af819f8a7edb6335373e95a25c476f8a3659b426a5e095e0/flytekitplugins-duckdb-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-deck-standard]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-deck-standard-1.6.2b1.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-deck-standard]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-deck-standard-1.7.0.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-deck-standard]: Start processing: flytekitplugins-huggingface
+[2023-06-14 06:37:22] INFO root fetch - main [MainThread]: End processing [flytekitplugins-deck-standard]: success
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dask]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-dask-1.6.2b1.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dask]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-dask-1.7.0.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dask]: Start processing: flytekitplugins-pod
+[2023-06-14 06:37:22] INFO root fetch - main [MainThread]: End processing [flytekitplugins-dask]: success
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-athena]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-athena-1.6.2b1.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-athena]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-athena-1.7.0.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-athena]: Start processing: flytekitplugins-kfmpi
+[2023-06-14 06:37:22] INFO root fetch - main [MainThread]: End processing [flytekitplugins-athena]: success
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-huggingface]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfmpi]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-duckdb]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-duckdb-1.6.2b1.tar.gz tmp/flytekitplugins-duckdb-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-duckdb/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-pod]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dolt]: Downloading https://files.pythonhosted.org/packages/cd/8d/8d75987dfa8d98b58a275bcd3948b9575a907244617f7c44a5ec7d75b354/flytekitplugins-dolt-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dbt]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-dbt-1.6.2b1.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dbt]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-dbt-1.7.0.tar.gz]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dbt]: Start processing: flytekitplugins-kfpytorch
+[2023-06-14 06:37:22] INFO root fetch - main [MainThread]: End processing [flytekitplugins-dbt]: success
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-hive]: Downloading https://files.pythonhosted.org/packages/16/78/389f18e90f2b7dc9acac3f9ff350223eaab482cdf0aab1aa42c7e397f573/flytekitplugins-hive-1.6.2b1.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-envd]: Downloading https://files.pythonhosted.org/packages/2d/5f/379b0464f064a53ca13d02b12d3f79ddbf064a2754beb51a35d21d7c89b9/flytekitplugins-envd-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dolt]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-dolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-dolt-1.6.2b1.tar.gz tmp/flytekitplugins-dolt-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-dolt/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-envd]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-envd-1.6.2b1.tar.gz tmp/flytekitplugins-envd-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-envd/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfmpi]: Downloading https://files.pythonhosted.org/packages/c1/3b/3e735eb76d024b7f28c451c632280d446225f74e2e9cd631b80c74864811/flytekitplugins-kfmpi-1.6.2b1.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-pod]: Downloading https://files.pythonhosted.org/packages/74/e1/6c52c07a9be50be10066c54f2acf4ee19a174670c01de64dd968a7b6ee68/flytekitplugins-pod-1.6.2b1.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-great-expectations]: Downloading https://files.pythonhosted.org/packages/0b/46/d0f6c3ea87584fd03594c870b022c6d9d73dbb8c2353b24585c4d7d7ad92/flytekitplugins-great_expectations-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-great-expectations]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-great-expectations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-great_expectations-1.6.2b1.tar.gz tmp/flytekitplugins-great_expectations-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-great-expectations/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: Downloading https://files.pythonhosted.org/packages/33/0c/0bef5249c59caf3e585ee3b4989fbfe29fc1d71c8863db565c7d4591c55c/flytekitplugins-kfpytorch-1.6.2b1.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-hive]: Downloading https://files.pythonhosted.org/packages/0f/5c/c8b30f7fb05c27477a4afc630b754d07a0e64f4375f778c68ba8d324cb99/flytekitplugins-hive-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-huggingface]: Downloading https://files.pythonhosted.org/packages/de/1e/1851f9225984eb806c2edb358e8f63bb77886a7425f1f984fb2736151791/flytekitplugins-huggingface-1.6.2b1.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-hive]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-hive-1.6.2b1.tar.gz tmp/flytekitplugins-hive-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-hive/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfmpi]: Downloading https://files.pythonhosted.org/packages/b9/05/025dbb8abc9fbe210137f95d52a4d7ee8082b939692fce3f95662add2aed/flytekitplugins-kfmpi-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-pod]: Downloading https://files.pythonhosted.org/packages/82/ab/bb124aef7c88c74baf4f20f3d93519691cb8de771daad1f055b9bc280601/flytekitplugins-pod-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfmpi]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-kfmpi-1.6.2b1.tar.gz tmp/flytekitplugins-kfmpi-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-kfmpi/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-pod]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-pod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-pod-1.6.2b1.tar.gz tmp/flytekitplugins-pod-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-pod/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: Downloading https://files.pythonhosted.org/packages/84/85/9e5f15645fbab759636befef44cbfaada08014edb10b8b4461ebd532f4d1/flytekitplugins-kfpytorch-1.7.0.tar.gz
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: executing diffoscope
+[2023-06-14 06:37:22] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-kfpytorch-1.6.2b1.tar.gz tmp/flytekitplugins-kfpytorch-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-kfpytorch/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-huggingface]: Downloading https://files.pythonhosted.org/packages/9c/2d/56e866369ae608df21f4540cffa3e79129cfeef8376040046c5a1a775b6b/flytekitplugins-huggingface-1.7.0.tar.gz
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-huggingface]: executing diffoscope
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-huggingface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-huggingface-1.6.2b1.tar.gz tmp/flytekitplugins-huggingface-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-huggingface/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-duckdb-1.6.2b1.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-duckdb]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-duckdb-1.7.0.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-duckdb]: Start processing: flytekitplugins-kftensorflow
+[2023-06-14 06:37:23] INFO root fetch - main [MainThread]: End processing [flytekitplugins-duckdb]: success
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-envd]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-envd-1.6.2b1.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-envd]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-envd-1.7.0.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-envd]: Start processing: flytekitplugins-mlflow
+[2023-06-14 06:37:23] INFO root fetch - main [MainThread]: End processing [flytekitplugins-envd]: success
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-mlflow]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-dolt]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-dolt-1.6.2b1.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-dolt]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-dolt-1.7.0.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-dolt]: Start processing: flytekitplugins-modin
+[2023-06-14 06:37:23] INFO root fetch - main [MainThread]: End processing [flytekitplugins-dolt]: success
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: Downloading https://files.pythonhosted.org/packages/87/5c/cb50fa00bfa101b038cc84b6fc1c163e17d616ba8f5d8f36090d6f857f23/flytekitplugins-kftensorflow-1.6.2b1.tar.gz
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-modin]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-mlflow]: Downloading https://files.pythonhosted.org/packages/20/4c/e05d922b1602394e998c921746c2768dee54ea0ef9822ca63dcc0195b24c/flytekitplugins-mlflow-1.6.2b1.tar.gz
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekit]: Remove: archive file [/home/abi/fetcher/tmp/flytekit-1.6.2b1.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekit]: Remove: archive file [/home/abi/fetcher/tmp/flytekit-1.7.0.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekit]: Start processing: flytekitplugins-onnxpytorch
+[2023-06-14 06:37:23] INFO root fetch - main [MainThread]: End processing [flytekit]: success
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-modin]: Downloading https://files.pythonhosted.org/packages/dd/1e/0e3e4b3327a5761d18ca2eaa83d13c26c38a1242e092a0d0b632d1f73591/flytekitplugins-modin-1.6.2b1.tar.gz
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-great_expectations-1.6.2b1.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-great-expectations]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-great_expectations-1.7.0.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-great-expectations]: Start processing: flytekitplugins-onnxscikitlearn
+[2023-06-14 06:37:23] INFO root fetch - main [MainThread]: End processing [flytekitplugins-great-expectations]: success
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-hive]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-hive-1.6.2b1.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-hive]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-hive-1.7.0.tar.gz]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-hive]: Start processing: flytekitplugins-pandera
+[2023-06-14 06:37:23] INFO root fetch - main [MainThread]: End processing [flytekitplugins-hive]: success
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-pandera]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: Downloading https://files.pythonhosted.org/packages/cb/35/25c01c1ef8434293bb75c1f3b27e5c3a48fd12d23449b4e6de7188fc6118/flytekitplugins-kftensorflow-1.7.0.tar.gz
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: Downloading https://files.pythonhosted.org/packages/10/97/c98c6ee5f445a2c3b4f59856b020b3d8a9ba3cf1cd5f459615fc1d4c23c7/flytekitplugins-onnxpytorch-1.6.2b1.tar.gz
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: executing diffoscope
+[2023-06-14 06:37:23] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-kftensorflow-1.6.2b1.tar.gz tmp/flytekitplugins-kftensorflow-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-kftensorflow/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-mlflow]: Downloading https://files.pythonhosted.org/packages/28/33/a1cb2de9f951eab07f4f8b2340e4ec3b4c650577b7d4d5188bf677569345/flytekitplugins-mlflow-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pod]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-pod-1.6.2b1.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pod]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-pod-1.7.0.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pod]: Start processing: flytekitplugins-papermill
+[2023-06-14 06:37:24] INFO root fetch - main [MainThread]: End processing [flytekitplugins-pod]: success
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-papermill]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-mlflow]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-mlflow-1.6.2b1.tar.gz tmp/flytekitplugins-mlflow-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-mlflow/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pandera]: Downloading https://files.pythonhosted.org/packages/bb/37/e07daea5a0d6c3f306a951ee6ed21bc9e7a521baac5f0f31a869cb724745/flytekitplugins-pandera-1.6.2b1.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: Downloading https://files.pythonhosted.org/packages/cf/01/821e86687bbd2bff4bed202e9f1cc24a24a0b1b36b31597ff1461a28ea25/flytekitplugins-onnxscikitlearn-1.6.2b1.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-modin]: Downloading https://files.pythonhosted.org/packages/66/4f/886e02f79864061a83415fe79a962b1176e3e40d356e3f37316cc7861f87/flytekitplugins-modin-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-modin]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-modin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-modin-1.6.2b1.tar.gz tmp/flytekitplugins-modin-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-modin/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-kfmpi]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-kfmpi-1.6.2b1.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-kfmpi]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-kfmpi-1.7.0.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-kfmpi]: Start processing: flytekitplugins-polars
+[2023-06-14 06:37:24] INFO root fetch - main [MainThread]: End processing [flytekitplugins-kfmpi]: success
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-polars]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-papermill]: Downloading https://files.pythonhosted.org/packages/d3/2a/89171676fadeb5a63b24696e723de7c242f4c18c869a2f7ac0f3bed3a4a6/flytekitplugins-papermill-1.6.2b1.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: Downloading https://files.pythonhosted.org/packages/10/bb/fcb7680a68ebd658ed17e273fa8c7355d7a795551727b2a313480a5f6d69/flytekitplugins-onnxpytorch-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-onnxpytorch-1.6.2b1.tar.gz tmp/flytekitplugins-onnxpytorch-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-onnxpytorch/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pandera]: Downloading https://files.pythonhosted.org/packages/88/49/4b16c320c0604da9b24fecc60537197955b68b8796b55a6d6cb7dd552c97/flytekitplugins-pandera-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-kfpytorch-1.6.2b1.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-kfpytorch-1.7.0.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-kfpytorch]: Start processing: flytekitplugins-ray
+[2023-06-14 06:37:24] INFO root fetch - main [MainThread]: End processing [flytekitplugins-kfpytorch]: success
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: Downloading https://files.pythonhosted.org/packages/f9/12/42b4136ad43b0a54025c8229cd84c13bed89fef618a73105eb7f3b8b4845/flytekitplugins-onnxscikitlearn-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pandera]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-pandera-1.6.2b1.tar.gz tmp/flytekitplugins-pandera-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-pandera/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-polars]: Downloading https://files.pythonhosted.org/packages/24/d1/4d262ae32a8af2348add357ce92136817a994915dac6c188b2bab64d3a36/flytekitplugins-polars-1.6.2b1.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-ray]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-onnxscikitlearn-1.6.2b1.tar.gz tmp/flytekitplugins-onnxscikitlearn-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-onnxscikitlearn/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-huggingface-1.6.2b1.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-huggingface]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-huggingface-1.7.0.tar.gz]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-huggingface]: Start processing: flytekitplugins-snowflake
+[2023-06-14 06:37:24] INFO root fetch - main [MainThread]: End processing [flytekitplugins-huggingface]: success
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-papermill]: Downloading https://files.pythonhosted.org/packages/f8/13/3606850c2e18ba2b6a786d516ef1e8351695e723e15b77f36a1e81f01867/flytekitplugins-papermill-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-snowflake]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-papermill]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-papermill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-papermill-1.6.2b1.tar.gz tmp/flytekitplugins-papermill-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-papermill/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-ray]: Downloading https://files.pythonhosted.org/packages/59/53/f149e86149da3e30fd8a0c4cf1a36df77601fdc22af056cdbed28920da41/flytekitplugins-ray-1.6.2b1.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-polars]: Downloading https://files.pythonhosted.org/packages/20/6e/1bb93f7c7b6060c58ed48d4695e5825642096d986359920fc6fde7553c6f/flytekitplugins-polars-1.7.0.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-snowflake]: Downloading https://files.pythonhosted.org/packages/03/41/136caa1ad685682b6f415cb47c5eb421c84fe2f80f32c5979a34a07d92c0/flytekitplugins-snowflake-1.6.2b1.tar.gz
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-polars]: executing diffoscope
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-polars-1.6.2b1.tar.gz tmp/flytekitplugins-polars-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-polars/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:24] INFO root fetch - processPackages [flytekitplugins-ray]: Downloading https://files.pythonhosted.org/packages/93/79/a68b335f8b1261b8ff25b1fd1a23ac3ef8b7d0d0c307accb0a93bbec78bc/flytekitplugins-ray-1.7.0.tar.gz
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-ray]: executing diffoscope
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-ray-1.6.2b1.tar.gz tmp/flytekitplugins-ray-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-ray/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-snowflake]: Downloading https://files.pythonhosted.org/packages/f8/49/b00a4ef91e5214937d1a73c54719de9102db365b618b06deb50b744727ab/flytekitplugins-snowflake-1.7.0.tar.gz
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-snowflake]: executing diffoscope
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-snowflake-1.6.2b1.tar.gz tmp/flytekitplugins-snowflake-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-snowflake/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-modin]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-modin-1.6.2b1.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-modin]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-modin-1.7.0.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-modin]: Start processing: flytekitplugins-spark
+[2023-06-14 06:37:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-modin]: success
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-mlflow-1.6.2b1.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-mlflow]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-mlflow-1.7.0.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-mlflow]: Start processing: flytekitplugins-sqlalchemy
+[2023-06-14 06:37:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-mlflow]: success
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-spark]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-kftensorflow-1.6.2b1.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-kftensorflow-1.7.0.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-kftensorflow]: Start processing: flytekitplugins-vaex
+[2023-06-14 06:37:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-kftensorflow]: success
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-vaex]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-onnxpytorch-1.6.2b1.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-onnxpytorch-1.7.0.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-onnxpytorch]: Start processing: flytekitplugins-whylogs
+[2023-06-14 06:37:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-onnxpytorch]: success
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-whylogs]: New version: [1.7.0] Old Version: [1.6.2b1]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-spark]: Downloading https://files.pythonhosted.org/packages/7f/b4/8661c5079090d5b1977de792f6e8570499903d5b380b54d05292d54cbb40/flytekitplugins-spark-1.6.2b1.tar.gz
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/4e/93/7c83c068876c9813e68fc59c1a3f9bee69f4caf1452d3acd104ad53bf717/flytekitplugins-sqlalchemy-1.6.2b1.tar.gz
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-vaex]: Downloading https://files.pythonhosted.org/packages/8e/57/17417bc5be9698c840dbd6cc076f996bc86cc1da582284c111189355ff21/flytekitplugins-vaex-1.6.2b1.tar.gz
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-pandera]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-pandera-1.6.2b1.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-pandera]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-pandera-1.7.0.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-pandera]: Start processing: odoo8-addon-project-sla
+[2023-06-14 06:37:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-pandera]: success
+[2023-06-14 06:37:25] INFO root fetch - processPackages [odoo8-addon-project-sla]: New version: [8.0.1.0.0.99.dev46] Old Version: [8.0.1.0.0.99.dev45]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-onnxscikitlearn-1.6.2b1.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-onnxscikitlearn-1.7.0.tar.gz]
+[2023-06-14 06:37:25] INFO root fetch - processPackages [flytekitplugins-onnxscikitlearn]: Start processing: bludwig
+[2023-06-14 06:37:25] INFO root fetch - main [MainThread]: End processing [flytekitplugins-onnxscikitlearn]: success
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-whylogs]: Downloading https://files.pythonhosted.org/packages/71/ee/fce421ff80eda8070283d406ff5e334978f516f08b24eecccf1e1ae6884d/flytekitplugins-whylogs-1.6.2b1.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [bludwig]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [bludwig]: Downloading https://files.pythonhosted.org/packages/49/51/332ab931712cabd36063acaffc6b0a0f6f01519923138c8997de7b4ae493/bludwig-0.0.2.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-papermill]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-papermill-1.6.2b1.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-papermill]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-papermill-1.7.0.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-papermill]: Start processing: lexikos
+[2023-06-14 06:37:26] INFO root fetch - main [MainThread]: End processing [flytekitplugins-papermill]: success
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/b7/09/84e50941b891182becf7a66716aaf8ecf97e67d4eeb7cfdc449281b1d058/flytekitplugins-sqlalchemy-1.7.0.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-spark]: Downloading https://files.pythonhosted.org/packages/f1/09/37325a9d05d2fa7cc982edeef939f6dc0ddd5f1a51f7260418e2a5708812/flytekitplugins-spark-1.7.0.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [lexikos]: New version: [0.0.1rc4] Old Version: [0.0.1rc3]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-polars]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-polars-1.6.2b1.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-polars]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-polars-1.7.0.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-polars]: Start processing: tira
+[2023-06-14 06:37:26] INFO root fetch - main [MainThread]: End processing [flytekitplugins-polars]: success
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-vaex]: Downloading https://files.pythonhosted.org/packages/c6/91/44f8438501e1abfdaa796a76bb74e1f7f752b861aa48152fba5e0a684cf0/flytekitplugins-vaex-1.7.0.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [odoo8-addon-project-sla]: Downloading https://files.pythonhosted.org/packages/98/1a/3ea955a7e4345cd4fe1f8e59eb25b9de3076a0a9623899564946ded140d7/odoo8_addon_project_sla-8.0.1.0.0.99.dev45-py2-none-any.whl
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-spark]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-spark-1.6.2b1.tar.gz tmp/flytekitplugins-spark-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-spark/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-sqlalchemy-1.6.2b1.tar.gz tmp/flytekitplugins-sqlalchemy-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-sqlalchemy/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [tira]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-vaex]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-vaex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-vaex-1.6.2b1.tar.gz tmp/flytekitplugins-vaex-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-vaex/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-ray]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-ray-1.6.2b1.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-ray]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-ray-1.7.0.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-ray]: Start processing: hardyweinbergcalculator
+[2023-06-14 06:37:26] INFO root fetch - main [MainThread]: End processing [flytekitplugins-ray]: success
+[2023-06-14 06:37:26] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.2.7.post20230614] Old Version: [0.2.7.post20230613]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [bludwig]: Downloading https://files.pythonhosted.org/packages/98/ba/10866c16ff518efe9693c1d3a412dee13639af15519de2b6640f471f9cb0/bludwig-0.0.4.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-whylogs]: Downloading https://files.pythonhosted.org/packages/9b/f0/fdb3abbfe79b24a59b9087ed6d11baa07fbb1bb4d304e7668e2708c153d3/flytekitplugins-whylogs-1.7.0.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [bludwig]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [bludwig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bludwig-0.0.2.tar.gz tmp/bludwig-0.0.4.tar.gz --markdown 20230614/b/bludwig/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-whylogs]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-whylogs-1.6.2b1.tar.gz tmp/flytekitplugins-whylogs-1.7.0.tar.gz --markdown 20230614/f/flytekitplugins-whylogs/1.6.2b1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/d7/53/3fd4816c6f19e6ce2ee31c6aca4e9e463490fd0cb546f3065161c6a8d63e/lexikos-0.0.1rc3.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/43/c4/b81bb3f967a30227b00188bc5062cff5d1a04fab70a9a31189f474c84ced/tira-0.0.8.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/34/14/a329e4b9406fb1aa5cfb5a840b980923b496274e72ed2bd0addb24298348/hardyweinbergcalculator-0.2.7.post20230613.zip
+[2023-06-14 06:37:26] INFO root fetch - processPackages [odoo8-addon-project-sla]: Downloading https://files.pythonhosted.org/packages/e3/ca/fe6652748d30bfda3fe12b56d94eb845d4ffb88d7402ca6e1a40711309cf/odoo8_addon_project_sla-8.0.1.0.0.99.dev46-py2-none-any.whl
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-snowflake-1.6.2b1.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-snowflake-1.7.0.tar.gz]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [flytekitplugins-snowflake]: Start processing: odoo-addon-project-forecast-line-holidays-public
+[2023-06-14 06:37:26] INFO root fetch - main [MainThread]: End processing [flytekitplugins-snowflake]: success
+[2023-06-14 06:37:26] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: New version: [15.0.1.1.0.3] Old Version: [15.0.1.1.0.2]
+[2023-06-14 06:37:26] INFO root fetch - processPackages [odoo8-addon-project-sla]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [odoo8-addon-project-sla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_project_sla-8.0.1.0.0.99.dev45-py2-none-any.whl.zip tmp/odoo8_addon_project_sla-8.0.1.0.0.99.dev46-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-project-sla/8.0.1.0.0.99.dev45-8.0.1.0.0.99.dev46/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/f6/46/89ae3d63f05031cadd7ebcc3cc287d296858b4f03bb0a672f943893f5506/hardyweinbergcalculator-0.2.7.post20230614.zip
+[2023-06-14 06:37:26] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: Downloading https://files.pythonhosted.org/packages/67/19/9532dc80272cee9f14490eda47fdc7baa35841f97d82b6f4592f73ab12cb/odoo_addon_project_forecast_line_holidays_public-15.0.1.1.0.2-py3-none-any.whl
+[2023-06-14 06:37:26] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/9b/f4/9ea6ae03b0e08b169bc3b6c3b2b915f1fd6005389bcaa0b6d5e43a5fda17/tira-0.0.9.tar.gz
+[2023-06-14 06:37:26] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.2.7.post20230613.zip tmp/hardyweinbergcalculator-0.2.7.post20230614.zip --markdown 20230614/h/hardyweinbergcalculator/0.2.7.post20230613-0.2.7.post20230614/diff.md --exclude *.pyd
+[2023-06-14 06:37:26] INFO root fetch - processPackages [tira]: executing diffoscope
+[2023-06-14 06:37:26] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.8.tar.gz tmp/tira-0.0.9.tar.gz --markdown 20230614/t/tira/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:37:27] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: Downloading https://files.pythonhosted.org/packages/8e/ec/c28d2b33ade6ddffe80637ece206ccb328e53fbab6f38d920a8c7d2eff3f/odoo_addon_project_forecast_line_holidays_public-15.0.1.1.0.3-py3-none-any.whl
+[2023-06-14 06:37:27] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: executing diffoscope
+[2023-06-14 06:37:27] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_forecast_line_holidays_public-15.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_forecast_line_holidays_public-15.0.1.1.0.3-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-project-forecast-line-holidays-public/15.0.1.1.0.2-15.0.1.1.0.3/diff.md --exclude *.pyd
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-sqlalchemy-1.6.2b1.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-sqlalchemy-1.7.0.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Start processing: tf-nightly-macos
+[2023-06-14 06:37:27] INFO root fetch - main [MainThread]: End processing [flytekitplugins-sqlalchemy]: success
+[2023-06-14 06:37:27] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230612] Old Version: [2.14.0.dev20230611]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-vaex]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-vaex-1.6.2b1.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-vaex]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-vaex-1.7.0.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-spark]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-spark-1.6.2b1.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-vaex]: Start processing: odoo-addon-project-purchase-link
+[2023-06-14 06:37:27] INFO root fetch - main [MainThread]: End processing [flytekitplugins-vaex]: success
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-spark]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-spark-1.7.0.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - main [MainThread]: End processing [flytekitplugins-spark]: success
+[2023-06-14 06:37:27] WARNING root fetch - processPackages [odoo-addon-project-purchase-link]: Skipping, unable to determine old version
+[2023-06-14 06:37:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-purchase-link] error
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-whylogs]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-whylogs-1.6.2b1.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [flytekitplugins-whylogs]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-whylogs-1.7.0.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - main [MainThread]: End processing [flytekitplugins-whylogs]: success
+[2023-06-14 06:37:27] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/92/ec/78fcf1573ce3a261bafc1e97bde25b9b1f620a849722de4d56e11ca1823b/tf_nightly_macos-2.14.0.dev20230611-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-14 06:37:27] INFO root fetch - processPackages [bludwig]: Remove: archive file [/home/abi/fetcher/tmp/bludwig-0.0.2.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - processPackages [bludwig]: Remove: archive file [/home/abi/fetcher/tmp/bludwig-0.0.4.tar.gz]
+[2023-06-14 06:37:27] INFO root fetch - main [MainThread]: End processing [bludwig]: success
+[2023-06-14 06:37:28] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 198582182>=10485760
+[2023-06-14 06:37:28] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-14 06:37:28] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/5f/39/f2dbeb7d646342173a48ec79f0c5f55040a9d27b52156ccc8cafaa01b3e0/lexikos-0.0.1rc4.tar.gz
+[2023-06-14 06:37:28] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.8.tar.gz]
+[2023-06-14 06:37:28] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.9.tar.gz]
+[2023-06-14 06:37:28] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2023-06-14 06:37:28] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.7.post20230613.zip]
+[2023-06-14 06:37:28] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.7.post20230614.zip]
+[2023-06-14 06:37:28] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-14 06:37:28] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_forecast_line_holidays_public-15.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-14 06:37:28] INFO root fetch - processPackages [odoo-addon-project-forecast-line-holidays-public]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_forecast_line_holidays_public-15.0.1.1.0.3-py3-none-any.whl.zip]
+[2023-06-14 06:37:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-forecast-line-holidays-public]: success
+[2023-06-14 06:37:28] INFO root fetch - processPackages [odoo8-addon-project-sla]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_sla-8.0.1.0.0.99.dev45-py2-none-any.whl.zip]
+[2023-06-14 06:37:28] INFO root fetch - processPackages [odoo8-addon-project-sla]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_project_sla-8.0.1.0.0.99.dev46-py2-none-any.whl.zip]
+[2023-06-14 06:37:28] INFO root fetch - main [MainThread]: End processing [odoo8-addon-project-sla]: success
+[2023-06-14 06:37:28] INFO root fetch - processPackages [lexikos]: executing diffoscope
+[2023-06-14 06:37:28] INFO root fetch - processPackages [lexikos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikos-0.0.1rc3.tar.gz tmp/lexikos-0.0.1rc4.tar.gz --markdown 20230614/l/lexikos/0.0.1rc3-0.0.1rc4/diff.md --exclude *.pyd
+[2023-06-14 06:37:31] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc3.tar.gz]
+[2023-06-14 06:37:31] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc4.tar.gz]
+[2023-06-14 06:37:31] INFO root fetch - main [MainThread]: End processing [lexikos]: success
+[2023-06-14 06:37:31] INFO root fetch - main [MainThread]: Store serial: [18496248]
