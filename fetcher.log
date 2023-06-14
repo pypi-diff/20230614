@@ -22315,3 +22315,180 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:39:10] INFO root fetch - processPackages [pypylon]: Remove: archive file [/home/abi/fetcher/tmp/pypylon-2.2.0rc2-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
 [2023-06-14 13:39:10] INFO root fetch - main [MainThread]: End processing [pypylon]: success
 [2023-06-14 13:39:10] INFO root fetch - main [MainThread]: Store serial: [18500527]
+[2023-06-14 13:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500527]
+[2023-06-14 13:44:20] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omkar-account-generator
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Digital-Forming-Solution
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smart-app-framework
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-jrubics-poetry-publish
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p3bamboo
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kcli
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lm-datahandler
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: current-events-magnifier
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scinumtools
+[2023-06-14 13:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: social-gpt
+[2023-06-14 13:44:20] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [social-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [test-jrubics-poetry-publish]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [scinumtools]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 13:44:20] WARNING root fetch - processPackages [omkar-account-generator]: Skipping, unable to determine old version
+[2023-06-14 13:44:20] INFO root fetch - processPackages [omkar-account-generator]: Start processing: extraneous-activity-delays
+[2023-06-14 13:44:20] INFO root fetch - main [MainThread]: End processing [omkar-account-generator] error
+[2023-06-14 13:44:20] WARNING root fetch - processPackages [Digital-Forming-Solution]: Skipping, unable to determine old version
+[2023-06-14 13:44:20] INFO root fetch - processPackages [Digital-Forming-Solution]: Start processing: autosrt
+[2023-06-14 13:44:20] INFO root fetch - main [MainThread]: End processing [Digital-Forming-Solution] error
+[2023-06-14 13:44:20] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/07/4e/2b0195a12693063ab1217cc3877ec88c153622f89ff6ce3422c43d56c871/social_gpt-0.0.8.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [kcli]: New version: [99.0.202306141035] Old Version: [99.0.202306140627]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/0f/23/a6c24152fae475efcaeaa6ab6c68070f9e3cd9f036e1a2e7d53d9e36a6f0/lm_datahandler-0.1.1.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [p3bamboo]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [smart-app-framework]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/ae/52/74dd6b80b08c45ae04a0ca084af895397228e4c8e00563fbe1def91cb2f9/current_events_magnifier-0.2.2.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/f4/40/ba9aaa3f319ec4ce52fd4e5e3989e174c3a9ccfdcb4d8e28e193f6ebfd62/scinumtools-1.1.1.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [autosrt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Downloading https://files.pythonhosted.org/packages/fe/50/02f5895cdd0a17b5c40aa78982bd24d9563640a95f13d0bd000b699a23c2/test_jrubics_poetry_publish-0.2.1.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a1/e0/368e8ae14f49af3868a929a3c3bd822bcc715f34137253b31a8cf81baf64/kcli-99.0.202306140627-py3-none-any.whl
+[2023-06-14 13:44:20] WARNING root fetch - processPackages [extraneous-activity-delays]: Skipping, unable to determine old version
+[2023-06-14 13:44:20] INFO root fetch - processPackages [extraneous-activity-delays]: Start processing: kfish
+[2023-06-14 13:44:20] INFO root fetch - main [MainThread]: End processing [extraneous-activity-delays] error
+[2023-06-14 13:44:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202306141038] Old Version: [99.0.202306140629]
+[2023-06-14 13:44:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/98/1c/d9003246bfd013f4eb4a9846f9e1c31402ebeb26f50b13b495df69fbdbf0/kfish-99.0.202306140629-py3-none-any.whl
+[2023-06-14 13:44:20] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/02/b8/1de1e86e6da77b68f932bc7564093d23838ae19c32633bcf099379797949/autosrt-1.3.8.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [p3bamboo]: Downloading https://files.pythonhosted.org/packages/1b/b6/5fa1cd0ffe7c24f4bf3217c24b97ed5dc6df726859d75b63ebafdeaf95d9/p3bamboo-1.0.7.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/18/9d/c0ab8d39b10d48081e5a49b60178e646bdb6620ccb9c1e898dd142fbe736/smart_app_framework-2.2.0rc1-py3-none-any.whl
+[2023-06-14 13:44:20] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/8a/bd/58c9fe75b9fe3fb0dbb746e3782190a395173dcb3daafa00df8db3e9f62d/social_gpt-0.0.9.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/c0/82/6955ee1b503d82325ebfb9cf351b15a78fcc39b63678840aa2f5a02f4a1c/current_events_magnifier-0.2.3.tar.gz
+[2023-06-14 13:44:20] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/c9/96/d2dc2c7e47201212563146c63c48e5e0a9dc4a19c79347b0534d9bdf4084/lm_datahandler-0.1.2.tar.gz
+[2023-06-14 13:44:21] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/6e/9b/dccfbd982f6fad511d9e88a8e08d7211e8141d1d419a27355d63527b2769/scinumtools-1.1.2.tar.gz
+[2023-06-14 13:44:21] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.2.2.tar.gz tmp/current_events_magnifier-0.2.3.tar.gz --markdown 20230614/c/current-events-magnifier/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.1.tar.gz tmp/lm_datahandler-0.1.2.tar.gz --markdown 20230614/l/lm-datahandler/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.8.tar.gz tmp/social_gpt-0.0.9.tar.gz --markdown 20230614/s/social-gpt/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/73/da/7b4814892a58367b552d4c47c8ef311c29367a845cf3be64284992c55923/kcli-99.0.202306141035-py3-none-any.whl
+[2023-06-14 13:44:21] INFO root fetch - processPackages [p3bamboo]: Downloading https://files.pythonhosted.org/packages/eb/e3/32e1b4fef282927100a08300b238db222554ae30ef7e72251a1da8c63252/p3bamboo-1.0.9.tar.gz
+[2023-06-14 13:44:21] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/4a/27fbf874406f8ff72c61c811f160cbd8166a28a2fc354d586e5c3691eaa2/kfish-99.0.202306141038-py3-none-any.whl
+[2023-06-14 13:44:21] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/50/b5/2f112c29ffa8a2e7aaf1b0860a34b080c6141aabae2c3209112564773dd5/autosrt-1.3.9.tar.gz
+[2023-06-14 13:44:21] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.1.1.tar.gz tmp/scinumtools-1.1.2.tar.gz --markdown 20230614/s/scinumtools/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/e8/e5/0e014b1967e10ca9262b5cb9eac6fece9e6a6ce2eb6dc35bdf0c20b31a54/smart_app_framework-2.2.0rc2-py3-none-any.whl
+[2023-06-14 13:44:21] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [p3bamboo]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306140629-py3-none-any.whl.zip tmp/kfish-99.0.202306141038-py3-none-any.whl.zip --markdown 20230614/k/kfish/99.0.202306140629-99.0.202306141038/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [p3bamboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p3bamboo-1.0.7.tar.gz tmp/p3bamboo-1.0.9.tar.gz --markdown 20230614/p/p3bamboo/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.3.8.tar.gz tmp/autosrt-1.3.9.tar.gz --markdown 20230614/a/autosrt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306140627-py3-none-any.whl.zip tmp/kcli-99.0.202306141035-py3-none-any.whl.zip --markdown 20230614/k/kcli/99.0.202306140627-99.0.202306141035/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Downloading https://files.pythonhosted.org/packages/46/ca/681be90e0b42e678d4da7cb0b1ece825bc47a73178e49a278cfa4c2391ba/test_jrubics_poetry_publish-0.2.2.tar.gz
+[2023-06-14 13:44:21] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.2.0rc1-py3-none-any.whl.zip tmp/smart_app_framework-2.2.0rc2-py3-none-any.whl.zip --markdown 20230614/s/smart-app-framework/2.2.0rc1-2.2.0rc2/diff.md --exclude *.pyd
+[2023-06-14 13:44:21] INFO root fetch - processPackages [test-jrubics-poetry-publish]: executing diffoscope
+[2023-06-14 13:44:21] INFO root fetch - processPackages [test-jrubics-poetry-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_jrubics_poetry_publish-0.2.1.tar.gz tmp/test_jrubics_poetry_publish-0.2.2.tar.gz --markdown 20230614/t/test-jrubics-poetry-publish/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-14 13:44:23] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306140629-py3-none-any.whl.zip]
+[2023-06-14 13:44:23] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306141038-py3-none-any.whl.zip]
+[2023-06-14 13:44:23] INFO root fetch - processPackages [kfish]: Start processing: cachetory
+[2023-06-14 13:44:23] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-14 13:44:23] INFO root fetch - processPackages [cachetory]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.8.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.9.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [social-gpt]: Start processing: Samay
+[2023-06-14 13:44:24] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 13:44:24] INFO root fetch - processPackages [Samay]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.2.2.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.2.3.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [current-events-magnifier]: Start processing: cybrid-api-bank-python
+[2023-06-14 13:44:24] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Remove: archive file [/home/abi/fetcher/tmp/test_jrubics_poetry_publish-0.2.1.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Remove: archive file [/home/abi/fetcher/tmp/test_jrubics_poetry_publish-0.2.2.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Start processing: cybrid-api-id-python
+[2023-06-14 13:44:24] INFO root fetch - main [MainThread]: End processing [test-jrubics-poetry-publish]: success
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/96/15/68a46f34716f5eb6acd56169e021cb8476845e63d54b8349f8def49fa019/cachetory-2.0.3.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [Samay]: Downloading https://files.pythonhosted.org/packages/99/b7/e919cd4377550931f264fee517d3c9e8c9fdbdf79019c0aeee580d7b7047/Samay-0.0.2.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.1.1.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.1.2.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [scinumtools]: Start processing: cybrid-api-organization-python
+[2023-06-14 13:44:24] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-14 13:44:24] INFO root fetch - processPackages [p3bamboo]: Remove: archive file [/home/abi/fetcher/tmp/p3bamboo-1.0.7.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [p3bamboo]: Remove: archive file [/home/abi/fetcher/tmp/p3bamboo-1.0.9.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [p3bamboo]: Start processing: robotframework-robosapiens
+[2023-06-14 13:44:24] INFO root fetch - main [MainThread]: End processing [p3bamboo]: success
+[2023-06-14 13:44:24] INFO root fetch - processPackages [robotframework-robosapiens]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [Samay]: Downloading https://files.pythonhosted.org/packages/63/f3/39c3066537ed1329558747c6e7a00ddd46bfbcc05c1a696ce59f5693c03a/Samay-0.0.3.tar.gz
+[2023-06-14 13:44:24] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.8.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.3.9.tar.gz]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [autosrt]: Start processing: semver
+[2023-06-14 13:44:24] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-06-14 13:44:24] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/66/fc/3accf42b191505cf5e15f1cabb076d371325a1a5da537041499525c9a830/robotframework_robosapiens-1.1.8-py3-none-any.whl
+[2023-06-14 13:44:24] INFO root fetch - processPackages [semver]: New version: [3.0.1] Old Version: [3.0.0rc1]
+[2023-06-14 13:44:24] INFO root fetch - processPackages [Samay]: executing diffoscope
+[2023-06-14 13:44:24] INFO root fetch - processPackages [Samay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Samay-0.0.2.tar.gz tmp/Samay-0.0.3.tar.gz --markdown 20230614/S/Samay/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230614/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:24] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-06-14 13:44:25] INFO root fetch - processPackages [semver]: Downloading https://files.pythonhosted.org/packages/18/6e/0909a9dc24c327503d74ad422a75f4825333468289c55978b2c3e9f21df8/semver-3.0.0rc1.tar.gz
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cachetory]: Downloading https://files.pythonhosted.org/packages/72/4f/acd17fee2e020dc5ebecb413b4e3110176cdffcc9d34561b81d8a62a23ee/cachetory-2.1.0.tar.gz
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230614/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:25] INFO root fetch - processPackages [robotframework-robosapiens]: Downloading https://files.pythonhosted.org/packages/07/00/ec6d73795ad6c39ba5f5c8b22c2e9cfedad5405e9c1efa1c5c5807dad091/robotframework_robosapiens-1.2.0-py3-none-any.whl
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cachetory]: executing diffoscope
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cachetory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetory-2.0.3.tar.gz tmp/cachetory-2.1.0.tar.gz --markdown 20230614/c/cachetory/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-14 13:44:25] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.1.tar.gz]
+[2023-06-14 13:44:25] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.2.tar.gz]
+[2023-06-14 13:44:25] INFO root fetch - processPackages [lm-datahandler]: Start processing: tdnpathviz
+[2023-06-14 13:44:25] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-14 13:44:25] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-14 13:44:25] INFO root fetch - processPackages [semver]: Downloading https://files.pythonhosted.org/packages/46/30/a14b56e500e8eabf8c349edd0583d736b231e652b7dce776e85df11e9e0b/semver-3.0.1.tar.gz
+[2023-06-14 13:44:25] INFO root fetch - processPackages [robotframework-robosapiens]: executing diffoscope
+[2023-06-14 13:44:25] INFO root fetch - processPackages [robotframework-robosapiens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_robosapiens-1.1.8-py3-none-any.whl.zip tmp/robotframework_robosapiens-1.2.0-py3-none-any.whl.zip --markdown 20230614/r/robotframework-robosapiens/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 13:44:25] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/82/30/7dfc3181293709fb5a092d3f34163ff9e41ce077f3b529ec39012b24fe7c/tdnpathviz-0.1.2.8-py3-none-any.whl
+[2023-06-14 13:44:25] INFO root fetch - processPackages [semver]: executing diffoscope
+[2023-06-14 13:44:25] INFO root fetch - processPackages [semver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semver-3.0.0rc1.tar.gz tmp/semver-3.0.1.tar.gz --markdown 20230614/s/semver/3.0.0rc1-3.0.1/diff.md --exclude *.pyd
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-06-14 13:44:25] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/c4/ab/c33845d9bcb0da0781d8b86f3d500c0a2831024985fafecdada9fc1fe5fd/tdnpathviz-0.1.2.9-py3-none-any.whl
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-06-14 13:44:25] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230614/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:25] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-14 13:44:25] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip --markdown 20230614/t/tdnpathviz/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-14 13:44:27] INFO root fetch - processPackages [Samay]: Remove: archive file [/home/abi/fetcher/tmp/Samay-0.0.2.tar.gz]
+[2023-06-14 13:44:27] INFO root fetch - processPackages [Samay]: Remove: archive file [/home/abi/fetcher/tmp/Samay-0.0.3.tar.gz]
+[2023-06-14 13:44:27] INFO root fetch - processPackages [Samay]: Start processing: odoo14-addon-sale-promotion-rule-display-discount-amount
+[2023-06-14 13:44:27] INFO root fetch - main [MainThread]: End processing [Samay]: success
+[2023-06-14 13:44:27] WARNING root fetch - processPackages [odoo14-addon-sale-promotion-rule-display-discount-amount]: Skipping, unable to determine old version
+[2023-06-14 13:44:27] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-promotion-rule-display-discount-amount] error
+[2023-06-14 13:44:28] INFO root fetch - processPackages [cachetory]: Remove: archive file [/home/abi/fetcher/tmp/cachetory-2.0.3.tar.gz]
+[2023-06-14 13:44:28] INFO root fetch - processPackages [cachetory]: Remove: archive file [/home/abi/fetcher/tmp/cachetory-2.1.0.tar.gz]
+[2023-06-14 13:44:28] INFO root fetch - main [MainThread]: End processing [cachetory]: success
+[2023-06-14 13:44:28] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip]
+[2023-06-14 13:44:28] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip]
+[2023-06-14 13:44:28] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-14 13:44:28] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.1.8-py3-none-any.whl.zip]
+[2023-06-14 13:44:28] INFO root fetch - processPackages [robotframework-robosapiens]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_robosapiens-1.2.0-py3-none-any.whl.zip]
+[2023-06-14 13:44:28] INFO root fetch - main [MainThread]: End processing [robotframework-robosapiens]: success
+[2023-06-14 13:44:28] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-06-14 13:44:28] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-06-14 13:44:28] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-06-14 13:44:29] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-06-14 13:44:29] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-06-14 13:44:29] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-06-14 13:44:29] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc1-py3-none-any.whl.zip]
+[2023-06-14 13:44:29] INFO root fetch - processPackages [smart-app-framework]: Remove: archive file [/home/abi/fetcher/tmp/smart_app_framework-2.2.0rc2-py3-none-any.whl.zip]
+[2023-06-14 13:44:29] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-06-14 13:44:31] INFO root fetch - processPackages [semver]: Remove: archive file [/home/abi/fetcher/tmp/semver-3.0.0rc1.tar.gz]
+[2023-06-14 13:44:31] INFO root fetch - processPackages [semver]: Remove: archive file [/home/abi/fetcher/tmp/semver-3.0.1.tar.gz]
+[2023-06-14 13:44:31] INFO root fetch - main [MainThread]: End processing [semver]: success
+[2023-06-14 13:44:32] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-06-14 13:44:32] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-06-14 13:44:32] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-06-14 13:44:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306140627-py3-none-any.whl.zip]
+[2023-06-14 13:44:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306141035-py3-none-any.whl.zip]
+[2023-06-14 13:44:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-14 13:44:34] INFO root fetch - main [MainThread]: Store serial: [18500593]
