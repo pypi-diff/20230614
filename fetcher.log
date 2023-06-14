@@ -15672,3 +15672,116 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:12:41] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.3.tar.gz]
 [2023-06-14 09:12:41] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
 [2023-06-14 09:12:41] INFO root fetch - main [MainThread]: Store serial: [18497449]
+[2023-06-14 09:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497449]
+[2023-06-14 09:17:51] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2023-06-14 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdpyconsts
+[2023-06-14 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ma-notification-center
+[2023-06-14 09:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fau-tools
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: siibra
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dojo-truant
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synadm
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gaboost
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: st-card-component-elliot
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ma-notification-center]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [fau-tools]: New version: [1.4.5.2] Old Version: [1.4.5.1]
+[2023-06-14 09:17:52] WARNING root fetch - processPackages [st-card-component-elliot]: Skipping, unable to determine old version
+[2023-06-14 09:17:52] INFO root fetch - processPackages [st-card-component-elliot]: Start processing: zhousf-lib
+[2023-06-14 09:17:52] INFO root fetch - main [MainThread]: End processing [st-card-component-elliot] error
+[2023-06-14 09:17:52] INFO root fetch - processPackages [gaboost]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [synadm]: New version: [0.41.3] Old Version: [0.41.2]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.13.2] Old Version: [2023.6.13.1]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [siibra]: New version: [0.4a54] Old Version: [0.4a51]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [yplib]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [bdpyconsts]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [zhousf-lib]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/24/b4/140c4da030a33063c08360b6851a83bbd69a8c80cd18ddea617e6081fc9f/ma_notification_center-2.1.0.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/55/23/b6a7ed14d32217f786c127f73ef8e1e5d1043e1cb867f891a87e8fc484c0/gaboost-1.7.1.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [bdpyconsts]: Downloading https://files.pythonhosted.org/packages/03/5f/9248ac9a18a81657768019c5ba549a3bbdd8b65d24edc34ddc868daa4a7a/bdpyconsts-1.1.1.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/ae/cd/2c082638dd6e8622469fdac007bd078c6c72613810b270d49a8611479ea4/dojo_truant-2023.6.13.1.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/20/24/54670e6757f03617500b2bcaf35a13cc84e89c3e21eed6ee1ef83cf89e2e/yplib-1.1.7.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-14 09:17:52] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/0b/24/aaba184d270ad54d7aaec0c662e48ace7bf90d1531f8da34643da8ab76f5/fau_tools-1.4.5.1.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/2b/81/3a5ee168d63b0efb8e065e2e6a1213a222e96c3416282a6d255155642037/siibra-0.4a51.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [synadm]: Downloading https://files.pythonhosted.org/packages/1f/f4/473fadf7a1864048b59c30b030516ffbbb42693ee44a30642cd56c155249/synadm-0.41.2.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/dc/df/7a61e4c2b2fa1ad05af3e12b119ea7e9b239f214753f479f69c253b3a4d5/gaboost-1.7.2.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1a/31/f3b5950c2d0aef872cb627fd22e8ec21defca0af68143a37029074006b50/zhousf-lib-0.6.9.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/73/12/192faa0eda78471c9570b4eb0dd59501564dd3b53360e2d233e1afddcea5/ma_notification_center-2.1.1.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-14 09:17:52] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/e7/65/dae2e74523901bfc4de0667ef467ebb018d53a8fda6d392063f45bdc3ed1/dojo_truant-2023.6.13.2.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b8/25/bab3f01236efe2e9de2f606848aca4733f5ae2e1ecc65c703d10ecc1827c/yplib-1.1.8.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [gaboost]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [gaboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaboost-1.7.1.tar.gz tmp/gaboost-1.7.2.tar.gz --markdown 20230614/g/gaboost/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.6.13.1.tar.gz tmp/dojo_truant-2023.6.13.2.tar.gz --markdown 20230614/d/dojo-truant/2023.6.13.1-2023.6.13.2/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.7.tar.gz tmp/yplib-1.1.8.tar.gz --markdown 20230614/y/yplib/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [bdpyconsts]: Downloading https://files.pythonhosted.org/packages/e3/0f/bcd5909059b2df33a9d84317f889394216127f577714b8e1f43f00de401f/bdpyconsts-1.1.2.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ma-notification-center]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [ma-notification-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_notification_center-2.1.0.tar.gz tmp/ma_notification_center-2.1.1.tar.gz --markdown 20230614/m/ma-notification-center/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [fau-tools]: Downloading https://files.pythonhosted.org/packages/4c/05/c04b9cdf928b177bc468020314856970e60ca0cf9324f338b770ab017c1e/fau_tools-1.4.5.2.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [synadm]: Downloading https://files.pythonhosted.org/packages/7c/85/0774e69d21a54e08a1a8621bef89f9a4a94b3b156265bd1a41a5b397c711/synadm-0.41.3.tar.gz
+[2023-06-14 09:17:52] INFO root fetch - processPackages [bdpyconsts]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [bdpyconsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpyconsts-1.1.1.tar.gz tmp/bdpyconsts-1.1.2.tar.gz --markdown 20230614/b/bdpyconsts/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-14 09:17:52] INFO root fetch - processPackages [synadm]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [synadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synadm-0.41.2.tar.gz tmp/synadm-0.41.3.tar.gz --markdown 20230614/s/synadm/0.41.2-0.41.3/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [fau-tools]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [fau-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fau_tools-1.4.5.1.tar.gz tmp/fau_tools-1.4.5.2.tar.gz --markdown 20230614/f/fau-tools/1.4.5.1-1.4.5.2/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-14 09:17:52] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230614/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-14 09:17:52] INFO root fetch - processPackages [siibra]: Downloading https://files.pythonhosted.org/packages/e0/5a/32c8dde423feaa898f6da6d442aec1f6a90aced1a6f945ec4f4b38f09932/siibra-0.4a54.tar.gz
+[2023-06-14 09:17:53] INFO root fetch - processPackages [siibra]: executing diffoscope
+[2023-06-14 09:17:53] INFO root fetch - processPackages [siibra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siibra-0.4a51.tar.gz tmp/siibra-0.4a54.tar.gz --markdown 20230614/s/siibra/0.4a51-0.4a54/diff.md --exclude *.pyd
+[2023-06-14 09:17:53] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/a1/ba/32528b7db68aa5a7d27202c9cd74a4257ab0c0de87087aeda0d413f8fe26/zhousf-lib-0.7.0.tar.gz
+[2023-06-14 09:17:53] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-14 09:17:53] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.6.9.tar.gz tmp/zhousf-lib-0.7.0.tar.gz --markdown 20230614/z/zhousf-lib/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-06-14 09:17:54] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-2.1.0.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-2.1.1.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [ma-notification-center]: Start processing: tfq-nightly
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [ma-notification-center]: success
+[2023-06-14 09:17:54] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230613] Old Version: [0.7.3.dev20230612]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.7.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.8.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [yplib]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 09:17:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [bdpyconsts]: Remove: archive file [/home/abi/fetcher/tmp/bdpyconsts-1.1.1.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [bdpyconsts]: Remove: archive file [/home/abi/fetcher/tmp/bdpyconsts-1.1.2.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [bdpyconsts]: Start processing: anysql
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [bdpyconsts]: success
+[2023-06-14 09:17:54] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-14 09:17:54] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/ff/f6/16fca4cd8777c0ebc61670b85ee1c04c07653ba239aa505d0e65450bf9af/tfq_nightly-0.7.3.dev20230612-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 09:17:54] WARNING root fetch - processPackages [anysql]: Skipping, unable to determine old version
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [anysql] error
+[2023-06-14 09:17:54] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.13.1.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.13.2.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-14 09:17:54] INFO root fetch - processPackages [fau-tools]: Remove: archive file [/home/abi/fetcher/tmp/fau_tools-1.4.5.1.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [fau-tools]: Remove: archive file [/home/abi/fetcher/tmp/fau_tools-1.4.5.2.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [fau-tools]: success
+[2023-06-14 09:17:54] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822708>=10485760
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-14 09:17:54] INFO root fetch - processPackages [synadm]: Remove: archive file [/home/abi/fetcher/tmp/synadm-0.41.2.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [synadm]: Remove: archive file [/home/abi/fetcher/tmp/synadm-0.41.3.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [synadm]: success
+[2023-06-14 09:17:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-14 09:17:54] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.1.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.7.2.tar.gz]
+[2023-06-14 09:17:54] INFO root fetch - main [MainThread]: End processing [gaboost]: success
+[2023-06-14 09:17:55] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a51.tar.gz]
+[2023-06-14 09:17:55] INFO root fetch - processPackages [siibra]: Remove: archive file [/home/abi/fetcher/tmp/siibra-0.4a54.tar.gz]
+[2023-06-14 09:17:55] INFO root fetch - main [MainThread]: End processing [siibra]: success
+[2023-06-14 09:17:55] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-14 09:17:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-14 09:17:56] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230614/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 09:17:56] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.6.9.tar.gz]
+[2023-06-14 09:17:56] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.0.tar.gz]
+[2023-06-14 09:17:56] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-14 09:17:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-14 09:17:57] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-14 09:17:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-14 09:17:57] INFO root fetch - main [MainThread]: Store serial: [18497492]
