@@ -17536,3 +17536,183 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 10:31:08] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
 [2023-06-14 10:31:08] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-06-14 10:31:08] INFO root fetch - main [MainThread]: Store serial: [18498304]
+[2023-06-14 10:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498304]
+[2023-06-14 10:36:19] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algokit-utils
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-persistence
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mm-sdk
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipyfilite
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Pyara
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bridgecrew
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orchestrator-core
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenGeode-Geosciences
+[2023-06-14 10:36:19] INFO root fetch - processPackages [Pyara]: New version: [0.1.11] Old Version: [0.1.10]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.0.9rc1] Old Version: [7.0.9]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ipyfilite]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [orchestrator-core]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [yplib]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/6e/ee/bbfeb65e7197de03daa45352993700e78f9c3493f02e8ee8aeb316bbd0af/Pyara-0.1.10.tar.gz
+[2023-06-14 10:36:19] INFO root fetch - processPackages [pytest-persistence]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/47/ca/c79ee7d1d48616da0ab765ec00fc4472f4f08b277e10171a8b5e337ce1d4/ipyfilite-0.1.8.tar.gz
+[2023-06-14 10:36:19] INFO root fetch - processPackages [algokit-utils]: New version: [1.3.0b1] Old Version: [1.2.0b9]
+[2023-06-14 10:36:19] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/15/2a/bd2b07b3498099b154e77b833934c220799b7f86797a26ea388d96f566da/yplib-1.2.1.tar.gz
+[2023-06-14 10:36:19] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230614] Old Version: [2.14.0.dev20230613]
+[2023-06-14 10:36:20] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-14 10:36:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/72/9e/3fbf3b3b4c404b22ca1da2e2a8fcbdfad827fb15336d9df0ed386d98fe49/OpenGeode_Geosciences-7.0.9-cp39-cp39-win_amd64.whl
+[2023-06-14 10:36:20] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/25/c5/d50a7672823ac842716de4a577aef1e11386d5d6576616118e5910ef43fb/Pyara-0.1.11.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/39/b2/d4001559bb59b4685f4602315389d3b9cc9beb99827eca42a1998c64c46b/orchestrator_core-1.1.0rc1.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.3] Old Version: [0.1.284]
+[2023-06-14 10:36:20] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/97/c0/c716f84876cd98ca0fda6d6f650e5f45e5ecc2801f24aab3ffeba28b2db7/algokit_utils-1.2.0b9-py3-none-any.whl
+[2023-06-14 10:36:20] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/58/22/ec06a4081a9954e1db53571ab4eee632c913b7977bec094bfcf287cafe40/yplib-1.2.2.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [pytest-persistence]: Downloading https://files.pythonhosted.org/packages/d7/54/dae948943dc2b1993acc3c6b8f7b02cb55d1f489e704e5ad7f79b3848796/pytest-persistence-0.1.7.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [ipyfilite]: Downloading https://files.pythonhosted.org/packages/18/31/b0adbea8af6bcaa16f03f075f76932dc7de8309924c9f776c44b136cc88b/ipyfilite-0.1.9.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/7a/6b/2b2101e8588941de2ac581107fa5205c8f2bbdb0611d1d2e2d5989bca85f/tf_nightly-2.14.0.dev20230613-cp39-cp39-win_amd64.whl
+[2023-06-14 10:36:20] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.10.tar.gz tmp/Pyara-0.1.11.tar.gz --markdown 20230614/P/Pyara/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.2.1.tar.gz tmp/yplib-1.2.2.tar.gz --markdown 20230614/y/yplib/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/c1/c7/d89676a13eadf554dccc4a1cb8ed9b56c0e9cafb1fda425fc578f82ad3b2/mm_sdk-0.1.284.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [ipyfilite]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [ipyfilite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyfilite-0.1.8.tar.gz tmp/ipyfilite-0.1.9.tar.gz --markdown 20230614/i/ipyfilite/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/e6/82/20319ac0cc8192e32f0a0bd7790fef0b179fcea64317baa750cfc4508ac9/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl
+[2023-06-14 10:36:20] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/60/c2/417159e0cb97b8ce295eba410b3a7d6f7eaff4faf80859b97f542d6a1a79/algokit_utils-1.3.0b1-py3-none-any.whl
+[2023-06-14 10:36:20] INFO root fetch - processPackages [pytest-persistence]: Downloading https://files.pythonhosted.org/packages/b8/91/70db54b1043e3f62d0792c1f4dc8a20f98ff4cee90d0f374616bbe37ce74/pytest-persistence-0.1.8.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/52/eb/bfca9f72a0fca4c715ce9dd1ad1a9b3466cdc12aa13a5d24d4ec8147155a/tf_nightly-2.14.0.dev20230614-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 10:36:20] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/03/bb/93bbac7ce5417af4ef991afa7861d11c22b9987e19b24c69e9cf50e35247/orchestrator_core-1.1.0rc2.tar.gz
+[2023-06-14 10:36:20] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.2.0b9-py3-none-any.whl.zip tmp/algokit_utils-1.3.0b1-py3-none-any.whl.zip --markdown 20230614/a/algokit-utils/1.2.0b9-1.3.0b1/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [pytest-persistence]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [pytest-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-persistence-0.1.7.tar.gz tmp/pytest-persistence-0.1.8.tar.gz --markdown 20230614/p/pytest-persistence/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230614/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/03/aa/d8c272285a7704066ac4561b833b5144e76c812479a75a91e1eff3bc24af/mm-sdk-0.1.3.tar.gz
+[2023-06-14 10:36:20] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491236790>=10485760
+[2023-06-14 10:36:20] INFO root fetch - processPackages [tf-nightly]: Start processing: dve-lumipy-preview
+[2023-06-14 10:36:20] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-14 10:36:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.0.9-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230614/O/OpenGeode-Geosciences/7.0.9-7.0.9rc1/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-14 10:36:20] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-1.1.0rc1.tar.gz tmp/orchestrator_core-1.1.0rc2.tar.gz --markdown 20230614/o/orchestrator-core/1.1.0rc1-1.1.0rc2/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2023-06-14 10:36:20] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.284.tar.gz tmp/mm-sdk-0.1.3.tar.gz --markdown 20230614/m/mm-sdk/0.1.284-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 10:36:20] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-06-14 10:36:21] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-06-14 10:36:21] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-06-14 10:36:21] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230614/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-14 10:36:21] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.10.tar.gz]
+[2023-06-14 10:36:21] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.11.tar.gz]
+[2023-06-14 10:36:21] INFO root fetch - processPackages [Pyara]: Start processing: CLEMENTDNA
+[2023-06-14 10:36:21] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-14 10:36:22] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.1.tar.gz]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.2.tar.gz]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [yplib]: Start processing: labeltransform2
+[2023-06-14 10:36:22] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 10:36:22] INFO root fetch - processPackages [CLEMENTDNA]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [labeltransform2]: New version: [1.1] Old Version: [1.0]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/21/87/69f9cafeb3c8597d101f11b26599080482cd2df9887907957a1d7cbe3658/labeltransform2-1.0.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [bridgecrew]: Start processing: python-rtmidi
+[2023-06-14 10:36:22] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-14 10:36:22] INFO root fetch - processPackages [CLEMENTDNA]: Downloading https://files.pythonhosted.org/packages/5e/51/a81a447397889f238fa862c34e3223f8b8999f4c9c6fb5cc5fb246a886e2/CLEMENTDNA-1.0.2.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [pytest-persistence]: Remove: archive file [/home/abi/fetcher/tmp/pytest-persistence-0.1.7.tar.gz]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [pytest-persistence]: Remove: archive file [/home/abi/fetcher/tmp/pytest-persistence-0.1.8.tar.gz]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [pytest-persistence]: Start processing: thipster
+[2023-06-14 10:36:22] INFO root fetch - main [MainThread]: End processing [pytest-persistence]: success
+[2023-06-14 10:36:22] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/f5/58/04d7b0cc26c62d40f0203899be01dd98b28d4a0ec4168805395ea0689cfd/labeltransform2-1.1.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.2.0b9-py3-none-any.whl.zip]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.3.0b1-py3-none-any.whl.zip]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [algokit-utils]: Start processing: Pyara
+[2023-06-14 10:36:22] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-06-14 10:36:22] INFO root fetch - processPackages [thipster]: New version: [0.16.5] Old Version: [0.16.4]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [python-rtmidi]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [Pyara]: New version: [0.1.13] Old Version: [0.1.12]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/82/39/ec0ed294a77dcf8b763dfe87d58cdc7721a2283ad1a04b2fa6cadb893aa4/thipster-0.16.4.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-14 10:36:22] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.0.tar.gz tmp/labeltransform2-1.1.tar.gz --markdown 20230614/l/labeltransform2/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-14 10:36:22] WARNING root fetch - processPackages [CLEMENTDNA]: fallback to get urls: [1.0.3]
+[2023-06-14 10:36:22] WARNING root fetch - processPackages [CLEMENTDNA]: None
+[2023-06-14 10:36:22] WARNING root fetch - processPackages [CLEMENTDNA]: None
+[2023-06-14 10:36:22] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/99/82/4a5d25b25c5dff7b378c3fcad4ff9068f65c784ff9e32ee4c5bdf3713149/thipster-0.16.5.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/f8/86/84ae05cc6289fc4e08f30df80cae983fe6268fc7e6f0bdffbb834c6431b6/python-rtmidi-1.5.1.tar.gz
+[2023-06-14 10:36:22] WARNING root fetch - processPackages [CLEMENTDNA]: unable to get url for both version [1.0.3]
+[2023-06-14 10:36:22] WARNING root fetch - processPackages [CLEMENTDNA]: None
+[2023-06-14 10:36:22] INFO root fetch - processPackages [CLEMENTDNA]: Start processing: dassana
+[2023-06-14 10:36:22] INFO root fetch - main [MainThread]: End processing [CLEMENTDNA] error
+[2023-06-14 10:36:22] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/01/26/5f70c24c8a4ef99e260b4f3229a770c16b2e11c6be4b86a2effdb875ed02/Pyara-0.1.12.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [dassana]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-06-14 10:36:22] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-14 10:36:22] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.16.4.tar.gz tmp/thipster-0.16.5.tar.gz --markdown 20230614/t/thipster/0.16.4-0.16.5/diff.md --exclude *.pyd
+[2023-06-14 10:36:22] INFO root fetch - processPackages [python-rtmidi]: Downloading https://files.pythonhosted.org/packages/c5/1c/ca9cac499bfa9057c609f394391aeb648ad986de98de02598cdad550572b/python-rtmidi-1.5.2.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/33/fc/2d0e2e21e0ae7cdd0442f4990f693e04385e69a6a2e752a7565f28e2f877/dassana-0.8.4.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/e9/a5/400b623ab3356cad21936310c0d6245e80054b1311d34e19134bb22339f2/Pyara-0.1.13.tar.gz
+[2023-06-14 10:36:22] INFO root fetch - processPackages [python-rtmidi]: executing diffoscope
+[2023-06-14 10:36:22] INFO root fetch - processPackages [python-rtmidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-rtmidi-1.5.1.tar.gz tmp/python-rtmidi-1.5.2.tar.gz --markdown 20230614/p/python-rtmidi/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-14 10:36:23] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-14 10:36:23] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.12.tar.gz tmp/Pyara-0.1.13.tar.gz --markdown 20230614/P/Pyara/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2023-06-14 10:36:23] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/5f/cc/c2c72bfa9a4976852cf18df2773765b53faf4c210eaae8ff6458cbde352d/dassana-0.8.5.tar.gz
+[2023-06-14 10:36:23] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2023-06-14 10:36:23] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.8.4.tar.gz tmp/dassana-0.8.5.tar.gz --markdown 20230614/d/dassana/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-06-14 10:36:23] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.284.tar.gz]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm-sdk-0.1.3.tar.gz]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [mm-sdk]: Start processing: x21e8
+[2023-06-14 10:36:23] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2023-06-14 10:36:23] INFO root fetch - processPackages [x21e8]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.8.tar.gz]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [ipyfilite]: Remove: archive file [/home/abi/fetcher/tmp/ipyfilite-0.1.9.tar.gz]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [ipyfilite]: Start processing: macrometa-source-bigquery
+[2023-06-14 10:36:23] INFO root fetch - main [MainThread]: End processing [ipyfilite]: success
+[2023-06-14 10:36:23] INFO root fetch - processPackages [x21e8]: Downloading https://files.pythonhosted.org/packages/7b/ab/eb8abb5e84309d1b19ee0403fc8d4b376a26050a0fb045293b951a3c093a/x21e8-0.8.0.tar.gz
+[2023-06-14 10:36:23] INFO root fetch - processPackages [macrometa-source-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.0.tar.gz]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.1.tar.gz]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [labeltransform2]: Start processing: social-gpt
+[2023-06-14 10:36:23] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-14 10:36:23] INFO root fetch - processPackages [social-gpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-06-14 10:36:23] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-06-14 10:36:23] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-06-14 10:36:23] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/14/54/07f1e10b62c11da8770cdeaee2191087e7041ac9aa2d5c73d0f9b9cdb3ce/social_gpt-0.0.5.tar.gz
+[2023-06-14 10:36:23] INFO root fetch - processPackages [macrometa-source-bigquery]: Downloading https://files.pythonhosted.org/packages/7e/66/c235a1cd533908f2edac0e4d0511bed2089d03ae9c5041f2099f6a896885/macrometa-source-bigquery-0.0.8.tar.gz
+[2023-06-14 10:36:23] INFO root fetch - processPackages [x21e8]: Downloading https://files.pythonhosted.org/packages/78/db/f6a75a9837cc03dd537e83e989597af11abb20078fd298fdf170b8dfde0b/x21e8-0.9.0.tar.gz
+[2023-06-14 10:36:23] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/90/da/89943decf02e0034e4ff739cd82ba8a5852266904127d4686ed11416f1fe/social_gpt-0.0.6.tar.gz
+[2023-06-14 10:36:23] INFO root fetch - processPackages [x21e8]: executing diffoscope
+[2023-06-14 10:36:23] INFO root fetch - processPackages [x21e8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21e8-0.8.0.tar.gz tmp/x21e8-0.9.0.tar.gz --markdown 20230614/x/x21e8/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:36:24] INFO root fetch - processPackages [macrometa-source-bigquery]: Downloading https://files.pythonhosted.org/packages/af/fa/3ef99a2aa85c6350305cb6913216f9f253824112a62dc842e960f33863bd/macrometa-source-bigquery-0.0.9.tar.gz
+[2023-06-14 10:36:24] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 10:36:24] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.5.tar.gz tmp/social_gpt-0.0.6.tar.gz --markdown 20230614/s/social-gpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 10:36:24] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.12.tar.gz]
+[2023-06-14 10:36:24] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.13.tar.gz]
+[2023-06-14 10:36:24] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-14 10:36:24] INFO root fetch - processPackages [macrometa-source-bigquery]: executing diffoscope
+[2023-06-14 10:36:24] INFO root fetch - processPackages [macrometa-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-bigquery-0.0.8.tar.gz tmp/macrometa-source-bigquery-0.0.9.tar.gz --markdown 20230614/m/macrometa-source-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:36:24] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.4.tar.gz]
+[2023-06-14 10:36:24] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.5.tar.gz]
+[2023-06-14 10:36:24] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-14 10:36:24] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.4.tar.gz]
+[2023-06-14 10:36:24] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.8.5.tar.gz]
+[2023-06-14 10:36:24] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2023-06-14 10:36:25] INFO root fetch - processPackages [x21e8]: Remove: archive file [/home/abi/fetcher/tmp/x21e8-0.8.0.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - processPackages [x21e8]: Remove: archive file [/home/abi/fetcher/tmp/x21e8-0.9.0.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - main [MainThread]: End processing [x21e8]: success
+[2023-06-14 10:36:25] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.5.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.6.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 10:36:25] INFO root fetch - processPackages [python-rtmidi]: Remove: archive file [/home/abi/fetcher/tmp/python-rtmidi-1.5.1.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - processPackages [python-rtmidi]: Remove: archive file [/home/abi/fetcher/tmp/python-rtmidi-1.5.2.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - main [MainThread]: End processing [python-rtmidi]: success
+[2023-06-14 10:36:25] INFO root fetch - processPackages [macrometa-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-bigquery-0.0.8.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - processPackages [macrometa-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-bigquery-0.0.9.tar.gz]
+[2023-06-14 10:36:25] INFO root fetch - main [MainThread]: End processing [macrometa-source-bigquery]: success
+[2023-06-14 10:36:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 10:36:28] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.0.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 10:36:28] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2023-06-14 10:36:29] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.0rc1.tar.gz]
+[2023-06-14 10:36:29] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.0rc2.tar.gz]
+[2023-06-14 10:36:29] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2023-06-14 10:36:29] INFO root fetch - main [MainThread]: Store serial: [18498390]
