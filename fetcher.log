@@ -14228,3 +14228,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:11:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230613.tar.gz]
 [2023-06-14 08:11:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-14 08:11:11] INFO root fetch - main [MainThread]: Store serial: [18496823]
+[2023-06-14 08:16:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496823]
+[2023-06-14 08:16:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-cicd-base
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-cli
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-dso
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-libs
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azure
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-whd
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-oci
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cns
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vizmath
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smunger
+[2023-06-14 08:16:21] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [vizmath]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2076.0] Old Version: [1.2075.0]
+[2023-06-14 08:16:21] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-14 08:16:21] INFO root fetch - processPackages [cns]: Start processing: ofx-processor
+[2023-06-14 08:16:21] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2076.0] Old Version: [1.2075.0]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2076.0] Old Version: [1.2075.0]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [smunger]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2076.0] Old Version: [1.2075.0]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ofx-processor]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2076.0] Old Version: [1.2075.0]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/11/26/73926dd179da9d2c27ebf30787c5bbd9049e51633a0703ca03fef7bcc2d3/gardener-cicd-libs-1.2075.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-14 08:16:21] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/e1/8e/22f8ef38b7edec93026e889d0e27fb68e67399dfa55d5ff123c6657d7c42/smunger-0.0.9.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/ff/a5/a143e386e0e0c90f945e49405b180af448e5d487a4d4d9fd509152f3a762/gardener-cicd-base-1.2075.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/9c/a6/e3d204d057fc55a0335e1d877ca4208b55cee213dea32cd4271be7c3f6de/gardener-cicd-cli-1.2075.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/87/24/ab45eb553d1316721d87e7c9f661534d34e19cd8c853161ee634156db987/gardener-cicd-whd-1.2075.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/69/db/27d08852b86283ac07694c7db3223c43f880ad03f872dea18eea25a2dfbe/gardener-cicd-dso-1.2075.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/d8/a4/6095e0386e0da34d9db6459a700a24468b139002268fa46ab6823531a2cb/vizmath-0.0.1.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/99/0f/20397a5c0b205488dabfb4b0e639dc01795a66152576a0c16136c5bc4b87/ofx-processor-4.3.1.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/10/51/bf68975ff750402589ef98bd10cc839480f24dfa5cb3199ed9178016a3ed/gardener-cicd-base-1.2076.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/8a/9c/4004e50678f7b41752c594f1019b64e9b013ae5b52d0d8fec6d6a63354db/gardener-cicd-libs-1.2076.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/b6/12/a2c776b363b25c381661338e760379765024fbeadc2acfd161ca1d05203b/smunger-0.1.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/b5/db/a104cc6fe600f35e5c24f3168a337e0358cb513ba326a5965db1aad5a13e/gardener-cicd-whd-1.2076.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [vizmath]: Downloading https://files.pythonhosted.org/packages/82/90/dda4b10cbcd23db764efaca59fab148c8645752ed32161ba8adef9c90c32/vizmath-0.0.2.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/1a/2b/50c1e0aa8fe9610ee9dcae5d2be506c13b4f057c7506ab611aba7be79e2c/gardener-cicd-cli-1.2076.0.tar.gz
+[2023-06-14 08:16:21] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/6f/78/04996e8bbb6860faf7930087bb636a3bf5226f1ca9b243e09c6a0f756a4e/gardener-cicd-dso-1.2076.0.tar.gz
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2075.0.tar.gz tmp/gardener-cicd-base-1.2076.0.tar.gz --markdown 20230614/g/gardener-cicd-base/1.2075.0-1.2076.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230614/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2075.0.tar.gz tmp/gardener-cicd-libs-1.2076.0.tar.gz --markdown 20230614/g/gardener-cicd-libs/1.2075.0-1.2076.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2075.0.tar.gz tmp/gardener-cicd-whd-1.2076.0.tar.gz --markdown 20230614/g/gardener-cicd-whd/1.2075.0-1.2076.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2075.0.tar.gz tmp/gardener-cicd-dso-1.2076.0.tar.gz --markdown 20230614/g/gardener-cicd-dso/1.2075.0-1.2076.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/b3/86/4d36e1c583f11825db3f98433781082e6e1b241ee52f67247780c9eb1720/ofx_processor-4.4.0.tar.gz
+[2023-06-14 08:16:22] INFO root fetch - processPackages [vizmath]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [vizmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizmath-0.0.1.tar.gz tmp/vizmath-0.0.2.tar.gz --markdown 20230614/v/vizmath/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2075.0.tar.gz tmp/gardener-cicd-cli-1.2076.0.tar.gz --markdown 20230614/g/gardener-cicd-cli/1.2075.0-1.2076.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-06-14 08:16:22] INFO root fetch - processPackages [smunger]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [smunger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smunger-0.0.9.tar.gz tmp/smunger-0.1.0.tar.gz --markdown 20230614/s/smunger/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:22] INFO root fetch - processPackages [ofx-processor]: executing diffoscope
+[2023-06-14 08:16:22] INFO root fetch - processPackages [ofx-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofx-processor-4.3.1.tar.gz tmp/ofx_processor-4.4.0.tar.gz --markdown 20230614/o/ofx-processor/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-06-14 08:16:23] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-06-14 08:16:23] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230614/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-06-14 08:16:23] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [gardener-oci]: Start processing: aleph-lang
+[2023-06-14 08:16:23] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-14 08:16:23] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.1.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [vizmath]: Remove: archive file [/home/abi/fetcher/tmp/vizmath-0.0.2.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [vizmath]: Start processing: apollo-lunar
+[2023-06-14 08:16:23] INFO root fetch - main [MainThread]: End processing [vizmath]: success
+[2023-06-14 08:16:23] WARNING root fetch - processPackages [aleph-lang]: Skipping, unable to determine old version
+[2023-06-14 08:16:23] INFO root fetch - processPackages [aleph-lang]: Start processing: taospy
+[2023-06-14 08:16:23] INFO root fetch - main [MainThread]: End processing [aleph-lang] error
+[2023-06-14 08:16:23] INFO root fetch - processPackages [apollo-lunar]: New version: [2023.6.14rc1] Old Version: [2023.3.22rc2]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [taospy]: New version: [2.7.8] Old Version: [2.7.7]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx-processor-4.3.1.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.0.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [ofx-processor]: Start processing: DigiCore
+[2023-06-14 08:16:23] INFO root fetch - main [MainThread]: End processing [ofx-processor]: success
+[2023-06-14 08:16:23] INFO root fetch - processPackages [DigiCore]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/91/1a/b29ad2551bf56dbbe4ea4f646377aa7ff01bccbad67157218266b44f83ab/apollo-lunar-2023.3.22rc2.tar.gz
+[2023-06-14 08:16:23] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/a2/b4/e2cf676e8f60b2e10fee87ed9948c06960e8c4045e5643e3a8f869894bd9/taospy-2.7.7.tar.gz
+[2023-06-14 08:16:23] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2075.0.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2076.0.tar.gz]
+[2023-06-14 08:16:23] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: lazer
+[2023-06-14 08:16:23] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-14 08:16:23] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/14/72/0f759511af8975b79ecd18c2aa55c382813e51b7f4ab2e01528346f15944/DigiCore-1.0.1.tar.gz
+[2023-06-14 08:16:23] INFO root fetch - processPackages [lazer]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2075.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2076.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-14 08:16:24] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/19/7a/6a434710e3f2532ac4533fda964b644f1137c05f6547c5c094afca13faa6/apollo_lunar-2023.6.14rc1.tar.gz
+[2023-06-14 08:16:24] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.0.9.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/da/90/adec389b8d8604d5cab46fb6b2749d8cfa89e6c2bd01d1949d76366f9109/DigiCore-1.0.2.tar.gz
+[2023-06-14 08:16:24] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.1.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - main [MainThread]: End processing [smunger]: success
+[2023-06-14 08:16:24] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/8e/ff/fb506380b98352978f75a954d88bc2cac3c016fa567d1c21a2f7c7925c50/lazer-0.1.6.tar.gz
+[2023-06-14 08:16:24] INFO root fetch - processPackages [taospy]: Downloading https://files.pythonhosted.org/packages/35/ff/cda1530c1d9dee5fc8e1a15c6388ca0a50e52810ba4a17d31395b69b4f5d/taospy-2.7.8.tar.gz
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2075.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2076.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-14 08:16:24] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2023-06-14 08:16:24] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-lunar-2023.3.22rc2.tar.gz tmp/apollo_lunar-2023.6.14rc1.tar.gz --markdown 20230614/a/apollo-lunar/2023.3.22rc2-2023.6.14rc1/diff.md --exclude *.pyd
+[2023-06-14 08:16:24] INFO root fetch - processPackages [DigiCore]: executing diffoscope
+[2023-06-14 08:16:24] INFO root fetch - processPackages [DigiCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DigiCore-1.0.1.tar.gz tmp/DigiCore-1.0.2.tar.gz --markdown 20230614/D/DigiCore/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 08:16:24] INFO root fetch - processPackages [taospy]: executing diffoscope
+[2023-06-14 08:16:24] INFO root fetch - processPackages [taospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taospy-2.7.7.tar.gz tmp/taospy-2.7.8.tar.gz --markdown 20230614/t/taospy/2.7.7-2.7.8/diff.md --exclude *.pyd
+[2023-06-14 08:16:24] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/0b/cb/d7aaef9de19bce74df1d8fab75b87aa14ca3fcfc568dbab4bd013ef84bc2/lazer-0.1.7.tar.gz
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2075.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2076.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-14 08:16:24] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 08:16:24] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.6.tar.gz tmp/lazer-0.1.7.tar.gz --markdown 20230614/l/lazer/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2075.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2076.0.tar.gz]
+[2023-06-14 08:16:24] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-14 08:16:25] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.1.tar.gz]
+[2023-06-14 08:16:25] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.2.tar.gz]
+[2023-06-14 08:16:25] INFO root fetch - main [MainThread]: End processing [DigiCore]: success
+[2023-06-14 08:16:25] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.6.tar.gz]
+[2023-06-14 08:16:25] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.7.tar.gz]
+[2023-06-14 08:16:25] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 08:16:25] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo-lunar-2023.3.22rc2.tar.gz]
+[2023-06-14 08:16:25] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2023.6.14rc1.tar.gz]
+[2023-06-14 08:16:25] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2023-06-14 08:16:26] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.7.tar.gz]
+[2023-06-14 08:16:26] INFO root fetch - processPackages [taospy]: Remove: archive file [/home/abi/fetcher/tmp/taospy-2.7.8.tar.gz]
+[2023-06-14 08:16:26] INFO root fetch - main [MainThread]: End processing [taospy]: success
+[2023-06-14 08:16:51] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-06-14 08:16:51] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-06-14 08:16:51] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-06-14 08:16:51] INFO root fetch - main [MainThread]: Store serial: [18496874]
