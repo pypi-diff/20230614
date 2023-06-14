@@ -15418,3 +15418,125 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:02:01] INFO root fetch - processPackages [weblate-language-data]: Remove: archive file [/home/abi/fetcher/tmp/weblate-language-data-2023.5.tar.gz]
 [2023-06-14 09:02:01] INFO root fetch - main [MainThread]: End processing [weblate-language-data]: success
 [2023-06-14 09:02:01] INFO root fetch - main [MainThread]: Store serial: [18497293]
+[2023-06-14 09:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497293]
+[2023-06-14 09:07:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ib2influx
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apypie
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omkar-temp-mail
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bdpyconsts
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymilvus
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anomalies
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Secweb
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ssi-fctrading
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlsteam-model-sdk
+[2023-06-14 09:07:12] INFO root fetch - processPackages [bdpyconsts]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ssi-fctrading]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [omkar-temp-mail]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [apypie]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ib2influx]: New version: [1.1.0] Old Version: [0.9]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [Secweb]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [pymilvus]: New version: [2.3.0b1] Old Version: [2.2.9]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [anomalies]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [mlsteam-model-sdk]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-14 09:07:12] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/b6/ef/d913896aa3556ceea03d29a56fa4689fcbabf9248646d1cd20544d85ad11/omkar-temp-mail-1.0.2.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [bdpyconsts]: Downloading https://files.pythonhosted.org/packages/28/73/c9f97653b034c4c19a664be9b95a92677fe8ba0e486394d9400b93ca9c28/bdpyconsts-1.0.1.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/f8/fb/d738f247bfd7d7d40715fcb1e8472e698f14cd95ee59743e32b67785602b/ssi_fctrading-1.0.0.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [Secweb]: Downloading https://files.pythonhosted.org/packages/a4/3b/13cebc6e40eda6ced020a2d8d821d0f3974418d84249b0deb16470d39fb6/Secweb-1.7.1.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [apypie]: Downloading https://files.pythonhosted.org/packages/19/1d/912771fd33ff1186a1fd46864fefb552f2cd76e3439429c02ae89caace7a/apypie-0.3.2.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ib2influx]: Downloading https://files.pythonhosted.org/packages/eb/c3/24f6cf55501dcb8b3024d7e51e55c0a668493361d9b5e37a3906716749f0/ib2influx-0.9.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/87/92/8c9f6184d06cd4c451372b9e2340208fc6896acf7c1a28f8bb94109d31d4/pymilvus-2.2.9.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/be/1a/b6e3551734a112fab074ccc6d1aa992445c31cc11d0edfe11e9f7fc43cd9/ssi_fctrading-1.1.0.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [anomalies]: Downloading https://files.pythonhosted.org/packages/78/23/65b40059cda87824c97e03a0c5e4170563f9188e54ca64e270f3f190e457/anomalies-0.2.5.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [mlsteam-model-sdk]: Downloading https://files.pythonhosted.org/packages/17/16/907359a51ea9d986d30c094dd1843e9c37382ed74abce174853b1950a006/mlsteam_model_sdk-0.4.4-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 09:07:12] INFO root fetch - processPackages [bdpyconsts]: Downloading https://files.pythonhosted.org/packages/03/5f/9248ac9a18a81657768019c5ba549a3bbdd8b65d24edc34ddc868daa4a7a/bdpyconsts-1.1.1.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fctrading-1.0.0.tar.gz tmp/ssi_fctrading-1.1.0.tar.gz --markdown 20230614/s/ssi-fctrading/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/2a/ab/01f38134de3371ff24fb3abce73786cc986124b450fd3c00e7eab54b40b8/omkar-temp-mail-1.0.3.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [Secweb]: Downloading https://files.pythonhosted.org/packages/1e/44/0b53c768dd338a2f44234a988f1c56c06d0fbe78ec6f60d7700dbf2230fa/Secweb-1.7.2.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [bdpyconsts]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [bdpyconsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpyconsts-1.0.1.tar.gz tmp/bdpyconsts-1.1.1.tar.gz --markdown 20230614/b/bdpyconsts/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [omkar-temp-mail]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [omkar-temp-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar-temp-mail-1.0.2.tar.gz tmp/omkar-temp-mail-1.0.3.tar.gz --markdown 20230614/o/omkar-temp-mail/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [apypie]: Downloading https://files.pythonhosted.org/packages/bb/1c/c0a66b8228fb2a604d7e2c4bc4696318d119c76cd0857376717afca0c4a9/apypie-0.4.0.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [Secweb]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [Secweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Secweb-1.7.1.tar.gz tmp/Secweb-1.7.2.tar.gz --markdown 20230614/S/Secweb/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ib2influx]: Downloading https://files.pythonhosted.org/packages/ec/6f/afd85ae92376a09c42f3def9909327c4f1897760073c105acf42a2eea4c6/ib2influx-1.1.0.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [anomalies]: Downloading https://files.pythonhosted.org/packages/36/82/b7e3a0c0abbb1b53618d10a39d3e26b56bfe75dc06cdb47ba207e5409311/anomalies-0.2.6.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [mlsteam-model-sdk]: Downloading https://files.pythonhosted.org/packages/ef/b8/4632a59c348a90fa8a49eed5b8531ed4059eaeb409a17510757d626d7b87/mlsteam_model_sdk-0.4.5-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 09:07:12] INFO root fetch - processPackages [apypie]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [apypie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apypie-0.3.2.tar.gz tmp/apypie-0.4.0.tar.gz --markdown 20230614/a/apypie/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/06/c8/17548136463c170e3cb532bee55f33d39c529cee88c93c5b974af521c524/pymilvus-2.3.0b1.tar.gz
+[2023-06-14 09:07:12] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230614/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ib2influx]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [ib2influx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib2influx-0.9.tar.gz tmp/ib2influx-1.1.0.tar.gz --markdown 20230614/i/ib2influx/0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [anomalies]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [anomalies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomalies-0.2.5.tar.gz tmp/anomalies-0.2.6.tar.gz --markdown 20230614/a/anomalies/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-14 09:07:12] INFO root fetch - processPackages [mlsteam-model-sdk]: executing diffoscope
+[2023-06-14 09:07:12] INFO root fetch - processPackages [mlsteam-model-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsteam_model_sdk-0.4.4-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mlsteam_model_sdk-0.4.5-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230614/m/mlsteam-model-sdk/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-14 09:07:13] INFO root fetch - processPackages [pymilvus]: executing diffoscope
+[2023-06-14 09:07:13] INFO root fetch - processPackages [pymilvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus-2.2.9.tar.gz tmp/pymilvus-2.3.0b1.tar.gz --markdown 20230614/p/pymilvus/2.2.9-2.3.0b1/diff.md --exclude *.pyd
+[2023-06-14 09:07:14] INFO root fetch - processPackages [bdpyconsts]: Remove: archive file [/home/abi/fetcher/tmp/bdpyconsts-1.0.1.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [bdpyconsts]: Remove: archive file [/home/abi/fetcher/tmp/bdpyconsts-1.1.1.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [bdpyconsts]: Start processing: ib2influx
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [bdpyconsts]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ib2influx]: New version: [1.1.0] Old Version: [0.9]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar-temp-mail-1.0.2.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar-temp-mail-1.0.3.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: Start processing: trajdata
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ib2influx]: executing diffoscope
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ib2influx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ib2influx-0.9.tar.gz tmp/ib2influx-1.1.0.tar.gz --markdown 20230614/i/ib2influx/0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 09:07:14] INFO root fetch - processPackages [trajdata]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-1.0.0.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-1.1.0.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ssi-fctrading]: Start processing: canarytrap
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-14 09:07:14] WARNING root fetch - processPackages [canarytrap]: Skipping, unable to determine old version
+[2023-06-14 09:07:14] INFO root fetch - processPackages [canarytrap]: Start processing: omkar-temp-mail
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [canarytrap] error
+[2023-06-14 09:07:14] INFO root fetch - processPackages [apypie]: Remove: archive file [/home/abi/fetcher/tmp/apypie-0.3.2.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [apypie]: Remove: archive file [/home/abi/fetcher/tmp/apypie-0.4.0.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [apypie]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/2a/ab/01f38134de3371ff24fb3abce73786cc986124b450fd3c00e7eab54b40b8/omkar-temp-mail-1.0.3.tar.gz
+[2023-06-14 09:07:14] INFO root fetch - processPackages [anomalies]: Remove: archive file [/home/abi/fetcher/tmp/anomalies-0.2.5.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [anomalies]: Remove: archive file [/home/abi/fetcher/tmp/anomalies-0.2.6.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [anomalies]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [trajdata]: Downloading https://files.pythonhosted.org/packages/bb/14/8012196046b2de8b3f38630f383027c71b58b1e172d109bb0d1561ca3b27/trajdata-1.3.1.tar.gz
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ib2influx]: Remove: archive file [/home/abi/fetcher/tmp/ib2influx-0.9.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [ib2influx]: Remove: archive file [/home/abi/fetcher/tmp/ib2influx-1.1.0.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [ib2influx]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [mlsteam-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsteam_model_sdk-0.4.4-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [mlsteam-model-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mlsteam_model_sdk-0.4.5-cp39-none-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [mlsteam-model-sdk]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/4b/2d/1102e4cb6d6bd7a9f32e7f91d0ae15799caeaef064d8d8ada8890d104d7c/omkar_temp_mail-1.0.4.tar.gz
+[2023-06-14 09:07:14] INFO root fetch - processPackages [Secweb]: Remove: archive file [/home/abi/fetcher/tmp/Secweb-1.7.1.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [Secweb]: Remove: archive file [/home/abi/fetcher/tmp/Secweb-1.7.2.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [Secweb]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [trajdata]: Downloading https://files.pythonhosted.org/packages/22/08/9d52ea4bd587ad4e16394357705a68d6e0ccdc365b179dc86c704af65675/trajdata-1.3.2.tar.gz
+[2023-06-14 09:07:14] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: executing diffoscope
+[2023-06-14 09:07:14] INFO root fetch - processPackages [omkar-temp-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar-temp-mail-1.0.3.tar.gz tmp/omkar_temp_mail-1.0.4.tar.gz --markdown 20230614/o/omkar-temp-mail/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 09:07:14] INFO root fetch - processPackages [trajdata]: executing diffoscope
+[2023-06-14 09:07:14] INFO root fetch - processPackages [trajdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trajdata-1.3.1.tar.gz tmp/trajdata-1.3.2.tar.gz --markdown 20230614/t/trajdata/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 09:07:14] ERROR root fetch - processPackages [ib2influx]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ib2influx-0.9.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/ib2influx-1.1.0.tar.gz: No such file or directory
+
+[2023-06-14 09:07:14] INFO root fetch - main [MainThread]: End processing [ib2influx] error
+[2023-06-14 09:07:15] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar-temp-mail-1.0.3.tar.gz]
+[2023-06-14 09:07:15] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.4.tar.gz]
+[2023-06-14 09:07:15] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail]: success
+[2023-06-14 09:07:17] INFO root fetch - processPackages [trajdata]: Remove: archive file [/home/abi/fetcher/tmp/trajdata-1.3.1.tar.gz]
+[2023-06-14 09:07:17] INFO root fetch - processPackages [trajdata]: Remove: archive file [/home/abi/fetcher/tmp/trajdata-1.3.2.tar.gz]
+[2023-06-14 09:07:17] INFO root fetch - main [MainThread]: End processing [trajdata]: success
+[2023-06-14 09:07:17] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.2.9.tar.gz]
+[2023-06-14 09:07:17] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.3.0b1.tar.gz]
+[2023-06-14 09:07:17] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
+[2023-06-14 09:07:17] INFO root fetch - main [MainThread]: Store serial: [18497389]
