@@ -16904,3 +16904,187 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 10:11:36] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.0.3.tar.gz]
 [2023-06-14 10:11:36] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-14 10:11:36] INFO root fetch - main [MainThread]: Store serial: [18497944]
+[2023-06-14 10:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497944]
+[2023-06-14 10:16:46] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xsarslc
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betweens
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitmproxy-rs
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: addereq
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opengsl
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-dbd
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-payment-cooperator
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lensless
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: service-identity
+[2023-06-14 10:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pankmer
+[2023-06-14 10:16:46] INFO root fetch - processPackages [betweens]: New version: [1.2.2] Old Version: [1.2.1rc3]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [service-identity]: New version: [23.1.0] Old Version: [21.1.0]
+[2023-06-14 10:16:46] WARNING root fetch - processPackages [odoo14-addon-payment-cooperator]: Skipping, unable to determine old version
+[2023-06-14 10:16:46] INFO root fetch - processPackages [odoo14-addon-payment-cooperator]: Start processing: deviceID
+[2023-06-14 10:16:46] INFO root fetch - processPackages [addereq]: New version: [1.0.4] Old Version: [1.0.1]
+[2023-06-14 10:16:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-payment-cooperator] error
+[2023-06-14 10:16:46] INFO root fetch - processPackages [xsarslc]: New version: [2023.6.2] Old Version: [2023.6.14]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [opengsl]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [pankmer]: New version: [0.9.0] Old Version: [0.12.8]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [mitmproxy-rs]: New version: [0.2.0b9] Old Version: [0.2.0b8]
+[2023-06-14 10:16:46] WARNING root fetch - processPackages [deviceID]: Skipping, unable to determine old version
+[2023-06-14 10:16:46] INFO root fetch - processPackages [deviceID]: Start processing: haplotyping
+[2023-06-14 10:16:46] INFO root fetch - main [MainThread]: End processing [deviceID] error
+[2023-06-14 10:16:46] INFO root fetch - processPackages [lensless]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [haplotyping]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 10:16:46] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-14 10:16:46] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/d4/32/f365663004db21ff746c56d37aa7f1b5c5f3cca46a1dafa727b120911fc2/betweens-1.2.1rc3.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/8e/9a/b6d885b1647f7d9d72da22ff22fef1fdb1e4c61c3d9d064bae0c369a15e6/xsarslc-2023.6.14.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [service-identity]: Downloading https://files.pythonhosted.org/packages/09/2e/26ade69944773df4748c19d3053e025b282f48de02aad84906d34a29d28b/service-identity-21.1.0.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/f8/01/7a91cfbb68ccccce3ddde380befae9f2fa6ae3bc433ee70271ab614c70c3/pankmer-0.12.8.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/b9/cd/cb870139a47bcf6c08d9491cb2d2fa2dfbec182a6f8f52d4ad60afaaa1c0/addereq-1.0.1-cp39-cp39-win_amd64.whl
+[2023-06-14 10:16:46] INFO root fetch - processPackages [opengsl]: Downloading https://files.pythonhosted.org/packages/fe/af/c4cc5e407c0babe88ef5150f62c542e663de27e6ae240d8ce37a74fcb52c/opengsl-0.0.1.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [haplotyping]: Downloading https://files.pythonhosted.org/packages/49/cb/1b7377aba2aabc65500da78573877cae2aaad0ebe16540edaeaccc9f77f7/haplotyping-0.0.6.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [mitmproxy-rs]: Downloading https://files.pythonhosted.org/packages/b8/ff/a9d7a7a3d46baa14c0975dff749886c8bb2b97b4b3339fc618e682d4d345/mitmproxy_rs-0.2.0b8.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [lensless]: Downloading https://files.pythonhosted.org/packages/df/5f/1cb0f6f5ff3fe5e7a0efbf461f53052a0ef04b2f5a306fdf4b71d55bfdb8/lensless-1.0.2.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-14 10:16:46] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-14 10:16:46] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230614/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:16:46] INFO root fetch - processPackages [service-identity]: Downloading https://files.pythonhosted.org/packages/3b/98/2a46c7414ffc1d06ba67d2c2dd62a207a70cb351028a8cd8c85b3dbd1cf7/service_identity-23.1.0.tar.gz
+[2023-06-14 10:16:46] INFO root fetch - processPackages [opengsl]: Downloading https://files.pythonhosted.org/packages/d4/47/a7f983accd2165cb26bd262bc0954a0ed3ccedded4b7786c2ce207a6d83b/opengsl-0.0.2.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [haplotyping]: Downloading https://files.pythonhosted.org/packages/15/a6/9f5ed091a66b1c3f32a19cb6baba8836caa920f33e5b9cdd292fdeb415d9/haplotyping-0.0.7.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/ba/e9/2d9e65bb790454d938b28bd6d457e08433666f3ffd24a9f521c48804dc32/betweens-1.2.2.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [pankmer]: Downloading https://files.pythonhosted.org/packages/ec/87/885615746e80d9141ab39f7997ee1ac00677e583de2ddcd9b167d76993a6/pankmer-0.9.0.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [lensless]: Downloading https://files.pythonhosted.org/packages/a0/49/d6bd416a346c24d218392cd779d3429db7f9c8aea7a03d5b0d84d573467d/lensless-1.0.4.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [addereq]: Downloading https://files.pythonhosted.org/packages/3c/c6/90242375f98d9e05ee7683411406f80734996a06b471e27e1855f8987117/addereq-1.0.4-cp310-cp310-macosx_11_0_x86_64.whl
+[2023-06-14 10:16:47] INFO root fetch - processPackages [service-identity]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [service-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-identity-21.1.0.tar.gz tmp/service_identity-23.1.0.tar.gz --markdown 20230614/s/service-identity/21.1.0-23.1.0/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [xsarslc]: Downloading https://files.pythonhosted.org/packages/f4/15/dd940c67365a6a550189d6ec5bce0a75dd120eb404fa447c248eaf930088/xsarslc-2023.6.2.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [opengsl]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [opengsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengsl-0.0.1.tar.gz tmp/opengsl-0.0.2.tar.gz --markdown 20230614/o/opengsl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [mitmproxy-rs]: Downloading https://files.pythonhosted.org/packages/f2/14/36f2d8d38259aeae458804b46a61d5168a1246cd3a0c367d3c51549a995e/mitmproxy_rs-0.2.0b9.tar.gz
+[2023-06-14 10:16:47] INFO root fetch - processPackages [haplotyping]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [haplotyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haplotyping-0.0.6.tar.gz tmp/haplotyping-0.0.7.tar.gz --markdown 20230614/h/haplotyping/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [addereq]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [addereq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addereq-1.0.1-cp39-cp39-win_amd64.whl.zip tmp/addereq-1.0.4-cp310-cp310-macosx_11_0_x86_64.whl.zip --markdown 20230614/a/addereq/1.0.1-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-1.2.1rc3.tar.gz tmp/betweens-1.2.2.tar.gz --markdown 20230614/b/betweens/1.2.1rc3-1.2.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [xsarslc]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [xsarslc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsarslc-2023.6.14.tar.gz tmp/xsarslc-2023.6.2.tar.gz --markdown 20230614/x/xsarslc/2023.6.14-2023.6.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [pankmer]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [pankmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pankmer-0.12.8.tar.gz tmp/pankmer-0.9.0.tar.gz --markdown 20230614/p/pankmer/0.12.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [mitmproxy-rs]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [mitmproxy-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitmproxy_rs-0.2.0b8.tar.gz tmp/mitmproxy_rs-0.2.0b9.tar.gz --markdown 20230614/m/mitmproxy-rs/0.2.0b8-0.2.0b9/diff.md --exclude *.pyd
+[2023-06-14 10:16:47] INFO root fetch - processPackages [lensless]: executing diffoscope
+[2023-06-14 10:16:47] INFO root fetch - processPackages [lensless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lensless-1.0.2.tar.gz tmp/lensless-1.0.4.tar.gz --markdown 20230614/l/lensless/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:16:48] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-14 10:16:48] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 10:16:48] INFO root fetch - processPackages [openai-dbd]: Start processing: esptool
+[2023-06-14 10:16:48] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-14 10:16:48] INFO root fetch - processPackages [esptool]: New version: [4.6.dev1] Old Version: [4.6.2]
+[2023-06-14 10:16:48] INFO root fetch - processPackages [esptool]: Downloading https://files.pythonhosted.org/packages/a3/63/c757f50b606996a7e676f000b40626f65be63b3a10030563929c968e431c/esptool-4.6.2.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [haplotyping]: Remove: archive file [/home/abi/fetcher/tmp/haplotyping-0.0.6.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [haplotyping]: Remove: archive file [/home/abi/fetcher/tmp/haplotyping-0.0.7.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [haplotyping]: Start processing: sora-sdk
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [haplotyping]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [sora-sdk]: New version: [2023.1.0.dev1] Old Version: [2023.1.0.dev0]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [lensless]: Remove: archive file [/home/abi/fetcher/tmp/lensless-1.0.2.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [lensless]: Remove: archive file [/home/abi/fetcher/tmp/lensless-1.0.4.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [lensless]: Start processing: uvw
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [lensless]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [uvw]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.12.8.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [pankmer]: Remove: archive file [/home/abi/fetcher/tmp/pankmer-0.9.0.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [pankmer]: Start processing: betweens
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [pankmer]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: New version: [1.2.2] Old Version: [1.2.1rc3]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [esptool]: Downloading https://files.pythonhosted.org/packages/5b/c6/6343b61959181c959ffd82544c41d9b7f5194d8ec8d40a6ee2440db46751/esptool-4.6.dev1.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: Remove: archive file [/home/abi/fetcher/tmp/betweens-1.2.1rc3.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: Remove: archive file [/home/abi/fetcher/tmp/betweens-1.2.2.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: Start processing: tpaw
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [betweens]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/d4/32/f365663004db21ff746c56d37aa7f1b5c5f3cca46a1dafa727b120911fc2/betweens-1.2.1rc3.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [tpaw]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/c5/e1/b3574bb60d5852e2c9892eec512a904bf9fb1b0d6273bd9fbf470e8ec952/sora_sdk-2023.1.0.dev0.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [tpaw]: Downloading https://files.pythonhosted.org/packages/e6/fb/8a8249c827348ca33e49d5d0e8446939c60e64d64eabcea9fc947dc7f15a/tpaw-0.0.1a2.tar.gz
+[2023-06-14 10:16:49] WARNING root fetch - processPackages [sora-sdk]: Skipping package: exceeds size limit 11341947>=10485760
+[2023-06-14 10:16:49] INFO root fetch - processPackages [sora-sdk]: Start processing: betweens
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [sora-sdk] error
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: New version: [1.2.2] Old Version: [1.2.1rc3]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [esptool]: executing diffoscope
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/ba/e9/2d9e65bb790454d938b28bd6d457e08433666f3ffd24a9f521c48804dc32/betweens-1.2.2.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [esptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esptool-4.6.2.tar.gz tmp/esptool-4.6.dev1.tar.gz --markdown 20230614/e/esptool/4.6.2-4.6.dev1/diff.md --exclude *.pyd
+[2023-06-14 10:16:49] INFO root fetch - processPackages [uvw]: Downloading https://files.pythonhosted.org/packages/e6/74/a060a87195b28bb0f05d2f4590c2fac2e1fd9cabd67a53699461d3056624/uvw-0.5.1.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-1.2.1rc3.tar.gz tmp/betweens-1.2.2.tar.gz --markdown 20230614/b/betweens/1.2.1rc3-1.2.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-1.2.1rc3.tar.gz tmp/betweens-1.2.2.tar.gz --markdown 20230614/b/betweens/1.2.1rc3-1.2.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:49] INFO root fetch - processPackages [service-identity]: Remove: archive file [/home/abi/fetcher/tmp/service-identity-21.1.0.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [service-identity]: Remove: archive file [/home/abi/fetcher/tmp/service_identity-23.1.0.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [service-identity]: Start processing: betweens
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [service-identity]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [tpaw]: Downloading https://files.pythonhosted.org/packages/e4/33/27e73e7c0ea8b3d9bd3eb4d10e819e4143cdc406022cdf01a0b343780734/tpaw-0.0.1a3.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [xsarslc]: Remove: archive file [/home/abi/fetcher/tmp/xsarslc-2023.6.14.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [xsarslc]: Remove: archive file [/home/abi/fetcher/tmp/xsarslc-2023.6.2.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [xsarslc]: Start processing: zenroom
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [xsarslc]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: New version: [1.2.2] Old Version: [1.2.1rc3]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [zenroom]: New version: [3.4.0] Old Version: [3.3.1]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [uvw]: Downloading https://files.pythonhosted.org/packages/da/ce/669b588ec7fca06a567f8b8e33f0033cf7f7752388cf66daceb41743adcf/uvw-0.5.2.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [tpaw]: executing diffoscope
+[2023-06-14 10:16:49] INFO root fetch - processPackages [tpaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpaw-0.0.1a2.tar.gz tmp/tpaw-0.0.1a3.tar.gz --markdown 20230614/t/tpaw/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-06-14 10:16:49] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-1.2.1rc3.tar.gz tmp/betweens-1.2.2.tar.gz --markdown 20230614/b/betweens/1.2.1rc3-1.2.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:49] INFO root fetch - processPackages [uvw]: executing diffoscope
+[2023-06-14 10:16:49] INFO root fetch - processPackages [uvw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvw-0.5.1.tar.gz tmp/uvw-0.5.2.tar.gz --markdown 20230614/u/uvw/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-14 10:16:49] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [addereq]: Remove: archive file [/home/abi/fetcher/tmp/addereq-1.0.4-cp310-cp310-macosx_11_0_x86_64.whl.zip]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [addereq]: Start processing: sports2d
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [addereq]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [sports2d]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [opengsl]: Remove: archive file [/home/abi/fetcher/tmp/opengsl-0.0.1.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [opengsl]: Remove: archive file [/home/abi/fetcher/tmp/opengsl-0.0.2.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [opengsl]: success
+[2023-06-14 10:16:49] INFO root fetch - processPackages [zenroom]: Downloading https://files.pythonhosted.org/packages/5e/10/d25909d52da88b02a84d19e09a5e664d9beadd3151992acef3f7a8b0b2ee/zenroom-3.3.1.tar.gz
+[2023-06-14 10:16:49] INFO root fetch - processPackages [mitmproxy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy_rs-0.2.0b8.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - processPackages [mitmproxy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy_rs-0.2.0b9.tar.gz]
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [mitmproxy-rs]: success
+[2023-06-14 10:16:49] WARNING root fetch - processPackages [zenroom]: Skipping package: exceeds size limit 25646608>=10485760
+[2023-06-14 10:16:49] INFO root fetch - main [MainThread]: End processing [zenroom] error
+[2023-06-14 10:16:50] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/f4/cd/dc82ecee2742a8df20432a0c8ea507c1bd1ac9122bb1e532902be4a01974/sports2d-0.2.4.tar.gz
+[2023-06-14 10:16:50] INFO root fetch - processPackages [sports2d]: Downloading https://files.pythonhosted.org/packages/25/eb/965110790771b72865ab4f5508884f184093bffea1ecd38c252cc02cdf76/sports2d-0.2.5.tar.gz
+[2023-06-14 10:16:50] INFO root fetch - processPackages [betweens]: Remove: archive file [/home/abi/fetcher/tmp/betweens-1.2.1rc3.tar.gz]
+[2023-06-14 10:16:50] INFO root fetch - processPackages [betweens]: Remove: archive file [/home/abi/fetcher/tmp/betweens-1.2.2.tar.gz]
+[2023-06-14 10:16:50] INFO root fetch - main [MainThread]: End processing [betweens]: success
+[2023-06-14 10:16:50] ERROR root fetch - processPackages [betweens]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
+
+[2023-06-14 10:16:50] INFO root fetch - main [MainThread]: End processing [betweens] error
+[2023-06-14 10:16:51] INFO root fetch - main [MainThread]: End processing [betweens]: success
+[2023-06-14 10:16:51] INFO root fetch - processPackages [sports2d]: executing diffoscope
+[2023-06-14 10:16:51] INFO root fetch - processPackages [sports2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sports2d-0.2.4.tar.gz tmp/sports2d-0.2.5.tar.gz --markdown 20230614/s/sports2d/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-14 10:16:51] INFO root fetch - processPackages [tpaw]: Remove: archive file [/home/abi/fetcher/tmp/tpaw-0.0.1a2.tar.gz]
+[2023-06-14 10:16:51] INFO root fetch - processPackages [tpaw]: Remove: archive file [/home/abi/fetcher/tmp/tpaw-0.0.1a3.tar.gz]
+[2023-06-14 10:16:51] INFO root fetch - main [MainThread]: End processing [tpaw]: success
+[2023-06-14 10:16:51] INFO root fetch - processPackages [uvw]: Remove: archive file [/home/abi/fetcher/tmp/uvw-0.5.1.tar.gz]
+[2023-06-14 10:16:51] INFO root fetch - processPackages [uvw]: Remove: archive file [/home/abi/fetcher/tmp/uvw-0.5.2.tar.gz]
+[2023-06-14 10:16:51] INFO root fetch - main [MainThread]: End processing [uvw]: success
+[2023-06-14 10:16:51] INFO root fetch - processPackages [esptool]: Remove: archive file [/home/abi/fetcher/tmp/esptool-4.6.2.tar.gz]
+[2023-06-14 10:16:51] INFO root fetch - processPackages [esptool]: Remove: archive file [/home/abi/fetcher/tmp/esptool-4.6.dev1.tar.gz]
+[2023-06-14 10:16:51] INFO root fetch - main [MainThread]: End processing [esptool]: success
+[2023-06-14 10:16:52] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.4.tar.gz]
+[2023-06-14 10:16:52] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.5.tar.gz]
+[2023-06-14 10:16:52] INFO root fetch - main [MainThread]: End processing [sports2d]: success
+[2023-06-14 10:16:52] INFO root fetch - main [MainThread]: Store serial: [18498026]
