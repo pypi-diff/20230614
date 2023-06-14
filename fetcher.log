@@ -10275,3 +10275,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:43:32] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230614.tar.gz]
 [2023-06-14 04:43:32] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-14 04:43:32] INFO root fetch - main [MainThread]: Store serial: [18495400]
+[2023-06-14 04:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495400]
+[2023-06-14 04:48:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microcat
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sinabs-dynapcnn
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngql-gen
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssi-fctrading
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-miraie-ac
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karas-py
+[2023-06-14 04:48:41] INFO root fetch - processPackages [microcat]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ngql-gen]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ssi-fctrading]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-06-14 04:48:41] INFO root fetch - processPackages [sinabs-dynapcnn]: New version: [1.0.9.dev97] Old Version: [1.0.9.dev9]
+[2023-06-14 04:48:41] INFO root fetch - processPackages [py-miraie-ac]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 04:48:41] INFO root fetch - processPackages [karas-py]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-14 04:48:41] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/1e/36/f81ffa5121e33436d8e5a624a9d10d3d53fe2d79675b0f285d34d1a999b7/py-miraie-ac-0.1.4.tar.gz
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/e4/0f/38482a4caa99a38aeba50c2d3f23c73bf2998e61148bf60d31a394f4464f/ngql_gen-0.0.7.tar.gz
+[2023-06-14 04:48:41] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/0a/af/ad0531d0aba45f0904033a36fc091e9378fe2c92b8f53f3c3ea659622de2/ssi_fctrading-0.2.0.tar.gz
+[2023-06-14 04:48:42] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/0c/42/eaa7a26b412f18010a1aa6bbd216e6ec3f70df07860e10a5d7602955aada/microcat-0.1.4.tar.gz
+[2023-06-14 04:48:42] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/82/bf/ec8e2cab4ffce5ad7925db9b678d19ccf571f8aecd864f2c15534b204553/sinabs-dynapcnn-1.0.9.dev9.tar.gz
+[2023-06-14 04:48:42] INFO root fetch - processPackages [karas-py]: Downloading https://files.pythonhosted.org/packages/a7/94/ce3072664ffffa23242d23856df7e479ec06f7feb0b20f88bf2575320115/karas_py-0.2.8.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/f8/fb/d738f247bfd7d7d40715fcb1e8472e698f14cd95ee59743e32b67785602b/ssi_fctrading-1.0.0.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [microcat]: Downloading https://files.pythonhosted.org/packages/b9/42/92a178644e0af728733616cc08c26b2640b05baeabf322e5cb5d811d5af9/microcat-0.1.5.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-14 04:48:43] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fctrading-0.2.0.tar.gz tmp/ssi_fctrading-1.0.0.tar.gz --markdown 20230614/s/ssi-fctrading/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 04:48:43] INFO root fetch - processPackages [microcat]: executing diffoscope
+[2023-06-14 04:48:43] INFO root fetch - processPackages [microcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microcat-0.1.4.tar.gz tmp/microcat-0.1.5.tar.gz --markdown 20230614/m/microcat/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 04:48:43] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/66/5a/67910ef962c473bb92ad581f4a7722f5db58142f17cf21afd247a7ea6ac0/ngql_gen-0.0.8.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [karas-py]: Downloading https://files.pythonhosted.org/packages/b5/ad/d73684312196652ba9c06577582670fd4b7a0b8acccdaf9eb3ff393ec2df/karas_py-0.2.9.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [py-miraie-ac]: Downloading https://files.pythonhosted.org/packages/3a/ff/a73b40b9d097bdee1b2209842a5d4a00ca6d776f438dbf587cd8f4f5911c/py-miraie-ac-0.1.5.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [ngql-gen]: executing diffoscope
+[2023-06-14 04:48:43] INFO root fetch - processPackages [ngql-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngql_gen-0.0.7.tar.gz tmp/ngql_gen-0.0.8.tar.gz --markdown 20230614/n/ngql-gen/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 04:48:43] INFO root fetch - processPackages [sinabs-dynapcnn]: Downloading https://files.pythonhosted.org/packages/1c/1e/ed5b2ee8f910d900e5e7f01220f393cf59ffac99dd0e6a4170b4c6be2a10/sinabs-dynapcnn-1.0.9.dev97.tar.gz
+[2023-06-14 04:48:43] INFO root fetch - processPackages [py-miraie-ac]: executing diffoscope
+[2023-06-14 04:48:43] INFO root fetch - processPackages [py-miraie-ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-miraie-ac-0.1.4.tar.gz tmp/py-miraie-ac-0.1.5.tar.gz --markdown 20230614/p/py-miraie-ac/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 04:48:43] INFO root fetch - processPackages [karas-py]: executing diffoscope
+[2023-06-14 04:48:43] INFO root fetch - processPackages [karas-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karas_py-0.2.8.tar.gz tmp/karas_py-0.2.9.tar.gz --markdown 20230614/k/karas-py/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 04:48:43] INFO root fetch - processPackages [sinabs-dynapcnn]: executing diffoscope
+[2023-06-14 04:48:43] INFO root fetch - processPackages [sinabs-dynapcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz --markdown 20230614/s/sinabs-dynapcnn/1.0.9.dev9-1.0.9.dev97/diff.md --exclude *.pyd
+[2023-06-14 04:48:44] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-0.2.0.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-1.0.0.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-14 04:48:44] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.4.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - processPackages [py-miraie-ac]: Remove: archive file [/home/abi/fetcher/tmp/py-miraie-ac-0.1.5.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - main [MainThread]: End processing [py-miraie-ac]: success
+[2023-06-14 04:48:44] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.7.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.8.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - main [MainThread]: End processing [ngql-gen]: success
+[2023-06-14 04:48:44] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.4.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - processPackages [microcat]: Remove: archive file [/home/abi/fetcher/tmp/microcat-0.1.5.tar.gz]
+[2023-06-14 04:48:44] INFO root fetch - main [MainThread]: End processing [microcat]: success
+[2023-06-14 04:48:45] INFO root fetch - processPackages [karas-py]: Remove: archive file [/home/abi/fetcher/tmp/karas_py-0.2.8.tar.gz]
+[2023-06-14 04:48:45] INFO root fetch - processPackages [karas-py]: Remove: archive file [/home/abi/fetcher/tmp/karas_py-0.2.9.tar.gz]
+[2023-06-14 04:48:45] INFO root fetch - main [MainThread]: End processing [karas-py]: success
+[2023-06-14 04:48:45] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev9.tar.gz]
+[2023-06-14 04:48:45] INFO root fetch - processPackages [sinabs-dynapcnn]: Remove: archive file [/home/abi/fetcher/tmp/sinabs-dynapcnn-1.0.9.dev97.tar.gz]
+[2023-06-14 04:48:45] INFO root fetch - main [MainThread]: End processing [sinabs-dynapcnn]: success
+[2023-06-14 04:48:45] INFO root fetch - main [MainThread]: Store serial: [18495416]
