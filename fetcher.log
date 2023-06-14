@@ -23020,3 +23020,186 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 14:06:34] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2023-06-14 14:06:34] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2023-06-14 14:06:34] INFO root fetch - main [MainThread]: Store serial: [18500809]
+[2023-06-14 14:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500809]
+[2023-06-14 14:11:44] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchkit
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archbuilder
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alertlogic-sdk-definitions
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinynn-py
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dune-iga
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-GeosciencesIO
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rtc-tools-diagnostics
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-jira-xfail
+[2023-06-14 14:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: current-events-magnifier
+[2023-06-14 14:11:44] INFO root fetch - processPackages [searchkit]: New version: [0.2.7.post1] Old Version: [0.2.7]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [tinynn-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [pytest-jira-xfail]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-14 14:11:44] WARNING root fetch - processPackages [rtc-tools-diagnostics]: Skipping, unable to determine old version
+[2023-06-14 14:11:44] INFO root fetch - processPackages [rtc-tools-diagnostics]: Start processing: flightanalysis
+[2023-06-14 14:11:44] INFO root fetch - main [MainThread]: End processing [rtc-tools-diagnostics] error
+[2023-06-14 14:11:44] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flightanalysis]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/cb/42/2d30d230a2b06b9a3c5bec9d7daa994b06ecf16edf7ce02411e0ccc635b1/searchkit-0.2.7.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [tinynn-py]: Downloading https://files.pythonhosted.org/packages/30/d9/ab2063133043f1cd993d3b61141991091e0ee88ea3f9f1d46f44f4db9bb2/tinynn-py-1.0.0.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/fa/1d/43ee3d0a096ce2428d736c780d78f9804135c7993d196660c5050eef11f8/flightanalysis-0.1.1.tar.gz
+[2023-06-14 14:11:44] WARNING root fetch - processPackages [current-events-magnifier]: Skipping, unable to determine old version
+[2023-06-14 14:11:44] INFO root fetch - processPackages [current-events-magnifier]: Start processing: mina-build
+[2023-06-14 14:11:44] INFO root fetch - main [MainThread]: End processing [current-events-magnifier] error
+[2023-06-14 14:11:44] WARNING root fetch - processPackages [dune-iga]: Skipping, unable to determine old version
+[2023-06-14 14:11:44] INFO root fetch - processPackages [archbuilder]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [dune-iga]: Start processing: flask-htmx
+[2023-06-14 14:11:44] INFO root fetch - main [MainThread]: End processing [dune-iga] error
+[2023-06-14 14:11:44] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: New version: [4.1.5rc1] Old Version: [4.1.4rc1]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/37/2d/d04022db2c2c7242403a185b45a95837c0bbf7ef694d779bce552a2e6a39/alertlogic-sdk-definitions-0.1.98.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [tinynn-py]: Downloading https://files.pythonhosted.org/packages/2e/aa/8fcad920be1f6da3afcd7710209147cab8d58392758e21ec1bd75a81c92a/tinynn-py-1.0.1.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [pytest-jira-xfail]: Downloading https://files.pythonhosted.org/packages/cd/20/93f29434af503ae9319035b315c56e013b012f65faa5daa1d27ece879990/pytest-jira-xfail-1.0.0.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [mina-build]: New version: [0.4.0] Old Version: [0.2.9]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/7e/0b/6031e67cf9ddada50d5135fa473bfcfc58c90ab5f74b6ae9ba06756cab74/flightanalysis-0.1.2.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flask-htmx]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-14 14:11:44] INFO root fetch - processPackages [archbuilder]: Downloading https://files.pythonhosted.org/packages/99/7d/5f8d9d04a727a5b61b76003ea9069bf6d568cc1d15e7fcae5df496b091bb/archbuilder-0.1.2.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-14 14:11:44] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/69/85/7b179964aeab643e358417bf72816687dd871481934732e984d76cf8cea1/searchkit-0.2.7.post1.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [tinynn-py]: executing diffoscope
+[2023-06-14 14:11:44] INFO root fetch - processPackages [tinynn-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinynn-py-1.0.0.tar.gz tmp/tinynn-py-1.0.1.tar.gz --markdown 20230614/t/tinynn-py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 14:11:44] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/f8/4d/aabae0755cf12e86d042c184306091f45e890151658d42849c276ed3b1cc/OpenGeode_GeosciencesIO-4.1.4rc1-cp39-cp39-win_amd64.whl
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.1.1.tar.gz tmp/flightanalysis-0.1.2.tar.gz --markdown 20230614/f/flightanalysis/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 14:11:44] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-06-14 14:11:44] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.7.tar.gz tmp/searchkit-0.2.7.post1.tar.gz --markdown 20230614/s/searchkit/0.2.7-0.2.7.post1/diff.md --exclude *.pyd
+[2023-06-14 14:11:44] INFO root fetch - processPackages [mina-build]: Downloading https://files.pythonhosted.org/packages/d6/8d/363a66943ef331ead51430d3e51c47ab2135c695d65a6c373e9ac7711cf7/mina-build-0.2.9.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-14 14:11:44] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230614/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-14 14:11:44] INFO root fetch - processPackages [flask-htmx]: Downloading https://files.pythonhosted.org/packages/29/d4/1604f4222aeea56d2aad42170a7d948296ab1fe252cb0262ea4668b33532/flask_htmx-0.3.0.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Downloading https://files.pythonhosted.org/packages/ca/40/d491b53e878475fc259c3994f3d4c75b8f55fa82e36e0cef73f6e58c5418/alertlogic-sdk-definitions-0.1.99.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [archbuilder]: Downloading https://files.pythonhosted.org/packages/78/c4/a476e65b4cab10c155db023fa9aae23355d163d3b4a23c8a8e6bee94514b/archbuilder-0.1.3.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [pytest-jira-xfail]: Downloading https://files.pythonhosted.org/packages/b8/ee/ee1d353d56d8ffc6e6d2b798e50df6a6b0ff34dd8b40e6bf49d325a68a43/pytest-jira-xfail-1.0.1.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Downloading https://files.pythonhosted.org/packages/b8/84/a53b1a8f22290ec40de857803dd6e737bb149b49820aa54cdc6c11f6bc90/OpenGeode_GeosciencesIO-4.1.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-14 14:11:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: executing diffoscope
+[2023-06-14 14:11:44] INFO root fetch - processPackages [alertlogic-sdk-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alertlogic-sdk-definitions-0.1.98.tar.gz tmp/alertlogic-sdk-definitions-0.1.99.tar.gz --markdown 20230614/a/alertlogic-sdk-definitions/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-14 14:11:44] INFO root fetch - processPackages [archbuilder]: executing diffoscope
+[2023-06-14 14:11:44] INFO root fetch - processPackages [archbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archbuilder-0.1.2.tar.gz tmp/archbuilder-0.1.3.tar.gz --markdown 20230614/a/archbuilder/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 14:11:44] INFO root fetch - processPackages [mina-build]: Downloading https://files.pythonhosted.org/packages/a3/38/192ad5be3753f5a72e05a5d961aa3ec994aebaa4535b054ad9cf0494bc37/mina-build-0.4.0.tar.gz
+[2023-06-14 14:11:44] INFO root fetch - processPackages [pytest-jira-xfail]: executing diffoscope
+[2023-06-14 14:11:45] INFO root fetch - processPackages [pytest-jira-xfail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-jira-xfail-1.0.0.tar.gz tmp/pytest-jira-xfail-1.0.1.tar.gz --markdown 20230614/p/pytest-jira-xfail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 14:11:45] INFO root fetch - processPackages [flask-htmx]: Downloading https://files.pythonhosted.org/packages/d2/b3/b3a733e4bc3fe8cbf6287744a5eff63a5a492cec55a187f665e9f12e9bc9/flask_htmx-0.3.1.tar.gz
+[2023-06-14 14:11:45] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: executing diffoscope
+[2023-06-14 14:11:45] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_GeosciencesIO-4.1.4rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_GeosciencesIO-4.1.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230614/O/OpenGeode-GeosciencesIO/4.1.4rc1-4.1.5rc1/diff.md --exclude *.pyd
+[2023-06-14 14:11:45] INFO root fetch - processPackages [mina-build]: executing diffoscope
+[2023-06-14 14:11:45] INFO root fetch - processPackages [mina-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mina-build-0.2.9.tar.gz tmp/mina-build-0.4.0.tar.gz --markdown 20230614/m/mina-build/0.2.9-0.4.0/diff.md --exclude *.pyd
+[2023-06-14 14:11:45] INFO root fetch - processPackages [flask-htmx]: executing diffoscope
+[2023-06-14 14:11:45] INFO root fetch - processPackages [flask-htmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_htmx-0.3.0.tar.gz tmp/flask_htmx-0.3.1.tar.gz --markdown 20230614/f/flask-htmx/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-14 14:11:46] INFO root fetch - processPackages [tinynn-py]: Remove: archive file [/home/abi/fetcher/tmp/tinynn-py-1.0.0.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [tinynn-py]: Remove: archive file [/home/abi/fetcher/tmp/tinynn-py-1.0.1.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [tinynn-py]: Start processing: returnn
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [tinynn-py]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [returnn]: New version: [1.20230614.134509] Old Version: [1.20230609.82609]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [archbuilder]: Remove: archive file [/home/abi/fetcher/tmp/archbuilder-0.1.2.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [archbuilder]: Remove: archive file [/home/abi/fetcher/tmp/archbuilder-0.1.3.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [archbuilder]: Start processing: tf-agents-nightly
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [archbuilder]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [flask-htmx]: Remove: archive file [/home/abi/fetcher/tmp/flask_htmx-0.3.0.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [flask-htmx]: Remove: archive file [/home/abi/fetcher/tmp/flask_htmx-0.3.1.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [flask-htmx]: Start processing: amin-qvm
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [flask-htmx]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [mina-build]: Remove: archive file [/home/abi/fetcher/tmp/mina-build-0.2.9.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [mina-build]: Remove: archive file [/home/abi/fetcher/tmp/mina-build-0.4.0.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [mina-build]: Start processing: omkar-account-generator
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [mina-build]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pytest-jira-xfail]: Remove: archive file [/home/abi/fetcher/tmp/pytest-jira-xfail-1.0.0.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pytest-jira-xfail]: Remove: archive file [/home/abi/fetcher/tmp/pytest-jira-xfail-1.0.1.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pytest-jira-xfail]: Start processing: instagpy
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [pytest-jira-xfail]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-14 14:11:46] INFO root fetch - processPackages [instagpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-account-generator]: New version: [1.1.0] Old Version: [1.0.7]
+[2023-06-14 14:11:46] WARNING root fetch - processPackages [amin-qvm]: Skipping, unable to determine old version
+[2023-06-14 14:11:46] INFO root fetch - processPackages [amin-qvm]: Start processing: omkar-temp-mail
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [amin-qvm] error
+[2023-06-14 14:11:46] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_GeosciencesIO-4.1.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [OpenGeode-GeosciencesIO]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [OpenGeode-GeosciencesIO]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/c6/00/cc6063bfb1a8bb0db2fb94a245fb7d4dd658222e4419f3ac37ec7dde784e/returnn-1.20230609.82609.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-temp-mail]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/eb/49/fc90dda208aef1ca918b373e512beac685b5eb9fb0e8fb4ae596d83af865/instagpy-0.1.4.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-account-generator]: Downloading https://files.pythonhosted.org/packages/da/3c/7b349e018210bedb56f209356b1e8ab5d65de151f6e75dd348d1e12103fd/omkar_account_generator-1.0.7.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.2.7.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.2.7.post1.tar.gz]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [searchkit]: Start processing: commonMethods-zhaozl-green
+[2023-06-14 14:11:46] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/8c/52/108fc34bc00d994e0c0ebc567d8cc0bf55d62391da1f661c2c403d02c2dd/omkar_temp_mail-1.0.5.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/ad/eb/9d099ebaf1b96e81cfee2647c11da9b226474efe46b65ba0db19fdd73b82/instagpy-0.1.5.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [commonMethods-zhaozl-green]: New version: [2.4] Old Version: [2.3]
+[2023-06-14 14:11:46] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/8f/1f/5d12c19b29072e594c5a437df84e7a2802591811d90c7696c4b0fd33bf3e/omkar_temp_mail-1.0.6.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [instagpy]: executing diffoscope
+[2023-06-14 14:11:46] INFO root fetch - processPackages [instagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagpy-0.1.4.tar.gz tmp/instagpy-0.1.5.tar.gz --markdown 20230614/i/instagpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-account-generator]: Downloading https://files.pythonhosted.org/packages/3a/f5/f0bd5ae0a19a012ba13e0bf46f250c69033172c36812df7c15d833425145/omkar_account_generator-1.1.0.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/19/53/b67092f50c34bf46ed9cbb74a20105153b84ac0675496ec75afa30e80873/returnn-1.20230614.134509.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-temp-mail]: executing diffoscope
+[2023-06-14 14:11:46] INFO root fetch - processPackages [omkar-temp-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar_temp_mail-1.0.5.tar.gz tmp/omkar_temp_mail-1.0.6.tar.gz --markdown 20230614/o/omkar-temp-mail/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-14 14:11:46] INFO root fetch - processPackages [commonMethods-zhaozl-green]: Downloading https://files.pythonhosted.org/packages/c9/04/03939cbc4bdf54920a3470f9c5612e6da052f28a30cccdaffba4275533ce/commonMethods_zhaozl_green-2.3.tar.gz
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-06-14 14:11:46] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230614/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 14:11:47] INFO root fetch - processPackages [omkar-account-generator]: executing diffoscope
+[2023-06-14 14:11:47] INFO root fetch - processPackages [omkar-account-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar_account_generator-1.0.7.tar.gz tmp/omkar_account_generator-1.1.0.tar.gz --markdown 20230614/o/omkar-account-generator/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 14:11:47] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-06-14 14:11:47] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230609.82609.tar.gz tmp/returnn-1.20230614.134509.tar.gz --markdown 20230614/r/returnn/1.20230609.82609-1.20230614.134509/diff.md --exclude *.pyd
+[2023-06-14 14:11:47] INFO root fetch - processPackages [commonMethods-zhaozl-green]: Downloading https://files.pythonhosted.org/packages/84/aa/c7914063bb39f4445c7e3e904dd2226fee5292ae22d13da88bf9fdea2134/commonMethods_zhaozl_green-2.4.tar.gz
+[2023-06-14 14:11:47] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-14 14:11:47] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230614/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-14 14:11:47] INFO root fetch - processPackages [commonMethods-zhaozl-green]: executing diffoscope
+[2023-06-14 14:11:47] INFO root fetch - processPackages [commonMethods-zhaozl-green]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonMethods_zhaozl_green-2.3.tar.gz tmp/commonMethods_zhaozl_green-2.4.tar.gz --markdown 20230614/c/commonMethods-zhaozl-green/2.3-2.4/diff.md --exclude *.pyd
+[2023-06-14 14:11:48] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.5.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.6.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [omkar-temp-mail]: Start processing: currentscape
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail]: success
+[2023-06-14 14:11:48] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.4.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.5.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [instagpy]: Start processing: whippersnappy
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [instagpy]: success
+[2023-06-14 14:11:48] WARNING root fetch - processPackages [whippersnappy]: Skipping, unable to determine old version
+[2023-06-14 14:11:48] INFO root fetch - processPackages [whippersnappy]: Start processing: masterthermconnect
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [whippersnappy] error
+[2023-06-14 14:11:48] INFO root fetch - processPackages [masterthermconnect]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [masterthermconnect]: Downloading https://files.pythonhosted.org/packages/3a/30/e6b1ec04020258e79846b5f132ecb92e6ca5939f0fceb5ab74232ea4cfc4/masterthermconnect-2.2.3.tar.gz
+[2023-06-14 14:11:48] WARNING root fetch - processPackages [currentscape]: Skipping, unable to determine old version
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [currentscape] error
+[2023-06-14 14:11:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-06-14 14:11:48] INFO root fetch - processPackages [omkar-account-generator]: Remove: archive file [/home/abi/fetcher/tmp/omkar_account_generator-1.0.7.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [omkar-account-generator]: Remove: archive file [/home/abi/fetcher/tmp/omkar_account_generator-1.1.0.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [omkar-account-generator]: success
+[2023-06-14 14:11:48] INFO root fetch - processPackages [masterthermconnect]: Downloading https://files.pythonhosted.org/packages/f9/e1/5737887316e6daa22797da641049bc70af2bca27830a9d0ecfef42e23ab3/masterthermconnect-2.2.4.tar.gz
+[2023-06-14 14:11:48] INFO root fetch - processPackages [masterthermconnect]: executing diffoscope
+[2023-06-14 14:11:48] INFO root fetch - processPackages [masterthermconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masterthermconnect-2.2.3.tar.gz tmp/masterthermconnect-2.2.4.tar.gz --markdown 20230614/m/masterthermconnect/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-14 14:11:48] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.1.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.2.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2023-06-14 14:11:48] INFO root fetch - processPackages [commonMethods-zhaozl-green]: Remove: archive file [/home/abi/fetcher/tmp/commonMethods_zhaozl_green-2.3.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - processPackages [commonMethods-zhaozl-green]: Remove: archive file [/home/abi/fetcher/tmp/commonMethods_zhaozl_green-2.4.tar.gz]
+[2023-06-14 14:11:48] INFO root fetch - main [MainThread]: End processing [commonMethods-zhaozl-green]: success
+[2023-06-14 14:11:49] INFO root fetch - processPackages [masterthermconnect]: Remove: archive file [/home/abi/fetcher/tmp/masterthermconnect-2.2.3.tar.gz]
+[2023-06-14 14:11:49] INFO root fetch - processPackages [masterthermconnect]: Remove: archive file [/home/abi/fetcher/tmp/masterthermconnect-2.2.4.tar.gz]
+[2023-06-14 14:11:49] INFO root fetch - main [MainThread]: End processing [masterthermconnect]: success
+[2023-06-14 14:11:49] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Remove: archive file [/home/abi/fetcher/tmp/alertlogic-sdk-definitions-0.1.98.tar.gz]
+[2023-06-14 14:11:49] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Remove: archive file [/home/abi/fetcher/tmp/alertlogic-sdk-definitions-0.1.99.tar.gz]
+[2023-06-14 14:11:49] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
+[2023-06-14 14:11:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-14 14:11:50] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-14 14:11:50] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-14 14:11:51] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230609.82609.tar.gz]
+[2023-06-14 14:11:51] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230614.134509.tar.gz]
+[2023-06-14 14:11:51] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-06-14 14:11:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-14 14:11:55] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-14 14:11:55] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-14 14:11:55] INFO root fetch - main [MainThread]: Store serial: [18500906]
