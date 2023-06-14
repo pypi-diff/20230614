@@ -5619,3 +5619,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:05:10] INFO root fetch - processPackages [raydp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/raydp_nightly-2023.6.8.dev0-py3-none-any.whl.zip]
 [2023-06-14 03:05:10] INFO root fetch - main [MainThread]: End processing [raydp-nightly]: success
 [2023-06-14 03:05:10] INFO root fetch - main [MainThread]: Store serial: [18493733]
+[2023-06-14 03:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18493733]
+[2023-06-14 03:10:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpr
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langkit
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoctools
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: guardrail-api-client
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: WinTraceroute
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oexp
+[2023-06-14 03:10:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: devvio-util
+[2023-06-14 03:10:19] INFO root fetch - processPackages [langkit]: New version: [0.0.1b7] Old Version: [0.0.1b6]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [yoctools]: New version: [2.0.9] Old Version: [2.0.7]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [mpr]: New version: [1.9] Old Version: [1.8]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [WinTraceroute]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [devvio-util]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-14 03:10:19] WARNING root fetch - processPackages [guardrail-api-client]: Skipping, unable to determine old version
+[2023-06-14 03:10:19] INFO root fetch - processPackages [guardrail-api-client]: Start processing: tacl
+[2023-06-14 03:10:19] INFO root fetch - main [MainThread]: End processing [guardrail-api-client] error
+[2023-06-14 03:10:19] INFO root fetch - processPackages [oexp]: New version: [0.8.0] Old Version: [0.7.6]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [tacl]: New version: [5.1.0] Old Version: [5.0.6]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/2e/b9/9ee33d2c1d730f203e981a1d1e1a40d073c82257c5fd6996a2594de620ce/WinTraceroute-1.3.8.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230614] Old Version: [0.0.8.dev20230613]
+[2023-06-14 03:10:19] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/51/1b/741f4c06d8a8d5f76d813760d21aaf5e3c52e89984a2d9011159f9ba7e1b/langkit-0.0.1b6.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/65/ec/79d9c2f7a83745cd115529e577488ac3c9f9c3b7b47a9b11856f774ad995/devvio_util-1.5.3.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/bf/03/9690610fceb379b216f608dd9a57ea27d291ac2f1c585f98e2f11837ffa4/mpr-1.8.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/09/20/a6c22149ead092bcf5bfddd514b11bce936edc3d917fba0b87e50edba2dd/yoctools-2.0.7.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/f0/f1/eb7e7283283a9622c2b57a1912939594fa42359761b0e7c6e34f2945e42c/WinTraceroute-1.3.9.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/95/02/988dba773e6ecb13f092d69fc959dae0429dc6052ada6c1f813fe01606b7/oexp-0.7.6.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [tacl]: Downloading https://files.pythonhosted.org/packages/cd/89/da2c919589db99467a577fb76763627620d720966dacfa4cc773d0e304bb/tacl-5.0.6.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/fb/cc/e2b2109007eebd1371fd67958f483b2298a4650446bbbbabfad1e9975fa6/aemcmc-nightly-0.0.8.dev20230613.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-06-14 03:10:19] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.3.8.tar.gz tmp/WinTraceroute-1.3.9.tar.gz --markdown 20230614/W/WinTraceroute/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-14 03:10:19] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/56/32/e129d91df11cb2896653dd04fded6a8d28dda2a6ff281d9c30ff402c27de/devvio_util-1.5.4.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/6e/56/20d332fcb23cb4c9813338000f65a1414c135f4c349cea76137c28773fe7/langkit-0.0.1b7.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [mpr]: Downloading https://files.pythonhosted.org/packages/a7/8a/b94d939dea9ad85362278b9646d0be69f0e0f1fa9331c1f164c4d2526957/mpr-1.9.tar.gz
+[2023-06-14 03:10:19] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/d5/f1/9898efb5a601516f8e1c7aac536b0f62693e609e47b5ca3aa3eb73a7644e/oexp-0.8.0.tar.gz
+[2023-06-14 03:10:20] INFO root fetch - processPackages [devvio-util]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [devvio-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devvio_util-1.5.3.tar.gz tmp/devvio_util-1.5.4.tar.gz --markdown 20230614/d/devvio-util/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [tacl]: Downloading https://files.pythonhosted.org/packages/3c/0a/6611e2466a1dd17e3640856f762df50d0d5dc50f3ba6988369970ed523ad/tacl-5.1.0.tar.gz
+[2023-06-14 03:10:20] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.7.6.tar.gz tmp/oexp-0.8.0.tar.gz --markdown 20230614/o/oexp/0.7.6-0.8.0/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/c9/e8/90aaa4c4ed669ab7a87f65c051c487895c07308c7f482c776843cce3a663/aemcmc-nightly-0.0.8.dev20230614.tar.gz
+[2023-06-14 03:10:20] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.1b6.tar.gz tmp/langkit-0.0.1b7.tar.gz --markdown 20230614/l/langkit/0.0.1b6-0.0.1b7/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-14 03:10:20] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-14 03:10:20] INFO root fetch - processPackages [tacl]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [tacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tacl-5.0.6.tar.gz tmp/tacl-5.1.0.tar.gz --markdown 20230614/t/tacl/5.0.6-5.1.0/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [mpr]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [mpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpr-1.8.tar.gz tmp/mpr-1.9.tar.gz --markdown 20230614/m/mpr/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230613.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230614.tar.gz --markdown 20230614/a/aemcmc-nightly/0.0.8.dev20230613-0.0.8.dev20230614/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230614/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-14 03:10:20] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230614/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:10:20] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/72/8f/1faa61e65723d613fb6313f889b8da66ca965420bbbc147155105d89936d/yoctools-2.0.9.tar.gz
+[2023-06-14 03:10:21] INFO root fetch - processPackages [yoctools]: executing diffoscope
+[2023-06-14 03:10:21] INFO root fetch - processPackages [yoctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctools-2.0.7.tar.gz tmp/yoctools-2.0.9.tar.gz --markdown 20230614/y/yoctools/2.0.7-2.0.9/diff.md --exclude *.pyd
+[2023-06-14 03:10:21] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.3.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.4.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [devvio-util]: Start processing: lattice-graph-manipulation
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [devvio-util]: success
+[2023-06-14 03:10:21] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.7.6.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.8.0.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [oexp]: Start processing: BasicLibrary.PY
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-14 03:10:21] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [lattice-graph-manipulation]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.8.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [mpr]: Remove: archive file [/home/abi/fetcher/tmp/mpr-1.9.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [mpr]: Start processing: knifes
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [mpr]: success
+[2023-06-14 03:10:21] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/59/bf/9586d033d933f7cb3b61400f06434cc83e4bb33f0b11bab8ff293cd0c316/BasicLibrary.PY-0.5.8.tar.gz
+[2023-06-14 03:10:21] INFO root fetch - processPackages [knifes]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [lattice-graph-manipulation]: Downloading https://files.pythonhosted.org/packages/48/46/c60e87e66ab6ee4471985ba3ad16dcddd563c78907a2e4f58a940cc6bd5c/Lattice-Graph-Manipulation-1.3.1.tar.gz
+[2023-06-14 03:10:21] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.1b6.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.1b7.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [langkit]: Start processing: rad-tools
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2023-06-14 03:10:21] INFO root fetch - processPackages [WinTraceroute]: Remove: archive file [/home/abi/fetcher/tmp/WinTraceroute-1.3.8.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [WinTraceroute]: Remove: archive file [/home/abi/fetcher/tmp/WinTraceroute-1.3.9.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-06-14 03:10:21] INFO root fetch - processPackages [rad-tools]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/47/dc/9b70eaa9ada5c17c527442c7f6913d9f419b00084ca98bf313a61f6ebb19/knifes-0.8.8.tar.gz
+[2023-06-14 03:10:21] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230613.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230614.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-14 03:10:21] INFO root fetch - processPackages [rad-tools]: Downloading https://files.pythonhosted.org/packages/89/16/0cbe74589f48f5998faac570ac0dcf5de32c6f7bdb3870018f9f5799dfd1/rad-tools-0.7.4.tar.gz
+[2023-06-14 03:10:21] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e7/be/f84349fc65ba6f31df45d2dfb2d03897b26e1c0962d5927c173699f6b248/knifes-0.8.9.tar.gz
+[2023-06-14 03:10:21] INFO root fetch - processPackages [tacl]: Remove: archive file [/home/abi/fetcher/tmp/tacl-5.0.6.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - processPackages [tacl]: Remove: archive file [/home/abi/fetcher/tmp/tacl-5.1.0.tar.gz]
+[2023-06-14 03:10:21] INFO root fetch - main [MainThread]: End processing [tacl]: success
+[2023-06-14 03:10:22] INFO root fetch - processPackages [lattice-graph-manipulation]: Downloading https://files.pythonhosted.org/packages/e9/dd/4cf3c8b67f88642283cb89633c4e92f5ec055bdb5950867af532be019e57/Lattice-Graph-Manipulation-1.4.0.tar.gz
+[2023-06-14 03:10:22] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/30/c3/beba7651d4e8884c0aaede5c6fc2f927abffba64fa0ff2fb92d7c45dcb0d/BasicLibrary.PY-0.5.9.tar.gz
+[2023-06-14 03:10:22] INFO root fetch - processPackages [lattice-graph-manipulation]: executing diffoscope
+[2023-06-14 03:10:22] INFO root fetch - processPackages [lattice-graph-manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lattice-Graph-Manipulation-1.3.1.tar.gz tmp/Lattice-Graph-Manipulation-1.4.0.tar.gz --markdown 20230614/l/lattice-graph-manipulation/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-14 03:10:22] INFO root fetch - processPackages [rad-tools]: Downloading https://files.pythonhosted.org/packages/27/ac/3810002cc41737770a04b7a8e042a2a2d11f9a3923d433e0f47add2f949c/rad-tools-0.7.5.tar.gz
+[2023-06-14 03:10:22] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-06-14 03:10:22] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.8.tar.gz tmp/knifes-0.8.9.tar.gz --markdown 20230614/k/knifes/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-14 03:10:22] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2023-06-14 03:10:22] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BasicLibrary.PY-0.5.8.tar.gz tmp/BasicLibrary.PY-0.5.9.tar.gz --markdown 20230614/B/BasicLibrary.PY/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-14 03:10:22] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2023-06-14 03:10:22] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.7.4.tar.gz tmp/rad-tools-0.7.5.tar.gz --markdown 20230614/r/rad-tools/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-14 03:10:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-14 03:10:22] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-14 03:10:22] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-14 03:10:23] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.8.tar.gz]
+[2023-06-14 03:10:23] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.9.tar.gz]
+[2023-06-14 03:10:23] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-06-14 03:10:23] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.8.tar.gz]
+[2023-06-14 03:10:23] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.9.tar.gz]
+[2023-06-14 03:10:23] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2023-06-14 03:10:23] INFO root fetch - processPackages [rad-tools]: Remove: archive file [/home/abi/fetcher/tmp/rad-tools-0.7.4.tar.gz]
+[2023-06-14 03:10:23] INFO root fetch - processPackages [rad-tools]: Remove: archive file [/home/abi/fetcher/tmp/rad-tools-0.7.5.tar.gz]
+[2023-06-14 03:10:23] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2023-06-14 03:10:24] INFO root fetch - processPackages [lattice-graph-manipulation]: Remove: archive file [/home/abi/fetcher/tmp/Lattice-Graph-Manipulation-1.3.1.tar.gz]
+[2023-06-14 03:10:24] INFO root fetch - processPackages [lattice-graph-manipulation]: Remove: archive file [/home/abi/fetcher/tmp/Lattice-Graph-Manipulation-1.4.0.tar.gz]
+[2023-06-14 03:10:24] INFO root fetch - main [MainThread]: End processing [lattice-graph-manipulation]: success
+[2023-06-14 03:10:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-14 03:10:24] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-14 03:10:24] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-14 03:11:28] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.7.tar.gz]
+[2023-06-14 03:11:28] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
+[2023-06-14 03:11:28] INFO root fetch - main [MainThread]: End processing [yoctools]: success
+[2023-06-14 03:11:28] INFO root fetch - main [MainThread]: Store serial: [18493782]
