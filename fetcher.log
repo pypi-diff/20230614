@@ -16457,3 +16457,134 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:55:31] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-14 09:55:31] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-14 09:55:31] INFO root fetch - main [MainThread]: Store serial: [18497765]
+[2023-06-14 10:00:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497765]
+[2023-06-14 10:00:41] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anysql
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fig2sketch
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aznt
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seedot
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TSInterpret
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: milvus-one
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uwa-airtest
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-graphql-sdk
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: UComp
+[2023-06-14 10:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipproxy
+[2023-06-14 10:00:42] INFO root fetch - processPackages [fig2sketch]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [anysql]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [aznt]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [seedot]: New version: [3.0] Old Version: [2.1]
+[2023-06-14 10:00:42] WARNING root fetch - processPackages [milvus-one]: Skipping, unable to determine old version
+[2023-06-14 10:00:42] INFO root fetch - processPackages [milvus-one]: Start processing: perseus-core-library
+[2023-06-14 10:00:42] INFO root fetch - main [MainThread]: End processing [milvus-one] error
+[2023-06-14 10:00:42] INFO root fetch - processPackages [TSInterpret]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [UComp]: New version: [1.0.52] Old Version: [1.0.51]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [uwa-airtest]: New version: [1.2.7.post3] Old Version: [1.2.7.post2]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 10:00:42] WARNING root fetch - processPackages [ipproxy]: Skipping, unable to determine old version
+[2023-06-14 10:00:42] INFO root fetch - processPackages [ipproxy]: Start processing: xmlschema
+[2023-06-14 10:00:42] INFO root fetch - main [MainThread]: End processing [ipproxy] error
+[2023-06-14 10:00:42] INFO root fetch - processPackages [perseus-core-library]: New version: [1.19.3] Old Version: [1.19.2]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [xmlschema]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/15/ee/cebc7fe08230777d68e38b4c2ed4150f08e535f066f5bbd4b9259971eabd/TSInterpret-0.2.9.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [anysql]: Downloading https://files.pythonhosted.org/packages/df/6d/5b5049b599023fff1442a40e211be1e68cd5b20f4a963d778544f3cb1751/anysql-0.0.2.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [aznt]: Downloading https://files.pythonhosted.org/packages/67/6e/3873587e66b9c02cd8f0ac418b1226ecc0b2561a9920737c41fc3d977615/aznt-0.0.41.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/c5/b4/e0231d11c32c5b34ad848135fc861d94f60506bf71b86b663549141aa66c/UComp-1.0.51.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/0a/ec/3316e7741c01016a0d1670daf1690ec73b81aeb8602803129978d81664f4/fig2sketch-0.2.6.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [xmlschema]: Downloading https://files.pythonhosted.org/packages/e8/ba/cc4d4d1f226286459cadb336cd48025872856021af726a8ca12b372f3efc/xmlschema-2.3.0.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [uwa-airtest]: Downloading https://files.pythonhosted.org/packages/3f/1d/b2155341951629b4a5acae8ce44d82f1f975ee80014cc1b79f474e97939c/uwa_airtest-1.2.7.post2-py3-none-any.whl
+[2023-06-14 10:00:42] WARNING root fetch - processPackages [uwa-airtest]: Skipping package: exceeds size limit 24303965>=10485760
+[2023-06-14 10:00:42] INFO root fetch - processPackages [uwa-airtest]: Start processing: openai-dbd
+[2023-06-14 10:00:42] INFO root fetch - main [MainThread]: End processing [uwa-airtest] error
+[2023-06-14 10:00:42] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/46/e0/fbea3dcb3eaeaf18d6534c205654403181ccd8d7198f3f9bd7f7297754b9/test_graphql_sdk-0.1.0.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [perseus-core-library]: Downloading https://files.pythonhosted.org/packages/26/14/18fb0c7cdf8ae36d62de392d820da48bcb7f8abc5afe6580ef984ea37fb4/perseus_core_library-1.19.2.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [TSInterpret]: Downloading https://files.pythonhosted.org/packages/eb/5d/84263629ecd457356f17d5fed000ee955e2f6af0bc9fc6257d3b9a5b4008/TSInterpret-0.3.0.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:00:42] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-14 10:00:42] INFO root fetch - processPackages [TSInterpret]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [TSInterpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TSInterpret-0.2.9.tar.gz tmp/TSInterpret-0.3.0.tar.gz --markdown 20230614/T/TSInterpret/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [anysql]: Downloading https://files.pythonhosted.org/packages/32/e6/4dadb9fb249abf11b33311fecd8369bc381564e92c8acd3b47d508c0d7ee/anysql-0.0.3.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [seedot]: Downloading https://files.pythonhosted.org/packages/06/6a/e7666eff4e9f917cb5eeb1f9cd868ef2ac37b85e5771be5e34675c8096e4/seedot-2.1.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [aznt]: Downloading https://files.pythonhosted.org/packages/58/c9/ec177d6053cb3fabccc70819560389973e7fd36ca7a263c76d86c1d47c0e/aznt-0.0.42.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/c8/76/3ea5abd53b166be70c1930aaf45a290e96af0666a7524bbeb92f37c99db0/fig2sketch-0.2.7.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [anysql]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [anysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anysql-0.0.2.tar.gz tmp/anysql-0.0.3.tar.gz --markdown 20230614/a/anysql/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [aznt]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [aznt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aznt-0.0.41.tar.gz tmp/aznt-0.0.42.tar.gz --markdown 20230614/a/aznt/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-14 10:00:42] INFO root fetch - processPackages [xmlschema]: Downloading https://files.pythonhosted.org/packages/d9/ed/135f08d89431805a82806d22d2331eaff833c1157756a5752f54b6ffabfb/xmlschema-2.3.1.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/8f/aa/6b488099c7fedf6b0fb0745c6966c5a996c91d86731e82aaaccd9975cc25/UComp-1.0.52.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [fig2sketch]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [fig2sketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fig2sketch-0.2.6.tar.gz tmp/fig2sketch-0.2.7.tar.gz --markdown 20230614/f/fig2sketch/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/ed/bf/20b7810b508232fa86427dc4db248a44d28a47f28a806a53bc2afa7922f6/test_graphql_sdk-0.1.1.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [perseus-core-library]: Downloading https://files.pythonhosted.org/packages/89/da/c6a8a5bd7c16c441e97ae71c13f41e5e0b4d2b1390ea5a7ac205bbccd51a/perseus_core_library-1.19.3.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230614/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [xmlschema]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [xmlschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlschema-2.3.0.tar.gz tmp/xmlschema-2.3.1.tar.gz --markdown 20230614/x/xmlschema/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [seedot]: Downloading https://files.pythonhosted.org/packages/8b/f4/a80504a9c609caa11200cf69f50bcd4378c7ac4eb68037f7e4d7b62e05ce/seedot-3.0.tar.gz
+[2023-06-14 10:00:42] INFO root fetch - processPackages [perseus-core-library]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [perseus-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_core_library-1.19.2.tar.gz tmp/perseus_core_library-1.19.3.tar.gz --markdown 20230614/p/perseus-core-library/1.19.2-1.19.3/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.1.0.tar.gz tmp/test_graphql_sdk-0.1.1.tar.gz --markdown 20230614/t/test-graphql-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.51.tar.gz tmp/UComp-1.0.52.tar.gz --markdown 20230614/U/UComp/1.0.51-1.0.52/diff.md --exclude *.pyd
+[2023-06-14 10:00:42] INFO root fetch - processPackages [seedot]: executing diffoscope
+[2023-06-14 10:00:42] INFO root fetch - processPackages [seedot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedot-2.1.tar.gz tmp/seedot-3.0.tar.gz --markdown 20230614/s/seedot/2.1-3.0/diff.md --exclude *.pyd
+[2023-06-14 10:00:44] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [openai-dbd]: Start processing: discotime
+[2023-06-14 10:00:44] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-14 10:00:44] INFO root fetch - processPackages [anysql]: Remove: archive file [/home/abi/fetcher/tmp/anysql-0.0.2.tar.gz]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [anysql]: Remove: archive file [/home/abi/fetcher/tmp/anysql-0.0.3.tar.gz]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [anysql]: Start processing: routingfilter
+[2023-06-14 10:00:44] INFO root fetch - main [MainThread]: End processing [anysql]: success
+[2023-06-14 10:00:44] INFO root fetch - processPackages [discotime]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [routingfilter]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.1.0.tar.gz]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.1.1.tar.gz]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: social-gpt
+[2023-06-14 10:00:44] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-14 10:00:44] INFO root fetch - processPackages [social-gpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/48/98/5d97fff7b10c1b0647dfa585004338cd2e82ad50a34bd1a9ce4acc977ce3/social_gpt-0.0.3.tar.gz
+[2023-06-14 10:00:44] INFO root fetch - processPackages [discotime]: Downloading https://files.pythonhosted.org/packages/05/b2/f63e2fb8bb9c15267efa5e2b2a92188e702542a360d54e8ba67a824c9bdb/discotime-0.0.1.tar.gz
+[2023-06-14 10:00:44] INFO root fetch - processPackages [aznt]: Remove: archive file [/home/abi/fetcher/tmp/aznt-0.0.41.tar.gz]
+[2023-06-14 10:00:44] INFO root fetch - processPackages [aznt]: Remove: archive file [/home/abi/fetcher/tmp/aznt-0.0.42.tar.gz]
+[2023-06-14 10:00:44] INFO root fetch - main [MainThread]: End processing [aznt]: success
+[2023-06-14 10:00:44] INFO root fetch - processPackages [routingfilter]: Downloading https://files.pythonhosted.org/packages/08/01/1e19f3ded976c4cbc5b560eeab8bdb579df77522723cd85dcefb1e6db5f8/routingfilter-1.5.1.tar.gz
+[2023-06-14 10:00:44] INFO root fetch - processPackages [routingfilter]: Downloading https://files.pythonhosted.org/packages/32/12/384fb82e3de848b15b28b99cca9d0905d94371bcd97836c13ba5f63638e2/routingfilter-1.5.2.tar.gz
+[2023-06-14 10:00:44] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/ac/35/2889929d2ce8e82d4170dd255594ba90ce639484aa6e42f4f81f5025f0c9/social_gpt-0.0.4.tar.gz
+[2023-06-14 10:00:44] INFO root fetch - processPackages [discotime]: Downloading https://files.pythonhosted.org/packages/cd/5c/836746584799bfaf23a431f2f8565ae5b96cdfb927ecd34438bec3cf1c61/discotime-0.0.2.tar.gz
+[2023-06-14 10:00:44] INFO root fetch - processPackages [routingfilter]: executing diffoscope
+[2023-06-14 10:00:44] INFO root fetch - processPackages [routingfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingfilter-1.5.1.tar.gz tmp/routingfilter-1.5.2.tar.gz --markdown 20230614/r/routingfilter/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-14 10:00:44] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 10:00:44] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.3.tar.gz tmp/social_gpt-0.0.4.tar.gz --markdown 20230614/s/social-gpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:00:44] INFO root fetch - processPackages [discotime]: executing diffoscope
+[2023-06-14 10:00:44] INFO root fetch - processPackages [discotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotime-0.0.1.tar.gz tmp/discotime-0.0.2.tar.gz --markdown 20230614/d/discotime/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 10:00:45] INFO root fetch - processPackages [fig2sketch]: Remove: archive file [/home/abi/fetcher/tmp/fig2sketch-0.2.6.tar.gz]
+[2023-06-14 10:00:45] INFO root fetch - processPackages [fig2sketch]: Remove: archive file [/home/abi/fetcher/tmp/fig2sketch-0.2.7.tar.gz]
+[2023-06-14 10:00:45] INFO root fetch - main [MainThread]: End processing [fig2sketch]: success
+[2023-06-14 10:00:45] INFO root fetch - processPackages [perseus-core-library]: Remove: archive file [/home/abi/fetcher/tmp/perseus_core_library-1.19.2.tar.gz]
+[2023-06-14 10:00:45] INFO root fetch - processPackages [perseus-core-library]: Remove: archive file [/home/abi/fetcher/tmp/perseus_core_library-1.19.3.tar.gz]
+[2023-06-14 10:00:45] INFO root fetch - main [MainThread]: End processing [perseus-core-library]: success
+[2023-06-14 10:00:46] INFO root fetch - processPackages [routingfilter]: Remove: archive file [/home/abi/fetcher/tmp/routingfilter-1.5.1.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - processPackages [routingfilter]: Remove: archive file [/home/abi/fetcher/tmp/routingfilter-1.5.2.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - main [MainThread]: End processing [routingfilter]: success
+[2023-06-14 10:00:46] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.3.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.4.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 10:00:46] INFO root fetch - processPackages [TSInterpret]: Remove: archive file [/home/abi/fetcher/tmp/TSInterpret-0.2.9.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - processPackages [TSInterpret]: Remove: archive file [/home/abi/fetcher/tmp/TSInterpret-0.3.0.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - main [MainThread]: End processing [TSInterpret]: success
+[2023-06-14 10:00:46] INFO root fetch - processPackages [discotime]: Remove: archive file [/home/abi/fetcher/tmp/discotime-0.0.1.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - processPackages [discotime]: Remove: archive file [/home/abi/fetcher/tmp/discotime-0.0.2.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - main [MainThread]: End processing [discotime]: success
+[2023-06-14 10:00:46] INFO root fetch - processPackages [seedot]: Remove: archive file [/home/abi/fetcher/tmp/seedot-2.1.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - processPackages [seedot]: Remove: archive file [/home/abi/fetcher/tmp/seedot-3.0.tar.gz]
+[2023-06-14 10:00:46] INFO root fetch - main [MainThread]: End processing [seedot]: success
+[2023-06-14 10:00:47] INFO root fetch - processPackages [xmlschema]: Remove: archive file [/home/abi/fetcher/tmp/xmlschema-2.3.0.tar.gz]
+[2023-06-14 10:00:47] INFO root fetch - processPackages [xmlschema]: Remove: archive file [/home/abi/fetcher/tmp/xmlschema-2.3.1.tar.gz]
+[2023-06-14 10:00:47] INFO root fetch - main [MainThread]: End processing [xmlschema]: success
+[2023-06-14 10:00:50] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.51.tar.gz]
+[2023-06-14 10:00:50] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.52.tar.gz]
+[2023-06-14 10:00:50] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-14 10:00:50] INFO root fetch - main [MainThread]: Store serial: [18497813]
