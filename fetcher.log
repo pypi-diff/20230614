@@ -18996,3 +18996,150 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:22:07] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.2.0.tar.gz]
 [2023-06-14 11:22:07] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
 [2023-06-14 11:22:07] INFO root fetch - main [MainThread]: Store serial: [18499016]
+[2023-06-14 11:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499016]
+[2023-06-14 11:27:17] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-mail-thunder
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configuraptor
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: current-events-magnifier
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: afex-sso
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyant
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cwsgiutils
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-ethereum-node
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-energy-communities
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mmfutils
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-energy-communities
+[2023-06-14 11:27:17] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.1.1.4.dev1] Old Version: [14.0.1.1.3.dev1]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.1.1.4.dev1] Old Version: [14.0.1.1.3.dev1]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [configuraptor]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [afex-sso]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [mmfutils]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/b4/be/8659d70a0a504a6517992c298a835dfa83eda162c58e469eccae5ef570a0/afex-sso-0.0.56.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [je-mail-thunder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.0.0.dev90] Old Version: [6.0.0.dev88]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-06-14 11:27:17] WARNING root fetch - processPackages [pyant]: Skipping, unable to determine old version
+[2023-06-14 11:27:17] INFO root fetch - processPackages [pyant]: Start processing: ukrdc-schema
+[2023-06-14 11:27:17] INFO root fetch - main [MainThread]: End processing [pyant] error
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ukrdc-schema]: New version: [3.3.1] Old Version: [3.3.0.post1]
+[2023-06-14 11:27:17] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/72/22/799ac1f85aa6621005e9f2f98dd8f0fc93c94bbfa5644cfc9c6f9baba186/odoo14_addon_energy_communities-14.0.1.1.3.dev1-py2.py3-none-any.whl
+[2023-06-14 11:27:17] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/1f/f3/2929c61646e72fdf2b385e298c5a928a898bd8c4033e24831bca3f319f54/configuraptor-1.0.1.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/72/22/799ac1f85aa6621005e9f2f98dd8f0fc93c94bbfa5644cfc9c6f9baba186/odoo14_addon_energy_communities-14.0.1.1.3.dev1-py2.py3-none-any.whl
+[2023-06-14 11:27:17] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/d9/37/a965f38f675a88da8a3cfafb6837c3e56b282f01dccfcb3dc12db94a871a/current_events_magnifier-0.1.3.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/ae/a4/3b7a99960cc9d0c82c760228e7383293124923d0c950b33b87b4ed9ce1ec/ukrdc_schema-3.3.0.post1-py3-none-any.whl
+[2023-06-14 11:27:17] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/0a/6e/21857bb65a288d6c9200de5641db89aa177e293b0083e37257845f235536/afex-sso-0.0.57.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/00/f5/1fddea644fa72ad7caf4c3541fd95402c82966b9bf3cee33a9664308ae54/je_mail_thunder-0.0.8.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [mmfutils]: Downloading https://files.pythonhosted.org/packages/8f/cf/eaed89b689a08ea6c515735fd4e7e0bd6b560b0cfaa5c751320cb1a178b0/mmfutils-0.6.4.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/71/f8/79bb34e744f4bd261b3bb7594e629c25f5cc246e68f04bcc1436d6b0c050/c2cwsgiutils-6.0.0.dev88.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-06-14 11:27:17] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-06-14 11:27:17] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.56.tar.gz tmp/afex-sso-0.0.57.tar.gz --markdown 20230614/a/afex-sso/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-06-14 11:27:17] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/71/8a/4414fe5fab4dbbce87619e21b5829942165bbc7e681f82cd6e8f33849767/ukrdc_schema-3.3.1-py3-none-any.whl
+[2023-06-14 11:27:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-06-14 11:27:17] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230614/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 11:27:17] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/45/c6/01045b6073637672a8fcfcfcaf73c8b296c92738bccfa5c6ca7a69130a3d/configuraptor-1.0.2.tar.gz
+[2023-06-14 11:27:18] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/ec/a8/4ed6cf37ec160ff2254d89b5079fafb17ab40f74a3e6dcd66a0c857766c0/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl
+[2023-06-14 11:27:18] INFO root fetch - processPackages [ukrdc-schema]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [ukrdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrdc_schema-3.3.0.post1-py3-none-any.whl.zip tmp/ukrdc_schema-3.3.1-py3-none-any.whl.zip --markdown 20230614/u/ukrdc-schema/3.3.0.post1-3.3.1/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/ec/a8/4ed6cf37ec160ff2254d89b5079fafb17ab40f74a3e6dcd66a0c857766c0/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl
+[2023-06-14 11:27:18] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/5d/f8/dee9072edb92125252432badecd2736fcab134e382d4838a15ebba5f28fa/current_events_magnifier-0.1.4.tar.gz
+[2023-06-14 11:27:18] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ae/05/ddbd0a7babe474f386625f608a33aa9deead9312f2a3154d711268724618/c2cwsgiutils-6.0.0.dev90.tar.gz
+[2023-06-14 11:27:18] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.0.1.tar.gz tmp/configuraptor-1.0.2.tar.gz --markdown 20230614/c/configuraptor/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [mmfutils]: Downloading https://files.pythonhosted.org/packages/77/2a/e7a7b63c06b8ac2fa5ea89090d7f9a711e712d3176ce4fd5e4f6fb19c351/mmfutils-0.6.5.tar.gz
+[2023-06-14 11:27:18] INFO root fetch - processPackages [je-mail-thunder]: Downloading https://files.pythonhosted.org/packages/0e/52/72dbb2396dffc495c2d329b371da485bd85f60db90b846ea3b2ad2944f73/je_mail_thunder-0.0.9.tar.gz
+[2023-06-14 11:27:18] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.3.tar.gz tmp/current_events_magnifier-0.1.4.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.0.0.dev88.tar.gz tmp/c2cwsgiutils-6.0.0.dev90.tar.gz --markdown 20230614/c/c2cwsgiutils/6.0.0.dev88-6.0.0.dev90/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities-14.0.1.1.3.dev1-py2.py3-none-any.whl.zip tmp/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-energy-communities/14.0.1.1.3.dev1-14.0.1.1.4.dev1/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities-14.0.1.1.3.dev1-py2.py3-none-any.whl.zip tmp/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-energy-communities/14.0.1.1.3.dev1-14.0.1.1.4.dev1/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [mmfutils]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [mmfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmfutils-0.6.4.tar.gz tmp/mmfutils-0.6.5.tar.gz --markdown 20230614/m/mmfutils/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-14 11:27:18] INFO root fetch - processPackages [je-mail-thunder]: executing diffoscope
+[2023-06-14 11:27:18] INFO root fetch - processPackages [je-mail-thunder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder-0.0.8.tar.gz tmp/je_mail_thunder-0.0.9.tar.gz --markdown 20230614/j/je-mail-thunder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:27:20] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.56.tar.gz]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.57.tar.gz]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [afex-sso]: Start processing: bk-iam
+[2023-06-14 11:27:20] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-06-14 11:27:20] INFO root fetch - processPackages [bk-iam]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Start processing: ukrdc-schema
+[2023-06-14 11:27:20] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-06-14 11:27:20] INFO root fetch - processPackages [ukrdc-schema]: New version: [3.4.3] Old Version: [3.4.0]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.3.tar.gz]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.4.tar.gz]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [current-events-magnifier]: Start processing: odoo14-addon-energy-communities
+[2023-06-14 11:27:20] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 11:27:20] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.1.1.6] Old Version: [14.0.1.1.4.dev1]
+[2023-06-14 11:27:20] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/5f/1f/41828f42f990837131ac895730296ad5b493df7c8db6406ad9e717dc93ef/bk-iam-1.3.1.tar.gz
+[2023-06-14 11:27:20] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/c6/33/0583b0add3d0d50c7c58e192eaabef1c533c44f3f359ba9b43d5978995ee/ukrdc_schema-3.4.0-py3-none-any.whl
+[2023-06-14 11:27:21] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/01/6c/85db2f1a08e5be033449fe6509dfb2ec8fde8af9b088d513b1c0b254402d/odoo14-addon-energy_communities-14.0.1.1.6.tar.gz
+[2023-06-14 11:27:21] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/41/bc/55d6cfaf82b1aa6c2d0e2300a5df347eb57a166f818c8cdd14ef0c79ad75/bk-iam-1.3.2.tar.gz
+[2023-06-14 11:27:21] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/29/be/60d253589ddc26540bbfa4578ee5726a38d5bea35730371e9ce65183f027/ukrdc_schema-3.4.3-py3-none-any.whl
+[2023-06-14 11:27:21] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2023-06-14 11:27:21] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.8.tar.gz]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl.zip tmp/odoo14-addon-energy_communities-14.0.1.1.6.tar.gz --markdown 20230614/o/odoo14-addon-energy-communities/14.0.1.1.4.dev1-14.0.1.1.6/diff.md --exclude *.pyd
+[2023-06-14 11:27:21] INFO root fetch - processPackages [je-mail-thunder]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder-0.0.9.tar.gz]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [je-mail-thunder]: Start processing: griffon
+[2023-06-14 11:27:21] INFO root fetch - main [MainThread]: End processing [je-mail-thunder]: success
+[2023-06-14 11:27:21] INFO root fetch - processPackages [bk-iam]: executing diffoscope
+[2023-06-14 11:27:21] INFO root fetch - processPackages [bk-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-iam-1.3.1.tar.gz tmp/bk-iam-1.3.2.tar.gz --markdown 20230614/b/bk-iam/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 11:27:21] INFO root fetch - processPackages [griffon]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [ukrdc-schema]: executing diffoscope
+[2023-06-14 11:27:21] INFO root fetch - processPackages [ukrdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrdc_schema-3.4.0-py3-none-any.whl.zip tmp/ukrdc_schema-3.4.3-py3-none-any.whl.zip --markdown 20230614/u/ukrdc-schema/3.4.0-3.4.3/diff.md --exclude *.pyd
+[2023-06-14 11:27:21] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/6c/3a/a89ade86cacdc39f1c7cc974bc1e60593f1cc3fd045cfaf8a1486f4a9fc4/griffon-0.2.5.tar.gz
+[2023-06-14 11:27:21] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities-14.0.1.1.3.dev1-py2.py3-none-any.whl.zip]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl.zip]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Start processing: current-events-magnifier
+[2023-06-14 11:27:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2023-06-14 11:27:21] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/d9/37/a965f38f675a88da8a3cfafb6837c3e56b282f01dccfcb3dc12db94a871a/current_events_magnifier-0.1.3.tar.gz
+[2023-06-14 11:27:21] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/4a/6a/f94cf966daf9e9b755b30f7197029d3e8bac4c075a3cdc6280f67710239b/griffon-0.2.6.tar.gz
+[2023-06-14 11:27:21] INFO root fetch - processPackages [mmfutils]: Remove: archive file [/home/abi/fetcher/tmp/mmfutils-0.6.4.tar.gz]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [mmfutils]: Remove: archive file [/home/abi/fetcher/tmp/mmfutils-0.6.5.tar.gz]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [mmfutils]: Start processing: titan-iris
+[2023-06-14 11:27:21] INFO root fetch - main [MainThread]: End processing [mmfutils]: success
+[2023-06-14 11:27:21] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-06-14 11:27:21] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/5d/f8/dee9072edb92125252432badecd2736fcab134e382d4838a15ebba5f28fa/current_events_magnifier-0.1.4.tar.gz
+[2023-06-14 11:27:22] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-06-14 11:27:22] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.2.5.tar.gz tmp/griffon-0.2.6.tar.gz --markdown 20230614/g/griffon/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-14 11:27:22] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 11:27:22] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.3.tar.gz tmp/current_events_magnifier-0.1.4.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-14 11:27:22] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/44/d5/65facd9094b25df7ad98b3e18ba0615e010861081bf1b7fe7ca7cc35b0a7/titan-iris-0.3.9a1.tar.gz
+[2023-06-14 11:27:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2023-06-14 11:27:22] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/6e/81/2a91a9be26df9651b2fc3a6054ccc6fbe32f3a3f990f2ffe9f5b67799541/titan-iris-0.3.9a2.tar.gz
+[2023-06-14 11:27:22] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-14 11:27:22] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230614/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-06-14 11:27:22] ERROR root fetch - processPackages [odoo14-addon-energy-communities]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/odoo14_addon_energy_communities-14.0.1.1.4.dev1-py2.py3-none-any.whl.zip: No such file or directory
+
+[2023-06-14 11:27:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities] error
+[2023-06-14 11:27:22] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev88.tar.gz]
+[2023-06-14 11:27:22] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.0.0.dev90.tar.gz]
+[2023-06-14 11:27:22] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-06-14 11:27:23] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.0.1.tar.gz]
+[2023-06-14 11:27:23] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.0.2.tar.gz]
+[2023-06-14 11:27:23] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-14 11:27:24] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.3.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.4.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 11:27:24] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a1.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.3.9a2.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-14 11:27:24] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.1.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.2.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - main [MainThread]: End processing [bk-iam]: success
+[2023-06-14 11:27:24] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.5.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - processPackages [griffon]: Remove: archive file [/home/abi/fetcher/tmp/griffon-0.2.6.tar.gz]
+[2023-06-14 11:27:24] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-06-14 11:27:24] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.3.0.post1-py3-none-any.whl.zip]
+[2023-06-14 11:27:24] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.3.1-py3-none-any.whl.zip]
+[2023-06-14 11:27:24] INFO root fetch - main [MainThread]: End processing [ukrdc-schema]: success
+[2023-06-14 11:27:25] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.4.0-py3-none-any.whl.zip]
+[2023-06-14 11:27:25] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.4.3-py3-none-any.whl.zip]
+[2023-06-14 11:27:25] INFO root fetch - main [MainThread]: End processing [ukrdc-schema]: success
+[2023-06-14 11:27:25] INFO root fetch - main [MainThread]: Store serial: [18499063]
