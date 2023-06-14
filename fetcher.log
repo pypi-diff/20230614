@@ -22579,3 +22579,124 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:49:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230613-py3-none-win_amd64.whl.zip]
 [2023-06-14 13:49:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
 [2023-06-14 13:49:49] INFO root fetch - main [MainThread]: Store serial: [18500631]
+[2023-06-14 13:54:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500631]
+[2023-06-14 13:54:58] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moosez
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: current-events-magnifier
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omkar-account-generator
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opening-hours-py
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinynn-py
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bs-admin-utils
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepchecks
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moler
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: udata-front
+[2023-06-14 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moosez
+[2023-06-14 13:54:58] INFO root fetch - processPackages [omkar-account-generator]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-14 13:54:58] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.2.3.2] Old Version: [0.2.3.1]
+[2023-06-14 13:54:58] WARNING root fetch - processPackages [tinynn-py]: Skipping, unable to determine old version
+[2023-06-14 13:54:58] INFO root fetch - processPackages [tinynn-py]: Start processing: dcnum
+[2023-06-14 13:54:58] INFO root fetch - main [MainThread]: End processing [tinynn-py] error
+[2023-06-14 13:54:58] INFO root fetch - processPackages [moosez]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-14 13:54:58] INFO root fetch - processPackages [opening-hours-py]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-14 13:54:58] INFO root fetch - processPackages [moler]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-14 13:54:58] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 13:54:58] INFO root fetch - processPackages [moosez]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-14 13:54:58] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev11125] Old Version: [3.2.4.dev11033]
+[2023-06-14 13:54:59] INFO root fetch - processPackages [dcnum]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 13:54:59] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/24/63/9faac02fd7f8ea1250a8dc240103c36f95131762ae8b619de56366271374/bs_admin_utils-1.0.8.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/5b/27/b845f544fd81a891a1a80fac123b89fb847f35fd8e0974435c651ad2afc4/dcnum-0.0.3.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [deepchecks]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-14 13:54:59] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/0c/1f/dadd6325ae986122ffc81e92454857f1c42bedc8d0281e379b9923d73b4c/udata_front-3.2.4.dev11033-py2.py3-none-any.whl
+[2023-06-14 13:54:59] INFO root fetch - processPackages [omkar-account-generator]: Downloading https://files.pythonhosted.org/packages/d7/06/508a9b1f96713ada44edbb6230f87a6e1f90f0cb79ba37b8591965bc88fc/omkar_account_generator-1.0.6.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/8d/c8/984336c6171c424ce3acdf6e5724c1419b5005984a78df5c39d8564f1468/current_events_magnifier-0.2.3.1.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/0d/b7/818695e74dccececfb9313aa43f22b195afbc0f725e343ae9b7cab314061/moosez-2.0.8.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [opening-hours-py]: Downloading https://files.pythonhosted.org/packages/a5/0f/c5a75b0298aca6247a583bf03acc104e39a16f2e7265efdf86b436ab37db/opening_hours_py-0.6.4.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/0d/b7/818695e74dccececfb9313aa43f22b195afbc0f725e343ae9b7cab314061/moosez-2.0.8.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/b4/a6/3fd66a88fcda521db113c9be55f3ec953ed517a8f773619cb8c948948763/moler-2.8.0.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [deepchecks]: Downloading https://files.pythonhosted.org/packages/a6/cc/4ad18eb7dd1a77550fbb2fdb6d0c60769b45944eff49da4931f1524ef20d/deepchecks-0.9.1.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [dcnum]: Downloading https://files.pythonhosted.org/packages/fd/32/0e01f1f8cb8d9d68a467a581ab8e573e76a20b3f58e429e6c42b79824ede/dcnum-0.0.4.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [omkar-account-generator]: Downloading https://files.pythonhosted.org/packages/da/3c/7b349e018210bedb56f209356b1e8ab5d65de151f6e75dd348d1e12103fd/omkar_account_generator-1.0.7.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/10/ac/2c2e19a52af548f2ddf5b438985103eb8e1b0f21e204d749b1e80612b159/bs_admin_utils-1.0.9.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/a6/e6/09ad8d666e9256d54342c9bebfb3f24af3c7436cd40d778d2182c4312447/current_events_magnifier-0.2.3.2.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [omkar-account-generator]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [omkar-account-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar_account_generator-1.0.6.tar.gz tmp/omkar_account_generator-1.0.7.tar.gz --markdown 20230614/o/omkar-account-generator/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.0.8.tar.gz tmp/bs_admin_utils-1.0.9.tar.gz --markdown 20230614/b/bs-admin-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/58/f6c7935045bffd7b5904c3b4ff8fcd45a5242aa21b0e4719d35d1bc486e8/moosez-2.0.9.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/58/f6c7935045bffd7b5904c3b4ff8fcd45a5242aa21b0e4719d35d1bc486e8/moosez-2.0.9.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/e0/35/f21db078fe773bf53543b7ffb7b810299f26cce1d845b75d00d52a61b6ca/udata_front-3.2.4.dev11125-py2.py3-none-any.whl
+[2023-06-14 13:54:59] INFO root fetch - processPackages [dcnum]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [dcnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcnum-0.0.3.tar.gz tmp/dcnum-0.0.4.tar.gz --markdown 20230614/d/dcnum/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [opening-hours-py]: Downloading https://files.pythonhosted.org/packages/66/0b/de8d0ace3724eba4ca0824f5f30ee8aa80470d7b4edf7ed0ec49c86d3b4a/opening_hours_py-0.6.5.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.2.3.1.tar.gz tmp/current_events_magnifier-0.2.3.2.tar.gz --markdown 20230614/c/current-events-magnifier/0.2.3.1-0.2.3.2/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.8.tar.gz tmp/moosez-2.0.9.tar.gz --markdown 20230614/m/moosez/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.8.tar.gz tmp/moosez-2.0.9.tar.gz --markdown 20230614/m/moosez/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [opening-hours-py]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/49/b8/1d38c0e17d11a5dab70fce89547bc82455a38afb0e0c490d9b217bda120b/moler-2.9.0.tar.gz
+[2023-06-14 13:54:59] INFO root fetch - processPackages [opening-hours-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opening_hours_py-0.6.4.tar.gz tmp/opening_hours_py-0.6.5.tar.gz --markdown 20230614/o/opening-hours-py/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-14 13:54:59] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-14 13:54:59] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev11125-py2.py3-none-any.whl.zip --markdown 20230614/u/udata-front/3.2.4.dev11033-3.2.4.dev11125/diff.md --exclude *.pyd
+[2023-06-14 13:55:00] INFO root fetch - processPackages [moler]: executing diffoscope
+[2023-06-14 13:55:00] INFO root fetch - processPackages [moler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moler-2.8.0.tar.gz tmp/moler-2.9.0.tar.gz --markdown 20230614/m/moler/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-14 13:55:01] INFO root fetch - processPackages [deepchecks]: Downloading https://files.pythonhosted.org/packages/eb/30/c76562ae6e60b918f9dceb0c7f07786febcdc4d4520a33df89d40679a041/deepchecks-0.9.2.tar.gz
+[2023-06-14 13:55:01] INFO root fetch - processPackages [omkar-account-generator]: Remove: archive file [/home/abi/fetcher/tmp/omkar_account_generator-1.0.6.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [omkar-account-generator]: Remove: archive file [/home/abi/fetcher/tmp/omkar_account_generator-1.0.7.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [omkar-account-generator]: Start processing: nonebot-plugin-pixivbot
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [omkar-account-generator]: success
+[2023-06-14 13:55:01] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.8.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.9.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [bs-admin-utils]: Start processing: graphsignal
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-14 13:55:01] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.2.3.1.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.2.3.2.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [current-events-magnifier]: Start processing: HandGestureRecSiliconM1
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 13:55:01] INFO root fetch - processPackages [HandGestureRecSiliconM1]: New version: [0.1.2] Old Version: [0.1]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [graphsignal]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Downloading https://files.pythonhosted.org/packages/e5/36/f8dd8ea7bddbaf903561c897b3ce08b49aaa2b6cc05a8db3b626cc68b421/HandGestureRecSiliconM1-0.1.tar.gz
+[2023-06-14 13:55:01] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.0.3.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [dcnum]: Remove: archive file [/home/abi/fetcher/tmp/dcnum-0.0.4.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [dcnum]: success
+[2023-06-14 13:55:01] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: Downloading https://files.pythonhosted.org/packages/b7/a4/7abbabbea380c5b93f6a2155048fb908f0c6224ef56fa1a954d841d503e1/nonebot_plugin_pixivbot-1.8.3.tar.gz
+[2023-06-14 13:55:01] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Downloading https://files.pythonhosted.org/packages/53/e3/1c7e45f2aa224904d636f9c8415cb8653879f0b100e3bc73b6a9c4ed569e/HandGestureRecSiliconM1-0.1.2.tar.gz
+[2023-06-14 13:55:01] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/8a/ce/6c4ad532d461693620e6155f4cc8c8495b148d9bef62b7204619e41f19ec/graphsignal-0.9.4.tar.gz
+[2023-06-14 13:55:01] INFO root fetch - processPackages [opening-hours-py]: Remove: archive file [/home/abi/fetcher/tmp/opening_hours_py-0.6.4.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [opening-hours-py]: Remove: archive file [/home/abi/fetcher/tmp/opening_hours_py-0.6.5.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [opening-hours-py]: success
+[2023-06-14 13:55:01] INFO root fetch - processPackages [HandGestureRecSiliconM1]: executing diffoscope
+[2023-06-14 13:55:01] INFO root fetch - processPackages [HandGestureRecSiliconM1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandGestureRecSiliconM1-0.1.tar.gz tmp/HandGestureRecSiliconM1-0.1.2.tar.gz --markdown 20230614/H/HandGestureRecSiliconM1/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 13:55:01] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.8.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.9.tar.gz]
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-14 13:55:01] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-14 13:55:01] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: Downloading https://files.pythonhosted.org/packages/a7/6d/859681df1d56d734668f92826f35d18fe7956e6629555e842fcc118a78ea/nonebot_plugin_pixivbot-1.8.4.tar.gz
+[2023-06-14 13:55:01] INFO root fetch - processPackages [graphsignal]: Downloading https://files.pythonhosted.org/packages/63/9a/d9360e506d4b48251d07845d69b0a9facd3465a3c270adacda14a215a8a8/graphsignal-0.9.5.tar.gz
+[2023-06-14 13:55:02] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: executing diffoscope
+[2023-06-14 13:55:02] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_pixivbot-1.8.3.tar.gz tmp/nonebot_plugin_pixivbot-1.8.4.tar.gz --markdown 20230614/n/nonebot-plugin-pixivbot/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-14 13:55:02] INFO root fetch - processPackages [graphsignal]: executing diffoscope
+[2023-06-14 13:55:02] INFO root fetch - processPackages [graphsignal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphsignal-0.9.4.tar.gz tmp/graphsignal-0.9.5.tar.gz --markdown 20230614/g/graphsignal/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-14 13:55:02] INFO root fetch - processPackages [deepchecks]: executing diffoscope
+[2023-06-14 13:55:02] INFO root fetch - processPackages [deepchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchecks-0.9.1.tar.gz tmp/deepchecks-0.9.2.tar.gz --markdown 20230614/d/deepchecks/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-14 13:55:02] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRecSiliconM1-0.1.tar.gz]
+[2023-06-14 13:55:02] INFO root fetch - processPackages [HandGestureRecSiliconM1]: Remove: archive file [/home/abi/fetcher/tmp/HandGestureRecSiliconM1-0.1.2.tar.gz]
+[2023-06-14 13:55:02] INFO root fetch - main [MainThread]: End processing [HandGestureRecSiliconM1]: success
+[2023-06-14 13:55:03] INFO root fetch - processPackages [graphsignal]: Remove: archive file [/home/abi/fetcher/tmp/graphsignal-0.9.4.tar.gz]
+[2023-06-14 13:55:03] INFO root fetch - processPackages [graphsignal]: Remove: archive file [/home/abi/fetcher/tmp/graphsignal-0.9.5.tar.gz]
+[2023-06-14 13:55:03] INFO root fetch - main [MainThread]: End processing [graphsignal]: success
+[2023-06-14 13:55:04] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pixivbot-1.8.3.tar.gz]
+[2023-06-14 13:55:04] INFO root fetch - processPackages [nonebot-plugin-pixivbot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_pixivbot-1.8.4.tar.gz]
+[2023-06-14 13:55:04] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-pixivbot]: success
+[2023-06-14 13:55:05] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-2.8.0.tar.gz]
+[2023-06-14 13:55:05] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-2.9.0.tar.gz]
+[2023-06-14 13:55:05] INFO root fetch - main [MainThread]: End processing [moler]: success
+[2023-06-14 13:55:06] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.1.tar.gz]
+[2023-06-14 13:55:06] INFO root fetch - processPackages [deepchecks]: Remove: archive file [/home/abi/fetcher/tmp/deepchecks-0.9.2.tar.gz]
+[2023-06-14 13:55:06] INFO root fetch - main [MainThread]: End processing [deepchecks]: success
+[2023-06-14 13:55:32] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip]
+[2023-06-14 13:55:32] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11125-py2.py3-none-any.whl.zip]
+[2023-06-14 13:55:32] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-14 13:55:32] INFO root fetch - main [MainThread]: Store serial: [18500687]
