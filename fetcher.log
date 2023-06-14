@@ -14743,3 +14743,110 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:33:42] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306140627-py3-none-any.whl.zip]
 [2023-06-14 08:33:42] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-14 08:33:42] INFO root fetch - main [MainThread]: Store serial: [18497043]
+[2023-06-14 08:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497043]
+[2023-06-14 08:38:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Python-dictionaries-deep-merge
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: la-env
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GraficadoraByGamba
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nrt-logging
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ofx-processor
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fasttreeshap
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taichu-dataflow
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: m-abac-test
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-06-14 08:38:54] WARNING root fetch - processPackages [GraficadoraByGamba]: Skipping, unable to determine old version
+[2023-06-14 08:38:54] INFO root fetch - processPackages [GraficadoraByGamba]: Start processing: ma-notification-center
+[2023-06-14 08:38:54] INFO root fetch - main [MainThread]: End processing [GraficadoraByGamba] error
+[2023-06-14 08:38:54] WARNING root fetch - processPackages [la-env]: Skipping, unable to determine old version
+[2023-06-14 08:38:54] INFO root fetch - processPackages [la-env]: Start processing: areixio
+[2023-06-14 08:38:54] WARNING root fetch - processPackages [Python-dictionaries-deep-merge]: Skipping, unable to determine old version
+[2023-06-14 08:38:54] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: Start processing: translate-toolkit
+[2023-06-14 08:38:54] INFO root fetch - main [MainThread]: End processing [la-env] error
+[2023-06-14 08:38:54] INFO root fetch - main [MainThread]: End processing [Python-dictionaries-deep-merge] error
+[2023-06-14 08:38:54] INFO root fetch - processPackages [fasttreeshap]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [nrt-logging]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [m-abac-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ofx-processor]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ma-notification-center]: New version: [1.2.1] Old Version: [0.1.5]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [yplib]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230614.6.37.863102] Old Version: [20230613.18.57.475660]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [translate-toolkit]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.83]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/b3/86/4d36e1c583f11825db3f98433781082e6e1b241ee52f67247780c9eb1720/ofx_processor-4.4.0.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/09/9a/5bf7c99a4b14d4ee9166517fc845f8ac1538097fb087c74e2055722d9a66/m-abac-test-1.0.8.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/81/dd/e3d5b3a55c3654ec66d572cdf43ac839e88c57e6e832e3aa6c937b397b73/taichu-dataflow-1.0.7.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ff/d9/cc09fc088c3f0a930c23fca1d952aaa60229deed842a310d877bc973d210/yplib-1.1.4.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/8c/e6/0d1b9dbad4119669748df7983eeea4fc02c913dfe1d0a1d192cf1d20f06e/ma_notification_center-0.1.5.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [fasttreeshap]: Downloading https://files.pythonhosted.org/packages/6b/83/2411b828ee641170dac2af82a93cfe9f3bb4abadb02fca55956f5b24be0a/fasttreeshap-0.1.4.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-14 08:38:54] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.7.tar.gz tmp/taichu-dataflow-1.0.8.tar.gz --markdown 20230614/t/taichu-dataflow/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-14 08:38:54] INFO root fetch - processPackages [nrt-logging]: Downloading https://files.pythonhosted.org/packages/46/48/ace8eef5f65a6766279b3f03b46fac36c8eeac8cd46db3c7c821445b9171/nrt-logging-1.3.2.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/89/de/6a73c3558929dc4d66c8cb59b1d075ff47252ec858a342bfa9db6ba4400e/certora-cli-alpha-master-20230613.18.57.475660.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/1c/49/96bb754a84b33d0f5d775f141ff2ca393da38d4ceb4ecddb7567cffc303e/areixio-0.2.83.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [translate-toolkit]: Downloading https://files.pythonhosted.org/packages/f1/5e/a061c609543bda6a154d8466f38c08d57c3aa042dee0dd8c24647736f90b/translate-toolkit-3.9.0.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/10/e6/2b24951a5805c5d61237795fa1a8b6cdc4439e5b8bcabad36fec4990d875/ofx_processor-4.4.1.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9f/a0/2318a24c5f2e54e1dd59b8785ee583f1227302eef584bfc5d8e9eb1400ea/yplib-1.1.5.tar.gz
+[2023-06-14 08:38:54] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39442079>=10485760
+[2023-06-14 08:38:54] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: openai-dbd
+[2023-06-14 08:38:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-14 08:38:54] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 08:38:54] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.4.tar.gz tmp/yplib-1.1.5.tar.gz --markdown 20230614/y/yplib/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ofx-processor]: executing diffoscope
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ofx-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofx_processor-4.4.0.tar.gz tmp/ofx_processor-4.4.1.tar.gz --markdown 20230614/o/ofx-processor/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-06-14 08:38:54] INFO root fetch - processPackages [m-abac-test]: Downloading https://files.pythonhosted.org/packages/a9/d3/8329e6fc7756f703d2c923a04aa565e40a644e0fc7782f2737812aa123a6/m-abac-test-1.0.9.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/c4/65/4a7beb490f85d9a8dce5da2010e2b1ac156fcdd5155f54f31e2d7c21c3fc/ma_notification_center-1.2.1.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [nrt-logging]: Downloading https://files.pythonhosted.org/packages/7a/80/87a20e575ebae2cf27f9959fd7127bdde9409dc7f3b76f313200d43f7d73/nrt-logging-1.3.3.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [m-abac-test]: executing diffoscope
+[2023-06-14 08:38:54] INFO root fetch - processPackages [m-abac-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-test-1.0.8.tar.gz tmp/m-abac-test-1.0.9.tar.gz --markdown 20230614/m/m-abac-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ma-notification-center]: executing diffoscope
+[2023-06-14 08:38:54] INFO root fetch - processPackages [ma-notification-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_notification_center-0.1.5.tar.gz tmp/ma_notification_center-1.2.1.tar.gz --markdown 20230614/m/ma-notification-center/0.1.5-1.2.1/diff.md --exclude *.pyd
+[2023-06-14 08:38:54] INFO root fetch - processPackages [nrt-logging]: executing diffoscope
+[2023-06-14 08:38:54] INFO root fetch - processPackages [nrt-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrt-logging-1.3.2.tar.gz tmp/nrt-logging-1.3.3.tar.gz --markdown 20230614/n/nrt-logging/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-14 08:38:54] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-14 08:38:54] INFO root fetch - processPackages [translate-toolkit]: Downloading https://files.pythonhosted.org/packages/c5/af/4e8d1c57d68b80bfcf3320cbfa99ccb29b9c7be267029524d12187a924d7/translate-toolkit-3.9.1.tar.gz
+[2023-06-14 08:38:54] INFO root fetch - processPackages [fasttreeshap]: Downloading https://files.pythonhosted.org/packages/f3/65/67eddf7aa36257ecaf611198c1db502a22beaf452ec02588b6bc0068fff1/fasttreeshap-0.1.5.tar.gz
+[2023-06-14 08:38:55] INFO root fetch - processPackages [fasttreeshap]: executing diffoscope
+[2023-06-14 08:38:55] INFO root fetch - processPackages [fasttreeshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttreeshap-0.1.4.tar.gz tmp/fasttreeshap-0.1.5.tar.gz --markdown 20230614/f/fasttreeshap/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 08:38:55] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-14 08:38:55] INFO root fetch - processPackages [translate-toolkit]: executing diffoscope
+[2023-06-14 08:38:55] INFO root fetch - processPackages [translate-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-toolkit-3.9.0.tar.gz tmp/translate-toolkit-3.9.1.tar.gz --markdown 20230614/t/translate-toolkit/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 08:38:55] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-14 08:38:55] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230614/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:38:55] INFO root fetch - processPackages [areixio]: Downloading https://files.pythonhosted.org/packages/b6/2c/9db3134c3fd073a3fdfaf56d0fb236a19d3888fb5a806ebdfb891c5dc09b/areixio-0.2.9.tar.gz
+[2023-06-14 08:38:55] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.7.tar.gz]
+[2023-06-14 08:38:55] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-14 08:38:55] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-14 08:38:56] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.0.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.1.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - main [MainThread]: End processing [ofx-processor]: success
+[2023-06-14 08:38:56] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-0.1.5.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.2.1.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - main [MainThread]: End processing [ma-notification-center]: success
+[2023-06-14 08:38:56] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.4.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.5.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 08:38:56] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-14 08:38:56] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 08:38:56] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-14 08:38:56] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-06-14 08:38:56] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.83.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230614/a/areixio/0.2.83-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 08:38:56] INFO root fetch - processPackages [nrt-logging]: Remove: archive file [/home/abi/fetcher/tmp/nrt-logging-1.3.2.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - processPackages [nrt-logging]: Remove: archive file [/home/abi/fetcher/tmp/nrt-logging-1.3.3.tar.gz]
+[2023-06-14 08:38:56] INFO root fetch - main [MainThread]: End processing [nrt-logging]: success
+[2023-06-14 08:38:57] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.8.tar.gz]
+[2023-06-14 08:38:57] INFO root fetch - processPackages [m-abac-test]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-test-1.0.9.tar.gz]
+[2023-06-14 08:38:57] INFO root fetch - main [MainThread]: End processing [m-abac-test]: success
+[2023-06-14 08:38:58] INFO root fetch - processPackages [fasttreeshap]: Remove: archive file [/home/abi/fetcher/tmp/fasttreeshap-0.1.4.tar.gz]
+[2023-06-14 08:38:58] INFO root fetch - processPackages [fasttreeshap]: Remove: archive file [/home/abi/fetcher/tmp/fasttreeshap-0.1.5.tar.gz]
+[2023-06-14 08:38:58] INFO root fetch - main [MainThread]: End processing [fasttreeshap]: success
+[2023-06-14 08:39:06] INFO root fetch - processPackages [translate-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/translate-toolkit-3.9.0.tar.gz]
+[2023-06-14 08:39:06] INFO root fetch - processPackages [translate-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/translate-toolkit-3.9.1.tar.gz]
+[2023-06-14 08:39:06] INFO root fetch - main [MainThread]: End processing [translate-toolkit]: success
+[2023-06-14 08:39:07] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.83.tar.gz]
+[2023-06-14 08:39:07] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
+[2023-06-14 08:39:07] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-06-14 08:39:07] INFO root fetch - main [MainThread]: Store serial: [18497091]
