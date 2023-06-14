@@ -9557,3 +9557,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:48:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.833.tar.gz]
 [2023-06-14 03:48:42] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
 [2023-06-14 03:48:42] INFO root fetch - main [MainThread]: Store serial: [18495109]
+[2023-06-14 03:53:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495109]
+[2023-06-14 03:53:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-14 03:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-polardb
+[2023-06-14 03:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dart-tools
+[2023-06-14 03:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytrim2
+[2023-06-14 03:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-14 03:53:51] INFO root fetch - processPackages [dart-tools]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-14 03:53:51] INFO root fetch - processPackages [yplib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 03:53:51] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-14 03:53:51] INFO root fetch - processPackages [pytrim2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 03:53:51] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/77/93/e1a59d4b042c061c4b9cada56091eff131cd657198efbe503c0b16dc0e00/yplib-1.0.8.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/48/12/a6e90eb26215ea8147ee9e757dbbadb543565cdb9f5a000280cdb9baff3c/dart-tools-0.3.6.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [pytrim2]: Downloading https://files.pythonhosted.org/packages/b1/f3/805f7aeb4d178b14b40e99ca1bab589199960f87dd0ca5e41eb10ad254ba/pytrim2-0.0.4.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/47/fa/531f5530a5f2b271a87188c3d88d8936a876f8796f303091497ea3e5815e/yplib-1.0.9.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 03:53:51] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.8.tar.gz tmp/yplib-1.0.9.tar.gz --markdown 20230614/y/yplib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 03:53:51] INFO root fetch - processPackages [dart-tools]: Downloading https://files.pythonhosted.org/packages/43/f3/dbfc784623d217afa2806707bd9a23cccef3095fd25988b8f8ca8b125b08/dart-tools-0.3.7.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [pytrim2]: Downloading https://files.pythonhosted.org/packages/c9/05/d1fcfe6d2e4e25be0770e3739cca437c491677762f574f9cf356a696ce8e/pytrim2-0.0.5.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-06-14 03:53:51] INFO root fetch - processPackages [dart-tools]: executing diffoscope
+[2023-06-14 03:53:51] INFO root fetch - processPackages [dart-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dart-tools-0.3.6.tar.gz tmp/dart-tools-0.3.7.tar.gz --markdown 20230614/d/dart-tools/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-14 03:53:51] INFO root fetch - processPackages [pytrim2]: executing diffoscope
+[2023-06-14 03:53:51] INFO root fetch - processPackages [pytrim2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrim2-0.0.4.tar.gz tmp/pytrim2-0.0.5.tar.gz --markdown 20230614/p/pytrim2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 03:53:52] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-06-14 03:53:52] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230614/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-14 03:53:52] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.8.tar.gz]
+[2023-06-14 03:53:52] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.9.tar.gz]
+[2023-06-14 03:53:52] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 03:53:52] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart-tools-0.3.6.tar.gz]
+[2023-06-14 03:53:52] INFO root fetch - processPackages [dart-tools]: Remove: archive file [/home/abi/fetcher/tmp/dart-tools-0.3.7.tar.gz]
+[2023-06-14 03:53:52] INFO root fetch - main [MainThread]: End processing [dart-tools]: success
+[2023-06-14 03:53:52] INFO root fetch - processPackages [pytrim2]: Remove: archive file [/home/abi/fetcher/tmp/pytrim2-0.0.4.tar.gz]
+[2023-06-14 03:53:52] INFO root fetch - processPackages [pytrim2]: Remove: archive file [/home/abi/fetcher/tmp/pytrim2-0.0.5.tar.gz]
+[2023-06-14 03:53:52] INFO root fetch - main [MainThread]: End processing [pytrim2]: success
+[2023-06-14 03:53:53] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-06-14 03:53:53] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-06-14 03:53:53] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-06-14 03:53:53] INFO root fetch - main [MainThread]: Store serial: [18495131]
