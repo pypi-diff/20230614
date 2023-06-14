@@ -17888,3 +17888,57 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 10:41:56] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
 [2023-06-14 10:41:56] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2023-06-14 10:41:56] INFO root fetch - main [MainThread]: Store serial: [18498462]
+[2023-06-14 10:47:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498462]
+[2023-06-14 10:47:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssi-fctrading
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yplib
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UComp
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecmind-blue-client-objdef
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Pyara
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-group-event
+[2023-06-14 10:47:09] WARNING root fetch - processPackages [nonebot-plugin-group-event]: Skipping, unable to determine old version
+[2023-06-14 10:47:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-group-event] error
+[2023-06-14 10:47:09] WARNING root fetch - processPackages [ssi-fctrading]: Skipping, unable to determine old version
+[2023-06-14 10:47:09] INFO root fetch - processPackages [yplib]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-14 10:47:09] INFO root fetch - processPackages [Pyara]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-06-14 10:47:09] INFO root fetch - main [MainThread]: End processing [ssi-fctrading] error
+[2023-06-14 10:47:09] INFO root fetch - processPackages [UComp]: New version: [1.0.55] Old Version: [1.0.54]
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ecmind-blue-client-objdef]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:47:09] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-14 10:47:09] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/85/77/424f372c34e2635436dc47c536e7078e42ebf59b52974d89498cd8b33771/Pyara-0.1.14.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/a9/a7/7a25071fe4c3ab811862e2f1b0279316694195289ec144b2b86525138e9e/UComp-1.0.54.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-14 10:47:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ce/7b/5ba0539951beeb7adb095c50f483cadf2742be2eb480e1220766b8d8f753/yplib-1.2.3.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ecmind-blue-client-objdef]: Downloading https://files.pythonhosted.org/packages/9d/16/3af0c6cb64c0231865ab186249ee127f56c31a47f94937038dd309fd31ed/ecmind_blue_client_objdef-0.0.8.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-14 10:47:09] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/a1/f2/c5f61b52f846c8a14345f1b4b969b87972abb7201351cd0cc4458ae3baf4/Pyara-0.1.15.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-14 10:47:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230614/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-14 10:47:09] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/10/2e/1801fc97dc3ea8d73119533d91bb85f40493cab7f6d35ed6fd7ae3389676/UComp-1.0.55.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/b0/59/5203dc58309e6e008b6cdecf2dbfedf35e3fbaac6d9bd1afa5e219c5b3a8/yplib-1.2.4.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-14 10:47:09] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.14.tar.gz tmp/Pyara-0.1.15.tar.gz --markdown 20230614/P/Pyara/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ecmind-blue-client-objdef]: Downloading https://files.pythonhosted.org/packages/ef/62/d3b1cbc1b43c5b69f9f2cb07e7e7c999e446a24f99798cc027c852eae11f/ecmind_blue_client_objdef-0.0.9.tar.gz
+[2023-06-14 10:47:09] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-14 10:47:09] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.54.tar.gz tmp/UComp-1.0.55.tar.gz --markdown 20230614/U/UComp/1.0.54-1.0.55/diff.md --exclude *.pyd
+[2023-06-14 10:47:09] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 10:47:09] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.2.3.tar.gz tmp/yplib-1.2.4.tar.gz --markdown 20230614/y/yplib/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ecmind-blue-client-objdef]: executing diffoscope
+[2023-06-14 10:47:09] INFO root fetch - processPackages [ecmind-blue-client-objdef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecmind_blue_client_objdef-0.0.8.tar.gz tmp/ecmind_blue_client_objdef-0.0.9.tar.gz --markdown 20230614/e/ecmind-blue-client-objdef/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:47:10] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.14.tar.gz]
+[2023-06-14 10:47:10] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.15.tar.gz]
+[2023-06-14 10:47:10] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-14 10:47:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.3.tar.gz]
+[2023-06-14 10:47:11] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.4.tar.gz]
+[2023-06-14 10:47:11] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 10:47:11] INFO root fetch - processPackages [ecmind-blue-client-objdef]: Remove: archive file [/home/abi/fetcher/tmp/ecmind_blue_client_objdef-0.0.8.tar.gz]
+[2023-06-14 10:47:11] INFO root fetch - processPackages [ecmind-blue-client-objdef]: Remove: archive file [/home/abi/fetcher/tmp/ecmind_blue_client_objdef-0.0.9.tar.gz]
+[2023-06-14 10:47:11] INFO root fetch - main [MainThread]: End processing [ecmind-blue-client-objdef]: success
+[2023-06-14 10:47:14] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.54.tar.gz]
+[2023-06-14 10:47:14] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.55.tar.gz]
+[2023-06-14 10:47:14] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-14 10:47:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-14 10:47:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-14 10:47:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-14 10:47:16] INFO root fetch - main [MainThread]: Store serial: [18498495]
