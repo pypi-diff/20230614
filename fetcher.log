@@ -10215,3 +10215,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:38:08] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230613.tar.gz]
 [2023-06-14 04:38:08] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-14 04:38:08] INFO root fetch - main [MainThread]: Store serial: [18495379]
+[2023-06-14 04:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495379]
+[2023-06-14 04:43:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcloud-python-sts
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kusenpdf
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abd-clam
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LambertProblem
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-starter
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hardyweinbergcalculator
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ml-starter]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-06-14 04:43:24] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-06-14 04:43:24] INFO root fetch - processPackages [qcloud-python-sts]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-06-14 04:43:24] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230614] Old Version: [1.2.20230613]
+[2023-06-14 04:43:24] INFO root fetch - processPackages [LambertProblem]: New version: [0.8] Old Version: [0.7]
+[2023-06-14 04:43:24] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.2.6.post20230613] Old Version: [0.2.4.post20230613]
+[2023-06-14 04:43:24] WARNING root fetch - processPackages [kusenpdf]: Skipping, unable to determine old version
+[2023-06-14 04:43:24] INFO root fetch - main [MainThread]: End processing [kusenpdf] error
+[2023-06-14 04:43:24] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e2/1d/97dd51fefcc814bc025a9967eb86fac14ee70b86e9e42d791356f40da7b7/iam_actions-1.2.20230613.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/d4/9b/ead212af72c29dd8781714a52a2831e450612a95e1255b59e5e72f3a6046/ml-starter-0.0.56.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [LambertProblem]: Downloading https://files.pythonhosted.org/packages/c2/13/a7f893466231ad0b431aea3f1470da67f61d2940fd9bdbc184f2eb45b42b/LambertProblem-0.7.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [qcloud-python-sts]: Downloading https://files.pythonhosted.org/packages/4a/d8/c1e74c3da74cd57c62f3cc7bf6c4fcace6de9352407f792d28ddcebcc909/qcloud-python-sts-3.1.4.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/0a/d9/ffa4829eff30d9aeadb293ac39bffb9144616d8ea01e2a3d614f48fb517d/hardyweinbergcalculator-0.2.4.post20230613.zip
+[2023-06-14 04:43:24] INFO root fetch - processPackages [LambertProblem]: Downloading https://files.pythonhosted.org/packages/44/c6/b6c174b1fb72ceb2613701c7e2aefc0d71bcef551af6720b8cdd183715ed/LambertProblem-0.8.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/32/8e/22c44b76cbcbbe41869728800741b3642e59a4700404245ca53a223af7a5/iam_actions-1.2.20230614.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/2b/7c/e9003b8745f52f257bb54837d8b55dfd6e63c31b4a626125bfcfe6033bb8/ml-starter-0.0.57.tar.gz
+[2023-06-14 04:43:24] INFO root fetch - processPackages [LambertProblem]: executing diffoscope
+[2023-06-14 04:43:24] INFO root fetch - processPackages [LambertProblem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LambertProblem-0.7.tar.gz tmp/LambertProblem-0.8.tar.gz --markdown 20230614/L/LambertProblem/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-14 04:43:24] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/f9/15/57ee2449b2f99752404279ee40a0a0879dcef9323d317b407808fcda317e/hardyweinbergcalculator-0.2.6.post20230613.zip
+[2023-06-14 04:43:25] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-14 04:43:25] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.56.tar.gz tmp/ml-starter-0.0.57.tar.gz --markdown 20230614/m/ml-starter/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-06-14 04:43:25] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-14 04:43:25] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230613.tar.gz tmp/iam_actions-1.2.20230614.tar.gz --markdown 20230614/i/iam-actions/1.2.20230613-1.2.20230614/diff.md --exclude *.pyd
+[2023-06-14 04:43:25] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-14 04:43:25] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.2.4.post20230613.zip tmp/hardyweinbergcalculator-0.2.6.post20230613.zip --markdown 20230614/h/hardyweinbergcalculator/0.2.4.post20230613-0.2.6.post20230613/diff.md --exclude *.pyd
+[2023-06-14 04:43:25] INFO root fetch - processPackages [qcloud-python-sts]: Downloading https://files.pythonhosted.org/packages/79/90/61e4e7848e56d6d29c73e65423188e616f7b1a6190442842331087ab0afa/qcloud-python-sts-3.1.5.tar.gz
+[2023-06-14 04:43:25] INFO root fetch - processPackages [qcloud-python-sts]: executing diffoscope
+[2023-06-14 04:43:25] INFO root fetch - processPackages [qcloud-python-sts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud-python-sts-3.1.4.tar.gz tmp/qcloud-python-sts-3.1.5.tar.gz --markdown 20230614/q/qcloud-python-sts/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-06-14 04:43:25] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-06-14 04:43:25] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-06-14 04:43:25] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230614/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-06-14 04:43:26] INFO root fetch - processPackages [LambertProblem]: Remove: archive file [/home/abi/fetcher/tmp/LambertProblem-0.7.tar.gz]
+[2023-06-14 04:43:26] INFO root fetch - processPackages [LambertProblem]: Remove: archive file [/home/abi/fetcher/tmp/LambertProblem-0.8.tar.gz]
+[2023-06-14 04:43:26] INFO root fetch - main [MainThread]: End processing [LambertProblem]: success
+[2023-06-14 04:43:26] INFO root fetch - processPackages [qcloud-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/qcloud-python-sts-3.1.4.tar.gz]
+[2023-06-14 04:43:26] INFO root fetch - processPackages [qcloud-python-sts]: Remove: archive file [/home/abi/fetcher/tmp/qcloud-python-sts-3.1.5.tar.gz]
+[2023-06-14 04:43:26] INFO root fetch - main [MainThread]: End processing [qcloud-python-sts]: success
+[2023-06-14 04:43:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.4.post20230613.zip]
+[2023-06-14 04:43:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.6.post20230613.zip]
+[2023-06-14 04:43:26] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-14 04:43:26] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-06-14 04:43:26] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-06-14 04:43:26] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-06-14 04:43:28] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.56.tar.gz]
+[2023-06-14 04:43:28] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.57.tar.gz]
+[2023-06-14 04:43:28] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-14 04:43:32] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230613.tar.gz]
+[2023-06-14 04:43:32] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230614.tar.gz]
+[2023-06-14 04:43:32] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-14 04:43:32] INFO root fetch - main [MainThread]: Store serial: [18495400]
