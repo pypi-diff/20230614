@@ -21302,3 +21302,157 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:06:00] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.56.tar.gz]
 [2023-06-14 13:06:00] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-14 13:06:00] INFO root fetch - main [MainThread]: Store serial: [18500066]
+[2023-06-14 13:11:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500066]
+[2023-06-14 13:11:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyblock3
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdnpathviz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: async-chat-front
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: async-chat-backend
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GlyCONFORMER
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: current-events-magnifier
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkov
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: canarytrap
+[2023-06-14 13:11:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-06-14 13:11:12] WARNING root fetch - processPackages [async-chat-front]: Skipping, unable to determine old version
+[2023-06-14 13:11:12] INFO root fetch - processPackages [async-chat-front]: Start processing: yewtube
+[2023-06-14 13:11:12] INFO root fetch - main [MainThread]: End processing [async-chat-front] error
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 13:11:12] WARNING root fetch - processPackages [async-chat-backend]: Skipping, unable to determine old version
+[2023-06-14 13:11:12] INFO root fetch - processPackages [canarytrap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [tdnpathviz]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [async-chat-backend]: Start processing: rajesh-cli
+[2023-06-14 13:11:12] INFO root fetch - main [MainThread]: End processing [async-chat-backend] error
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pyblock3]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230614.6.37.863102] Old Version: [20230613.18.57.475660]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [GlyCONFORMER]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [yewtube]: New version: [2.9.4] Old Version: [2.9.2]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-14 13:11:12] WARNING root fetch - processPackages [rajesh-cli]: Skipping, unable to determine old version
+[2023-06-14 13:11:12] INFO root fetch - processPackages [rajesh-cli]: Start processing: spatial-moto
+[2023-06-14 13:11:12] INFO root fetch - main [MainThread]: End processing [rajesh-cli] error
+[2023-06-14 13:11:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/89/de/6a73c3558929dc4d66c8cb59b1d075ff47252ec858a342bfa9db6ba4400e/certora-cli-alpha-master-20230613.18.57.475660.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [GlyCONFORMER]: Downloading https://files.pythonhosted.org/packages/32/9d/d0c0ada7139159980431f0c9c640945373bc26d0717ce88108acc37f1813/GlyCONFORMER-1.0.0.tar.gz
+[2023-06-14 13:11:12] WARNING root fetch - processPackages [spatial-moto]: Skipping, unable to determine old version
+[2023-06-14 13:11:12] INFO root fetch - processPackages [spatial-moto]: Start processing: instagpy
+[2023-06-14 13:11:12] INFO root fetch - main [MainThread]: End processing [spatial-moto] error
+[2023-06-14 13:11:12] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/bf/3e/529c77c58f18ca80424cd2d2ea1cc32b2628adc6b0b7da0ceef5bdf436a3/current_events_magnifier-0.2.1.tar.gz
+[2023-06-14 13:11:12] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39442079>=10485760
+[2023-06-14 13:11:12] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: cstore
+[2023-06-14 13:11:12] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-14 13:11:12] INFO root fetch - processPackages [canarytrap]: Downloading https://files.pythonhosted.org/packages/71/36/c43eae622f1f8dab7a9d7a71def257745acddc042345e49905073c96d93b/canarytrap-1.0.0.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pyblock3]: Downloading https://files.pythonhosted.org/packages/d7/59/e5858cddfb18b7c45fc22255f9f88549db70bce2f7092c91be7e0b5ae519/pyblock3-0.2.6.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [cstore]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/82/30/7dfc3181293709fb5a092d3f34163ff9e41ce077f3b529ec39012b24fe7c/tdnpathviz-0.1.2.8-py3-none-any.whl
+[2023-06-14 13:11:12] INFO root fetch - processPackages [instagpy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 13:11:12] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [GlyCONFORMER]: Downloading https://files.pythonhosted.org/packages/d4/d1/605dd8ebcd0935c03acae42bd2046c9a397d684a168d4835e63b4fbd4cdb/GlyCONFORMER-1.0.1.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/b1/7a/c426b518d76f9e2e94d3475715c83b945116d353f3fcdf182c80e338ff8b/cstore-0.1.0.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/ae/52/74dd6b80b08c45ae04a0ca084af895397228e4c8e00563fbe1def91cb2f9/current_events_magnifier-0.2.2.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [yewtube]: Downloading https://files.pythonhosted.org/packages/19/30/ff55fc6320e03c5647c1c297c35a187241b28c45e019df6d2bf2a69eb5a7/yewtube-2.9.2.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [canarytrap]: Downloading https://files.pythonhosted.org/packages/07/33/9a6e7ad9b76f8c050d45bd07f16abd18345e9eb8e0d3fbb1f52361ce0746/canarytrap-1.0.1.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pyblock3]: Downloading https://files.pythonhosted.org/packages/9c/2d/91719d7831f43c53be89601b25d91511e853b1facfe8d55cc26b57336aa0/pyblock3-0.2.7.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-14 13:11:12] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230614/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 13:11:12] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/eb/49/fc90dda208aef1ca918b373e512beac685b5eb9fb0e8fb4ae596d83af865/instagpy-0.1.4.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [GlyCONFORMER]: executing diffoscope
+[2023-06-14 13:11:12] INFO root fetch - processPackages [GlyCONFORMER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlyCONFORMER-1.0.0.tar.gz tmp/GlyCONFORMER-1.0.1.tar.gz --markdown 20230614/G/GlyCONFORMER/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 13:11:12] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 13:11:12] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.2.1.tar.gz tmp/current_events_magnifier-0.2.2.tar.gz --markdown 20230614/c/current-events-magnifier/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-14 13:11:12] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-14 13:11:12] INFO root fetch - processPackages [tdnpathviz]: Downloading https://files.pythonhosted.org/packages/c4/ab/c33845d9bcb0da0781d8b86f3d500c0a2831024985fafecdada9fc1fe5fd/tdnpathviz-0.1.2.9-py3-none-any.whl
+[2023-06-14 13:11:13] INFO root fetch - processPackages [pyblock3]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [pyblock3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblock3-0.2.6.tar.gz tmp/pyblock3-0.2.7.tar.gz --markdown 20230614/p/pyblock3/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-14 13:11:13] INFO root fetch - processPackages [canarytrap]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [canarytrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canarytrap-1.0.0.tar.gz tmp/canarytrap-1.0.1.tar.gz --markdown 20230614/c/canarytrap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 13:11:13] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/f4/80/a121897bc8919c86c87c810308ca7f935a8abea10c8bfe412c893aa80dca/cstore-0.2.0.tar.gz
+[2023-06-14 13:11:13] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230614/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-14 13:11:13] INFO root fetch - processPackages [tdnpathviz]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [tdnpathviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip --markdown 20230614/t/tdnpathviz/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2023-06-14 13:11:13] INFO root fetch - processPackages [instagpy]: Downloading https://files.pythonhosted.org/packages/ad/eb/9d099ebaf1b96e81cfee2647c11da9b226474efe46b65ba0db19fdd73b82/instagpy-0.1.5.tar.gz
+[2023-06-14 13:11:13] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.1.0.tar.gz tmp/cstore-0.2.0.tar.gz --markdown 20230614/c/cstore/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 13:11:13] INFO root fetch - processPackages [instagpy]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [instagpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagpy-0.1.4.tar.gz tmp/instagpy-0.1.5.tar.gz --markdown 20230614/i/instagpy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 13:11:13] INFO root fetch - processPackages [yewtube]: Downloading https://files.pythonhosted.org/packages/78/92/71fc699bc8c3fe66b7edf8d7edc47329eca475dfdd9cf803eb5ede759625/yewtube-2.9.4.tar.gz
+[2023-06-14 13:11:13] INFO root fetch - processPackages [yewtube]: executing diffoscope
+[2023-06-14 13:11:13] INFO root fetch - processPackages [yewtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yewtube-2.9.2.tar.gz tmp/yewtube-2.9.4.tar.gz --markdown 20230614/y/yewtube/2.9.2-2.9.4/diff.md --exclude *.pyd
+[2023-06-14 13:11:14] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.1.0.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.2.0.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [cstore]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-14 13:11:14] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-06-14 13:11:14] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.2.1.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.2.2.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [current-events-magnifier]: Start processing: django-advanced-pdf
+[2023-06-14 13:11:14] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 13:11:14] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [django-advanced-pdf]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [canarytrap]: Remove: archive file [/home/abi/fetcher/tmp/canarytrap-1.0.0.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [canarytrap]: Remove: archive file [/home/abi/fetcher/tmp/canarytrap-1.0.1.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [canarytrap]: Start processing: eotdl
+[2023-06-14 13:11:14] INFO root fetch - main [MainThread]: End processing [canarytrap]: success
+[2023-06-14 13:11:14] INFO root fetch - processPackages [eotdl]: New version: [2023.6.14.post5] Old Version: [2023.6.14.post4]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.8-py3-none-any.whl.zip]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [tdnpathviz]: Remove: archive file [/home/abi/fetcher/tmp/tdnpathviz-0.1.2.9-py3-none-any.whl.zip]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [tdnpathviz]: Start processing: mitzu
+[2023-06-14 13:11:14] INFO root fetch - main [MainThread]: End processing [tdnpathviz]: success
+[2023-06-14 13:11:14] INFO root fetch - processPackages [mitzu]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-14 13:11:14] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230614/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 13:11:14] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/1a/d3/1e1fa5406a8cc9f4030b9ee9a1af498f669d78b6263a458744566e680ebd/eotdl-2023.6.14.post4.tar.gz
+[2023-06-14 13:11:14] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/2e/56/099ad88f003448382076b7870e2e6406a863e2572b0945dd5de3a4ee0955/django-advanced-pdf-0.2.2.tar.gz
+[2023-06-14 13:11:14] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-14 13:11:14] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: pepperize.cdk-private-bucket
+[2023-06-14 13:11:14] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-14 13:11:14] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/b1/e0/430c184831bd7a273dfdc2b0297609fd00d436f7b5596e00899fd5cfdd8f/eotdl-2023.6.14.post5.tar.gz
+[2023-06-14 13:11:14] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/e1/b9/c8de43d495b3c20d1aa86e81f2b17a9875ea80555a3e0e60b7eb91550122/mitzu-0.6.6.tar.gz
+[2023-06-14 13:11:15] INFO root fetch - processPackages [eotdl]: executing diffoscope
+[2023-06-14 13:11:15] INFO root fetch - processPackages [eotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-2023.6.14.post4.tar.gz tmp/eotdl-2023.6.14.post5.tar.gz --markdown 20230614/e/eotdl/2023.6.14.post4-2023.6.14.post5/diff.md --exclude *.pyd
+[2023-06-14 13:11:15] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.4.tar.gz]
+[2023-06-14 13:11:15] INFO root fetch - processPackages [instagpy]: Remove: archive file [/home/abi/fetcher/tmp/instagpy-0.1.5.tar.gz]
+[2023-06-14 13:11:15] INFO root fetch - main [MainThread]: End processing [instagpy]: success
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-14 13:11:15] INFO root fetch - processPackages [mitzu]: Downloading https://files.pythonhosted.org/packages/42/58/80d662cca74a781e8023388622564c854978a88d121422f37e9eedee9e99/mitzu-0.6.7.tar.gz
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-14 13:11:15] INFO root fetch - processPackages [mitzu]: executing diffoscope
+[2023-06-14 13:11:15] INFO root fetch - processPackages [mitzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitzu-0.6.6.tar.gz tmp/mitzu-0.6.7.tar.gz --markdown 20230614/m/mitzu/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-14 13:11:15] INFO root fetch - processPackages [yewtube]: Remove: archive file [/home/abi/fetcher/tmp/yewtube-2.9.2.tar.gz]
+[2023-06-14 13:11:15] INFO root fetch - processPackages [yewtube]: Remove: archive file [/home/abi/fetcher/tmp/yewtube-2.9.4.tar.gz]
+[2023-06-14 13:11:15] INFO root fetch - main [MainThread]: End processing [yewtube]: success
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230614/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 13:11:15] ERROR root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz: No such file or directory
+
+[2023-06-14 13:11:15] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts] error
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pyblock3]: Remove: archive file [/home/abi/fetcher/tmp/pyblock3-0.2.6.tar.gz]
+[2023-06-14 13:11:15] INFO root fetch - processPackages [pyblock3]: Remove: archive file [/home/abi/fetcher/tmp/pyblock3-0.2.7.tar.gz]
+[2023-06-14 13:11:15] INFO root fetch - main [MainThread]: End processing [pyblock3]: success
+[2023-06-14 13:11:16] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2023.6.14.post4.tar.gz]
+[2023-06-14 13:11:16] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2023.6.14.post5.tar.gz]
+[2023-06-14 13:11:16] INFO root fetch - main [MainThread]: End processing [eotdl]: success
+[2023-06-14 13:11:16] INFO root fetch - processPackages [GlyCONFORMER]: Remove: archive file [/home/abi/fetcher/tmp/GlyCONFORMER-1.0.0.tar.gz]
+[2023-06-14 13:11:16] INFO root fetch - processPackages [GlyCONFORMER]: Remove: archive file [/home/abi/fetcher/tmp/GlyCONFORMER-1.0.1.tar.gz]
+[2023-06-14 13:11:16] INFO root fetch - main [MainThread]: End processing [GlyCONFORMER]: success
+[2023-06-14 13:11:16] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-14 13:11:16] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-14 13:11:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-14 13:11:16] INFO root fetch - processPackages [django-advanced-pdf]: Downloading https://files.pythonhosted.org/packages/99/da/82b2b68d83555f76f873bb9886aab5a2c73acfa3ab507c725ac87f156eb6/django-advanced-pdf-0.2.3.tar.gz
+[2023-06-14 13:11:17] INFO root fetch - processPackages [mitzu]: Remove: archive file [/home/abi/fetcher/tmp/mitzu-0.6.6.tar.gz]
+[2023-06-14 13:11:17] INFO root fetch - processPackages [mitzu]: Remove: archive file [/home/abi/fetcher/tmp/mitzu-0.6.7.tar.gz]
+[2023-06-14 13:11:17] INFO root fetch - main [MainThread]: End processing [mitzu]: success
+[2023-06-14 13:11:17] INFO root fetch - processPackages [django-advanced-pdf]: executing diffoscope
+[2023-06-14 13:11:17] INFO root fetch - processPackages [django-advanced-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-advanced-pdf-0.2.2.tar.gz tmp/django-advanced-pdf-0.2.3.tar.gz --markdown 20230614/d/django-advanced-pdf/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-14 13:11:20] INFO root fetch - processPackages [django-advanced-pdf]: Remove: archive file [/home/abi/fetcher/tmp/django-advanced-pdf-0.2.2.tar.gz]
+[2023-06-14 13:11:20] INFO root fetch - processPackages [django-advanced-pdf]: Remove: archive file [/home/abi/fetcher/tmp/django-advanced-pdf-0.2.3.tar.gz]
+[2023-06-14 13:11:20] INFO root fetch - main [MainThread]: End processing [django-advanced-pdf]: success
+[2023-06-14 13:11:54] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-14 13:11:54] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-14 13:11:54] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-14 13:11:54] INFO root fetch - main [MainThread]: Store serial: [18500140]
