@@ -12863,3 +12863,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:47:56] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.4-py3-none-any.whl.zip]
 [2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
 [2023-06-14 06:47:56] INFO root fetch - main [MainThread]: Store serial: [18496311]
+[2023-06-14 06:53:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496311]
+[2023-06-14 06:53:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-gerrit-api
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-apple
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sftpoeb
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: addtwonumber
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcrx-kv
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metacountregressor
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GTNLib
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week
+[2023-06-14 06:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-sale-reporting
+[2023-06-14 06:53:06] INFO root fetch - processPackages [napari-apple]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 06:53:06] INFO root fetch - processPackages [python-gerrit-api]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-06-14 06:53:06] WARNING root fetch - processPackages [dcrx-kv]: Skipping, unable to determine old version
+[2023-06-14 06:53:07] INFO root fetch - processPackages [dcrx-kv]: Start processing: dls-bxflow
+[2023-06-14 06:53:07] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 06:53:07] INFO root fetch - main [MainThread]: End processing [dcrx-kv] error
+[2023-06-14 06:53:07] INFO root fetch - processPackages [GTNLib]: New version: [0.2] Old Version: [0.1]
+[2023-06-14 06:53:07] WARNING root fetch - processPackages [addtwonumber]: Skipping, unable to determine old version
+[2023-06-14 06:53:07] INFO root fetch - processPackages [addtwonumber]: Start processing: flask-signing
+[2023-06-14 06:53:07] INFO root fetch - main [MainThread]: End processing [addtwonumber] error
+[2023-06-14 06:53:07] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: New version: [16.0.20230613.0] Old Version: [16.0.20230605.1]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [flask-signing]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [dls-bxflow]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 06:53:07] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/00/0c/9cd35852552ec20d5d98285c9632b5eb28873c098f0ff324497fef11bb65/sftpoeb-0.0.9.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Downloading https://files.pythonhosted.org/packages/90/0b/05e0650e05a094e9993c258a5df5cc50130c2e072439afb12bea7364b9d9/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-14 06:53:07] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/95/8a/72515bf86c067eda1d857c4bc654fd4dfced2c0b0504b37b76ad5c49ae02/flask_signing-0.3.1.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/a2/6e/9b1bdba26b634005c201d02daecdfc79dd41c025706a0cc5c08f7f085ad8/python-gerrit-api-2.1.6.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [napari-apple]: Downloading https://files.pythonhosted.org/packages/91/fa/16577dd49239d9a7c5e1df64605b6a2beaf28194e672933d54767244166a/napari-apple-0.0.4.tar.gz
+[2023-06-14 06:53:07] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 06:53:07] INFO root fetch - processPackages [metacountregressor]: Start processing: nonebot-plugin-osubot
+[2023-06-14 06:53:07] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 06:53:07] INFO root fetch - processPackages [GTNLib]: Downloading https://files.pythonhosted.org/packages/f4/e2/c523dacadfcfe16e76b1c72598f2ff865e3e8cdf97b2bd6d7b0b9fe5ea15/GTNLib-0.1.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [2.0.1] Old Version: [2.0.0.post2]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [dls-bxflow]: Downloading https://files.pythonhosted.org/packages/be/f5/9949c5491310fe15fd563c850fe1b8c0710e277b86369332aaffa29b84c1/dls-bxflow-2.4.2.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/e2/47/302a95d509790871f66fc3ecbf802b3c78984977a9d81a06661c14a9bd0b/odoo_addons_oca_sale_reporting-16.0.20230605.1-py3-none-any.whl
+[2023-06-14 06:53:07] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [flask-signing]: Downloading https://files.pythonhosted.org/packages/9e/95/59fddb2a141ec4446f996eab3561399d8202f4867a17dae4484d4b1c0a74/flask_signing-0.3.2.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/8f/96/ec59f74a6e0996ea73cd18f9e6b94585dcb1448815a162873eb6a004a95a/sftpoeb-0.1.0.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/9d/16/9251c8df2cb6c423b960ee72d879e42bc875363cc09304ce6f00825f14c6/nonebot-plugin-osubot-2.0.0.post2.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Downloading https://files.pythonhosted.org/packages/4e/76/34d1877987a2e71269b2a4f4ca26a1353ed9ca006b6cfe83fb251752d2c6/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-14 06:53:07] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.0.9.tar.gz tmp/sftpoeb-0.1.0.tar.gz --markdown 20230614/s/sftpoeb/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 06:53:07] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/be/80/0e74714f1f7f4ee89328c7dd1234a1e7dacd8f9911d47f13fa7950d839eb/python-gerrit-api-2.1.7.tar.gz
+[2023-06-14 06:53:07] WARNING root fetch - processPackages [napari-apple]: Skipping package: exceeds size limit 23549626>=10485760
+[2023-06-14 06:53:07] INFO root fetch - processPackages [napari-apple]: Start processing: ggml-python
+[2023-06-14 06:53:07] INFO root fetch - main [MainThread]: End processing [napari-apple] error
+[2023-06-14 06:53:07] INFO root fetch - processPackages [GTNLib]: Downloading https://files.pythonhosted.org/packages/48/9a/a17219efc511ac2f35a17463b33d2b63addab9614e363fb83be20f675787/GTNLib-0.2.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [flask-signing]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [flask-signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_signing-0.3.1.tar.gz tmp/flask_signing-0.3.2.tar.gz --markdown 20230614/f/flask-signing/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-14 06:53:07] INFO root fetch - processPackages [ggml-python]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [python-gerrit-api]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [python-gerrit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gerrit-api-2.1.6.tar.gz tmp/python-gerrit-api-2.1.7.tar.gz --markdown 20230614/p/python-gerrit-api/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-06-14 06:53:07] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29656904>=10485760
+[2023-06-14 06:53:07] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: odoo8-addon-sale-line-quantity-properties-based
+[2023-06-14 06:53:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-06-14 06:53:07] INFO root fetch - processPackages [dls-bxflow]: Downloading https://files.pythonhosted.org/packages/d1/b2/69740ce555efd3584db5d861b01b5248cb6516649ab7883e70a98904533b/dls-bxflow-2.5.0.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/f7/a2/a75b3783a58776bf958f4936091c10e8144e8f35e0590477dce882b91f08/odoo_addons_oca_sale_reporting-16.0.20230613.0-py3-none-any.whl
+[2023-06-14 06:53:07] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [GTNLib]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [GTNLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GTNLib-0.1.tar.gz tmp/GTNLib-0.2.tar.gz --markdown 20230614/G/GTNLib/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-14 06:53:07] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/90/52/f817f4da569174cc583019cfb3ebd195d942f939c9327ceba031fd08799f/ggml_python-0.0.4.tar.gz
+[2023-06-14 06:53:07] INFO root fetch - processPackages [dls-bxflow]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [dls-bxflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-bxflow-2.4.2.tar.gz tmp/dls-bxflow-2.5.0.tar.gz --markdown 20230614/d/dls-bxflow/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: executing diffoscope
+[2023-06-14 06:53:07] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_reporting-16.0.20230605.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_reporting-16.0.20230613.0-py3-none-any.whl.zip --markdown 20230614/o/odoo-addons-oca-sale-reporting/16.0.20230605.1-16.0.20230613.0/diff.md --exclude *.pyd
+[2023-06-14 06:53:08] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-06-14 06:53:08] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230614/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-06-14 06:53:08] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Downloading https://files.pythonhosted.org/packages/be/53/39928d19e671f465e708449836ed53bd3bcd32fc36283a7e0db4d4606023/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-14 06:53:08] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/04/9c/7fb7dca77908fb42af99a27dcb388cf1df652f1eda0a9ec456f8fb4bd349/ggml-python-0.0.6.tar.gz
+[2023-06-14 06:53:08] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2023-06-14 06:53:08] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml_python-0.0.4.tar.gz tmp/ggml-python-0.0.6.tar.gz --markdown 20230614/g/ggml-python/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 06:53:08] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Downloading https://files.pythonhosted.org/packages/50/13/a4fc3cf5d1596dfd9f30e3c158075e49adf9e1846dd868ce832b326dcd3d/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-14 06:53:08] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: executing diffoscope
+[2023-06-14 06:53:08] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-sale-line-quantity-properties-based/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation_product_sold_by_delivery_week-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: Start processing: landingai
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-recommendation-product-sold-by-delivery-week]: success
+[2023-06-14 06:53:09] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [GTNLib]: Remove: archive file [/home/abi/fetcher/tmp/GTNLib-0.1.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [GTNLib]: Remove: archive file [/home/abi/fetcher/tmp/GTNLib-0.2.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [GTNLib]: success
+[2023-06-14 06:53:09] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-2.1.6.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-2.1.7.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [python-gerrit-api]: success
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230605.1-py3-none-any.whl.zip]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-reporting]: success
+[2023-06-14 06:53:09] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-14 06:53:09] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.9.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.0.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 06:53:09] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.3.1.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [flask-signing]: Remove: archive file [/home/abi/fetcher/tmp/flask_signing-0.3.2.tar.gz]
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [flask-signing]: success
+[2023-06-14 06:53:09] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-14 06:53:09] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-14 06:53:09] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230614/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-14 06:53:09] INFO root fetch - processPackages [odoo8-addon-sale-line-quantity-properties-based]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sale_line_quantity_properties_based-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-14 06:53:09] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sale-line-quantity-properties-based]: success
+[2023-06-14 06:53:10] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml_python-0.0.4.tar.gz]
+[2023-06-14 06:53:10] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.6.tar.gz]
+[2023-06-14 06:53:10] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2023-06-14 06:53:10] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-14 06:53:10] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-14 06:53:10] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-14 06:53:12] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-06-14 06:53:12] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-06-14 06:53:12] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-06-14 06:53:13] INFO root fetch - processPackages [dls-bxflow]: Remove: archive file [/home/abi/fetcher/tmp/dls-bxflow-2.4.2.tar.gz]
+[2023-06-14 06:53:13] INFO root fetch - processPackages [dls-bxflow]: Remove: archive file [/home/abi/fetcher/tmp/dls-bxflow-2.5.0.tar.gz]
+[2023-06-14 06:53:13] INFO root fetch - main [MainThread]: End processing [dls-bxflow]: success
+[2023-06-14 06:53:13] INFO root fetch - main [MainThread]: Store serial: [18496369]
