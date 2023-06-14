@@ -13370,3 +13370,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:17:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-06-14 07:17:32] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-06-14 07:17:32] INFO root fetch - main [MainThread]: Store serial: [18496528]
+[2023-06-14 07:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496528]
+[2023-06-14 07:22:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-business-product-location
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dabbas
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhyypapihawkmod
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-business-product-location
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: janis-pipelines.runner
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raga-testing-platform
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: photobooth-app
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: backupp
+[2023-06-14 07:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-picking-dispatch
+[2023-06-14 07:22:46] INFO root fetch - processPackages [odoo8-addon-business-product-location]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [dabbas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [pyhyypapihawkmod]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [photobooth-app]: New version: [0.1.0rc6] Old Version: [0.1.0rc5]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [janis-pipelines.runner]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [odoo10-addon-business-product-location]: New version: [10.0.1.0.1.99.dev3] Old Version: [10.0.1.0.1.99.dev2]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [backupp]: New version: [0.0.9rc1] Old Version: [0.0.9]
+[2023-06-14 07:22:46] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: New version: [8.0.1.2.3.99.dev51] Old Version: [8.0.1.2.3.99.dev50]
+[2023-06-14 07:22:47] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/51/57/4d511c5dac937bf28e711234ab3992af90fb73257426019e8a5786bb6a65/raga-testing-platform-1.0.0.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/3e/59/91fdbfb40ebbca5106f42e112fc299edea11e46ea9d0871faba4226b91f9/pyhyypapihawkmod-1.1.1.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-business-product-location]: Downloading https://files.pythonhosted.org/packages/bc/3c/56cf2ccfd4c828ac0d3bec25c3f48292ea2d1361fa003d5e288ce37b6b06/odoo8_addon_business_product_location-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [janis-pipelines.runner]: Downloading https://files.pythonhosted.org/packages/65/47/22965d52b079dac70e4924bc7231f81f79ddaa1e477acf4d8d508079de47/janis-pipelines.runner-0.9.8.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/3f/76/ff0914deb281d2b844977a89532e4e76c5558dfb825db728646dec581d9c/backupp-0.0.9-py2.py3-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/4a/63/26c6602310c22a38af0fb8cab574a7014ce652d5731681c5a432e89a94aa/photobooth_app-0.1.0rc5.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo10-addon-business-product-location]: Downloading https://files.pythonhosted.org/packages/0c/01/7931c5bce66fd70844ab642baec090951063ebf95f8a5e93795639654fb1/odoo10_addon_business_product_location-10.0.1.0.1.99.dev2-py2-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/1a/8e/e5d0691550cb5578a5df9873401513821d6a43ac761b41988a767afd26fd/dabbas-0.1.8.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Downloading https://files.pythonhosted.org/packages/18/51/066d5988f4376907eb3da3d8802e286628ff1c2ea8d95d58b6dd0b69d069/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev50-py2-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/38/31/483921d46766b51b336cd1d22e03d8aab76b1c2eb4439c7b687eb866dbc2/raga-testing-platform-1.0.1.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [backupp]: Downloading https://files.pythonhosted.org/packages/c0/12/04af5ae766512376ce104815515a05fc60baef777a1e09b0ac3dc11e784d/backupp-0.0.9rc1-py2.py3-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [pyhyypapihawkmod]: Downloading https://files.pythonhosted.org/packages/d2/ea/764636f218aba228dc199d8307ccc0600d2452ebcfce86c7301db2e8ebde/pyhyypapihawkmod-1.1.2.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [backupp]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [backupp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backupp-0.0.9-py2.py3-none-any.whl.zip tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip --markdown 20230614/b/backupp/0.0.9-0.0.9rc1/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.0.tar.gz tmp/raga-testing-platform-1.0.1.tar.gz --markdown 20230614/r/raga-testing-platform/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-business-product-location]: Downloading https://files.pythonhosted.org/packages/12/e3/19c2e18e221e4aac26c23d8f2ec5aa21c40945fc47ed5eb92e672815ef14/odoo8_addon_business_product_location-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [pyhyypapihawkmod]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [pyhyypapihawkmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhyypapihawkmod-1.1.1.tar.gz tmp/pyhyypapihawkmod-1.1.2.tar.gz --markdown 20230614/p/pyhyypapihawkmod/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [dabbas]: Downloading https://files.pythonhosted.org/packages/0c/72/c707c0eb0d3b89ec99495ca7bed05f2b9021c58df26a8bbceee846f4da64/dabbas-0.1.9.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo10-addon-business-product-location]: Downloading https://files.pythonhosted.org/packages/ac/09/d7be1b9291b962e87fbf6c259ae375f427f3f52f32f9345c482befa044fc/odoo10_addon_business_product_location-10.0.1.0.1.99.dev3-py2-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [janis-pipelines.runner]: Downloading https://files.pythonhosted.org/packages/c5/02/b7df19f2aaf2921f6249b5c1339c0706048eab057361079f627b644f0331/janis-pipelines.runner-0.9.9.tar.gz
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Downloading https://files.pythonhosted.org/packages/07/20/8b1ef7742f4cbd5649fde8fe9c135d05688ad75b0b4eb2d811f7c0c966db/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev51-py2-none-any.whl
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo10-addon-business-product-location]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo10-addon-business-product-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_business_product_location-10.0.1.0.1.99.dev2-py2-none-any.whl.zip tmp/odoo10_addon_business_product_location-10.0.1.0.1.99.dev3-py2-none-any.whl.zip --markdown 20230614/o/odoo10-addon-business-product-location/10.0.1.0.1.99.dev2-10.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-business-product-location]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-business-product-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_business_product_location-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_business_product_location-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-business-product-location/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [dabbas]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [dabbas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dabbas-0.1.8.tar.gz tmp/dabbas-0.1.9.tar.gz --markdown 20230614/d/dabbas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [janis-pipelines.runner]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [janis-pipelines.runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis-pipelines.runner-0.9.8.tar.gz tmp/janis-pipelines.runner-0.9.9.tar.gz --markdown 20230614/j/janis-pipelines.runner/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: executing diffoscope
+[2023-06-14 07:22:47] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev50-py2-none-any.whl.zip tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev51-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-picking-dispatch/8.0.1.2.3.99.dev50-8.0.1.2.3.99.dev51/diff.md --exclude *.pyd
+[2023-06-14 07:22:48] INFO root fetch - processPackages [photobooth-app]: Downloading https://files.pythonhosted.org/packages/2e/04/6e3b00a056198089a31fc12c08486801c0e1dd621e3f851e7a2da92f4419/photobooth_app-0.1.0rc6.tar.gz
+[2023-06-14 07:22:48] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.0.tar.gz]
+[2023-06-14 07:22:48] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.1.tar.gz]
+[2023-06-14 07:22:48] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-14 07:22:48] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.9-py2.py3-none-any.whl.zip]
+[2023-06-14 07:22:48] INFO root fetch - processPackages [backupp]: Remove: archive file [/home/abi/fetcher/tmp/backupp-0.0.9rc1-py2.py3-none-any.whl.zip]
+[2023-06-14 07:22:48] INFO root fetch - main [MainThread]: End processing [backupp]: success
+[2023-06-14 07:22:49] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.1.tar.gz]
+[2023-06-14 07:22:49] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.2.tar.gz]
+[2023-06-14 07:22:49] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
+[2023-06-14 07:22:49] INFO root fetch - processPackages [odoo8-addon-business-product-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_business_product_location-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-14 07:22:49] INFO root fetch - processPackages [odoo8-addon-business-product-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_business_product_location-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-14 07:22:49] INFO root fetch - main [MainThread]: End processing [odoo8-addon-business-product-location]: success
+[2023-06-14 07:22:49] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.8.tar.gz]
+[2023-06-14 07:22:49] INFO root fetch - processPackages [dabbas]: Remove: archive file [/home/abi/fetcher/tmp/dabbas-0.1.9.tar.gz]
+[2023-06-14 07:22:49] INFO root fetch - main [MainThread]: End processing [dabbas]: success
+[2023-06-14 07:22:49] INFO root fetch - processPackages [odoo10-addon-business-product-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_business_product_location-10.0.1.0.1.99.dev2-py2-none-any.whl.zip]
+[2023-06-14 07:22:49] INFO root fetch - processPackages [odoo10-addon-business-product-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_business_product_location-10.0.1.0.1.99.dev3-py2-none-any.whl.zip]
+[2023-06-14 07:22:49] INFO root fetch - main [MainThread]: End processing [odoo10-addon-business-product-location]: success
+[2023-06-14 07:22:49] INFO root fetch - processPackages [photobooth-app]: executing diffoscope
+[2023-06-14 07:22:49] INFO root fetch - processPackages [photobooth-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photobooth_app-0.1.0rc5.tar.gz tmp/photobooth_app-0.1.0rc6.tar.gz --markdown 20230614/p/photobooth-app/0.1.0rc5-0.1.0rc6/diff.md --exclude *.pyd
+[2023-06-14 07:22:49] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev50-py2-none-any.whl.zip]
+[2023-06-14 07:22:49] INFO root fetch - processPackages [odoo8-addon-picking-dispatch]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_picking_dispatch-8.0.1.2.3.99.dev51-py2-none-any.whl.zip]
+[2023-06-14 07:22:49] INFO root fetch - main [MainThread]: End processing [odoo8-addon-picking-dispatch]: success
+[2023-06-14 07:22:49] INFO root fetch - processPackages [janis-pipelines.runner]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.runner-0.9.8.tar.gz]
+[2023-06-14 07:22:49] INFO root fetch - processPackages [janis-pipelines.runner]: Remove: archive file [/home/abi/fetcher/tmp/janis-pipelines.runner-0.9.9.tar.gz]
+[2023-06-14 07:22:49] INFO root fetch - main [MainThread]: End processing [janis-pipelines.runner]: success
+[2023-06-14 07:22:51] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc5.tar.gz]
+[2023-06-14 07:22:51] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc6.tar.gz]
+[2023-06-14 07:22:51] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
+[2023-06-14 07:22:51] INFO root fetch - main [MainThread]: Store serial: [18496555]
