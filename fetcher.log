@@ -5419,3 +5419,137 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 02:51:24] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.73.tar.gz]
 [2023-06-14 02:51:24] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
 [2023-06-14 02:51:24] INFO root fetch - main [MainThread]: Store serial: [18493690]
+[2023-06-14 02:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18493690]
+[2023-06-14 02:56:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 02:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte
+[2023-06-14 02:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-06-14 02:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcrx-api
+[2023-06-14 02:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycde
+[2023-06-14 02:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yplib
+[2023-06-14 02:56:34] INFO root fetch - processPackages [yplib]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-14 02:56:34] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-14 02:56:34] INFO root fetch - processPackages [dcrx-api]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 02:56:34] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev9] Old Version: [0.2.1.dev80]
+[2023-06-14 02:56:34] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-14 02:56:34] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7e/f4/9fda48b97e6f0f9cfc970412733604c0a196ab58be707e372e9148097387/yplib-1.0.7.tar.gz
+[2023-06-14 02:56:34] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-14 02:56:34] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-06-14 02:56:34] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/fd/db/a55565b6b9e4ae0e0390875355029d2c61f2791884c8f9ac10b8635b3556/dcrx-api-0.4.0.tar.gz
+[2023-06-14 02:56:34] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/77/93/e1a59d4b042c061c4b9cada56091eff131cd657198efbe503c0b16dc0e00/yplib-1.0.8.tar.gz
+[2023-06-14 02:56:34] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 02:56:34] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.7.tar.gz tmp/yplib-1.0.8.tar.gz --markdown 20230614/y/yplib/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-14 02:56:34] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-14 02:56:34] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-06-14 02:56:34] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev80-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev9-cp39-cp39-win_amd64.whl.zip --markdown 20230614/p/pycde/0.2.1.dev80-0.2.1.dev9/diff.md --exclude *.pyd
+[2023-06-14 02:56:34] INFO root fetch - processPackages [dcrx-api]: Downloading https://files.pythonhosted.org/packages/8a/e5/094fd972f55b8e441e0945efb1aa5171f4f92fdbb626a2f452bf098b3136/dcrx-api-0.4.1.tar.gz
+[2023-06-14 02:56:35] INFO root fetch - processPackages [dcrx-api]: executing diffoscope
+[2023-06-14 02:56:35] INFO root fetch - processPackages [dcrx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrx-api-0.4.0.tar.gz tmp/dcrx-api-0.4.1.tar.gz --markdown 20230614/d/dcrx-api/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 02:56:35] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-06-14 02:56:35] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-14 02:56:35] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230614/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-14 02:56:35] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-06-14 02:56:35] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230614/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-14 02:56:35] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.7.tar.gz]
+[2023-06-14 02:56:35] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.8.tar.gz]
+[2023-06-14 02:56:35] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 02:56:36] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-14 02:56:36] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-14 02:56:36] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-14 02:56:36] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.4.0.tar.gz]
+[2023-06-14 02:56:36] INFO root fetch - processPackages [dcrx-api]: Remove: archive file [/home/abi/fetcher/tmp/dcrx-api-0.4.1.tar.gz]
+[2023-06-14 02:56:36] INFO root fetch - main [MainThread]: End processing [dcrx-api]: success
+[2023-06-14 02:56:37] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-06-14 02:56:37] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-06-14 02:56:37] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-06-14 02:57:16] ERROR root fetch - processPackages [pycde]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139714011079024)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139713876860400)
+
+[2023-06-14 02:57:16] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2023-06-14 02:57:16] INFO root fetch - main [MainThread]: Store serial: [18493708]
