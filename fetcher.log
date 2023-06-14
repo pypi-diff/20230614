@@ -9435,3 +9435,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:43:29] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
 [2023-06-14 03:43:29] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
 [2023-06-14 03:43:29] INFO root fetch - main [MainThread]: Store serial: [18495037]
+[2023-06-14 03:48:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495037]
+[2023-06-14 03:48:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-PHAL-plugin-wifi-setup
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tools-hjh
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aclib.web
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-PHAL-plugin-oauth
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-PHAL-plugin-system
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aifunc
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-sphinx
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ovos-bus-client
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-django
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hardyweinbergcalculator
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: New version: [1.1.1a2] Old Version: [1.1.1a1]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [aifunc]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: New version: [0.0.4a4] Old Version: [0.0.4a3]
+[2023-06-14 03:48:38] WARNING root fetch - processPackages [aclib.web]: Skipping, unable to determine old version
+[2023-06-14 03:48:38] INFO root fetch - processPackages [aclib.web]: Start processing: cdk-wordpress
+[2023-06-14 03:48:38] INFO root fetch - main [MainThread]: End processing [aclib.web] error
+[2023-06-14 03:48:38] INFO root fetch - processPackages [tools-hjh]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.2.4.post20230613] Old Version: [0.2.3.post20230613]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/98/fe/3f707632bdd2eeb599bfc4158f330f52ae9abb323ccee683ac9515e76729/aifunc-0.3.5.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/5a/28/6e077557f3e1b68d406d22a5a9b62af64580add21ce04b91e33b74f464ce/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:48:38] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/c9/a4/22177c884f8f83e46819a98275a84c54b0ab77c615faf1e9d4558c5aef86/hardyweinbergcalculator-0.2.3.post20230613.zip
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Downloading https://files.pythonhosted.org/packages/48/e3/ce5acab5792c5aa7e8ea2adfef6231a627f8b1678a300222f98d54b5dbea/ovos-PHAL-plugin-oauth-0.0.2a1.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [tools-hjh]: Downloading https://files.pythonhosted.org/packages/2f/b2/442d5988540ea9184d1b4fbfe9060c0ad22e77f9430530f07517534a787f/tools_hjh-2.5.4.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Downloading https://files.pythonhosted.org/packages/be/5c/4498befcedbd04458a9871469b76e2731f7ef213d4adbd1b80ff57c05c08/ovos-PHAL-plugin-system-0.0.4a3.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/26/bd/a242ad146cd80ba404bb54755c51dddf68d8365a0898e0cd8859cf78830e/ovos-bus-client-0.0.4a8.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/6e/40/26395877197b7a93e901b5c63c50dbfbee2858aa100e6ba0e883b433fdbe/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [aifunc]: Downloading https://files.pythonhosted.org/packages/be/fd/11b3fdfcfe8b4ba7d1a15b03e446a62ab6f2c554a87b6022b1d9b9cf52b0/aifunc-0.3.6.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [aifunc]: executing diffoscope
+[2023-06-14 03:48:38] INFO root fetch - processPackages [aifunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifunc-0.3.5.tar.gz tmp/aifunc-0.3.6.tar.gz --markdown 20230614/a/aifunc/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-14 03:48:38] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/0a/d9/ffa4829eff30d9aeadb293ac39bffb9144616d8ea01e2a3d614f48fb517d/hardyweinbergcalculator-0.2.4.post20230613.zip
+[2023-06-14 03:48:38] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Downloading https://files.pythonhosted.org/packages/fe/d7/9a3d6c55888a67d9e80cafa314939bdab99266bfa2cbabf052ffa6f709fb/ovos-PHAL-plugin-system-0.0.4a4.tar.gz
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: executing diffoscope
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz --markdown 20230614/o/ovos-PHAL-plugin-wifi-setup/1.1.1a1-1.1.1a2/diff.md --exclude *.pyd
+[2023-06-14 03:48:38] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Downloading https://files.pythonhosted.org/packages/4f/93/cef985c35d5dba9146793941dfb96a1f44a91542b4d214d24db63e0a2dcf/ovos-PHAL-plugin-oauth-0.0.2a2.tar.gz
+[2023-06-14 03:48:39] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-14 03:48:39] INFO root fetch - processPackages [tools-hjh]: Downloading https://files.pythonhosted.org/packages/95/b1/65f4dcf1399e8d660024bf0883494b6d4bdba5fbb576f9f475106eb33e69/tools_hjh-2.5.5.tar.gz
+[2023-06-14 03:48:39] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.2.3.post20230613.zip tmp/hardyweinbergcalculator-0.2.4.post20230613.zip --markdown 20230614/h/hardyweinbergcalculator/0.2.3.post20230613-0.2.4.post20230613/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/fe/2b/0056b831cf6af627eb711d0d69a974eb3943b5eeab777e7f2b7a7365486e/ovos-bus-client-0.0.4a9.tar.gz
+[2023-06-14 03:48:39] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230614/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230614/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [tools-hjh]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [tools-hjh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tools_hjh-2.5.4.tar.gz tmp/tools_hjh-2.5.5.tar.gz --markdown 20230614/t/tools-hjh/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a8.tar.gz tmp/ovos-bus-client-0.0.4a9.tar.gz --markdown 20230614/o/ovos-bus-client/0.0.4a8-0.0.4a9/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230614/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-system-0.0.4a3.tar.gz tmp/ovos-PHAL-plugin-system-0.0.4a4.tar.gz --markdown 20230614/o/ovos-PHAL-plugin-system/0.0.4a3-0.0.4a4/diff.md --exclude *.pyd
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: executing diffoscope
+[2023-06-14 03:48:39] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-oauth-0.0.2a1.tar.gz tmp/ovos-PHAL-plugin-oauth-0.0.2a2.tar.gz --markdown 20230614/o/ovos-PHAL-plugin-oauth/0.0.2a1-0.0.2a2/diff.md --exclude *.pyd
+[2023-06-14 03:48:40] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.3.5.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [aifunc]: Remove: archive file [/home/abi/fetcher/tmp/aifunc-0.3.6.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [aifunc]: Start processing: snappy
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [aifunc]: success
+[2023-06-14 03:48:40] INFO root fetch - processPackages [snappy]: New version: [3.1.1] Old Version: [3.1]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [snappy]: Downloading https://files.pythonhosted.org/packages/18/71/600af2e942a2d63f56af925dcd0fa787940eccc8d7327755c18ad76f9814/snappy-3.1.tar.gz
+[2023-06-14 03:48:40] WARNING root fetch - processPackages [snappy]: Skipping package: exceeds size limit 16352210>=10485760
+[2023-06-14 03:48:40] INFO root fetch - processPackages [snappy]: Start processing: bdating-common
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [snappy] error
+[2023-06-14 03:48:40] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.3.post20230613.zip]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.4.post20230613.zip]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [hardyweinbergcalculator]: Start processing: pyintelxio
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-14 03:48:40] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 03:48:40] WARNING root fetch - processPackages [pyintelxio]: Skipping, unable to determine old version
+[2023-06-14 03:48:40] INFO root fetch - processPackages [pyintelxio]: Start processing: nbdev-apl
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [pyintelxio] error
+[2023-06-14 03:48:40] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-oauth-0.0.2a1.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-oauth-0.0.2a2.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-oauth]: success
+[2023-06-14 03:48:40] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-wifi-setup]: success
+[2023-06-14 03:48:40] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-14 03:48:40] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.833] Old Version: [0.0.832]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-06-14 03:48:40] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-system-0.0.4a3.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - processPackages [ovos-PHAL-plugin-system]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-system-0.0.4a4.tar.gz]
+[2023-06-14 03:48:40] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-system]: success
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/e6/78/6d3fd2d52f96d0976e5d0d8ba84fcc73a9cc8fe41e63e2cd2ae9bb4fd2eb/nbdev-apl-0.0.832.tar.gz
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-14 03:48:41] INFO root fetch - processPackages [tools-hjh]: Remove: archive file [/home/abi/fetcher/tmp/tools_hjh-2.5.4.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - processPackages [tools-hjh]: Remove: archive file [/home/abi/fetcher/tmp/tools_hjh-2.5.5.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - main [MainThread]: End processing [tools-hjh]: success
+[2023-06-14 03:48:41] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-06-14 03:48:41] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-14 03:48:41] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230614/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/1c/8a/b6baca1d797e78501a8b66476aaf8b31eeaa38ec11bc9e7a8c707d4dbeae/nbdev-apl-0.0.833.tar.gz
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.832.tar.gz tmp/nbdev-apl-0.0.833.tar.gz --markdown 20230614/n/nbdev-apl/0.0.832-0.0.833/diff.md --exclude *.pyd
+[2023-06-14 03:48:41] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.4a8.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - processPackages [ovos-bus-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-bus-client-0.0.4a9.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-14 03:48:41] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-14 03:48:42] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-06-14 03:48:42] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-06-14 03:48:42] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-14 03:48:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.832.tar.gz]
+[2023-06-14 03:48:42] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.833.tar.gz]
+[2023-06-14 03:48:42] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-14 03:48:42] INFO root fetch - main [MainThread]: Store serial: [18495109]
