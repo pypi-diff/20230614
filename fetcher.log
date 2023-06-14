@@ -16205,3 +16205,112 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:44:14] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.3.tar.gz]
 [2023-06-14 09:44:14] INFO root fetch - main [MainThread]: End processing [unitorch]: success
 [2023-06-14 09:44:14] INFO root fetch - main [MainThread]: Store serial: [18497676]
+[2023-06-14 09:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497676]
+[2023-06-14 09:49:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ab-test-toolkit
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omamer
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filtro
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lensless
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steam-pysigma
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pya2l
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oxalis
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plotly-resampler
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: async-eval
+[2023-06-14 09:49:24] INFO root fetch - processPackages [filtro]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [oxalis]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [omamer]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [plotly-resampler]: New version: [0.9.0rc6] Old Version: [0.9.0rc5]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [async-eval]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [lensless]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [pya2l]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 09:49:24] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-14 09:49:25] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-14 09:49:25] INFO root fetch - processPackages [pya2l]: Downloading https://files.pythonhosted.org/packages/ad/d6/91b639b2d632d6cbced2142cbefc1fb612d2c894f7676c84a470102c0740/pya2l-0.0.2.tar.gz
+[2023-06-14 09:49:25] WARNING root fetch - processPackages [pya2l]: Skipping package: exceeds size limit 18237531>=10485760
+[2023-06-14 09:49:25] INFO root fetch - processPackages [pya2l]: Start processing: cove-unified-logs
+[2023-06-14 09:49:25] INFO root fetch - main [MainThread]: End processing [pya2l] error
+[2023-06-14 09:49:25] INFO root fetch - processPackages [filtro]: Downloading https://files.pythonhosted.org/packages/39/7e/c656d471abae15842b46f271ad235c82d9443a175918d932983d0bc57af1/filtro-0.1.0.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [omamer]: Downloading https://files.pythonhosted.org/packages/52/fe/916439c30f91becf74ed67ccb5e20c0e9a80d86e134985e9dd1f93927f34/omamer-0.2.5.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/c4/3c/a64f61dcccc1aee3567e935a5592a70a394c0d8ce545d221016cccc38f90/ab-test-toolkit-0.0.7.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/27/76/5bc9771fb77a3a625401231d4f3beaa5c3adacffffd1d0b0b27880dc8b33/steam-pysigma-2023.6.4.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/34/aa/ea631aec9f70f4e265a23729c1fc4ae08c3753ad9b6574965ad643e4a834/oxalis-0.6.1-py3-none-any.whl
+[2023-06-14 09:49:25] INFO root fetch - processPackages [async-eval]: Downloading https://files.pythonhosted.org/packages/34/65/67e4c2b250918768844b89bb69d198672b308c9e1293d280b9f758f10ffe/async_eval-0.1.9.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/d0/bb/1a2adec62298e2643ec85434cb69da7d207cc83edbbdb922ccdd7b86136c/plotly_resampler-0.9.0rc5.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [cove-unified-logs]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-14 09:49:25] INFO root fetch - processPackages [lensless]: Downloading https://files.pythonhosted.org/packages/df/5f/1cb0f6f5ff3fe5e7a0efbf461f53052a0ef04b2f5a306fdf4b71d55bfdb8/lensless-1.0.2.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-14 09:49:25] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230614/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [cove-unified-logs]: Downloading https://files.pythonhosted.org/packages/d8/72/a91391d90154e41e6b27813fa6b272c072971801152493a55951f3f327cd/cove_unified_logs-0.2.0.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [filtro]: Downloading https://files.pythonhosted.org/packages/f9/ab/132c40df0219803b633d9e795c5ba315b336ab9c7d40bbd8d0e7c7f454a4/filtro-0.1.1.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/88/86/148c1ee99ac301507ca0f2463e2b08391d5430e7e7e087df52b4a05af7bc/ab-test-toolkit-0.0.8.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [omamer]: Downloading https://files.pythonhosted.org/packages/da/e1/8d8484d469d94c3bc65d6d40424dc0b30fa3ac88ba1c0e1612e2c23198e0/omamer-0.2.6.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [async-eval]: Downloading https://files.pythonhosted.org/packages/bd/e9/15ce9dafcb604838a6b0b290c0789adc047e4a93fc7d317e518d6334ccb9/async_eval-0.2.0.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [filtro]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [filtro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filtro-0.1.0.tar.gz tmp/filtro-0.1.1.tar.gz --markdown 20230614/f/filtro/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/a0/42/6fdeb2688af6d1042f9d690905b28e5339b13388c7c3f9c69031b05deef8/steam-pysigma-2023.6.5.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/41/36/2b832b16075653f20e284d0b8cbf0e07020c2030499cb978930e1ec23414/oxalis-0.6.2.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [lensless]: Downloading https://files.pythonhosted.org/packages/09/7e/c677242d33a596a46b70c9f982a79c4b2c9a13dfbdaf74774fc853a062f1/lensless-1.0.3.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.7.tar.gz tmp/ab-test-toolkit-0.0.8.tar.gz --markdown 20230614/a/ab-test-toolkit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [omamer]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [async-eval]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [omamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omamer-0.2.5.tar.gz tmp/omamer-0.2.6.tar.gz --markdown 20230614/o/omamer/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [async-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_eval-0.1.9.tar.gz tmp/async_eval-0.2.0.tar.gz --markdown 20230614/a/async-eval/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [plotly-resampler]: Downloading https://files.pythonhosted.org/packages/2d/fb/ca578703c746aa9fb97386c4c62942eff96871555f51985b82b41bb46f12/plotly_resampler-0.9.0rc6.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.6.1-py3-none-any.whl.zip tmp/oxalis-0.6.2.tar.gz --markdown 20230614/o/oxalis/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.6.4.tar.gz tmp/steam-pysigma-2023.6.5.tar.gz --markdown 20230614/s/steam-pysigma/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [lensless]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [lensless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lensless-1.0.2.tar.gz tmp/lensless-1.0.3.tar.gz --markdown 20230614/l/lensless/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 09:49:25] INFO root fetch - processPackages [cove-unified-logs]: Downloading https://files.pythonhosted.org/packages/b9/95/92f96d21026933de180428f07a92df42bd7e42616669bdf7bc3b2e672f86/cove_unified_logs-0.2.1.tar.gz
+[2023-06-14 09:49:25] INFO root fetch - processPackages [plotly-resampler]: executing diffoscope
+[2023-06-14 09:49:25] INFO root fetch - processPackages [plotly-resampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly_resampler-0.9.0rc5.tar.gz tmp/plotly_resampler-0.9.0rc6.tar.gz --markdown 20230614/p/plotly-resampler/0.9.0rc5-0.9.0rc6/diff.md --exclude *.pyd
+[2023-06-14 09:49:26] INFO root fetch - processPackages [cove-unified-logs]: executing diffoscope
+[2023-06-14 09:49:26] INFO root fetch - processPackages [cove-unified-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cove_unified_logs-0.2.0.tar.gz tmp/cove_unified_logs-0.2.1.tar.gz --markdown 20230614/c/cove-unified-logs/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-14 09:49:27] INFO root fetch - processPackages [filtro]: Remove: archive file [/home/abi/fetcher/tmp/filtro-0.1.0.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [filtro]: Remove: archive file [/home/abi/fetcher/tmp/filtro-0.1.1.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [filtro]: Start processing: anysql
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [filtro]: success
+[2023-06-14 09:49:27] WARNING root fetch - processPackages [anysql]: Skipping, unable to determine old version
+[2023-06-14 09:49:27] INFO root fetch - processPackages [anysql]: Start processing: ab-test-toolkit
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [anysql] error
+[2023-06-14 09:49:27] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.1-py3-none-any.whl.zip]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [oxalis]: Remove: archive file [/home/abi/fetcher/tmp/oxalis-0.6.2.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [async-eval]: Remove: archive file [/home/abi/fetcher/tmp/async_eval-0.1.9.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [async-eval]: Remove: archive file [/home/abi/fetcher/tmp/async_eval-0.2.0.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [async-eval]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/48/e3/2e2065804d84d6c11fcfdfe48ce4015356cacde1d994e4ccafa74369f8e3/ab-test-toolkit-0.0.9.tar.gz
+[2023-06-14 09:49:27] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.7.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.8.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [cove-unified-logs]: Remove: archive file [/home/abi/fetcher/tmp/cove_unified_logs-0.2.0.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [cove-unified-logs]: Remove: archive file [/home/abi/fetcher/tmp/cove_unified_logs-0.2.1.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [cove-unified-logs]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.0rc5.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [plotly-resampler]: Remove: archive file [/home/abi/fetcher/tmp/plotly_resampler-0.9.0rc6.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [plotly-resampler]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [omamer]: Remove: archive file [/home/abi/fetcher/tmp/omamer-0.2.5.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [omamer]: Remove: archive file [/home/abi/fetcher/tmp/omamer-0.2.6.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [omamer]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-14 09:49:27] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.8.tar.gz tmp/ab-test-toolkit-0.0.9.tar.gz --markdown 20230614/a/ab-test-toolkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 09:49:27] INFO root fetch - processPackages [steam-pysigma]: Remove: archive file [/home/abi/fetcher/tmp/steam-pysigma-2023.6.4.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [steam-pysigma]: Remove: archive file [/home/abi/fetcher/tmp/steam-pysigma-2023.6.5.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-06-14 09:49:27] INFO root fetch - processPackages [lensless]: Remove: archive file [/home/abi/fetcher/tmp/lensless-1.0.2.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - processPackages [lensless]: Remove: archive file [/home/abi/fetcher/tmp/lensless-1.0.3.tar.gz]
+[2023-06-14 09:49:27] INFO root fetch - main [MainThread]: End processing [lensless]: success
+[2023-06-14 09:49:28] ERROR root fetch - processPackages [ab-test-toolkit]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ab-test-toolkit-0.0.8.tar.gz: No such file or directory
+
+[2023-06-14 09:49:28] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit] error
+[2023-06-14 09:49:36] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-14 09:49:36] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-14 09:49:36] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-14 09:49:36] INFO root fetch - main [MainThread]: Store serial: [18497712]
