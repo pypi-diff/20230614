@@ -16588,3 +16588,193 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 10:00:50] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.52.tar.gz]
 [2023-06-14 10:00:50] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-14 10:00:50] INFO root fetch - main [MainThread]: Store serial: [18497813]
+[2023-06-14 10:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497813]
+[2023-06-14 10:06:00] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: social-gpt
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickzetta-connector
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clickzetta-sqlalchemy
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labeltransform
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neptune-tensorboard
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-browser-reload
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-accounts
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-auto-prefetch
+[2023-06-14 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: social-gpt
+[2023-06-14 10:06:00] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [django-browser-reload]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 10:06:00] WARNING root fetch - processPackages [labeltransform]: Skipping, unable to determine old version
+[2023-06-14 10:06:00] INFO root fetch - processPackages [labeltransform]: Start processing: lazer
+[2023-06-14 10:06:00] INFO root fetch - main [MainThread]: End processing [labeltransform] error
+[2023-06-14 10:06:00] INFO root fetch - processPackages [neptune-tensorboard]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [django-auto-prefetch]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [invenio-accounts]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [lazer]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-14 10:06:00] INFO root fetch - processPackages [neptune-tensorboard]: Downloading https://files.pythonhosted.org/packages/54/a3/8268398e89bd3a8ce1603e9da307cc4f63931a357499df2fb7d44c2820b8/neptune_tensorboard-1.0.0rc1.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/0b/cb/d7aaef9de19bce74df1d8fab75b87aa14ca3fcfc568dbab4bd013ef84bc2/lazer-0.1.7.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/14/54/07f1e10b62c11da8770cdeaee2191087e7041ac9aa2d5c73d0f9b9cdb3ce/social_gpt-0.0.5.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/14/54/07f1e10b62c11da8770cdeaee2191087e7041ac9aa2d5c73d0f9b9cdb3ce/social_gpt-0.0.5.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [django-browser-reload]: Downloading https://files.pythonhosted.org/packages/42/9d/55187254d597b1d4a37c218b625cc1ad208ed92dd65062230a6d1d3cb00f/django_browser_reload-1.8.0.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [django-auto-prefetch]: Downloading https://files.pythonhosted.org/packages/81/be/a000188cfb188269990e2006104cdfc687872143f89d1726ad7e6409a4ce/django_auto_prefetch-1.5.1.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/1e/40/ae85b76d5f12c7da808483b6f98f08a7db52d43af93de6f2d3066e5009f1/invenio-accounts-2.2.0.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [neptune-tensorboard]: Downloading https://files.pythonhosted.org/packages/ab/a7/bb683342a457ca762fea5217cec399723eb1d7e702361fee1fc5d957c88b/neptune_tensorboard-1.0.0rc2.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/90/da/89943decf02e0034e4ff739cd82ba8a5852266904127d4686ed11416f1fe/social_gpt-0.0.6.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/90/da/89943decf02e0034e4ff739cd82ba8a5852266904127d4686ed11416f1fe/social_gpt-0.0.6.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/d3/db/e26ca2b2566f0b2b91e00f5c1d4923e1faf56b94bf6476bfecb8def6e6b6/lazer-0.1.8.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.5.tar.gz tmp/social_gpt-0.0.6.tar.gz --markdown 20230614/s/social-gpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 10:06:00] INFO root fetch - processPackages [neptune-tensorboard]: executing diffoscope
+[2023-06-14 10:06:00] INFO root fetch - processPackages [neptune-tensorboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_tensorboard-1.0.0rc1.tar.gz tmp/neptune_tensorboard-1.0.0rc2.tar.gz --markdown 20230614/n/neptune-tensorboard/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 10:06:00] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.5.tar.gz tmp/social_gpt-0.0.6.tar.gz --markdown 20230614/s/social-gpt/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 10:06:00] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 10:06:00] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.7.tar.gz tmp/lazer-0.1.8.tar.gz --markdown 20230614/l/lazer/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 10:06:00] INFO root fetch - processPackages [django-auto-prefetch]: Downloading https://files.pythonhosted.org/packages/2d/1f/d9f2140cb360f4fe742c66714b9677ab83b6f23386bf31698db50a70cafa/django_auto_prefetch-1.6.0.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [django-browser-reload]: Downloading https://files.pythonhosted.org/packages/74/6d/233e00c25ffbfaf9386c6dfa55123c580292194fe95bf2e30cffba336d10/django_browser_reload-1.9.0.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-14 10:06:00] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/ad/0e/59b6982c5379b5bcfcdc4c0ab09eae4f28303d64e6bc032299291d13c248/invenio-accounts-3.0.0.tar.gz
+[2023-06-14 10:06:01] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-14 10:06:01] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230614/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-14 10:06:01] INFO root fetch - processPackages [django-auto-prefetch]: executing diffoscope
+[2023-06-14 10:06:01] INFO root fetch - processPackages [django-browser-reload]: executing diffoscope
+[2023-06-14 10:06:01] INFO root fetch - processPackages [django-auto-prefetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_auto_prefetch-1.5.1.tar.gz tmp/django_auto_prefetch-1.6.0.tar.gz --markdown 20230614/d/django-auto-prefetch/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-06-14 10:06:01] INFO root fetch - processPackages [django-browser-reload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_browser_reload-1.8.0.tar.gz tmp/django_browser_reload-1.9.0.tar.gz --markdown 20230614/d/django-browser-reload/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:06:01] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-14 10:06:01] INFO root fetch - processPackages [invenio-accounts]: executing diffoscope
+[2023-06-14 10:06:01] INFO root fetch - processPackages [invenio-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-accounts-2.2.0.tar.gz tmp/invenio-accounts-3.0.0.tar.gz --markdown 20230614/i/invenio-accounts/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-14 10:06:01] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-14 10:06:01] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230614/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-14 10:06:01] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-14 10:06:01] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230614/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-14 10:06:03] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.7.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.8.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [lazer]: Start processing: tgwrap
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.5.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.6.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [social-gpt]: Start processing: essenceApi
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: New version: [4.1] Old Version: [1.0]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [social-gpt]: Start processing: essenceApi
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [tgwrap]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: New version: [4.1] Old Version: [1.0]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [neptune-tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/neptune_tensorboard-1.0.0rc1.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [neptune-tensorboard]: Remove: archive file [/home/abi/fetcher/tmp/neptune_tensorboard-1.0.0rc2.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [neptune-tensorboard]: Start processing: xj-enroll
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [neptune-tensorboard]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: Downloading https://files.pythonhosted.org/packages/e0/4f/1b0c7be1e364486c5fcf716b7e084bae4bc3db0e7940907291aa2155f4d9/essenceApi-1.0-py3.11.egg
+[2023-06-14 10:06:03] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [bridgecrew]: Start processing: UComp
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: Downloading https://files.pythonhosted.org/packages/e0/4f/1b0c7be1e364486c5fcf716b7e084bae4bc3db0e7940907291aa2155f4d9/essenceApi-1.0-py3.11.egg
+[2023-06-14 10:06:03] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [UComp]: New version: [1.0.53] Old Version: [1.0.52]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/a2/63/502b2b4da3d7387abb6fcf039c10a68411fda4254f0600b4aeddd0968eea/tgwrap-0.6.2.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [django-browser-reload]: Remove: archive file [/home/abi/fetcher/tmp/django_browser_reload-1.8.0.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [django-browser-reload]: Remove: archive file [/home/abi/fetcher/tmp/django_browser_reload-1.9.0.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [django-browser-reload]: Start processing: plateNumOCR
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [django-browser-reload]: success
+[2023-06-14 10:06:03] WARNING root fetch - processPackages [plateNumOCR]: Skipping, unable to determine old version
+[2023-06-14 10:06:03] INFO root fetch - processPackages [plateNumOCR]: Start processing: QWeb
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [plateNumOCR] error
+[2023-06-14 10:06:03] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/8f/aa/6b488099c7fedf6b0fb0745c6966c5a996c91d86731e82aaaccd9975cc25/UComp-1.0.52.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [QWeb]: New version: [2.2.0] Old Version: [2.1.2]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: Downloading https://files.pythonhosted.org/packages/24/1b/87c99130464235657a33ea683051e073dcb471650c29625bdd3593b299ec/essenceApi-4.1.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [django-auto-prefetch]: Remove: archive file [/home/abi/fetcher/tmp/django_auto_prefetch-1.5.1.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [django-auto-prefetch]: Remove: archive file [/home/abi/fetcher/tmp/django_auto_prefetch-1.6.0.tar.gz]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: Downloading https://files.pythonhosted.org/packages/24/1b/87c99130464235657a33ea683051e073dcb471650c29625bdd3593b299ec/essenceApi-4.1.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: dbt-clickzetta
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [django-auto-prefetch]: Start processing: openai-dbd
+[2023-06-14 10:06:03] INFO root fetch - main [MainThread]: End processing [django-auto-prefetch]: success
+[2023-06-14 10:06:03] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-14 10:06:03] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230614/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-14 10:06:03] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:06:03] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/6d/07/949df13b31f16595e3e5d7c97187d5f9b8d11e5a30e3a41396d34f9dbc60/tgwrap-0.6.3.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [QWeb]: Downloading https://files.pythonhosted.org/packages/02/59/3375dbafadafa182befdfd975c9533da111108cf974ebd8bb4606eb05e57/QWeb-2.1.2.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-14 10:06:03] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2023-06-14 10:06:03] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.6.2.tar.gz tmp/tgwrap-0.6.3.tar.gz --markdown 20230614/t/tgwrap/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: executing diffoscope
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/essenceApi-1.0-py3.11.egg tmp/essenceApi-4.1.tar.gz --markdown 20230614/e/essenceApi/1.0-4.1/diff.md --exclude *.pyd
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: executing diffoscope
+[2023-06-14 10:06:03] INFO root fetch - processPackages [essenceApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/essenceApi-1.0-py3.11.egg tmp/essenceApi-4.1.tar.gz --markdown 20230614/e/essenceApi/1.0-4.1/diff.md --exclude *.pyd
+[2023-06-14 10:06:03] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/e2/12/4095ce354fe4205b0bfbb1de9a0fdbc75732c0bc4d15d50be3466ac60354/UComp-1.0.53.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-14 10:06:03] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-14 10:06:04] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-14 10:06:04] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230614/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:06:04] INFO root fetch - processPackages [QWeb]: Downloading https://files.pythonhosted.org/packages/35/fb/ec3d0448825619a776be98d4833b05d19008a2876d38db6d387ceecf5207/QWeb-2.2.0.tar.gz
+[2023-06-14 10:06:04] INFO root fetch - processPackages [QWeb]: executing diffoscope
+[2023-06-14 10:06:04] INFO root fetch - processPackages [QWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QWeb-2.1.2.tar.gz tmp/QWeb-2.2.0.tar.gz --markdown 20230614/Q/QWeb/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2023-06-14 10:06:04] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-14 10:06:04] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-14 10:06:04] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230614/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 10:06:05] INFO root fetch - processPackages [invenio-accounts]: Remove: archive file [/home/abi/fetcher/tmp/invenio-accounts-2.2.0.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [invenio-accounts]: Remove: archive file [/home/abi/fetcher/tmp/invenio-accounts-3.0.0.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [invenio-accounts]: Start processing: lazer
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [invenio-accounts]: success
+[2023-06-14 10:06:05] INFO root fetch - processPackages [lazer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/d3/db/e26ca2b2566f0b2b91e00f5c1d4923e1faf56b94bf6476bfecb8def6e6b6/lazer-0.1.8.tar.gz
+[2023-06-14 10:06:05] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [clickzetta-connector]: Start processing: vectice
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-14 10:06:05] INFO root fetch - processPackages [vectice]: New version: [23.2.4.1] Old Version: [23.2.4.0]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/08/d6/9953dcf5c367b0f9d7c47b0590cca5fd71023ab01e7332b4053a741248e1/lazer-0.1.9.tar.gz
+[2023-06-14 10:06:05] INFO root fetch - processPackages [essenceApi]: Remove: archive file [/home/abi/fetcher/tmp/essenceApi-1.0-py3.11.egg]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [essenceApi]: Remove: archive file [/home/abi/fetcher/tmp/essenceApi-4.1.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [essenceApi]: Start processing: pya2l
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [essenceApi]: success
+[2023-06-14 10:06:05] INFO root fetch - processPackages [pya2l]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [pya2l]: Downloading https://files.pythonhosted.org/packages/ad/d6/91b639b2d632d6cbced2142cbefc1fb612d2c894f7676c84a470102c0740/pya2l-0.0.2.tar.gz
+[2023-06-14 10:06:05] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-14 10:06:05] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/50/ee/e8913d12dd47250ebb0e16d0072ad68c1019597abc2182817c3a59a099cc/vectice-23.2.4.0.tar.gz
+[2023-06-14 10:06:05] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-14 10:06:05] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.52.tar.gz tmp/UComp-1.0.53.tar.gz --markdown 20230614/U/UComp/1.0.52-1.0.53/diff.md --exclude *.pyd
+[2023-06-14 10:06:05] WARNING root fetch - processPackages [pya2l]: Skipping package: exceeds size limit 18237531>=10485760
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [pya2l] error
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [essenceApi]: success
+[2023-06-14 10:06:05] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 10:06:05] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.8.tar.gz tmp/lazer-0.1.9.tar.gz --markdown 20230614/l/lazer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 10:06:05] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.6.2.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.6.3.tar.gz]
+[2023-06-14 10:06:05] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2023-06-14 10:06:05] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/a5/78/34ba223413e655d3bba189cbac42d9859687d8a36c50cac5f9942a635ddc/vectice-23.2.4.1.tar.gz
+[2023-06-14 10:06:06] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2023-06-14 10:06:06] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-23.2.4.0.tar.gz tmp/vectice-23.2.4.1.tar.gz --markdown 20230614/v/vectice/23.2.4.0-23.2.4.1/diff.md --exclude *.pyd
+[2023-06-14 10:06:06] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-14 10:06:06] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-14 10:06:06] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-14 10:06:06] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-14 10:06:06] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-14 10:06:06] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-14 10:06:06] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.8.tar.gz]
+[2023-06-14 10:06:06] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.9.tar.gz]
+[2023-06-14 10:06:06] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 10:06:07] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.4.0.tar.gz]
+[2023-06-14 10:06:07] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-23.2.4.1.tar.gz]
+[2023-06-14 10:06:07] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2023-06-14 10:06:08] INFO root fetch - processPackages [QWeb]: Remove: archive file [/home/abi/fetcher/tmp/QWeb-2.1.2.tar.gz]
+[2023-06-14 10:06:08] INFO root fetch - processPackages [QWeb]: Remove: archive file [/home/abi/fetcher/tmp/QWeb-2.2.0.tar.gz]
+[2023-06-14 10:06:08] INFO root fetch - main [MainThread]: End processing [QWeb]: success
+[2023-06-14 10:06:08] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.52.tar.gz]
+[2023-06-14 10:06:08] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.53.tar.gz]
+[2023-06-14 10:06:08] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-14 10:06:08] INFO root fetch - main [MainThread]: Store serial: [18497883]
