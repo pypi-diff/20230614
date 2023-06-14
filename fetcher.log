@@ -17716,3 +17716,175 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 10:36:29] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-1.1.0rc2.tar.gz]
 [2023-06-14 10:36:29] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2023-06-14 10:36:29] INFO root fetch - main [MainThread]: Store serial: [18498390]
+[2023-06-14 10:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498390]
+[2023-06-14 10:41:38] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: social-gpt
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dune-harmonizer
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-companyweb-base
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CLEMENTDNA
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hello2
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pyara
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automation-file-dev
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-accounts
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-companyweb-base
+[2023-06-14 10:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multiversx-sdk-core
+[2023-06-14 10:41:38] INFO root fetch - processPackages [CLEMENTDNA]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [odoo-addon-companyweb-base]: New version: [16.0.1.0.7] Old Version: [16.0.1.0.6]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [social-gpt]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: New version: [13.0.1.1.4] Old Version: [13.0.1.1.3]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [multiversx-sdk-core]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [Pyara]: New version: [0.1.14] Old Version: [0.1.13]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [invenio-accounts]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [hello2]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-14 10:41:38] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/90/da/89943decf02e0034e4ff739cd82ba8a5852266904127d4686ed11416f1fe/social_gpt-0.0.6.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/e9/a5/400b623ab3356cad21936310c0d6245e80054b1311d34e19134bb22339f2/Pyara-0.1.13.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/ad/0e/59b6982c5379b5bcfcdc4c0ab09eae4f28303d64e6bc032299291d13c248/invenio-accounts-3.0.0.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/0d/fc/92125738c7144dec56e06ce519368bf04200a59afbe61cb18c88869ef0e1/multiversx_sdk_core-0.4.4.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/4f/a1/704b17443502bf2959c0f086fccd58c3afa939282a9fd6324748a0178f60/odoo13_addon_companyweb_base-13.0.1.1.3-py3-none-any.whl
+[2023-06-14 10:41:38] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/3c/f2/9a3aadb19be74ff4676e584bb5abd8c7bde835efeddd6ae4c50d82e9dc5d/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl
+[2023-06-14 10:41:38] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/4b/a6/320243721111b0035ab5f75d40b8d0f52dc3eac7bc77927dc890d755b4c9/hello2-1.9.4.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/85/77/424f372c34e2635436dc47c536e7078e42ebf59b52974d89498cd8b33771/Pyara-0.1.14.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/52/a0/de97903794a2ca66d1a8870e65a22236c66e73cbf7edd979e60261eff667/social_gpt-0.0.7.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-14 10:41:38] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230614/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:41:38] INFO root fetch - processPackages [CLEMENTDNA]: Downloading https://files.pythonhosted.org/packages/14/a2/6f05ebb91ed4a8e1761ac7e79b7ae3a0bef32b01e46a674033f06a0fd4ca/CLEMENTDNA-1.0.4.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [invenio-accounts]: Downloading https://files.pythonhosted.org/packages/77/22/28ad38edc86b034a842654b0a3e18e279f8f3adad7ca302f0ce165079812/invenio-accounts-3.0.1.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 10:41:38] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.6.tar.gz tmp/social_gpt-0.0.7.tar.gz --markdown 20230614/s/social-gpt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 10:41:38] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-14 10:41:38] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.13.tar.gz tmp/Pyara-0.1.14.tar.gz --markdown 20230614/P/Pyara/0.1.13-0.1.14/diff.md --exclude *.pyd
+[2023-06-14 10:41:38] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/05/ea/904e35bef4451377910e22ebf9071ca605b85395b99343ad6450d9a3b5cd/multiversx_sdk_core-0.5.0.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/95/91/44d645590e006de90f67de046afd6f91d496d7a4a81c1622a52edd90a76d/hello2-1.9.5.tar.gz
+[2023-06-14 10:41:38] INFO root fetch - processPackages [multiversx-sdk-core]: executing diffoscope
+[2023-06-14 10:41:38] INFO root fetch - processPackages [multiversx-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_core-0.4.4.tar.gz tmp/multiversx_sdk_core-0.5.0.tar.gz --markdown 20230614/m/multiversx-sdk-core/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 10:41:39] INFO root fetch - processPackages [CLEMENTDNA]: executing diffoscope
+[2023-06-14 10:41:39] INFO root fetch - processPackages [CLEMENTDNA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CLEMENTDNA-1.0.2.tar.gz tmp/CLEMENTDNA-1.0.4.tar.gz --markdown 20230614/C/CLEMENTDNA/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:41:39] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/51/bd/605db45a0a62ee4023b298255615aeb236bc473f695e3ad48463d3c52790/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl
+[2023-06-14 10:41:39] INFO root fetch - processPackages [invenio-accounts]: executing diffoscope
+[2023-06-14 10:41:39] INFO root fetch - processPackages [invenio-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-accounts-3.0.0.tar.gz tmp/invenio-accounts-3.0.1.tar.gz --markdown 20230614/i/invenio-accounts/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-14 10:41:39] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-14 10:41:39] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-14 10:41:39] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230614/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:41:39] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/fb/ce/080921f890f8109457e38df68ea8b17311856f95a982a480979370d5f077/odoo13_addon_companyweb_base-13.0.1.1.4-py3-none-any.whl
+[2023-06-14 10:41:39] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-14 10:41:39] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.4.tar.gz tmp/hello2-1.9.5.tar.gz --markdown 20230614/h/hello2/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-14 10:41:39] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: executing diffoscope
+[2023-06-14 10:41:39] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_companyweb_base-13.0.1.1.3-py3-none-any.whl.zip tmp/odoo13_addon_companyweb_base-13.0.1.1.4-py3-none-any.whl.zip --markdown 20230614/o/odoo13-addon-companyweb-base/13.0.1.1.3-13.0.1.1.4/diff.md --exclude *.pyd
+[2023-06-14 10:41:39] INFO root fetch - processPackages [odoo-addon-companyweb-base]: executing diffoscope
+[2023-06-14 10:41:39] INFO root fetch - processPackages [odoo-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-companyweb-base/16.0.1.0.6-16.0.1.0.7/diff.md --exclude *.pyd
+[2023-06-14 10:41:40] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.13.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.14.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [Pyara]: Start processing: demisto-sdk
+[2023-06-14 10:41:40] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-14 10:41:40] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.6.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.7.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [social-gpt]: Start processing: odoo14-addon-companyweb-base
+[2023-06-14 10:41:40] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 10:41:40] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: New version: [14.0.1.1.4] Old Version: [14.0.1.1.3]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2023-06-14 10:41:40] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/91/02/09191ba01b3ea44586b66735206646306b7c1fbaf042eb5b722732dd9878/odoo14_addon_companyweb_base-14.0.1.1.3-py3-none-any.whl
+[2023-06-14 10:41:40] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [automation-file-dev]: Start processing: MMEdu
+[2023-06-14 10:41:40] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-14 10:41:40] INFO root fetch - processPackages [MMEdu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [multiversx-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_core-0.4.4.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [multiversx-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_core-0.5.0.tar.gz]
+[2023-06-14 10:41:40] INFO root fetch - processPackages [multiversx-sdk-core]: Start processing: qoqo-qryd
+[2023-06-14 10:41:40] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-core]: success
+[2023-06-14 10:41:40] INFO root fetch - processPackages [qoqo-qryd]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [dune-harmonizer]: Start processing: fastdup
+[2023-06-14 10:41:41] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-14 10:41:41] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/ab/1e/588ba9856221eb0f1fdb52ad1f4ec1112510c4d8806e8ce3fe35dc706347/MMEdu-0.1.8.tar.gz
+[2023-06-14 10:41:41] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/47/90/67afa2d5d6a740c2a09f29e5976ec8314dac72a831d56715aca403606167/qoqo_qryd-0.8.6.tar.gz
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Downloading https://files.pythonhosted.org/packages/28/7c/7466fc05044f8085fb6e86dd8904b91723c3f3d71f1bc1449ae5ee87b884/odoo14_addon_companyweb_base-14.0.1.1.4-py3-none-any.whl
+[2023-06-14 10:41:41] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-06-14 10:41:41] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-06-14 10:41:41] INFO root fetch - processPackages [fastdup]: Start processing: filedata-ext
+[2023-06-14 10:41:41] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: executing diffoscope
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_companyweb_base-14.0.1.1.3-py3-none-any.whl.zip tmp/odoo14_addon_companyweb_base-14.0.1.1.4-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-companyweb-base/14.0.1.1.3-14.0.1.1.4/diff.md --exclude *.pyd
+[2023-06-14 10:41:41] WARNING root fetch - processPackages [filedata-ext]: Skipping, unable to determine old version
+[2023-06-14 10:41:41] INFO root fetch - processPackages [filedata-ext]: Start processing: decentriq-platform
+[2023-06-14 10:41:41] INFO root fetch - main [MainThread]: End processing [filedata-ext] error
+[2023-06-14 10:41:41] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [MMEdu]: Downloading https://files.pythonhosted.org/packages/47/39/353c28206b6bb14419b0637ed054cdda8882895e90995b407e8ac6891b0e/MMEdu-0.1.9.tar.gz
+[2023-06-14 10:41:41] INFO root fetch - processPackages [qoqo-qryd]: Downloading https://files.pythonhosted.org/packages/ce/9a/f1ac3d32a0777e54058bb9448745c0614de30e142bfbeb40fc6fb76622cf/qoqo_qryd-0.8.7.tar.gz
+[2023-06-14 10:41:41] INFO root fetch - processPackages [MMEdu]: executing diffoscope
+[2023-06-14 10:41:41] INFO root fetch - processPackages [MMEdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMEdu-0.1.8.tar.gz tmp/MMEdu-0.1.9.tar.gz --markdown 20230614/M/MMEdu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 10:41:41] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2023-06-14 10:41:41] INFO root fetch - processPackages [qoqo-qryd]: executing diffoscope
+[2023-06-14 10:41:41] INFO root fetch - processPackages [qoqo-qryd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qryd-0.8.6.tar.gz tmp/qoqo_qryd-0.8.7.tar.gz --markdown 20230614/q/qoqo-qryd/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-14 10:41:41] INFO root fetch - processPackages [CLEMENTDNA]: Remove: archive file [/home/abi/fetcher/tmp/CLEMENTDNA-1.0.2.tar.gz]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [CLEMENTDNA]: Remove: archive file [/home/abi/fetcher/tmp/CLEMENTDNA-1.0.4.tar.gz]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [CLEMENTDNA]: Start processing: odoo14-addon-shopinvader
+[2023-06-14 10:41:41] INFO root fetch - main [MainThread]: End processing [CLEMENTDNA]: success
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo14-addon-shopinvader]: New version: [14.0.5.9.3] Old Version: [14.0.5.9.2]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [invenio-accounts]: Remove: archive file [/home/abi/fetcher/tmp/invenio-accounts-3.0.0.tar.gz]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [invenio-accounts]: Remove: archive file [/home/abi/fetcher/tmp/invenio-accounts-3.0.1.tar.gz]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [invenio-accounts]: Start processing: flexy
+[2023-06-14 10:41:41] INFO root fetch - main [MainThread]: End processing [invenio-accounts]: success
+[2023-06-14 10:41:41] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2023-06-14 10:41:41] INFO root fetch - processPackages [flexy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_companyweb_base-16.0.1.0.6-py3-none-any.whl.zip]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_companyweb_base-16.0.1.0.7-py3-none-any.whl.zip]
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Start processing: tff-nightly
+[2023-06-14 10:41:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-companyweb-base]: success
+[2023-06-14 10:41:41] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/fc/88/cf6d2f2234b3394b5b33b91c62bb37e33767edf2a7b37fd6bf65b6e91155/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl
+[2023-06-14 10:41:41] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230613] Old Version: [0.0.1.dev20230612]
+[2023-06-14 10:41:42] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2023-06-14 10:41:42] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/0f/81/a5eabd2a4be166ed4faa62d21d8b585940c4d3a549266631d0eb1a2e55bb/tff_nightly-0.0.1.dev20230612-py2.py3-none-any.whl
+[2023-06-14 10:41:42] INFO root fetch - processPackages [flexy]: Downloading https://files.pythonhosted.org/packages/10/0c/14753e19e12a1b47f56b069be6a45cf1956f12a01a65c0951c95ae3bf708/flexy-0.1.0-py3-none-any.whl
+[2023-06-14 10:41:42] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_companyweb_base-13.0.1.1.3-py3-none-any.whl.zip]
+[2023-06-14 10:41:42] INFO root fetch - processPackages [odoo13-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_companyweb_base-13.0.1.1.4-py3-none-any.whl.zip]
+[2023-06-14 10:41:42] INFO root fetch - main [MainThread]: End processing [odoo13-addon-companyweb-base]: success
+[2023-06-14 10:41:42] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2023-06-14 10:41:42] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20230614/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2023-06-14 10:41:42] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ac/76/755d59067e601a33698b94d62000ddc9b5e86fe7642c9e2bc9771be38b1e/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl
+[2023-06-14 10:41:42] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2023-06-14 10:41:42] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20230614/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:41:42] INFO root fetch - processPackages [flexy]: Downloading https://files.pythonhosted.org/packages/5e/97/a634ce6762a565e1b38060aafc5d2802a03ffe90ca760f0b966af7b3043b/flexy-0.1.1-py3-none-any.whl
+[2023-06-14 10:41:42] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-14 10:41:42] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230612-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl.zip --markdown 20230614/t/tff-nightly/0.0.1.dev20230612-0.0.1.dev20230613/diff.md --exclude *.pyd
+[2023-06-14 10:41:42] INFO root fetch - processPackages [flexy]: executing diffoscope
+[2023-06-14 10:41:42] INFO root fetch - processPackages [flexy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexy-0.1.0-py3-none-any.whl.zip tmp/flexy-0.1.1-py3-none-any.whl.zip --markdown 20230614/f/flexy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 10:41:42] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/0a/65/c2cbe26eff67bfb3b4fc527b907178f89a6e2dd6f2cd1b88632e2d76e20f/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl
+[2023-06-14 10:41:42] INFO root fetch - processPackages [odoo14-addon-shopinvader]: executing diffoscope
+[2023-06-14 10:41:42] INFO root fetch - processPackages [odoo14-addon-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-shopinvader/14.0.5.9.2-14.0.5.9.3/diff.md --exclude *.pyd
+[2023-06-14 10:41:43] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.8.tar.gz]
+[2023-06-14 10:41:43] INFO root fetch - processPackages [MMEdu]: Remove: archive file [/home/abi/fetcher/tmp/MMEdu-0.1.9.tar.gz]
+[2023-06-14 10:41:43] INFO root fetch - main [MainThread]: End processing [MMEdu]: success
+[2023-06-14 10:41:43] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.4.tar.gz]
+[2023-06-14 10:41:43] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.5.tar.gz]
+[2023-06-14 10:41:43] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-14 10:41:43] INFO root fetch - processPackages [flexy]: Remove: archive file [/home/abi/fetcher/tmp/flexy-0.1.0-py3-none-any.whl.zip]
+[2023-06-14 10:41:43] INFO root fetch - processPackages [flexy]: Remove: archive file [/home/abi/fetcher/tmp/flexy-0.1.1-py3-none-any.whl.zip]
+[2023-06-14 10:41:43] INFO root fetch - main [MainThread]: End processing [flexy]: success
+[2023-06-14 10:41:43] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_companyweb_base-14.0.1.1.3-py3-none-any.whl.zip]
+[2023-06-14 10:41:43] INFO root fetch - processPackages [odoo14-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_companyweb_base-14.0.1.1.4-py3-none-any.whl.zip]
+[2023-06-14 10:41:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-companyweb-base]: success
+[2023-06-14 10:41:45] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip]
+[2023-06-14 10:41:45] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip]
+[2023-06-14 10:41:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader]: success
+[2023-06-14 10:41:45] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230612-py2.py3-none-any.whl.zip]
+[2023-06-14 10:41:45] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230613-py2.py3-none-any.whl.zip]
+[2023-06-14 10:41:45] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-14 10:41:45] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2023-06-14 10:41:45] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2023-06-14 10:41:45] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2023-06-14 10:41:47] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.8.6.tar.gz]
+[2023-06-14 10:41:47] INFO root fetch - processPackages [qoqo-qryd]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qryd-0.8.7.tar.gz]
+[2023-06-14 10:41:47] INFO root fetch - main [MainThread]: End processing [qoqo-qryd]: success
+[2023-06-14 10:41:56] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.8.3.tar.gz]
+[2023-06-14 10:41:56] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
+[2023-06-14 10:41:56] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2023-06-14 10:41:56] INFO root fetch - main [MainThread]: Store serial: [18498462]
