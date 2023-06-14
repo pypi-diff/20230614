@@ -9842,3 +9842,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:14:47] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-1.46.tar.gz]
 [2023-06-14 04:14:47] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
 [2023-06-14 04:14:47] INFO root fetch - main [MainThread]: Store serial: [18495229]
+[2023-06-14 04:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495229]
+[2023-06-14 04:19:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-14 04:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneview
+[2023-06-14 04:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meteva-base
+[2023-06-14 04:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2023-06-14 04:19:57] INFO root fetch - processPackages [meteva-base]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 04:19:57] INFO root fetch - processPackages [geneview]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-14 04:19:57] INFO root fetch - processPackages [duckdb]: New version: [0.8.1.dev480] Old Version: [0.8.1.dev477]
+[2023-06-14 04:19:57] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/73/81/955b67370106c89b5ec4f0e45582719a5dbd642b26d958bfca9a2150ae01/meteva_base-0.1.0-py3-none-any.whl
+[2023-06-14 04:19:57] INFO root fetch - processPackages [geneview]: Downloading https://files.pythonhosted.org/packages/a0/35/cdb442d35d5b05f936bd03898ea0313350b5bb1015411e3cf060a7a26a8c/geneview-0.1.3.tar.gz
+[2023-06-14 04:19:57] INFO root fetch - processPackages [duckdb]: executing diffoscope
+[2023-06-14 04:19:57] INFO root fetch - processPackages [duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckdb-0.8.1.dev477.tar.gz tmp/duckdb-0.8.1.dev480.tar.gz --markdown 20230614/d/duckdb/0.8.1.dev477-0.8.1.dev480/diff.md --exclude *.pyd
+[2023-06-14 04:19:57] INFO root fetch - processPackages [geneview]: Downloading https://files.pythonhosted.org/packages/78/e8/135e070e6fad334f40df55071002f128ee776c78c3f5d3b7c31c14b201e5/geneview-0.2.0.tar.gz
+[2023-06-14 04:19:57] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/a0/c9/5bf0161ba99b95793ee44755365f77e5ac17cddec1d337dc9b8e994273b4/meteva_base-0.1.1-py3-none-any.whl
+[2023-06-14 04:19:58] INFO root fetch - processPackages [geneview]: executing diffoscope
+[2023-06-14 04:19:58] INFO root fetch - processPackages [geneview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneview-0.1.3.tar.gz tmp/geneview-0.2.0.tar.gz --markdown 20230614/g/geneview/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 04:19:58] INFO root fetch - processPackages [meteva-base]: executing diffoscope
+[2023-06-14 04:19:58] INFO root fetch - processPackages [meteva-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva_base-0.1.0-py3-none-any.whl.zip tmp/meteva_base-0.1.1-py3-none-any.whl.zip --markdown 20230614/m/meteva-base/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 04:19:59] INFO root fetch - processPackages [geneview]: Remove: archive file [/home/abi/fetcher/tmp/geneview-0.1.3.tar.gz]
+[2023-06-14 04:19:59] INFO root fetch - processPackages [geneview]: Remove: archive file [/home/abi/fetcher/tmp/geneview-0.2.0.tar.gz]
+[2023-06-14 04:19:59] INFO root fetch - main [MainThread]: End processing [geneview]: success
+[2023-06-14 04:19:59] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.0-py3-none-any.whl.zip]
+[2023-06-14 04:19:59] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.1-py3-none-any.whl.zip]
+[2023-06-14 04:19:59] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
+[2023-06-14 04:22:20] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev477.tar.gz]
+[2023-06-14 04:22:20] INFO root fetch - processPackages [duckdb]: Remove: archive file [/home/abi/fetcher/tmp/duckdb-0.8.1.dev480.tar.gz]
+[2023-06-14 04:22:20] INFO root fetch - main [MainThread]: End processing [duckdb]: success
+[2023-06-14 04:22:20] INFO root fetch - main [MainThread]: Store serial: [18495235]
