@@ -21706,3 +21706,209 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:17:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-14 13:17:15] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-14 13:17:15] INFO root fetch - main [MainThread]: Store serial: [18500242]
+[2023-06-14 13:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500242]
+[2023-06-14 13:22:24] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-14 13:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spcache
+[2023-06-14 13:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cstore
+[2023-06-14 13:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pginter
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lollms
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eotdl
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4-openai-api
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akerbp.mlops
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bkapi-plugins-py
+[2023-06-14 13:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-14 13:22:25] INFO root fetch - processPackages [cstore]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [eotdl]: New version: [2023.6.14.post6] Old Version: [2023.6.14.post5]
+[2023-06-14 13:22:25] WARNING root fetch - processPackages [spcache]: Skipping, unable to determine old version
+[2023-06-14 13:22:25] INFO root fetch - processPackages [spcache]: Start processing: leanit-mweb
+[2023-06-14 13:22:25] INFO root fetch - processPackages [gpt4-openai-api]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-14 13:22:25] INFO root fetch - main [MainThread]: End processing [spcache] error
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pginter]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.6139] Old Version: [0.61312]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [lollms]: New version: [1.1.9] Old Version: [1.1.75]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.0a3] Old Version: [3.2.0a2]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/b1/e0/430c184831bd7a273dfdc2b0297609fd00d436f7b5596e00899fd5cfdd8f/eotdl-2023.6.14.post5.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/f7/6b/670bc687ddcbeeee2fb36c70d16822c68aaf3c4f063ebd32c989a2b95375/bkapi-plugins-py-0.61312.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pginter]: Downloading https://files.pythonhosted.org/packages/d0/18/7e5185b11e822dee38b77f74ed1a776f640f63c9de6e45fce753fd54266c/pginter-0.2.6.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/e3/d0/8c5e3921ce223331411d07702b5a482ff39b4312be82341c518fe3649360/leanit-mweb-23.6.8.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/57/ed/8d8bbcf8fc1d7ce204aa722d9156c6a73a0bacc19aadd05a3ea99336a6ce/akerbp.mlops-3.2.0a2.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/3b/90/c19100bec2fc7c821261a12d5fae28df9b9573c1f3a92f65902777c9f125/cstore-0.3.0.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [gpt4-openai-api]: Downloading https://files.pythonhosted.org/packages/0a/b8/4b364b19812865c7073cb35ce5ccc9e0d2f519b1a45a253bd4ca21ab7dc2/gpt4-openai-api-0.4.0.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/cf/18/90e448a024c4326e75e08510e51a6b82a77653744ebe9300afa9e50d4117/bkapi-plugins-py-0.6139.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/05/ed/f4a6cfeb824cba520facd50204ee9ae0608f6b0f115f51dd46aced3d78b5/lollms-1.1.75.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pginter]: Downloading https://files.pythonhosted.org/packages/88/2f/9becc25db24856e4dda84566703c2c3b2087e6e4d0fe1c154ff8c52aa9b8/pginter-0.2.7.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-14 13:22:25] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 28394576>=10485760
+[2023-06-14 13:22:25] INFO root fetch - processPackages [lollms]: Start processing: quao
+[2023-06-14 13:22:25] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-14 13:22:25] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [quao]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230614/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [eotdl]: Downloading https://files.pythonhosted.org/packages/50/ce/dab518e1e8db52231f247feb9b0b835931d987d56831acd9ccdad80067e3/eotdl-2023.6.14.post6.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pginter]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [pginter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pginter-0.2.6.tar.gz tmp/pginter-0.2.7.tar.gz --markdown 20230614/p/pginter/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/7c/84/068b3ff986521ea1f0ff9998926abfd3fe6534d9b5e3ec494d2d35c321c8/akerbp.mlops-3.2.0a3.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/45/2a/5959454be163720646f8e336356286d7e74ec6a18348703cb88542208048/quao-0.2.1.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.8.tar.gz tmp/leanit-mweb-23.6.9.tar.gz --markdown 20230614/l/leanit-mweb/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [eotdl]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [eotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-2023.6.14.post5.tar.gz tmp/eotdl-2023.6.14.post6.tar.gz --markdown 20230614/e/eotdl/2023.6.14.post5-2023.6.14.post6/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230614/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [cstore]: Downloading https://files.pythonhosted.org/packages/20/e4/d1bfed9256b5e4ad1ec5df30f3194e06694f06abedd1ebb480917663e2cf/cstore-0.3.1.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/48/f3/38c45c6ebc117aca5493088d673c64c642ade71eabef6f51551fc587ccc9/quao-0.2.2.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.0a2.tar.gz tmp/akerbp.mlops-3.2.0a3.tar.gz --markdown 20230614/a/akerbp.mlops/3.2.0a2-3.2.0a3/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [cstore]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [cstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstore-0.3.0.tar.gz tmp/cstore-0.3.1.tar.gz --markdown 20230614/c/cstore/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [gpt4-openai-api]: Downloading https://files.pythonhosted.org/packages/ef/b6/d5a792a3790579b7e66b1ded7dcd69734e5025db176f8c1da97200adf147/gpt4-openai-api-0.5.0.tar.gz
+[2023-06-14 13:22:25] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.1.tar.gz tmp/quao-0.2.2.tar.gz --markdown 20230614/q/quao/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-14 13:22:25] INFO root fetch - processPackages [gpt4-openai-api]: executing diffoscope
+[2023-06-14 13:22:25] INFO root fetch - processPackages [gpt4-openai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-openai-api-0.4.0.tar.gz tmp/gpt4-openai-api-0.5.0.tar.gz --markdown 20230614/g/gpt4-openai-api/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 13:22:26] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-06-14 13:22:26] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.61312.tar.gz tmp/bkapi-plugins-py-0.6139.tar.gz --markdown 20230614/b/bkapi-plugins-py/0.61312-0.6139/diff.md --exclude *.pyd
+[2023-06-14 13:22:27] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.8.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [leanit-mweb]: Start processing: mcai-worker-sdk
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [mcai-worker-sdk]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.3.0.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cstore]: Remove: archive file [/home/abi/fetcher/tmp/cstore-0.3.1.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cstore]: Start processing: spatial-moto
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [cstore]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [bridgecrew]: Start processing: scinumtools
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [spatial-moto]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [scinumtools]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [mcai-worker-sdk]: Downloading https://files.pythonhosted.org/packages/40/34/d1fa382d18a93b94f7d69b726ba13e79396f29cd0665f622278c6999ac81/mcai_worker_sdk-2.0.0rc8.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/d7/0b/b60443567ee5ddcebb56e81ddca29dba09c16b07d1e76621ceb9ae81d326/scinumtools-1.1.0.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: dataporter
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.1.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.2.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [quao]: Start processing: cloudpss
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [scinumtools]: Downloading https://files.pythonhosted.org/packages/f4/40/ba9aaa3f319ec4ce52fd4e5e3989e174c3a9ccfdcb4d8e28e193f6ebfd62/scinumtools-1.1.1.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [spatial-moto]: Downloading https://files.pythonhosted.org/packages/c4/a6/33d1cf8c5dbf4a7d51ef87105755b98d94eec3954a9259d9e0179ca500c5/spatial-moto-0.0.1.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2023.6.14.post5.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [eotdl]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-2023.6.14.post6.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [eotdl]: Start processing: molgraph
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [eotdl]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cloudpss]: New version: [3.5.0a1] Old Version: [3.2.0a2]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [scinumtools]: executing diffoscope
+[2023-06-14 13:22:27] INFO root fetch - processPackages [scinumtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scinumtools-1.1.0.tar.gz tmp/scinumtools-1.1.1.tar.gz --markdown 20230614/s/scinumtools/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [gpt4-openai-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-openai-api-0.4.0.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [gpt4-openai-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-openai-api-0.5.0.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [gpt4-openai-api]: Start processing: UComp
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [gpt4-openai-api]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [UComp]: New version: [1.0.56] Old Version: [1.0.55]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [dataporter]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [pginter]: Remove: archive file [/home/abi/fetcher/tmp/pginter-0.2.6.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [pginter]: Remove: archive file [/home/abi/fetcher/tmp/pginter-0.2.7.tar.gz]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [pginter]: Start processing: moosez
+[2023-06-14 13:22:27] INFO root fetch - main [MainThread]: End processing [pginter]: success
+[2023-06-14 13:22:27] INFO root fetch - processPackages [molgraph]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/10/2e/1801fc97dc3ea8d73119533d91bb85f40493cab7f6d35ed6fd7ae3389676/UComp-1.0.55.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [spatial-moto]: Downloading https://files.pythonhosted.org/packages/97/1e/0545374c0de7d4a93e2afef4ae6e426f8d139ccdf5d537485793b50b210d/spatial-moto-0.0.2.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [moosez]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/a1/ea/b982eca2d4f934e979415733a5cd17bfc1de57683a844475fac1be584921/cloudpss-3.5.0a1.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/0d/b7/818695e74dccececfb9313aa43f22b195afbc0f725e343ae9b7cab314061/moosez-2.0.8.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [dataporter]: Downloading https://files.pythonhosted.org/packages/ab/1e/c672e6ded377205f123cbe328f98fd648ab2f6cf8ba5a217eae28fa9cb4e/dataporter-0.1.1.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/40/82/472343bf56788b3be370911297016f98055d90101de85ae5c2653fb38c10/molgraph-0.3.8.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/58/f6c7935045bffd7b5904c3b4ff8fcd45a5242aa21b0e4719d35d1bc486e8/moosez-2.0.9.tar.gz
+[2023-06-14 13:22:27] INFO root fetch - processPackages [spatial-moto]: executing diffoscope
+[2023-06-14 13:22:27] INFO root fetch - processPackages [spatial-moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial-moto-0.0.1.tar.gz tmp/spatial-moto-0.0.2.tar.gz --markdown 20230614/s/spatial-moto/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-06-14 13:22:27] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a2.tar.gz tmp/cloudpss-3.5.0a1.tar.gz --markdown 20230614/c/cloudpss/3.2.0a2-3.5.0a1/diff.md --exclude *.pyd
+[2023-06-14 13:22:27] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/f6/ea/886d678165e72b6ff92e37020206f835d152a4f9719c980a5a9451b8ba57/UComp-1.0.56.tar.gz
+[2023-06-14 13:22:28] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-14 13:22:28] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.8.tar.gz tmp/moosez-2.0.9.tar.gz --markdown 20230614/m/moosez/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:22:28] INFO root fetch - processPackages [dataporter]: Downloading https://files.pythonhosted.org/packages/f2/44/c52bb2a1e7e174ca246ba4e765d64098ca26d63f3d7fa0228a1a8971ead3/dataporter-0.1.3.tar.gz
+[2023-06-14 13:22:28] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-14 13:22:28] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.55.tar.gz tmp/UComp-1.0.56.tar.gz --markdown 20230614/U/UComp/1.0.55-1.0.56/diff.md --exclude *.pyd
+[2023-06-14 13:22:28] INFO root fetch - processPackages [dataporter]: executing diffoscope
+[2023-06-14 13:22:28] INFO root fetch - processPackages [dataporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataporter-0.1.1.tar.gz tmp/dataporter-0.1.3.tar.gz --markdown 20230614/d/dataporter/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 13:22:28] INFO root fetch - processPackages [mcai-worker-sdk]: Downloading https://files.pythonhosted.org/packages/7d/60/e94853260b297a46fde380ad788356734c0efb8bf9ac15b23a02fd09dd14/mcai_worker_sdk-2.0.0rc9.tar.gz
+[2023-06-14 13:22:28] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/4a/06/4747764c076eca58d91362250c7d751139b430316d597348b991ecb090cc/molgraph-0.3.9.tar.gz
+[2023-06-14 13:22:28] INFO root fetch - processPackages [mcai-worker-sdk]: executing diffoscope
+[2023-06-14 13:22:28] INFO root fetch - processPackages [mcai-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcai_worker_sdk-2.0.0rc8.tar.gz tmp/mcai_worker_sdk-2.0.0rc9.tar.gz --markdown 20230614/m/mcai-worker-sdk/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-14 13:22:28] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-06-14 13:22:28] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.3.8.tar.gz tmp/molgraph-0.3.9.tar.gz --markdown 20230614/m/molgraph/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-14 13:22:28] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a2.tar.gz]
+[2023-06-14 13:22:28] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a3.tar.gz]
+[2023-06-14 13:22:28] INFO root fetch - processPackages [akerbp.mlops]: Start processing: kalm
+[2023-06-14 13:22:28] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-06-14 13:22:28] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-14 13:22:28] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-14 13:22:28] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.1.0.tar.gz]
+[2023-06-14 13:22:28] INFO root fetch - processPackages [scinumtools]: Remove: archive file [/home/abi/fetcher/tmp/scinumtools-1.1.1.tar.gz]
+[2023-06-14 13:22:28] INFO root fetch - processPackages [scinumtools]: Start processing: geopyv
+[2023-06-14 13:22:28] INFO root fetch - main [MainThread]: End processing [scinumtools]: success
+[2023-06-14 13:22:29] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-14 13:22:29] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-06-14 13:22:29] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-14 13:22:29] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230614/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-14 13:22:29] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-06-14 13:22:29] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-06-14 13:22:29] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230614/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:22:29] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.8.tar.gz]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.9.tar.gz]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [moosez]: Start processing: edx-enterprise-data
+[2023-06-14 13:22:29] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-14 13:22:29] INFO root fetch - processPackages [edx-enterprise-data]: New version: [4.6.6] Old Version: [4.6.5]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/f8/29/b57a98cc59c5fc36832a25eda1d0ebb06ee6321689cfc7865720b71231c1/edx-enterprise-data-4.6.5.tar.gz
+[2023-06-14 13:22:29] INFO root fetch - processPackages [dataporter]: Remove: archive file [/home/abi/fetcher/tmp/dataporter-0.1.1.tar.gz]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [dataporter]: Remove: archive file [/home/abi/fetcher/tmp/dataporter-0.1.3.tar.gz]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [dataporter]: Start processing: odoo14-addon-shopinvader-validation-token
+[2023-06-14 13:22:29] INFO root fetch - main [MainThread]: End processing [dataporter]: success
+[2023-06-14 13:22:29] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/b7/ba/2ccf61c93ff926be54b464674702f26c40147acd39cb2222a623cdf752bd/edx-enterprise-data-4.6.6.tar.gz
+[2023-06-14 13:22:29] WARNING root fetch - processPackages [odoo14-addon-shopinvader-validation-token]: Skipping, unable to determine old version
+[2023-06-14 13:22:29] INFO root fetch - processPackages [odoo14-addon-shopinvader-validation-token]: Start processing: tinynn-py
+[2023-06-14 13:22:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-validation-token] error
+[2023-06-14 13:22:29] INFO root fetch - processPackages [edx-enterprise-data]: executing diffoscope
+[2023-06-14 13:22:29] INFO root fetch - processPackages [edx-enterprise-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-data-4.6.5.tar.gz tmp/edx-enterprise-data-4.6.6.tar.gz --markdown 20230614/e/edx-enterprise-data/4.6.5-4.6.6/diff.md --exclude *.pyd
+[2023-06-14 13:22:29] WARNING root fetch - processPackages [tinynn-py]: Skipping, unable to determine old version
+[2023-06-14 13:22:29] INFO root fetch - main [MainThread]: End processing [tinynn-py] error
+[2023-06-14 13:22:29] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.61312.tar.gz]
+[2023-06-14 13:22:29] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.6139.tar.gz]
+[2023-06-14 13:22:29] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-06-14 13:22:30] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-14 13:22:30] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.2.0a2.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.5.0a1.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-06-14 13:22:30] INFO root fetch - processPackages [mcai-worker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mcai_worker_sdk-2.0.0rc8.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - processPackages [mcai-worker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mcai_worker_sdk-2.0.0rc9.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - main [MainThread]: End processing [mcai-worker-sdk]: success
+[2023-06-14 13:22:30] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.3.8.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.3.9.tar.gz]
+[2023-06-14 13:22:30] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-06-14 13:22:31] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.6.5.tar.gz]
+[2023-06-14 13:22:31] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.6.6.tar.gz]
+[2023-06-14 13:22:31] INFO root fetch - main [MainThread]: End processing [edx-enterprise-data]: success
+[2023-06-14 13:22:31] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.55.tar.gz]
+[2023-06-14 13:22:31] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.56.tar.gz]
+[2023-06-14 13:22:31] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-14 13:22:31] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-06-14 13:22:31] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-06-14 13:22:31] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-06-14 13:22:32] INFO root fetch - processPackages [spatial-moto]: Remove: archive file [/home/abi/fetcher/tmp/spatial-moto-0.0.1.tar.gz]
+[2023-06-14 13:22:32] INFO root fetch - processPackages [spatial-moto]: Remove: archive file [/home/abi/fetcher/tmp/spatial-moto-0.0.2.tar.gz]
+[2023-06-14 13:22:32] INFO root fetch - main [MainThread]: End processing [spatial-moto]: success
+[2023-06-14 13:22:32] INFO root fetch - main [MainThread]: Store serial: [18500344]
