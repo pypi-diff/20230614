@@ -13290,3 +13290,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:11:50] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-14 07:11:50] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-14 07:11:50] INFO root fetch - main [MainThread]: Store serial: [18496483]
+[2023-06-14 07:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496483]
+[2023-06-14 07:16:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tflite-model-maker-nightly
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-mass-editing
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uddr-client
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mass-editing
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: publish-pypi-package
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-server-ux
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-testing-platform
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-mails
+[2023-06-14 07:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iDEA-latest
+[2023-06-14 07:16:59] INFO root fetch - processPackages [odoo13-addon-mass-editing]: New version: [13.0.1.2.1.dev3] Old Version: [13.0.1.2.1.dev2]
+[2023-06-14 07:16:59] WARNING root fetch - processPackages [django-mails]: Skipping, unable to determine old version
+[2023-06-14 07:16:59] INFO root fetch - processPackages [django-mails]: Start processing: odoo14-addon-stock-picking-report-valued
+[2023-06-14 07:16:59] INFO root fetch - main [MainThread]: End processing [django-mails] error
+[2023-06-14 07:16:59] WARNING root fetch - processPackages [uddr-client]: Skipping, unable to determine old version
+[2023-06-14 07:16:59] INFO root fetch - main [MainThread]: End processing [uddr-client] error
+[2023-06-14 07:16:59] INFO root fetch - processPackages [iDEA-latest]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 07:16:59] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230613.0] Old Version: [16.0.20230517.0]
+[2023-06-14 07:16:59] INFO root fetch - processPackages [odoo-addon-mass-editing]: New version: [15.0.1.0.1.3] Old Version: [15.0.1.0.1.2]
+[2023-06-14 07:16:59] INFO root fetch - processPackages [publish-pypi-package]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-14 07:16:59] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: New version: [14.0.1.2.3.dev2] Old Version: [14.0.1.2.2]
+[2023-06-14 07:16:59] WARNING root fetch - processPackages [raga-testing-platform]: Skipping, unable to determine old version
+[2023-06-14 07:16:59] INFO root fetch - main [MainThread]: End processing [raga-testing-platform] error
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230613] Old Version: [2.14.0.dev20230612]
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306140509] Old Version: [0.4.3.dev202306130508]
+[2023-06-14 07:17:00] INFO root fetch - processPackages [publish-pypi-package]: Downloading https://files.pythonhosted.org/packages/4e/93/7e1606ab24ae5440af34503b71aeb825b73a0a17626ab08b40d56cc9c5f8/publish_pypi_package-0.0.5.tar.gz
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo13-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/2e/c0/3b899189c4214f8ff086d91370d75dcfc95dbe4dd1c44db93632c93bd3fa/odoo13_addon_mass_editing-13.0.1.2.1.dev2-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/c7/bd/a022e0dce7c3c024fddf65cefa48471a1a90e90af48c5783e318b535408c/odoo_addon_mass_editing-15.0.1.0.1.2-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [iDEA-latest]: Downloading https://files.pythonhosted.org/packages/02/5c/1c773b77a60731398d9701fb21b4dabeb9aafb1350ec817fc54df3cbacc9/iDEA-latest-1.0.1.tar.gz
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/66/63/736b225359f9ff35ae7a5908f6d48487f9d174e2d605bc8c5591263554dd/odoo14_addon_stock_picking_report_valued-14.0.1.2.2-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/9c/6c/b3dd5f0b63d8b1ede008b2c97683bccbf748289135f3a047865b784350ac/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/7d/c4/b336850bf0d544505dda7a52098ee87a48307e8e98a0d2f1909c987ceb1f/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/8d/6b/7471535e81d3806ecf71f0d583a8e61f461314437ebd65e56ee3ac9fd0e8/odoo14_addon_stock_picking_report_valued-14.0.1.2.3.dev2-py3-none-any.whl
+[2023-06-14 07:17:00] WARNING root fetch - processPackages [iDEA-latest]: Skipping package: exceeds size limit 15741289>=10485760
+[2023-06-14 07:17:00] INFO root fetch - main [MainThread]: End processing [iDEA-latest] error
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/5f/12/ac6e91139e698617b9cd11579b512ef37bead2fbdd411cfefde67ac69130/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo13-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/ac/1a/4fad9040f4287ae331eb34966b41e9ce684969b0efc118e5cda0138d4eef/odoo13_addon_mass_editing-13.0.1.2.1.dev3-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/76/d5/b7fe7896d221e20856b903021b416edfd432ac7ee01cb8152d5682882406/odoo_addon_mass_editing-15.0.1.0.1.3-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/46/d9/120f758820af75b8fb4bc3effa4175b3c9494dca8fbb9398a05e78582d41/odoo_addons_oca_server_ux-16.0.20230613.0-py3-none-any.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: executing diffoscope
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_report_valued-14.0.1.2.2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_report_valued-14.0.1.2.3.dev2-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-stock-picking-report-valued/14.0.1.2.2-14.0.1.2.3.dev2/diff.md --exclude *.pyd
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addon-mass-editing]: executing diffoscope
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addon-mass-editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mass_editing-15.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_mass_editing-15.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-mass-editing/15.0.1.0.1.2-15.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230613.0-py3-none-any.whl.zip --markdown 20230614/o/odoo-addons-oca-server-ux/16.0.20230517.0-16.0.20230613.0/diff.md --exclude *.pyd
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo13-addon-mass-editing]: executing diffoscope
+[2023-06-14 07:17:00] INFO root fetch - processPackages [odoo13-addon-mass-editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mass_editing-13.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_mass_editing-13.0.1.2.1.dev3-py3-none-any.whl.zip --markdown 20230614/o/odoo13-addon-mass-editing/13.0.1.2.1.dev2-13.0.1.2.1.dev3/diff.md --exclude *.pyd
+[2023-06-14 07:17:00] INFO root fetch - processPackages [publish-pypi-package]: Downloading https://files.pythonhosted.org/packages/1a/a4/9ee5fdd3e91bf66254c7f31abe6f85cb54de9fe70ce4ab9b241c3ca8124c/publish_pypi_package-0.1.0.tar.gz
+[2023-06-14 07:17:00] INFO root fetch - processPackages [publish-pypi-package]: executing diffoscope
+[2023-06-14 07:17:00] INFO root fetch - processPackages [publish-pypi-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publish_pypi_package-0.0.5.tar.gz tmp/publish_pypi_package-0.1.0.tar.gz --markdown 20230614/p/publish-pypi-package/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/3f/e9/ddbd941a763b633eaeefd571e21d2f069221d926aba12a33d656e2a502e5/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/13b12f35e2a0a228ce87e0571138d5db506054d25177f6d393b2196fea55/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-14 07:17:00] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz --markdown 20230614/t/tflite-model-maker-nightly/0.4.3.dev202306130508-0.4.3.dev202306140509/diff.md --exclude *.pyd
+[2023-06-14 07:17:01] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-06-14 07:17:01] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230614/t/tflite-runtime-nightly/2.14.0.dev20230612-2.14.0.dev20230613/diff.md --exclude *.pyd
+[2023-06-14 07:17:01] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230517.0-py3-none-any.whl.zip]
+[2023-06-14 07:17:01] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-14 07:17:01] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-06-14 07:17:01] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_report_valued-14.0.1.2.2-py3-none-any.whl.zip]
+[2023-06-14 07:17:01] INFO root fetch - processPackages [odoo14-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_report_valued-14.0.1.2.3.dev2-py3-none-any.whl.zip]
+[2023-06-14 07:17:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-report-valued]: success
+[2023-06-14 07:17:01] INFO root fetch - processPackages [publish-pypi-package]: Remove: archive file [/home/abi/fetcher/tmp/publish_pypi_package-0.0.5.tar.gz]
+[2023-06-14 07:17:01] INFO root fetch - processPackages [publish-pypi-package]: Remove: archive file [/home/abi/fetcher/tmp/publish_pypi_package-0.1.0.tar.gz]
+[2023-06-14 07:17:01] INFO root fetch - main [MainThread]: End processing [publish-pypi-package]: success
+[2023-06-14 07:17:02] INFO root fetch - processPackages [odoo-addon-mass-editing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_editing-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-06-14 07:17:02] INFO root fetch - processPackages [odoo-addon-mass-editing]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_editing-15.0.1.0.1.3-py3-none-any.whl.zip]
+[2023-06-14 07:17:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-mass-editing]: success
+[2023-06-14 07:17:02] INFO root fetch - processPackages [odoo13-addon-mass-editing]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mass_editing-13.0.1.2.1.dev2-py3-none-any.whl.zip]
+[2023-06-14 07:17:02] INFO root fetch - processPackages [odoo13-addon-mass-editing]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mass_editing-13.0.1.2.1.dev3-py3-none-any.whl.zip]
+[2023-06-14 07:17:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mass-editing]: success
+[2023-06-14 07:17:03] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306130508.tar.gz]
+[2023-06-14 07:17:03] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306140509.tar.gz]
+[2023-06-14 07:17:03] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-14 07:17:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230612-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-14 07:17:32] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.14.0.dev20230613-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-14 07:17:32] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-06-14 07:17:32] INFO root fetch - main [MainThread]: Store serial: [18496528]
