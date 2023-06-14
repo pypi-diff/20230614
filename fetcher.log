@@ -11965,3 +11965,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:06:10] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
 [2023-06-14 06:06:10] INFO root fetch - main [MainThread]: End processing [netron] error
 [2023-06-14 06:06:10] INFO root fetch - main [MainThread]: Store serial: [18495937]
+[2023-06-14 06:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495937]
+[2023-06-14 06:11:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcorelib
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sftpoeb
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metacountregressor
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plateNumOCR
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coresets
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kevin-toolbox
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kevin-toolbox-dev
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sinyi-datateam-utils
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mock-data-generator
+[2023-06-14 06:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qsm-forward
+[2023-06-14 06:11:19] INFO root fetch - processPackages [vcorelib]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [sftpoeb]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 06:11:19] WARNING root fetch - processPackages [plateNumOCR]: Skipping, unable to determine old version
+[2023-06-14 06:11:19] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [plateNumOCR]: Start processing: dsm-django-masterdata
+[2023-06-14 06:11:19] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [qsm-forward]: New version: [0.2.post3] Old Version: [0.2.post2]
+[2023-06-14 06:11:19] INFO root fetch - main [MainThread]: End processing [plateNumOCR] error
+[2023-06-14 06:11:19] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [sinyi-datateam-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [dsm-django-masterdata]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/49/7a/d1eeacf7890cd6418bf252ea866ef640b229f218ac88259c99a058d968ee/dsm_django_masterdata-0.0.4.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [sinyi-datateam-utils]: Downloading https://files.pythonhosted.org/packages/4a/c3/37fa0408f1a9a10bcfd72cfb5bc4017aacc76b3dc06fe1a9a2821f400ed4/sinyi_datateam_utils-0.1.8.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [coresets]: New version: [0.1.1a1] Old Version: [0.1.0]
+[2023-06-14 06:11:19] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/8b/2e/044c6fd21ce2abeaa73bf28580dee95d1576e9ef45d12e8fef92a32a2902/qsm_forward-0.2.post2.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/78/23/2334620d6a8c356a34e0e8c57abf7acae9fb37bf70bf50fca5afaf92819f/sftpoeb-0.0.7.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 06:11:19] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/a2/96/368fa585bf7e858672c182754cbd3d521254316535ef21ccf587dba456be/mock_data_generator-1.2.8.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/3d/3e/5efde0cc79d319bda39df7516b2ef0f3ab4c7d6df57383a27b51da2c6150/kevin-toolbox-dev-1.0.8.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/e9/44/1a07d46d277322e7183387188d6581b10fd861d7083bae0f18cce2baed9d/kevin-toolbox-1.0.8.tar.gz
+[2023-06-14 06:11:19] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 06:11:19] INFO root fetch - processPackages [metacountregressor]: Start processing: quickmpc
+[2023-06-14 06:11:19] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 06:11:19] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/eb/a9/bb1768b9dbeb6b3dacd12a418e636e84d123a7d5e2ee211b2f66484cc20e/vcorelib-1.6.6.tar.gz
+[2023-06-14 06:11:19] INFO root fetch - processPackages [quickmpc]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 06:11:20] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/94/ea/9011b087db26f8f147b70986a06082fe64a57ac75de989d426975b6c9fb4/dsm_django_masterdata-0.0.5.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [coresets]: Downloading https://files.pythonhosted.org/packages/3a/11/910ea583904edf9b851a8819df3153ed8a81d06b9d974b9b2db80767a339/coresets-0.1.0.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [sinyi-datateam-utils]: Downloading https://files.pythonhosted.org/packages/a6/db/5959d5971350e1feb7e8024f7e2a4454575e5eeab73d4e9fb24c643dd25e/sinyi_datateam_utils-0.1.9.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/19/6c/6d0a97a16bd404ffd264429a0b6c8af2877dd1a74cc8c8c8e293f3904f11/sftpoeb-0.0.8.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/f6/dc/98970863851422a7c80d97301fec8aa98fe9feeb3d93ed5d249d9efc3dd1/quickmpc-0.4.0.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/8e/1f/2e7e04e1f65f48dbd6be481fc93503bafa35ac81f5e3b10799a56e9aa595/qsm-forward-0.2.post3.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [dsm-django-masterdata]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [dsm-django-masterdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm_django_masterdata-0.0.4.tar.gz tmp/dsm_django_masterdata-0.0.5.tar.gz --markdown 20230614/d/dsm-django-masterdata/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [sinyi-datateam-utils]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [sinyi-datateam-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinyi_datateam_utils-0.1.8.tar.gz tmp/sinyi_datateam_utils-0.1.9.tar.gz --markdown 20230614/s/sinyi-datateam-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/3b/49/5d00d2dfd86023b6552171086fbea207d789a6c4be5eca51e414a3fdc24c/mock_data_generator-1.2.9.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [coresets]: Downloading https://files.pythonhosted.org/packages/a0/ac/d23e6ed2b592f26ea4bd55cf7cebb9a82ca9c8820eac84da7b66893f6b08/coresets-0.1.1a1.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/99/70/b14b48bff8fdec96644a741cfc7cb72346cd50d21793ceb0f1e4732c383e/vcorelib-1.6.7.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm_forward-0.2.post2.tar.gz tmp/qsm-forward-0.2.post3.tar.gz --markdown 20230614/q/qsm-forward/0.2.post2-0.2.post3/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.0.7.tar.gz tmp/sftpoeb-0.0.8.tar.gz --markdown 20230614/s/sftpoeb/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.8.tar.gz tmp/kevin-toolbox-1.0.9.tar.gz --markdown 20230614/k/kevin-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/50/51/6f85ab7120f80babd9c87d198cc1f3f2afbf36a523b5db9ee86218150ffe/kevin-toolbox-dev-1.0.9.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.2.8.tar.gz tmp/mock_data_generator-1.2.9.tar.gz --markdown 20230614/m/mock-data-generator/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.8.tar.gz tmp/kevin-toolbox-dev-1.0.9.tar.gz --markdown 20230614/k/kevin-toolbox-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [coresets]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [coresets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coresets-0.1.0.tar.gz tmp/coresets-0.1.1a1.tar.gz --markdown 20230614/c/coresets/0.1.0-0.1.1a1/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.6.tar.gz tmp/vcorelib-1.6.7.tar.gz --markdown 20230614/v/vcorelib/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-06-14 06:11:20] INFO root fetch - processPackages [quickmpc]: Downloading https://files.pythonhosted.org/packages/fb/d7/cdb982de6cf37c6803074cba61a6eb20893a931d5937634947a58cc6b577/quickmpc-0.4.1.tar.gz
+[2023-06-14 06:11:20] INFO root fetch - processPackages [quickmpc]: executing diffoscope
+[2023-06-14 06:11:20] INFO root fetch - processPackages [quickmpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickmpc-0.4.0.tar.gz tmp/quickmpc-0.4.1.tar.gz --markdown 20230614/q/quickmpc/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 06:11:21] INFO root fetch - processPackages [sinyi-datateam-utils]: Remove: archive file [/home/abi/fetcher/tmp/sinyi_datateam_utils-0.1.8.tar.gz]
+[2023-06-14 06:11:21] INFO root fetch - processPackages [sinyi-datateam-utils]: Remove: archive file [/home/abi/fetcher/tmp/sinyi_datateam_utils-0.1.9.tar.gz]
+[2023-06-14 06:11:21] INFO root fetch - processPackages [sinyi-datateam-utils]: Start processing: codegenpt
+[2023-06-14 06:11:21] INFO root fetch - main [MainThread]: End processing [sinyi-datateam-utils]: success
+[2023-06-14 06:11:21] INFO root fetch - processPackages [codegenpt]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 06:11:21] INFO root fetch - processPackages [dsm-django-masterdata]: Remove: archive file [/home/abi/fetcher/tmp/dsm_django_masterdata-0.0.4.tar.gz]
+[2023-06-14 06:11:21] INFO root fetch - processPackages [dsm-django-masterdata]: Remove: archive file [/home/abi/fetcher/tmp/dsm_django_masterdata-0.0.5.tar.gz]
+[2023-06-14 06:11:21] INFO root fetch - processPackages [dsm-django-masterdata]: Start processing: purpleair-api
+[2023-06-14 06:11:21] INFO root fetch - main [MainThread]: End processing [dsm-django-masterdata]: success
+[2023-06-14 06:11:21] INFO root fetch - processPackages [purpleair-api]: New version: [1.0.2a1] Old Version: [1.0.1a2]
+[2023-06-14 06:11:21] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/ac/89/a34194006983510cfe71909edb6588d2e799d7fb42d2ada867616c5f564d/codegenpt-0.4.0.tar.gz
+[2023-06-14 06:11:22] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.8.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.9.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm_forward-0.2.post2.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.2.post3.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [purpleair-api]: Downloading https://files.pythonhosted.org/packages/76/ea/c8351b0a5b243dec2ff99da6cf411b8c2ecbaaeb0aa000c9cae9dfc9a4d4/purpleair_api-1.0.1a2.tar.gz
+[2023-06-14 06:11:22] INFO root fetch - processPackages [codegenpt]: Downloading https://files.pythonhosted.org/packages/c3/b0/290f7c0c8476390be71ad449ef9a330f6380e210e04915b23403b5379603/codegenpt-0.4.1.tar.gz
+[2023-06-14 06:11:22] INFO root fetch - processPackages [coresets]: Remove: archive file [/home/abi/fetcher/tmp/coresets-0.1.0.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [coresets]: Remove: archive file [/home/abi/fetcher/tmp/coresets-0.1.1a1.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [coresets]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.6.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.7.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [codegenpt]: executing diffoscope
+[2023-06-14 06:11:22] INFO root fetch - processPackages [codegenpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codegenpt-0.4.0.tar.gz tmp/codegenpt-0.4.1.tar.gz --markdown 20230614/c/codegenpt/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 06:11:22] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.4.0.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [quickmpc]: Remove: archive file [/home/abi/fetcher/tmp/quickmpc-0.4.1.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [quickmpc]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [purpleair-api]: Downloading https://files.pythonhosted.org/packages/bc/92/e5a431ef87f5d2327c04aeefb81fafd1c671a6c641606bb5fa74eef26112/purpleair_api-1.0.2a1.tar.gz
+[2023-06-14 06:11:22] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.7.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.8.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [purpleair-api]: executing diffoscope
+[2023-06-14 06:11:22] INFO root fetch - processPackages [purpleair-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purpleair_api-1.0.1a2.tar.gz tmp/purpleair_api-1.0.2a1.tar.gz --markdown 20230614/p/purpleair-api/1.0.1a2-1.0.2a1/diff.md --exclude *.pyd
+[2023-06-14 06:11:22] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.8.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.9.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-14 06:11:22] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.8.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.9.tar.gz]
+[2023-06-14 06:11:22] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-14 06:11:23] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.4.0.tar.gz]
+[2023-06-14 06:11:23] INFO root fetch - processPackages [codegenpt]: Remove: archive file [/home/abi/fetcher/tmp/codegenpt-0.4.1.tar.gz]
+[2023-06-14 06:11:23] INFO root fetch - main [MainThread]: End processing [codegenpt]: success
+[2023-06-14 06:11:23] INFO root fetch - processPackages [purpleair-api]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_api-1.0.1a2.tar.gz]
+[2023-06-14 06:11:23] INFO root fetch - processPackages [purpleair-api]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_api-1.0.2a1.tar.gz]
+[2023-06-14 06:11:23] INFO root fetch - main [MainThread]: End processing [purpleair-api]: success
+[2023-06-14 06:11:23] INFO root fetch - main [MainThread]: Store serial: [18495977]
