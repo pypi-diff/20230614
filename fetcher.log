@@ -1961,3 +1961,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 01:55:54] INFO root fetch - processPackages [honeybee-doe2]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-doe2-0.6.1.tar.gz]
 [2023-06-14 01:55:54] INFO root fetch - main [MainThread]: End processing [honeybee-doe2]: success
 [2023-06-14 01:55:54] INFO root fetch - main [MainThread]: Store serial: [18492408]
+[2023-06-14 02:00:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18492408]
+[2023-06-14 02:01:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-14 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tti-dataset-tools
+[2023-06-14 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msticpy
+[2023-06-14 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: egcst
+[2023-06-14 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-14 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-fabric
+[2023-06-14 02:01:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: segment-lidar
+[2023-06-14 02:01:03] INFO root fetch - processPackages [dbt-fabric]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-06-14 02:01:03] INFO root fetch - processPackages [tti-dataset-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-14 02:01:03] INFO root fetch - processPackages [msticpy]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-14 02:01:03] INFO root fetch - processPackages [yplib]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 02:01:03] WARNING root fetch - processPackages [egcst]: Skipping, unable to determine old version
+[2023-06-14 02:01:03] INFO root fetch - main [MainThread]: End processing [egcst] error
+[2023-06-14 02:01:03] INFO root fetch - processPackages [segment-lidar]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 02:01:03] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/fa/04/4493a7599b80a004844d34fdbe1fc0f94d8d0174b37f359dff71d3943208/yplib-1.0.4.tar.gz
+[2023-06-14 02:01:03] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/74/f3/328bb4927eb9fdf0cd9370998dac738d8515be378aab72dace27f1a6acbc/dbt-fabric-1.4.0rc1.tar.gz
+[2023-06-14 02:01:03] INFO root fetch - processPackages [tti-dataset-tools]: Downloading https://files.pythonhosted.org/packages/0b/5d/4394b82e524bfb5be07aa6e2bc959e8d32c9d2891183b1f2dba2e931fad1/tti_dataset_tools-0.1.5.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [msticpy]: Downloading https://files.pythonhosted.org/packages/87/2b/0633c4bdec4a9464fbcbddba029867f9add0627f70ece979023fd6c25715/msticpy-2.5.1.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [segment-lidar]: Downloading https://files.pythonhosted.org/packages/2e/99/ec7777fb40a3bf2dd376f29263d942a785d9349728ccaac80dcf120491a5/segment-lidar-0.1.4.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/bc/92/a5db2070852312a790689c4ad1dfa659a4c0df8e3bc711bff491a322ed5d/yplib-1.0.5.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [tti-dataset-tools]: Downloading https://files.pythonhosted.org/packages/66/25/b6a0b08f6d9a54e2a5dc8d8c57ad0487b72db7011636dce0399513f425fd/tti_dataset_tools-0.1.6.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 02:01:04] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.0.4.tar.gz tmp/yplib-1.0.5.tar.gz --markdown 20230614/y/yplib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 02:01:04] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/90/04/8ca9053eeef49ceac337e2a78f1e3c1023dd55a733811f8bfbad5f2fab44/dbt-fabric-1.4.0rc2.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [segment-lidar]: Downloading https://files.pythonhosted.org/packages/b2/40/d776052527be623d863fbae8fe4b7f9782856d211e374076ff9ca235aace/segment-lidar-0.1.5.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [tti-dataset-tools]: executing diffoscope
+[2023-06-14 02:01:04] INFO root fetch - processPackages [tti-dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tti_dataset_tools-0.1.5.tar.gz tmp/tti_dataset_tools-0.1.6.tar.gz --markdown 20230614/t/tti-dataset-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-14 02:01:04] INFO root fetch - processPackages [msticpy]: Downloading https://files.pythonhosted.org/packages/c1/84/f1c3d7a8eb75f65723e885f694f86881475cba8af67d31b082405519ee84/msticpy-2.5.2.tar.gz
+[2023-06-14 02:01:04] INFO root fetch - processPackages [dbt-fabric]: executing diffoscope
+[2023-06-14 02:01:04] INFO root fetch - processPackages [dbt-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fabric-1.4.0rc1.tar.gz tmp/dbt-fabric-1.4.0rc2.tar.gz --markdown 20230614/d/dbt-fabric/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-06-14 02:01:04] INFO root fetch - processPackages [segment-lidar]: executing diffoscope
+[2023-06-14 02:01:04] INFO root fetch - processPackages [segment-lidar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-lidar-0.1.4.tar.gz tmp/segment-lidar-0.1.5.tar.gz --markdown 20230614/s/segment-lidar/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 02:01:04] INFO root fetch - processPackages [msticpy]: executing diffoscope
+[2023-06-14 02:01:04] INFO root fetch - processPackages [msticpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msticpy-2.5.1.tar.gz tmp/msticpy-2.5.2.tar.gz --markdown 20230614/m/msticpy/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-14 02:01:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.4.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.0.5.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 02:01:05] INFO root fetch - processPackages [tti-dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/tti_dataset_tools-0.1.5.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - processPackages [tti-dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/tti_dataset_tools-0.1.6.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - main [MainThread]: End processing [tti-dataset-tools]: success
+[2023-06-14 02:01:05] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.4.0rc1.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.4.0rc2.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
+[2023-06-14 02:01:05] INFO root fetch - processPackages [segment-lidar]: Remove: archive file [/home/abi/fetcher/tmp/segment-lidar-0.1.4.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - processPackages [segment-lidar]: Remove: archive file [/home/abi/fetcher/tmp/segment-lidar-0.1.5.tar.gz]
+[2023-06-14 02:01:05] INFO root fetch - main [MainThread]: End processing [segment-lidar]: success
+[2023-06-14 02:01:08] INFO root fetch - processPackages [msticpy]: Remove: archive file [/home/abi/fetcher/tmp/msticpy-2.5.1.tar.gz]
+[2023-06-14 02:01:08] INFO root fetch - processPackages [msticpy]: Remove: archive file [/home/abi/fetcher/tmp/msticpy-2.5.2.tar.gz]
+[2023-06-14 02:01:08] INFO root fetch - main [MainThread]: End processing [msticpy]: success
+[2023-06-14 02:01:08] INFO root fetch - main [MainThread]: Store serial: [18492429]
