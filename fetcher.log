@@ -13454,3 +13454,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:22:51] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc6.tar.gz]
 [2023-06-14 07:22:51] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
 [2023-06-14 07:22:51] INFO root fetch - main [MainThread]: Store serial: [18496555]
+[2023-06-14 07:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496555]
+[2023-06-14 07:28:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visualpython
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-visualpython
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxrisk
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oceanum
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchainplus-sdk
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hardyweinbergcalculator
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyncm
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-storage-thumbnail
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-storage-image
+[2023-06-14 07:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-storage-media
+[2023-06-14 07:28:00] INFO root fetch - processPackages [oceanum]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [cvxrisk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [langchainplus-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [visualpython]: New version: [2.4.0] Old Version: [2.3.7]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [odoo14-addon-storage-media]: New version: [14.0.2.1.1.dev3] Old Version: [14.0.2.1.1.dev2]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.2.9.post20230614] Old Version: [0.2.8.post20230614]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [pyncm]: New version: [1.6.9.0.1] Old Version: [1.6.9.0]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [odoo14-addon-storage-image]: New version: [14.0.2.2.1.dev4] Old Version: [14.0.2.2.1.dev3]
+[2023-06-14 07:28:00] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: New version: [14.0.2.3.1.dev2] Old Version: [14.0.2.3.1.dev1]
+[2023-06-14 07:28:01] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d9/f20238f309f445804a2d8b80479a26742147ede052f9f6b7a53fe4b32708/langchainplus_sdk-0.0.8.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/3a/5f/2d33e5e2c08c828c6143189269ac8a587f3c5c23c7179e1a35680b5f1118/hardyweinbergcalculator-0.2.8.post20230614.zip
+[2023-06-14 07:28:01] INFO root fetch - processPackages [langchainplus-sdk]: Downloading https://files.pythonhosted.org/packages/22/e0/dbb31ff65e1238644481d23f897747af9443b9061fde6cbfa1f2928d7695/langchainplus_sdk-0.0.9.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/4a/6d/ec1703f1233b42d721ab3a8435f42746e8fe84f89aa722cc8cdcbf17c4cb/oceanum-0.7.7.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-media]: Downloading https://files.pythonhosted.org/packages/59/04/59ebcfe2b89e1346ff79c2aba5a6ca462cf65494227669a7ab54ed272cd2/odoo14_addon_storage_media-14.0.2.1.1.dev2-py3-none-any.whl
+[2023-06-14 07:28:01] INFO root fetch - processPackages [langchainplus-sdk]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [langchainplus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchainplus_sdk-0.0.8.tar.gz tmp/langchainplus_sdk-0.0.9.tar.gz --markdown 20230614/l/langchainplus-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: Downloading https://files.pythonhosted.org/packages/bb/60/7a892293664beb94e882897f5da82d5d4153adf1232fb7e265d01179131b/odoo14_addon_storage_thumbnail-14.0.2.3.1.dev1-py3-none-any.whl
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-image]: Downloading https://files.pythonhosted.org/packages/c5/18/5245dd702e59482c25663a98e86080f73b6d9a1aa486039105569ea5f178/odoo14_addon_storage_image-14.0.2.2.1.dev3-py3-none-any.whl
+[2023-06-14 07:28:01] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/ed/1c/fec034eb8f1e0a33f2afa93edec9559307aefc7bf7fc544e011ff1b2d410/jupyterlab_visualpython-2.3.7.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [pyncm]: Downloading https://files.pythonhosted.org/packages/96/aa/c2e7ad270e70fbbad1608f2e9d8ae1e501d8bd9b89c456d1cc575945e873/pyncm-1.6.9.0.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [cvxrisk]: Downloading https://files.pythonhosted.org/packages/6f/29/48115329fcc25017f2b38eeb6f14a1816df6ff57d421d0864785b7611783/cvxrisk-0.0.1.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/09/60/d25fdb7c44f53cc69a253d6589171362fd1008d3716ab506446116472b98/visualpython-2.3.7.tar.gz
+[2023-06-14 07:28:01] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 18966249>=10485760
+[2023-06-14 07:28:01] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2023-06-14 07:28:01] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/14/f9/dc99947e4f116deaed9de76ff042296ca1eab875407730a4bcda6e2aa287/hardyweinbergcalculator-0.2.9.post20230614.zip
+[2023-06-14 07:28:01] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14871574>=10485760
+[2023-06-14 07:28:01] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2023-06-14 07:28:01] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.2.8.post20230614.zip tmp/hardyweinbergcalculator-0.2.9.post20230614.zip --markdown 20230614/h/hardyweinbergcalculator/0.2.8.post20230614-0.2.9.post20230614/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [pyncm]: Downloading https://files.pythonhosted.org/packages/9d/16/3f11c381cbbb68457d3afd5db3a0dd4f07c26cdc7f415a5cb4f143025cfa/pyncm-1.6.9.0.1.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-media]: Downloading https://files.pythonhosted.org/packages/08/cf/e606aefb7616c03e148123cea384ca85954a37e47cc4ca27acd08c38fedf/odoo14_addon_storage_media-14.0.2.1.1.dev3-py3-none-any.whl
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-image]: Downloading https://files.pythonhosted.org/packages/dc/89/feb3efba366a06074c6121ed80664f96d36088abfd42f88ebbe70f108d97/odoo14_addon_storage_image-14.0.2.2.1.dev4-py3-none-any.whl
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: Downloading https://files.pythonhosted.org/packages/8b/19/00c0066c0be69277837623f8290d19c2d9254c4a3253079c983fb8d32ec2/odoo14_addon_storage_thumbnail-14.0.2.3.1.dev2-py3-none-any.whl
+[2023-06-14 07:28:01] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/fe/5d/062eb0094cfc89d589d2dce5b84709dc4ab1b01ab95bf71dbbd30e87e045/oceanum-0.7.8.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [pyncm]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [pyncm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncm-1.6.9.0.tar.gz tmp/pyncm-1.6.9.0.1.tar.gz --markdown 20230614/p/pyncm/1.6.9.0-1.6.9.0.1/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [cvxrisk]: Downloading https://files.pythonhosted.org/packages/26/83/d77bbbe359b7ffa670d5278944576a963fb96d8a662f7b15de03822d3d30/cvxrisk-0.0.2.tar.gz
+[2023-06-14 07:28:01] INFO root fetch - processPackages [cvxrisk]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [cvxrisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxrisk-0.0.1.tar.gz tmp/cvxrisk-0.0.2.tar.gz --markdown 20230614/c/cvxrisk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.7.7.tar.gz tmp/oceanum-0.7.8.tar.gz --markdown 20230614/o/oceanum/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-media]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_storage_media-14.0.2.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_storage_media-14.0.2.1.1.dev3-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-storage-media/14.0.2.1.1.dev2-14.0.2.1.1.dev3/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_storage_thumbnail-14.0.2.3.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_storage_thumbnail-14.0.2.3.1.dev2-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-storage-thumbnail/14.0.2.3.1.dev1-14.0.2.3.1.dev2/diff.md --exclude *.pyd
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-image]: executing diffoscope
+[2023-06-14 07:28:01] INFO root fetch - processPackages [odoo14-addon-storage-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_storage_image-14.0.2.2.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_storage_image-14.0.2.2.1.dev4-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-storage-image/14.0.2.2.1.dev3-14.0.2.2.1.dev4/diff.md --exclude *.pyd
+[2023-06-14 07:28:02] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.8.tar.gz]
+[2023-06-14 07:28:02] INFO root fetch - processPackages [langchainplus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langchainplus_sdk-0.0.9.tar.gz]
+[2023-06-14 07:28:02] INFO root fetch - main [MainThread]: End processing [langchainplus-sdk]: success
+[2023-06-14 07:28:02] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.8.post20230614.zip]
+[2023-06-14 07:28:02] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.9.post20230614.zip]
+[2023-06-14 07:28:02] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-14 07:28:02] INFO root fetch - processPackages [cvxrisk]: Remove: archive file [/home/abi/fetcher/tmp/cvxrisk-0.0.1.tar.gz]
+[2023-06-14 07:28:02] INFO root fetch - processPackages [cvxrisk]: Remove: archive file [/home/abi/fetcher/tmp/cvxrisk-0.0.2.tar.gz]
+[2023-06-14 07:28:02] INFO root fetch - main [MainThread]: End processing [cvxrisk]: success
+[2023-06-14 07:28:03] INFO root fetch - processPackages [odoo14-addon-storage-media]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_storage_media-14.0.2.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-14 07:28:03] INFO root fetch - processPackages [odoo14-addon-storage-media]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_storage_media-14.0.2.1.1.dev3-py3-none-any.whl.zip]
+[2023-06-14 07:28:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-storage-media]: success
+[2023-06-14 07:28:03] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_storage_thumbnail-14.0.2.3.1.dev1-py3-none-any.whl.zip]
+[2023-06-14 07:28:03] INFO root fetch - processPackages [odoo14-addon-storage-thumbnail]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_storage_thumbnail-14.0.2.3.1.dev2-py3-none-any.whl.zip]
+[2023-06-14 07:28:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-storage-thumbnail]: success
+[2023-06-14 07:28:03] INFO root fetch - processPackages [pyncm]: Remove: archive file [/home/abi/fetcher/tmp/pyncm-1.6.9.0.tar.gz]
+[2023-06-14 07:28:03] INFO root fetch - processPackages [pyncm]: Remove: archive file [/home/abi/fetcher/tmp/pyncm-1.6.9.0.1.tar.gz]
+[2023-06-14 07:28:03] INFO root fetch - main [MainThread]: End processing [pyncm]: success
+[2023-06-14 07:28:03] INFO root fetch - processPackages [odoo14-addon-storage-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_storage_image-14.0.2.2.1.dev3-py3-none-any.whl.zip]
+[2023-06-14 07:28:03] INFO root fetch - processPackages [odoo14-addon-storage-image]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_storage_image-14.0.2.2.1.dev4-py3-none-any.whl.zip]
+[2023-06-14 07:28:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-storage-image]: success
+[2023-06-14 07:28:05] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.7.tar.gz]
+[2023-06-14 07:28:05] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.8.tar.gz]
+[2023-06-14 07:28:05] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2023-06-14 07:28:05] INFO root fetch - main [MainThread]: Store serial: [18496583]
