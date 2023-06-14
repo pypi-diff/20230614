@@ -14168,3 +14168,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:05:54] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.9.tar.gz]
 [2023-06-14 08:05:54] INFO root fetch - main [MainThread]: End processing [web3client]: success
 [2023-06-14 08:05:54] INFO root fetch - main [MainThread]: Store serial: [18496802]
+[2023-06-14 08:10:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496802]
+[2023-06-14 08:11:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GraficadoraByGamba1
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cds-python-sdk
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atckit
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mobio-notify-sdk-test
+[2023-06-14 08:11:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unstructured
+[2023-06-14 08:11:03] WARNING root fetch - processPackages [GraficadoraByGamba1]: Skipping, unable to determine old version
+[2023-06-14 08:11:03] INFO root fetch - main [MainThread]: End processing [GraficadoraByGamba1] error
+[2023-06-14 08:11:03] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230613] Old Version: [2.4.0.dev20230612]
+[2023-06-14 08:11:03] INFO root fetch - processPackages [mobio-notify-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 08:11:03] INFO root fetch - processPackages [atckit]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cds-python-sdk]: New version: [0.13] Old Version: [0.11]
+[2023-06-14 08:11:03] INFO root fetch - processPackages [unstructured]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-06-14 08:11:03] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/53/f1/69f93757242ff6c55566efc1695276f4303d4a41e8195a6ddd0b4da42d0c/pyg_nightly-2.4.0.dev20230612.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [mobio-notify-sdk-test]: Downloading https://files.pythonhosted.org/packages/58/01/157512ff9ffbd592266145fd920d0a3e9b21e910b14589d2cd888857f7ad/mobio-notify-sdk-test-1.0.8.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/69/ad/dc61e0fc1d9ee2d0bdbe6ca813dd0a68db13b80356a063680f7a137fc0dc/atckit-1.1.0.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cds-python-sdk]: Downloading https://files.pythonhosted.org/packages/84/9a/d0f7aae1848af7ddb751a3756ddc3fca16eee12b02afa3dbad5b1c0ba372/cds-python-sdk-0.11.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [mobio-notify-sdk-test]: Downloading https://files.pythonhosted.org/packages/93/c3/2e87b85b34c531743d76278a568cbf82d2db79afb5de1e39462fdf0eb56e/mobio-notify-sdk-test-1.0.9.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/14/84/cbf7010f61a33d7d646f25723f557e8989785924a711e3630773871efa86/unstructured-0.7.4.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [atckit]: Downloading https://files.pythonhosted.org/packages/8d/6b/1f727838ba6a2d56a65280fec476a9f57c216bea0dc8dfc3c350dc9d66c0/atckit-1.2.0.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [mobio-notify-sdk-test]: executing diffoscope
+[2023-06-14 08:11:03] INFO root fetch - processPackages [mobio-notify-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-notify-sdk-test-1.0.8.tar.gz tmp/mobio-notify-sdk-test-1.0.9.tar.gz --markdown 20230614/m/mobio-notify-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/0b/74/be6ffe016dc3998821540f6d5ed49475dbd985213ccfb85a7d7882de30bb/pyg_nightly-2.4.0.dev20230613.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cds-python-sdk]: Downloading https://files.pythonhosted.org/packages/d5/4c/a7af360250490e246fb028d55878a4fd166f53478329fd4675c6d135bd08/cds-python-sdk-0.13.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/fe/20/48368e9f54d3cc382d0f4e464d201a96417eed8c6df064241f809d9432d0/unstructured-0.7.5.tar.gz
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cds-python-sdk]: executing diffoscope
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cds-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cds-python-sdk-0.11.tar.gz tmp/cds-python-sdk-0.13.tar.gz --markdown 20230614/c/cds-python-sdk/0.11-0.13/diff.md --exclude *.pyd
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-06-14 08:11:03] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230614/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-06-14 08:11:03] INFO root fetch - processPackages [atckit]: executing diffoscope
+[2023-06-14 08:11:03] INFO root fetch - processPackages [atckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atckit-1.1.0.tar.gz tmp/atckit-1.2.0.tar.gz --markdown 20230614/a/atckit/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 08:11:03] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-14 08:11:03] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230612.tar.gz tmp/pyg_nightly-2.4.0.dev20230613.tar.gz --markdown 20230614/p/pyg-nightly/2.4.0.dev20230612-2.4.0.dev20230613/diff.md --exclude *.pyd
+[2023-06-14 08:11:03] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-06-14 08:11:03] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.7.4.tar.gz tmp/unstructured-0.7.5.tar.gz --markdown 20230614/u/unstructured/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-14 08:11:04] INFO root fetch - processPackages [cds-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cds-python-sdk-0.11.tar.gz]
+[2023-06-14 08:11:04] INFO root fetch - processPackages [cds-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cds-python-sdk-0.13.tar.gz]
+[2023-06-14 08:11:04] INFO root fetch - main [MainThread]: End processing [cds-python-sdk]: success
+[2023-06-14 08:11:05] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.1.0.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - processPackages [atckit]: Remove: archive file [/home/abi/fetcher/tmp/atckit-1.2.0.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - main [MainThread]: End processing [atckit]: success
+[2023-06-14 08:11:05] INFO root fetch - processPackages [mobio-notify-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-notify-sdk-test-1.0.8.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - processPackages [mobio-notify-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-notify-sdk-test-1.0.9.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - main [MainThread]: End processing [mobio-notify-sdk-test]: success
+[2023-06-14 08:11:05] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-06-14 08:11:05] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.4.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.7.5.tar.gz]
+[2023-06-14 08:11:05] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-06-14 08:11:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230612.tar.gz]
+[2023-06-14 08:11:11] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230613.tar.gz]
+[2023-06-14 08:11:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-14 08:11:11] INFO root fetch - main [MainThread]: Store serial: [18496823]
