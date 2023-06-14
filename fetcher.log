@@ -20818,3 +20818,123 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 12:44:43] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
 [2023-06-14 12:44:43] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-06-14 12:44:43] INFO root fetch - main [MainThread]: Store serial: [18499828]
+[2023-06-14 12:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499828]
+[2023-06-14 12:49:53] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agsi
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kalm
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assisted-service-client
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: current-events-magnifier
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lk-logger
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pystools
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: th2-data-services-lwdp
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqladmin
+[2023-06-14 12:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitlab
+[2023-06-14 12:49:53] INFO root fetch - processPackages [agsi]: New version: [2.2] Old Version: [2.1]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [lk-logger]: New version: [5.6.1] Old Version: [5.6.0]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/fb/6b/e114815e66460bdb4b55815485c24071890c318e9cbdfc8a7326a5df7467/agsi-2.1.tar.gz
+[2023-06-14 12:49:53] INFO root fetch - processPackages [unitlab]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-14 12:49:53] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 12:49:54] INFO root fetch - processPackages [sqladmin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-14 12:49:54] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5266117783] Old Version: [2.1.0.0.dev5253548471]
+[2023-06-14 12:49:54] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-14 12:49:54] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/7d/5c/252da8e24083bca131c521863e0a5e8b8482d0a9428d405d45fc2d52b8c3/current_events_magnifier-0.1.8.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/e5/00/01540c3c12fe163a3960b5d09e7bfb518339d50ae7c3a6ad01a777f80113/unitlab-1.8.8.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-14 12:49:54] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/ab/28/64391c2292b53af01d7d5008ca87d1ba6032382a76a720a2d763fbd71b92/lk_logger-5.6.0-py3-none-any.whl
+[2023-06-14 12:49:54] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/e2/c2/00caa80a451af253bf6bb3f74679b92dd24ec416dd0ce047e586256e86bb/sqladmin-0.8.0.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-14 12:49:54] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/0c/b4/895bd2140e18bc2881de84ea474872bbb66fa675a3821dedaaf380585c5e/th2_data_services_lwdp-2.1.0.0.dev5253548471.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/68/8c/17358e9eeb5b4bb819d4805b9b08dce16b639f6453bce69d8175d7f614e9/unitlab-1.8.9.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-14 12:49:54] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/f7/d4/1d871fa73e951dc781e70571a1ad8f629482c1eaa96f6b04d285dd194d8a/agsi-2.2.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230614/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/b3/3e/04dba18d6c3fa21d0f8a95d9caa4c41d9015c1d81b75bc586d4427726d5b/current_events_magnifier-0.1.9.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-2.1.tar.gz tmp/agsi-2.2.tar.gz --markdown 20230614/a/agsi/2.1-2.2/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.8.8.tar.gz tmp/unitlab-1.8.9.tar.gz --markdown 20230614/u/unitlab/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.8.tar.gz tmp/current_events_magnifier-0.1.9.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230614/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/4a/3b/782eef55c60c57600d3bbb368b4948a21a6bfd0e8da4c54c5b6b8b2f237a/lk_logger-5.6.1-py3-none-any.whl
+[2023-06-14 12:49:54] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/d5/88/745e374a622a7745655b7252c088859bcb6842ca1115eafb8cca38451068/th2_data_services_lwdp-2.1.0.0.dev5266117783.tar.gz
+[2023-06-14 12:49:54] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230614/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230614/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.6.0-py3-none-any.whl.zip tmp/lk_logger-5.6.1-py3-none-any.whl.zip --markdown 20230614/l/lk-logger/5.6.0-5.6.1/diff.md --exclude *.pyd
+[2023-06-14 12:49:54] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-14 12:49:54] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5253548471.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5266117783.tar.gz --markdown 20230614/t/th2-data-services-lwdp/2.1.0.0.dev5253548471-2.1.0.0.dev5266117783/diff.md --exclude *.pyd
+[2023-06-14 12:49:55] INFO root fetch - processPackages [sqladmin]: Downloading https://files.pythonhosted.org/packages/a3/b2/0b1777b71ed99e68b69056422de29864ce6be6992d094d56075ab2cbce9d/sqladmin-0.9.0.tar.gz
+[2023-06-14 12:49:55] INFO root fetch - processPackages [sqladmin]: executing diffoscope
+[2023-06-14 12:49:55] INFO root fetch - processPackages [sqladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqladmin-0.8.0.tar.gz tmp/sqladmin-0.9.0.tar.gz --markdown 20230614/s/sqladmin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 12:49:57] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.8.tar.gz]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.9.tar.gz]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [current-events-magnifier]: Start processing: genet
+[2023-06-14 12:49:57] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 12:49:57] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [kalm]: Start processing: napari-nanopyx
+[2023-06-14 12:49:57] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-14 12:49:57] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.8.8.tar.gz]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-1.8.9.tar.gz]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [unitlab]: Start processing: bs-admin-utils
+[2023-06-14 12:49:57] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-06-14 12:49:57] INFO root fetch - processPackages [genet]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-14 12:49:57] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 12:49:58] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/4e/bd/fbb2287ce0336e89f8d0f150ce72eb734f8cf8226736b4de1588a940a409/bs_admin_utils-1.0.4.tar.gz
+[2023-06-14 12:49:58] INFO root fetch - processPackages [napari-nanopyx]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 12:49:58] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/b7/38/7b2c5cd8c77e3729f9b36ca20ab5b00afd3d82e96a6c3393ece02683697a/genet-0.5.3-py3-none-any.whl
+[2023-06-14 12:49:58] INFO root fetch - processPackages [napari-nanopyx]: Downloading https://files.pythonhosted.org/packages/dd/ac/960b7f9bdfbdc06807a1ed4d761d3b5e311849e869f20b40ef9bfee77112/napari-nanopyx-0.0.2.tar.gz
+[2023-06-14 12:49:58] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-06-14 12:49:58] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-06-14 12:49:58] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-06-14 12:49:58] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.6.0-py3-none-any.whl.zip]
+[2023-06-14 12:49:58] INFO root fetch - processPackages [lk-logger]: Remove: archive file [/home/abi/fetcher/tmp/lk_logger-5.6.1-py3-none-any.whl.zip]
+[2023-06-14 12:49:58] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2023-06-14 12:49:58] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/27/a4/fcefb2155626e05cf4f7c9d4706af4a316c29cd8c40f0f59793e5a353cfb/bs_admin_utils-1.0.5.tar.gz
+[2023-06-14 12:49:58] INFO root fetch - processPackages [napari-nanopyx]: Downloading https://files.pythonhosted.org/packages/1b/51/d80b6da1935dd7ecc089acfac24b335c359c68447dd7fc37df22d73c1398/napari-nanopyx-0.0.3.tar.gz
+[2023-06-14 12:49:58] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-14 12:49:58] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.0.4.tar.gz tmp/bs_admin_utils-1.0.5.tar.gz --markdown 20230614/b/bs-admin-utils/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 12:49:58] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5253548471.tar.gz]
+[2023-06-14 12:49:58] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5266117783.tar.gz]
+[2023-06-14 12:49:58] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-14 12:49:58] INFO root fetch - processPackages [genet]: Downloading https://files.pythonhosted.org/packages/55/c3/e36b4fd3325c9ed325c018bf866cd96af3df4302f0f77a7f54f7d42f5e11/genet-0.5.4-py3-none-any.whl
+[2023-06-14 12:49:58] INFO root fetch - processPackages [napari-nanopyx]: executing diffoscope
+[2023-06-14 12:49:58] INFO root fetch - processPackages [napari-nanopyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-nanopyx-0.0.2.tar.gz tmp/napari-nanopyx-0.0.3.tar.gz --markdown 20230614/n/napari-nanopyx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 12:49:58] INFO root fetch - processPackages [genet]: executing diffoscope
+[2023-06-14 12:49:58] INFO root fetch - processPackages [genet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genet-0.5.3-py3-none-any.whl.zip tmp/genet-0.5.4-py3-none-any.whl.zip --markdown 20230614/g/genet/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-14 12:50:00] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.1.tar.gz]
+[2023-06-14 12:50:00] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.2.tar.gz]
+[2023-06-14 12:50:00] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-14 12:50:01] INFO root fetch - processPackages [napari-nanopyx]: Remove: archive file [/home/abi/fetcher/tmp/napari-nanopyx-0.0.2.tar.gz]
+[2023-06-14 12:50:01] INFO root fetch - processPackages [napari-nanopyx]: Remove: archive file [/home/abi/fetcher/tmp/napari-nanopyx-0.0.3.tar.gz]
+[2023-06-14 12:50:01] INFO root fetch - main [MainThread]: End processing [napari-nanopyx]: success
+[2023-06-14 12:50:01] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.5.3-py3-none-any.whl.zip]
+[2023-06-14 12:50:01] INFO root fetch - processPackages [genet]: Remove: archive file [/home/abi/fetcher/tmp/genet-0.5.4-py3-none-any.whl.zip]
+[2023-06-14 12:50:01] INFO root fetch - main [MainThread]: End processing [genet]: success
+[2023-06-14 12:50:01] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.4.tar.gz]
+[2023-06-14 12:50:01] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.5.tar.gz]
+[2023-06-14 12:50:01] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-14 12:50:01] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.8.0.tar.gz]
+[2023-06-14 12:50:01] INFO root fetch - processPackages [sqladmin]: Remove: archive file [/home/abi/fetcher/tmp/sqladmin-0.9.0.tar.gz]
+[2023-06-14 12:50:01] INFO root fetch - main [MainThread]: End processing [sqladmin]: success
+[2023-06-14 12:50:02] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-14 12:50:02] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-14 12:50:02] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-14 12:50:05] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-14 12:50:05] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-14 12:50:05] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-14 12:50:05] INFO root fetch - main [MainThread]: Store serial: [18499866]
