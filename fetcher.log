@@ -10922,3 +10922,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 05:15:01] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.2-py3-none-any.whl.zip]
 [2023-06-14 05:15:01] INFO root fetch - main [MainThread]: End processing [litie]: success
 [2023-06-14 05:15:01] INFO root fetch - main [MainThread]: Store serial: [18495605]
+[2023-06-14 05:20:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495605]
+[2023-06-14 05:20:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trulens-eval
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-website-sale-product-assortment
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-website-sale-product-assortment
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code2gist
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-boundary
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trulens-eval
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundation-cancer-image-biomarker
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visualize-algos
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Signal8
+[2023-06-14 05:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gauge-llm
+[2023-06-14 05:20:10] INFO root fetch - processPackages [code2gist]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: New version: [14.0.1.0.1.dev6] Old Version: [14.0.1.0.1.dev5]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: New version: [0.2.0a0] Old Version: [0.2.0]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [Signal8]: New version: [3.7] Old Version: [3.6]
+[2023-06-14 05:20:10] WARNING root fetch - processPackages [gauge-llm]: Skipping, unable to determine old version
+[2023-06-14 05:20:10] INFO root fetch - processPackages [gauge-llm]: Start processing: osadl-matrix
+[2023-06-14 05:20:10] INFO root fetch - processPackages [visualize-algos]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-14 05:20:10] INFO root fetch - main [MainThread]: End processing [gauge-llm] error
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: New version: [0.2.0a0] Old Version: [0.2.0]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [osadl-matrix]: New version: [2023.6.14.30610] Old Version: [2023.3.9.10358]
+[2023-06-14 05:20:10] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/e9/22/842b95543ce0017bf5d94e6345e5d5a7fd706540e359b105ee7f3419ddb3/code2gist-1.0.0.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/1c/16/2a7d0758238a43f294efc052be42d3c684c822672fef7cd2296e733869c3/Signal8-3.6.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/60/6d/76d0232ac83f8f948f5c1aefb020061b6b2ced4b2ca5e9fb56cb72fc9b9a/foundation_cancer_image_biomarker-0.0.1a8.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/0e/b1/cee822f32988d2acb072178e8e31c310e23840a56b11f17a5887be8ee59b/trulens_eval-0.2.0-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/0e/b1/cee822f32988d2acb072178e8e31c310e23840a56b11f17a5887be8ee59b/trulens_eval-0.2.0-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: Downloading https://files.pythonhosted.org/packages/48/68/d79cf717e8578e88c0cb9d06108a3e2383538482f0fd248fe65343a7f129/odoo14_addon_website_sale_product_assortment-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: Downloading https://files.pythonhosted.org/packages/1c/de/af9af24482e9036d6361b222ab2bda06fe0183dcf25ae3de1b3658026c03/odoo_addon_website_sale_product_assortment-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/36/d4/48d196c2b838d332a0090fd91376d631d7ce08eb0489f0f81087a18bbbbe/osadl-matrix-2023.3.9.10358.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Downloading https://files.pythonhosted.org/packages/be/81/840a2ee098f80839f9cea64537605375d3b3ead4e71dcaf9c9077d0b5649/cdktf-cdktf-provider-boundary-4.0.4.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [visualize-algos]: Downloading https://files.pythonhosted.org/packages/f6/c0/040e186150420868a2c18cd65a11393558dfc4f535a1f19aeb603d20645d/visualize-algos-0.0.1.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/a8/92/24715f35af53f45dcaeea9169c15617771e0a99f9729e39ea23bdc058ec1/foundation_cancer_image_biomarker-0.0.1a9.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/88/6d/dbf4200c0046204bbcc3b1ecb46e854a82fdeb4ef27df4cb2513fe8b8a06/code2gist-1.0.1.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [Signal8]: Downloading https://files.pythonhosted.org/packages/51/a5/b89f10ce8ccfd17a063cf0127c398d7b995419b60a1c0805cc6e27141ccd/Signal8-3.7.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz --markdown 20230614/f/foundation-cancer-image-biomarker/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/f7/fb/ba4231064c93545b943a49db78411862f8b87a926656719e0867aea81502/trulens_eval-0.2.0a0-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [code2gist]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [code2gist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code2gist-1.0.0.tar.gz tmp/code2gist-1.0.1.tar.gz --markdown 20230614/c/code2gist/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [Signal8]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [Signal8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Signal8-3.6.tar.gz tmp/Signal8-3.7.tar.gz --markdown 20230614/S/Signal8/3.6-3.7/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/f7/fb/ba4231064c93545b943a49db78411862f8b87a926656719e0867aea81502/trulens_eval-0.2.0a0-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Downloading https://files.pythonhosted.org/packages/ce/75/5bf456139eda9609c670b69ac7a9f93638f3fd317c0948c1a43a2e7bd697/cdktf-cdktf-provider-boundary-4.0.5.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/94/65/8dc8c50d40c884b934d1af351563b6af1dd85c019203829bd977b550189a/osadl-matrix-2023.6.14.30610.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [visualize-algos]: Downloading https://files.pythonhosted.org/packages/98/d5/bcd14e4a4fb1300b654e4f3aae7c5bd8c91a168c6556e5e141c4fe0c49b5/visualize-algos-0.0.3.tar.gz
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulens_eval-0.2.0-py3-none-any.whl.zip tmp/trulens_eval-0.2.0a0-py3-none-any.whl.zip --markdown 20230614/t/trulens-eval/0.2.0-0.2.0a0/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: Downloading https://files.pythonhosted.org/packages/7d/73/7a6424a624238c9455e4d3a7270c81d9f21d0348eea1667784df1f76a33a/odoo14_addon_website_sale_product_assortment-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [trulens-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulens_eval-0.2.0-py3-none-any.whl.zip tmp/trulens_eval-0.2.0a0-py3-none-any.whl.zip --markdown 20230614/t/trulens-eval/0.2.0-0.2.0a0/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [osadl-matrix]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [osadl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osadl-matrix-2023.3.9.10358.tar.gz tmp/osadl-matrix-2023.6.14.30610.tar.gz --markdown 20230614/o/osadl-matrix/2023.3.9.10358-2023.6.14.30610/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-boundary-4.0.4.tar.gz tmp/cdktf-cdktf-provider-boundary-4.0.5.tar.gz --markdown 20230614/c/cdktf-cdktf-provider-boundary/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-06-14 05:20:10] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: Downloading https://files.pythonhosted.org/packages/b4/2a/40de4c393822323ab38c162d43b4535806652bc534112bbebec86e014b6d/odoo_addon_website_sale_product_assortment-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-14 05:20:10] INFO root fetch - processPackages [visualize-algos]: executing diffoscope
+[2023-06-14 05:20:10] INFO root fetch - processPackages [visualize-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visualize-algos-0.0.1.tar.gz tmp/visualize-algos-0.0.3.tar.gz --markdown 20230614/v/visualize-algos/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 05:20:11] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: executing diffoscope
+[2023-06-14 05:20:11] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_product_assortment-14.0.1.0.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_product_assortment-14.0.1.0.1.dev6-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-website-sale-product-assortment/14.0.1.0.1.dev5-14.0.1.0.1.dev6/diff.md --exclude *.pyd
+[2023-06-14 05:20:11] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: executing diffoscope
+[2023-06-14 05:20:11] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_product_assortment-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_sale_product_assortment-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-website-sale-product-assortment/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Start processing: je-editor-dev
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.0.0.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.0.1.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [code2gist]: Start processing: foundation-cancer-image-biomarker
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [code2gist]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-3.6.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [Signal8]: Remove: archive file [/home/abi/fetcher/tmp/Signal8-3.7.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [Signal8]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/60/6d/76d0232ac83f8f948f5c1aefb020061b6b2ced4b2ca5e9fb56cb72fc9b9a/foundation_cancer_image_biomarker-0.0.1a8.tar.gz
+[2023-06-14 05:20:12] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/a8/92/24715f35af53f45dcaeea9169c15617771e0a99f9729e39ea23bdc058ec1/foundation_cancer_image_biomarker-0.0.1a9.tar.gz
+[2023-06-14 05:20:12] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.2.0-py3-none-any.whl.zip]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.2.0a0-py3-none-any.whl.zip]
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [trulens-eval]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [osadl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/osadl-matrix-2023.3.9.10358.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [osadl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/osadl-matrix-2023.6.14.30610.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [osadl-matrix]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [visualize-algos]: Remove: archive file [/home/abi/fetcher/tmp/visualize-algos-0.0.1.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [visualize-algos]: Remove: archive file [/home/abi/fetcher/tmp/visualize-algos-0.0.3.tar.gz]
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [visualize-algos]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-14 05:20:12] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz --markdown 20230614/f/foundation-cancer-image-biomarker/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 05:20:12] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_product_assortment-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [odoo14-addon-website-sale-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_website_sale_product_assortment-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-product-assortment]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-06-14 05:20:12] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-06-14 05:20:12] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230614/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [trulens-eval]: success
+[2023-06-14 05:20:12] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_assortment-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-14 05:20:12] INFO root fetch - processPackages [odoo-addon-website-sale-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_product_assortment-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-14 05:20:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-product-assortment]: success
+[2023-06-14 05:20:13] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-boundary-4.0.4.tar.gz]
+[2023-06-14 05:20:13] INFO root fetch - processPackages [cdktf-cdktf-provider-boundary]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-boundary-4.0.5.tar.gz]
+[2023-06-14 05:20:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-boundary]: success
+[2023-06-14 05:20:13] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz]
+[2023-06-14 05:20:13] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz]
+[2023-06-14 05:20:13] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-14 05:20:14] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.98.tar.gz]
+[2023-06-14 05:20:14] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
+[2023-06-14 05:20:14] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-06-14 05:20:14] INFO root fetch - main [MainThread]: Store serial: [18495641]
