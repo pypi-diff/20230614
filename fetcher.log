@@ -14363,3 +14363,134 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:16:51] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-06-14 08:16:51] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-06-14 08:16:51] INFO root fetch - main [MainThread]: Store serial: [18496874]
+[2023-06-14 08:21:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496874]
+[2023-06-14 08:22:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metacountregressor
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs-telegram-bot-api
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clevertable
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: news-scraper-python
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: persian-gender-detection
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shareconnect
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-openpyxl
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fast-edit-distance
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: paper-qa
+[2023-06-14 08:22:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qreader
+[2023-06-14 08:22:01] INFO root fetch - processPackages [cs-telegram-bot-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [persian-gender-detection]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [clevertable]: New version: [3.1.0] Old Version: [3.0.3]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [news-scraper-python]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [shareconnect]: New version: [1.0.0.11] Old Version: [1.0.0.10]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [qreader]: New version: [2.8] Old Version: [2.7]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2023-06-14 08:22:01] WARNING root fetch - processPackages [fast-edit-distance]: Skipping, unable to determine old version
+[2023-06-14 08:22:01] INFO root fetch - processPackages [fast-edit-distance]: Start processing: pretext
+[2023-06-14 08:22:01] INFO root fetch - main [MainThread]: End processing [fast-edit-distance] error
+[2023-06-14 08:22:01] INFO root fetch - processPackages [paper-qa]: New version: [3.0.0.dev3] Old Version: [3.0.0.dev2]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230614] Old Version: [1.6.1.dev20230613]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/21/ba/7842111ef347d8661b5a02f088e7dd209812a347bd9c467fedbd7b9dfc39/paper-qa-3.0.0.dev2.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/be/12/a06c0b3b37d7ba14c5e2a7dd94c12f2054f3658efbdd67285bc07cfa0146/pretext-1.6.1.dev20230613.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [cs-telegram-bot-api]: Downloading https://files.pythonhosted.org/packages/c9/83/1bc013683ec407084dbec840b51a7a7ff1dad15dbd6dfdf9b9f1386dbaaa/cs-telegram-bot-api-0.0.7.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 08:22:01] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 08:22:01] INFO root fetch - processPackages [metacountregressor]: Start processing: web3cli
+[2023-06-14 08:22:01] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 08:22:01] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/fa/30/6a864f9236e9e70dab76fa283ef989247596e90202c929d26f69593fa1d0/news-scraper-python-0.0.4.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/7d/f8/87060a6e4ae467fbf22a2fd0912895629b14dcbd78cca129e3126982a643/qreader-2.7.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [shareconnect]: Downloading https://files.pythonhosted.org/packages/af/78/c13605e052e545d73f67428374e14f805240bbde75fc12468520e1f19c2a/shareconnect-1.0.0.10.tar.gz
+[2023-06-14 08:22:01] INFO root fetch - processPackages [web3cli]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-14 08:22:01] INFO root fetch - processPackages [clevertable]: Downloading https://files.pythonhosted.org/packages/24/7a/77882b59312a87abde99bda115800ec798c6a0d8e488f4ab2674d64a7825/clevertable-3.0.3.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [persian-gender-detection]: Downloading https://files.pythonhosted.org/packages/cb/65/8fbfa18b0d5113b7d4b9398178a46c89b6f13d3eb262261b544b0899daeb/persian-gender-detection-1.0.5.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/4a/ca/a58a9d77f0123acaff8f280f693d0ac2ddf31e7ba4de0fd30dfa37d0d2fc/paper-qa-3.0.0.dev3.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [cs-telegram-bot-api]: Downloading https://files.pythonhosted.org/packages/47/57/da4992daec71b9561ea4d452af1004dbc7a07ed948d3da52cb7e353781c6/cs-telegram-bot-api-0.0.8.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20230614/t/types-openpyxl/3.1.0.8-3.1.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-3.0.0.dev2.tar.gz tmp/paper-qa-3.0.0.dev3.tar.gz --markdown 20230614/p/paper-qa/3.0.0.dev2-3.0.0.dev3/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [cs-telegram-bot-api]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [cs-telegram-bot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-telegram-bot-api-0.0.7.tar.gz tmp/cs-telegram-bot-api-0.0.8.tar.gz --markdown 20230614/c/cs-telegram-bot-api/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/fd/29/3dd111b28e0152a750e4c140ed831873155757d6fb3c8e9f1349f857342c/web3cli-1.1.3.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/f9/18/807e79e8604a011eccbf6c6302f5749e023be2b14d9236c16c8a23339643/pretext-1.6.1.dev20230614.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [shareconnect]: Downloading https://files.pythonhosted.org/packages/e3/f9/2458c7bb499fd3368cc9ceb8232afe04e7a51f1b3e70a4d8ae5b5810e45b/shareconnect-1.0.0.11.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/90/fc/210d9b99d6b6d138d1ebce9cbf01e63a30e0ffffaf672b5430fafd1dc989/news-scraper-python-0.0.5.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [qreader]: Downloading https://files.pythonhosted.org/packages/1e/26/b7161a55898d2043ae2512419c642cec690249c886297626c5ceb25c66a4/qreader-2.8.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [persian-gender-detection]: Downloading https://files.pythonhosted.org/packages/d9/69/6626944d2de9690da5593199ef627f97db73ba2492873b39d4bc0183e121/persian-gender-detection-1.1.0.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [shareconnect]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [shareconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareconnect-1.0.0.10.tar.gz tmp/shareconnect-1.0.0.11.tar.gz --markdown 20230614/s/shareconnect/1.0.0.10-1.0.0.11/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [clevertable]: Downloading https://files.pythonhosted.org/packages/fd/32/f090e03a76789a479ff1b68cf478eea65ecc1a4d09862851012fc163964d/clevertable-3.1.0.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [news-scraper-python]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [news-scraper-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-scraper-python-0.0.4.tar.gz tmp/news-scraper-python-0.0.5.tar.gz --markdown 20230614/n/news-scraper-python/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [qreader]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [qreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qreader-2.7.tar.gz tmp/qreader-2.8.tar.gz --markdown 20230614/q/qreader/2.7-2.8/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [persian-gender-detection]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [persian-gender-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persian-gender-detection-1.0.5.tar.gz tmp/persian-gender-detection-1.1.0.tar.gz --markdown 20230614/p/persian-gender-detection/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [clevertable]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [clevertable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clevertable-3.0.3.tar.gz tmp/clevertable-3.1.0.tar.gz --markdown 20230614/c/clevertable/3.0.3-3.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/f4/d5/c64d09a59ebd50439bac877a5bc7ce297560205ea9efe7b1bfa9dfdddd84/web3cli-1.1.4.tar.gz
+[2023-06-14 08:22:02] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230613.tar.gz tmp/pretext-1.6.1.dev20230614.tar.gz --markdown 20230614/p/pretext/1.6.1.dev20230613-1.6.1.dev20230614/diff.md --exclude *.pyd
+[2023-06-14 08:22:02] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-06-14 08:22:02] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.3.tar.gz tmp/web3cli-1.1.4.tar.gz --markdown 20230614/w/web3cli/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-14 08:22:03] INFO root fetch - processPackages [cs-telegram-bot-api]: Remove: archive file [/home/abi/fetcher/tmp/cs-telegram-bot-api-0.0.7.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [cs-telegram-bot-api]: Remove: archive file [/home/abi/fetcher/tmp/cs-telegram-bot-api-0.0.8.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [cs-telegram-bot-api]: Start processing: WqUtils
+[2023-06-14 08:22:03] INFO root fetch - main [MainThread]: End processing [cs-telegram-bot-api]: success
+[2023-06-14 08:22:03] INFO root fetch - processPackages [WqUtils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.4.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.5.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [news-scraper-python]: Start processing: automation-file
+[2023-06-14 08:22:03] INFO root fetch - main [MainThread]: End processing [news-scraper-python]: success
+[2023-06-14 08:22:03] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [shareconnect]: Remove: archive file [/home/abi/fetcher/tmp/shareconnect-1.0.0.10.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [shareconnect]: Remove: archive file [/home/abi/fetcher/tmp/shareconnect-1.0.0.11.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [shareconnect]: Start processing: omkar-temp-mail
+[2023-06-14 08:22:03] INFO root fetch - main [MainThread]: End processing [shareconnect]: success
+[2023-06-14 08:22:03] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/a7/86/780f3fee20aff537d7f025afafa98de56af195698a4e8262db7767e8fd03/WqUtils-0.0.3-py3-none-any.whl
+[2023-06-14 08:22:03] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-06-14 08:22:03] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.0.5.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [persian-gender-detection]: Remove: archive file [/home/abi/fetcher/tmp/persian-gender-detection-1.1.0.tar.gz]
+[2023-06-14 08:22:03] INFO root fetch - processPackages [persian-gender-detection]: Start processing: delphix-dct-api
+[2023-06-14 08:22:03] INFO root fetch - main [MainThread]: End processing [persian-gender-detection]: success
+[2023-06-14 08:22:04] WARNING root fetch - processPackages [omkar-temp-mail]: Skipping, unable to determine old version
+[2023-06-14 08:22:04] INFO root fetch - processPackages [delphix-dct-api]: New version: [7.0.1rc1] Old Version: [7.0.1]
+[2023-06-14 08:22:04] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail] error
+[2023-06-14 08:22:04] INFO root fetch - processPackages [qreader]: Remove: archive file [/home/abi/fetcher/tmp/qreader-2.7.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - processPackages [qreader]: Remove: archive file [/home/abi/fetcher/tmp/qreader-2.8.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - main [MainThread]: End processing [qreader]: success
+[2023-06-14 08:22:04] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev2.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev3.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-06-14 08:22:04] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/5c/5e/130b4b3283a09c2c29c1cee00d23a873eb74b03fbd82d3aaec3c61e9b482/WqUtils-0.0.4-py3-none-any.whl
+[2023-06-14 08:22:04] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-06-14 08:22:04] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/5b/e3/f84d48deecde6ae146df67211a2337c9f9457010fd924e124536a6dd4b82/delphix-dct-api-7.0.1.tar.gz
+[2023-06-14 08:22:04] INFO root fetch - processPackages [clevertable]: Remove: archive file [/home/abi/fetcher/tmp/clevertable-3.0.3.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - processPackages [clevertable]: Remove: archive file [/home/abi/fetcher/tmp/clevertable-3.1.0.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - main [MainThread]: End processing [clevertable]: success
+[2023-06-14 08:22:04] INFO root fetch - processPackages [WqUtils]: executing diffoscope
+[2023-06-14 08:22:04] INFO root fetch - processPackages [WqUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WqUtils-0.0.3-py3-none-any.whl.zip tmp/WqUtils-0.0.4-py3-none-any.whl.zip --markdown 20230614/W/WqUtils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 08:22:04] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-14 08:22:04] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230614/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:22:04] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/a7/0e/0fa282055d07280a1f0ba8e5d4025b2c0d024e727d20f0a275f18df45e2c/delphix-dct-api-7.0.1rc1.tar.gz
+[2023-06-14 08:22:04] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-06-14 08:22:04] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-7.0.1.tar.gz tmp/delphix-dct-api-7.0.1rc1.tar.gz --markdown 20230614/d/delphix-dct-api/7.0.1-7.0.1rc1/diff.md --exclude *.pyd
+[2023-06-14 08:22:04] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2023-06-14 08:22:04] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-06-14 08:22:05] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.0.3-py3-none-any.whl.zip]
+[2023-06-14 08:22:05] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.0.4-py3-none-any.whl.zip]
+[2023-06-14 08:22:05] INFO root fetch - main [MainThread]: End processing [WqUtils]: success
+[2023-06-14 08:22:05] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-06-14 08:22:05] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-06-14 08:22:05] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-14 08:22:07] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.3.tar.gz]
+[2023-06-14 08:22:07] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.4.tar.gz]
+[2023-06-14 08:22:07] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-06-14 08:22:07] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230613.tar.gz]
+[2023-06-14 08:22:07] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230614.tar.gz]
+[2023-06-14 08:22:07] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-14 08:22:11] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-7.0.1.tar.gz]
+[2023-06-14 08:22:11] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-7.0.1rc1.tar.gz]
+[2023-06-14 08:22:11] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-06-14 08:22:11] INFO root fetch - main [MainThread]: Store serial: [18496935]
