@@ -11420,3 +11420,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 05:35:56] INFO root fetch - processPackages [flask-identity]: Remove: archive file [/home/abi/fetcher/tmp/flask_identity-1.0.4.dev3.tar.gz]
 [2023-06-14 05:35:56] INFO root fetch - main [MainThread]: End processing [flask-identity]: success
 [2023-06-14 05:35:56] INFO root fetch - main [MainThread]: Store serial: [18495765]
+[2023-06-14 05:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495765]
+[2023-06-14 05:41:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cns
+[2023-06-14 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coptpy
+[2023-06-14 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinyi-datateam-utils
+[2023-06-14 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sftpoeb
+[2023-06-14 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gauge-llm
+[2023-06-14 05:41:05] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-14 05:41:05] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-14 05:41:05] WARNING root fetch - processPackages [gauge-llm]: Skipping, unable to determine old version
+[2023-06-14 05:41:05] INFO root fetch - main [MainThread]: End processing [gauge-llm] error
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sinyi-datateam-utils]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 05:41:05] INFO root fetch - processPackages [coptpy]: New version: [6.5.4] Old Version: [6.5.3]
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sftpoeb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sinyi-datateam-utils]: Downloading https://files.pythonhosted.org/packages/64/52/5819cbf45c8e86a1b016fea6481806d274c34e80d42eb0d55930a1207b4d/sinyi_datateam_utils-0.1.7.tar.gz
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/39/e5/ec186e9b9bc6abe3266c3c85fa359069f687116bd67a93a17ee6a8d5def5/sftpoeb-0.0.3.tar.gz
+[2023-06-14 05:41:05] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/04/0c/55b5379b84eccb8941e0ab5d3118289b26c16a6eb05a07e7eb54d02a1259/coptpy-6.5.3-cp39-cp39-win_amd64.whl
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/e9/4a/145898312fa55457d8d94822daa567a5966ca2a1922d5c4f989104cdacdd/sftpoeb-0.0.4.tar.gz
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sinyi-datateam-utils]: Downloading https://files.pythonhosted.org/packages/4a/c3/37fa0408f1a9a10bcfd72cfb5bc4017aacc76b3dc06fe1a9a2821f400ed4/sinyi_datateam_utils-0.1.8.tar.gz
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 05:41:05] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.0.3.tar.gz tmp/sftpoeb-0.0.4.tar.gz --markdown 20230614/s/sftpoeb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 05:41:06] INFO root fetch - processPackages [sinyi-datateam-utils]: executing diffoscope
+[2023-06-14 05:41:06] INFO root fetch - processPackages [sinyi-datateam-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinyi_datateam_utils-0.1.7.tar.gz tmp/sinyi_datateam_utils-0.1.8.tar.gz --markdown 20230614/s/sinyi-datateam-utils/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 05:41:06] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.3.tar.gz]
+[2023-06-14 05:41:06] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.4.tar.gz]
+[2023-06-14 05:41:06] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 05:41:07] INFO root fetch - processPackages [sinyi-datateam-utils]: Remove: archive file [/home/abi/fetcher/tmp/sinyi_datateam_utils-0.1.7.tar.gz]
+[2023-06-14 05:41:07] INFO root fetch - processPackages [sinyi-datateam-utils]: Remove: archive file [/home/abi/fetcher/tmp/sinyi_datateam_utils-0.1.8.tar.gz]
+[2023-06-14 05:41:07] INFO root fetch - main [MainThread]: End processing [sinyi-datateam-utils]: success
+[2023-06-14 05:41:07] INFO root fetch - processPackages [coptpy]: Downloading https://files.pythonhosted.org/packages/22/8e/69ccb521c4eaef97d277f8b86eff474ffe3742722b8c9e07a712affca868/coptpy-6.5.4-cp39-cp39-win_amd64.whl
+[2023-06-14 05:41:07] INFO root fetch - processPackages [coptpy]: executing diffoscope
+[2023-06-14 05:41:07] INFO root fetch - processPackages [coptpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coptpy-6.5.3-cp39-cp39-win_amd64.whl.zip tmp/coptpy-6.5.4-cp39-cp39-win_amd64.whl.zip --markdown 20230614/c/coptpy/6.5.3-6.5.4/diff.md --exclude *.pyd
+[2023-06-14 05:42:00] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.3-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 05:42:00] INFO root fetch - processPackages [coptpy]: Remove: archive file [/home/abi/fetcher/tmp/coptpy-6.5.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 05:42:00] INFO root fetch - main [MainThread]: End processing [coptpy]: success
+[2023-06-14 05:42:00] INFO root fetch - main [MainThread]: Store serial: [18495807]
