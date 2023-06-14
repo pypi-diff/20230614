@@ -22492,3 +22492,90 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:44:34] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306141035-py3-none-any.whl.zip]
 [2023-06-14 13:44:34] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-14 13:44:34] INFO root fetch - main [MainThread]: Store serial: [18500593]
+[2023-06-14 13:49:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500593]
+[2023-06-14 13:49:45] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: housemodel
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjava
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinynn-py
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extraneous-activity-delays
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rubpy
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinynn-py
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-llm
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clipped
+[2023-06-14 13:49:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: casanova
+[2023-06-14 13:49:45] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230613] Old Version: [2.4.0b20230612]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pyjava]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [clipped]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [rubpy]: New version: [6.2.0] Old Version: [6.1.9]
+[2023-06-14 13:49:45] WARNING root fetch - processPackages [tinynn-py]: Skipping, unable to determine old version
+[2023-06-14 13:49:45] WARNING root fetch - processPackages [tinynn-py]: Skipping, unable to determine old version
+[2023-06-14 13:49:45] INFO root fetch - processPackages [tinynn-py]: Start processing: pymox
+[2023-06-14 13:49:45] INFO root fetch - main [MainThread]: End processing [tinynn-py] error
+[2023-06-14 13:49:45] INFO root fetch - processPackages [tinynn-py]: Start processing: logni
+[2023-06-14 13:49:45] WARNING root fetch - processPackages [extraneous-activity-delays]: Skipping, unable to determine old version
+[2023-06-14 13:49:45] INFO root fetch - main [MainThread]: End processing [tinynn-py] error
+[2023-06-14 13:49:45] INFO root fetch - main [MainThread]: End processing [extraneous-activity-delays] error
+[2023-06-14 13:49:45] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230613] Old Version: [2.4.0b20230612]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [logni]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/b3/d4/b859d5e19fd08e7418eaf721d9d01ab8ec6ab955a1eee5651bebc72318b3/pyjava-0.5.0.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/5d/04/3094bba356c37c318c7e251d4d174b4ce24788ce5bfb038f1cabeeb9ae4f/rubpy-6.1.9.tar.gz
+[2023-06-14 13:49:45] WARNING root fetch - processPackages [housemodel]: Skipping, unable to determine old version
+[2023-06-14 13:49:45] INFO root fetch - main [MainThread]: End processing [housemodel] error
+[2023-06-14 13:49:45] INFO root fetch - processPackages [casanova]: New version: [1.9.0] Old Version: [1.8.0a2]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pymox]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 13:49:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/f2/60/6c842559a6c08f3db09bb20ecab40392eeead0f1d51e1999c1f4a342447e/bigdl_llm-2.4.0b20230612-py3-none-win_amd64.whl
+[2023-06-14 13:49:45] INFO root fetch - processPackages [logni]: Downloading https://files.pythonhosted.org/packages/8b/b1/03c46ada531a1b8f27e27981c672ee3e9cfe5c15b512d2c52c712557e1b5/logni-0.1.1.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/19/4e/ed6d1799c3bd46e1c6a96a29df2423e3e39e513a38c1a33413a1e4fe970d/clipped-0.3.4.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/fe/80/0e8282f72662bed7f7a633ddbc184e03e477c18aa2f82e74f2771c5c3359/bigdl_chronos-2.4.0b20230612-py3-none-win_amd64.whl
+[2023-06-14 13:49:45] INFO root fetch - processPackages [casanova]: Downloading https://files.pythonhosted.org/packages/fb/e8/c52fea40c67476e09546e63acb26b0213e2c617d6c502ecf2e42bae106e2/casanova-1.8.0a2.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pymox]: Downloading https://files.pythonhosted.org/packages/a8/39/c930be27abb73f0b5346f4dc34d002556b50363c2c3de13ac4f5e35f388e/pymox-1.0.1.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/85/a9/ae13dee27de797022b7a64dbae1f8342b5bbf43e3597ef1b5e6d04de5af2/rubpy-6.2.0.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/cf/ce/932ad0bd51d1a979c9155363e0ba78806a13252fa5154bbc2eaa6261108c/pyjava-0.6.0.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [logni]: Downloading https://files.pythonhosted.org/packages/22/a7/a8e068febbb4a7ccdd3e93a293c1c952385d183ce18e6f3e86d46b8be097/logni-0.1.2.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-06-14 13:49:45] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.1.9.tar.gz tmp/rubpy-6.2.0.tar.gz --markdown 20230614/r/rubpy/6.1.9-6.2.0/diff.md --exclude *.pyd
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.5.0.tar.gz tmp/pyjava-0.6.0.tar.gz --markdown 20230614/p/pyjava/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-14 13:49:45] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/d9/c2/cd22aa08c5c3bbd355b77911fc7e992af570fea1b68687ce4814e037b921/clipped-0.4.0.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [logni]: executing diffoscope
+[2023-06-14 13:49:45] INFO root fetch - processPackages [logni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logni-0.1.1.tar.gz tmp/logni-0.1.2.tar.gz --markdown 20230614/l/logni/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 13:49:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/dc/36/e8ffccd585ba0e9c7c93eb64ad6c1e6a5e8d8ab32f07a67380538771f056/bigdl_llm-2.4.0b20230613-py3-none-win_amd64.whl
+[2023-06-14 13:49:45] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/58/61/1eaf4a9596679a232def5b5eb625eb8babf2f327e1f302ed53f17683f35f/bigdl_chronos-2.4.0b20230613-py3-none-win_amd64.whl
+[2023-06-14 13:49:45] INFO root fetch - processPackages [casanova]: Downloading https://files.pythonhosted.org/packages/7e/5f/e68464a254c011a4a22861be0db3b63c50a70a55b62605a92564c60bdc02/casanova-1.9.0.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [pymox]: Downloading https://files.pythonhosted.org/packages/3e/85/f62f69516064df23418365e8846d534eb05848f8f157bfae439c0ab31b56/pymox-1.0.2.tar.gz
+[2023-06-14 13:49:45] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-06-14 13:49:45] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.3.4.tar.gz tmp/clipped-0.4.0.tar.gz --markdown 20230614/c/clipped/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-14 13:49:46] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-14 13:49:46] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230612-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230613-py3-none-win_amd64.whl.zip --markdown 20230614/b/bigdl-llm/2.4.0b20230612-2.4.0b20230613/diff.md --exclude *.pyd
+[2023-06-14 13:49:46] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-14 13:49:46] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230612-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230613-py3-none-win_amd64.whl.zip --markdown 20230614/b/bigdl-chronos/2.4.0b20230612-2.4.0b20230613/diff.md --exclude *.pyd
+[2023-06-14 13:49:46] INFO root fetch - processPackages [pymox]: executing diffoscope
+[2023-06-14 13:49:46] INFO root fetch - processPackages [pymox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymox-1.0.1.tar.gz tmp/pymox-1.0.2.tar.gz --markdown 20230614/p/pymox/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 13:49:46] INFO root fetch - processPackages [casanova]: executing diffoscope
+[2023-06-14 13:49:46] INFO root fetch - processPackages [casanova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casanova-1.8.0a2.tar.gz tmp/casanova-1.9.0.tar.gz --markdown 20230614/c/casanova/1.8.0a2-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 13:49:48] INFO root fetch - processPackages [logni]: Remove: archive file [/home/abi/fetcher/tmp/logni-0.1.1.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - processPackages [logni]: Remove: archive file [/home/abi/fetcher/tmp/logni-0.1.2.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - main [MainThread]: End processing [logni]: success
+[2023-06-14 13:49:48] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.1.9.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.2.0.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-06-14 13:49:48] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.5.0.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.0.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-06-14 13:49:48] INFO root fetch - processPackages [pymox]: Remove: archive file [/home/abi/fetcher/tmp/pymox-1.0.1.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - processPackages [pymox]: Remove: archive file [/home/abi/fetcher/tmp/pymox-1.0.2.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - main [MainThread]: End processing [pymox]: success
+[2023-06-14 13:49:48] INFO root fetch - processPackages [clipped]: Remove: archive file [/home/abi/fetcher/tmp/clipped-0.3.4.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - processPackages [clipped]: Remove: archive file [/home/abi/fetcher/tmp/clipped-0.4.0.tar.gz]
+[2023-06-14 13:49:48] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-06-14 13:49:49] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230612-py3-none-win_amd64.whl.zip]
+[2023-06-14 13:49:49] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230613-py3-none-win_amd64.whl.zip]
+[2023-06-14 13:49:49] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-14 13:49:49] INFO root fetch - processPackages [casanova]: Remove: archive file [/home/abi/fetcher/tmp/casanova-1.8.0a2.tar.gz]
+[2023-06-14 13:49:49] INFO root fetch - processPackages [casanova]: Remove: archive file [/home/abi/fetcher/tmp/casanova-1.9.0.tar.gz]
+[2023-06-14 13:49:49] INFO root fetch - main [MainThread]: End processing [casanova]: success
+[2023-06-14 13:49:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230612-py3-none-win_amd64.whl.zip]
+[2023-06-14 13:49:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230613-py3-none-win_amd64.whl.zip]
+[2023-06-14 13:49:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-14 13:49:49] INFO root fetch - main [MainThread]: Store serial: [18500631]
