@@ -19620,3 +19620,185 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:44:05] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.1.4.tar.gz]
 [2023-06-14 11:44:05] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
 [2023-06-14 11:44:05] INFO root fetch - main [MainThread]: Store serial: [18499300]
+[2023-06-14 11:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499300]
+[2023-06-14 11:49:16] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powerapi
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-boxmanager
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p360-export
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: allure-custom
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-secret-manager-client
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chronosphere
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: podval
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wagtailsnippetscopy
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ilcdlib
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quao
+[2023-06-14 11:49:16] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.0b5] Old Version: [0.4.0b4]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [p360-export]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [powerapi]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [aliyun-secret-manager-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 11:49:16] WARNING root fetch - processPackages [chronosphere]: Skipping, unable to determine old version
+[2023-06-14 11:49:16] INFO root fetch - processPackages [allure-custom]: New version: [2023.6.14] Old Version: [1.2.2]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [chronosphere]: Start processing: junit-to-md-py
+[2023-06-14 11:49:16] INFO root fetch - main [MainThread]: End processing [chronosphere] error
+[2023-06-14 11:49:16] INFO root fetch - processPackages [podval]: New version: [3.1] Old Version: [3.0]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [wagtailsnippetscopy]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [quao]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ilcdlib]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [junit-to-md-py]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/34/7f/80526981d73530e5fbb815c553e8cf01b0f0e7cc22cf9f3d6e7480e6168f/podval-3.0.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [junit-to-md-py]: Downloading https://files.pythonhosted.org/packages/00/1f/0b65ed27fc785f145e0fade62d063a47c2f5a4570c6d4e010eaa2d6f1f7a/junit-to-md-py-1.1.1.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [wagtailsnippetscopy]: Downloading https://files.pythonhosted.org/packages/81/2d/03d25650081d75138a463c26f9fda2d1f63d61ed6683d30ad5cd255ef9b2/wagtailsnippetscopy-0.5.0.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/45/2a/5959454be163720646f8e336356286d7e74ec6a18348703cb88542208048/quao-0.2.1.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [p360-export]: Downloading https://files.pythonhosted.org/packages/f0/3d/8c46f8fa379221c23644828aeffb1f21175c2c9be1497206135b869b1726/p360-export-1.5.5.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [powerapi]: Downloading https://files.pythonhosted.org/packages/86/2c/371c22ed1a334b1d407dc56edc346140169f9240d5a4577e375149f7f1a4/powerapi-2.0.3.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/4c/5b/d7f9056b9c3bca6f350455bda283e66780193b648238e92ef282af5d2b90/napari_boxmanager-0.4.0b4.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/bf/93/6338c59fb84068a9da3827c0e979fc59541d34f6008fea3cfde7d98fb469/ilcdlib-0.5.0.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [allure-custom]: Downloading https://files.pythonhosted.org/packages/20/a7/208da576ccb65da3a81165f759db6dceba2c514d2118a6c915665bd83736/allure_custom-1.2.2.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [aliyun-secret-manager-client]: Downloading https://files.pythonhosted.org/packages/df/7a/5f5ee93c61aeba205f21831ccbff8ab88c0a3875ef322c31c665df16e373/aliyun-secret-manager-client-0.1.0.tar.gz
+[2023-06-14 11:49:16] WARNING root fetch - processPackages [allure-custom]: Skipping package: exceeds size limit 20714877>=10485760
+[2023-06-14 11:49:16] INFO root fetch - processPackages [allure-custom]: Start processing: lamindb
+[2023-06-14 11:49:16] INFO root fetch - main [MainThread]: End processing [allure-custom] error
+[2023-06-14 11:49:16] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/a0/b4/cfe3603ecd4cbb05cfea4b41e8275a7ada1955a8fb953f912f02d66b247a/podval-3.1.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [wagtailsnippetscopy]: Downloading https://files.pythonhosted.org/packages/82/51/e2d05871e54196a7d081fa15020ef13482433e0cf7c063929f2c9319a898/wagtailsnippetscopy-0.5.1.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-06-14 11:49:16] INFO root fetch - processPackages [junit-to-md-py]: Downloading https://files.pythonhosted.org/packages/e3/4a/bfe995874e76b37416e350d69f007168662c63c56eaf3a4b2a0c8264e02d/junit-to-md-py-1.1.2.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [p360-export]: Downloading https://files.pythonhosted.org/packages/7b/03/b321314d9cc9d32a3c21ae22b5f7558a794ed9e97502b52db7722107354c/p360-export-1.5.6.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/48/f3/38c45c6ebc117aca5493088d673c64c642ade71eabef6f51551fc587ccc9/quao-0.2.2.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [powerapi]: Downloading https://files.pythonhosted.org/packages/39/dd/9227ba18ed42f32d688b897794b73fd2790d6e4e5f92057692ee0105e29f/powerapi-2.0.4.tar.gz
+[2023-06-14 11:49:16] INFO root fetch - processPackages [wagtailsnippetscopy]: executing diffoscope
+[2023-06-14 11:49:16] INFO root fetch - processPackages [wagtailsnippetscopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailsnippetscopy-0.5.0.tar.gz tmp/wagtailsnippetscopy-0.5.1.tar.gz --markdown 20230614/w/wagtailsnippetscopy/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [junit-to-md-py]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [junit-to-md-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junit-to-md-py-1.1.1.tar.gz tmp/junit-to-md-py-1.1.2.tar.gz --markdown 20230614/j/junit-to-md-py/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [aliyun-secret-manager-client]: Downloading https://files.pythonhosted.org/packages/70/fd/5b1a1dadee1921c297611ac3eb79f8f923ea23a712c4ad821452644805fb/aliyun-secret-manager-client-0.1.1.tar.gz
+[2023-06-14 11:49:17] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/77/79/a4a002ad137bf1a193afeb86e159ecec628ec921730e88140713924a9576/ilcdlib-0.6.0.tar.gz
+[2023-06-14 11:49:17] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-06-14 11:49:17] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-3.0.tar.gz tmp/podval-3.1.tar.gz --markdown 20230614/p/podval/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [p360-export]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [p360-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p360-export-1.5.5.tar.gz tmp/p360-export-1.5.6.tar.gz --markdown 20230614/p/p360-export/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [powerapi]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [powerapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerapi-2.0.3.tar.gz tmp/powerapi-2.0.4.tar.gz --markdown 20230614/p/powerapi/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.1.tar.gz tmp/quao-0.2.2.tar.gz --markdown 20230614/q/quao/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [aliyun-secret-manager-client]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [aliyun-secret-manager-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-secret-manager-client-0.1.0.tar.gz tmp/aliyun-secret-manager-client-0.1.1.tar.gz --markdown 20230614/a/aliyun-secret-manager-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-0.5.0.tar.gz tmp/ilcdlib-0.6.0.tar.gz --markdown 20230614/i/ilcdlib/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-06-14 11:49:17] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/24/11/c6edc678de37eabbb3ab9598949a81529f02db28b585949d923a08faceb1/napari_boxmanager-0.4.0b5.tar.gz
+[2023-06-14 11:49:17] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230614/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-06-14 11:49:17] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-06-14 11:49:17] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.4.0b4.tar.gz tmp/napari_boxmanager-0.4.0b5.tar.gz --markdown 20230614/n/napari-boxmanager/0.4.0b4-0.4.0b5/diff.md --exclude *.pyd
+[2023-06-14 11:49:19] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.0.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.1.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [podval]: Start processing: dws-merkle
+[2023-06-14 11:49:19] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-14 11:49:19] INFO root fetch - processPackages [wagtailsnippetscopy]: Remove: archive file [/home/abi/fetcher/tmp/wagtailsnippetscopy-0.5.0.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [junit-to-md-py]: Remove: archive file [/home/abi/fetcher/tmp/junit-to-md-py-1.1.1.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [wagtailsnippetscopy]: Remove: archive file [/home/abi/fetcher/tmp/wagtailsnippetscopy-0.5.1.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [junit-to-md-py]: Remove: archive file [/home/abi/fetcher/tmp/junit-to-md-py-1.1.2.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [wagtailsnippetscopy]: Start processing: login-gmail-selenium
+[2023-06-14 11:49:19] INFO root fetch - processPackages [junit-to-md-py]: Start processing: GlyCONFORMER
+[2023-06-14 11:49:19] INFO root fetch - main [MainThread]: End processing [wagtailsnippetscopy]: success
+[2023-06-14 11:49:19] INFO root fetch - main [MainThread]: End processing [junit-to-md-py]: success
+[2023-06-14 11:49:19] INFO root fetch - processPackages [dws-merkle]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [GlyCONFORMER]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [login-gmail-selenium]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [dws-merkle]: Downloading https://files.pythonhosted.org/packages/d2/3c/fb499b8c50fa32d0910ab977aa168d5479445063e1037aae52770e170bc3/dws-merkle-0.0.6.tar.gz
+[2023-06-14 11:49:19] INFO root fetch - processPackages [aliyun-secret-manager-client]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-secret-manager-client-0.1.0.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [aliyun-secret-manager-client]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-secret-manager-client-0.1.1.tar.gz]
+[2023-06-14 11:49:19] INFO root fetch - processPackages [aliyun-secret-manager-client]: Start processing: mtpandas
+[2023-06-14 11:49:19] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/69/89/a79e7c778198e052babbccb84f2a02c1790b8a3a914d887ce5b828a89662/login_gmail_selenium-1.1.7.tar.gz
+[2023-06-14 11:49:19] INFO root fetch - main [MainThread]: End processing [aliyun-secret-manager-client]: success
+[2023-06-14 11:49:19] INFO root fetch - processPackages [GlyCONFORMER]: Downloading https://files.pythonhosted.org/packages/2c/48/46d8683f7a9a50726823312b0d641af93e5c6786e605f3a5e92b7a3d7724/GlyCONFORMER-0.0.1.tar.gz
+[2023-06-14 11:49:19] INFO root fetch - processPackages [mtpandas]: New version: [1.9.202208120520] Old Version: [1.9.202208011136]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [p360-export]: Remove: archive file [/home/abi/fetcher/tmp/p360-export-1.5.5.tar.gz]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [p360-export]: Remove: archive file [/home/abi/fetcher/tmp/p360-export-1.5.6.tar.gz]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [p360-export]: Start processing: ascend-deployer
+[2023-06-14 11:49:20] INFO root fetch - main [MainThread]: End processing [p360-export]: success
+[2023-06-14 11:49:20] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0.0b5] Old Version: [5.0.0b4]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/83/07/ea7b949233637231b605ad043e5af153695fabeec4dd4d2941c8d0bdd8c1/mtpandas-1.9.202208011136-py3-none-any.whl
+[2023-06-14 11:49:20] INFO root fetch - processPackages [GlyCONFORMER]: Downloading https://files.pythonhosted.org/packages/32/9d/d0c0ada7139159980431f0c9c640945373bc26d0717ce88108acc37f1813/GlyCONFORMER-1.0.0.tar.gz
+[2023-06-14 11:49:20] INFO root fetch - processPackages [dws-merkle]: Downloading https://files.pythonhosted.org/packages/c8/98/94c456040a128a81ea57e9bc7768fba639e898c034059836115ddc6b07d2/dws-merkle-0.0.7.tar.gz
+[2023-06-14 11:49:20] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/ea/04/bf67bfb2ff1221b6fc4d38196217dbac641eb2f5036487e56f7802ba8bca/ascend_deployer-5.0.0b4-py3-none-any.whl
+[2023-06-14 11:49:20] INFO root fetch - processPackages [GlyCONFORMER]: executing diffoscope
+[2023-06-14 11:49:20] INFO root fetch - processPackages [GlyCONFORMER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlyCONFORMER-0.0.1.tar.gz tmp/GlyCONFORMER-1.0.0.tar.gz --markdown 20230614/G/GlyCONFORMER/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 11:49:20] INFO root fetch - processPackages [dws-merkle]: executing diffoscope
+[2023-06-14 11:49:20] INFO root fetch - processPackages [dws-merkle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dws-merkle-0.0.6.tar.gz tmp/dws-merkle-0.0.7.tar.gz --markdown 20230614/d/dws-merkle/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 11:49:20] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.1.tar.gz]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.2.tar.gz]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [quao]: Start processing: labeltransform2
+[2023-06-14 11:49:20] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-06-14 11:49:20] INFO root fetch - processPackages [labeltransform2]: New version: [1.9] Old Version: [1.8]
+[2023-06-14 11:49:20] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/23/b6/bf5fb56b720f4ef35635316717ff4ea8998616831b384592068afb89f115/labeltransform2-1.8.tar.gz
+[2023-06-14 11:49:20] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/6b/c5/5887a43a006743313198ea775120a74710c0da606c9ccbd6612c8010296a/mtpandas-1.9.202208120520-py3-none-any.whl
+[2023-06-14 11:49:20] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/dd/a4/c464658d39f8b5804282e7c5bc861c98492c7119068b52ffc9c9a6502069/ascend_deployer-5.0.0b5-py3-none-any.whl
+[2023-06-14 11:49:20] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-06-14 11:49:20] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b4-py3-none-any.whl.zip tmp/ascend_deployer-5.0.0b5-py3-none-any.whl.zip --markdown 20230614/a/ascend-deployer/5.0.0b4-5.0.0b5/diff.md --exclude *.pyd
+[2023-06-14 11:49:20] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/d7/99/79309881719b26d4d1f9492fe6451bb0b1b6fbc44bd551b204d252a62e76/labeltransform2-1.9.tar.gz
+[2023-06-14 11:49:20] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-14 11:49:20] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.8.tar.gz tmp/labeltransform2-1.9.tar.gz --markdown 20230614/l/labeltransform2/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-14 11:49:20] INFO root fetch - processPackages [login-gmail-selenium]: Downloading https://files.pythonhosted.org/packages/ab/48/ba244569a608833e0672d30af655f0ad014623287da8eefa486c7bc2736a/login_gmail_selenium-1.1.8.tar.gz
+[2023-06-14 11:49:21] INFO root fetch - processPackages [mtpandas]: executing diffoscope
+[2023-06-14 11:49:21] INFO root fetch - processPackages [mtpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip --markdown 20230614/m/mtpandas/1.9.202208011136-1.9.202208120520/diff.md --exclude *.pyd
+[2023-06-14 11:49:21] INFO root fetch - processPackages [login-gmail-selenium]: executing diffoscope
+[2023-06-14 11:49:21] INFO root fetch - processPackages [login-gmail-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/login_gmail_selenium-1.1.7.tar.gz tmp/login_gmail_selenium-1.1.8.tar.gz --markdown 20230614/l/login-gmail-selenium/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-14 11:49:21] INFO root fetch - processPackages [powerapi]: Remove: archive file [/home/abi/fetcher/tmp/powerapi-2.0.3.tar.gz]
+[2023-06-14 11:49:21] INFO root fetch - processPackages [powerapi]: Remove: archive file [/home/abi/fetcher/tmp/powerapi-2.0.4.tar.gz]
+[2023-06-14 11:49:21] INFO root fetch - processPackages [powerapi]: Start processing: configuraptor
+[2023-06-14 11:49:21] INFO root fetch - main [MainThread]: End processing [powerapi]: success
+[2023-06-14 11:49:22] INFO root fetch - processPackages [configuraptor]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/45/c6/01045b6073637672a8fcfcfcaf73c8b296c92738bccfa5c6ca7a69130a3d/configuraptor-1.0.2.tar.gz
+[2023-06-14 11:49:22] INFO root fetch - processPackages [dws-merkle]: Remove: archive file [/home/abi/fetcher/tmp/dws-merkle-0.0.6.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [dws-merkle]: Remove: archive file [/home/abi/fetcher/tmp/dws-merkle-0.0.7.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [dws-merkle]: Start processing: graphql-api
+[2023-06-14 11:49:22] INFO root fetch - main [MainThread]: End processing [dws-merkle]: success
+[2023-06-14 11:49:22] INFO root fetch - processPackages [graphql-api]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/ed/84/a48389390214e5e4090726e509056cf6d49325c516a89ee85e17467b2ec6/configuraptor-1.0.3.tar.gz
+[2023-06-14 11:49:22] INFO root fetch - processPackages [GlyCONFORMER]: Remove: archive file [/home/abi/fetcher/tmp/GlyCONFORMER-0.0.1.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [GlyCONFORMER]: Remove: archive file [/home/abi/fetcher/tmp/GlyCONFORMER-1.0.0.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [GlyCONFORMER]: Start processing: ptal-api
+[2023-06-14 11:49:22] INFO root fetch - main [MainThread]: End processing [GlyCONFORMER]: success
+[2023-06-14 11:49:22] INFO root fetch - processPackages [ptal-api]: New version: [0.12.0] Old Version: [0.11.6.1]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [graphql-api]: Downloading https://files.pythonhosted.org/packages/ab/5a/8c61f4bd2216f11b0c352f9bebd8736ea52031fe7c1788219668cc121fe1/graphql-api-1.3.8.tar.gz
+[2023-06-14 11:49:22] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.5.0.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.6.0.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2023-06-14 11:49:22] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-14 11:49:22] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.0.2.tar.gz tmp/configuraptor-1.0.3.tar.gz --markdown 20230614/c/configuraptor/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 11:49:22] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/93/83/9bbdb5cf413524b1e6a26e92d4f6f6ba1dfdd5b8fc3719b6efa9236fcec5/ptal_api-0.11.6.1.tar.gz
+[2023-06-14 11:49:22] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-06-14 11:49:22] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-06-14 11:49:22] INFO root fetch - processPackages [graphql-api]: Downloading https://files.pythonhosted.org/packages/ac/87/c0be078dd74989ea2f480970875733a32a39c2fe780dc5342c4348a18816/graphql-api-1.3.9.tar.gz
+[2023-06-14 11:49:23] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.8.tar.gz]
+[2023-06-14 11:49:23] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.9.tar.gz]
+[2023-06-14 11:49:23] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-14 11:49:23] INFO root fetch - processPackages [graphql-api]: executing diffoscope
+[2023-06-14 11:49:23] INFO root fetch - processPackages [graphql-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql-api-1.3.8.tar.gz tmp/graphql-api-1.3.9.tar.gz --markdown 20230614/g/graphql-api/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-14 11:49:23] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/b9/03/591adb8803928b6737f862eecca857b49aade654ab82d22b717a2e033681/ptal_api-0.12.0.tar.gz
+[2023-06-14 11:49:23] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-06-14 11:49:23] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.11.6.1.tar.gz tmp/ptal_api-0.12.0.tar.gz --markdown 20230614/p/ptal-api/0.11.6.1-0.12.0/diff.md --exclude *.pyd
+[2023-06-14 11:49:23] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip]
+[2023-06-14 11:49:23] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip]
+[2023-06-14 11:49:23] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
+[2023-06-14 11:49:23] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.0b4.tar.gz]
+[2023-06-14 11:49:23] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.0b5.tar.gz]
+[2023-06-14 11:49:23] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-06-14 11:49:24] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.7.tar.gz]
+[2023-06-14 11:49:24] INFO root fetch - processPackages [login-gmail-selenium]: Remove: archive file [/home/abi/fetcher/tmp/login_gmail_selenium-1.1.8.tar.gz]
+[2023-06-14 11:49:24] INFO root fetch - main [MainThread]: End processing [login-gmail-selenium]: success
+[2023-06-14 11:49:25] INFO root fetch - processPackages [graphql-api]: Remove: archive file [/home/abi/fetcher/tmp/graphql-api-1.3.8.tar.gz]
+[2023-06-14 11:49:25] INFO root fetch - processPackages [graphql-api]: Remove: archive file [/home/abi/fetcher/tmp/graphql-api-1.3.9.tar.gz]
+[2023-06-14 11:49:25] INFO root fetch - main [MainThread]: End processing [graphql-api]: success
+[2023-06-14 11:49:25] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.11.6.1.tar.gz]
+[2023-06-14 11:49:25] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.0.tar.gz]
+[2023-06-14 11:49:25] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-06-14 11:49:26] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.0.2.tar.gz]
+[2023-06-14 11:49:26] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.0.3.tar.gz]
+[2023-06-14 11:49:26] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-14 11:49:29] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b4-py3-none-any.whl.zip]
+[2023-06-14 11:49:29] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b5-py3-none-any.whl.zip]
+[2023-06-14 11:49:29] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-06-14 11:49:29] INFO root fetch - main [MainThread]: Store serial: [18499377]
