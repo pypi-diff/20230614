@@ -13957,3 +13957,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:55:24] INFO root fetch - processPackages [flywheel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_sdk-9.0.3-py2.py3-none-any.whl.zip]
 [2023-06-14 07:55:24] INFO root fetch - main [MainThread]: End processing [flywheel-sdk]: success
 [2023-06-14 07:55:24] INFO root fetch - main [MainThread]: Store serial: [18496739]
+[2023-06-14 08:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496739]
+[2023-06-14 08:00:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 08:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-06-14 08:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automation-file-dev
+[2023-06-14 08:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PRauto
+[2023-06-14 08:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xklb
+[2023-06-14 08:00:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: copulae
+[2023-06-14 08:00:33] INFO root fetch - processPackages [automation-file-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 08:00:33] INFO root fetch - processPackages [copulae]: New version: [0.7.8] Old Version: [0.7.7]
+[2023-06-14 08:00:33] INFO root fetch - processPackages [xklb]: New version: [1.31.3] Old Version: [1.31.2]
+[2023-06-14 08:00:33] INFO root fetch - processPackages [PRauto]: New version: [0.214] Old Version: [0.213]
+[2023-06-14 08:00:33] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230614055548] Old Version: [2.1.1.dev20230613132648]
+[2023-06-14 08:00:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b8/ff/996df8e97ab9d161414787388428baf16431abc3ab67fca99a87accbf7ce/localstack-core-2.1.1.dev20230613132648.tar.gz
+[2023-06-14 08:00:33] INFO root fetch - processPackages [copulae]: Downloading https://files.pythonhosted.org/packages/ba/04/eb3ea9bed2dd87b8969ba211b5fc3e7ece6806ae3fb45b578f61017ca97c/copulae-0.7.7.tar.gz
+[2023-06-14 08:00:33] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/50/e1/4f09e061e4c8d2c43dcd7795cbb22fc9e6090cafa102012ff4813b9fdf0c/PRauto-0.213.tar.gz
+[2023-06-14 08:00:33] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/e7/1f/bae9cff4f8c4b903041a35b20956afc04c8f0ceb8704718a6c69687a4a46/xklb-1.31.2.tar.gz
+[2023-06-14 08:00:33] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/a8/ac/0c7d47373834088c1e51432abf5758c7c09f8c3303b11513d87897381400/automation_file_dev-0.0.8.tar.gz
+[2023-06-14 08:00:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3c/54/a5261e485c18e9723b0dfe0fdab8bbd60f1a84ac9ff1079ddeedc180ecda/localstack-core-2.1.1.dev20230614055548.tar.gz
+[2023-06-14 08:00:34] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/ff/fb/bba2ce722db5942eba21052b8658deee68263f49befd10d05fca41eab4a8/PRauto-0.214.tar.gz
+[2023-06-14 08:00:34] INFO root fetch - processPackages [copulae]: Downloading https://files.pythonhosted.org/packages/62/73/1efdb2c61551115dea09a38c631986f40cb664ac14c40ee85adc796a2dbf/copulae-0.7.8.tar.gz
+[2023-06-14 08:00:34] INFO root fetch - processPackages [automation-file-dev]: Downloading https://files.pythonhosted.org/packages/01/7f/12e7511afb9c1d3533be1bb5782b028b4e743036972a3bed3ce053bb52ac/automation_file_dev-0.0.9.tar.gz
+[2023-06-14 08:00:34] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/ad/04/8012a6d5e9c7b3118fdf48d39c3f48e5314316e76c6d553f2e3f584eb0df/xklb-1.31.3.tar.gz
+[2023-06-14 08:00:34] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-06-14 08:00:34] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.213.tar.gz tmp/PRauto-0.214.tar.gz --markdown 20230614/P/PRauto/0.213-0.214/diff.md --exclude *.pyd
+[2023-06-14 08:00:34] INFO root fetch - processPackages [automation-file-dev]: executing diffoscope
+[2023-06-14 08:00:34] INFO root fetch - processPackages [automation-file-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file_dev-0.0.8.tar.gz tmp/automation_file_dev-0.0.9.tar.gz --markdown 20230614/a/automation-file-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:00:34] INFO root fetch - processPackages [copulae]: executing diffoscope
+[2023-06-14 08:00:34] INFO root fetch - processPackages [copulae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copulae-0.7.7.tar.gz tmp/copulae-0.7.8.tar.gz --markdown 20230614/c/copulae/0.7.7-0.7.8/diff.md --exclude *.pyd
+[2023-06-14 08:00:34] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-06-14 08:00:34] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-1.31.2.tar.gz tmp/xklb-1.31.3.tar.gz --markdown 20230614/x/xklb/1.31.2-1.31.3/diff.md --exclude *.pyd
+[2023-06-14 08:00:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-14 08:00:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230613132648.tar.gz tmp/localstack-core-2.1.1.dev20230614055548.tar.gz --markdown 20230614/l/localstack-core/2.1.1.dev20230613132648-2.1.1.dev20230614055548/diff.md --exclude *.pyd
+[2023-06-14 08:00:35] INFO root fetch - processPackages [PRauto]: Remove: archive file [/home/abi/fetcher/tmp/PRauto-0.213.tar.gz]
+[2023-06-14 08:00:35] INFO root fetch - processPackages [PRauto]: Remove: archive file [/home/abi/fetcher/tmp/PRauto-0.214.tar.gz]
+[2023-06-14 08:00:35] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-06-14 08:00:35] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.8.tar.gz]
+[2023-06-14 08:00:35] INFO root fetch - processPackages [automation-file-dev]: Remove: archive file [/home/abi/fetcher/tmp/automation_file_dev-0.0.9.tar.gz]
+[2023-06-14 08:00:35] INFO root fetch - main [MainThread]: End processing [automation-file-dev]: success
+[2023-06-14 08:00:35] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.31.2.tar.gz]
+[2023-06-14 08:00:35] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-1.31.3.tar.gz]
+[2023-06-14 08:00:35] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-06-14 08:00:37] INFO root fetch - processPackages [copulae]: Remove: archive file [/home/abi/fetcher/tmp/copulae-0.7.7.tar.gz]
+[2023-06-14 08:00:37] INFO root fetch - processPackages [copulae]: Remove: archive file [/home/abi/fetcher/tmp/copulae-0.7.8.tar.gz]
+[2023-06-14 08:00:37] INFO root fetch - main [MainThread]: End processing [copulae]: success
+[2023-06-14 08:00:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230613132648.tar.gz]
+[2023-06-14 08:00:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230614055548.tar.gz]
+[2023-06-14 08:00:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-14 08:00:40] INFO root fetch - main [MainThread]: Store serial: [18496770]
