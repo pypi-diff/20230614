@@ -19991,3 +19991,107 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 12:00:01] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
 [2023-06-14 12:00:01] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-06-14 12:00:01] INFO root fetch - main [MainThread]: Store serial: [18499478]
+[2023-06-14 12:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499478]
+[2023-06-14 12:05:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: podval
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huspacy-nightly
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymilvus
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opendaq
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: revChatGPT
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tengu-py
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-ddmrp-warning
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Babylon2Image
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: planetmapper
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scratchlib
+[2023-06-14 12:05:11] INFO root fetch - processPackages [opendaq]: New version: [0.9.8] Old Version: [0.3.2]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [tengu-py]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: New version: [13.0.1.2.0] Old Version: [13.0.1.1.0]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [scratchlib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [podval]: New version: [3.3] Old Version: [3.2]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [pymilvus]: New version: [2.3.0b1] Old Version: [2.2.9]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [planetmapper]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-14 12:05:11] WARNING root fetch - processPackages [Babylon2Image]: Skipping, unable to determine old version
+[2023-06-14 12:05:11] INFO root fetch - processPackages [Babylon2Image]: Start processing: ekuiper
+[2023-06-14 12:05:11] INFO root fetch - main [MainThread]: End processing [Babylon2Image] error
+[2023-06-14 12:05:11] INFO root fetch - processPackages [revChatGPT]: New version: [6.2.1] Old Version: [6.2.0]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-14 12:05:11] INFO root fetch - processPackages [huspacy-nightly]: New version: [0.9.0.dev239] Old Version: [0.9.0.dev237]
+[2023-06-14 12:05:12] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/43/f8/ef95feaeefd7aa28311155e1111fdcbe271592264fe547a3c391b138c059/podval-3.2.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/40/57/5287427f5ef4f46500b5528f0068c495d2ff3cc9e012a63b3d2b0b903ff5/tengu_py-0.4.0.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [opendaq]: Downloading https://files.pythonhosted.org/packages/a8/05/26026e164010ff443167e55611f7b3c93c33297fa08060cfd314d596914f/opendaq-0.3.2.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/24/3d/39614ae34dcb6cb99b7f07fed71050155bf8c92c3e3b317e235fcc41058f/odoo13_addon_ddmrp_warning-13.0.1.1.0-py3-none-any.whl
+[2023-06-14 12:05:12] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/35/e6/cf16590df49f1195dc5eea2c33e7b04f7441a33410b4e5c31c6734dc447c/revChatGPT-6.2.0.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/87/92/8c9f6184d06cd4c451372b9e2340208fc6896acf7c1a28f8bb94109d31d4/pymilvus-2.2.9.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/a9/1c/ba5aca5aab9addf690c4c951a67ace8408cda071768282812fe33d7685b2/planetmapper-1.7.2.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/ca/10/aed1d7c6fdf2a0d33e44c16951cd9ef813061d890f0cc4172e4d237ca01f/ekuiper-1.9.1.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/22/5f/96d267e14ea49363bd8d51d3e144737b2bfc6070deb580a2fa3fc8c25181/huspacy_nightly-0.9.0.dev237-py3-none-any.whl
+[2023-06-14 12:05:12] INFO root fetch - processPackages [scratchlib]: Downloading https://files.pythonhosted.org/packages/27/58/73792ce66e5eca6350b15836bb90bf756dab6824773cf20c0483ce297b80/scratchlib-0.8.0.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [opendaq]: Downloading https://files.pythonhosted.org/packages/90/8f/e6bcbd4e405f491cfc036fc9a0b18f4869cd037b8f4f2b414df472bbca5b/opendaq-0.9.8-cp311-cp311-win_amd64.whl
+[2023-06-14 12:05:12] INFO root fetch - processPackages [tengu-py]: Downloading https://files.pythonhosted.org/packages/05/ee/0df27820939c5ecec072ae6c53c916af809fdf398cf39e36262e9f4811cd/tengu_py-0.5.0.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: Downloading https://files.pythonhosted.org/packages/f7/c7/78a7b6264eb468d90f9bbb9fb06446723e9557a6df3b37010c717a6748ef/odoo13_addon_ddmrp_warning-13.0.1.2.0-py3-none-any.whl
+[2023-06-14 12:05:12] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/1f/a4/a02d11ede4122aa3bbedaaaa29dd7f0cdf7f851137aa08c7efbbe6b12e78/revChatGPT-6.2.1.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/cd/4f/acae6d006f559388d1d6d6b87e39de059c0a3a6c74b15722dfc40c3de354/podval-3.3.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [tengu-py]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [tengu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tengu_py-0.4.0.tar.gz tmp/tengu_py-0.5.0.tar.gz --markdown 20230614/t/tengu-py/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/06/c8/17548136463c170e3cb532bee55f33d39c529cee88c93c5b974af521c524/pymilvus-2.3.0b1.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp_warning-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp_warning-13.0.1.2.0-py3-none-any.whl.zip --markdown 20230614/o/odoo13-addon-ddmrp-warning/13.0.1.1.0-13.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [huspacy-nightly]: Downloading https://files.pythonhosted.org/packages/4a/bc/025a4b21baaff74feb449b3d6661b58cb1ae36d042dc0267d69513a51dc6/huspacy_nightly-0.9.0.dev239-py3-none-any.whl
+[2023-06-14 12:05:12] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.2.0.tar.gz tmp/revChatGPT-6.2.1.tar.gz --markdown 20230614/r/revChatGPT/6.2.0-6.2.1/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [opendaq]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [opendaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendaq-0.3.2.tar.gz tmp/opendaq-0.9.8-cp311-cp311-win_amd64.whl.zip --markdown 20230614/o/opendaq/0.3.2-0.9.8/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [planetmapper]: Downloading https://files.pythonhosted.org/packages/62/af/07aab9a4b22673aee3f900125c360498005e9dffcdd4999c1a546c5025d8/planetmapper-1.7.3.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [ekuiper]: Downloading https://files.pythonhosted.org/packages/44/cc/47ea2cdc9e522f5d6468310623a50fd5720f9088e52c7eaea835ac05e235/ekuiper-1.9.2.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-3.2.tar.gz tmp/podval-3.3.tar.gz --markdown 20230614/p/podval/3.2-3.3/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [huspacy-nightly]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [huspacy-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huspacy_nightly-0.9.0.dev237-py3-none-any.whl.zip tmp/huspacy_nightly-0.9.0.dev239-py3-none-any.whl.zip --markdown 20230614/h/huspacy-nightly/0.9.0.dev237-0.9.0.dev239/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [scratchlib]: Downloading https://files.pythonhosted.org/packages/d5/65/010d21248f672559658f15dee3ed97a323128c9d2b0eeb765582393d5bec/scratchlib-0.9.0.tar.gz
+[2023-06-14 12:05:12] INFO root fetch - processPackages [pymilvus]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [pymilvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus-2.2.9.tar.gz tmp/pymilvus-2.3.0b1.tar.gz --markdown 20230614/p/pymilvus/2.2.9-2.3.0b1/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [planetmapper]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [planetmapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmapper-1.7.2.tar.gz tmp/planetmapper-1.7.3.tar.gz --markdown 20230614/p/planetmapper/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [scratchlib]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [scratchlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchlib-0.8.0.tar.gz tmp/scratchlib-0.9.0.tar.gz --markdown 20230614/s/scratchlib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 12:05:12] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2023-06-14 12:05:12] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20230614/e/ekuiper/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-14 12:05:14] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.4.0.tar.gz]
+[2023-06-14 12:05:14] INFO root fetch - processPackages [tengu-py]: Remove: archive file [/home/abi/fetcher/tmp/tengu_py-0.5.0.tar.gz]
+[2023-06-14 12:05:14] INFO root fetch - processPackages [tengu-py]: Start processing: ekuiper
+[2023-06-14 12:05:14] INFO root fetch - main [MainThread]: End processing [tengu-py]: success
+[2023-06-14 12:05:14] INFO root fetch - processPackages [ekuiper]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.2.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.3.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-14 12:05:15] INFO root fetch - processPackages [ekuiper]: executing diffoscope
+[2023-06-14 12:05:15] INFO root fetch - processPackages [ekuiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ekuiper-1.9.1.tar.gz tmp/ekuiper-1.9.2.tar.gz --markdown 20230614/e/ekuiper/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-14 12:05:15] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp_warning-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [odoo13-addon-ddmrp-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp_warning-13.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp-warning]: success
+[2023-06-14 12:05:15] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.2.0.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.2.1.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-14 12:05:15] INFO root fetch - processPackages [scratchlib]: Remove: archive file [/home/abi/fetcher/tmp/scratchlib-0.8.0.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [scratchlib]: Remove: archive file [/home/abi/fetcher/tmp/scratchlib-0.9.0.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [scratchlib]: success
+[2023-06-14 12:05:15] INFO root fetch - processPackages [opendaq]: Remove: archive file [/home/abi/fetcher/tmp/opendaq-0.3.2.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [opendaq]: Remove: archive file [/home/abi/fetcher/tmp/opendaq-0.9.8-cp311-cp311-win_amd64.whl.zip]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [opendaq]: success
+[2023-06-14 12:05:15] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev237-py3-none-any.whl.zip]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [huspacy-nightly]: Remove: archive file [/home/abi/fetcher/tmp/huspacy_nightly-0.9.0.dev239-py3-none-any.whl.zip]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [huspacy-nightly]: success
+[2023-06-14 12:05:15] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.1.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - processPackages [ekuiper]: Remove: archive file [/home/abi/fetcher/tmp/ekuiper-1.9.2.tar.gz]
+[2023-06-14 12:05:15] INFO root fetch - main [MainThread]: End processing [ekuiper]: success
+[2023-06-14 12:05:16] ERROR root fetch - processPackages [ekuiper]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/ekuiper-1.9.1.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/ekuiper-1.9.2.tar.gz: No such file or directory
+
+[2023-06-14 12:05:16] INFO root fetch - main [MainThread]: End processing [ekuiper] error
+[2023-06-14 12:05:17] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.7.2.tar.gz]
+[2023-06-14 12:05:17] INFO root fetch - processPackages [planetmapper]: Remove: archive file [/home/abi/fetcher/tmp/planetmapper-1.7.3.tar.gz]
+[2023-06-14 12:05:17] INFO root fetch - main [MainThread]: End processing [planetmapper]: success
+[2023-06-14 12:05:17] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.2.9.tar.gz]
+[2023-06-14 12:05:17] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.3.0b1.tar.gz]
+[2023-06-14 12:05:17] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
+[2023-06-14 12:05:17] INFO root fetch - main [MainThread]: Store serial: [18499512]
