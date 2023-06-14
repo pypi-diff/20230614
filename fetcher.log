@@ -19802,3 +19802,110 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:49:29] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b5-py3-none-any.whl.zip]
 [2023-06-14 11:49:29] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-06-14 11:49:29] INFO root fetch - main [MainThread]: Store serial: [18499377]
+[2023-06-14 11:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499377]
+[2023-06-14 11:54:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-shopinvader-mass-mailing-company-newsletter
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghga-connector
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-graphql
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ersilia
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-cli
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decentriq-platform
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scribeauth
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-docker-image-deployment
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: espressoconnect
+[2023-06-14 11:54:39] WARNING root fetch - processPackages [odoo14-addon-shopinvader-mass-mailing-company-newsletter]: Skipping, unable to determine old version
+[2023-06-14 11:54:39] INFO root fetch - processPackages [odoo14-addon-shopinvader-mass-mailing-company-newsletter]: Start processing: odoo14-addon-energy-selfconsumption-cooperator
+[2023-06-14 11:54:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-mass-mailing-company-newsletter] error
+[2023-06-14 11:54:39] INFO root fetch - processPackages [scribeauth]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ghga-connector]: New version: [0.3.3] Old Version: [0.2.6]
+[2023-06-14 11:54:39] WARNING root fetch - processPackages [espressoconnect]: Skipping, unable to determine old version
+[2023-06-14 11:54:39] INFO root fetch - processPackages [espressoconnect]: Start processing: raga-testing-platform
+[2023-06-14 11:54:39] INFO root fetch - main [MainThread]: End processing [espressoconnect] error
+[2023-06-14 11:54:39] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2023-06-14 11:54:39] WARNING root fetch - processPackages [odoo14-addon-energy-selfconsumption-cooperator]: Skipping, unable to determine old version
+[2023-06-14 11:54:39] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption-cooperator]: Start processing: ezyquant
+[2023-06-14 11:54:39] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-selfconsumption-cooperator] error
+[2023-06-14 11:54:39] INFO root fetch - processPackages [sentry-cli]: New version: [2.19.0] Old Version: [2.18.1]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ezyquant]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-14 11:54:39] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/38/31/483921d46766b51b336cd1d22e03d8aab76b1c2eb4439c7b687eb866dbc2/raga-testing-platform-1.0.1.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/df/53/1ddc54545e9ffbcefe4385747deddb0f87b200ddf27630a55f9728869564/cdk-docker-image-deployment-0.0.98.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ghga-connector]: Downloading https://files.pythonhosted.org/packages/d0/40/56da83604f4eff4adcf87389009708e4dfac3f7a2aa54d25f9e7dccf6311/ghga_connector-0.2.6.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [scribeauth]: Downloading https://files.pythonhosted.org/packages/7d/5a/b0b1de2c2cff023b438970b7629e9883c38f7e31d3fbecfb1ae6fca6a9ee/scribeauth-1.0.3-py3-none-any.whl
+[2023-06-14 11:54:39] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/24/76/2912d503fd9d80901e0f044471ecb27cdfbc927ed3ee49c22ee69e3bdb1f/sentry_cli-2.18.1.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-14 11:54:39] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/ff/73/871bacb4e91295d621f9ab0a77f7d0af9c6113b57b6f5d2f4aa8b10e9709/raga-testing-platform-1.0.2.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ezyquant]: Downloading https://files.pythonhosted.org/packages/60/be/79e19e9e0e77e7850a1cd8399a9e4de9a4c0fd97bd11b4928fc4cb3d3982/ezyquant-0.8.0.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [cdk-docker-image-deployment]: Downloading https://files.pythonhosted.org/packages/a3/f9/be2a564d48355f28c54c00f791e3f39262ae2d2d740e34b1e0d70ba48448/cdk-docker-image-deployment-0.0.99.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-14 11:54:39] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230614/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-14 11:54:39] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2023-06-14 11:54:39] WARNING root fetch - processPackages [ezyquant]: Skipping package: exceeds size limit 14469916>=10485760
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ezyquant]: Start processing: podval
+[2023-06-14 11:54:39] INFO root fetch - main [MainThread]: End processing [ezyquant] error
+[2023-06-14 11:54:39] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-14 11:54:39] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230614/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-14 11:54:39] INFO root fetch - processPackages [podval]: New version: [3.1] Old Version: [3.0]
+[2023-06-14 11:54:39] INFO root fetch - processPackages [scribeauth]: Downloading https://files.pythonhosted.org/packages/88/15/983429cf5fb9a8b5a9145f36dc461558277ebe0390984a364be5d41fbf04/scribeauth-1.0.4-py3-none-any.whl
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-06-14 11:54:39] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230614/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 11:54:39] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2023-06-14 11:54:39] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20230614/d/decentriq-platform/0.9.0rc2-0.9.1/diff.md --exclude *.pyd
+[2023-06-14 11:54:39] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-14 11:54:39] INFO root fetch - processPackages [sentry-cli]: Downloading https://files.pythonhosted.org/packages/a9/9b/7eacb655ffa47746f9c4aa74cd2a0b1224ffca6a6f50d17a55c9c71765d3/sentry_cli-2.19.0.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.1.tar.gz tmp/raga-testing-platform-1.0.2.tar.gz --markdown 20230614/r/raga-testing-platform/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 11:54:39] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/34/7f/80526981d73530e5fbb815c553e8cf01b0f0e7cc22cf9f3d6e7480e6168f/podval-3.0.tar.gz
+[2023-06-14 11:54:39] INFO root fetch - processPackages [scribeauth]: executing diffoscope
+[2023-06-14 11:54:39] INFO root fetch - processPackages [scribeauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scribeauth-1.0.3-py3-none-any.whl.zip tmp/scribeauth-1.0.4-py3-none-any.whl.zip --markdown 20230614/s/scribeauth/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 11:54:40] INFO root fetch - processPackages [sentry-cli]: executing diffoscope
+[2023-06-14 11:54:40] INFO root fetch - processPackages [sentry-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_cli-2.18.1.tar.gz tmp/sentry_cli-2.19.0.tar.gz --markdown 20230614/s/sentry-cli/2.18.1-2.19.0/diff.md --exclude *.pyd
+[2023-06-14 11:54:40] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-06-14 11:54:40] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230614/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 11:54:40] INFO root fetch - processPackages [ghga-connector]: Downloading https://files.pythonhosted.org/packages/a5/d2/f66463e78f1f1f4de77b2e8ea9a3302093d2e99b80854c9ce179b4d3f12a/ghga_connector-0.3.3.tar.gz
+[2023-06-14 11:54:40] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/a0/b4/cfe3603ecd4cbb05cfea4b41e8275a7ada1955a8fb953f912f02d66b247a/podval-3.1.tar.gz
+[2023-06-14 11:54:40] INFO root fetch - processPackages [ghga-connector]: executing diffoscope
+[2023-06-14 11:54:40] INFO root fetch - processPackages [ghga-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_connector-0.2.6.tar.gz tmp/ghga_connector-0.3.3.tar.gz --markdown 20230614/g/ghga-connector/0.2.6-0.3.3/diff.md --exclude *.pyd
+[2023-06-14 11:54:40] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-14 11:54:40] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-3.0.tar.gz tmp/podval-3.1.tar.gz --markdown 20230614/p/podval/3.0-3.1/diff.md --exclude *.pyd
+[2023-06-14 11:54:42] INFO root fetch - processPackages [scribeauth]: Remove: archive file [/home/abi/fetcher/tmp/scribeauth-1.0.3-py3-none-any.whl.zip]
+[2023-06-14 11:54:42] INFO root fetch - processPackages [scribeauth]: Remove: archive file [/home/abi/fetcher/tmp/scribeauth-1.0.4-py3-none-any.whl.zip]
+[2023-06-14 11:54:42] INFO root fetch - main [MainThread]: End processing [scribeauth]: success
+[2023-06-14 11:54:42] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.0.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.1.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-14 11:54:42] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.1.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.2.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-14 11:54:42] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2023-06-14 11:54:42] INFO root fetch - processPackages [ghga-connector]: Remove: archive file [/home/abi/fetcher/tmp/ghga_connector-0.2.6.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - processPackages [ghga-connector]: Remove: archive file [/home/abi/fetcher/tmp/ghga_connector-0.3.3.tar.gz]
+[2023-06-14 11:54:42] INFO root fetch - main [MainThread]: End processing [ghga-connector]: success
+[2023-06-14 11:54:43] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-14 11:54:43] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-14 11:54:43] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-14 11:54:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.98.tar.gz]
+[2023-06-14 11:54:45] INFO root fetch - processPackages [cdk-docker-image-deployment]: Remove: archive file [/home/abi/fetcher/tmp/cdk-docker-image-deployment-0.0.99.tar.gz]
+[2023-06-14 11:54:45] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-06-14 11:54:45] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2023-06-14 11:54:45] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2023-06-14 11:54:45] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-06-14 11:54:45] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.18.1.tar.gz]
+[2023-06-14 11:54:45] INFO root fetch - processPackages [sentry-cli]: Remove: archive file [/home/abi/fetcher/tmp/sentry_cli-2.19.0.tar.gz]
+[2023-06-14 11:54:45] INFO root fetch - main [MainThread]: End processing [sentry-cli]: success
+[2023-06-14 11:54:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-14 11:54:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-14 11:54:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-14 11:54:47] INFO root fetch - main [MainThread]: Store serial: [18499435]
