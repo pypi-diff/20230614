@@ -19244,3 +19244,149 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:32:40] INFO root fetch - processPackages [nanomock]: Remove: archive file [/home/abi/fetcher/tmp/nanomock-0.0.9.tar.gz]
 [2023-06-14 11:32:40] INFO root fetch - main [MainThread]: End processing [nanomock]: success
 [2023-06-14 11:32:40] INFO root fetch - main [MainThread]: Store serial: [18499104]
+[2023-06-14 11:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499104]
+[2023-06-14 11:37:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fullask-rest-framework
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docarray
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WqUtils
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsii
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bcvContext
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdown-toc-segments
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-energy-project
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: podval
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmaclp
+[2023-06-14 11:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: current-events-magnifier
+[2023-06-14 11:37:49] WARNING root fetch - processPackages [odoo14-addon-energy-project]: Skipping, unable to determine old version
+[2023-06-14 11:37:49] INFO root fetch - processPackages [odoo14-addon-energy-project]: Start processing: cdk-ecs-service-extensions
+[2023-06-14 11:37:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-project] error
+[2023-06-14 11:37:49] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [cmaclp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [podval]: New version: [3.0] Old Version: [2.0]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [markdown-toc-segments]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [WqUtils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [bcvContext]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [jsii]: New version: [1.9.0] Old Version: [1.84.0]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-06-14 11:37:49] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/5c/5e/130b4b3283a09c2c29c1cee00d23a873eb74b03fbd82d3aaec3c61e9b482/WqUtils-0.0.4-py3-none-any.whl
+[2023-06-14 11:37:49] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/72/7f/05a5c2095fb33d9da5ad8d5d54bc772359e48c1c78aadeee131727003d8d/cdk-ecs-service-extensions-2.0.1a8.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/e4/f3/ad6700e9de43d53d2562624391e5c44eb525f6c37904166d949797c720b1/current_events_magnifier-0.1.5.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/07/57/5c0ae1c837fc08a8fbb6a84a548d2a69996a1c19c347d7ccd7d8e01af97a/podval-2.0.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [cmaclp]: Downloading https://files.pythonhosted.org/packages/5a/cf/dbcec21692500771efdd10ea885c32d16957f436a6c682f569f180fa6f5c/cmaclp-0.0.7-py3-none-any.whl
+[2023-06-14 11:37:49] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/36/c8/4324353a770d607459e44aea940d62ee51851266a0b5cc6faa6a89c6a3c3/fullask-rest-framework-0.1.8.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/43/84/e29ee656bb8e125fe54f444104316d4e053da2cc3b71b814e1f6a5071b3c/jsii-1.84.0.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/4b/f9/b8bded11c79411f25130aa2972e9d3f09ed1804cde255d3847d45699a4da/bcvcontext-0.1.7.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [markdown-toc-segments]: Downloading https://files.pythonhosted.org/packages/fe/93/10d14a02755f86f1d0f21ce07d46ff19c8016d174728f8eb7f9c72ece4d4/markdown_toc_segments-0.0.3.tar.gz
+[2023-06-14 11:37:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/4f/8d/abb31a165af680e8b0a59581ca2aee94485b1ad1db12d9445bbc9c0ddc3e/cdk-ecs-service-extensions-2.0.1a9.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/ba/04/32956cbc392d04fe5d8dc405ebf76fb8f68775920d2ab5dfca2d1a2b3886/WqUtils-0.0.5-py3-none-any.whl
+[2023-06-14 11:37:50] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/69/98/595bdf0564f021df1d25e9806d894f3a9801f3fcea6ec3a8f22efba011f8/current_events_magnifier-0.1.6.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230614/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [podval]: Downloading https://files.pythonhosted.org/packages/34/7f/80526981d73530e5fbb815c553e8cf01b0f0e7cc22cf9f3d6e7480e6168f/podval-3.0.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [cmaclp]: Downloading https://files.pythonhosted.org/packages/37/76/6e815aa1512eb9f91428b681db3dbf35d369f616cd52ec8000c951429bfc/cmaclp-0.0.8-py3-none-any.whl
+[2023-06-14 11:37:50] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1d/c1/51c21ad08d286c1ffd3f20bbbb5de3aa05811a1c6035de42010b6d6ae180/fullask-rest-framework-0.1.9.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [markdown-toc-segments]: Downloading https://files.pythonhosted.org/packages/2e/b6/d96945ce09d133b9b8a872aeaaa6636cb546c7fdf9cd4a293960adfca96b/markdown_toc_segments-0.0.4.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [WqUtils]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [WqUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WqUtils-0.0.4-py3-none-any.whl.zip tmp/WqUtils-0.0.5-py3-none-any.whl.zip --markdown 20230614/W/WqUtils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [bcvContext]: Downloading https://files.pythonhosted.org/packages/d8/5a/5c6719b6d138d6544e86050bb6ab7dba5c85140729a30de6a2ba0eb68e9f/bcvcontext-0.1.8.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [podval]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [podval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podval-2.0.tar.gz tmp/podval-3.0.tar.gz --markdown 20230614/p/podval/2.0-3.0/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/78/20/6098655fcf481a83444339de8b2275a7c0eaf7b4b960911939b279a0b5e6/jsii-1.9.0.tar.gz
+[2023-06-14 11:37:50] INFO root fetch - processPackages [cmaclp]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [cmaclp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmaclp-0.0.7-py3-none-any.whl.zip tmp/cmaclp-0.0.8-py3-none-any.whl.zip --markdown 20230614/c/cmaclp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [markdown-toc-segments]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [markdown-toc-segments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_toc_segments-0.0.3.tar.gz tmp/markdown_toc_segments-0.0.4.tar.gz --markdown 20230614/m/markdown-toc-segments/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.8.tar.gz tmp/fullask-rest-framework-0.1.9.tar.gz --markdown 20230614/f/fullask-rest-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.5.tar.gz tmp/current_events_magnifier-0.1.6.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230614/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [bcvContext]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [bcvContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcvcontext-0.1.7.tar.gz tmp/bcvcontext-0.1.8.tar.gz --markdown 20230614/b/bcvContext/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 11:37:50] INFO root fetch - processPackages [jsii]: executing diffoscope
+[2023-06-14 11:37:50] INFO root fetch - processPackages [jsii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsii-1.84.0.tar.gz tmp/jsii-1.9.0.tar.gz --markdown 20230614/j/jsii/1.84.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 11:37:52] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Start processing: yeref
+[2023-06-14 11:37:52] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-06-14 11:37:52] INFO root fetch - processPackages [yeref]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.0.4-py3-none-any.whl.zip]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.0.5-py3-none-any.whl.zip]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [WqUtils]: Start processing: catbridge
+[2023-06-14 11:37:52] INFO root fetch - main [MainThread]: End processing [WqUtils]: success
+[2023-06-14 11:37:52] WARNING root fetch - processPackages [catbridge]: Skipping, unable to determine old version
+[2023-06-14 11:37:52] INFO root fetch - processPackages [catbridge]: Start processing: current-events-magnifier
+[2023-06-14 11:37:52] INFO root fetch - main [MainThread]: End processing [catbridge] error
+[2023-06-14 11:37:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/24/f2/6b75cca5799cd80cb9643f7c24a4891494ffca08f26118b97e594db9b0c1/yeref-0.1.95.tar.gz
+[2023-06-14 11:37:52] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [cmaclp]: Remove: archive file [/home/abi/fetcher/tmp/cmaclp-0.0.7-py3-none-any.whl.zip]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [cmaclp]: Remove: archive file [/home/abi/fetcher/tmp/cmaclp-0.0.8-py3-none-any.whl.zip]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [cmaclp]: Start processing: pynocaptcha
+[2023-06-14 11:37:52] INFO root fetch - main [MainThread]: End processing [cmaclp]: success
+[2023-06-14 11:37:52] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-14 11:37:52] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 11:37:52] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.5.tar.gz tmp/current_events_magnifier-0.1.6.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-14 11:37:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/80/26/5af690fa94dbd003265b7339c4e576ed1c16558f92c6afe692215d5b31b7/yeref-0.1.96.tar.gz
+[2023-06-14 11:37:53] INFO root fetch - processPackages [bcvContext]: Remove: archive file [/home/abi/fetcher/tmp/bcvcontext-0.1.7.tar.gz]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [bcvContext]: Remove: archive file [/home/abi/fetcher/tmp/bcvcontext-0.1.8.tar.gz]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [bcvContext]: Start processing: hierts
+[2023-06-14 11:37:53] INFO root fetch - main [MainThread]: End processing [bcvContext]: success
+[2023-06-14 11:37:53] INFO root fetch - processPackages [hierts]: New version: [0.5] Old Version: [0.4]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/5f/87/8f00a4a40650215770bfeb570a9c9ab66cfab020c8f4abfc39e1895ec1a4/pynocaptcha-1.5.2.tar.gz
+[2023-06-14 11:37:53] INFO root fetch - processPackages [hierts]: Downloading https://files.pythonhosted.org/packages/d4/51/bfdeaab164bed285e13bb793839959ad8b6f1c6d5c98791cb7c53025064a/hierts-0.4.tar.gz
+[2023-06-14 11:37:53] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.5.tar.gz]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.6.tar.gz]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [current-events-magnifier]: Start processing: pfc-geometry
+[2023-06-14 11:37:53] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pfc-geometry]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-06-14 11:37:53] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.95.tar.gz tmp/yeref-0.1.96.tar.gz --markdown 20230614/y/yeref/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-06-14 11:37:53] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-2.0.tar.gz]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [podval]: Remove: archive file [/home/abi/fetcher/tmp/podval-3.0.tar.gz]
+[2023-06-14 11:37:53] INFO root fetch - processPackages [podval]: Start processing: odoo14-addon-energy-project-energy-communities
+[2023-06-14 11:37:53] INFO root fetch - main [MainThread]: End processing [podval]: success
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/a3/f6/9f117e4a2c3b9724a8ccdcc5767a711bc8b1b8e31074c6458c59cfce2148/pynocaptcha-1.5.3.tar.gz
+[2023-06-14 11:37:53] WARNING root fetch - processPackages [odoo14-addon-energy-project-energy-communities]: Skipping, unable to determine old version
+[2023-06-14 11:37:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-project-energy-communities] error
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/26/de/63d16a5bf4fbf1a88995d8bf0f4f3134a4b3a19e82cc08eef2718a992d23/pfc_geometry-0.1.0.tar.gz
+[2023-06-14 11:37:53] INFO root fetch - processPackages [hierts]: Downloading https://files.pythonhosted.org/packages/c6/4d/b76494a8620d044f816ae3c04af3ba32d20d3fab77ad30cde43650989779/hierts-0.5.tar.gz
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.2.tar.gz tmp/pynocaptcha-1.5.3.tar.gz --markdown 20230614/p/pynocaptcha/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-14 11:37:53] INFO root fetch - processPackages [hierts]: executing diffoscope
+[2023-06-14 11:37:53] INFO root fetch - processPackages [hierts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hierts-0.4.tar.gz tmp/hierts-0.5.tar.gz --markdown 20230614/h/hierts/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pfc-geometry]: Downloading https://files.pythonhosted.org/packages/78/8d/df61e86ae08a996ba3e3c4c060208e9ec2c7b5bc2195316ac9d3fd50daf0/pfc_geometry-0.1.1.tar.gz
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pfc-geometry]: executing diffoscope
+[2023-06-14 11:37:53] INFO root fetch - processPackages [pfc-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfc_geometry-0.1.0.tar.gz tmp/pfc_geometry-0.1.1.tar.gz --markdown 20230614/p/pfc-geometry/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 11:37:54] ERROR root fetch - processPackages [current-events-magnifier]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/current_events_magnifier-0.1.5.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/current_events_magnifier-0.1.6.tar.gz: No such file or directory
+
+[2023-06-14 11:37:54] INFO root fetch - main [MainThread]: End processing [current-events-magnifier] error
+[2023-06-14 11:37:54] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.8.tar.gz]
+[2023-06-14 11:37:54] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.9.tar.gz]
+[2023-06-14 11:37:54] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-14 11:37:55] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.84.0.tar.gz]
+[2023-06-14 11:37:55] INFO root fetch - processPackages [jsii]: Remove: archive file [/home/abi/fetcher/tmp/jsii-1.9.0.tar.gz]
+[2023-06-14 11:37:55] INFO root fetch - main [MainThread]: End processing [jsii]: success
+[2023-06-14 11:37:55] INFO root fetch - processPackages [hierts]: Remove: archive file [/home/abi/fetcher/tmp/hierts-0.4.tar.gz]
+[2023-06-14 11:37:55] INFO root fetch - processPackages [hierts]: Remove: archive file [/home/abi/fetcher/tmp/hierts-0.5.tar.gz]
+[2023-06-14 11:37:55] INFO root fetch - main [MainThread]: End processing [hierts]: success
+[2023-06-14 11:37:56] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.2.tar.gz]
+[2023-06-14 11:37:56] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.3.tar.gz]
+[2023-06-14 11:37:56] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-14 11:37:56] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.1.0.tar.gz]
+[2023-06-14 11:37:56] INFO root fetch - processPackages [pfc-geometry]: Remove: archive file [/home/abi/fetcher/tmp/pfc_geometry-0.1.1.tar.gz]
+[2023-06-14 11:37:56] INFO root fetch - main [MainThread]: End processing [pfc-geometry]: success
+[2023-06-14 11:37:56] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-14 11:37:56] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-14 11:37:56] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-14 11:37:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.95.tar.gz]
+[2023-06-14 11:37:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.1.96.tar.gz]
+[2023-06-14 11:37:57] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-06-14 11:38:38] INFO root fetch - processPackages [markdown-toc-segments]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_segments-0.0.3.tar.gz]
+[2023-06-14 11:38:38] INFO root fetch - processPackages [markdown-toc-segments]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_segments-0.0.4.tar.gz]
+[2023-06-14 11:38:38] INFO root fetch - main [MainThread]: End processing [markdown-toc-segments]: success
+[2023-06-14 11:38:38] INFO root fetch - main [MainThread]: Store serial: [18499163]
