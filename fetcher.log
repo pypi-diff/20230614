@@ -18092,3 +18092,180 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 10:54:02] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
 [2023-06-14 10:54:02] INFO root fetch - main [MainThread]: End processing [envd]: success
 [2023-06-14 10:54:02] INFO root fetch - main [MainThread]: Store serial: [18498570]
+[2023-06-14 10:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498570]
+[2023-06-14 10:59:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: label-sleuth
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macrometa-source-oracle
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfp-nightly
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: social-gpt
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastgenerateapi
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-website-cookiefirst
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pyara
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gmltools
+[2023-06-14 10:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mosaik-fmi
+[2023-06-14 10:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openflexure-microscope-client
+[2023-06-14 10:59:28] INFO root fetch - processPackages [gmltools]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [Pyara]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [social-gpt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.6]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [mosaik-fmi]: New version: [1.0] Old Version: [0.2]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [openflexure-microscope-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [macrometa-source-oracle]: New version: [0.0.37] Old Version: [0.0.35]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/a1/f2/c5f61b52f846c8a14345f1b4b969b87972abb7201351cd0cc4458ae3baf4/Pyara-0.1.15.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-14 10:59:28] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/e9/76/443f138755c4d7f571d65b6b0d760e6b3e622f3f39cc828e3108ecd1d2ef/gmltools-0.0.80.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Downloading https://files.pythonhosted.org/packages/43/53/9dcdf3706c2e76e6da7a3941603d925e7acfec892d60b5d67118ed648a7f/odoo_addon_website_cookiefirst-15.0.1.0.0.6-py3-none-any.whl
+[2023-06-14 10:59:28] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/bc/13/e505b51f3d731551903e4d5ea0b60bde5d60ef7a32527eaa8d5294be958f/fastgenerateapi-0.0.1.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [mosaik-fmi]: Downloading https://files.pythonhosted.org/packages/24/ca/a05794a1f2ca0e16b2dc8037925a78a8fb5b63232d01e9a8b04a3cbe9b43/mosaik_fmi-0.2.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/52/a0/de97903794a2ca66d1a8870e65a22236c66e73cbf7edd979e60261eff667/social_gpt-0.0.7.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/73/68/b35389cee20394fc2c48aafb94c240242a8067b751a208675b021b24db8a/macrometa-source-oracle-0.0.35.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [openflexure-microscope-client]: Downloading https://files.pythonhosted.org/packages/a9/60/58acba4349e782c6decdac7e99b95b93570e4522716687f60dfdfe2dd5f7/openflexure_microscope_client-0.1.7.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-14 10:59:28] INFO root fetch - processPackages [Pyara]: Downloading https://files.pythonhosted.org/packages/0b/53/5642761ac263b71504ab18141ba546bd42d418e184ab9c996e4a165970c5/Pyara-0.1.16.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/1c/10/5dfc5ea6d0307a1662e38cf42ef8e383ca551184fa9e5e6f4bfe02c5c190/gmltools-0.0.81.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [Pyara]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [Pyara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pyara-0.1.15.tar.gz tmp/Pyara-0.1.16.tar.gz --markdown 20230614/P/Pyara/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/ed/76/174d39dfb1287dfa37aed7f7daab8324bf9081818c4be63fef0312bc3e6d/fastgenerateapi-0.0.2.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [mosaik-fmi]: Downloading https://files.pythonhosted.org/packages/89/df/8819e27e6dbaf53e44f8236b620876638e075611665220b174c7c5d14738/mosaik_fmi-1.0.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [openflexure-microscope-client]: Downloading https://files.pythonhosted.org/packages/4f/68/e03646b36c53b1f1f3e4205314ca876728f9e15763ee479c621367b60cd5/openflexure_microscope_client-0.1.8.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/07/4e/2b0195a12693063ab1217cc3877ec88c153622f89ff6ce3422c43d56c871/social_gpt-0.0.8.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/3e/ef/8d03e69dafb938232250a08233d95b50b58eccf94673e06c58011c80e378/macrometa-source-oracle-0.0.37.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.1.tar.gz tmp/fastgenerateapi-0.0.2.tar.gz --markdown 20230614/f/fastgenerateapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Downloading https://files.pythonhosted.org/packages/1d/5f/3ab03186e133f3c618f4f47341c46eda9524a24e5f111d728410fc85ae82/odoo_addon_website_cookiefirst-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-14 10:59:28] INFO root fetch - processPackages [mosaik-fmi]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [openflexure-microscope-client]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [openflexure-microscope-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openflexure_microscope_client-0.1.7.tar.gz tmp/openflexure_microscope_client-0.1.8.tar.gz --markdown 20230614/o/openflexure-microscope-client/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [mosaik-fmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaik_fmi-0.2.tar.gz tmp/mosaik_fmi-1.0.tar.gz --markdown 20230614/m/mosaik-fmi/0.2-1.0/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-06-14 10:59:28] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.80.tar.gz tmp/gmltools-0.0.81.tar.gz --markdown 20230614/g/gmltools/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [macrometa-source-oracle]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [macrometa-source-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-oracle-0.0.35.tar.gz tmp/macrometa-source-oracle-0.0.37.tar.gz --markdown 20230614/m/macrometa-source-oracle/0.0.35-0.0.37/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.7.tar.gz tmp/social_gpt-0.0.8.tar.gz --markdown 20230614/s/social-gpt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 10:59:28] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: executing diffoscope
+[2023-06-14 10:59:28] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_cookiefirst-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_website_cookiefirst-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-website-cookiefirst/15.0.1.0.0.6-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-14 10:59:29] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-06-14 10:59:29] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230614/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 10:59:30] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-14 10:59:31] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-14 10:59:31] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230614/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-14 10:59:31] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.15.tar.gz]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [Pyara]: Remove: archive file [/home/abi/fetcher/tmp/Pyara-0.1.16.tar.gz]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [Pyara]: Start processing: quickstart-vdk
+[2023-06-14 10:59:31] INFO root fetch - main [MainThread]: End processing [Pyara]: success
+[2023-06-14 10:59:31] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.899446293.dev11360] Old Version: [0.2.899205069.dev11349]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/d7/95/4f948524827a7a333dab05271984f9e079cdd15ac235e269168d26ee38e3/quickstart-vdk-0.2.899205069.dev11349.tar.gz
+[2023-06-14 10:59:31] INFO root fetch - processPackages [mosaik-fmi]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_fmi-0.2.tar.gz]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [mosaik-fmi]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_fmi-1.0.tar.gz]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [mosaik-fmi]: Start processing: mushroom-rl
+[2023-06-14 10:59:31] INFO root fetch - main [MainThread]: End processing [mosaik-fmi]: success
+[2023-06-14 10:59:31] INFO root fetch - processPackages [mushroom-rl]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [openflexure-microscope-client]: Remove: archive file [/home/abi/fetcher/tmp/openflexure_microscope_client-0.1.7.tar.gz]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [openflexure-microscope-client]: Remove: archive file [/home/abi/fetcher/tmp/openflexure_microscope_client-0.1.8.tar.gz]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [openflexure-microscope-client]: Start processing: macrometa-source-collection
+[2023-06-14 10:59:31] INFO root fetch - main [MainThread]: End processing [openflexure-microscope-client]: success
+[2023-06-14 10:59:31] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-06-14 10:59:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/0b/46/7d571569ae9559bd4afb570d9e86584405fbe012ac0a342b04fc2093779a/quickstart-vdk-0.2.899446293.dev11360.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-14 10:59:32] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.899205069.dev11349.tar.gz tmp/quickstart-vdk-0.2.899446293.dev11360.tar.gz --markdown 20230614/q/quickstart-vdk/0.2.899205069.dev11349-0.2.899446293.dev11360/diff.md --exclude *.pyd
+[2023-06-14 10:59:32] INFO root fetch - processPackages [mushroom-rl]: Downloading https://files.pythonhosted.org/packages/d8/4b/cd980c50e0d5d6cb59bb72c56f19127025831350fc9cb32b4ac9397277d3/mushroom-rl-1.9.1.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.7.tar.gz]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.8.tar.gz]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [social-gpt]: Start processing: automation-file
+[2023-06-14 10:59:32] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 10:59:32] INFO root fetch - processPackages [automation-file]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/8d/55/588e94195fcde66e878a1a8e47cbb1346519b7466dc35316be669fc02033/macrometa-source-collection-0.0.44.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/5f/4c/2b84f4134629f3fc1f1f99b2cf878073fad61f7fc5f56f406e4197bc3eca/automation_file-0.0.8.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.1.tar.gz]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.2.tar.gz]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [fastgenerateapi]: Start processing: pyxirr
+[2023-06-14 10:59:32] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-14 10:59:32] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_cookiefirst-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_cookiefirst-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [odoo-addon-website-cookiefirst]: Start processing: cuby
+[2023-06-14 10:59:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-cookiefirst]: success
+[2023-06-14 10:59:32] INFO root fetch - processPackages [pyxirr]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-14 10:59:32] WARNING root fetch - processPackages [cuby]: Skipping, unable to determine old version
+[2023-06-14 10:59:32] INFO root fetch - processPackages [cuby]: Start processing: robotframework-robotlog2db
+[2023-06-14 10:59:32] INFO root fetch - main [MainThread]: End processing [cuby] error
+[2023-06-14 10:59:32] INFO root fetch - processPackages [robotframework-robotlog2db]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [mushroom-rl]: Downloading https://files.pythonhosted.org/packages/64/15/13b740ccdb5c41a86f74146da0ee7e72aba28ead7b78393c71757dab47a9/mushroom-rl-1.9.2.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/e4/88/59604ef996294bc943be985039bd50eb4e680e4a303a92a6d2b3becf1b1b/macrometa-source-collection-0.0.45.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [automation-file]: Downloading https://files.pythonhosted.org/packages/61/d5/25a9248a3f46d8aff54ddc54143797f9b35549506743ec8ed413213e29b1/automation_file-0.0.9.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-oracle-0.0.35.tar.gz]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-oracle-0.0.37.tar.gz]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-oracle]: Start processing: eversa
+[2023-06-14 10:59:32] INFO root fetch - main [MainThread]: End processing [macrometa-source-oracle]: success
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-14 10:59:32] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.44.tar.gz tmp/macrometa-source-collection-0.0.45.tar.gz --markdown 20230614/m/macrometa-source-collection/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-06-14 10:59:32] INFO root fetch - processPackages [eversa]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-14 10:59:32] INFO root fetch - processPackages [mushroom-rl]: executing diffoscope
+[2023-06-14 10:59:32] INFO root fetch - processPackages [mushroom-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mushroom-rl-1.9.1.tar.gz tmp/mushroom-rl-1.9.2.tar.gz --markdown 20230614/m/mushroom-rl/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-14 10:59:32] INFO root fetch - processPackages [pyxirr]: Downloading https://files.pythonhosted.org/packages/f2/11/55519225049efb0e016f43343728d066e5d0c9a1e2cf20405986a9137bc8/pyxirr-0.9.1.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [automation-file]: executing diffoscope
+[2023-06-14 10:59:32] INFO root fetch - processPackages [automation-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_file-0.0.8.tar.gz tmp/automation_file-0.0.9.tar.gz --markdown 20230614/a/automation-file/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:59:32] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/be/f0/035219758e482f86df7d9dfac35638c7721243c92db370c426155d54068f/robotframework-robotlog2db-1.3.6.tar.gz
+[2023-06-14 10:59:32] INFO root fetch - processPackages [eversa]: Downloading https://files.pythonhosted.org/packages/9d/93/be25139d9d4a6b148c2a605a9bcb4c7bc70536ad2747a512b976d2d4dfd4/eversa-0.2.0-py3.10.egg
+[2023-06-14 10:59:33] INFO root fetch - processPackages [eversa]: Downloading https://files.pythonhosted.org/packages/1d/13/91f6ad0aa7081fdd92a0e408a120c9ff1e3343b12f5983e0231cf231e488/eversa-0.3.0-py3.10.egg
+[2023-06-14 10:59:33] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/ac/a7/a7a8437b945144282b0468ce110d7600e2d011102516f59e45f045e5251f/robotframework-robotlog2db-1.3.7.tar.gz
+[2023-06-14 10:59:33] INFO root fetch - processPackages [pyxirr]: Downloading https://files.pythonhosted.org/packages/fd/72/970461fe267727e1bba35d435445ddb318eacaea0dc6471f30ddc251093a/pyxirr-0.9.2.tar.gz
+[2023-06-14 10:59:33] INFO root fetch - processPackages [eversa]: executing diffoscope
+[2023-06-14 10:59:33] INFO root fetch - processPackages [eversa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eversa-0.2.0-py3.10.egg tmp/eversa-0.3.0-py3.10.egg --markdown 20230614/e/eversa/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-14 10:59:33] INFO root fetch - processPackages [robotframework-robotlog2db]: executing diffoscope
+[2023-06-14 10:59:33] INFO root fetch - processPackages [robotframework-robotlog2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robotlog2db-1.3.6.tar.gz tmp/robotframework-robotlog2db-1.3.7.tar.gz --markdown 20230614/r/robotframework-robotlog2db/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-14 10:59:33] INFO root fetch - processPackages [pyxirr]: executing diffoscope
+[2023-06-14 10:59:33] INFO root fetch - processPackages [pyxirr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxirr-0.9.1.tar.gz tmp/pyxirr-0.9.2.tar.gz --markdown 20230614/p/pyxirr/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-14 10:59:34] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.80.tar.gz]
+[2023-06-14 10:59:34] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.81.tar.gz]
+[2023-06-14 10:59:34] INFO root fetch - processPackages [gmltools]: Start processing: web3cli
+[2023-06-14 10:59:34] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-06-14 10:59:34] INFO root fetch - processPackages [web3cli]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-14 10:59:34] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/f6/e2/4379bd259c3910da52556121bdfbeaafd3a1cec1f52cabf2f0cf9b7d0d9b/web3cli-1.1.5.tar.gz
+[2023-06-14 10:59:34] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.899205069.dev11349.tar.gz]
+[2023-06-14 10:59:34] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.899446293.dev11360.tar.gz]
+[2023-06-14 10:59:34] INFO root fetch - processPackages [quickstart-vdk]: Start processing: pydflow
+[2023-06-14 10:59:34] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-14 10:59:34] INFO root fetch - processPackages [pydflow]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-14 10:59:35] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/7a/b7/1d740e66e77da0af5ba5a066b2bbdc715597749e89667e5ff91dfa63224b/pydflow-1.7.2.tar.gz
+[2023-06-14 10:59:35] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/95/6b/0f804d9d230101c1c03b4408639f2ee93cfbcef77c7c852b3356c04a0fd3/web3cli-1.1.6.tar.gz
+[2023-06-14 10:59:35] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-06-14 10:59:35] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.5.tar.gz tmp/web3cli-1.1.6.tar.gz --markdown 20230614/w/web3cli/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-14 10:59:35] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.44.tar.gz]
+[2023-06-14 10:59:35] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.45.tar.gz]
+[2023-06-14 10:59:35] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-14 10:59:35] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/89/5d/0debf724acd043d81caf688597b911478bc97177d9c8ce4f4bdd253f735e/pydflow-1.7.3.tar.gz
+[2023-06-14 10:59:35] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-06-14 10:59:35] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.2.tar.gz tmp/pydflow-1.7.3.tar.gz --markdown 20230614/p/pydflow/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-14 10:59:36] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.8.tar.gz]
+[2023-06-14 10:59:36] INFO root fetch - processPackages [automation-file]: Remove: archive file [/home/abi/fetcher/tmp/automation_file-0.0.9.tar.gz]
+[2023-06-14 10:59:36] INFO root fetch - main [MainThread]: End processing [automation-file]: success
+[2023-06-14 10:59:36] INFO root fetch - processPackages [pyxirr]: Remove: archive file [/home/abi/fetcher/tmp/pyxirr-0.9.1.tar.gz]
+[2023-06-14 10:59:36] INFO root fetch - processPackages [pyxirr]: Remove: archive file [/home/abi/fetcher/tmp/pyxirr-0.9.2.tar.gz]
+[2023-06-14 10:59:36] INFO root fetch - main [MainThread]: End processing [pyxirr]: success
+[2023-06-14 10:59:37] INFO root fetch - processPackages [eversa]: Remove: archive file [/home/abi/fetcher/tmp/eversa-0.2.0-py3.10.egg]
+[2023-06-14 10:59:37] INFO root fetch - processPackages [eversa]: Remove: archive file [/home/abi/fetcher/tmp/eversa-0.3.0-py3.10.egg]
+[2023-06-14 10:59:37] INFO root fetch - main [MainThread]: End processing [eversa]: success
+[2023-06-14 10:59:37] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.3.6.tar.gz]
+[2023-06-14 10:59:37] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.3.7.tar.gz]
+[2023-06-14 10:59:37] INFO root fetch - main [MainThread]: End processing [robotframework-robotlog2db]: success
+[2023-06-14 10:59:39] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.2.tar.gz]
+[2023-06-14 10:59:39] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.3.tar.gz]
+[2023-06-14 10:59:39] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-06-14 10:59:39] INFO root fetch - processPackages [mushroom-rl]: Remove: archive file [/home/abi/fetcher/tmp/mushroom-rl-1.9.1.tar.gz]
+[2023-06-14 10:59:39] INFO root fetch - processPackages [mushroom-rl]: Remove: archive file [/home/abi/fetcher/tmp/mushroom-rl-1.9.2.tar.gz]
+[2023-06-14 10:59:39] INFO root fetch - main [MainThread]: End processing [mushroom-rl]: success
+[2023-06-14 10:59:41] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.5.tar.gz]
+[2023-06-14 10:59:41] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.6.tar.gz]
+[2023-06-14 10:59:41] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-06-14 10:59:51] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-14 10:59:51] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-14 10:59:51] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-14 11:00:29] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-06-14 11:00:29] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-06-14 11:00:29] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-06-14 11:00:29] INFO root fetch - main [MainThread]: Store serial: [18498674]
