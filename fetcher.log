@@ -12168,3 +12168,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:16:35] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
 [2023-06-14 06:16:35] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-06-14 06:16:35] INFO root fetch - main [MainThread]: Store serial: [18496007]
+[2023-06-14 06:21:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496007]
+[2023-06-14 06:21:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HTTP-PyServer
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metacountregressor
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buildings-bench
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-azurerm
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: barbari
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xmlpydict-parser
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: re2shield
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Echoo
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BiocFrame
+[2023-06-14 06:21:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tgtoolsinsta
+[2023-06-14 06:21:44] WARNING root fetch - processPackages [buildings-bench]: Skipping, unable to determine old version
+[2023-06-14 06:21:44] INFO root fetch - processPackages [buildings-bench]: Start processing: barbari
+[2023-06-14 06:21:44] INFO root fetch - main [MainThread]: End processing [buildings-bench] error
+[2023-06-14 06:21:44] WARNING root fetch - processPackages [re2shield]: Skipping, unable to determine old version
+[2023-06-14 06:21:44] INFO root fetch - main [MainThread]: End processing [re2shield] error
+[2023-06-14 06:21:44] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.1.4.3.2] Old Version: [0.1.4.3.1]
+[2023-06-14 06:21:44] WARNING root fetch - processPackages [xmlpydict-parser]: Skipping, unable to determine old version
+[2023-06-14 06:21:44] INFO root fetch - main [MainThread]: End processing [xmlpydict-parser] error
+[2023-06-14 06:21:44] INFO root fetch - processPackages [Echoo]: New version: [0.0.2.post2306141219] Old Version: [0.0.2-2106021851]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [barbari]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [tgtoolsinsta]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [BiocFrame]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [barbari]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-06-14 06:21:44] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/6f/aa/887253cbcb7bfba40657616af8323d9970e53c312ca4b18fc3d42d9e9970/HTTP-PyServer-0.1.4.3.1.tar.gz
+[2023-06-14 06:21:44] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 06:21:44] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 06:21:44] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 06:21:44] INFO root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Downloading https://files.pythonhosted.org/packages/95/f4/fabac55384c634245d0d22f256da62857b953aff40391c1e72258a024d88/cdktf-cdktf-provider-azurerm-7.0.8.tar.gz
+[2023-06-14 06:21:44] ERROR root fetch - processPackages [tgtoolsinsta]: Unable to fetch info: No such project/version 'tgtoolsinsta' 0.0.4
+[2023-06-14 06:21:44] INFO root fetch - main [MainThread]: End processing [tgtoolsinsta] error
+[2023-06-14 06:21:44] INFO root fetch - processPackages [Echoo]: Downloading https://files.pythonhosted.org/packages/a9/5e/f77652d3ffbc9192f45a871d8257a113fc741bdad2ee5b05db75dea362f2/Echoo-0.0.2.post2106021851-py3-none-any.whl
+[2023-06-14 06:21:44] INFO root fetch - processPackages [barbari]: Downloading https://files.pythonhosted.org/packages/9b/54/fbbcdf82b728052e9237da1e6a46a702300fcd79e4a5eac79c85563639c7/barbari-3.0.1.tar.gz
+[2023-06-14 06:21:44] INFO root fetch - processPackages [barbari]: Downloading https://files.pythonhosted.org/packages/9b/54/fbbcdf82b728052e9237da1e6a46a702300fcd79e4a5eac79c85563639c7/barbari-3.0.1.tar.gz
+[2023-06-14 06:21:44] INFO root fetch - processPackages [BiocFrame]: Downloading https://files.pythonhosted.org/packages/6f/45/da582de765b633febe2d84e256ea5b2510bbd29ade5a86eed157cd0149d6/BiocFrame-0.2.8.tar.gz
+[2023-06-14 06:21:45] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/c6/39/926535918071076203f6cd853ecef8d89e3bf94f4811b91afca3fcf9db4e/HTTP-PyServer-0.1.4.3.2.tar.gz
+[2023-06-14 06:21:45] WARNING root fetch - processPackages [cdktf-cdktf-provider-azurerm]: Skipping package: exceeds size limit 30630616>=10485760
+[2023-06-14 06:21:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azurerm] error
+[2023-06-14 06:21:45] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-06-14 06:21:45] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.1.4.3.1.tar.gz tmp/HTTP-PyServer-0.1.4.3.2.tar.gz --markdown 20230614/H/HTTP-PyServer/0.1.4.3.1-0.1.4.3.2/diff.md --exclude *.pyd
+[2023-06-14 06:21:45] INFO root fetch - processPackages [Echoo]: Downloading https://files.pythonhosted.org/packages/48/3a/3f350c3858ab820daabf0e784e455a075ffc7e043589f9f698a6522a6f29/Echoo-0.0.2.post2306141219-py3-none-any.whl
+[2023-06-14 06:21:45] INFO root fetch - processPackages [Echoo]: executing diffoscope
+[2023-06-14 06:21:45] INFO root fetch - processPackages [Echoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Echoo-0.0.2.post2106021851-py3-none-any.whl.zip tmp/Echoo-0.0.2.post2306141219-py3-none-any.whl.zip --markdown 20230614/E/Echoo/0.0.2-2106021851-0.0.2.post2306141219/diff.md --exclude *.pyd
+[2023-06-14 06:21:45] INFO root fetch - processPackages [BiocFrame]: Downloading https://files.pythonhosted.org/packages/44/a3/a9a3957b7f3ceaa5a7b276e49a8405126472a71799eb214ae1f0209cc180/BiocFrame-0.2.9.tar.gz
+[2023-06-14 06:21:45] INFO root fetch - processPackages [BiocFrame]: executing diffoscope
+[2023-06-14 06:21:45] INFO root fetch - processPackages [BiocFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BiocFrame-0.2.8.tar.gz tmp/BiocFrame-0.2.9.tar.gz --markdown 20230614/B/BiocFrame/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 06:21:45] INFO root fetch - processPackages [barbari]: Downloading https://files.pythonhosted.org/packages/09/77/5e5f1055af32f6e8907e01bc95fbd43976f7a1e5bd2702aa9eadab72d461/barbari-3.0.2.tar.gz
+[2023-06-14 06:21:45] INFO root fetch - processPackages [barbari]: Downloading https://files.pythonhosted.org/packages/09/77/5e5f1055af32f6e8907e01bc95fbd43976f7a1e5bd2702aa9eadab72d461/barbari-3.0.2.tar.gz
+[2023-06-14 06:21:45] INFO root fetch - processPackages [barbari]: executing diffoscope
+[2023-06-14 06:21:45] INFO root fetch - processPackages [barbari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbari-3.0.1.tar.gz tmp/barbari-3.0.2.tar.gz --markdown 20230614/b/barbari/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-14 06:21:45] INFO root fetch - processPackages [barbari]: executing diffoscope
+[2023-06-14 06:21:45] INFO root fetch - processPackages [barbari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbari-3.0.1.tar.gz tmp/barbari-3.0.2.tar.gz --markdown 20230614/b/barbari/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-06-14 06:21:46] INFO root fetch - processPackages [Echoo]: Remove: archive file [/home/abi/fetcher/tmp/Echoo-0.0.2.post2106021851-py3-none-any.whl.zip]
+[2023-06-14 06:21:46] INFO root fetch - processPackages [Echoo]: Remove: archive file [/home/abi/fetcher/tmp/Echoo-0.0.2.post2306141219-py3-none-any.whl.zip]
+[2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [Echoo]: success
+[2023-06-14 06:21:46] INFO root fetch - processPackages [HTTP-PyServer]: Remove: archive file [/home/abi/fetcher/tmp/HTTP-PyServer-0.1.4.3.1.tar.gz]
+[2023-06-14 06:21:46] INFO root fetch - processPackages [HTTP-PyServer]: Remove: archive file [/home/abi/fetcher/tmp/HTTP-PyServer-0.1.4.3.2.tar.gz]
+[2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-06-14 06:21:46] INFO root fetch - processPackages [BiocFrame]: Remove: archive file [/home/abi/fetcher/tmp/BiocFrame-0.2.8.tar.gz]
+[2023-06-14 06:21:46] INFO root fetch - processPackages [BiocFrame]: Remove: archive file [/home/abi/fetcher/tmp/BiocFrame-0.2.9.tar.gz]
+[2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [BiocFrame]: success
+[2023-06-14 06:21:46] INFO root fetch - processPackages [barbari]: Remove: archive file [/home/abi/fetcher/tmp/barbari-3.0.1.tar.gz]
+[2023-06-14 06:21:46] INFO root fetch - processPackages [barbari]: Remove: archive file [/home/abi/fetcher/tmp/barbari-3.0.2.tar.gz]
+[2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [barbari]: success
+[2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [barbari]: success
+[2023-06-14 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18496046]
