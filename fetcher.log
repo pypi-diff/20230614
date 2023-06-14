@@ -20938,3 +20938,136 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 12:50:05] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-14 12:50:05] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-14 12:50:05] INFO root fetch - main [MainThread]: Store serial: [18499866]
+[2023-06-14 12:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499866]
+[2023-06-14 12:55:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embiggen
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guardrails-ai
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guardrails-ai
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-package-me
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyfi-template
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-access-sdk
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Digital-Forming-Solution
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: configuraptor
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antgo
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uk-gov-dash-components
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [configuraptor]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [hyfi-template]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 12:55:15] WARNING root fetch - processPackages [example-package-me]: Skipping, unable to determine old version
+[2023-06-14 12:55:15] INFO root fetch - processPackages [example-package-me]: Start processing: ukrdc-schema
+[2023-06-14 12:55:15] INFO root fetch - main [MainThread]: End processing [example-package-me] error
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [uk-gov-dash-components]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [Digital-Forming-Solution]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ukrdc-schema]: New version: [3.4.5] Old Version: [3.4.3]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-06-14 12:55:15] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/e4/ea/8bc5a4dbbbcf2011b1da03919fdb29172db349ab109f87052633a4b30441/configuraptor-1.1.0.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/82/96/06c714ccaa12c078f4cd3d961fb4e75b55b6697da21c92f2c0d3817af9bd/guardrails-ai-0.1.7.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/c1/5e/63236ba6c7cded13f0310b9178ae41a242d6291a7061986db795888f6354/hyfi_template-0.3.5.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/82/96/06c714ccaa12c078f4cd3d961fb4e75b55b6697da21c92f2c0d3817af9bd/guardrails-ai-0.1.7.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [Digital-Forming-Solution]: Downloading https://files.pythonhosted.org/packages/bd/e5/0d04f2a83dd8efea050f281b8b4f3f8d662546598764aaa52661d32d3b56/Digital_Forming_Solution-0.1.1.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/40/5e/c914179d5af618e6da550fc6dc416471bf2c12f81930f9de7615ff67f14e/uk_gov_dash_components-1.9.2.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/29/be/60d253589ddc26540bbfa4578ee5726a38d5bea35730371e9ce65183f027/ukrdc_schema-3.4.3-py3-none-any.whl
+[2023-06-14 12:55:15] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [configuraptor]: Downloading https://files.pythonhosted.org/packages/8f/a4/cb5c400d788b0b9cbcd2f2fe03c6dcc870630f49e184cf7153c93c5c9ec0/configuraptor-1.1.1.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/d5/2c/e24f088ea3876adb0cfa892d3d34a490b3a15f9824fd41e31303fe713060/guardrails-ai-0.1.8.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/d5/2c/e24f088ea3876adb0cfa892d3d34a490b3a15f9824fd41e31303fe713060/guardrails-ai-0.1.8.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-06-14 12:55:15] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230614/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-06-14 12:55:15] INFO root fetch - processPackages [Digital-Forming-Solution]: Downloading https://files.pythonhosted.org/packages/bc/39/4f31218c6941993203f6761185da7422383239966c48a4862c49ea2379f5/Digital_Forming_Solution-0.1.2.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [hyfi-template]: Downloading https://files.pythonhosted.org/packages/2c/4e/91f59c4951125ef54de2647c13e392b5ae7a8feafbd330eff30a0da62343/hyfi_template-0.3.6.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [configuraptor]: executing diffoscope
+[2023-06-14 12:55:15] INFO root fetch - processPackages [configuraptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuraptor-1.1.0.tar.gz tmp/configuraptor-1.1.1.tar.gz --markdown 20230614/c/configuraptor/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: executing diffoscope
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardrails-ai-0.1.7.tar.gz tmp/guardrails-ai-0.1.8.tar.gz --markdown 20230614/g/guardrails-ai/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: executing diffoscope
+[2023-06-14 12:55:15] INFO root fetch - processPackages [guardrails-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardrails-ai-0.1.7.tar.gz tmp/guardrails-ai-0.1.8.tar.gz --markdown 20230614/g/guardrails-ai/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 12:55:15] INFO root fetch - processPackages [Digital-Forming-Solution]: executing diffoscope
+[2023-06-14 12:55:15] INFO root fetch - processPackages [Digital-Forming-Solution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Digital_Forming_Solution-0.1.1.tar.gz tmp/Digital_Forming_Solution-0.1.2.tar.gz --markdown 20230614/D/Digital-Forming-Solution/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 12:55:15] INFO root fetch - processPackages [hyfi-template]: executing diffoscope
+[2023-06-14 12:55:15] INFO root fetch - processPackages [hyfi-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi_template-0.3.5.tar.gz tmp/hyfi_template-0.3.6.tar.gz --markdown 20230614/h/hyfi-template/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-14 12:55:15] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-06-14 12:55:15] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/25/9e/50907abd306f2db13f8f4f212eee6b71556088ab4c4662bbe5a3905b4a38/ukrdc_schema-3.4.5-py3-none-any.whl
+[2023-06-14 12:55:15] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-14 12:55:16] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-06-14 12:55:16] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230614/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-14 12:55:16] INFO root fetch - processPackages [ukrdc-schema]: executing diffoscope
+[2023-06-14 12:55:16] INFO root fetch - processPackages [ukrdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrdc_schema-3.4.3-py3-none-any.whl.zip tmp/ukrdc_schema-3.4.5-py3-none-any.whl.zip --markdown 20230614/u/ukrdc-schema/3.4.3-3.4.5/diff.md --exclude *.pyd
+[2023-06-14 12:55:16] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-14 12:55:16] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230614/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 12:55:16] INFO root fetch - processPackages [uk-gov-dash-components]: Downloading https://files.pythonhosted.org/packages/1d/68/c31f252cd06b662f951b9ca487fed02c157083e1a863946c1f73cd5d0ac4/uk_gov_dash_components-1.9.3.tar.gz
+[2023-06-14 12:55:16] INFO root fetch - processPackages [uk-gov-dash-components]: executing diffoscope
+[2023-06-14 12:55:16] INFO root fetch - processPackages [uk-gov-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_gov_dash_components-1.9.2.tar.gz tmp/uk_gov_dash_components-1.9.3.tar.gz --markdown 20230614/u/uk-gov-dash-components/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-14 12:55:17] INFO root fetch - processPackages [Digital-Forming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Forming_Solution-0.1.1.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [Digital-Forming-Solution]: Remove: archive file [/home/abi/fetcher/tmp/Digital_Forming_Solution-0.1.2.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [Digital-Forming-Solution]: Start processing: ukrdc-xsdata
+[2023-06-14 12:55:17] INFO root fetch - main [MainThread]: End processing [Digital-Forming-Solution]: success
+[2023-06-14 12:55:17] INFO root fetch - processPackages [ukrdc-xsdata]: New version: [3.4.5] Old Version: [3.3.0.post1]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [ukrdc-xsdata]: Downloading https://files.pythonhosted.org/packages/85/06/5f8ada101ef353f763d140d32657fc4d0bed95badbd263725b4c1455b742/ukrdc-xsdata-3.3.0.post1.tar.gz
+[2023-06-14 12:55:17] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.5.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [hyfi-template]: Remove: archive file [/home/abi/fetcher/tmp/hyfi_template-0.3.6.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [hyfi-template]: Start processing: investigraph-etl
+[2023-06-14 12:55:17] INFO root fetch - main [MainThread]: End processing [hyfi-template]: success
+[2023-06-14 12:55:17] WARNING root fetch - processPackages [investigraph-etl]: Skipping, unable to determine old version
+[2023-06-14 12:55:17] INFO root fetch - processPackages [investigraph-etl]: Start processing: kalm
+[2023-06-14 12:55:17] INFO root fetch - main [MainThread]: End processing [investigraph-etl] error
+[2023-06-14 12:55:17] INFO root fetch - processPackages [kalm]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [embiggen]: Start processing: gdstk
+[2023-06-14 12:55:17] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-06-14 12:55:17] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/08/d6/afbd93ab17a860658e3f78d89626ca0ad442f18d7058216f69066b2b251d/kalm-0.6.8.tar.gz
+[2023-06-14 12:55:17] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.1.0.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [configuraptor]: Remove: archive file [/home/abi/fetcher/tmp/configuraptor-1.1.1.tar.gz]
+[2023-06-14 12:55:17] INFO root fetch - processPackages [configuraptor]: Start processing: countess
+[2023-06-14 12:55:17] INFO root fetch - main [MainThread]: End processing [configuraptor]: success
+[2023-06-14 12:55:17] INFO root fetch - processPackages [countess]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-14 12:55:18] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/88/35/3c94e3d75dd8c22f906cad785e45e9f04d1728841cb1cc791500f7190e42/countess-0.0.29.tar.gz
+[2023-06-14 12:55:18] INFO root fetch - processPackages [ukrdc-xsdata]: Downloading https://files.pythonhosted.org/packages/a7/c2/7dbe920c5ce85186c8d6f38c0f8c40267aeded78d632af7f105352195268/ukrdc_xsdata-3.4.5-py3-none-any.whl
+[2023-06-14 12:55:18] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/f3/ee/21230318a80577b7a92a016e6f1cf516735d553ff6164c13ff461de986aa/kalm-0.6.9.tar.gz
+[2023-06-14 12:55:18] INFO root fetch - processPackages [gdstk]: New version: [0.9.42] Old Version: [0.9.41]
+[2023-06-14 12:55:18] INFO root fetch - processPackages [ukrdc-xsdata]: executing diffoscope
+[2023-06-14 12:55:18] INFO root fetch - processPackages [ukrdc-xsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrdc-xsdata-3.3.0.post1.tar.gz tmp/ukrdc_xsdata-3.4.5-py3-none-any.whl.zip --markdown 20230614/u/ukrdc-xsdata/3.3.0.post1-3.4.5/diff.md --exclude *.pyd
+[2023-06-14 12:55:18] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-14 12:55:18] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.6.8.tar.gz tmp/kalm-0.6.9.tar.gz --markdown 20230614/k/kalm/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-14 12:55:18] INFO root fetch - processPackages [gdstk]: Downloading https://files.pythonhosted.org/packages/8a/9e/d3f57d26b894c5f61940029412612a0bb0949bc483941dfdb9c980df60bf/gdstk-0.9.41.tar.gz
+[2023-06-14 12:55:18] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/c5/29/d555386927921be182b2c91b8251c538ed9493f33382097d034d1fb0abb0/countess-0.0.30.tar.gz
+[2023-06-14 12:55:18] INFO root fetch - processPackages [countess]: executing diffoscope
+[2023-06-14 12:55:18] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.29.tar.gz tmp/countess-0.0.30.tar.gz --markdown 20230614/c/countess/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-14 12:55:18] ERROR root fetch - processPackages [countess]: Diffoscope failed: Error: error creating container storage: the container name "determined_mcnulty" is already in use by "e0d0f823dc0ab51ced7caea9bca0f707d799a42474776401c5d2b19679ee5c95". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-14 12:55:18] INFO root fetch - main [MainThread]: End processing [countess] error
+[2023-06-14 12:55:18] INFO root fetch - processPackages [gdstk]: Downloading https://files.pythonhosted.org/packages/8a/03/e097cdb34b935e8e7361d6ce31a44e52020cce1995c1232de17301cab90a/gdstk-0.9.42-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 12:55:18] INFO root fetch - processPackages [guardrails-ai]: Remove: archive file [/home/abi/fetcher/tmp/guardrails-ai-0.1.7.tar.gz]
+[2023-06-14 12:55:18] INFO root fetch - processPackages [guardrails-ai]: Remove: archive file [/home/abi/fetcher/tmp/guardrails-ai-0.1.8.tar.gz]
+[2023-06-14 12:55:18] INFO root fetch - main [MainThread]: End processing [guardrails-ai]: success
+[2023-06-14 12:55:18] INFO root fetch - main [MainThread]: End processing [guardrails-ai]: success
+[2023-06-14 12:55:19] INFO root fetch - processPackages [ukrdc-xsdata]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc-xsdata-3.3.0.post1.tar.gz]
+[2023-06-14 12:55:19] INFO root fetch - processPackages [ukrdc-xsdata]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_xsdata-3.4.5-py3-none-any.whl.zip]
+[2023-06-14 12:55:19] INFO root fetch - main [MainThread]: End processing [ukrdc-xsdata]: success
+[2023-06-14 12:55:19] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.8.tar.gz]
+[2023-06-14 12:55:19] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.6.9.tar.gz]
+[2023-06-14 12:55:19] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-14 12:55:19] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.4.3-py3-none-any.whl.zip]
+[2023-06-14 12:55:19] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.4.5-py3-none-any.whl.zip]
+[2023-06-14 12:55:19] INFO root fetch - main [MainThread]: End processing [ukrdc-schema]: success
+[2023-06-14 12:55:20] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-06-14 12:55:20] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-06-14 12:55:20] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-06-14 12:55:20] INFO root fetch - processPackages [gdstk]: executing diffoscope
+[2023-06-14 12:55:20] INFO root fetch - processPackages [gdstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdstk-0.9.41.tar.gz tmp/gdstk-0.9.42-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230614/g/gdstk/0.9.41-0.9.42/diff.md --exclude *.pyd
+[2023-06-14 12:55:21] INFO root fetch - processPackages [uk-gov-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/uk_gov_dash_components-1.9.2.tar.gz]
+[2023-06-14 12:55:21] INFO root fetch - processPackages [uk-gov-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/uk_gov_dash_components-1.9.3.tar.gz]
+[2023-06-14 12:55:21] INFO root fetch - main [MainThread]: End processing [uk-gov-dash-components]: success
+[2023-06-14 12:55:21] INFO root fetch - processPackages [gdstk]: Remove: archive file [/home/abi/fetcher/tmp/gdstk-0.9.41.tar.gz]
+[2023-06-14 12:55:21] INFO root fetch - processPackages [gdstk]: Remove: archive file [/home/abi/fetcher/tmp/gdstk-0.9.42-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-14 12:55:21] INFO root fetch - main [MainThread]: End processing [gdstk]: success
+[2023-06-14 12:55:28] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-14 12:55:28] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-14 12:55:28] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-14 12:55:28] INFO root fetch - main [MainThread]: Store serial: [18499946]
