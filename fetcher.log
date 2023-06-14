@@ -14988,3 +14988,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:45:20] INFO root fetch - processPackages [semantha-sdk]: Remove: archive file [/home/abi/fetcher/tmp/semantha_sdk-5.4.0.tar.gz]
 [2023-06-14 08:45:20] INFO root fetch - main [MainThread]: End processing [semantha-sdk]: success
 [2023-06-14 08:45:20] INFO root fetch - main [MainThread]: Store serial: [18497130]
+[2023-06-14 08:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497130]
+[2023-06-14 08:50:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ory-client
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: label-sleuth
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: econbeautylib
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: news-scraper-python
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taichu-dataflow
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlalchemy-iris
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omkar-temp-mail
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gauge-llm
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ssb-sgis
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrdfj2
+[2023-06-14 08:50:30] INFO root fetch - processPackages [news-scraper-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [omkar-temp-mail]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [taichu-dataflow]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [gauge-llm]: New version: [0.0.121] Old Version: [0.0.12]
+[2023-06-14 08:50:30] WARNING root fetch - processPackages [pyrdfj2]: Skipping, unable to determine old version
+[2023-06-14 08:50:30] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [pyrdfj2]: Start processing: dune-harmonizer
+[2023-06-14 08:50:30] INFO root fetch - main [MainThread]: End processing [pyrdfj2] error
+[2023-06-14 08:50:30] INFO root fetch - processPackages [sqlalchemy-iris]: New version: [0.9.0] Old Version: [0.8.1b1]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ssb-sgis]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [gauge-llm]: Downloading https://files.pythonhosted.org/packages/5c/1c/687d21a11efe6ece6f21b3c0ead18d361225d58fca0ee73a3192c80f1b4e/gauge_llm-0.0.12.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [econbeautylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 08:50:30] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/15/8d/b384ea6bb812705d0902f3fdc7b587788309bbac2105d41e1fce25c7b7a8/sqlalchemy-iris-0.8.1b1.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/90/fc/210d9b99d6b6d138d1ebce9cbf01e63a30e0ffffaf672b5430fafd1dc989/news-scraper-python-0.0.5.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/53/3f/972b9703a776424f54e532aa57b4561e3d18ba8bcfd75c72733c420a2753/omkar_temp_mail-1.0.0.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/81/dd/e3d5b3a55c3654ec66d572cdf43ac839e88c57e6e832e3aa6c937b397b73/taichu-dataflow-1.0.7.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/b9/bf/1add7736bf8a822012c1cbad841dbb921814d93812fd15c136f9c3a34fc2/ssb_sgis-0.2.5.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/54/15225f72625b525b291c5e4e51abc0c163a329360ab295d18516083fa47e/econbeautylib-0.0.8.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [sqlalchemy-iris]: Downloading https://files.pythonhosted.org/packages/6d/9b/a8d3294808ea8adf3ed7da5d7d8827d629329b0f250208c0c765f13df6cc/sqlalchemy-iris-0.9.0.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [gauge-llm]: Downloading https://files.pythonhosted.org/packages/85/ab/a6bcdc9c3f4c85fe3fec475b56a6ce4936def56a2de2afe278e90e7a24e3/gauge_llm-0.0.121.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/da/08/5ecedccbdbf1b649a0a814f1f0715fbd8aac1f3287790adf157a5e4ac131/news-scraper-python-0.0.6.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [sqlalchemy-iris]: executing diffoscope
+[2023-06-14 08:50:30] INFO root fetch - processPackages [sqlalchemy-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-iris-0.8.1b1.tar.gz tmp/sqlalchemy-iris-0.9.0.tar.gz --markdown 20230614/s/sqlalchemy-iris/0.8.1b1-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 08:50:30] INFO root fetch - processPackages [taichu-dataflow]: Downloading https://files.pythonhosted.org/packages/32/93/3c3f1a53a50872a914ef7bd923957025e61d81d4c628ea5dc23a74a1701f/taichu-dataflow-1.0.8.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [gauge-llm]: executing diffoscope
+[2023-06-14 08:50:30] INFO root fetch - processPackages [gauge-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauge_llm-0.0.12.tar.gz tmp/gauge_llm-0.0.121.tar.gz --markdown 20230614/g/gauge-llm/0.0.12-0.0.121/diff.md --exclude *.pyd
+[2023-06-14 08:50:30] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/ce/f4/770b68166df974e39876dedb75319839834b29910dc48e87bb06006a9b47/omkar_temp_mail-1.0.1.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [news-scraper-python]: executing diffoscope
+[2023-06-14 08:50:30] INFO root fetch - processPackages [news-scraper-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-scraper-python-0.0.5.tar.gz tmp/news-scraper-python-0.0.6.tar.gz --markdown 20230614/n/news-scraper-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230614/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-14 08:50:30] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/be/02/fa079caa4a638486ec7660653149f8ceb331d36370a60600d6c661fa8886/ssb_sgis-0.2.6.tar.gz
+[2023-06-14 08:50:30] INFO root fetch - processPackages [taichu-dataflow]: executing diffoscope
+[2023-06-14 08:50:30] INFO root fetch - processPackages [taichu-dataflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-dataflow-1.0.7.tar.gz tmp/taichu-dataflow-1.0.8.tar.gz --markdown 20230614/t/taichu-dataflow/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-14 08:50:30] INFO root fetch - processPackages [omkar-temp-mail]: executing diffoscope
+[2023-06-14 08:50:30] INFO root fetch - processPackages [omkar-temp-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar_temp_mail-1.0.0.tar.gz tmp/omkar_temp_mail-1.0.1.tar.gz --markdown 20230614/o/omkar-temp-mail/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 08:50:31] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-14 08:50:31] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/dd/17a982baeba8ae643e6a7eca352e39d15629bdd9ea1067bad349087c4df8/econbeautylib-0.0.9.tar.gz
+[2023-06-14 08:50:31] INFO root fetch - processPackages [ssb-sgis]: executing diffoscope
+[2023-06-14 08:50:31] INFO root fetch - processPackages [ssb-sgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_sgis-0.2.5.tar.gz tmp/ssb_sgis-0.2.6.tar.gz --markdown 20230614/s/ssb-sgis/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-14 08:50:31] INFO root fetch - processPackages [econbeautylib]: executing diffoscope
+[2023-06-14 08:50:31] INFO root fetch - processPackages [econbeautylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econbeautylib-0.0.8.tar.gz tmp/econbeautylib-0.0.9.tar.gz --markdown 20230614/e/econbeautylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:50:31] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-06-14 08:50:31] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-14 08:50:31] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230614/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 08:50:31] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-06-14 08:50:31] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230614/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 08:50:32] INFO root fetch - processPackages [gauge-llm]: Remove: archive file [/home/abi/fetcher/tmp/gauge_llm-0.0.12.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [gauge-llm]: Remove: archive file [/home/abi/fetcher/tmp/gauge_llm-0.0.121.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [gauge-llm]: Start processing: fast-model-server
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [gauge-llm]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [fast-model-server]: New version: [1.1.0.0] Old Version: [1.0.0.1]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.0.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.1.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [omkar-temp-mail]: Start processing: ersilia
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [ersilia]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.7.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [taichu-dataflow]: Remove: archive file [/home/abi/fetcher/tmp/taichu-dataflow-1.0.8.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [taichu-dataflow]: Start processing: web3cli
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [taichu-dataflow]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.5.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.6.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [news-scraper-python]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [web3cli]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [fast-model-server]: Downloading https://files.pythonhosted.org/packages/c1/b6/93d3d16b4ed09d02815499cd60e95760e5b0c1754ccceb2812d86b8858ff/fast_model_server-1.0.0.1-py2.py3-none-any.whl
+[2023-06-14 08:50:32] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/f4/d5/c64d09a59ebd50439bac877a5bc7ce297560205ea9efe7b1bfa9dfdddd84/web3cli-1.1.4.tar.gz
+[2023-06-14 08:50:32] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/df/17/bcc5e49ed055c8a30ec17207724be19de78561c458a32cc19a8a7dcfda5f/ersilia-0.1.8.tar.gz
+[2023-06-14 08:50:32] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.8.1b1.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [sqlalchemy-iris]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-iris-0.9.0.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [sqlalchemy-iris]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.8.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.9.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [econbeautylib]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [fast-model-server]: Downloading https://files.pythonhosted.org/packages/2c/07/13b9c70b86aaad279e6ef4d3db9942305b2d1889ecd18a3d23f0cb530a14/fast_model_server-1.1.0.0-py2.py3-none-any.whl
+[2023-06-14 08:50:32] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-14 08:50:32] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-14 08:50:32] INFO root fetch - processPackages [web3cli]: Downloading https://files.pythonhosted.org/packages/f6/e2/4379bd259c3910da52556121bdfbeaafd3a1cec1f52cabf2f0cf9b7d0d9b/web3cli-1.1.5.tar.gz
+[2023-06-14 08:50:32] INFO root fetch - processPackages [fast-model-server]: executing diffoscope
+[2023-06-14 08:50:32] INFO root fetch - processPackages [fast-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_model_server-1.0.0.1-py2.py3-none-any.whl.zip tmp/fast_model_server-1.1.0.0-py2.py3-none-any.whl.zip --markdown 20230614/f/fast-model-server/1.0.0.1-1.1.0.0/diff.md --exclude *.pyd
+[2023-06-14 08:50:32] INFO root fetch - processPackages [web3cli]: executing diffoscope
+[2023-06-14 08:50:32] INFO root fetch - processPackages [web3cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3cli-1.1.4.tar.gz tmp/web3cli-1.1.5.tar.gz --markdown 20230614/w/web3cli/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-14 08:50:33] INFO root fetch - processPackages [ersilia]: Downloading https://files.pythonhosted.org/packages/e5/c8/bbe25f319721547bf0de64521c3e4e208423692183d8713cbe692d35db62/ersilia-0.1.9.tar.gz
+[2023-06-14 08:50:33] INFO root fetch - processPackages [ersilia]: executing diffoscope
+[2023-06-14 08:50:33] INFO root fetch - processPackages [ersilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ersilia-0.1.8.tar.gz tmp/ersilia-0.1.9.tar.gz --markdown 20230614/e/ersilia/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 08:50:33] INFO root fetch - processPackages [fast-model-server]: Remove: archive file [/home/abi/fetcher/tmp/fast_model_server-1.0.0.1-py2.py3-none-any.whl.zip]
+[2023-06-14 08:50:33] INFO root fetch - processPackages [fast-model-server]: Remove: archive file [/home/abi/fetcher/tmp/fast_model_server-1.1.0.0-py2.py3-none-any.whl.zip]
+[2023-06-14 08:50:33] INFO root fetch - main [MainThread]: End processing [fast-model-server]: success
+[2023-06-14 08:50:34] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-0.2.5.tar.gz]
+[2023-06-14 08:50:34] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-0.2.6.tar.gz]
+[2023-06-14 08:50:34] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
+[2023-06-14 08:50:34] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.4.tar.gz]
+[2023-06-14 08:50:34] INFO root fetch - processPackages [web3cli]: Remove: archive file [/home/abi/fetcher/tmp/web3cli-1.1.5.tar.gz]
+[2023-06-14 08:50:34] INFO root fetch - main [MainThread]: End processing [web3cli]: success
+[2023-06-14 08:50:35] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.8.tar.gz]
+[2023-06-14 08:50:35] INFO root fetch - processPackages [ersilia]: Remove: archive file [/home/abi/fetcher/tmp/ersilia-0.1.9.tar.gz]
+[2023-06-14 08:50:35] INFO root fetch - main [MainThread]: End processing [ersilia]: success
+[2023-06-14 08:50:45] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.5.tar.gz]
+[2023-06-14 08:50:45] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
+[2023-06-14 08:50:45] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-06-14 08:51:16] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.3.tar.gz]
+[2023-06-14 08:51:16] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
+[2023-06-14 08:51:16] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-06-14 08:51:16] INFO root fetch - main [MainThread]: Store serial: [18497170]
