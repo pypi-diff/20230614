@@ -12788,3 +12788,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:42:43] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.30.tar.gz]
 [2023-06-14 06:42:43] INFO root fetch - main [MainThread]: End processing [countess]: success
 [2023-06-14 06:42:43] INFO root fetch - main [MainThread]: Store serial: [18496289]
+[2023-06-14 06:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496289]
+[2023-06-14 06:47:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandasklar
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: barocert
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghapi
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-report-csv
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meteva-base
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Jlab
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: searchlogit
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exergenics
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ghapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [odoo13-addon-report-csv]: New version: [13.0.1.0.3.dev4] Old Version: [13.0.1.0.3.dev3]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [Jlab]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [meteva-base]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [barocert]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [exergenics]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [pandasklar]: New version: [0.3.3] Old Version: [0.3.1]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-14 06:47:54] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/de/7e/09a6289e4fccb466359f1b46fe2b373c6b50d748ef0ca95235c2ea616e5a/meteva_base-0.1.2-py3-none-any.whl
+[2023-06-14 06:47:54] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/fa/3e/32d71787edae05b219b476dd39839ffb17efb97aaeb221f98cbcba3cce0f/Jlab-1.1.8.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [odoo13-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/69/82/9f482e3e3629c5995072dcd83ba5d652802b9f277f5be6392aece753953c/odoo13_addon_report_csv-13.0.1.0.3.dev3-py3-none-any.whl
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ghapi]: Downloading https://files.pythonhosted.org/packages/f0/26/2ad25171d01381b1dbf05bc481b9be8258ccf075998a084f08a686983195/ghapi-1.0.3.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [barocert]: Downloading https://files.pythonhosted.org/packages/fe/a7/6e48b94fd09ec0176b2da907aa8eb546963e1b4409cf92c3e6d1896a40ee/barocert-1.0.1-py3-none-any.whl
+[2023-06-14 06:47:54] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/0a/f5/ff99c204873a3e31cbecb9425db91f39533e9214055ed03903fdbd24f338/pandasklar-0.3.1.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [Jlab]: Downloading https://files.pythonhosted.org/packages/ac/66/0597393cb75d6bf1c5b7558e5044e2658b628fee443c2e839df2ac8944b4/Jlab-1.1.9.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/c1/90/66729379baf854109071c6ad50958949fcbca5fa979bedb94b63524c5a80/exergenics-2.8.0.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230614/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-14 06:47:54] INFO root fetch - processPackages [meteva-base]: Downloading https://files.pythonhosted.org/packages/b2/7c/2f276dd59b1dfd64f23d7467b25276f049b16f04b6b6b502066595382ce2/meteva_base-0.1.4-py3-none-any.whl
+[2023-06-14 06:47:54] INFO root fetch - processPackages [Jlab]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [Jlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jlab-1.1.8.tar.gz tmp/Jlab-1.1.9.tar.gz --markdown 20230614/J/Jlab/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ghapi]: Downloading https://files.pythonhosted.org/packages/74/f6/a423c4a7e3230bdbee24cb0d1764938babfea978b2418c714c820b0d767f/ghapi-1.0.4.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [meteva-base]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [meteva-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteva_base-0.1.2-py3-none-any.whl.zip tmp/meteva_base-0.1.4-py3-none-any.whl.zip --markdown 20230614/m/meteva-base/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ghapi]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [ghapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghapi-1.0.3.tar.gz tmp/ghapi-1.0.4.tar.gz --markdown 20230614/g/ghapi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 06:47:54] INFO root fetch - processPackages [odoo13-addon-report-csv]: Downloading https://files.pythonhosted.org/packages/e6/bd/383a89008d6436b6f96aeb1484b1713e978f99bfed640aab7bd8417cc4d2/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl
+[2023-06-14 06:47:54] INFO root fetch - processPackages [barocert]: Downloading https://files.pythonhosted.org/packages/b7/58/ad18f3803a37f4482220d22db4f018a1a068dbc1f7b5b7cfa59d7ca68032/barocert-1.0.2.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [pandasklar]: Downloading https://files.pythonhosted.org/packages/fa/ec/e9ac7de46fdc2f50d220bae3d0d6927e3ecb80c01fb27397765922a77e95/pandasklar-0.3.3.tar.gz
+[2023-06-14 06:47:54] INFO root fetch - processPackages [barocert]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [barocert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barocert-1.0.1-py3-none-any.whl.zip tmp/barocert-1.0.2.tar.gz --markdown 20230614/b/barocert/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 06:47:54] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/03/2f/9dbdb120cb4f04dbc4bd713ec71a76f943eb731f39d525dde2f8a478a5df/exergenics-2.9-py3-none-any.whl
+[2023-06-14 06:47:54] INFO root fetch - processPackages [pandasklar]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [pandasklar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasklar-0.3.1.tar.gz tmp/pandasklar-0.3.3.tar.gz --markdown 20230614/p/pandasklar/0.3.1-0.3.3/diff.md --exclude *.pyd
+[2023-06-14 06:47:54] INFO root fetch - processPackages [odoo13-addon-report-csv]: executing diffoscope
+[2023-06-14 06:47:54] INFO root fetch - processPackages [odoo13-addon-report-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_report_csv-13.0.1.0.3.dev3-py3-none-any.whl.zip tmp/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl.zip --markdown 20230614/o/odoo13-addon-report-csv/13.0.1.0.3.dev3-13.0.1.0.3.dev4/diff.md --exclude *.pyd
+[2023-06-14 06:47:55] INFO root fetch - processPackages [exergenics]: executing diffoscope
+[2023-06-14 06:47:55] INFO root fetch - processPackages [exergenics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-2.8.0.tar.gz tmp/exergenics-2.9-py3-none-any.whl.zip --markdown 20230614/e/exergenics/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-14 06:47:55] INFO root fetch - processPackages [Jlab]: Remove: archive file [/home/abi/fetcher/tmp/Jlab-1.1.8.tar.gz]
+[2023-06-14 06:47:55] INFO root fetch - processPackages [Jlab]: Remove: archive file [/home/abi/fetcher/tmp/Jlab-1.1.9.tar.gz]
+[2023-06-14 06:47:55] INFO root fetch - main [MainThread]: End processing [Jlab]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [barocert]: Remove: archive file [/home/abi/fetcher/tmp/barocert-1.0.1-py3-none-any.whl.zip]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [barocert]: Remove: archive file [/home/abi/fetcher/tmp/barocert-1.0.2.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [barocert]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [exergenics]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-2.8.0.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [exergenics]: Remove: archive file [/home/abi/fetcher/tmp/exergenics-2.9-py3-none-any.whl.zip]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [exergenics]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.1.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [pandasklar]: Remove: archive file [/home/abi/fetcher/tmp/pandasklar-0.3.3.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [pandasklar]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [ghapi]: Remove: archive file [/home/abi/fetcher/tmp/ghapi-1.0.3.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [ghapi]: Remove: archive file [/home/abi/fetcher/tmp/ghapi-1.0.4.tar.gz]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [ghapi]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [odoo13-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_report_csv-13.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [odoo13-addon-report-csv]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_report_csv-13.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [odoo13-addon-report-csv]: success
+[2023-06-14 06:47:56] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.2-py3-none-any.whl.zip]
+[2023-06-14 06:47:56] INFO root fetch - processPackages [meteva-base]: Remove: archive file [/home/abi/fetcher/tmp/meteva_base-0.1.4-py3-none-any.whl.zip]
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: End processing [meteva-base]: success
+[2023-06-14 06:47:56] INFO root fetch - main [MainThread]: Store serial: [18496311]
