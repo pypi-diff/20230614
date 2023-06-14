@@ -17088,3 +17088,121 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 10:16:52] INFO root fetch - processPackages [sports2d]: Remove: archive file [/home/abi/fetcher/tmp/sports2d-0.2.5.tar.gz]
 [2023-06-14 10:16:52] INFO root fetch - main [MainThread]: End processing [sports2d]: success
 [2023-06-14 10:16:52] INFO root fetch - main [MainThread]: Store serial: [18498026]
+[2023-06-14 10:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498026]
+[2023-06-14 10:22:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-osmosis
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: request-time-tracker
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftrack-ams
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-shopinvader-locomotive
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renku
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: renku-lock
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmo-dataviz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napatrackmater
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cstore
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openai-dbd
+[2023-06-14 10:22:02] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: New version: [14.0.2.1.2] Old Version: [14.0.2.1.1]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [request-time-tracker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [renku]: New version: [2.5.0rc3] Old Version: [2.5.0rc2]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [cmo-dataviz]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [renku-lock]: New version: [2.5.0rc3] Old Version: [2.5.0rc2]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [dbt-osmosis]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-14 10:22:02] WARNING root fetch - processPackages [cstore]: Skipping, unable to determine old version
+[2023-06-14 10:22:02] INFO root fetch - processPackages [cstore]: Start processing: cns
+[2023-06-14 10:22:02] INFO root fetch - main [MainThread]: End processing [cstore] error
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ftrack-ams]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [napatrackmater]: New version: [3.7.7] Old Version: [3.7.6]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/55/2b/74bf12369cc72866a94768c03c01805c700d1850abd59740a5b13d60e891/request-time-tracker-0.0.6.tar.gz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [cns]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-14 10:22:02] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/25/45/a86a985f8c1e3cb63fe3f456e23f49e57e0a50a44a23544686436b6adec5/request-time-tracker-0.0.7.tar.gz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/a4/e3/2245a9dfb4b8eb72704d22ef6590ad2b523125c66d1f6276ad71756774db/renku-2.5.0rc2.tar.gz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [cmo-dataviz]: Downloading https://files.pythonhosted.org/packages/3c/6e/d26ce7340e1b87cc40a2f770694e86008e688acb8439f4723f8d0e00d7d1/cmo_dataviz-0.0.1.tar.gz
+[2023-06-14 10:22:02] ERROR root fetch - processPackages [cns]: Unable to fetch info: No such project/version 'cns' 1.0.3
+[2023-06-14 10:22:02] INFO root fetch - processPackages [cns]: Start processing: datarobot-drum
+[2023-06-14 10:22:02] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-14 10:22:02] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-14 10:22:02] INFO root fetch - processPackages [request-time-tracker]: executing diffoscope
+[2023-06-14 10:22:02] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/1f/7f/b87c19e59680566f9a9dfbfdb765188b6c1ec659255145cfbdd9f6dec0cc/napatrackmater-3.7.6.tar.gz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [request-time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-time-tracker-0.0.6.tar.gz tmp/request-time-tracker-0.0.7.tar.gz --markdown 20230614/r/request-time-tracker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 10:22:02] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: Downloading https://files.pythonhosted.org/packages/b8/5e/21bea2eb94527529972a30f7c8bf5dc98138cc6cdd2e64a90f4837568586/odoo14_addon_shopinvader_locomotive-14.0.2.1.1-py3-none-any.whl
+[2023-06-14 10:22:02] INFO root fetch - processPackages [dbt-osmosis]: Downloading https://files.pythonhosted.org/packages/58/6d/6065b954fa2e9197c6c66eda6a5f68a925bfd3e928477828ce1bb1396a6f/dbt-osmosis-0.9.7.tar.gz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/af/ec/f8f5c8ac9561e32fae0fa99d3f8513ecea1a06589a710e3c7b283e697493/renku_lock-2.5.0rc2-py3-none-any.whl
+[2023-06-14 10:22:02] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-06-14 10:22:02] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/0a/f1/88ecdca7a2eb946490f33d967638f4af338c82aa3d988dbcad4a500446b9/ftrack-ams-2.0.8.tar.gz
+[2023-06-14 10:22:02] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-14 10:22:02] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230614/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/24/94/e4b18114a42aca8be4338a2c61c38bc02b496d6693a21d45b2f347e9cb4a/napatrackmater-3.7.7.tar.gz
+[2023-06-14 10:22:03] INFO root fetch - processPackages [renku-lock]: Downloading https://files.pythonhosted.org/packages/4c/69/ed2ce57bce2b4d04ebef6414ed880e5b309ddd6b211902d5d1a95247d0f3/renku_lock-2.5.0rc3-py3-none-any.whl
+[2023-06-14 10:22:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: Downloading https://files.pythonhosted.org/packages/9a/aa/89f79a0c77cedf147e5c39aaceac7f3de42a5b57ef63613ffddecbb4771f/odoo14_addon_shopinvader_locomotive-14.0.2.1.2-py3-none-any.whl
+[2023-06-14 10:22:03] INFO root fetch - processPackages [renku]: Downloading https://files.pythonhosted.org/packages/7b/af/b12333643e5fece20fdc690f0085fa3294eff02bec0008377e42c4ae9ea3/renku-2.5.0rc3.tar.gz
+[2023-06-14 10:22:03] INFO root fetch - processPackages [cmo-dataviz]: Downloading https://files.pythonhosted.org/packages/f8/97/c77c81a73b8e322499282fb43146f7a04f0b3f145c2d4b8646a7c74096b6/cmo_dataviz-0.1.0.tar.gz
+[2023-06-14 10:22:03] INFO root fetch - processPackages [renku-lock]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [renku-lock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku_lock-2.5.0rc2-py3-none-any.whl.zip tmp/renku_lock-2.5.0rc3-py3-none-any.whl.zip --markdown 20230614/r/renku-lock/2.5.0rc2-2.5.0rc3/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader_locomotive-14.0.2.1.1-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader_locomotive-14.0.2.1.2-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-shopinvader-locomotive/14.0.2.1.1-14.0.2.1.2/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.7.6.tar.gz tmp/napatrackmater-3.7.7.tar.gz --markdown 20230614/n/napatrackmater/3.7.6-3.7.7/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [cmo-dataviz]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [cmo-dataviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmo_dataviz-0.0.1.tar.gz tmp/cmo_dataviz-0.1.0.tar.gz --markdown 20230614/c/cmo-dataviz/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [ftrack-ams]: Downloading https://files.pythonhosted.org/packages/34/ea/861e042065368474af4e1dd5aae5c75b15e4457811a6fd86d4bc977e16fe/ftrack-ams-2.0.9.tar.gz
+[2023-06-14 10:22:03] INFO root fetch - processPackages [renku]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [renku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-2.5.0rc2.tar.gz tmp/renku-2.5.0rc3.tar.gz --markdown 20230614/r/renku/2.5.0rc2-2.5.0rc3/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230614/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [ftrack-ams]: executing diffoscope
+[2023-06-14 10:22:03] INFO root fetch - processPackages [ftrack-ams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack-ams-2.0.8.tar.gz tmp/ftrack-ams-2.0.9.tar.gz --markdown 20230614/f/ftrack-ams/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:22:03] INFO root fetch - processPackages [dbt-osmosis]: Downloading https://files.pythonhosted.org/packages/a5/6a/58a5f5250da317c29d672ba44dbcfeb2f99247daff9259c3be659f9bbd6e/dbt_osmosis-0.9.8.tar.gz
+[2023-06-14 10:22:04] INFO root fetch - processPackages [dbt-osmosis]: executing diffoscope
+[2023-06-14 10:22:04] INFO root fetch - processPackages [dbt-osmosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-osmosis-0.9.7.tar.gz tmp/dbt_osmosis-0.9.8.tar.gz --markdown 20230614/d/dbt-osmosis/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-14 10:22:04] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [openai-dbd]: Start processing: odoo14-addon-cooperator-account-payment
+[2023-06-14 10:22:04] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-14 10:22:04] WARNING root fetch - processPackages [odoo14-addon-cooperator-account-payment]: Skipping, unable to determine old version
+[2023-06-14 10:22:04] INFO root fetch - processPackages [odoo14-addon-cooperator-account-payment]: Start processing: cg
+[2023-06-14 10:22:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator-account-payment] error
+[2023-06-14 10:22:04] INFO root fetch - processPackages [cg]: New version: [36.0.4] Old Version: [36.0.3]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b5/16/8b5554efcbdb3b2aa9fb0c9b002e0a62e825d5f56e403c59349d2bc0885e/cg-36.0.3.tar.gz
+[2023-06-14 10:22:04] INFO root fetch - processPackages [request-time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/request-time-tracker-0.0.6.tar.gz]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [request-time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/request-time-tracker-0.0.7.tar.gz]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [request-time-tracker]: Start processing: yplib
+[2023-06-14 10:22:04] INFO root fetch - main [MainThread]: End processing [request-time-tracker]: success
+[2023-06-14 10:22:04] INFO root fetch - processPackages [yplib]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/36/ab/8f999cfc12de2815a41f556e742da47b16631ff97ece411e194c7a7f4fa2/yplib-1.1.9.tar.gz
+[2023-06-14 10:22:04] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.5.0rc2-py3-none-any.whl.zip]
+[2023-06-14 10:22:04] INFO root fetch - processPackages [renku-lock]: Remove: archive file [/home/abi/fetcher/tmp/renku_lock-2.5.0rc3-py3-none-any.whl.zip]
+[2023-06-14 10:22:04] INFO root fetch - main [MainThread]: End processing [renku-lock]: success
+[2023-06-14 10:22:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b5/4b/a2518abdb8be4038060364d57f004d1a0e6649146f0e546e3653292ed3bf/cg-36.0.4.tar.gz
+[2023-06-14 10:22:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/03/e3/e7491d25fe9f53d7b240354b2f7bc1b0785e53a4c01fd15b5774132cd810/yplib-1.2.0.tar.gz
+[2023-06-14 10:22:04] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 10:22:04] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.9.tar.gz tmp/yplib-1.2.0.tar.gz --markdown 20230614/y/yplib/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 10:22:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_locomotive-14.0.2.1.1-py3-none-any.whl.zip]
+[2023-06-14 10:22:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-locomotive]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_locomotive-14.0.2.1.2-py3-none-any.whl.zip]
+[2023-06-14 10:22:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-locomotive]: success
+[2023-06-14 10:22:05] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.8.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - processPackages [ftrack-ams]: Remove: archive file [/home/abi/fetcher/tmp/ftrack-ams-2.0.9.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - main [MainThread]: End processing [ftrack-ams]: success
+[2023-06-14 10:22:05] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-14 10:22:05] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.0.3.tar.gz tmp/cg-36.0.4.tar.gz --markdown 20230614/c/cg/36.0.3-36.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:22:05] INFO root fetch - processPackages [dbt-osmosis]: Remove: archive file [/home/abi/fetcher/tmp/dbt-osmosis-0.9.7.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - processPackages [dbt-osmosis]: Remove: archive file [/home/abi/fetcher/tmp/dbt_osmosis-0.9.8.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - main [MainThread]: End processing [dbt-osmosis]: success
+[2023-06-14 10:22:05] INFO root fetch - processPackages [cmo-dataviz]: Remove: archive file [/home/abi/fetcher/tmp/cmo_dataviz-0.0.1.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - processPackages [cmo-dataviz]: Remove: archive file [/home/abi/fetcher/tmp/cmo_dataviz-0.1.0.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - main [MainThread]: End processing [cmo-dataviz]: success
+[2023-06-14 10:22:05] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.6.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - processPackages [napatrackmater]: Remove: archive file [/home/abi/fetcher/tmp/napatrackmater-3.7.7.tar.gz]
+[2023-06-14 10:22:05] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-06-14 10:22:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.9.tar.gz]
+[2023-06-14 10:22:06] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.2.0.tar.gz]
+[2023-06-14 10:22:06] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 10:22:16] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.5.0rc2.tar.gz]
+[2023-06-14 10:22:16] INFO root fetch - processPackages [renku]: Remove: archive file [/home/abi/fetcher/tmp/renku-2.5.0rc3.tar.gz]
+[2023-06-14 10:22:16] INFO root fetch - main [MainThread]: End processing [renku]: success
+[2023-06-14 10:22:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.0.3.tar.gz]
+[2023-06-14 10:22:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.0.4.tar.gz]
+[2023-06-14 10:22:18] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-14 10:25:03] ERROR root fetch - processPackages [datarobot-drum]: Timeout during execution of pkgdiff
+[2023-06-14 10:25:03] INFO root fetch - main [MainThread]: End processing [datarobot-drum] error
+[2023-06-14 10:25:03] INFO root fetch - main [MainThread]: Store serial: [18498103]
