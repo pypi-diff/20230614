@@ -10101,3 +10101,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:32:51] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.4.1.tar.gz]
 [2023-06-14 04:32:51] INFO root fetch - main [MainThread]: End processing [restoreio]: success
 [2023-06-14 04:32:51] INFO root fetch - main [MainThread]: Store serial: [18495342]
+[2023-06-14 04:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495342]
+[2023-06-14 04:38:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-24
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdpycmd
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssi-fctrading
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ngql-gen
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-account-chart-update
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ebooksp
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-tag20180828-py2
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s-plus-25
+[2023-06-14 04:38:00] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ssi-fctrading]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [bdpycmd]: New version: [1.3.5] Old Version: [1.3.14]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ngql-gen]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ebooksp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-14 04:38:00] WARNING root fetch - processPackages [alibabacloud-tag20180828-py2]: Skipping, unable to determine old version
+[2023-06-14 04:38:00] INFO root fetch - processPackages [alibabacloud-tag20180828-py2]: Start processing: alibabacloud-tag20180828
+[2023-06-14 04:38:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-tag20180828-py2] error
+[2023-06-14 04:38:00] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: New version: [8.0.1.2.0.99.dev51] Old Version: [8.0.1.2.0.99.dev50]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [alibabacloud-tag20180828]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 04:38:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/05/f4/24789450eae8d9957d82d6a2d9b08c22f1d2d80d7eb344f7511f44b9bd2b/ebooksp-0.0.4.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/73/d5/49a8dc44e72e5db18c0f19520eb82a0010e697d0f43ab159152c33791aa7/cdk8s-plus-24-2.8.8.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/9d/7d/e08800a1251887be25f24acc59a25034b1e8d984f1266e0754b06f019a4b/ssi_fctrading-0.1.0.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/85/74/40dfa9e665a01119e9917c1b4500cdafc790d0b81be2df43220e8389fcda/ngql_gen-0.0.6.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: Downloading https://files.pythonhosted.org/packages/c7/dd/6b965b89e86e99f91b465f2b5cbe96b878d61588f51a2c4602f90747939f/odoo8_addon_account_chart_update-8.0.1.2.0.99.dev50-py2-none-any.whl
+[2023-06-14 04:38:00] INFO root fetch - processPackages [alibabacloud-tag20180828]: Downloading https://files.pythonhosted.org/packages/0f/f8/34146d5f11794121ad25ae91362ab498f2251938f7914f55957b13646aff/alibabacloud_tag20180828-1.0.4.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/f3/72/da496ce3473e6637e2ef20ecad6fc2fbee04cc8288c668bbe23a8eead925/ebooksp-0.0.5.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/50/c3/9c5a9c12fd4dae3a8da7cd445aae0fc16a9c2a0816ab63924e0c0a817fe9/bdpycmd-1.3.14.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-14 04:38:00] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-06-14 04:38:01] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230614/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/0a/af/ad0531d0aba45f0904033a36fc091e9378fe2c92b8f53f3c3ea659622de2/ssi_fctrading-0.2.0.tar.gz
+[2023-06-14 04:38:01] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ebooksp]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ebooksp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebooksp-0.0.4.tar.gz tmp/ebooksp-0.0.5.tar.gz --markdown 20230614/e/ebooksp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ngql-gen]: Downloading https://files.pythonhosted.org/packages/e4/0f/38482a4caa99a38aeba50c2d3f23c73bf2998e61148bf60d31a394f4464f/ngql_gen-0.0.7.tar.gz
+[2023-06-14 04:38:01] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.8.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230614/c/cdk8s-plus-24/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/06/2e/64a0dc4c6af3c9a8b101f9890c412405d76cb89759707de9a5493a9d37af/bdpycmd-1.3.5.tar.gz
+[2023-06-14 04:38:01] INFO root fetch - processPackages [alibabacloud-tag20180828]: Downloading https://files.pythonhosted.org/packages/63/d5/f3a57aa87abee5ee4ed211499ad7d29067e10436e893d08c145f5a5ecf08/alibabacloud_tag20180828-1.0.5.tar.gz
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ngql-gen]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ngql-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngql_gen-0.0.6.tar.gz tmp/ngql_gen-0.0.7.tar.gz --markdown 20230614/n/ngql-gen/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: Downloading https://files.pythonhosted.org/packages/40/47/0c84a46c7950a7ddd459400aba8d9dd414513db7ecebd6125cd2308031ba/odoo8_addon_account_chart_update-8.0.1.2.0.99.dev51-py2-none-any.whl
+[2023-06-14 04:38:01] INFO root fetch - processPackages [bdpycmd]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [bdpycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpycmd-1.3.14.tar.gz tmp/bdpycmd-1.3.5.tar.gz --markdown 20230614/b/bdpycmd/1.3.14-1.3.5/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fctrading-0.1.0.tar.gz tmp/ssi_fctrading-0.2.0.tar.gz --markdown 20230614/s/ssi-fctrading/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [alibabacloud-tag20180828]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [alibabacloud-tag20180828]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tag20180828-1.0.4.tar.gz tmp/alibabacloud_tag20180828-1.0.5.tar.gz --markdown 20230614/a/alibabacloud-tag20180828/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230614/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_account_chart_update-8.0.1.2.0.99.dev50-py2-none-any.whl.zip tmp/odoo8_addon_account_chart_update-8.0.1.2.0.99.dev51-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-account-chart-update/8.0.1.2.0.99.dev50-8.0.1.2.0.99.dev51/diff.md --exclude *.pyd
+[2023-06-14 04:38:01] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-14 04:38:01] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230614/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.4.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.5.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ebooksp]: Start processing: cdk8s-plus-26
+[2023-06-14 04:38:02] INFO root fetch - main [MainThread]: End processing [ebooksp]: success
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-0.1.0.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-0.2.0.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ssi-fctrading]: Start processing: iam-actions
+[2023-06-14 04:38:02] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-14 04:38:02] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230613] Old Version: [1.2.20230612]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.6.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/01/33/92473cf0c687d61ce95c6c1aeb054ae0763db2b1c763e9034a0f7d5c7ae6/iam_actions-1.2.20230612.tar.gz
+[2023-06-14 04:38:02] INFO root fetch - processPackages [ngql-gen]: Remove: archive file [/home/abi/fetcher/tmp/ngql_gen-0.0.7.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - main [MainThread]: End processing [ngql-gen]: success
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.8.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-06-14 04:38:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-14 04:38:02] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230614/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-14 04:38:02] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/e2/1d/97dd51fefcc814bc025a9967eb86fac14ee70b86e9e42d791356f40da7b7/iam_actions-1.2.20230613.tar.gz
+[2023-06-14 04:38:03] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.14.tar.gz]
+[2023-06-14 04:38:03] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.5.tar.gz]
+[2023-06-14 04:38:03] INFO root fetch - main [MainThread]: End processing [bdpycmd]: success
+[2023-06-14 04:38:03] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-14 04:38:03] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230612.tar.gz tmp/iam_actions-1.2.20230613.tar.gz --markdown 20230614/i/iam-actions/1.2.20230612-1.2.20230613/diff.md --exclude *.pyd
+[2023-06-14 04:38:03] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_chart_update-8.0.1.2.0.99.dev50-py2-none-any.whl.zip]
+[2023-06-14 04:38:03] INFO root fetch - processPackages [odoo8-addon-account-chart-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_account_chart_update-8.0.1.2.0.99.dev51-py2-none-any.whl.zip]
+[2023-06-14 04:38:03] INFO root fetch - main [MainThread]: End processing [odoo8-addon-account-chart-update]: success
+[2023-06-14 04:38:03] INFO root fetch - processPackages [alibabacloud-tag20180828]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tag20180828-1.0.4.tar.gz]
+[2023-06-14 04:38:03] INFO root fetch - processPackages [alibabacloud-tag20180828]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tag20180828-1.0.5.tar.gz]
+[2023-06-14 04:38:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-tag20180828]: success
+[2023-06-14 04:38:04] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-14 04:38:04] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-14 04:38:04] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-14 04:38:04] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-14 04:38:04] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-14 04:38:04] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-14 04:38:06] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-14 04:38:06] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-14 04:38:06] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-14 04:38:06] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-14 04:38:06] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-14 04:38:06] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-14 04:38:08] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230612.tar.gz]
+[2023-06-14 04:38:08] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230613.tar.gz]
+[2023-06-14 04:38:08] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-14 04:38:08] INFO root fetch - main [MainThread]: Store serial: [18495379]
