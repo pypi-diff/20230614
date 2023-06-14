@@ -12237,3 +12237,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [barbari]: success
 [2023-06-14 06:21:46] INFO root fetch - main [MainThread]: End processing [barbari]: success
 [2023-06-14 06:21:46] INFO root fetch - main [MainThread]: Store serial: [18496046]
+[2023-06-14 06:26:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496046]
+[2023-06-14 06:26:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-14 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2023-06-14 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coresets
+[2023-06-14 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iterum
+[2023-06-14 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-ga
+[2023-06-14 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: purpleair-data-logger
+[2023-06-14 06:26:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoxx
+[2023-06-14 06:26:55] INFO root fetch - processPackages [purpleair-data-logger]: New version: [1.2.1a1] Old Version: [1.2.1]
+[2023-06-14 06:26:55] WARNING root fetch - processPackages [iterum]: Skipping, unable to determine old version
+[2023-06-14 06:26:55] INFO root fetch - main [MainThread]: End processing [iterum] error
+[2023-06-14 06:26:55] INFO root fetch - processPackages [coresets]: New version: [0.2.0] Old Version: [0.1.1a1]
+[2023-06-14 06:26:55] INFO root fetch - processPackages [aliyun-python-sdk-ga]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 06:26:55] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.899205069.dev11349] Old Version: [0.2.897808335.dev11307]
+[2023-06-14 06:26:55] INFO root fetch - processPackages [autoxx]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-14 06:26:55] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/94/27/bbef4e11156598430c4d865c2ba85bad5a26feb6507f7bbd89381a573cba/quickstart-vdk-0.2.897808335.dev11307.tar.gz
+[2023-06-14 06:26:55] INFO root fetch - processPackages [purpleair-data-logger]: Downloading https://files.pythonhosted.org/packages/a0/b0/2fab9d532a4e3b6e574c22068a2562aa76432a91eb28c5ccbb262781775f/purpleair_data_logger-1.2.1.tar.gz
+[2023-06-14 06:26:55] INFO root fetch - processPackages [coresets]: Downloading https://files.pythonhosted.org/packages/a0/ac/d23e6ed2b592f26ea4bd55cf7cebb9a82ca9c8820eac84da7b66893f6b08/coresets-0.1.1a1.tar.gz
+[2023-06-14 06:26:55] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Downloading https://files.pythonhosted.org/packages/56/d6/d5fa69385a0c3982ef1cb88b2822ece555f73278758c81db74d8cba93cdb/aliyun-python-sdk-ga-1.0.8.tar.gz
+[2023-06-14 06:26:55] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/7a/5f/3a7207872c620563223701a91e6f7dfc98d9a8d191623547a6c3725ca419/autoxx-0.0.29.tar.gz
+[2023-06-14 06:26:55] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/d7/95/4f948524827a7a333dab05271984f9e079cdd15ac235e269168d26ee38e3/quickstart-vdk-0.2.899205069.dev11349.tar.gz
+[2023-06-14 06:26:55] INFO root fetch - processPackages [coresets]: Downloading https://files.pythonhosted.org/packages/d4/df/c7fef2daddfbc3830333d27517d6790b5dc6e9a8096d1aa14cc6e23f02cd/coresets-0.2.0.tar.gz
+[2023-06-14 06:26:56] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-14 06:26:56] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.897808335.dev11307.tar.gz tmp/quickstart-vdk-0.2.899205069.dev11349.tar.gz --markdown 20230614/q/quickstart-vdk/0.2.897808335.dev11307-0.2.899205069.dev11349/diff.md --exclude *.pyd
+[2023-06-14 06:26:56] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/e5/a4/b61b0217e3433f33970503921be6c01117741e27b92f3250ad570b9d471c/autoxx-0.0.30.tar.gz
+[2023-06-14 06:26:56] INFO root fetch - processPackages [purpleair-data-logger]: Downloading https://files.pythonhosted.org/packages/70/66/57c68af9aaded1b6bd7b9d188d2fb4ea432ff46fdf39f4c9414e7b123794/purpleair_data_logger-1.2.1a1.tar.gz
+[2023-06-14 06:26:56] INFO root fetch - processPackages [coresets]: executing diffoscope
+[2023-06-14 06:26:56] INFO root fetch - processPackages [coresets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coresets-0.1.1a1.tar.gz tmp/coresets-0.2.0.tar.gz --markdown 20230614/c/coresets/0.1.1a1-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 06:26:56] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-14 06:26:56] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.29.tar.gz tmp/autoxx-0.0.30.tar.gz --markdown 20230614/a/autoxx/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-14 06:26:56] INFO root fetch - processPackages [purpleair-data-logger]: executing diffoscope
+[2023-06-14 06:26:56] INFO root fetch - processPackages [purpleair-data-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purpleair_data_logger-1.2.1.tar.gz tmp/purpleair_data_logger-1.2.1a1.tar.gz --markdown 20230614/p/purpleair-data-logger/1.2.1-1.2.1a1/diff.md --exclude *.pyd
+[2023-06-14 06:26:56] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Downloading https://files.pythonhosted.org/packages/ca/00/cafcff01254f7f6f675d2b430f7f4abed3df62eaf56252d77e27eb68e298/aliyun-python-sdk-ga-1.0.9.tar.gz
+[2023-06-14 06:26:56] INFO root fetch - processPackages [aliyun-python-sdk-ga]: executing diffoscope
+[2023-06-14 06:26:56] INFO root fetch - processPackages [aliyun-python-sdk-ga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ga-1.0.8.tar.gz tmp/aliyun-python-sdk-ga-1.0.9.tar.gz --markdown 20230614/a/aliyun-python-sdk-ga/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:26:57] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.897808335.dev11307.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.899205069.dev11349.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-14 06:26:57] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.29.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.30.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-14 06:26:57] INFO root fetch - processPackages [coresets]: Remove: archive file [/home/abi/fetcher/tmp/coresets-0.1.1a1.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - processPackages [coresets]: Remove: archive file [/home/abi/fetcher/tmp/coresets-0.2.0.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - main [MainThread]: End processing [coresets]: success
+[2023-06-14 06:26:57] INFO root fetch - processPackages [purpleair-data-logger]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_data_logger-1.2.1.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - processPackages [purpleair-data-logger]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_data_logger-1.2.1a1.tar.gz]
+[2023-06-14 06:26:57] INFO root fetch - main [MainThread]: End processing [purpleair-data-logger]: success
+[2023-06-14 06:26:58] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.8.tar.gz]
+[2023-06-14 06:26:58] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.9.tar.gz]
+[2023-06-14 06:26:58] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ga]: success
+[2023-06-14 06:26:58] INFO root fetch - main [MainThread]: Store serial: [18496068]
