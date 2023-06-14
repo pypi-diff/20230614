@@ -9945,3 +9945,159 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:27:34] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
 [2023-06-14 04:27:34] INFO root fetch - main [MainThread]: End processing [xj-user]: success
 [2023-06-14 04:27:34] INFO root fetch - main [MainThread]: Store serial: [18495272]
+[2023-06-14 04:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495272]
+[2023-06-14 04:32:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fileformats
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xToolkit
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NikChat
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-embedded-serial
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-embedded-serial-esp
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-embedded-idf
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-embedded-jtag
+[2023-06-14 04:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-embedded-qemu
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [fileformats]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [NikChat]: New version: [2.3.1] Old Version: [2.3]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [xToolkit]: New version: [0.0.85] Old Version: [0.0.84]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [yplib]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:44] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/4e/aa/4cdd794213911cc97310bcdc6b44724b411a086948d23ce61c266d129b8c/yplib-1.1.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/47/ac/7ffb4268159089ee9ef6b1524c6e78d517288bbbde9859fd6baf1b9a75b1/pytest-embedded-serial-1.3.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/0a/3b/60e3fc222a6b35ef1f79c0c4ae3ec53361d5fcc5c5136968c06684939916/fileformats-0.6.2.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/9e/c9/f5e090ea9b401e43f260101a0354b82e3f087747f1a6fd9a80af46c954d5/NikChat-2.3.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/2b/b4/fa81a29508d7c9d6179289a95902dee936572451d87567dfb0dcd29e34ab/pytest-embedded-qemu-1.3.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/60/6e/bcd534635f127307febd8d3761f6ad984b2937b56fe156877b72a910e10b/pytest-embedded-1.3.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/0b/9d/f5b6fcb94c3bce427a49c4fba91f9c94570f948b1e7b0f438475642988dd/pytest-embedded-serial-esp-1.3.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/8e/26/d8a6c85cdc3c8424c8f748ca23675f3a846bf5ea05ee3100c29d30d6cfd4/pytest-embedded-jtag-1.3.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/c8/da/3b895d73d4db58b22c250aed2afb3615ed651adeae4068725b8617bb056a/pytest-embedded-idf-1.3.1.tar.gz
+[2023-06-14 04:32:44] INFO root fetch - processPackages [xToolkit]: Downloading https://files.pythonhosted.org/packages/6a/06/6f20fcd61545521fb322ad69142540acb3c1aafd693393731808226c83d6/xToolkit-0.0.84.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/42/f5/612906b3cc80933f0f95f69135347ac9cc4809d05b32dfa82b0f70e90378/yplib-1.1.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/1d/a2/dc6c879d47509cbfc808ed8fdd1a9f3601442e0edb663ed65d9479909edf/pytest_embedded_serial_esp-1.3.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/ff/54/c26d8364a0466215ca756ed6e3eb4b5dae348cfbde53a3164e1c83948d8a/NikChat-2.3.1.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.1.tar.gz tmp/yplib-1.1.2.tar.gz --markdown 20230614/y/yplib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [fileformats]: Downloading https://files.pythonhosted.org/packages/74/dc/e19618db688ff58e2bdd66ad771385c660e1a10102c7b98f7657ffdfbc3e/fileformats-0.6.3.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/5e/e6/96cc6b4af39123f0820decb17b208052689586f2f3f55e0f87e9e51685f8/pytest_embedded_qemu-1.3.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/e7/b0/875d0cb79a4ad79224eb4f8897634d516db0db5c22202385d910321ca074/pytest_embedded_serial-1.3.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/48/28/b0f69552640430ad5cec9146096d702aa4ebb8380aad8dd529fa5c474c85/pytest_embedded_jtag-1.3.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/27/39/5211e0f3a206863c8f7839d38a85edd29e29742dd6cb3da59ef498cde15a/pytest_embedded-1.3.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [NikChat]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [NikChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikChat-2.3.tar.gz tmp/NikChat-2.3.1.tar.gz --markdown 20230614/N/NikChat/2.3-2.3.1/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-serial-esp-1.3.1.tar.gz tmp/pytest_embedded_serial_esp-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded-serial-esp/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [xToolkit]: Downloading https://files.pythonhosted.org/packages/9f/68/cf4c44658fd6b2af04261c2832a4da576e1f6745383d50d9c311aed868a6/xToolkit-0.0.85.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/bc/de/4182e1da57da87efae4b49da9add130f2a2d82b33cdc17c640086e95ccd8/pytest_embedded_idf-1.3.2.tar.gz
+[2023-06-14 04:32:45] INFO root fetch - processPackages [fileformats]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [fileformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats-0.6.2.tar.gz tmp/fileformats-0.6.3.tar.gz --markdown 20230614/f/fileformats/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-serial-1.3.1.tar.gz tmp/pytest_embedded_serial-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded-serial/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-qemu-1.3.1.tar.gz tmp/pytest_embedded_qemu-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded-qemu/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-jtag-1.3.1.tar.gz tmp/pytest_embedded_jtag-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded-jtag/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-1.3.1.tar.gz tmp/pytest_embedded-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [xToolkit]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2023-06-14 04:32:45] INFO root fetch - processPackages [xToolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xToolkit-0.0.84.tar.gz tmp/xToolkit-0.0.85.tar.gz --markdown 20230614/x/xToolkit/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2023-06-14 04:32:45] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-idf-1.3.1.tar.gz tmp/pytest_embedded_idf-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded-idf/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:46] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-serial-esp-1.3.1.tar.gz]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial_esp-1.3.2.tar.gz]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Start processing: aliyun-python-sdk-tag
+[2023-06-14 04:32:46] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2023-06-14 04:32:46] INFO root fetch - processPackages [aliyun-python-sdk-tag]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-serial-1.3.1.tar.gz]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_serial-1.3.2.tar.gz]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [pytest-embedded-serial]: Start processing: ebooksp
+[2023-06-14 04:32:46] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2023-06-14 04:32:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.1.tar.gz]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.2.tar.gz]
+[2023-06-14 04:32:46] INFO root fetch - processPackages [yplib]: Start processing: pytest-embedded-arduino
+[2023-06-14 04:32:46] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 04:32:46] INFO root fetch - processPackages [ebooksp]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aliyun-python-sdk-tag]: Downloading https://files.pythonhosted.org/packages/88/bd/c777a35f125c6ffbc21654d6105b7f23c0d34f8b598a3bd3286497ef6e71/aliyun-python-sdk-tag-1.0.4.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.3.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/0c/e8/9c29b91ec10fd5842710b897ca93b40106ec3b3ca9aa0e0bbe7432a7ac3b/ebooksp-0.0.3.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.3.1.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [NikChat]: Start processing: azure-mgmt-dns
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [NikChat]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-jtag-1.3.1.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_jtag-1.3.2.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-jtag]: Start processing: restoreio
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [azure-mgmt-dns]: New version: [8.1.0b1] Old Version: [8.1.0]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-qemu-1.3.1.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_qemu-1.3.2.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-qemu]: Start processing: pure-ocean-breeze
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [restoreio]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-1.3.1.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded-1.3.2.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded]: Start processing: aiotieba
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aiotieba]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/d8/5a/82cbb339c58f89d72343c27088ea64559be777302a699a4e8dec0020cca9/pytest-embedded-arduino-1.3.1.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [xToolkit]: Remove: archive file [/home/abi/fetcher/tmp/xToolkit-0.0.84.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [azure-mgmt-dns]: Downloading https://files.pythonhosted.org/packages/c8/72/d6fa5af5eb526836a7e6b0693dc490046e555f1d617384e436bad360aa9a/azure-mgmt-dns-8.1.0.zip
+[2023-06-14 04:32:47] INFO root fetch - processPackages [xToolkit]: Remove: archive file [/home/abi/fetcher/tmp/xToolkit-0.0.85.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [xToolkit]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aliyun-python-sdk-tag]: Downloading https://files.pythonhosted.org/packages/c3/93/c335158ec854367fb072e5b9b30607d13ce0942a45271101cebcd103b19f/aliyun-python-sdk-tag-1.0.5.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/fd/02/5b6a39239213eaddef033af133b553647b1c464427f77248e8ed9ebd3939/restoreio-0.4.0.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/ff/08/2b9d42d167dd189e3549b28bd77e46fe0b1988eca47e430112b69175f5e7/pure_ocean_breeze-3.9.6.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/05/f4/24789450eae8d9957d82d6a2d9b08c22f1d2d80d7eb344f7511f44b9bd2b/ebooksp-0.0.4.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/1f/93/7d3b0eb66c376ac693ccc7e22baf5356982682493f655f80830b137548e0/aiotieba-3.4.3-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aliyun-python-sdk-tag]: executing diffoscope
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aliyun-python-sdk-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-tag-1.0.4.tar.gz tmp/aliyun-python-sdk-tag-1.0.5.tar.gz --markdown 20230614/a/aliyun-python-sdk-tag/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-idf-1.3.1.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_idf-1.3.2.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: Downloading https://files.pythonhosted.org/packages/38/f3/ab60a73537a3e732eafbcde4aa3a85af4e71985189950baffb4b34d47b97/pure_ocean_breeze-3.9.7.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [ebooksp]: executing diffoscope
+[2023-06-14 04:32:47] INFO root fetch - processPackages [ebooksp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebooksp-0.0.3.tar.gz tmp/ebooksp-0.0.4.tar.gz --markdown 20230614/e/ebooksp/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 04:32:47] INFO root fetch - processPackages [azure-mgmt-dns]: Downloading https://files.pythonhosted.org/packages/13/48/1247f98db89f715dda9ebb1de44988c1e5e00aafca53c9a99dcac1e18235/azure-mgmt-dns-8.1.0b1.zip
+[2023-06-14 04:32:47] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.2.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - processPackages [fileformats]: Remove: archive file [/home/abi/fetcher/tmp/fileformats-0.6.3.tar.gz]
+[2023-06-14 04:32:47] INFO root fetch - main [MainThread]: End processing [fileformats]: success
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: executing diffoscope
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pure-ocean-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_ocean_breeze-3.9.6.tar.gz tmp/pure_ocean_breeze-3.9.7.tar.gz --markdown 20230614/p/pure-ocean-breeze/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/a9/87/19a333fa2ab71561e2d6ae5c4fa7c4a4342cf49187e302c32067774a4cf6/pytest_embedded_arduino-1.3.2.tar.gz
+[2023-06-14 04:32:47] INFO root fetch - processPackages [azure-mgmt-dns]: executing diffoscope
+[2023-06-14 04:32:47] INFO root fetch - processPackages [azure-mgmt-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-dns-8.1.0.zip tmp/azure-mgmt-dns-8.1.0b1.zip --markdown 20230614/a/azure-mgmt-dns/8.1.0-8.1.0b1/diff.md --exclude *.pyd
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2023-06-14 04:32:47] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-arduino-1.3.1.tar.gz tmp/pytest_embedded_arduino-1.3.2.tar.gz --markdown 20230614/p/pytest-embedded-arduino/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-14 04:32:47] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/7b/d6/177c50f1ebf70aaa00c66690214a75fd136cb0e7614af73ff89ef41a1983/aiotieba-3.4.4-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-14 04:32:48] INFO root fetch - processPackages [aiotieba]: executing diffoscope
+[2023-06-14 04:32:48] INFO root fetch - processPackages [aiotieba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-3.4.3-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aiotieba-3.4.4-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230614/a/aiotieba/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-06-14 04:32:48] INFO root fetch - processPackages [restoreio]: Downloading https://files.pythonhosted.org/packages/1f/69/6d54fbcdcb51427524ce7beabe21b3edba7b3b4667d89fedf6f8c286e9f6/restoreio-0.4.1.tar.gz
+[2023-06-14 04:32:48] INFO root fetch - processPackages [aliyun-python-sdk-tag]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tag-1.0.4.tar.gz]
+[2023-06-14 04:32:48] INFO root fetch - processPackages [aliyun-python-sdk-tag]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-tag-1.0.5.tar.gz]
+[2023-06-14 04:32:48] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-tag]: success
+[2023-06-14 04:32:48] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.3.tar.gz]
+[2023-06-14 04:32:48] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.4.tar.gz]
+[2023-06-14 04:32:48] INFO root fetch - main [MainThread]: End processing [ebooksp]: success
+[2023-06-14 04:32:48] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-arduino-1.3.1.tar.gz]
+[2023-06-14 04:32:48] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest_embedded_arduino-1.3.2.tar.gz]
+[2023-06-14 04:32:48] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2023-06-14 04:32:49] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-3.9.6.tar.gz]
+[2023-06-14 04:32:49] INFO root fetch - processPackages [pure-ocean-breeze]: Remove: archive file [/home/abi/fetcher/tmp/pure_ocean_breeze-3.9.7.tar.gz]
+[2023-06-14 04:32:49] INFO root fetch - main [MainThread]: End processing [pure-ocean-breeze]: success
+[2023-06-14 04:32:49] INFO root fetch - processPackages [restoreio]: executing diffoscope
+[2023-06-14 04:32:49] INFO root fetch - processPackages [restoreio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restoreio-0.4.0.tar.gz tmp/restoreio-0.4.1.tar.gz --markdown 20230614/r/restoreio/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 04:32:49] INFO root fetch - processPackages [azure-mgmt-dns]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dns-8.1.0.zip]
+[2023-06-14 04:32:49] INFO root fetch - processPackages [azure-mgmt-dns]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dns-8.1.0b1.zip]
+[2023-06-14 04:32:49] INFO root fetch - main [MainThread]: End processing [azure-mgmt-dns]: success
+[2023-06-14 04:32:51] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.3-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-14 04:32:51] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-14 04:32:51] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
+[2023-06-14 04:32:51] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.4.0.tar.gz]
+[2023-06-14 04:32:51] INFO root fetch - processPackages [restoreio]: Remove: archive file [/home/abi/fetcher/tmp/restoreio-0.4.1.tar.gz]
+[2023-06-14 04:32:51] INFO root fetch - main [MainThread]: End processing [restoreio]: success
+[2023-06-14 04:32:51] INFO root fetch - main [MainThread]: Store serial: [18495342]
