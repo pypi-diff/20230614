@@ -20187,3 +20187,81 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 12:11:26] INFO root fetch - processPackages [pulumiverse-mssql]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_mssql-0.0.7.tar.gz]
 [2023-06-14 12:11:26] INFO root fetch - main [MainThread]: End processing [pulumiverse-mssql]: success
 [2023-06-14 12:11:26] INFO root fetch - main [MainThread]: Store serial: [18499550]
+[2023-06-14 12:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499550]
+[2023-06-14 12:16:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dm-reverb-nightly
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectordb-bench
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nanomonsv
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cq23
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pya2l
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mecapacktools
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libtw2-uniffi-bindgen
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clicknium
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yyperf
+[2023-06-14 12:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: osadl-matrix
+[2023-06-14 12:16:37] WARNING root fetch - processPackages [vectordb-bench]: Skipping, unable to determine old version
+[2023-06-14 12:16:37] INFO root fetch - processPackages [vectordb-bench]: Start processing: datasaurus
+[2023-06-14 12:16:37] INFO root fetch - main [MainThread]: End processing [vectordb-bench] error
+[2023-06-14 12:16:37] INFO root fetch - processPackages [cq23]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [nanomonsv]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [clicknium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [mecapacktools]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [pya2l]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [osadl-matrix]: New version: [2023.6.14.30610] Old Version: [2023.6.14.100606]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-06-14 12:16:37] WARNING root fetch - processPackages [datasaurus]: Skipping, unable to determine old version
+[2023-06-14 12:16:37] INFO root fetch - main [MainThread]: End processing [datasaurus] error
+[2023-06-14 12:16:37] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-14 12:16:37] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: Downloading https://files.pythonhosted.org/packages/26/5c/cf078fd51960d7628b3623946657f0bb11cc986a3ef70114031eebe94e97/libtw2_uniffi_bindgen-0.1.0.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/c6/03/77f3baf1c425c3c3dd2db5c41ab4990300eb13a966a37193f0895e99a9b0/mecapacktools-1.0.4.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/5b/49/d08c478401657c4cc91438a660fdf85916f3fc17c421630fcddf81cc464e/osadl-matrix-2023.6.14.100606.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [pya2l]: Downloading https://files.pythonhosted.org/packages/8f/b9/4b96e59891333084ee93d00a17ad585766588a09208fec81432950119d7c/pya2l-0.0.5.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [clicknium]: Downloading https://files.pythonhosted.org/packages/84/71/4824f63134aa72e96a0f3b4d15c2438e0f8ead6dc8745c4870dd5f2a991b/clicknium-0.1.8-py3-none-win_amd64.whl
+[2023-06-14 12:16:37] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/1e/36/5afa896c50c46fe21eae1c4a1521a8c6f16233fbef5fd6c3b68ebe4c9581/cq23-1.6.2.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/a4/04/1136089512a8050178b741ea64c910f19fed3ed06035d7058434b4503bf1/nanomonsv-0.5.1.tar.gz
+[2023-06-14 12:16:37] WARNING root fetch - processPackages [pya2l]: Skipping package: exceeds size limit 18237661>=10485760
+[2023-06-14 12:16:37] INFO root fetch - main [MainThread]: End processing [pya2l] error
+[2023-06-14 12:16:37] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-06-14 12:16:37] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-06-14 12:16:37] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-14 12:16:37] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: Downloading https://files.pythonhosted.org/packages/d1/8d/11ad024ded93dc10cd4a6235d35549ae1b1805047e4b06a66aebd80c1642/libtw2_uniffi_bindgen-0.2.0.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [osadl-matrix]: Downloading https://files.pythonhosted.org/packages/94/65/8dc8c50d40c884b934d1af351563b6af1dd85c019203829bd977b550189a/osadl-matrix-2023.6.14.30610.tar.gz
+[2023-06-14 12:16:37] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/1a/3e/e87ef97934590c25ffa1d2e10e698b20f24b3d5c6ef16d670c0d7aa30284/mecapacktools-1.1.0.tar.gz
+[2023-06-14 12:16:38] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/3e/3e/4d2f87c7b60391e69bef6d989ff19dea515a5bdcf0e637f839c67a77536a/cq23-1.7.0.tar.gz
+[2023-06-14 12:16:38] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: executing diffoscope
+[2023-06-14 12:16:38] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libtw2_uniffi_bindgen-0.1.0.tar.gz tmp/libtw2_uniffi_bindgen-0.2.0.tar.gz --markdown 20230614/l/libtw2-uniffi-bindgen/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 12:16:38] INFO root fetch - processPackages [osadl-matrix]: executing diffoscope
+[2023-06-14 12:16:38] INFO root fetch - processPackages [osadl-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osadl-matrix-2023.6.14.100606.tar.gz tmp/osadl-matrix-2023.6.14.30610.tar.gz --markdown 20230614/o/osadl-matrix/2023.6.14.100606-2023.6.14.30610/diff.md --exclude *.pyd
+[2023-06-14 12:16:38] INFO root fetch - processPackages [mecapacktools]: executing diffoscope
+[2023-06-14 12:16:38] INFO root fetch - processPackages [mecapacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecapacktools-1.0.4.tar.gz tmp/mecapacktools-1.1.0.tar.gz --markdown 20230614/m/mecapacktools/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 12:16:38] WARNING root fetch - processPackages [clicknium]: Skipping package: exceeds size limit 36084312>=10485760
+[2023-06-14 12:16:38] INFO root fetch - main [MainThread]: End processing [clicknium] error
+[2023-06-14 12:16:38] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-14 12:16:38] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-1.6.2.tar.gz tmp/cq23-1.7.0.tar.gz --markdown 20230614/c/cq23/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 12:16:38] INFO root fetch - processPackages [nanomonsv]: Downloading https://files.pythonhosted.org/packages/96/8c/6525a958c684b50ffcfbe6a23a256a84af3bc2f0149c44350905adb96940/nanomonsv-0.6.0.tar.gz
+[2023-06-14 12:16:38] INFO root fetch - processPackages [nanomonsv]: executing diffoscope
+[2023-06-14 12:16:38] INFO root fetch - processPackages [nanomonsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomonsv-0.5.1.tar.gz tmp/nanomonsv-0.6.0.tar.gz --markdown 20230614/n/nanomonsv/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-14 12:16:39] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: Remove: archive file [/home/abi/fetcher/tmp/libtw2_uniffi_bindgen-0.1.0.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - processPackages [libtw2-uniffi-bindgen]: Remove: archive file [/home/abi/fetcher/tmp/libtw2_uniffi_bindgen-0.2.0.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - main [MainThread]: End processing [libtw2-uniffi-bindgen]: success
+[2023-06-14 12:16:39] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.0.4.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.0.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - main [MainThread]: End processing [mecapacktools]: success
+[2023-06-14 12:16:39] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-14 12:16:39] INFO root fetch - processPackages [osadl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/osadl-matrix-2023.6.14.100606.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - processPackages [osadl-matrix]: Remove: archive file [/home/abi/fetcher/tmp/osadl-matrix-2023.6.14.30610.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - main [MainThread]: End processing [osadl-matrix]: success
+[2023-06-14 12:16:39] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.6.2.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-1.7.0.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-14 12:16:39] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-14 12:16:39] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230614/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-14 12:16:39] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.5.1.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - processPackages [nanomonsv]: Remove: archive file [/home/abi/fetcher/tmp/nanomonsv-0.6.0.tar.gz]
+[2023-06-14 12:16:39] INFO root fetch - main [MainThread]: End processing [nanomonsv]: success
+[2023-06-14 12:17:32] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-14 12:17:32] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-14 12:17:32] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-14 12:17:32] INFO root fetch - main [MainThread]: Store serial: [18499589]
