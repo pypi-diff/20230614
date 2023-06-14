@@ -9164,3 +9164,274 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:38:09] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-06-14 03:38:09] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-06-14 03:38:09] INFO root fetch - main [MainThread]: Store serial: [18494610]
+[2023-06-14 03:43:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18494610]
+[2023-06-14 03:43:20] INFO root fetch - main [MainThread]: Found 31 changed packages
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-budgets
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-voice-id
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-fsx
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rongdavbaaddins
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-kinesis-video-signaling
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-appintegrations
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-macie
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-timestream-write
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-rbin
+[2023-06-14 03:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: botocore-a-la-carte-opsworks
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-macie]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.0.2.0] Old Version: [0.0.1.9]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:20] INFO root fetch - processPackages [botocore-a-la-carte-macie]: Downloading https://files.pythonhosted.org/packages/ff/8a/1688db90eb795a6b686e1550fefc2a440ce2c174d7a26b43a9efb9095f87/botocore-a-la-carte-macie-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/13/57/787a60d35ff88cab081caf506a4690db9a1c9941a135b4edf8b8ef1d28d9/rongdavbaaddins-0.0.1.9.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: Downloading https://files.pythonhosted.org/packages/ea/b2/3683fd070af57ad742c3db5ddf3d263098abe6ed45860bcdcd3f684d4777/botocore-a-la-carte-timestream-write-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: Downloading https://files.pythonhosted.org/packages/91/88/fe84ae11f717756e22ca7d5a9c269afe0921e767ddaa0dc758fa6d5a78c0/botocore-a-la-carte-budgets-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: Downloading https://files.pythonhosted.org/packages/6e/ef/35b89442d68974d777856da592b9a784164efb73206b42e6891ac02bcf8b/botocore-a-la-carte-kinesis-video-signaling-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: Downloading https://files.pythonhosted.org/packages/7a/d7/230e24f8cbb348b196506512591758e5df4b89f7cb4f00323273ca416cc0/botocore-a-la-carte-rbin-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: Downloading https://files.pythonhosted.org/packages/0d/12/45b99a1d436f30f64beb85cec420748ad84edd0885f123fb8dae32dca1f9/botocore-a-la-carte-voice-id-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Downloading https://files.pythonhosted.org/packages/d4/d9/4b561224cc26328ae2ffd0a00787f6496fef16edd9b21b2b88be406be89a/botocore-a-la-carte-opsworks-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: Downloading https://files.pythonhosted.org/packages/07/0a/bfa0eb4603e4833da01987931e5eb95bfad81ce7ec22f99a3fa59489dbbb/botocore-a-la-carte-appintegrations-1.29.98.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-fsx-1.29.98.tar.gz tmp/botocore-a-la-carte-fsx-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-fsx/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-macie]: Downloading https://files.pythonhosted.org/packages/06/ff/b52e427a8723a8961833993fc11f428ab105fadec266a2c1a23a9ad067c6/botocore-a-la-carte-macie-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/e1/b6/47f138fa2a5cddfe316b0ba763cda4dc24723a5a64d0167c37ee531e0a05/rongdavbaaddins-0.0.2.0.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: Downloading https://files.pythonhosted.org/packages/d2/6d/8d465f7fa16b2b0ad8c775fa7949c70156a3f749b10e687a9f0ea137c287/botocore-a-la-carte-budgets-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: Downloading https://files.pythonhosted.org/packages/06/20/81eb0735c0cbf2c5de68446d09dbb1685413caec0bd4571f8df5d0bf8429/botocore-a-la-carte-kinesis-video-signaling-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: Downloading https://files.pythonhosted.org/packages/fe/cb/5e0e3027674b14fe4a42c25fc6775912b2e4b8fb1a2ebb314c5034ea20ed/botocore-a-la-carte-rbin-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Downloading https://files.pythonhosted.org/packages/03/46/96c7efa763dbf6fb6ec9dd1695f3d8da626d6e80b94c4d3d3d20225f3292/botocore-a-la-carte-opsworks-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: Downloading https://files.pythonhosted.org/packages/3e/76/9b78458c681be081381e9d32bb404593147d5004401662ab5f96577a4b54/botocore-a-la-carte-voice-id-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: Downloading https://files.pythonhosted.org/packages/47/c2/752d6b393552a1b6f25c0a7486d838f5d108d3d36f49929bd7adbf5ccb30/botocore-a-la-carte-appintegrations-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-macie]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-macie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-macie-1.29.98.tar.gz tmp/botocore-a-la-carte-macie-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-macie/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-budgets-1.29.98.tar.gz tmp/botocore-a-la-carte-budgets-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-budgets/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.0.1.9.tar.gz tmp/rongdavbaaddins-0.0.2.0.tar.gz --markdown 20230614/r/rongdavbaaddins/0.0.1.9-0.0.2.0/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-opsworks-1.29.98.tar.gz tmp/botocore-a-la-carte-opsworks-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-opsworks/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: Downloading https://files.pythonhosted.org/packages/26/f8/9a4485ef86741c2b084688ea2b669d990fc851544b1492497ec929b04eca/botocore-a-la-carte-timestream-write-1.29.99.tar.gz
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-rbin-1.29.98.tar.gz tmp/botocore-a-la-carte-rbin-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-rbin/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-appintegrations-1.29.98.tar.gz tmp/botocore-a-la-carte-appintegrations-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-appintegrations/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-voice-id-1.29.98.tar.gz tmp/botocore-a-la-carte-voice-id-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-voice-id/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: executing diffoscope
+[2023-06-14 03:43:21] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-timestream-write-1.29.98.tar.gz tmp/botocore-a-la-carte-timestream-write-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-timestream-write/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:22] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: executing diffoscope
+[2023-06-14 03:43:22] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kinesis-video-signaling-1.29.98.tar.gz tmp/botocore-a-la-carte-kinesis-video-signaling-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-kinesis-video-signaling/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:22] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-voice-id-1.29.98.tar.gz]
+[2023-06-14 03:43:22] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-voice-id-1.29.99.tar.gz]
+[2023-06-14 03:43:22] INFO root fetch - processPackages [botocore-a-la-carte-voice-id]: Start processing: botocore-a-la-carte-connect-contact-lens
+[2023-06-14 03:43:22] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-voice-id]: success
+[2023-06-14 03:43:22] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rbin-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-rbin-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-rbin]: Start processing: botocore-a-la-carte-controltower
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-rbin]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-macie]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-macie-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-macie]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-macie-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-macie]: Start processing: botocore-a-la-carte-quicksight
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-macie]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appintegrations-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-appintegrations-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-appintegrations]: Start processing: botocore-a-la-carte-elastic-inference
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-appintegrations]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-timestream-write-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-timestream-write-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-timestream-write]: Start processing: botocore-a-la-carte-license-manager-linux-subscriptions
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-timestream-write]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: Downloading https://files.pythonhosted.org/packages/5e/91/875ba5b286da12b83fe5875a269772f96d679830bbbf41d7ed82a592342b/botocore-a-la-carte-connect-contact-lens-1.29.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opsworks-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-opsworks-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-opsworks]: Start processing: botocore-a-la-carte-connect
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-opsworks]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-budgets-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: Downloading https://files.pythonhosted.org/packages/91/e2/15eaf7dc93d9d484300d3fd3c16cbfa0c552ad1a3558fe63519ecfdf4add/botocore-a-la-carte-controltower-1.29.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-budgets-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-budgets]: Start processing: zrb
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-budgets]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/50/fd/337a8bedaf0dd34a4e325834689d18d6a1210392647df6c3f9552465c40e/botocore-a-la-carte-quicksight-1.29.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: Downloading https://files.pythonhosted.org/packages/29/94/8d994ebad909e329ad4d8228a429f941f4973b715f7c6d9e07909c3164d7/botocore-a-la-carte-elastic-inference-1.29.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Downloading https://files.pythonhosted.org/packages/43/cb/76ec05b707fadf233497544393dabb7e1036e1c6d043b2b74cf55ec2933f/botocore-a-la-carte-license-manager-linux-subscriptions-1.29.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect]: Downloading https://files.pythonhosted.org/packages/87/bd/89c3c536aecd191873ef4879828d2b32afcae4784de3806beddd6d8a62bd/botocore-a-la-carte-connect-1.29.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-video-signaling-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-video-signaling-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-kinesis-video-signaling]: Start processing: nbdev-numpy
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kinesis-video-signaling]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-fsx-1.29.98.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-fsx-1.29.99.tar.gz]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-fsx]: Start processing: netdevice
+[2023-06-14 03:43:23] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-fsx]: success
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: Downloading https://files.pythonhosted.org/packages/b1/d4/a74892830a8f4a979de518bea0bff7559ab81298d9d41ec97ce877cee8f9/botocore-a-la-carte-connect-contact-lens-1.29.99.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: Downloading https://files.pythonhosted.org/packages/a1/64/e3d516ea15606b9531a0afdc1fddf2e1cbe2a79b7abd8ed1a861159858d2/botocore-a-la-carte-controltower-1.29.99.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [netdevice]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: Downloading https://files.pythonhosted.org/packages/8c/87/a21fd7194d0599c3922714f10d9728f0a5ad87ae0b163b9f8a32fcaab5af/botocore-a-la-carte-elastic-inference-1.29.99.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/78/7e/2ef2449cc6d6bb0fa2fefd96cf4f12258bbae800b058c2cdc2eaae930c61/botocore-a-la-carte-quicksight-1.29.99.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Downloading https://files.pythonhosted.org/packages/4a/6f/80a740cbf467b496b2f9ee46d7d9cb34d7e540480835c331a75b0e85f43c/botocore-a-la-carte-license-manager-linux-subscriptions-1.29.99.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: executing diffoscope
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-controltower-1.29.98.tar.gz tmp/botocore-a-la-carte-controltower-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-controltower/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: executing diffoscope
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.29.98.tar.gz tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-license-manager-linux-subscriptions/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: executing diffoscope
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-quicksight-1.29.98.tar.gz tmp/botocore-a-la-carte-quicksight-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-quicksight/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: executing diffoscope
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-connect-contact-lens-1.29.98.tar.gz tmp/botocore-a-la-carte-connect-contact-lens-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-connect-contact-lens/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:23] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [netdevice]: Downloading https://files.pythonhosted.org/packages/13/18/b60344063b4b76aac6d0d4afabe3b4d4a8b84b4be0f307acb291da05e7b1/netdevice-1.3.0.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: executing diffoscope
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-elastic-inference-1.29.98.tar.gz tmp/botocore-a-la-carte-elastic-inference-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-elastic-inference/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:23] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-14 03:43:23] INFO root fetch - processPackages [botocore-a-la-carte-connect]: Downloading https://files.pythonhosted.org/packages/00/47/d8d0d9bdf5385815ea924a6f6366a9e1889125be9fd2604201c8c0022866/botocore-a-la-carte-connect-1.29.99.tar.gz
+[2023-06-14 03:43:24] INFO root fetch - processPackages [botocore-a-la-carte-connect]: executing diffoscope
+[2023-06-14 03:43:24] INFO root fetch - processPackages [botocore-a-la-carte-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-connect-1.29.98.tar.gz tmp/botocore-a-la-carte-connect-1.29.99.tar.gz --markdown 20230614/b/botocore-a-la-carte-connect/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:24] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-14 03:43:24] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230614/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 03:43:24] INFO root fetch - processPackages [netdevice]: Downloading https://files.pythonhosted.org/packages/47/20/147e6278d3ba7d735ccfecf1ac41471fe4c6e02436a6be2643145cd6d45b/netdevice-1.3.1.tar.gz
+[2023-06-14 03:43:24] INFO root fetch - processPackages [netdevice]: executing diffoscope
+[2023-06-14 03:43:24] INFO root fetch - processPackages [netdevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdevice-1.3.0.tar.gz tmp/netdevice-1.3.1.tar.gz --markdown 20230614/n/netdevice/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-14 03:43:24] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-14 03:43:24] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-14 03:43:24] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230614/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:24] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.1.9.tar.gz]
+[2023-06-14 03:43:24] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.0.2.0.tar.gz]
+[2023-06-14 03:43:24] INFO root fetch - processPackages [rongdavbaaddins]: Start processing: onto-tool
+[2023-06-14 03:43:24] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-06-14 03:43:24] INFO root fetch - processPackages [onto-tool]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-14 03:43:24] INFO root fetch - processPackages [onto-tool]: Downloading https://files.pythonhosted.org/packages/9f/6b/af34ae8ff1a09ab1113efd1c850833360d98b701426ba04730c8553d5b32/onto_tool-1.7.2.tar.gz
+[2023-06-14 03:43:24] INFO root fetch - processPackages [onto-tool]: Downloading https://files.pythonhosted.org/packages/28/7a/49ab284a7bfd5dfb4ff01438c21ebc2975f809ea1dbd54316951103ce79f/onto_tool-1.7.3.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [onto-tool]: executing diffoscope
+[2023-06-14 03:43:25] INFO root fetch - processPackages [onto-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onto_tool-1.7.2.tar.gz tmp/onto_tool-1.7.3.tar.gz --markdown 20230614/o/onto-tool/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.29.98.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.29.99.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Start processing: microt-prompt
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-quicksight]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [microt-prompt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-connect-contact-lens-1.29.98.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-connect-contact-lens-1.29.99.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-connect-contact-lens]: Start processing: nbdev-pandas
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-connect-contact-lens]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elastic-inference-1.29.98.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elastic-inference-1.29.99.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-elastic-inference]: Start processing: bayesianbandits
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elastic-inference]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-controltower-1.29.98.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-controltower-1.29.99.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-controltower]: Start processing: proactive
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-controltower]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [bayesianbandits]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.29.98.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.29.99.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Start processing: nbdev-pytorch
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-license-manager-linux-subscriptions]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [microt-prompt]: Downloading https://files.pythonhosted.org/packages/9d/e4/9fcb90d3d9c3d15b2d757db347c6641637a548adee0d2435e369f15ae4a4/microt_prompt-0.1.8.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:43:25] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-14 03:43:25] INFO root fetch - processPackages [proactive]: Start processing: hardyweinbergcalculator
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-14 03:43:25] INFO root fetch - processPackages [netdevice]: Remove: archive file [/home/abi/fetcher/tmp/netdevice-1.3.0.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [netdevice]: Remove: archive file [/home/abi/fetcher/tmp/netdevice-1.3.1.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [netdevice]: Start processing: proactive-jupyter-kernel
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [netdevice]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.2.3.post20230613] Old Version: [0.2.2.post20230611]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-connect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-connect-1.29.98.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-connect]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-connect-1.29.99.tar.gz]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [botocore-a-la-carte-connect]: Start processing: icpp-free
+[2023-06-14 03:43:25] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-connect]: success
+[2023-06-14 03:43:25] INFO root fetch - processPackages [bayesianbandits]: Downloading https://files.pythonhosted.org/packages/9e/be/d93ad27a382ebe39312df3f72831de07339e98b16479a705166e4b29ba5f/bayesianbandits-0.4.1.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [icpp-free]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230614/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:25] INFO root fetch - processPackages [microt-prompt]: Downloading https://files.pythonhosted.org/packages/36/42/43d86bce2e43c532d285d712bdacd4d819adc0dcd0a7ca997f3c0e0058dd/microt_prompt-0.1.9.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/35/99/42fe802876992b565533bbbaf9036338dcc0b21dd3fcb1accbcde1b71119/hardyweinbergcalculator-0.2.2.post20230611.zip
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/06/f3/d4a9eced1f41b1f98fb7b15751e096388d60bcc2386555d4d435ef110e62/icpp_free-2.6.0-py3-none-any.whl
+[2023-06-14 03:43:25] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-14 03:43:25] INFO root fetch - processPackages [bayesianbandits]: Downloading https://files.pythonhosted.org/packages/67/48/63c46dbbe5f517680c22c368febd89e530af596b84714229ad2974615dd5/bayesianbandits-0.4.2.tar.gz
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-14 03:43:25] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230614/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:25] INFO root fetch - processPackages [bayesianbandits]: executing diffoscope
+[2023-06-14 03:43:25] INFO root fetch - processPackages [bayesianbandits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bayesianbandits-0.4.1.tar.gz tmp/bayesianbandits-0.4.2.tar.gz --markdown 20230614/b/bayesianbandits/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-14 03:43:25] INFO root fetch - processPackages [microt-prompt]: executing diffoscope
+[2023-06-14 03:43:25] INFO root fetch - processPackages [microt-prompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microt_prompt-0.1.8.tar.gz tmp/microt_prompt-0.1.9.tar.gz --markdown 20230614/m/microt-prompt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 03:43:26] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/c9/a4/22177c884f8f83e46819a98275a84c54b0ab77c615faf1e9d4558c5aef86/hardyweinbergcalculator-0.2.3.post20230613.zip
+[2023-06-14 03:43:26] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-14 03:43:26] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-14 03:43:26] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.2.2.post20230611.zip tmp/hardyweinbergcalculator-0.2.3.post20230613.zip --markdown 20230614/h/hardyweinbergcalculator/0.2.2.post20230611-0.2.3.post20230613/diff.md --exclude *.pyd
+[2023-06-14 03:43:26] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-14 03:43:26] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230614/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-14 03:43:26] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/c4/81/299e2a7ddc8092ebe59f6607fa1541472d6db284d5cd3a0e1713e68d2a03/icpp_free-2.7.0-py3-none-any.whl
+[2023-06-14 03:43:26] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-06-14 03:43:26] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.6.0-py3-none-any.whl.zip tmp/icpp_free-2.7.0-py3-none-any.whl.zip --markdown 20230614/i/icpp-free/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-06-14 03:43:26] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [zrb]: Start processing: lodestone-python-sdk
+[2023-06-14 03:43:26] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-14 03:43:26] INFO root fetch - processPackages [lodestone-python-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-scipy
+[2023-06-14 03:43:26] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-14 03:43:26] INFO root fetch - processPackages [onto-tool]: Remove: archive file [/home/abi/fetcher/tmp/onto_tool-1.7.2.tar.gz]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [onto-tool]: Remove: archive file [/home/abi/fetcher/tmp/onto_tool-1.7.3.tar.gz]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [onto-tool]: Start processing: ovos-PHAL-plugin-wifi-setup
+[2023-06-14 03:43:26] INFO root fetch - main [MainThread]: End processing [onto-tool]: success
+[2023-06-14 03:43:26] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 03:43:26] ERROR root fetch - processPackages [lodestone-python-sdk]: Unable to fetch info: No such project/version 'lodestone-python-sdk' 1.0.4
+[2023-06-14 03:43:26] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk] error
+[2023-06-14 03:43:26] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-14 03:43:26] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: New version: [1.1.1a2] Old Version: [1.1.1a1]
+[2023-06-14 03:43:26] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-14 03:43:27] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-14 03:43:27] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230614/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:43:27] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/5a/28/6e077557f3e1b68d406d22a5a9b62af64580add21ce04b91e33b74f464ce/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz
+[2023-06-14 03:43:27] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-14 03:43:27] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Downloading https://files.pythonhosted.org/packages/6e/40/26395877197b7a93e901b5c63c50dbfbee2858aa100e6ba0e883b433fdbe/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz
+[2023-06-14 03:43:27] INFO root fetch - processPackages [bayesianbandits]: Remove: archive file [/home/abi/fetcher/tmp/bayesianbandits-0.4.1.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - processPackages [bayesianbandits]: Remove: archive file [/home/abi/fetcher/tmp/bayesianbandits-0.4.2.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - main [MainThread]: End processing [bayesianbandits]: success
+[2023-06-14 03:43:27] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.2.post20230611.zip]
+[2023-06-14 03:43:27] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.2.3.post20230613.zip]
+[2023-06-14 03:43:27] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-14 03:43:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-14 03:43:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-14 03:43:27] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-14 03:43:27] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: executing diffoscope
+[2023-06-14 03:43:27] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz --markdown 20230614/o/ovos-PHAL-plugin-wifi-setup/1.1.1a1-1.1.1a2/diff.md --exclude *.pyd
+[2023-06-14 03:43:27] INFO root fetch - processPackages [microt-prompt]: Remove: archive file [/home/abi/fetcher/tmp/microt_prompt-0.1.8.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - processPackages [microt-prompt]: Remove: archive file [/home/abi/fetcher/tmp/microt_prompt-0.1.9.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - main [MainThread]: End processing [microt-prompt]: success
+[2023-06-14 03:43:27] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-14 03:43:27] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-14 03:43:28] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a1.tar.gz]
+[2023-06-14 03:43:28] INFO root fetch - processPackages [ovos-PHAL-plugin-wifi-setup]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-wifi-setup-1.1.1a2.tar.gz]
+[2023-06-14 03:43:28] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-wifi-setup]: success
+[2023-06-14 03:43:28] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.6.0-py3-none-any.whl.zip]
+[2023-06-14 03:43:28] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.7.0-py3-none-any.whl.zip]
+[2023-06-14 03:43:28] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-06-14 03:43:29] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-14 03:43:29] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-14 03:43:29] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-14 03:43:29] INFO root fetch - main [MainThread]: Store serial: [18495037]
