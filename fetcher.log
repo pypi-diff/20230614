@@ -22813,3 +22813,210 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 14:00:50] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.5.tar.gz]
 [2023-06-14 14:00:50] INFO root fetch - main [MainThread]: End processing [pytrinamic]: success
 [2023-06-14 14:00:50] INFO root fetch - main [MainThread]: Store serial: [18500736]
+[2023-06-14 14:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500736]
+[2023-06-14 14:05:59] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moosez
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2kerastl
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: via
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-testing-platform
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: os2mo-data-import
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-serving
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccdt
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tinynn-py
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kevin-toolbox
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-jobs
+[2023-06-14 14:05:59] INFO root fetch - processPackages [via]: New version: [0.1.1] Old Version: [0.0.2]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [tinynn-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [moosez]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230614] Old Version: [2.4.0b20230613]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-14 14:05:59] INFO root fetch - processPackages [os2mo-data-import]: New version: [5.4.0] Old Version: [5.3.7]
+[2023-06-14 14:06:00] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/eb/35/84497ecf5435f292a248f816b05dee7774157b32700bf1f6be935c9a342f/bigdl_serving-2.4.0b20230613-py2.py3-none-any.whl
+[2023-06-14 14:06:00] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/e9/44/1a07d46d277322e7183387188d6581b10fd861d7083bae0f18cce2baed9d/kevin-toolbox-1.0.8.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-14 14:06:00] INFO root fetch - processPackages [tinynn-py]: Downloading https://files.pythonhosted.org/packages/30/d9/ab2063133043f1cd993d3b61141991091e0ee88ea3f9f1d46f44f4db9bb2/tinynn-py-1.0.0.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/2c/c8/fb9e2277081923e617a6011de085ec436ee28454d1df44e1c7f12700e616/raga-testing-platform-1.0.5.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [via]: Downloading https://files.pythonhosted.org/packages/fe/0b/20e8a337e842fbbe0dd9127d43a56af612f2e49051126a7cb403b49eb89b/via-0.0.2.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/0d/b7/818695e74dccececfb9313aa43f22b195afbc0f725e343ae9b7cab314061/moosez-2.0.8.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [os2mo-data-import]: Downloading https://files.pythonhosted.org/packages/cc/71/8610a9d7982ede734f1809e2fb61ed0e6961ffb35ac8471f2f744d5dfc81/os2mo_data_import-5.3.7.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/5c/a5/15b1522ecf4a4aee2931bd8887b1041366c2af7c35ff498cd78d73263da3/bigdl_serving-2.4.0b20230614-py2.py3-none-any.whl
+[2023-06-14 14:06:00] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.8.tar.gz tmp/kevin-toolbox-1.0.9.tar.gz --markdown 20230614/k/kevin-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/2b/c0/4d71308fdad1958a0abe5938b6e35e2a38d78a7c948bbcd0856cff5e3ec2/raga-testing-platform-1.0.6.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [tinynn-py]: Downloading https://files.pythonhosted.org/packages/2e/aa/8fcad920be1f6da3afcd7710209147cab8d58392758e21ec1bd75a81c92a/tinynn-py-1.0.1.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [via]: Downloading https://files.pythonhosted.org/packages/7a/53/c5be227c987483ba95bf3ac87a05e99d10132d0cd9aa44ee1f25d67f52b2/via-0.1.1.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230613-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230614-py2.py3-none-any.whl.zip --markdown 20230614/b/bigdl-serving/2.4.0b20230613-2.4.0b20230614/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [moosez]: Downloading https://files.pythonhosted.org/packages/c2/58/f6c7935045bffd7b5904c3b4ff8fcd45a5242aa21b0e4719d35d1bc486e8/moosez-2.0.9.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [via]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [via]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-0.0.2.tar.gz tmp/via-0.1.1.tar.gz --markdown 20230614/v/via/0.0.2-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [os2mo-data-import]: Downloading https://files.pythonhosted.org/packages/92/68/5c45e0ed0c9e8c22ecbafa0774ed5a4e36d368eb78a6b3e68686a4d36c52/os2mo_data_import-5.4.0.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-06-14 14:06:00] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.5.tar.gz tmp/raga-testing-platform-1.0.6.tar.gz --markdown 20230614/r/raga-testing-platform/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [tinynn-py]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [tinynn-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinynn-py-1.0.0.tar.gz tmp/tinynn-py-1.0.1.tar.gz --markdown 20230614/t/tinynn-py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [moosez]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230614/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [moosez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moosez-2.0.8.tar.gz tmp/moosez-2.0.9.tar.gz --markdown 20230614/m/moosez/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230614/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [os2mo-data-import]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [os2mo-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2mo_data_import-5.3.7.tar.gz tmp/os2mo_data_import-5.4.0.tar.gz --markdown 20230614/o/os2mo-data-import/5.3.7-5.4.0/diff.md --exclude *.pyd
+[2023-06-14 14:06:00] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-06-14 14:06:00] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230614/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230613-py2.py3-none-any.whl.zip]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230614-py2.py3-none-any.whl.zip]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bigdl-serving]: Start processing: bose
+[2023-06-14 14:06:04] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-14 14:06:04] INFO root fetch - processPackages [via]: Remove: archive file [/home/abi/fetcher/tmp/via-0.0.2.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [via]: Remove: archive file [/home/abi/fetcher/tmp/via-0.1.1.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [via]: Start processing: kevin-toolbox-dev
+[2023-06-14 14:06:04] INFO root fetch - main [MainThread]: End processing [via]: success
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bose]: New version: [1.8.0] Old Version: [1.7.5]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/3d/3e/5efde0cc79d319bda39df7516b2ef0f3ab4c7d6df57383a27b51da2c6150/kevin-toolbox-dev-1.0.8.tar.gz
+[2023-06-14 14:06:04] INFO root fetch - processPackages [tinynn-py]: Remove: archive file [/home/abi/fetcher/tmp/tinynn-py-1.0.0.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [tinynn-py]: Remove: archive file [/home/abi/fetcher/tmp/tinynn-py-1.0.1.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [tinynn-py]: Start processing: bluepyopt
+[2023-06-14 14:06:04] INFO root fetch - main [MainThread]: End processing [tinynn-py]: success
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/7c/0b/cf3c61a2109f19fde35494ca885dde4bb8021567442d8d465be43e4d86a8/bose-1.7.5.tar.gz
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/50/51/6f85ab7120f80babd9c87d198cc1f3f2afbf36a523b5db9ee86218150ffe/kevin-toolbox-dev-1.0.9.tar.gz
+[2023-06-14 14:06:04] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.5.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.6.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [raga-testing-platform]: Start processing: leap-model-parser
+[2023-06-14 14:06:04] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-14 14:06:04] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-14 14:06:04] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.8.tar.gz tmp/kevin-toolbox-dev-1.0.9.tar.gz --markdown 20230614/k/kevin-toolbox-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 14:06:04] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2023-06-14 14:06:04] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.8.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [moosez]: Remove: archive file [/home/abi/fetcher/tmp/moosez-2.0.9.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [moosez]: Start processing: ingress
+[2023-06-14 14:06:04] INFO root fetch - main [MainThread]: End processing [moosez]: success
+[2023-06-14 14:06:04] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-06-14 14:06:04] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-06-14 14:06:04] INFO root fetch - processPackages [onnx2kerastl]: Start processing: odoo14-addon-shopinvader-sale-coupon
+[2023-06-14 14:06:04] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-06-14 14:06:05] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/75/ad/3525ee5f6b2e8a2029198e29c803059ca88b1efe5c45d0fdcd25bb174b56/bose-1.8.0.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.0]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [ingress]: New version: [0.4.1] Old Version: [0.3.2]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-06-14 14:06:05] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-1.7.5.tar.gz tmp/bose-1.8.0.tar.gz --markdown 20230614/b/bose/1.7.5-1.8.0/diff.md --exclude *.pyd
+[2023-06-14 14:06:05] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [leadguru-jobs]: Start processing: TicTacToeAI
+[2023-06-14 14:06:05] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-06-14 14:06:05] INFO root fetch - processPackages [TicTacToeAI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: Downloading https://files.pythonhosted.org/packages/cc/9d/27e90f290a2d0f43ba3bc6a8b86b5a537d51eeb988e6a479a67756d55583/odoo14_addon_shopinvader_sale_coupon-14.0.1.1.0-py3-none-any.whl
+[2023-06-14 14:06:05] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [os2mo-data-import]: Remove: archive file [/home/abi/fetcher/tmp/os2mo_data_import-5.3.7.tar.gz]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [os2mo-data-import]: Remove: archive file [/home/abi/fetcher/tmp/os2mo_data_import-5.4.0.tar.gz]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [os2mo-data-import]: Start processing: libsps
+[2023-06-14 14:06:05] INFO root fetch - main [MainThread]: End processing [os2mo-data-import]: success
+[2023-06-14 14:06:05] WARNING root fetch - processPackages [libsps]: Skipping, unable to determine old version
+[2023-06-14 14:06:05] INFO root fetch - processPackages [libsps]: Start processing: validio-cli
+[2023-06-14 14:06:05] INFO root fetch - main [MainThread]: End processing [libsps] error
+[2023-06-14 14:06:05] INFO root fetch - processPackages [ingress]: Downloading https://files.pythonhosted.org/packages/28/81/4131c6832dd41a5c9f257f044d56059ec58f61e9aa4c4edf21e45dc26bad/ingress-0.3.2.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [TicTacToeAI]: Downloading https://files.pythonhosted.org/packages/26/f5/d2061bbceb0490b345f9f8e3cdb70ae737182de8add2c33f57fde2a46513/TicTacToeAI-0.0.2.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [validio-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [ccdt]: Start processing: validio-sdk
+[2023-06-14 14:06:05] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-14 14:06:05] INFO root fetch - processPackages [validio-sdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 14:06:05] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/51/80/bf00c2ca9a133a026ed034e7f57d32b0b2d4fe1309b5d24e72bfa77a36d3/validio_cli-0.1.0.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-06-14 14:06:05] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230614/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-06-14 14:06:05] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/08/62/637d980b777c2a9cd35c01c8f26666fb4606450bc743662b93f7391117fc/validio_sdk-0.1.0.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-06-14 14:06:05] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230614/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-14 14:06:05] INFO root fetch - processPackages [TicTacToeAI]: Downloading https://files.pythonhosted.org/packages/48/83/d8521b2bb14c389c937273656d7cf100cccec0895ca19ab92a5d674033e3/TicTacToeAI-0.0.3.tar.gz
+[2023-06-14 14:06:05] INFO root fetch - processPackages [ingress]: Downloading https://files.pythonhosted.org/packages/4d/2d/46a0c2119fc4fb4bae05b621a8bbcfdcfb2a26095284d01308ef04d3bdfa/ingress-0.4.1.tar.gz
+[2023-06-14 14:06:06] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: Downloading https://files.pythonhosted.org/packages/18/8c/2972810e30d90fc2493241cfb760160293bb82da1ca99d176443e20a7a70/odoo14_addon_shopinvader_sale_coupon-14.0.1.2.0-py3-none-any.whl
+[2023-06-14 14:06:06] INFO root fetch - processPackages [TicTacToeAI]: executing diffoscope
+[2023-06-14 14:06:06] INFO root fetch - processPackages [TicTacToeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TicTacToeAI-0.0.2.tar.gz tmp/TicTacToeAI-0.0.3.tar.gz --markdown 20230614/T/TicTacToeAI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 14:06:06] INFO root fetch - processPackages [ingress]: executing diffoscope
+[2023-06-14 14:06:06] INFO root fetch - processPackages [ingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ingress-0.3.2.tar.gz tmp/ingress-0.4.1.tar.gz --markdown 20230614/i/ingress/0.3.2-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 14:06:06] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/66/c4/cdfb2d3e6a32a9cdf67fe7f956e588fccefca99c50cd578a3146b1876314/validio_sdk-0.2.0.tar.gz
+[2023-06-14 14:06:06] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: executing diffoscope
+[2023-06-14 14:06:06] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader_sale_coupon-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader_sale_coupon-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-shopinvader-sale-coupon/14.0.1.1.0-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-14 14:06:06] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/0b/51/3b839527a651ad5996a79201451e0ec1067350abb1381e1efd89253d53a7/validio_cli-0.2.0.tar.gz
+[2023-06-14 14:06:06] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2023-06-14 14:06:06] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.1.0.tar.gz tmp/validio_sdk-0.2.0.tar.gz --markdown 20230614/v/validio-sdk/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 14:06:06] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2023-06-14 14:06:06] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.1.0.tar.gz tmp/validio_cli-0.2.0.tar.gz --markdown 20230614/v/validio-cli/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 14:06:08] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.8.tar.gz]
+[2023-06-14 14:06:08] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.9.tar.gz]
+[2023-06-14 14:06:08] INFO root fetch - processPackages [kevin-toolbox]: Start processing: pytorch-ood
+[2023-06-14 14:06:08] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-14 14:06:09] INFO root fetch - processPackages [pytorch-ood]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/3a/3e/d74a63199ffaa11f25f466d38fbc8d0382e39f594b918bd0828e3702d774/pytorch_ood-0.1.0-py3-none-any.whl
+[2023-06-14 14:06:09] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-1.7.5.tar.gz]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-1.8.0.tar.gz]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [bose]: Start processing: nonebot-plugin-access-control
+[2023-06-14 14:06:09] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-06-14 14:06:09] INFO root fetch - processPackages [TicTacToeAI]: Remove: archive file [/home/abi/fetcher/tmp/TicTacToeAI-0.0.2.tar.gz]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [TicTacToeAI]: Remove: archive file [/home/abi/fetcher/tmp/TicTacToeAI-0.0.3.tar.gz]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [TicTacToeAI]: Start processing: agentai
+[2023-06-14 14:06:09] INFO root fetch - main [MainThread]: End processing [TicTacToeAI]: success
+[2023-06-14 14:06:09] WARNING root fetch - processPackages [agentai]: Skipping, unable to determine old version
+[2023-06-14 14:06:09] INFO root fetch - processPackages [agentai]: Start processing: searchkit
+[2023-06-14 14:06:09] INFO root fetch - main [MainThread]: End processing [agentai] error
+[2023-06-14 14:06:09] INFO root fetch - processPackages [nonebot-plugin-access-control]: New version: [0.5.4] Old Version: [0.5.3.post1]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/20/35/e9a2dfb7d5c1608171287003d94a49643d4c46c4ea212947b0872a461ef5/pytorch_ood-0.1.1-py3-none-any.whl
+[2023-06-14 14:06:09] INFO root fetch - processPackages [ingress]: Remove: archive file [/home/abi/fetcher/tmp/ingress-0.3.2.tar.gz]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [ingress]: Remove: archive file [/home/abi/fetcher/tmp/ingress-0.4.1.tar.gz]
+[2023-06-14 14:06:09] INFO root fetch - main [MainThread]: End processing [ingress]: success
+[2023-06-14 14:06:09] INFO root fetch - processPackages [searchkit]: New version: [0.2.7] Old Version: [0.2.6.post4]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [pytorch-ood]: executing diffoscope
+[2023-06-14 14:06:09] INFO root fetch - processPackages [pytorch-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ood-0.1.0-py3-none-any.whl.zip tmp/pytorch_ood-0.1.1-py3-none-any.whl.zip --markdown 20230614/p/pytorch-ood/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 14:06:09] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_sale_coupon-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-14 14:06:09] INFO root fetch - processPackages [odoo14-addon-shopinvader-sale-coupon]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader_sale_coupon-14.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-14 14:06:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader-sale-coupon]: success
+[2023-06-14 14:06:09] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/6e/45/8b141b3a6bab0f5227ecef7c52e27dbca1a787f79aa4af6cf39e9a3470ab/nonebot_plugin_access_control-0.5.3.post1.tar.gz
+[2023-06-14 14:06:09] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/cc/65/d946d20e8725a9df8df397b7ead683439464508182e45da5daadc72dbb4c/searchkit-0.2.6.post4.tar.gz
+[2023-06-14 14:06:10] INFO root fetch - processPackages [nonebot-plugin-access-control]: Downloading https://files.pythonhosted.org/packages/5f/6f/e850cdaa3f8b23bdf4b667770cd45b26878e0efab46c57621d4b89bb4eb9/nonebot_plugin_access_control-0.5.4.tar.gz
+[2023-06-14 14:06:10] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/cb/42/2d30d230a2b06b9a3c5bec9d7daa994b06ecf16edf7ce02411e0ccc635b1/searchkit-0.2.7.tar.gz
+[2023-06-14 14:06:10] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-06-14 14:06:10] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.6.post4.tar.gz tmp/searchkit-0.2.7.tar.gz --markdown 20230614/s/searchkit/0.2.6.post4-0.2.7/diff.md --exclude *.pyd
+[2023-06-14 14:06:10] INFO root fetch - processPackages [nonebot-plugin-access-control]: executing diffoscope
+[2023-06-14 14:06:10] INFO root fetch - processPackages [nonebot-plugin-access-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_access_control-0.5.3.post1.tar.gz tmp/nonebot_plugin_access_control-0.5.4.tar.gz --markdown 20230614/n/nonebot-plugin-access-control/0.5.3.post1-0.5.4/diff.md --exclude *.pyd
+[2023-06-14 14:06:10] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.1.0.tar.gz]
+[2023-06-14 14:06:10] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.2.0.tar.gz]
+[2023-06-14 14:06:10] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2023-06-14 14:06:11] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.96.tar.gz]
+[2023-06-14 14:06:11] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.98.tar.gz]
+[2023-06-14 14:06:11] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-06-14 14:06:11] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.8.tar.gz]
+[2023-06-14 14:06:11] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.9.tar.gz]
+[2023-06-14 14:06:11] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-14 14:06:13] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.0-py3-none-any.whl.zip]
+[2023-06-14 14:06:13] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.1-py3-none-any.whl.zip]
+[2023-06-14 14:06:13] INFO root fetch - main [MainThread]: End processing [pytorch-ood]: success
+[2023-06-14 14:06:13] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.3.post1.tar.gz]
+[2023-06-14 14:06:13] INFO root fetch - processPackages [nonebot-plugin-access-control]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_access_control-0.5.4.tar.gz]
+[2023-06-14 14:06:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-access-control]: success
+[2023-06-14 14:06:13] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.2.6.post4.tar.gz]
+[2023-06-14 14:06:13] INFO root fetch - processPackages [searchkit]: Remove: archive file [/home/abi/fetcher/tmp/searchkit-0.2.7.tar.gz]
+[2023-06-14 14:06:13] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-06-14 14:06:15] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.1.0.tar.gz]
+[2023-06-14 14:06:15] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.2.0.tar.gz]
+[2023-06-14 14:06:15] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2023-06-14 14:06:34] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-06-14 14:06:34] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-06-14 14:06:34] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-06-14 14:06:34] INFO root fetch - main [MainThread]: Store serial: [18500809]
