@@ -10827,3 +10827,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 05:09:49] INFO root fetch - processPackages [solox]: Remove: archive file [/home/abi/fetcher/tmp/solox-2.6.6.tar.gz]
 [2023-06-14 05:09:49] INFO root fetch - main [MainThread]: End processing [solox]: success
 [2023-06-14 05:09:49] INFO root fetch - main [MainThread]: Store serial: [18495569]
+[2023-06-14 05:14:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495569]
+[2023-06-14 05:14:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 05:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GrePT
+[2023-06-14 05:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devvio-util
+[2023-06-14 05:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: objtyping
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code2gist
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sftpoeb
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litie
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GANDLF
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DigiCore
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tgtoolsinsta
+[2023-06-14 05:14:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymycobot
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230614] Old Version: [0.0.17.dev20230613]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [code2gist]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GrePT]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [devvio-util]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-14 05:14:58] WARNING root fetch - processPackages [DigiCore]: Skipping, unable to determine old version
+[2023-06-14 05:14:58] ERROR root fetch - processPackages [tgtoolsinsta]: Unable to get metadata: No such project 'tgtoolsinsta'
+[2023-06-14 05:14:58] INFO root fetch - processPackages [DigiCore]: Start processing: metacountregressor
+[2023-06-14 05:14:58] INFO root fetch - main [MainThread]: End processing [DigiCore] error
+[2023-06-14 05:14:58] INFO root fetch - processPackages [tgtoolsinsta]: Start processing: je-web-runner-dev
+[2023-06-14 05:14:58] INFO root fetch - main [MainThread]: End processing [tgtoolsinsta] error
+[2023-06-14 05:14:58] INFO root fetch - processPackages [objtyping]: New version: [0.5.3.post2] Old Version: [0.5.3]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [litie]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [sftpoeb]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/26/51/1145a9e9cc60cda2496bfe1058651608a60697671557c70d379c41adc7fc/GANDLF-0.0.17.dev20230613.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [je-web-runner-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-14 05:14:58] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/d8/6c/e694a34fbe42927e3d9f42f60cbed199e2d4da70544923d046780ca37c11/devvio_util-1.5.5.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/39/e5/ec186e9b9bc6abe3266c3c85fa359069f687116bd67a93a17ee6a8d5def5/sftpoeb-0.0.3.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/25/c0/772cdeb0f95d399feea8483ffe5517e3f3d4c25614a224bb2ad73b7a544c/metacountregressor-0.1.2-py3-none-any.whl
+[2023-06-14 05:14:58] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883133>=10485760
+[2023-06-14 05:14:58] INFO root fetch - processPackages [pymycobot]: New version: [3.1.1] Old Version: [3.1.0b1]
+[2023-06-14 05:14:58] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 05:14:58] INFO root fetch - processPackages [objtyping]: Downloading https://files.pythonhosted.org/packages/9e/65/a4420f55a0a4b0c54c51d5dca2178c5c0a584fb85c61cb9a6a05c6542560/objtyping-0.5.3.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/f7/6e/9ec54107b531e0c6113d36187280769a2f2a2f8e6d88c540334a4ae5c5e4/code2gist-0.0.2.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [litie]: Downloading https://files.pythonhosted.org/packages/86/f9/1b60d6925c4f4cf71efdfadd69e8385aa95c2d5cfb2695c450dde17b4215/litie-0.0.1.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GrePT]: Downloading https://files.pythonhosted.org/packages/65/32/0412105bdd86cd8ee56d037cd5a5f3bee860764009580a976dd28115b0cf/GrePT-1.1.1.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/3d/5f/1255d66a56fb12701863ce7676f49de0a0fa1c8ebea7082713c306d9eae0/je_web_runner_dev-0.0.8.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/e9/4a/145898312fa55457d8d94822daa567a5966ca2a1922d5c4f989104cdacdd/sftpoeb-0.0.4.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/65/94/dbad39ef1ad0cd00b7711e265828c06cdb16d89d8e18ceb0c1d94006f460/devvio_util-1.5.6.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/56/87/89dfc92a07d035353c1f7e25c32c66706e75ac92999640898b015cd43b66/pymycobot-3.1.0b1.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.0.3.tar.gz tmp/sftpoeb-0.0.4.tar.gz --markdown 20230614/s/sftpoeb/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/2d/77/7039f54677a021037099232366410a403b8cc8c9b71baab3f98f33371aaa/GANDLF-0.0.17.dev20230614.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [devvio-util]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [devvio-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devvio_util-1.5.5.tar.gz tmp/devvio_util-1.5.6.tar.gz --markdown 20230614/d/devvio-util/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GrePT]: Downloading https://files.pythonhosted.org/packages/c8/e0/e532c1e34af5baa3ee1c3d9e81ad5a85afeb2902bb52e9353968eeac29e3/GrePT-1.2.0.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [litie]: Downloading https://files.pythonhosted.org/packages/39/00/fadf2788d5b6f6a09d5dc80dc93a20e62be274da9ac25e87fbd5e01ac7ff/litie-0.0.2-py3-none-any.whl
+[2023-06-14 05:14:58] INFO root fetch - processPackages [objtyping]: Downloading https://files.pythonhosted.org/packages/2e/38/3e090606c1792a5f3bcdc66a9076a4256177807a57d299f8ae3a9475cbc8/objtyping-0.5.3.post2.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [code2gist]: Downloading https://files.pythonhosted.org/packages/e9/22/842b95543ce0017bf5d94e6345e5d5a7fd706540e359b105ee7f3419ddb3/code2gist-1.0.0.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230613.tar.gz tmp/GANDLF-0.0.17.dev20230614.tar.gz --markdown 20230614/G/GANDLF/0.0.17.dev20230613-0.0.17.dev20230614/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [pymycobot]: Downloading https://files.pythonhosted.org/packages/72/37/1eaeeb7927ceee80b2d40b898a01205a4e79773a36a9e7f733d0b3545ad8/pymycobot-3.1.1.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GrePT]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [GrePT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GrePT-1.1.1.tar.gz tmp/GrePT-1.2.0.tar.gz --markdown 20230614/G/GrePT/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [objtyping]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [objtyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objtyping-0.5.3.tar.gz tmp/objtyping-0.5.3.post2.tar.gz --markdown 20230614/o/objtyping/0.5.3-0.5.3.post2/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [je-web-runner-dev]: Downloading https://files.pythonhosted.org/packages/16/62/09336d5dd7335342ae9a4e41ecdee21e0dd2f4a478f392d102c0d367c810/je_web_runner_dev-0.0.9.tar.gz
+[2023-06-14 05:14:58] INFO root fetch - processPackages [code2gist]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [code2gist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code2gist-0.0.2.tar.gz tmp/code2gist-1.0.0.tar.gz --markdown 20230614/c/code2gist/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [pymycobot]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [pymycobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymycobot-3.1.0b1.tar.gz tmp/pymycobot-3.1.1.tar.gz --markdown 20230614/p/pymycobot/3.1.0b1-3.1.1/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [litie]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [litie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litie-0.0.1.tar.gz tmp/litie-0.0.2-py3-none-any.whl.zip --markdown 20230614/l/litie/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 05:14:58] INFO root fetch - processPackages [je-web-runner-dev]: executing diffoscope
+[2023-06-14 05:14:58] INFO root fetch - processPackages [je-web-runner-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_web_runner_dev-0.0.8.tar.gz tmp/je_web_runner_dev-0.0.9.tar.gz --markdown 20230614/j/je-web-runner-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 05:14:59] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.3.tar.gz]
+[2023-06-14 05:14:59] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.4.tar.gz]
+[2023-06-14 05:14:59] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [GrePT]: Remove: archive file [/home/abi/fetcher/tmp/GrePT-1.1.1.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [GrePT]: Remove: archive file [/home/abi/fetcher/tmp/GrePT-1.2.0.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [GrePT]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.5.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.5.6.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [devvio-util]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [objtyping]: Remove: archive file [/home/abi/fetcher/tmp/objtyping-0.5.3.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [objtyping]: Remove: archive file [/home/abi/fetcher/tmp/objtyping-0.5.3.post2.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [objtyping]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-0.0.2.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [code2gist]: Remove: archive file [/home/abi/fetcher/tmp/code2gist-1.0.0.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [code2gist]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.0b1.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [pymycobot]: Remove: archive file [/home/abi/fetcher/tmp/pymycobot-3.1.1.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [pymycobot]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.8.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [je-web-runner-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_web_runner_dev-0.0.9.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [je-web-runner-dev]: success
+[2023-06-14 05:15:00] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230613.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230614.tar.gz]
+[2023-06-14 05:15:00] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-14 05:15:01] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.1.tar.gz]
+[2023-06-14 05:15:01] INFO root fetch - processPackages [litie]: Remove: archive file [/home/abi/fetcher/tmp/litie-0.0.2-py3-none-any.whl.zip]
+[2023-06-14 05:15:01] INFO root fetch - main [MainThread]: End processing [litie]: success
+[2023-06-14 05:15:01] INFO root fetch - main [MainThread]: Store serial: [18495605]
