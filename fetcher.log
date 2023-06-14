@@ -9659,3 +9659,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:59:07] INFO root fetch - processPackages [phanterpwa]: Remove: archive file [/home/abi/fetcher/tmp/phanterpwa-13.13.8.tar.gz]
 [2023-06-14 03:59:07] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
 [2023-06-14 03:59:07] INFO root fetch - main [MainThread]: Store serial: [18495158]
+[2023-06-14 04:04:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495158]
+[2023-06-14 04:04:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudpss
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyocs
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebooksp
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsm-forward
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yt-supercut
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bing-images
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ShuaiToolBox
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conplex-dti
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: conflog
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model-viewer
+[2023-06-14 04:04:17] INFO root fetch - processPackages [cloudpss]: New version: [3.5.0a1] Old Version: [3.2.0a2]
+[2023-06-14 04:04:17] WARNING root fetch - processPackages [yt-supercut]: Skipping, unable to determine old version
+[2023-06-14 04:04:17] INFO root fetch - processPackages [yt-supercut]: Start processing: ssh2awsec2
+[2023-06-14 04:04:17] INFO root fetch - main [MainThread]: End processing [yt-supercut] error
+[2023-06-14 04:04:17] INFO root fetch - processPackages [conplex-dti]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-14 04:04:17] INFO root fetch - processPackages [bing-images]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ebooksp]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 04:04:17] INFO root fetch - processPackages [ShuaiToolBox]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 04:04:17] INFO root fetch - processPackages [pyocs]: New version: [4.4.6] Old Version: [4.4.5]
+[2023-06-14 04:04:17] INFO root fetch - processPackages [conflog]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-14 04:04:17] INFO root fetch - processPackages [qsm-forward]: New version: [0.2.post2] Old Version: [0.2.post1]
+[2023-06-14 04:04:17] WARNING root fetch - processPackages [model-viewer]: Skipping, unable to determine old version
+[2023-06-14 04:04:17] INFO root fetch - main [MainThread]: End processing [model-viewer] error
+[2023-06-14 04:04:17] ERROR root fetch - processPackages [ssh2awsec2]: Unable to get metadata: No such project 'ssh2awsec2'
+[2023-06-14 04:04:17] INFO root fetch - main [MainThread]: End processing [ssh2awsec2] error
+[2023-06-14 04:04:17] INFO root fetch - processPackages [conplex-dti]: Downloading https://files.pythonhosted.org/packages/95/8f/9339b8c90657b4fbc753b34161692afd171722c171e164e56db2c7982a1f/conplex_dti-0.1.2.tar.gz
+[2023-06-14 04:04:17] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/d4/62/6fdc296728e9dbacd42b2b9936ef21cc09b12d2915d01265d884f4b78863/cloudpss-3.2.0a2.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conflog]: Downloading https://files.pythonhosted.org/packages/eb/08/e87aae0477530c901476809bf1727794c0694bab30d66f13c8c785ba3333/conflog-1.0.1.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ShuaiToolBox]: Downloading https://files.pythonhosted.org/packages/ec/82/85d292d3440aac2559159008873e89d1323676437dcf795fa7b12deb6319/ShuaiToolBox-1.1.1.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [pyocs]: Downloading https://files.pythonhosted.org/packages/ab/c4/597b136a60d605357c3ef6a36d69b6991eb4701dc4dad697a4480677ce7b/pyocs-4.4.5-py2.py3-none-any.whl
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/fd/74/890430ce3594631f7959e4cd80f18ae4c53b8821595b0659cd909a29cba1/ebooksp-0.0.2.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/19/e4/d6425e13fa68ef75a37179e0af914909136bfd692b64ff7e62103db955da/qsm_forward-0.2.post1.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [bing-images]: Downloading https://files.pythonhosted.org/packages/33/78/12bcc017d48f06375b8da85a081c36e41391f633d15dfac8e43de1fb3f32/bing_images-0.2.2.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conplex-dti]: Downloading https://files.pythonhosted.org/packages/90/90/4f81b390a2490df3361450371b80a0cae61c4c52c5c29395ec922e9e50f0/conplex_dti-0.1.3.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [bing-images]: Downloading https://files.pythonhosted.org/packages/4f/b3/373aa17a3560a9bc609fa843b19a68d37ac566703d0bfc3825db31135bf5/bing_images-0.2.3.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ebooksp]: Downloading https://files.pythonhosted.org/packages/0c/e8/9c29b91ec10fd5842710b897ca93b40106ec3b3ca9aa0e0bbe7432a7ac3b/ebooksp-0.0.3.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ShuaiToolBox]: Downloading https://files.pythonhosted.org/packages/79/10/581e81b421d37c348551730fcb71360bd487705cbc661f716ba8cf85a578/ShuaiToolBox-1.1.2.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/a1/ea/b982eca2d4f934e979415733a5cd17bfc1de57683a844475fac1be584921/cloudpss-3.5.0a1.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conflog]: Downloading https://files.pythonhosted.org/packages/7f/a3/ade68d69ed0b0e260433d907ddb886c19425aceb416be4e223029462beb0/conflog-1.1.0.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/8b/2e/044c6fd21ce2abeaa73bf28580dee95d1576e9ef45d12e8fef92a32a2902/qsm_forward-0.2.post2.tar.gz
+[2023-06-14 04:04:18] INFO root fetch - processPackages [pyocs]: Downloading https://files.pythonhosted.org/packages/f7/a8/514f1a9166692a48f1bf8467b901b5aeda6d4064d0f1a3414f0677d7fbe2/pyocs-4.4.6-py2.py3-none-any.whl
+[2023-06-14 04:04:18] INFO root fetch - processPackages [bing-images]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [bing-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bing_images-0.2.2.tar.gz tmp/bing_images-0.2.3.tar.gz --markdown 20230614/b/bing-images/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ebooksp]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ebooksp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebooksp-0.0.2.tar.gz tmp/ebooksp-0.0.3.tar.gz --markdown 20230614/e/ebooksp/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ShuaiToolBox]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [ShuaiToolBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShuaiToolBox-1.1.1.tar.gz tmp/ShuaiToolBox-1.1.2.tar.gz --markdown 20230614/S/ShuaiToolBox/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm_forward-0.2.post1.tar.gz tmp/qsm_forward-0.2.post2.tar.gz --markdown 20230614/q/qsm-forward/0.2.post1-0.2.post2/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-3.2.0a2.tar.gz tmp/cloudpss-3.5.0a1.tar.gz --markdown 20230614/c/cloudpss/3.2.0a2-3.5.0a1/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conplex-dti]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conplex-dti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conplex_dti-0.1.2.tar.gz tmp/conplex_dti-0.1.3.tar.gz --markdown 20230614/c/conplex-dti/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [pyocs]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [pyocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyocs-4.4.5-py2.py3-none-any.whl.zip tmp/pyocs-4.4.6-py2.py3-none-any.whl.zip --markdown 20230614/p/pyocs/4.4.5-4.4.6/diff.md --exclude *.pyd
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conflog]: executing diffoscope
+[2023-06-14 04:04:18] INFO root fetch - processPackages [conflog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conflog-1.0.1.tar.gz tmp/conflog-1.1.0.tar.gz --markdown 20230614/c/conflog/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 04:04:19] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.2.tar.gz]
+[2023-06-14 04:04:19] INFO root fetch - processPackages [ebooksp]: Remove: archive file [/home/abi/fetcher/tmp/ebooksp-0.0.3.tar.gz]
+[2023-06-14 04:04:19] INFO root fetch - main [MainThread]: End processing [ebooksp]: success
+[2023-06-14 04:04:19] INFO root fetch - processPackages [ShuaiToolBox]: Remove: archive file [/home/abi/fetcher/tmp/ShuaiToolBox-1.1.1.tar.gz]
+[2023-06-14 04:04:19] INFO root fetch - processPackages [ShuaiToolBox]: Remove: archive file [/home/abi/fetcher/tmp/ShuaiToolBox-1.1.2.tar.gz]
+[2023-06-14 04:04:19] INFO root fetch - main [MainThread]: End processing [ShuaiToolBox]: success
+[2023-06-14 04:04:19] INFO root fetch - processPackages [bing-images]: Remove: archive file [/home/abi/fetcher/tmp/bing_images-0.2.2.tar.gz]
+[2023-06-14 04:04:19] INFO root fetch - processPackages [bing-images]: Remove: archive file [/home/abi/fetcher/tmp/bing_images-0.2.3.tar.gz]
+[2023-06-14 04:04:19] INFO root fetch - main [MainThread]: End processing [bing-images]: success
+[2023-06-14 04:04:20] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.2.0a2.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-3.5.0a1.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2023-06-14 04:04:20] INFO root fetch - processPackages [conplex-dti]: Remove: archive file [/home/abi/fetcher/tmp/conplex_dti-0.1.2.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - processPackages [conplex-dti]: Remove: archive file [/home/abi/fetcher/tmp/conplex_dti-0.1.3.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - main [MainThread]: End processing [conplex-dti]: success
+[2023-06-14 04:04:20] INFO root fetch - processPackages [conflog]: Remove: archive file [/home/abi/fetcher/tmp/conflog-1.0.1.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - processPackages [conflog]: Remove: archive file [/home/abi/fetcher/tmp/conflog-1.1.0.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - main [MainThread]: End processing [conflog]: success
+[2023-06-14 04:04:20] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm_forward-0.2.post1.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm_forward-0.2.post2.tar.gz]
+[2023-06-14 04:04:20] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-14 04:04:23] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.5-py2.py3-none-any.whl.zip]
+[2023-06-14 04:04:23] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.6-py2.py3-none-any.whl.zip]
+[2023-06-14 04:04:23] INFO root fetch - main [MainThread]: End processing [pyocs]: success
+[2023-06-14 04:04:23] INFO root fetch - main [MainThread]: Store serial: [18495195]
