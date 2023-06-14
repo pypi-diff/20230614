@@ -22700,3 +22700,116 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:55:32] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11125-py2.py3-none-any.whl.zip]
 [2023-06-14 13:55:32] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-06-14 13:55:32] INFO root fetch - main [MainThread]: Store serial: [18500687]
+[2023-06-14 14:00:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500687]
+[2023-06-14 14:00:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-source-collection
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FluidPyPLC
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-martin-z3-lemmas
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-ninja-crud
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-data
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eunice
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leadguru-common
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coretex
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HandGestureRec
+[2023-06-14 14:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsita
+[2023-06-14 14:00:41] INFO root fetch - processPackages [coretex]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [parsita]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [django-ninja-crud]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas]: New version: [20230614.11.55.728145] Old Version: [20230613.16.4.949847]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [FluidPyPLC]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.46] Old Version: [0.0.45]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [eunice]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 14:00:41] WARNING root fetch - processPackages [HandGestureRec]: Skipping, unable to determine old version
+[2023-06-14 14:00:41] INFO root fetch - processPackages [HandGestureRec]: Start processing: bs-admin-utils
+[2023-06-14 14:00:41] INFO root fetch - main [MainThread]: End processing [HandGestureRec] error
+[2023-06-14 14:00:41] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 14:00:41] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/65/24/13cd0a2152a997c8ba8001cc4c0386a16976ba8ff2f0d0dd7928916e3e8c/coretex-1.0.4.tar.gz
+[2023-06-14 14:00:41] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/80/57/0ca51bc2672f4a9a08a44dd81940d22660f6c73cf4d69afd5d01fc9a6862/parsita-1.7.1.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas]: Downloading https://files.pythonhosted.org/packages/9f/a7/e11cf592b6c1d85f59195006063acd993a3a9daf160653eb959fae5c617d/certora-cli-alpha-martin-z3-lemmas-20230613.16.4.949847.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/24/63/9faac02fd7f8ea1250a8dc240103c36f95131762ae8b619de56366271374/bs_admin_utils-1.0.8.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [django-ninja-crud]: Downloading https://files.pythonhosted.org/packages/ed/e0/cd5f0fd07885bdd1dbcdfcb3a71c72e687963dd7b674445b6e036b9558b5/django_ninja_crud-0.1.0.tar.gz
+[2023-06-14 14:00:42] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas]: Skipping package: exceeds size limit 38791808>=10485760
+[2023-06-14 14:00:42] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas]: Start processing: agentai
+[2023-06-14 14:00:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas] error
+[2023-06-14 14:00:42] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/e4/88/59604ef996294bc943be985039bd50eb4e680e4a303a92a6d2b3becf1b1b/macrometa-source-collection-0.0.45.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/72/52/71ce66ec81204cfee51b08dcc696f892ca7862281d2e02657cc5c131b1e1/FluidPyPLC-0.1.2.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [eunice]: Downloading https://files.pythonhosted.org/packages/69/21/1d4b4fd042eb2b54b59f19a98c58da685ee2063843ae36e42e15caf32547/eunice-0.0.1.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-06-14 14:00:42] WARNING root fetch - processPackages [agentai]: Skipping, unable to determine old version
+[2023-06-14 14:00:42] INFO root fetch - processPackages [agentai]: Start processing: xmlhelpy
+[2023-06-14 14:00:42] INFO root fetch - main [MainThread]: End processing [agentai] error
+[2023-06-14 14:00:42] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/10/ac/2c2e19a52af548f2ddf5b438985103eb8e1b0f21e204d749b1e80612b159/bs_admin_utils-1.0.9.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [django-ninja-crud]: Downloading https://files.pythonhosted.org/packages/08/64/4cdfcddc84fae75e413fa419cc178be6c50ce2eab282ad76cb400b63774b/django_ninja_crud-0.1.1.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [xmlhelpy]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-14 14:00:42] INFO root fetch - processPackages [FluidPyPLC]: Downloading https://files.pythonhosted.org/packages/db/90/a32b9e9946eb8a883ee757f622c0aaefb9129e259b0af0b8557662a697c1/FluidPyPLC-0.1.3.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/19/ac/6e959f8a9a82280a49704a24dcfecc8a7b90705deff844ddff00003fcec5/macrometa-source-collection-0.0.46.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [eunice]: Downloading https://files.pythonhosted.org/packages/f2/02/a098c90ac7fc39e2b195d8a882390d0b94f7415d08bf0b56612152216ec0/eunice-0.0.2.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [parsita]: Downloading https://files.pythonhosted.org/packages/47/1e/8059f1516e3b7f2a359935769bf32d28d7a95eccf75d2dde5f063a624d2f/parsita-1.7.2.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/76/04/16cd608a0fb9bba3c937fc3fbc783bdc33072ab0300e6cfc1ad28c2c37d8/coretex-1.0.5.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.0.8.tar.gz tmp/bs_admin_utils-1.0.9.tar.gz --markdown 20230614/b/bs-admin-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [django-ninja-crud]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [django-ninja-crud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ninja_crud-0.1.0.tar.gz tmp/django_ninja_crud-0.1.1.tar.gz --markdown 20230614/d/django-ninja-crud/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.45.tar.gz tmp/macrometa-source-collection-0.0.46.tar.gz --markdown 20230614/m/macrometa-source-collection/0.0.45-0.0.46/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [eunice]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [eunice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eunice-0.0.1.tar.gz tmp/eunice-0.0.2.tar.gz --markdown 20230614/e/eunice/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [FluidPyPLC]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [FluidPyPLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidPyPLC-0.1.2.tar.gz tmp/FluidPyPLC-0.1.3.tar.gz --markdown 20230614/F/FluidPyPLC/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.4.tar.gz tmp/coretex-1.0.5.tar.gz --markdown 20230614/c/coretex/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [xmlhelpy]: Downloading https://files.pythonhosted.org/packages/38/77/e4ce78064c17b360888c17a775f5be4f8a8a93976ccada581c2580526795/xmlhelpy-0.9.1-py3-none-any.whl
+[2023-06-14 14:00:42] INFO root fetch - processPackages [parsita]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [parsita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsita-1.7.1.tar.gz tmp/parsita-1.7.2.tar.gz --markdown 20230614/p/parsita/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230614/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-06-14 14:00:42] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230614/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-06-14 14:00:42] INFO root fetch - processPackages [xmlhelpy]: Downloading https://files.pythonhosted.org/packages/97/b5/51de32ba7e963fd7d46d553d6c912611496c3dd0f568a567c7d7bb826400/xmlhelpy-0.9.2-py3-none-any.whl
+[2023-06-14 14:00:43] INFO root fetch - processPackages [xmlhelpy]: executing diffoscope
+[2023-06-14 14:00:43] INFO root fetch - processPackages [xmlhelpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlhelpy-0.9.1-py3-none-any.whl.zip tmp/xmlhelpy-0.9.2-py3-none-any.whl.zip --markdown 20230614/x/xmlhelpy/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-14 14:00:44] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.45.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.46.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - processPackages [macrometa-source-collection]: Start processing: pytrinamic
+[2023-06-14 14:00:44] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-14 14:00:44] INFO root fetch - processPackages [pytrinamic]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-14 14:00:44] INFO root fetch - processPackages [eunice]: Remove: archive file [/home/abi/fetcher/tmp/eunice-0.0.1.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - processPackages [eunice]: Remove: archive file [/home/abi/fetcher/tmp/eunice-0.0.2.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - main [MainThread]: End processing [eunice]: success
+[2023-06-14 14:00:44] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-06-14 14:00:44] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-06-14 14:00:44] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-06-14 14:00:45] INFO root fetch - processPackages [pytrinamic]: Downloading https://files.pythonhosted.org/packages/3e/c1/564059d70277026d5f6583bf00fbbdd27845b855bd5c1f52434038ba6c62/pytrinamic-0.2.4.tar.gz
+[2023-06-14 14:00:45] INFO root fetch - processPackages [xmlhelpy]: Remove: archive file [/home/abi/fetcher/tmp/xmlhelpy-0.9.1-py3-none-any.whl.zip]
+[2023-06-14 14:00:45] INFO root fetch - processPackages [xmlhelpy]: Remove: archive file [/home/abi/fetcher/tmp/xmlhelpy-0.9.2-py3-none-any.whl.zip]
+[2023-06-14 14:00:45] INFO root fetch - main [MainThread]: End processing [xmlhelpy]: success
+[2023-06-14 14:00:45] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-1.7.1.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - processPackages [parsita]: Remove: archive file [/home/abi/fetcher/tmp/parsita-1.7.2.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - main [MainThread]: End processing [parsita]: success
+[2023-06-14 14:00:45] INFO root fetch - processPackages [django-ninja-crud]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_crud-0.1.0.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - processPackages [django-ninja-crud]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_crud-0.1.1.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - main [MainThread]: End processing [django-ninja-crud]: success
+[2023-06-14 14:00:45] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.2.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - processPackages [FluidPyPLC]: Remove: archive file [/home/abi/fetcher/tmp/FluidPyPLC-0.1.3.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - main [MainThread]: End processing [FluidPyPLC]: success
+[2023-06-14 14:00:45] INFO root fetch - processPackages [pytrinamic]: Downloading https://files.pythonhosted.org/packages/2c/27/8e450d2ec6d58efee118357d7efd7bc19579a296272c18c946ae557669ed/pytrinamic-0.2.5.tar.gz
+[2023-06-14 14:00:45] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.8.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.9.tar.gz]
+[2023-06-14 14:00:45] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-14 14:00:45] INFO root fetch - processPackages [pytrinamic]: executing diffoscope
+[2023-06-14 14:00:45] INFO root fetch - processPackages [pytrinamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrinamic-0.2.4.tar.gz tmp/pytrinamic-0.2.5.tar.gz --markdown 20230614/p/pytrinamic/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-14 14:00:47] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.4.tar.gz]
+[2023-06-14 14:00:47] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.5.tar.gz]
+[2023-06-14 14:00:47] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-06-14 14:00:50] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.4.tar.gz]
+[2023-06-14 14:00:50] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.5.tar.gz]
+[2023-06-14 14:00:50] INFO root fetch - main [MainThread]: End processing [pytrinamic]: success
+[2023-06-14 14:00:50] INFO root fetch - main [MainThread]: Store serial: [18500736]
