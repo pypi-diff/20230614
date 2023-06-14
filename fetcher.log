@@ -5885,3 +5885,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 03:16:50] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
 [2023-06-14 03:16:50] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
 [2023-06-14 03:16:50] INFO root fetch - main [MainThread]: Store serial: [18493846]
+[2023-06-14 03:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18493846]
+[2023-06-14 03:21:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jurity
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metaschema
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-utils
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-gui-plugin-shell-companion
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitbetter
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tccli-intl-en
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymemuc
+[2023-06-14 03:21:59] INFO root fetch - processPackages [gitbetter]: New version: [2.0.0] Old Version: [1.4.0]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [jurity]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pymemuc]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [metaschema]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: New version: [0.0.0a7] Old Version: [0.0.0a6]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-14 03:21:59] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/b1/e5/8b87428b16090d2c0beeb481dc928e41e314bb87bd096f22d34a8d790c99/pymemuc-0.4.0.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [jurity]: Downloading https://files.pythonhosted.org/packages/bd/f7/b999516888622eb6a62face97c2c928919fc217ce4328345b12569330af8/jurity-1.3.2.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-utils]: Downloading https://files.pythonhosted.org/packages/d7/4b/e499972fb3bf80dfa8a9dd2f431fcad633697e759fa8f256a9945e45a75e/ovos_utils-0.0.9.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/ec/91/4675704e2457fe4ca14b227a2c83ea9563e991e8e9660051622a8153a7cc/gitbetter-1.4.0.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Downloading https://files.pythonhosted.org/packages/cd/57/00d6e73d20c211fc1a4af9a273c5d5f605753eabd5b123c94489e00deac7/ovos-gui-plugin-shell-companion-0.0.0a6.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [metaschema]: Downloading https://files.pythonhosted.org/packages/aa/ee/e34ad64b3f1da45cbad7a05a33c4083b0d99b44fc2de56741a81980c90a9/metaschema-0.0.1.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pymemuc]: Downloading https://files.pythonhosted.org/packages/71/1e/33319a841e544707c2526549d89bbacad1149c2ad17b59a7009867be9cef/pymemuc-0.4.1.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-utils]: Downloading https://files.pythonhosted.org/packages/87/ec/09417f2334058aa6de64c90cd4a839ddd15a671ba16f1bed26c98da17d31/ovos_utils-0.0.9a1.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pymemuc]: executing diffoscope
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pymemuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemuc-0.4.0.tar.gz tmp/pymemuc-0.4.1.tar.gz --markdown 20230614/p/pymemuc/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-14 03:21:59] INFO root fetch - processPackages [gitbetter]: Downloading https://files.pythonhosted.org/packages/d1/c6/a530d2d7ce8c3573f4628db099f85eaef13c327a7370a6e12761072ed0d0/gitbetter-2.0.0.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Downloading https://files.pythonhosted.org/packages/b3/8a/384bf18642cf2197c385ce5e69dd16e8ea0a939d0fa8519ae9f08e530b35/ovos-gui-plugin-shell-companion-0.0.0a7.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [jurity]: Downloading https://files.pythonhosted.org/packages/54/52/0f7e70e517688f49442267e091c56ae4f41f2c6e8e4e7ad40e9a0a0364a8/jurity-1.3.3.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-06-14 03:21:59] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230614/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-06-14 03:21:59] INFO root fetch - processPackages [metaschema]: Downloading https://files.pythonhosted.org/packages/d6/0a/bd4ab4e5aca783a0d353a3dfe627346361f2f41a5cf094ee746bc424e6e3/metaschema-0.0.2.tar.gz
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230614/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-14 03:21:59] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-06-14 03:22:00] INFO root fetch - processPackages [gitbetter]: executing diffoscope
+[2023-06-14 03:22:00] INFO root fetch - processPackages [gitbetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbetter-1.4.0.tar.gz tmp/gitbetter-2.0.0.tar.gz --markdown 20230614/g/gitbetter/1.4.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-14 03:22:00] INFO root fetch - processPackages [jurity]: executing diffoscope
+[2023-06-14 03:22:00] INFO root fetch - processPackages [jurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jurity-1.3.2.tar.gz tmp/jurity-1.3.3.tar.gz --markdown 20230614/j/jurity/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-14 03:22:00] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: executing diffoscope
+[2023-06-14 03:22:00] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-gui-plugin-shell-companion-0.0.0a6.tar.gz tmp/ovos-gui-plugin-shell-companion-0.0.0a7.tar.gz --markdown 20230614/o/ovos-gui-plugin-shell-companion/0.0.0a6-0.0.0a7/diff.md --exclude *.pyd
+[2023-06-14 03:22:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-14 03:22:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230614/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-14 03:22:00] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-14 03:22:00] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230614/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-14 03:22:00] INFO root fetch - processPackages [metaschema]: executing diffoscope
+[2023-06-14 03:22:00] INFO root fetch - processPackages [metaschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaschema-0.0.1.tar.gz tmp/metaschema-0.0.2.tar.gz --markdown 20230614/m/metaschema/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 03:22:01] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-06-14 03:22:01] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230614/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-14 03:22:01] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.0.tar.gz]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [pymemuc]: Remove: archive file [/home/abi/fetcher/tmp/pymemuc-0.4.1.tar.gz]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [pymemuc]: Start processing: py3d
+[2023-06-14 03:22:01] INFO root fetch - main [MainThread]: End processing [pymemuc]: success
+[2023-06-14 03:22:01] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9.tar.gz]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [ovos-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovos_utils-0.0.9a1.tar.gz]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [ovos-utils]: Start processing: ovos-PHAL-plugin-oauth
+[2023-06-14 03:22:01] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-06-14 03:22:01] INFO root fetch - processPackages [metaschema]: Remove: archive file [/home/abi/fetcher/tmp/metaschema-0.0.1.tar.gz]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [metaschema]: Remove: archive file [/home/abi/fetcher/tmp/metaschema-0.0.2.tar.gz]
+[2023-06-14 03:22:01] INFO root fetch - main [MainThread]: End processing [metaschema]: success
+[2023-06-14 03:22:01] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: New version: [0.0.1] Old Version: [0.0.0a2]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [py3d]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 03:22:01] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/fb/cb/4d81f177e1006eba99f24b97d3acf86c123fb7f6d098454e83ea9afa91c0/py3d-0.1.1.tar.gz
+[2023-06-14 03:22:01] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Downloading https://files.pythonhosted.org/packages/d7/4d/762d5a7fd76421d2f4d100e5bfced675be2c3396649838c1c3e59cb5e706/ovos-PHAL-plugin-oauth-0.0.0a2.tar.gz
+[2023-06-14 03:22:02] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/41/42/bb9315b80fbbd030c70f98321e71653a37f7d3b71730aa4375872accc166/py3d-0.1.2.tar.gz
+[2023-06-14 03:22:02] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Downloading https://files.pythonhosted.org/packages/95/44/d07b9515d752f2aecb5492bea53e8bd6800dab224e4b26ea8549d014048f/ovos-PHAL-plugin-oauth-0.0.1.tar.gz
+[2023-06-14 03:22:02] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: executing diffoscope
+[2023-06-14 03:22:02] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-oauth-0.0.0a2.tar.gz tmp/ovos-PHAL-plugin-oauth-0.0.1.tar.gz --markdown 20230614/o/ovos-PHAL-plugin-oauth/0.0.0a2-0.0.1/diff.md --exclude *.pyd
+[2023-06-14 03:22:02] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-06-14 03:22:02] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.1.tar.gz tmp/py3d-0.1.2.tar.gz --markdown 20230614/p/py3d/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 03:22:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-14 03:22:02] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-14 03:22:02] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-1.4.0.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - processPackages [gitbetter]: Remove: archive file [/home/abi/fetcher/tmp/gitbetter-2.0.0.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - main [MainThread]: End processing [gitbetter]: success
+[2023-06-14 03:22:02] INFO root fetch - processPackages [jurity]: Remove: archive file [/home/abi/fetcher/tmp/jurity-1.3.2.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - processPackages [jurity]: Remove: archive file [/home/abi/fetcher/tmp/jurity-1.3.3.tar.gz]
+[2023-06-14 03:22:02] INFO root fetch - main [MainThread]: End processing [jurity]: success
+[2023-06-14 03:22:03] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-oauth-0.0.0a2.tar.gz]
+[2023-06-14 03:22:03] INFO root fetch - processPackages [ovos-PHAL-plugin-oauth]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-oauth-0.0.1.tar.gz]
+[2023-06-14 03:22:03] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-oauth]: success
+[2023-06-14 03:22:03] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.1.tar.gz]
+[2023-06-14 03:22:03] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.2.tar.gz]
+[2023-06-14 03:22:03] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-06-14 03:22:03] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Remove: archive file [/home/abi/fetcher/tmp/ovos-gui-plugin-shell-companion-0.0.0a6.tar.gz]
+[2023-06-14 03:22:03] INFO root fetch - processPackages [ovos-gui-plugin-shell-companion]: Remove: archive file [/home/abi/fetcher/tmp/ovos-gui-plugin-shell-companion-0.0.0a7.tar.gz]
+[2023-06-14 03:22:03] INFO root fetch - main [MainThread]: End processing [ovos-gui-plugin-shell-companion]: success
+[2023-06-14 03:22:04] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-06-14 03:22:04] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-06-14 03:22:04] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-06-14 03:22:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-14 03:22:04] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-14 03:22:04] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-14 03:22:04] INFO root fetch - main [MainThread]: Store serial: [18493882]
