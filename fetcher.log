@@ -13689,3 +13689,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:38:43] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.1.tar.gz]
 [2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [mykit]: success
 [2023-06-14 07:38:43] INFO root fetch - main [MainThread]: Store serial: [18496627]
+[2023-06-14 07:43:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496627]
+[2023-06-14 07:43:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-notify
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specker
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyalslib
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newscleaner
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-simplejwt-additions
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revo
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: solutions-template
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-pretrained
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: janis-pipelines
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xia-login-flask
+[2023-06-14 07:43:52] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-14 07:43:52] INFO root fetch - processPackages [revo]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-14 07:43:52] INFO root fetch - processPackages [specker]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-14 07:43:52] INFO root fetch - processPackages [newscleaner]: New version: [0.1.3] Old Version: [0.0.2]
+[2023-06-14 07:43:52] WARNING root fetch - processPackages [drf-simplejwt-additions]: Skipping, unable to determine old version
+[2023-06-14 07:43:52] INFO root fetch - main [MainThread]: End processing [drf-simplejwt-additions] error
+[2023-06-14 07:43:52] INFO root fetch - processPackages [janis-pipelines]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-14 07:43:52] WARNING root fetch - processPackages [solutions-template]: Skipping, unable to determine old version
+[2023-06-14 07:43:52] INFO root fetch - main [MainThread]: End processing [solutions-template] error
+[2023-06-14 07:43:52] INFO root fetch - processPackages [pyalslib]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-14 07:43:52] INFO root fetch - processPackages [xia-login-flask]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ml-pretrained]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 07:43:52] INFO root fetch - processPackages [specker]: Downloading https://files.pythonhosted.org/packages/42/df/84cfa261ea7878d73a7db349afcb38881878261916bd9a2b3a199724c840/specker-1.1.3.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [pyalslib]: Downloading https://files.pythonhosted.org/packages/87/3b/82e437b904bb1d64c8b0aeceecda5bfd71194faf0c18601e3df89b48af8f/pyalslib-1.1.2.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e5/68/0f90f86a3b160e860ed5c540d8d0b88c2e127f0772a56b4aca863c8a14b8/ml-pretrained-0.0.8.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/65/1c/f1461c03e5a7420ef149678adb4deddb99c557f1dd6f61359a46a1ffae79/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-14 07:43:52] INFO root fetch - processPackages [newscleaner]: Downloading https://files.pythonhosted.org/packages/f2/34/f8a186a866b2dcaf237eb747d7c6028a17f7fcc5ea0f101c68e548a2a8d0/newscleaner-0.0.2.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [revo]: Downloading https://files.pythonhosted.org/packages/2d/1a/681ca1b7925a420b960c4abcc82d8241a9e674a02db7cfdaf6a9fa41ac08/revo-0.2.0-py3-none-any.whl
+[2023-06-14 07:43:52] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/f1/ad/88229cc8139934063ce1c54d1766b33babb2fb4ee107dc769492e4130cf0/xia_login_flask-0.2.3-cp39-none-win_amd64.whl
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ml-pretrained]: Downloading https://files.pythonhosted.org/packages/e1/20/911c23727f18c016144699a869482c5375e7312589fc9f690a6bb153182e/ml-pretrained-0.0.9.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [janis-pipelines]: Downloading https://files.pythonhosted.org/packages/52/04/626fb6f37ac578acf71dbb509b9b678acf2b78cc65ef57ab4a360397ea35/janis%20pipelines-0.9.6.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [specker]: Downloading https://files.pythonhosted.org/packages/7c/60/a53e13a4353d2402dd816fcece3d4600dae210b051828d4688b9d25f6dc4/specker-1.1.4.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [pyalslib]: Downloading https://files.pythonhosted.org/packages/b8/9a/d92821e3d907e54896c593b35ab83ca9ca6178642c57fc5b6fcdb096b488/pyalslib-1.1.3.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ml-pretrained]: executing diffoscope
+[2023-06-14 07:43:52] INFO root fetch - processPackages [ml-pretrained]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-pretrained-0.0.8.tar.gz tmp/ml-pretrained-0.0.9.tar.gz --markdown 20230614/m/ml-pretrained/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 07:43:52] INFO root fetch - processPackages [specker]: executing diffoscope
+[2023-06-14 07:43:52] INFO root fetch - processPackages [specker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specker-1.1.3.tar.gz tmp/specker-1.1.4.tar.gz --markdown 20230614/s/specker/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-14 07:43:52] INFO root fetch - processPackages [pyalslib]: executing diffoscope
+[2023-06-14 07:43:52] INFO root fetch - processPackages [pyalslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalslib-1.1.2.tar.gz tmp/pyalslib-1.1.3.tar.gz --markdown 20230614/p/pyalslib/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-14 07:43:52] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/57/8d/a8640d793d0d9d280c4aa0a924b41a476de50e69b3b162139a4e58e831c7/odoo_addon_web_notify-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-14 07:43:52] INFO root fetch - processPackages [revo]: Downloading https://files.pythonhosted.org/packages/de/57/de26eca8d3aff54848877efd27873e61da946cc4458b3fe16cbb2bc9679d/revo-0.2.1-py3-none-any.whl
+[2023-06-14 07:43:52] INFO root fetch - processPackages [newscleaner]: Downloading https://files.pythonhosted.org/packages/43/47/d98f76d7ebf8a14b84a063ff9e07d8baf5dfe1a6f1d839d2b46bdff70ffa/newscleaner-0.1.3.tar.gz
+[2023-06-14 07:43:52] INFO root fetch - processPackages [revo]: executing diffoscope
+[2023-06-14 07:43:52] INFO root fetch - processPackages [revo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revo-0.2.0-py3-none-any.whl.zip tmp/revo-0.2.1-py3-none-any.whl.zip --markdown 20230614/r/revo/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-14 07:43:52] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2023-06-14 07:43:52] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-web-notify/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-14 07:43:53] INFO root fetch - processPackages [janis-pipelines]: Downloading https://files.pythonhosted.org/packages/04/e5/b267e5536b658ace18804c92a108a6f08df716b1a4f1bd4a49d4b1bec9db/janis%20pipelines-0.9.7.tar.gz
+[2023-06-14 07:43:53] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/62/01/153a7732b45acfdba15fdb6e11da5cac057e923f08208325f44d808def8c/xia_login_flask-0.2.4-cp39-none-win_amd64.whl
+[2023-06-14 07:43:53] INFO root fetch - processPackages [newscleaner]: executing diffoscope
+[2023-06-14 07:43:53] INFO root fetch - processPackages [newscleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newscleaner-0.0.2.tar.gz tmp/newscleaner-0.1.3.tar.gz --markdown 20230614/n/newscleaner/0.0.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 07:43:53] INFO root fetch - processPackages [xia-login-flask]: executing diffoscope
+[2023-06-14 07:43:53] INFO root fetch - processPackages [xia-login-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_login_flask-0.2.3-cp39-none-win_amd64.whl.zip tmp/xia_login_flask-0.2.4-cp39-none-win_amd64.whl.zip --markdown 20230614/x/xia-login-flask/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-14 07:43:53] INFO root fetch - processPackages [janis-pipelines]: executing diffoscope
+[2023-06-14 07:43:53] INFO root fetch - processPackages [janis-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janis pipelines-0.9.6.tar.gz tmp/janis pipelines-0.9.7.tar.gz --markdown 20230614/j/janis-pipelines/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-14 07:43:54] INFO root fetch - processPackages [pyalslib]: Remove: archive file [/home/abi/fetcher/tmp/pyalslib-1.1.2.tar.gz]
+[2023-06-14 07:43:54] INFO root fetch - processPackages [pyalslib]: Remove: archive file [/home/abi/fetcher/tmp/pyalslib-1.1.3.tar.gz]
+[2023-06-14 07:43:54] INFO root fetch - main [MainThread]: End processing [pyalslib]: success
+[2023-06-14 07:43:54] INFO root fetch - processPackages [revo]: Remove: archive file [/home/abi/fetcher/tmp/revo-0.2.0-py3-none-any.whl.zip]
+[2023-06-14 07:43:54] INFO root fetch - processPackages [revo]: Remove: archive file [/home/abi/fetcher/tmp/revo-0.2.1-py3-none-any.whl.zip]
+[2023-06-14 07:43:54] INFO root fetch - main [MainThread]: End processing [revo]: success
+[2023-06-14 07:43:54] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.3-cp39-none-win_amd64.whl.zip]
+[2023-06-14 07:43:54] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.4-cp39-none-win_amd64.whl.zip]
+[2023-06-14 07:43:54] INFO root fetch - main [MainThread]: End processing [xia-login-flask]: success
+[2023-06-14 07:43:54] INFO root fetch - processPackages [newscleaner]: Remove: archive file [/home/abi/fetcher/tmp/newscleaner-0.0.2.tar.gz]
+[2023-06-14 07:43:54] INFO root fetch - processPackages [newscleaner]: Remove: archive file [/home/abi/fetcher/tmp/newscleaner-0.1.3.tar.gz]
+[2023-06-14 07:43:54] INFO root fetch - main [MainThread]: End processing [newscleaner]: success
+[2023-06-14 07:43:54] INFO root fetch - processPackages [janis-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/janis pipelines-0.9.6.tar.gz]
+[2023-06-14 07:43:54] INFO root fetch - processPackages [janis-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/janis pipelines-0.9.7.tar.gz]
+[2023-06-14 07:43:54] INFO root fetch - main [MainThread]: End processing [janis-pipelines]: success
+[2023-06-14 07:43:55] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-14 07:43:55] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-14 07:43:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2023-06-14 07:43:55] INFO root fetch - processPackages [specker]: Remove: archive file [/home/abi/fetcher/tmp/specker-1.1.3.tar.gz]
+[2023-06-14 07:43:55] INFO root fetch - processPackages [specker]: Remove: archive file [/home/abi/fetcher/tmp/specker-1.1.4.tar.gz]
+[2023-06-14 07:43:55] INFO root fetch - main [MainThread]: End processing [specker]: success
+[2023-06-14 07:43:55] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.8.tar.gz]
+[2023-06-14 07:43:55] INFO root fetch - processPackages [ml-pretrained]: Remove: archive file [/home/abi/fetcher/tmp/ml-pretrained-0.0.9.tar.gz]
+[2023-06-14 07:43:55] INFO root fetch - main [MainThread]: End processing [ml-pretrained]: success
+[2023-06-14 07:43:55] INFO root fetch - main [MainThread]: Store serial: [18496658]
