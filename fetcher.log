@@ -11874,3 +11874,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 05:58:00] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
 [2023-06-14 05:58:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-06-14 05:58:00] INFO root fetch - main [MainThread]: Store serial: [18495909]
+[2023-06-14 06:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495909]
+[2023-06-14 06:03:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cns
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xt-st-common
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ssi-fctrading
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smunger
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsm-django-masterdata
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netron
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metacountregressor
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: InfixToPostfix
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zanj
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: news-scraper-python
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ssi-fctrading]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [xt-st-common]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [dsm-django-masterdata]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [news-scraper-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [netron]: New version: [6.9.6] Old Version: [6.9.5]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [smunger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [InfixToPostfix]: New version: [1.0.7] Old Version: [1.0.4]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [zanj]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/67/47/628b8ed51cd3fb27bd4f03fc4ca6ea5db6ed3ca06a898e9bfb4113e69567/dsm_django_masterdata-0.0.3.tar.gz
+[2023-06-14 06:03:09] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/f8/fb/d738f247bfd7d7d40715fcb1e8472e698f14cd95ee59743e32b67785602b/ssi_fctrading-1.0.0.tar.gz
+[2023-06-14 06:03:09] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 06:03:09] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/dc/5f/3e8b7f6eecccf2cbd7b5a749cc09193b35e6ad15300746ff96ed46b1e986/news-scraper-python-0.0.2.tar.gz
+[2023-06-14 06:03:09] INFO root fetch - processPackages [InfixToPostfix]: Downloading https://files.pythonhosted.org/packages/48/3b/3ceed3ee7fddabffd05e8a70ed5689de23c8792267fda5926727b504f768/InfixToPostfix-1.0.4.tar.gz
+[2023-06-14 06:03:09] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-14 06:03:09] INFO root fetch - processPackages [cns]: Start processing: pyrfuniverse
+[2023-06-14 06:03:09] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-14 06:03:09] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 06:03:09] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 06:03:09] INFO root fetch - processPackages [pyrfuniverse]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-06-14 06:03:09] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/dc/76/d917cf516b86770bf2f0c5c5db487c87ff6750612ffb30ac7778589a5d3f/netron-6.9.5-py3-none-any.whl
+[2023-06-14 06:03:09] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/f3/bd/042c699a310eb4c7d6fde0a39c91ac82443fcc92bb68f4974c47af5bd856/xt_st_common-0.8.3.tar.gz
+[2023-06-14 06:03:09] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/2a/1e/4fca949c480ed56b8069c58b528e5e151d3a8c1bf848e88f0fa187fd047c/smunger-0.0.8.tar.gz
+[2023-06-14 06:03:09] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/dd/ba/0bb82c57a4353d8edc1b3d6074daf093067ed74db1feaa4bb04a1bca83bd/zanj-0.1.1.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [InfixToPostfix]: Downloading https://files.pythonhosted.org/packages/68/45/f80bffc34c822368168233ef5a531acd0248bd94618339cda6bb35d96a51/InfixToPostfix-1.0.7.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [ssi-fctrading]: Downloading https://files.pythonhosted.org/packages/be/1a/b6e3551734a112fab074ccc6d1aa992445c31cc11d0edfe11e9f7fc43cd9/ssi_fctrading-1.1.0.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [news-scraper-python]: Downloading https://files.pythonhosted.org/packages/03/5e/3d0dd495b0eaa526ffcf04fafad7e5cd5dfdfdabdae688a69c464fc97746/news_scraper_python-0.0.3-py3-none-any.whl
+[2023-06-14 06:03:10] INFO root fetch - processPackages [dsm-django-masterdata]: Downloading https://files.pythonhosted.org/packages/49/7a/d1eeacf7890cd6418bf252ea866ef640b229f218ac88259c99a058d968ee/dsm_django_masterdata-0.0.4.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/e3/68/dd008ec9b554591257e1fab60a89cd3bcff1537d07c295c40245d021169e/pyrfuniverse-0.8.3.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [InfixToPostfix]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [InfixToPostfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InfixToPostfix-1.0.4.tar.gz tmp/InfixToPostfix-1.0.7.tar.gz --markdown 20230614/I/InfixToPostfix/1.0.4-1.0.7/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [ssi-fctrading]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [ssi-fctrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssi_fctrading-1.0.0.tar.gz tmp/ssi_fctrading-1.1.0.tar.gz --markdown 20230614/s/ssi-fctrading/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/1d/3c/25261de9fde808b1e0306856510efe13c5173bb913381a118a2aef0f56c2/netron-6.9.6-py3-none-any.whl
+[2023-06-14 06:03:10] INFO root fetch - processPackages [dsm-django-masterdata]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [dsm-django-masterdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsm_django_masterdata-0.0.3.tar.gz tmp/dsm_django_masterdata-0.0.4.tar.gz --markdown 20230614/d/dsm-django-masterdata/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [news-scraper-python]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [news-scraper-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-scraper-python-0.0.2.tar.gz tmp/news_scraper_python-0.0.3-py3-none-any.whl.zip --markdown 20230614/n/news-scraper-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [zanj]: Downloading https://files.pythonhosted.org/packages/7a/d9/1c80e3a25a845a3a73fe5e7566813b1c8f08eefd44e5f2ccd2bb77b51dd5/zanj-0.1.2.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [netron]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-6.9.5-py3-none-any.whl.zip tmp/netron-6.9.6-py3-none-any.whl.zip --markdown 20230614/n/netron/6.9.5-6.9.6/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [zanj]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [zanj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zanj-0.1.1.tar.gz tmp/zanj-0.1.2.tar.gz --markdown 20230614/z/zanj/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/e1/8e/22f8ef38b7edec93026e889d0e27fb68e67399dfa55d5ff123c6657d7c42/smunger-0.0.9.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [smunger]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [smunger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smunger-0.0.8.tar.gz tmp/smunger-0.0.9.tar.gz --markdown 20230614/s/smunger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/ba/98/d4e3b3bb7b4a93fc1d3ccbed8674a6fc82fce8c9b487f110f56388d4565a/pyrfuniverse-0.8.4.tar.gz
+[2023-06-14 06:03:10] INFO root fetch - processPackages [pyrfuniverse]: executing diffoscope
+[2023-06-14 06:03:10] INFO root fetch - processPackages [pyrfuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfuniverse-0.8.3.tar.gz tmp/pyrfuniverse-0.8.4.tar.gz --markdown 20230614/p/pyrfuniverse/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-14 06:03:10] INFO root fetch - processPackages [xt-st-common]: Downloading https://files.pythonhosted.org/packages/e7/ef/5ac2e57c98df5426a980cbfc9db93d6554fd46f96a4ddf5f7a9161da2ca3/xt_st_common-0.8.4.tar.gz
+[2023-06-14 06:03:11] INFO root fetch - processPackages [xt-st-common]: executing diffoscope
+[2023-06-14 06:03:11] INFO root fetch - processPackages [xt-st-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xt_st_common-0.8.3.tar.gz tmp/xt_st_common-0.8.4.tar.gz --markdown 20230614/x/xt-st-common/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-06-14 06:03:11] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news-scraper-python-0.0.2.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - processPackages [news-scraper-python]: Remove: archive file [/home/abi/fetcher/tmp/news_scraper_python-0.0.3-py3-none-any.whl.zip]
+[2023-06-14 06:03:11] INFO root fetch - main [MainThread]: End processing [news-scraper-python]: success
+[2023-06-14 06:03:11] INFO root fetch - processPackages [dsm-django-masterdata]: Remove: archive file [/home/abi/fetcher/tmp/dsm_django_masterdata-0.0.3.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - processPackages [dsm-django-masterdata]: Remove: archive file [/home/abi/fetcher/tmp/dsm_django_masterdata-0.0.4.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - main [MainThread]: End processing [dsm-django-masterdata]: success
+[2023-06-14 06:03:11] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-1.0.0.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - processPackages [ssi-fctrading]: Remove: archive file [/home/abi/fetcher/tmp/ssi_fctrading-1.1.0.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - main [MainThread]: End processing [ssi-fctrading]: success
+[2023-06-14 06:03:11] INFO root fetch - processPackages [InfixToPostfix]: Remove: archive file [/home/abi/fetcher/tmp/InfixToPostfix-1.0.4.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - processPackages [InfixToPostfix]: Remove: archive file [/home/abi/fetcher/tmp/InfixToPostfix-1.0.7.tar.gz]
+[2023-06-14 06:03:11] INFO root fetch - main [MainThread]: End processing [InfixToPostfix]: success
+[2023-06-14 06:03:12] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.1.1.tar.gz]
+[2023-06-14 06:03:12] INFO root fetch - processPackages [zanj]: Remove: archive file [/home/abi/fetcher/tmp/zanj-0.1.2.tar.gz]
+[2023-06-14 06:03:12] INFO root fetch - main [MainThread]: End processing [zanj]: success
+[2023-06-14 06:03:12] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.0.8.tar.gz]
+[2023-06-14 06:03:12] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.0.9.tar.gz]
+[2023-06-14 06:03:12] INFO root fetch - main [MainThread]: End processing [smunger]: success
+[2023-06-14 06:03:13] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.3.tar.gz]
+[2023-06-14 06:03:13] INFO root fetch - processPackages [xt-st-common]: Remove: archive file [/home/abi/fetcher/tmp/xt_st_common-0.8.4.tar.gz]
+[2023-06-14 06:03:13] INFO root fetch - main [MainThread]: End processing [xt-st-common]: success
+[2023-06-14 06:03:14] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.8.3.tar.gz]
+[2023-06-14 06:03:14] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.8.4.tar.gz]
+[2023-06-14 06:03:14] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
+[2023-06-14 06:06:10] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
+[2023-06-14 06:06:10] INFO root fetch - main [MainThread]: End processing [netron] error
+[2023-06-14 06:06:10] INFO root fetch - main [MainThread]: Store serial: [18495937]
