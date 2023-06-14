@@ -19143,3 +19143,104 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:27:25] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.4.3-py3-none-any.whl.zip]
 [2023-06-14 11:27:25] INFO root fetch - main [MainThread]: End processing [ukrdc-schema]: success
 [2023-06-14 11:27:25] INFO root fetch - main [MainThread]: Store serial: [18499063]
+[2023-06-14 11:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499063]
+[2023-06-14 11:32:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanomock
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labeltransform2
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talkytrend
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pianogen
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antchain-bccr
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly-cpu-aws
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: specmatic
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lodestone-python-sdk
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xarrayuvecs
+[2023-06-14 11:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anfema-django-testutils
+[2023-06-14 11:32:34] INFO root fetch - processPackages [labeltransform2]: New version: [1.5] Old Version: [1.4]
+[2023-06-14 11:32:34] INFO root fetch - processPackages [nanomock]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 11:32:34] INFO root fetch - processPackages [specmatic]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-14 11:32:34] INFO root fetch - processPackages [talkytrend]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-14 11:32:34] INFO root fetch - processPackages [lodestone-python-sdk]: New version: [1.0.66666] Old Version: [1.0.5]
+[2023-06-14 11:32:34] INFO root fetch - processPackages [pianogen]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [xarrayuvecs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [anfema-django-testutils]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230605] Old Version: [2.14.0.dev20230604]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [pianogen]: Downloading https://files.pythonhosted.org/packages/2a/86/aaeea5b7e6e984e474b815a914312f60a15c6f56fe0f5fd9de9fa492622a/pianogen-0.0.3.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/ce/aa/fb814f887723b5c8ef8e67c58fb7eda01ad04a7c3eba700c89a40a7d67bd/labeltransform2-1.4.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [xarrayuvecs]: Downloading https://files.pythonhosted.org/packages/e9/90/05598ea5cbfb85477c84c5f18a2aa6cfcaf9c9230bb2eed4925bc2bdc774/xarrayuvecs-0.1.8-py3-none-any.whl
+[2023-06-14 11:32:35] INFO root fetch - processPackages [antchain-bccr]: New version: [1.8.15] Old Version: [1.17.64]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/8a/00/ef44daa076441e27da1fd46485f9ce0ccada65b7366a52210c07a0cbf4b3/talkytrend-1.1.6.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/9a/45/3c1a6ed88fbd10f3366eb99a47f15605c8d55fd09589100d9f0d74be7940/specmatic-0.9.0.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [nanomock]: Downloading https://files.pythonhosted.org/packages/4e/13/b60641bdd8ad41c497abc47d30411627d1d7dbab83dba9491b8699b1c7e8/nanomock-0.0.8.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/2d/a7/ddc30ea5946158f382aead0c3bb52d660a8c451043c5249cd97bca4a7c9e/lodestone-python-sdk-1.0.5.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/51/2e/05219bd60ca063f726241ecf7e1e1df9612f050c19253284faba470e69ac/labeltransform2-1.5.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [xarrayuvecs]: Downloading https://files.pythonhosted.org/packages/bf/70/dfa61b92295e5ad1afb65bdecb99a2c3810f3c36a84330031642a7a43b70/xarrayuvecs-0.1.9-py3-none-any.whl
+[2023-06-14 11:32:35] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/66/eb/7f397db527ced2d5c0a241782ed6ce2e8a4678e913a7e1a3b9accea769a7/antchain_bccr-1.17.64.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [anfema-django-testutils]: Downloading https://files.pythonhosted.org/packages/0b/0e/845141b00b9c8def434e427e7bfd1f8b9d0ffc820a075bbfe778fb499b08/anfema-django-testutils-0.3.0.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/2b/01/6c8199fd35d37e9e0e2ecbcc77c2f69cfade460654f54efbe0fa4528be0c/talkytrend-1.1.7.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/14/50/24f9da8ec1a743c92ea47c72fd944ab4ca35b73fc57d6783f30d68c495c3/tf_nightly_cpu_aws-2.14.0.dev20230604-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-14 11:32:35] INFO root fetch - processPackages [pianogen]: Downloading https://files.pythonhosted.org/packages/76/10/12edc27017b016238f62fcf27a574cbc677808ca17a0a1cee0b545656e9b/pianogen-0.0.4.tar.gz
+[2023-06-14 11:32:35] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79091199>=10485760
+[2023-06-14 11:32:35] INFO root fetch - processPackages [specmatic]: Start processing: lodestone-python-sdk
+[2023-06-14 11:32:35] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-06-14 11:32:35] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.4.tar.gz tmp/labeltransform2-1.5.tar.gz --markdown 20230614/l/labeltransform2/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.1.6.tar.gz tmp/talkytrend-1.1.7.tar.gz --markdown 20230614/t/talkytrend/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [xarrayuvecs]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [xarrayuvecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarrayuvecs-0.1.8-py3-none-any.whl.zip tmp/xarrayuvecs-0.1.9-py3-none-any.whl.zip --markdown 20230614/x/xarrayuvecs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 258860871>=10485760
+[2023-06-14 11:32:35] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: fullask-rest-framework
+[2023-06-14 11:32:35] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: New version: [1.0.66666] Old Version: [1.0.6]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [fullask-rest-framework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 11:32:35] INFO root fetch - processPackages [pianogen]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [pianogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pianogen-0.0.3.tar.gz tmp/pianogen-0.0.4.tar.gz --markdown 20230614/p/pianogen/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/30/2c/721c4e4b5805a6000f63801d67f4735d1266fc23aebc476802d2079b5963/lodestone-python-sdk-1.0.66666.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/36/c8/4324353a770d607459e44aea940d62ee51851266a0b5cc6faa6a89c6a3c3/fullask-rest-framework-0.1.8.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [nanomock]: Downloading https://files.pythonhosted.org/packages/75/81/dbdeec61572ee399178ff439c012ae5d1cf6618c8d438efea76bb64a820e/nanomock-0.0.9.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [anfema-django-testutils]: Downloading https://files.pythonhosted.org/packages/5e/b6/c4e05428eee7574a0edd45b033d33351c5d990a580f83e65a09cc9daaa5c/anfema_django_testutils-0.4.0.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [antchain-bccr]: Downloading https://files.pythonhosted.org/packages/fd/cb/0b4e2048f81a8e2498ba2c0f5180ce333aabefa79808dd5f924efcad36da/antchain_bccr-1.8.15.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: Downloading https://files.pythonhosted.org/packages/0c/07/704e378669fde0d56cb3c2b9c530f31e190a9140154bfa04b7ad41984c27/lodestone-python-sdk-1.0.6.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [nanomock]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [nanomock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomock-0.0.8.tar.gz tmp/nanomock-0.0.9.tar.gz --markdown 20230614/n/nanomock/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [fullask-rest-framework]: Downloading https://files.pythonhosted.org/packages/1d/c1/51c21ad08d286c1ffd3f20bbbb5de3aa05811a1c6035de42010b6d6ae180/fullask-rest-framework-0.1.9.tar.gz
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lodestone-python-sdk-1.0.5.tar.gz tmp/lodestone-python-sdk-1.0.66666.tar.gz --markdown 20230614/l/lodestone-python-sdk/1.0.5-1.0.66666/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [antchain-bccr]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [antchain-bccr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bccr-1.17.64.tar.gz tmp/antchain_bccr-1.8.15.tar.gz --markdown 20230614/a/antchain-bccr/1.17.64-1.8.15/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [anfema-django-testutils]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [anfema-django-testutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anfema-django-testutils-0.3.0.tar.gz tmp/anfema_django_testutils-0.4.0.tar.gz --markdown 20230614/a/anfema-django-testutils/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [fullask-rest-framework]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [fullask-rest-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fullask-rest-framework-0.1.8.tar.gz tmp/fullask-rest-framework-0.1.9.tar.gz --markdown 20230614/f/fullask-rest-framework/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: executing diffoscope
+[2023-06-14 11:32:35] INFO root fetch - processPackages [lodestone-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lodestone-python-sdk-1.0.6.tar.gz tmp/lodestone-python-sdk-1.0.66666.tar.gz --markdown 20230614/l/lodestone-python-sdk/1.0.6-1.0.66666/diff.md --exclude *.pyd
+[2023-06-14 11:32:37] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.6.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.1.7.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-06-14 11:32:37] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.4.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.5.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-14 11:32:37] INFO root fetch - processPackages [pianogen]: Remove: archive file [/home/abi/fetcher/tmp/pianogen-0.0.3.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - processPackages [pianogen]: Remove: archive file [/home/abi/fetcher/tmp/pianogen-0.0.4.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - main [MainThread]: End processing [pianogen]: success
+[2023-06-14 11:32:37] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.5.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.66666.tar.gz]
+[2023-06-14 11:32:37] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk]: success
+[2023-06-14 11:32:38] INFO root fetch - processPackages [lodestone-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lodestone-python-sdk-1.0.6.tar.gz]
+[2023-06-14 11:32:38] INFO root fetch - main [MainThread]: End processing [lodestone-python-sdk]: success
+[2023-06-14 11:32:38] INFO root fetch - processPackages [anfema-django-testutils]: Remove: archive file [/home/abi/fetcher/tmp/anfema-django-testutils-0.3.0.tar.gz]
+[2023-06-14 11:32:38] INFO root fetch - processPackages [anfema-django-testutils]: Remove: archive file [/home/abi/fetcher/tmp/anfema_django_testutils-0.4.0.tar.gz]
+[2023-06-14 11:32:38] INFO root fetch - main [MainThread]: End processing [anfema-django-testutils]: success
+[2023-06-14 11:32:38] INFO root fetch - processPackages [xarrayuvecs]: Remove: archive file [/home/abi/fetcher/tmp/xarrayuvecs-0.1.8-py3-none-any.whl.zip]
+[2023-06-14 11:32:38] INFO root fetch - processPackages [xarrayuvecs]: Remove: archive file [/home/abi/fetcher/tmp/xarrayuvecs-0.1.9-py3-none-any.whl.zip]
+[2023-06-14 11:32:38] INFO root fetch - main [MainThread]: End processing [xarrayuvecs]: success
+[2023-06-14 11:32:39] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.17.64.tar.gz]
+[2023-06-14 11:32:39] INFO root fetch - processPackages [antchain-bccr]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bccr-1.8.15.tar.gz]
+[2023-06-14 11:32:39] INFO root fetch - main [MainThread]: End processing [antchain-bccr]: success
+[2023-06-14 11:32:39] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.8.tar.gz]
+[2023-06-14 11:32:39] INFO root fetch - processPackages [fullask-rest-framework]: Remove: archive file [/home/abi/fetcher/tmp/fullask-rest-framework-0.1.9.tar.gz]
+[2023-06-14 11:32:39] INFO root fetch - main [MainThread]: End processing [fullask-rest-framework]: success
+[2023-06-14 11:32:40] INFO root fetch - processPackages [nanomock]: Remove: archive file [/home/abi/fetcher/tmp/nanomock-0.0.8.tar.gz]
+[2023-06-14 11:32:40] INFO root fetch - processPackages [nanomock]: Remove: archive file [/home/abi/fetcher/tmp/nanomock-0.0.9.tar.gz]
+[2023-06-14 11:32:40] INFO root fetch - main [MainThread]: End processing [nanomock]: success
+[2023-06-14 11:32:40] INFO root fetch - main [MainThread]: Store serial: [18499104]
