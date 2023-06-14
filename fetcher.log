@@ -12084,3 +12084,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:11:23] INFO root fetch - processPackages [purpleair-api]: Remove: archive file [/home/abi/fetcher/tmp/purpleair_api-1.0.2a1.tar.gz]
 [2023-06-14 06:11:23] INFO root fetch - main [MainThread]: End processing [purpleair-api]: success
 [2023-06-14 06:11:23] INFO root fetch - main [MainThread]: Store serial: [18495977]
+[2023-06-14 06:16:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495977]
+[2023-06-14 06:16:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazer
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-feature-store
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulpcore
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore-client
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyipatcher
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsm-forward
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vcorelib
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sftpoeb
+[2023-06-14 06:16:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hello2
+[2023-06-14 06:16:32] INFO root fetch - processPackages [databricks-feature-store]: New version: [0.9.1a2] Old Version: [0.9.1a1]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pyipatcher]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [qsm-forward]: New version: [0.2.post4] Old Version: [0.2.post3]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [sftpoeb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [lazer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [vcorelib]: New version: [1.6.8] Old Version: [1.6.7]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [hello2]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/8e/1f/2e7e04e1f65f48dbd6be481fc93503bafa35ac81f5e3b10799a56e9aa595/qsm-forward-0.2.post3.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-14 06:16:32] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/19/6c/6d0a97a16bd404ffd264429a0b6c8af2877dd1a74cc8c8c8e293f3904f11/sftpoeb-0.0.8.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [databricks-feature-store]: Downloading https://files.pythonhosted.org/packages/30/59/aed8ee28be2ed6205b016482ae801c804dfde835d2383f7ca75e200ba787/databricks-feature-store-0.9.1a1.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/99/70/b14b48bff8fdec96644a741cfc7cb72346cd50d21793ceb0f1e4732c383e/vcorelib-1.6.7.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/33/95/59b1d266627764da5d9759fe2d8e67bf57c6db034285f88112dee007aa51/lazer-0.1.1.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/91/39/b045a2586652e3f87f883f602174a5f532eda3281a2232e85da2fbe7c87c/pyipatcher-1.1.1.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/1f/68/29b270edecc6e1da0420b41f7747f8daad5593471f069d90774036932468/hello2-1.9.2.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [databricks-feature-store]: Downloading https://files.pythonhosted.org/packages/70/3f/1bb6ad64ce3ee786bb2d7b2e20f4d24f7f531359d90f0769b532ca553e4a/databricks-feature-store-0.9.1a2.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/89/4e/067a468312e159636bca6c962c97c384666226207058c1a9780495652a53/vcorelib-1.6.8.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-14 06:16:32] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/8e/e2/39eb124cf7f521aa82081d7bff4c8fb78f1401d7ef4cb2e24949a56413d8/lazer-0.1.2.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230614/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 06:16:32] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/00/0c/9cd35852552ec20d5d98285c9632b5eb28873c098f0ff324497fef11bb65/sftpoeb-0.0.9.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/51/7d/948bccf31819c6690616aa0249462962806e70fa56660b2750258f9badbb/qsm-forward-0.2.post4.tar.gz
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-14 06:16:32] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230614/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [databricks-feature-store]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [databricks-feature-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-feature-store-0.9.1a1.tar.gz tmp/databricks-feature-store-0.9.1a2.tar.gz --markdown 20230614/d/databricks-feature-store/0.9.1a1-0.9.1a2/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/2d/a9/b58d9a84ae3456de6dfe8f162dc3b8895d2ccd869a930659b4a5408eb21c/pyipatcher-1.1.2.tar.gz
+[2023-06-14 06:16:33] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.1.tar.gz tmp/lazer-0.1.2.tar.gz --markdown 20230614/l/lazer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.2.post3.tar.gz tmp/qsm-forward-0.2.post4.tar.gz --markdown 20230614/q/qsm-forward/0.2.post3-0.2.post4/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.7.tar.gz tmp/vcorelib-1.6.8.tar.gz --markdown 20230614/v/vcorelib/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/33/1b/431e6045b653bc557e33e15b0639076f40c630621d2131ea3851c418c343/hello2-1.9.3.tar.gz
+[2023-06-14 06:16:33] INFO root fetch - processPackages [pyipatcher]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [pyipatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipatcher-1.1.1.tar.gz tmp/pyipatcher-1.1.2.tar.gz --markdown 20230614/p/pyipatcher/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.0.8.tar.gz tmp/sftpoeb-0.0.9.tar.gz --markdown 20230614/s/sftpoeb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:16:33] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-14 06:16:33] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.2.tar.gz tmp/hello2-1.9.3.tar.gz --markdown 20230614/h/hello2/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-14 06:16:34] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.1.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.2.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 06:16:34] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.2.post3.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.2.post4.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-14 06:16:34] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.7.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.8.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-14 06:16:34] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.1.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.1.2.tar.gz]
+[2023-06-14 06:16:34] INFO root fetch - main [MainThread]: End processing [pyipatcher]: success
+[2023-06-14 06:16:35] INFO root fetch - processPackages [databricks-feature-store]: Remove: archive file [/home/abi/fetcher/tmp/databricks-feature-store-0.9.1a1.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - processPackages [databricks-feature-store]: Remove: archive file [/home/abi/fetcher/tmp/databricks-feature-store-0.9.1a2.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - main [MainThread]: End processing [databricks-feature-store]: success
+[2023-06-14 06:16:35] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.8.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.9.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 06:16:35] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-14 06:16:35] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.2.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.3.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-14 06:16:35] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-06-14 06:16:35] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-14 06:16:35] INFO root fetch - main [MainThread]: Store serial: [18496007]
