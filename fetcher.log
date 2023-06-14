@@ -16778,3 +16778,129 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 10:06:08] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.53.tar.gz]
 [2023-06-14 10:06:08] INFO root fetch - main [MainThread]: End processing [UComp]: success
 [2023-06-14 10:06:08] INFO root fetch - main [MainThread]: Store serial: [18497883]
+[2023-06-14 10:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497883]
+[2023-06-14 10:11:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatblade
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lnschema_core
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: UComp
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phone-gen
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazer
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thirdai
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-source-postgres
+[2023-06-14 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: common-tool
+[2023-06-14 10:11:19] INFO root fetch - processPackages [UComp]: New version: [1.0.54] Old Version: [1.0.51]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [macrometa-source-postgres]: New version: [0.0.49] Old Version: [0.0.48]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [lazer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [chatblade]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [phone-gen]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [common-tool]: New version: [0.0.7.1] Old Version: [0.0.7]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [thirdai]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230614] Old Version: [0.3.1.dev20230613]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-14 10:11:19] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/d3/db/e26ca2b2566f0b2b91e00f5c1d4923e1faf56b94bf6476bfecb8def6e6b6/lazer-0.1.8.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/c1/e9/555cf023f451f13003bb2bac5f7c73e5b42b3063b8a8c07cb65d47b5ab18/pyglove-0.3.1.dev20230613.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/c5/b4/e0231d11c32c5b34ad848135fc861d94f60506bf71b86b663549141aa66c/UComp-1.0.51.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-14 10:11:19] INFO root fetch - processPackages [chatblade]: Downloading https://files.pythonhosted.org/packages/fc/f0/8b80162015ec3ac16ddba5003ae9bf6633b1f2051aea52c14a4649a65b85/chatblade-0.3.0.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [common-tool]: Downloading https://files.pythonhosted.org/packages/16/5c/eb8234bc2dc89978c9fbf2e3e675d87f6fa9cce8ccf23b43409197e823ab/common_tool-0.0.7.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/4a/22/46a3364f1089aef41b86924fc8406a86d98ebbbf1773e3a1c257491960a6/phone_gen-2.3.1.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/08/d6/9953dcf5c367b0f9d7c47b0590cca5fd71023ab01e7332b4053a741248e1/lazer-0.1.9.tar.gz
+[2023-06-14 10:11:19] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/c2/d9/a420889cea55c96428b34447ae9374241a96ecbc7534ea3431520ca892d7/thirdai-0.7.5-cp39-cp39-win_amd64.whl
+[2023-06-14 10:11:19] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/ee/68/4afc3f7fed334ba2c11004b5df20c88cd8bcb60fa21b7858a32e0a23ffda/macrometa-source-postgres-0.0.48.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.8.tar.gz tmp/lazer-0.1.9.tar.gz --markdown 20230614/l/lazer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/6b/b9/66696bafd2313fafb789c60271344261ac3c033271643b61d3e30a7ff223/pyglove-0.3.1.dev20230614.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [chatblade]: Downloading https://files.pythonhosted.org/packages/02/bc/c3dd9e46eaeae6218909b2a13b79a71b8b6ad30fe7ede8f9dc2dba530d5b/chatblade-0.3.1.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-14 10:11:20] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230613.tar.gz tmp/pyglove-0.3.1.dev20230614.tar.gz --markdown 20230614/p/pyglove/0.3.1.dev20230613-0.3.1.dev20230614/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [common-tool]: Downloading https://files.pythonhosted.org/packages/69/b7/d189bb8e3bd5c8b7b4d8f1e32bff898583209f4ea682229740ad504d683d/common_tool-0.0.7.1.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [chatblade]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [chatblade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatblade-0.3.0.tar.gz tmp/chatblade-0.3.1.tar.gz --markdown 20230614/c/chatblade/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/a9/a7/7a25071fe4c3ab811862e2f1b0279316694195289ec144b2b86525138e9e/UComp-1.0.54.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/aa/ea/c0f502ecef692d125426ac70e3fbfae31c410e37a3a389285ff07dd3aaf7/phone_gen-2.3.2.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [macrometa-source-postgres]: Downloading https://files.pythonhosted.org/packages/5b/2a/b072c8868d8c1d965fb6d1f01ccab64b6541bb0079edf43b8f7d2a3d2fd3/macrometa-source-postgres-0.0.49.tar.gz
+[2023-06-14 10:11:20] INFO root fetch - processPackages [common-tool]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [common-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common_tool-0.0.7.tar.gz tmp/common_tool-0.0.7.1.tar.gz --markdown 20230614/c/common-tool/0.0.7-0.0.7.1/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230614/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.3.1.tar.gz tmp/phone_gen-2.3.2.tar.gz --markdown 20230614/p/phone-gen/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.51.tar.gz tmp/UComp-1.0.54.tar.gz --markdown 20230614/U/UComp/1.0.51-1.0.54/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/6e/ec/96802b9550950130387a75a822f6c9af641ea505146b9c35266370f09e45/thirdai-0.7.6-cp39-cp39-win_amd64.whl
+[2023-06-14 10:11:20] INFO root fetch - processPackages [macrometa-source-postgres]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [macrometa-source-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-postgres-0.0.48.tar.gz tmp/macrometa-source-postgres-0.0.49.tar.gz --markdown 20230614/m/macrometa-source-postgres/0.0.48-0.0.49/diff.md --exclude *.pyd
+[2023-06-14 10:11:20] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-14 10:11:20] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230614/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-14 10:11:21] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2023-06-14 10:11:21] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.5-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.6-cp39-cp39-win_amd64.whl.zip --markdown 20230614/t/thirdai/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-14 10:11:21] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.8.tar.gz]
+[2023-06-14 10:11:21] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.9.tar.gz]
+[2023-06-14 10:11:21] INFO root fetch - processPackages [lazer]: Start processing: essenceApi
+[2023-06-14 10:11:21] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 10:11:21] INFO root fetch - processPackages [essenceApi]: New version: [4.2] Old Version: [1.0]
+[2023-06-14 10:11:21] INFO root fetch - processPackages [essenceApi]: Downloading https://files.pythonhosted.org/packages/e0/4f/1b0c7be1e364486c5fcf716b7e084bae4bc3db0e7940907291aa2155f4d9/essenceApi-1.0-py3.11.egg
+[2023-06-14 10:11:22] INFO root fetch - processPackages [essenceApi]: Downloading https://files.pythonhosted.org/packages/a0/0d/547400ca96aae3f6c78a8bb1443f76e95284a26d053bd2b17c2167433b2f/essenceApi-4.2.tar.gz
+[2023-06-14 10:11:22] INFO root fetch - processPackages [common-tool]: Remove: archive file [/home/abi/fetcher/tmp/common_tool-0.0.7.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [common-tool]: Remove: archive file [/home/abi/fetcher/tmp/common_tool-0.0.7.1.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [common-tool]: Start processing: betweens
+[2023-06-14 10:11:22] INFO root fetch - main [MainThread]: End processing [common-tool]: success
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [essenceApi]: executing diffoscope
+[2023-06-14 10:11:22] INFO root fetch - processPackages [essenceApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/essenceApi-1.0-py3.11.egg tmp/essenceApi-4.2.tar.gz --markdown 20230614/e/essenceApi/1.0-4.2/diff.md --exclude *.pyd
+[2023-06-14 10:11:22] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [lnschema_core]: Start processing: cg
+[2023-06-14 10:11:22] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-06-14 10:11:22] INFO root fetch - processPackages [chatblade]: Remove: archive file [/home/abi/fetcher/tmp/chatblade-0.3.0.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [chatblade]: Remove: archive file [/home/abi/fetcher/tmp/chatblade-0.3.1.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [chatblade]: Start processing: betweens
+[2023-06-14 10:11:22] INFO root fetch - main [MainThread]: End processing [chatblade]: success
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/a6/36/02cee2ace65f168afd0575169ceca53eefd15c5658139b0a6dd359247ee9/betweens-1.2.0-py3-none-any.whl
+[2023-06-14 10:11:22] INFO root fetch - processPackages [cg]: New version: [36.0.3] Old Version: [36.0.2]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4c/81/703dbd756c8b4bb9022a95498b64b499e37f7a5fccffe8226264c623ddc7/cg-36.0.2.tar.gz
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/8e/eb/531e28f4ba197be276811a725f5d2cf058aa7494d32fc82db982e45502fb/betweens-1.2.1-py3-none-macosx_10_15_x86_64.whl
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: Downloading https://files.pythonhosted.org/packages/8e/eb/531e28f4ba197be276811a725f5d2cf058aa7494d32fc82db982e45502fb/betweens-1.2.1-py3-none-macosx_10_15_x86_64.whl
+[2023-06-14 10:11:22] INFO root fetch - processPackages [macrometa-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-postgres-0.0.48.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [macrometa-source-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-postgres-0.0.49.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - main [MainThread]: End processing [macrometa-source-postgres]: success
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-1.2.0-py3-none-any.whl.zip tmp/betweens-1.2.1-py3-none-macosx_10_15_x86_64.whl.zip --markdown 20230614/b/betweens/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: executing diffoscope
+[2023-06-14 10:11:22] INFO root fetch - processPackages [betweens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betweens-1.2.0-py3-none-any.whl.zip tmp/betweens-1.2.1-py3-none-macosx_10_15_x86_64.whl.zip --markdown 20230614/b/betweens/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-14 10:11:22] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.1.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.3.2.tar.gz]
+[2023-06-14 10:11:22] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2023-06-14 10:11:23] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b5/16/8b5554efcbdb3b2aa9fb0c9b002e0a62e825d5f56e403c59349d2bc0885e/cg-36.0.3.tar.gz
+[2023-06-14 10:11:23] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-14 10:11:23] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.0.2.tar.gz tmp/cg-36.0.3.tar.gz --markdown 20230614/c/cg/36.0.2-36.0.3/diff.md --exclude *.pyd
+[2023-06-14 10:11:23] INFO root fetch - processPackages [essenceApi]: Remove: archive file [/home/abi/fetcher/tmp/essenceApi-1.0-py3.11.egg]
+[2023-06-14 10:11:23] INFO root fetch - processPackages [essenceApi]: Remove: archive file [/home/abi/fetcher/tmp/essenceApi-4.2.tar.gz]
+[2023-06-14 10:11:23] INFO root fetch - main [MainThread]: End processing [essenceApi]: success
+[2023-06-14 10:11:23] INFO root fetch - processPackages [betweens]: Remove: archive file [/home/abi/fetcher/tmp/betweens-1.2.0-py3-none-any.whl.zip]
+[2023-06-14 10:11:23] INFO root fetch - processPackages [betweens]: Remove: archive file [/home/abi/fetcher/tmp/betweens-1.2.1-py3-none-macosx_10_15_x86_64.whl.zip]
+[2023-06-14 10:11:23] INFO root fetch - main [MainThread]: End processing [betweens]: success
+[2023-06-14 10:11:23] INFO root fetch - main [MainThread]: End processing [betweens]: success
+[2023-06-14 10:11:24] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.51.tar.gz]
+[2023-06-14 10:11:24] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.54.tar.gz]
+[2023-06-14 10:11:24] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-14 10:11:25] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 10:11:25] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 10:11:25] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2023-06-14 10:11:26] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230613.tar.gz]
+[2023-06-14 10:11:26] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230614.tar.gz]
+[2023-06-14 10:11:26] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-14 10:11:27] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-14 10:11:27] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-14 10:11:27] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-14 10:11:36] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.0.2.tar.gz]
+[2023-06-14 10:11:36] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.0.3.tar.gz]
+[2023-06-14 10:11:36] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-14 10:11:36] INFO root fetch - main [MainThread]: Store serial: [18497944]
