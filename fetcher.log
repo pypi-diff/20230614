@@ -14850,3 +14850,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:39:07] INFO root fetch - processPackages [areixio]: Remove: archive file [/home/abi/fetcher/tmp/areixio-0.2.9.tar.gz]
 [2023-06-14 08:39:07] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-06-14 08:39:07] INFO root fetch - main [MainThread]: Store serial: [18497091]
+[2023-06-14 08:44:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497091]
+[2023-06-14 08:44:23] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-bili-push
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mailscrambler
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epyk
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semantha-sdk
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DigiCore
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyhrms
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ofx-processor
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simple_openid_connect
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yplib
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autologbook
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ofx-processor]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [mailscrambler]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [DigiCore]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [yplib]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [pyhrms]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [simple_openid_connect]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [semantha-sdk]: New version: [5.4.0] Old Version: [5.3.2]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [autologbook]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 08:44:23] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/da/90/adec389b8d8604d5cab46fb6b2749d8cfa89e6c2bd01d1949d76366f9109/DigiCore-1.0.2.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/10/e6/2b24951a5805c5d61237795fa1a8b6cdc4439e5b8bcabad36fec4990d875/ofx_processor-4.4.1.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9f/a0/2318a24c5f2e54e1dd59b8785ee583f1227302eef584bfc5d8e9eb1400ea/yplib-1.1.5.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [mailscrambler]: Downloading https://files.pythonhosted.org/packages/0d/c1/a6b1fb8e6aa646b06f1f0915c3f8f38cfe165eb4320fb8a5f29ce9508f22/mailscrambler-0.1.1.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2023-06-14 08:44:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/80/67/e793b13a64238df4cc9307a6d91a0db856fd69990916caffaa908dd69b2f/nonebot_plugin_bili_push-0.1.6.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [simple_openid_connect]: Downloading https://files.pythonhosted.org/packages/36/aa/4cea8048ce7b536630433212b7fe41abb8d600cad24a161420cd9abb4fff/simple_openid_connect-0.3.0.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/a6/ae/50343026e69555f048b8038df7de22a624bc92bd06bcd35908715efee15e/pyhrms-0.5.7.zip
+[2023-06-14 08:44:23] INFO root fetch - processPackages [autologbook]: Downloading https://files.pythonhosted.org/packages/2a/24/5290c00a5f1d9f83ac1b889c143a476d3b16d999b74678b59f4750979373/autologbook-0.1.4.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [semantha-sdk]: Downloading https://files.pythonhosted.org/packages/a9/30/2e9058ccd268f4800a05ebfe61fabc5416171d1a3eef99a90a6ee95fad96/semantha_sdk-5.3.2.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/e4/71/61c648bcad692893796b5bee0b10ea59b4d6a53e5bd4772d71d385673b3e/DigiCore-1.0.3.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9c/90/e3d0472650b88c5fb8b7770dee3678c7c302653b2bf784f3656a2768b4dd/yplib-1.1.6.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/4b/ac/10341434290935a2573e4510ab5b95c650f4961a5513e6fd2de1c6114efa/ofx_processor-4.4.2.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [DigiCore]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [DigiCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DigiCore-1.0.2.tar.gz tmp/DigiCore-1.0.3.tar.gz --markdown 20230614/D/DigiCore/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 08:44:23] INFO root fetch - processPackages [mailscrambler]: Downloading https://files.pythonhosted.org/packages/81/d5/c0a4b1824035fdf8ed30da46cc46c9d3d8e40d17f31bd6b5410c5b7d7c8f/mailscrambler-0.1.2.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [simple_openid_connect]: Downloading https://files.pythonhosted.org/packages/94/de/758cee2fefa9a5690731b6227d7cc223bcbb0d13388c06f8c5f7ae7f2956/simple_openid_connect-0.3.1.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [pyhrms]: Downloading https://files.pythonhosted.org/packages/49/eb/58e7ae6b47f3d72762cb73ede0311824e38465ff0942a43cf06395fbefa9/pyhrms-0.5.8.zip
+[2023-06-14 08:44:23] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.5.tar.gz tmp/yplib-1.1.6.tar.gz --markdown 20230614/y/yplib/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-14 08:44:23] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Downloading https://files.pythonhosted.org/packages/39/39/d1e974268ffd67486d5d2a3a5517b88f829cee0f9b36e9c892d5af45dbf8/nonebot_plugin_bili_push-0.1.8.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [semantha-sdk]: Downloading https://files.pythonhosted.org/packages/c4/1d/36b4d71f6c468b59172264ced31c2d0a9dc2aa1ff0c0554fbd67b9a0fdc8/semantha_sdk-5.4.0.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [simple_openid_connect]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [simple_openid_connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_openid_connect-0.3.0.tar.gz tmp/simple_openid_connect-0.3.1.tar.gz --markdown 20230614/s/simple_openid_connect/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-14 08:44:23] INFO root fetch - processPackages [pyhrms]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [pyhrms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhrms-0.5.7.zip tmp/pyhrms-0.5.8.zip --markdown 20230614/p/pyhrms/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ofx-processor]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [ofx-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofx_processor-4.4.1.tar.gz tmp/ofx_processor-4.4.2.tar.gz --markdown 20230614/o/ofx-processor/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-06-14 08:44:23] INFO root fetch - processPackages [autologbook]: Downloading https://files.pythonhosted.org/packages/55/57/349c0edf2ac7bbf02e28c0dcacd42ffbf7dccb986e1febe8b52e9163dabc/autologbook-0.1.5.tar.gz
+[2023-06-14 08:44:23] INFO root fetch - processPackages [semantha-sdk]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [semantha-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantha_sdk-5.3.2.tar.gz tmp/semantha_sdk-5.4.0.tar.gz --markdown 20230614/s/semantha-sdk/5.3.2-5.4.0/diff.md --exclude *.pyd
+[2023-06-14 08:44:23] INFO root fetch - processPackages [mailscrambler]: executing diffoscope
+[2023-06-14 08:44:23] INFO root fetch - processPackages [mailscrambler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailscrambler-0.1.1.tar.gz tmp/mailscrambler-0.1.2.tar.gz --markdown 20230614/m/mailscrambler/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 08:44:24] INFO root fetch - processPackages [nonebot-plugin-bili-push]: executing diffoscope
+[2023-06-14 08:44:24] INFO root fetch - processPackages [nonebot-plugin-bili-push]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bili_push-0.1.6.tar.gz tmp/nonebot_plugin_bili_push-0.1.8.tar.gz --markdown 20230614/n/nonebot-plugin-bili-push/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 08:44:24] INFO root fetch - processPackages [autologbook]: executing diffoscope
+[2023-06-14 08:44:24] INFO root fetch - processPackages [autologbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autologbook-0.1.4.tar.gz tmp/autologbook-0.1.5.tar.gz --markdown 20230614/a/autologbook/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 08:44:24] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2023-06-14 08:44:25] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.2.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.3.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [DigiCore]: Start processing: sftpoeb
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [DigiCore]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [sftpoeb]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/8f/96/ec59f74a6e0996ea73cd18f9e6b94585dcb1448815a162873eb6a004a95a/sftpoeb-0.1.0.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2023-06-14 08:44:25] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20230614/e/epyk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-14 08:44:25] INFO root fetch - processPackages [mailscrambler]: Remove: archive file [/home/abi/fetcher/tmp/mailscrambler-0.1.1.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [mailscrambler]: Remove: archive file [/home/abi/fetcher/tmp/mailscrambler-0.1.2.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [mailscrambler]: Start processing: ma-notification-center
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [mailscrambler]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.6.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bili_push-0.1.8.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [nonebot-plugin-bili-push]: Start processing: pelican-email-cloak
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bili-push]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.5.7.zip]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [pyhrms]: Remove: archive file [/home/abi/fetcher/tmp/pyhrms-0.5.8.zip]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [pyhrms]: Start processing: web3client
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [pyhrms]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ma-notification-center]: New version: [2.1.0] Old Version: [1.2.1]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/ff/ab/1ce79fe063b01bab1dad246027ab08408f95b6ababba067e0c4619546ce9/sftpoeb-0.1.1.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [pelican-email-cloak]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [web3client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.5.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.6.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [yplib]: Start processing: ory-client
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/c4/65/4a7beb490f85d9a8dce5da2010e2b1ac156fcdd5155f54f31e2d7c21c3fc/ma_notification_center-1.2.1.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/dd/19/168188e8b67ed7ad4a69a9042bc68bf4bddaad170f9d145077749082ed85/web3client-1.1.8.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 08:44:25] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.1.0.tar.gz tmp/sftpoeb-0.1.1.tar.gz --markdown 20230614/s/sftpoeb/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 08:44:25] INFO root fetch - processPackages [simple_openid_connect]: Remove: archive file [/home/abi/fetcher/tmp/simple_openid_connect-0.3.0.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [simple_openid_connect]: Remove: archive file [/home/abi/fetcher/tmp/simple_openid_connect-0.3.1.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [simple_openid_connect]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.1.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.2.tar.gz]
+[2023-06-14 08:44:25] INFO root fetch - main [MainThread]: End processing [ofx-processor]: success
+[2023-06-14 08:44:25] INFO root fetch - processPackages [pelican-email-cloak]: Downloading https://files.pythonhosted.org/packages/5f/25/1cfd74f4fcad81ff28c2b2a813349d5f94a526eb0339acee27fb61c6d688/pelican_email_cloak-0.1.0.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/7f/7f/4e0ff47d8a5473c01285a5aa69dd923bfe444e5dd6758f8fb0ac33b3d7e8/web3client-1.1.9.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ma-notification-center]: Downloading https://files.pythonhosted.org/packages/24/b4/140c4da030a33063c08360b6851a83bbd69a8c80cd18ddea617e6081fc9f/ma_notification_center-2.1.0.tar.gz
+[2023-06-14 08:44:25] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.8.tar.gz tmp/web3client-1.1.9.tar.gz --markdown 20230614/w/web3client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ma-notification-center]: executing diffoscope
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ma-notification-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ma_notification_center-1.2.1.tar.gz tmp/ma_notification_center-2.1.0.tar.gz --markdown 20230614/m/ma-notification-center/1.2.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-06-14 08:44:25] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230614/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-14 08:44:25] INFO root fetch - processPackages [pelican-email-cloak]: Downloading https://files.pythonhosted.org/packages/0d/6e/93a242bbd27f3157c14ebdca4989141fc2d1e75116d08d2a5294af5115c5/pelican_email_cloak-0.1.2.tar.gz
+[2023-06-14 08:44:26] INFO root fetch - processPackages [pelican-email-cloak]: executing diffoscope
+[2023-06-14 08:44:26] INFO root fetch - processPackages [pelican-email-cloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican_email_cloak-0.1.0.tar.gz tmp/pelican_email_cloak-0.1.2.tar.gz --markdown 20230614/p/pelican-email-cloak/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 08:44:26] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-1.2.1.tar.gz]
+[2023-06-14 08:44:26] INFO root fetch - processPackages [ma-notification-center]: Remove: archive file [/home/abi/fetcher/tmp/ma_notification_center-2.1.0.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - main [MainThread]: End processing [ma-notification-center]: success
+[2023-06-14 08:44:27] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.8.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.9.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-06-14 08:44:27] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.0.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.1.1.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 08:44:27] INFO root fetch - processPackages [pelican-email-cloak]: Remove: archive file [/home/abi/fetcher/tmp/pelican_email_cloak-0.1.0.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - processPackages [pelican-email-cloak]: Remove: archive file [/home/abi/fetcher/tmp/pelican_email_cloak-0.1.2.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - main [MainThread]: End processing [pelican-email-cloak]: success
+[2023-06-14 08:44:27] INFO root fetch - processPackages [autologbook]: Remove: archive file [/home/abi/fetcher/tmp/autologbook-0.1.4.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - processPackages [autologbook]: Remove: archive file [/home/abi/fetcher/tmp/autologbook-0.1.5.tar.gz]
+[2023-06-14 08:44:27] INFO root fetch - main [MainThread]: End processing [autologbook]: success
+[2023-06-14 08:44:33] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2023-06-14 08:44:33] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2023-06-14 08:44:33] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2023-06-14 08:44:36] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.5.tar.gz]
+[2023-06-14 08:44:36] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
+[2023-06-14 08:44:36] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-06-14 08:45:20] INFO root fetch - processPackages [semantha-sdk]: Remove: archive file [/home/abi/fetcher/tmp/semantha_sdk-5.3.2.tar.gz]
+[2023-06-14 08:45:20] INFO root fetch - processPackages [semantha-sdk]: Remove: archive file [/home/abi/fetcher/tmp/semantha_sdk-5.4.0.tar.gz]
+[2023-06-14 08:45:20] INFO root fetch - main [MainThread]: End processing [semantha-sdk]: success
+[2023-06-14 08:45:20] INFO root fetch - main [MainThread]: Store serial: [18497130]
