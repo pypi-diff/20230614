@@ -12692,3 +12692,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:37:31] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc4.tar.gz]
 [2023-06-14 06:37:31] INFO root fetch - main [MainThread]: End processing [lexikos]: success
 [2023-06-14 06:37:31] INFO root fetch - main [MainThread]: Store serial: [18496248]
+[2023-06-14 06:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496248]
+[2023-06-14 06:42:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-project-purchase-link
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-project
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GTNLib
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-kubeflow
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo8-addon-purchase-fiscal-position-update
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-purchase-requisition-bid-selection
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aorta-sirius-dev
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: countess
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyspnego
+[2023-06-14 06:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vcr-langchain
+[2023-06-14 06:42:40] WARNING root fetch - processPackages [GTNLib]: Skipping, unable to determine old version
+[2023-06-14 06:42:40] INFO root fetch - processPackages [GTNLib]: Start processing: lazer
+[2023-06-14 06:42:40] INFO root fetch - main [MainThread]: End processing [GTNLib] error
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230613.0] Old Version: [16.0.20230605.0]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [countess]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [lazer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [easy-kubeflow]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: New version: [8.0.2.1.0.99.dev9] Old Version: [8.0.2.1.0.99.dev8]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [vcr-langchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [pyspnego]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-14 06:42:40] INFO root fetch - processPackages [pyspnego]: Downloading https://files.pythonhosted.org/packages/ee/08/6cd62d64ce42a2eaf433eb41a837d3da2b49ce1cb796a0265cc02652f839/pyspnego-0.9.0.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/5f/21/7e537b7c4bd9033bb7d2e64c9b1fa8441737278706c814c0efff22c2cf5a/vcr_langchain-0.0.8.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/8e/e2/39eb124cf7f521aa82081d7bff4c8fb78f1401d7ef4cb2e24949a56413d8/lazer-0.1.2.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Downloading https://files.pythonhosted.org/packages/ed/82/43ff0faa7434dd7ba1ae5c56da967727a830dec3c7698bc676c1a866a561/odoo_addon_project_purchase_link-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/01/71/67687824aabfb570d91834d308b2b055762e0424710ae53a79d14ef11257/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Downloading https://files.pythonhosted.org/packages/ea/44/8c03369d52c112d747de2335d6467322d7918342fb48e324a3653af8fa30/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev8-py2-none-any.whl
+[2023-06-14 06:42:40] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/39/5c/dbfb18b37e6544efa7a664a20791b4b6a541aede3e15b7a5d88bd9d14fe1/easy-kubeflow-0.0.7.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: Downloading https://files.pythonhosted.org/packages/81/01/961f1b00adc26b35ab13a87a93072dd69430061e7ef319dbbe137e174790/odoo8_addon_purchase_fiscal_position_update-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-14 06:42:40] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/88/35/3c94e3d75dd8c22f906cad785e45e9f04d1728841cb1cc791500f7190e42/countess-0.0.29.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [vcr-langchain]: Downloading https://files.pythonhosted.org/packages/97/8f/f07337a3f46ccc9c3e3142a0c4a5070d5315476f1894d5a7003418d29249/vcr_langchain-0.0.9.tar.gz
+[2023-06-14 06:42:40] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-14 06:42:41] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230614/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/5f/1b/2e1a152c6527a12b8c7d8b96ad18e76c73cdfcb40fddd483325b15b6e8d9/lazer-0.1.3.tar.gz
+[2023-06-14 06:42:41] INFO root fetch - processPackages [vcr-langchain]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [pyspnego]: Downloading https://files.pythonhosted.org/packages/fb/38/46174701e2a2de8b72e79c980324b034203edafff3c543a4134b2c1ae9af/pyspnego-0.9.1.tar.gz
+[2023-06-14 06:42:41] INFO root fetch - processPackages [vcr-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcr_langchain-0.0.8.tar.gz tmp/vcr_langchain-0.0.9.tar.gz --markdown 20230614/v/vcr-langchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/f9/6e/a99ee215b8db9a522dbeac690054c3929fdfb3a5cbce76d5885c539a9da8/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Downloading https://files.pythonhosted.org/packages/2c/ec/cd1b55c7cb363356927104bea0a8f5b0fbd7f5e04d4c67b014266e999bf1/odoo_addon_project_purchase_link-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-14 06:42:41] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/c5/29/d555386927921be182b2c91b8251c538ed9493f33382097d034d1fb0abb0/countess-0.0.30.tar.gz
+[2023-06-14 06:42:41] INFO root fetch - processPackages [easy-kubeflow]: Downloading https://files.pythonhosted.org/packages/5f/78/48f03bc24501116ecc26cacb99746ae09cf1d69e81ac7df5af9c13f00ea2/easy-kubeflow-0.0.8.tar.gz
+[2023-06-14 06:42:41] INFO root fetch - processPackages [pyspnego]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: Downloading https://files.pythonhosted.org/packages/67/e1/3804401963acb4a1f278058257b921fedbb46594908510a02f9aee6042ae/odoo8_addon_purchase_fiscal_position_update-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-14 06:42:41] INFO root fetch - processPackages [pyspnego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspnego-0.9.0.tar.gz tmp/pyspnego-0.9.1.tar.gz --markdown 20230614/p/pyspnego/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl.zip --markdown 20230614/o/odoo-addons-oca-project/16.0.20230605.0-16.0.20230613.0/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_purchase_link-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_purchase_link-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-project-purchase-link/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [countess]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.29.tar.gz tmp/countess-0.0.30.tar.gz --markdown 20230614/c/countess/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.2.tar.gz tmp/lazer-0.1.3.tar.gz --markdown 20230614/l/lazer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Downloading https://files.pythonhosted.org/packages/1d/3a/8b349784ac2c84f323454eb3df9364fdf0bd50f0dd4fe736c45441e915c3/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev9-py2-none-any.whl
+[2023-06-14 06:42:41] INFO root fetch - processPackages [easy-kubeflow]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [easy-kubeflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-kubeflow-0.0.7.tar.gz tmp/easy-kubeflow-0.0.8.tar.gz --markdown 20230614/e/easy-kubeflow/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_fiscal_position_update-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_fiscal_position_update-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-purchase-fiscal-position-update/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: executing diffoscope
+[2023-06-14 06:42:41] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-purchase-requisition-bid-selection/8.0.2.1.0.99.dev8-8.0.2.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-14 06:42:42] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-14 06:42:42] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-14 06:42:42] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-14 06:42:42] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.8.tar.gz]
+[2023-06-14 06:42:42] INFO root fetch - processPackages [vcr-langchain]: Remove: archive file [/home/abi/fetcher/tmp/vcr_langchain-0.0.9.tar.gz]
+[2023-06-14 06:42:42] INFO root fetch - main [MainThread]: End processing [vcr-langchain]: success
+[2023-06-14 06:42:42] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-14 06:42:42] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-14 06:42:42] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-06-14 06:42:42] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.2.tar.gz]
+[2023-06-14 06:42:42] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.3.tar.gz]
+[2023-06-14 06:42:42] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 06:42:42] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_purchase_link-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-14 06:42:42] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_purchase_link-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-14 06:42:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-purchase-link]: success
+[2023-06-14 06:42:42] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_fiscal_position_update-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-14 06:42:42] INFO root fetch - processPackages [odoo8-addon-purchase-fiscal-position-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_fiscal_position_update-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-14 06:42:42] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-fiscal-position-update]: success
+[2023-06-14 06:42:43] INFO root fetch - processPackages [easy-kubeflow]: Remove: archive file [/home/abi/fetcher/tmp/easy-kubeflow-0.0.7.tar.gz]
+[2023-06-14 06:42:43] INFO root fetch - processPackages [easy-kubeflow]: Remove: archive file [/home/abi/fetcher/tmp/easy-kubeflow-0.0.8.tar.gz]
+[2023-06-14 06:42:43] INFO root fetch - main [MainThread]: End processing [easy-kubeflow]: success
+[2023-06-14 06:42:43] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-14 06:42:43] INFO root fetch - processPackages [odoo8-addon-purchase-requisition-bid-selection]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_purchase_requisition_bid_selection-8.0.2.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-14 06:42:43] INFO root fetch - main [MainThread]: End processing [odoo8-addon-purchase-requisition-bid-selection]: success
+[2023-06-14 06:42:43] INFO root fetch - processPackages [pyspnego]: Remove: archive file [/home/abi/fetcher/tmp/pyspnego-0.9.0.tar.gz]
+[2023-06-14 06:42:43] INFO root fetch - processPackages [pyspnego]: Remove: archive file [/home/abi/fetcher/tmp/pyspnego-0.9.1.tar.gz]
+[2023-06-14 06:42:43] INFO root fetch - main [MainThread]: End processing [pyspnego]: success
+[2023-06-14 06:42:43] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.29.tar.gz]
+[2023-06-14 06:42:43] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.30.tar.gz]
+[2023-06-14 06:42:43] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2023-06-14 06:42:43] INFO root fetch - main [MainThread]: Store serial: [18496289]
