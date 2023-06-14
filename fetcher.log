@@ -10522,3 +10522,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 04:59:20] INFO root fetch - processPackages [gwsurrogate]: Remove: archive file [/home/abi/fetcher/tmp/gwsurrogate-1.1.4.tar.gz]
 [2023-06-14 04:59:20] INFO root fetch - main [MainThread]: End processing [gwsurrogate]: success
 [2023-06-14 04:59:20] INFO root fetch - main [MainThread]: Store serial: [18495472]
+[2023-06-14 05:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495472]
+[2023-06-14 05:04:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-14 05:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hardyweinbergcalculator
+[2023-06-14 05:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-enroll
+[2023-06-14 05:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-magentoerpconnect-pricing
+[2023-06-14 05:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foundation-cancer-image-biomarker
+[2023-06-14 05:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hoyo-daily-logins-helper
+[2023-06-14 05:04:30] WARNING root fetch - processPackages [hardyweinbergcalculator]: Skipping, unable to determine old version
+[2023-06-14 05:04:30] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator] error
+[2023-06-14 05:04:30] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: New version: [8.0.2.0.0.99.dev9] Old Version: [8.0.2.0.0.99.dev8]
+[2023-06-14 05:04:30] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-14 05:04:30] INFO root fetch - processPackages [xj-enroll]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-14 05:04:30] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-06-14 05:04:30] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/60/6d/76d0232ac83f8f948f5c1aefb020061b6b2ced4b2ca5e9fb56cb72fc9b9a/foundation_cancer_image_biomarker-0.0.1a8.tar.gz
+[2023-06-14 05:04:30] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/c3/e2/82dc1028978ece11685e407afb9e605750f938b5145355137c288415402c/hoyo_daily_logins_helper-2.6.1.tar.gz
+[2023-06-14 05:04:30] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/a8/92/24715f35af53f45dcaeea9169c15617771e0a99f9729e39ea23bdc058ec1/foundation_cancer_image_biomarker-0.0.1a9.tar.gz
+[2023-06-14 05:04:30] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/5f/55/043c01a1a9d5f4d1bc26501f84e1b44b3f001a7d69f9bfbcf23c512659ae/xj_enroll-1.0.98.tar.gz
+[2023-06-14 05:04:30] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: Downloading https://files.pythonhosted.org/packages/d6/b5/a2f7869d71a0c4fc71f430f2667d8e5669c739d2979ecdccf38709a451e4/odoo8_addon_magentoerpconnect_pricing-8.0.2.0.0.99.dev8-py2-none-any.whl
+[2023-06-14 05:04:30] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-14 05:04:30] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz --markdown 20230614/f/foundation-cancer-image-biomarker/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 05:04:30] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/28/04/8842eacd1be69729c9e40d5b6fdacdadea64acce566b5061d59373b82709/hoyo_daily_logins_helper-2.6.2.tar.gz
+[2023-06-14 05:04:30] INFO root fetch - processPackages [xj-enroll]: Downloading https://files.pythonhosted.org/packages/10/ba/d433d5e19456323afc65c6931bf6856d7357d50aca4073aa4b8c1dd1dd4b/xj_enroll-1.0.99.tar.gz
+[2023-06-14 05:04:30] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-06-14 05:04:30] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo_daily_logins_helper-2.6.1.tar.gz tmp/hoyo_daily_logins_helper-2.6.2.tar.gz --markdown 20230614/h/hoyo-daily-logins-helper/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-06-14 05:04:30] INFO root fetch - processPackages [xj-enroll]: executing diffoscope
+[2023-06-14 05:04:30] INFO root fetch - processPackages [xj-enroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_enroll-1.0.98.tar.gz tmp/xj_enroll-1.0.99.tar.gz --markdown 20230614/x/xj-enroll/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-14 05:04:31] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: Downloading https://files.pythonhosted.org/packages/d4/b6/6ed50c932a84e3806b386155b1747c32c1b9c41ad0c986bd763e7be721d3/odoo8_addon_magentoerpconnect_pricing-8.0.2.0.0.99.dev9-py2-none-any.whl
+[2023-06-14 05:04:31] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: executing diffoscope
+[2023-06-14 05:04:31] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_magentoerpconnect_pricing-8.0.2.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_magentoerpconnect_pricing-8.0.2.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-magentoerpconnect-pricing/8.0.2.0.0.99.dev8-8.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-14 05:04:31] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz]
+[2023-06-14 05:04:31] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz]
+[2023-06-14 05:04:31] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-14 05:04:31] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Remove: archive file [/home/abi/fetcher/tmp/hoyo_daily_logins_helper-2.6.1.tar.gz]
+[2023-06-14 05:04:31] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Remove: archive file [/home/abi/fetcher/tmp/hoyo_daily_logins_helper-2.6.2.tar.gz]
+[2023-06-14 05:04:31] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-06-14 05:04:32] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.98.tar.gz]
+[2023-06-14 05:04:32] INFO root fetch - processPackages [xj-enroll]: Remove: archive file [/home/abi/fetcher/tmp/xj_enroll-1.0.99.tar.gz]
+[2023-06-14 05:04:32] INFO root fetch - main [MainThread]: End processing [xj-enroll]: success
+[2023-06-14 05:04:32] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect_pricing-8.0.2.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-14 05:04:32] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect-pricing]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_magentoerpconnect_pricing-8.0.2.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-14 05:04:32] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect-pricing]: success
+[2023-06-14 05:04:32] INFO root fetch - main [MainThread]: Store serial: [18495494]
