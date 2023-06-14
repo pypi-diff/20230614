@@ -12288,3 +12288,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:26:58] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.9.tar.gz]
 [2023-06-14 06:26:58] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ga]: success
 [2023-06-14 06:26:58] INFO root fetch - main [MainThread]: Store serial: [18496068]
+[2023-06-14 06:32:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496068]
+[2023-06-14 06:32:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-14 06:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aorta-sirius-dev
+[2023-06-14 06:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaschema
+[2023-06-14 06:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esp-secure-cert-tool
+[2023-06-14 06:32:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-product-assortment
+[2023-06-14 06:32:07] INFO root fetch - processPackages [metaschema]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 06:32:07] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-14 06:32:07] INFO root fetch - processPackages [esp-secure-cert-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 06:32:07] INFO root fetch - processPackages [odoo-addon-product-assortment]: New version: [16.0.1.0.2.5] Old Version: [16.0.1.0.2.3]
+[2023-06-14 06:32:07] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-14 06:32:07] INFO root fetch - processPackages [metaschema]: Downloading https://files.pythonhosted.org/packages/d6/0a/bd4ab4e5aca783a0d353a3dfe627346361f2f41a5cf094ee746bc424e6e3/metaschema-0.0.2.tar.gz
+[2023-06-14 06:32:07] INFO root fetch - processPackages [odoo-addon-product-assortment]: Downloading https://files.pythonhosted.org/packages/08/48/d9391063fcba73c5fd506b7370311b7b366a9cdff487c71dbcb94f6025fa/odoo_addon_product_assortment-16.0.1.0.2.3-py3-none-any.whl
+[2023-06-14 06:32:07] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-14 06:32:07] INFO root fetch - processPackages [esp-secure-cert-tool]: Downloading https://files.pythonhosted.org/packages/b4/af/c8e67fe2cf95a2262c296ca4a9839342020fe83a29f543f3ebbbd235cca9/esp-secure-cert-tool-1.0.0.tar.gz
+[2023-06-14 06:32:07] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-14 06:32:07] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230614/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-14 06:32:07] INFO root fetch - processPackages [metaschema]: Downloading https://files.pythonhosted.org/packages/b2/64/ca0eec72d4e53ac646e474081c8e02a69e38cbed9bf614b359c83a55c2ef/metaschema-0.0.3.tar.gz
+[2023-06-14 06:32:07] INFO root fetch - processPackages [odoo-addon-product-assortment]: Downloading https://files.pythonhosted.org/packages/e6/b1/9d854c16530e7211e2b1e65483e5a1ac35e06bdb401385f88021bde6eaff/odoo_addon_product_assortment-16.0.1.0.2.5-py3-none-any.whl
+[2023-06-14 06:32:07] INFO root fetch - processPackages [metaschema]: executing diffoscope
+[2023-06-14 06:32:07] INFO root fetch - processPackages [metaschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaschema-0.0.2.tar.gz tmp/metaschema-0.0.3.tar.gz --markdown 20230614/m/metaschema/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 06:32:07] INFO root fetch - processPackages [odoo-addon-product-assortment]: executing diffoscope
+[2023-06-14 06:32:07] INFO root fetch - processPackages [odoo-addon-product-assortment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_assortment-16.0.1.0.2.3-py3-none-any.whl.zip tmp/odoo_addon_product_assortment-16.0.1.0.2.5-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-product-assortment/16.0.1.0.2.3-16.0.1.0.2.5/diff.md --exclude *.pyd
+[2023-06-14 06:32:07] INFO root fetch - processPackages [esp-secure-cert-tool]: Downloading https://files.pythonhosted.org/packages/4a/d5/e40e97448e200d9435aa8f48057ea5266e13e1ce46f469d2a3448ca1d4d3/esp-secure-cert-tool-1.0.1.tar.gz
+[2023-06-14 06:32:08] INFO root fetch - processPackages [esp-secure-cert-tool]: executing diffoscope
+[2023-06-14 06:32:08] INFO root fetch - processPackages [esp-secure-cert-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-secure-cert-tool-1.0.0.tar.gz tmp/esp-secure-cert-tool-1.0.1.tar.gz --markdown 20230614/e/esp-secure-cert-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 06:32:08] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-14 06:32:08] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-14 06:32:08] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-14 06:32:08] INFO root fetch - processPackages [metaschema]: Remove: archive file [/home/abi/fetcher/tmp/metaschema-0.0.2.tar.gz]
+[2023-06-14 06:32:08] INFO root fetch - processPackages [metaschema]: Remove: archive file [/home/abi/fetcher/tmp/metaschema-0.0.3.tar.gz]
+[2023-06-14 06:32:08] INFO root fetch - main [MainThread]: End processing [metaschema]: success
+[2023-06-14 06:32:09] INFO root fetch - processPackages [odoo-addon-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_assortment-16.0.1.0.2.3-py3-none-any.whl.zip]
+[2023-06-14 06:32:09] INFO root fetch - processPackages [odoo-addon-product-assortment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_assortment-16.0.1.0.2.5-py3-none-any.whl.zip]
+[2023-06-14 06:32:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-assortment]: success
+[2023-06-14 06:32:09] INFO root fetch - processPackages [esp-secure-cert-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-secure-cert-tool-1.0.0.tar.gz]
+[2023-06-14 06:32:09] INFO root fetch - processPackages [esp-secure-cert-tool]: Remove: archive file [/home/abi/fetcher/tmp/esp-secure-cert-tool-1.0.1.tar.gz]
+[2023-06-14 06:32:09] INFO root fetch - main [MainThread]: End processing [esp-secure-cert-tool]: success
+[2023-06-14 06:32:09] INFO root fetch - main [MainThread]: Store serial: [18496094]
