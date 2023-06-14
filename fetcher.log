@@ -15111,3 +15111,174 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:51:16] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
 [2023-06-14 08:51:16] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-06-14 08:51:16] INFO root fetch - main [MainThread]: Store serial: [18497170]
+[2023-06-14 08:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497170]
+[2023-06-14 08:56:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midjourney-unofficial-api
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-finance
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wllegal
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: checkmk-dev-tools
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conflog
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stim
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqscraper
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akerbp.mlops
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steampunk-spotter
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-starter
+[2023-06-14 08:56:27] INFO root fetch - processPackages [wllegal]: New version: [2023.4] Old Version: [2023.3]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [conflog]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [midjourney-unofficial-api]: New version: [1.2] Old Version: [1.0]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [checkmk-dev-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ml-starter]: New version: [0.0.59] Old Version: [0.0.58]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.1rc1] Old Version: [2.0.1a3]
+[2023-06-14 08:56:27] WARNING root fetch - processPackages [sqscraper]: Skipping, unable to determine old version
+[2023-06-14 08:56:27] INFO root fetch - processPackages [sqscraper]: Start processing: stimcirq
+[2023-06-14 08:56:27] INFO root fetch - main [MainThread]: End processing [sqscraper] error
+[2023-06-14 08:56:27] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [conflog]: Downloading https://files.pythonhosted.org/packages/7f/a3/ade68d69ed0b0e260433d907ddb886c19425aceb416be4e223029462beb0/conflog-1.1.0.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/a5/44/09fe3238664c76b0dde99d19f15393d76e212e1d1eec081b474e6eaae194/checkmk_dev_tools-0.1.8.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.2.0a3] Old Version: [3.2.0a2]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/2f/19/5bcbcc878594c1a0c43bab4151308d2e872a9bd8941793962d665e69f241/ml-starter-0.0.58.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/30/b6/21d2a538998bdb3c6a8422dc5016a5e0a640d896aeba49a118dbf8630182/steampunk_spotter-2.0.1a3-py3-none-any.whl
+[2023-06-14 08:56:27] INFO root fetch - processPackages [stim]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-14 08:56:27] INFO root fetch - processPackages [midjourney-unofficial-api]: Downloading https://files.pythonhosted.org/packages/28/f3/9404d08136ecf7ea5b13d8e63667f298ba00eadc7799c0f66899fe53d747/midjourney_unofficial_api-1.0.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [wllegal]: Downloading https://files.pythonhosted.org/packages/59/40/586cc8801f2c5bf0f053a9ffbe63b46efbdedea122953433df56ef96f0f7/wllegal-2023.3.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/00/4a/d6d0f5f644342436084c5f07465f12659a65cc9a3d8c655dc6fa47000e0a/steampunk_spotter-2.0.1rc1-py3-none-any.whl
+[2023-06-14 08:56:27] INFO root fetch - processPackages [checkmk-dev-tools]: Downloading https://files.pythonhosted.org/packages/c1/1e/654ed63ab53350017ff4219e2e1d8cc32780c62f86a397bbc8134674c84e/checkmk_dev_tools-0.1.9.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [conflog]: Downloading https://files.pythonhosted.org/packages/7a/1d/b3a303fc818b9fcdb36dca4b11786365f751e812d023259a50c6b501d5f7/conflog-1.2.0.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/3c/b5/73354eb92a2d990acfb9c201ee8681aa2f88c6bd8bebf6365b8315ce918f/stim-1.9.dev1656756326.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/57/ed/8d8bbcf8fc1d7ce204aa722d9156c6a73a0bacc19aadd05a3ea99336a6ce/akerbp.mlops-3.2.0a2.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/88/3c/bd3d13acbbd7e9c6da9de78f85092f569ff4c88950c9f5cb8a5b0b32557b/ml-starter-0.0.59.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-06-14 08:56:27] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.1a3-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.1rc1-py3-none-any.whl.zip --markdown 20230614/s/steampunk-spotter/2.0.1a3-2.0.1rc1/diff.md --exclude *.pyd
+[2023-06-14 08:56:27] INFO root fetch - processPackages [checkmk-dev-tools]: executing diffoscope
+[2023-06-14 08:56:27] INFO root fetch - processPackages [checkmk-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkmk_dev_tools-0.1.8.tar.gz tmp/checkmk_dev_tools-0.1.9.tar.gz --markdown 20230614/c/checkmk-dev-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 08:56:27] INFO root fetch - processPackages [conflog]: executing diffoscope
+[2023-06-14 08:56:27] INFO root fetch - processPackages [conflog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conflog-1.1.0.tar.gz tmp/conflog-1.2.0.tar.gz --markdown 20230614/c/conflog/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 08:56:27] INFO root fetch - processPackages [midjourney-unofficial-api]: Downloading https://files.pythonhosted.org/packages/b9/42/382f07055d5d8236f14c108f7711268a9ccbb94a55437cc1dbedd789da80/midjourney_unofficial_api-1.2.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [wllegal]: Downloading https://files.pythonhosted.org/packages/cb/13/c4af627248bf97ac1a3dbd56514c1da0e7a5784045785f684c6b93aeaa5d/wllegal-2023.4.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-14 08:56:27] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.58.tar.gz tmp/ml-starter-0.0.59.tar.gz --markdown 20230614/m/ml-starter/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2023-06-14 08:56:27] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-14 08:56:27] INFO root fetch - processPackages [wllegal]: executing diffoscope
+[2023-06-14 08:56:27] INFO root fetch - processPackages [wllegal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wllegal-2023.3.tar.gz tmp/wllegal-2023.4.tar.gz --markdown 20230614/w/wllegal/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-06-14 08:56:28] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-14 08:56:28] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230614/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-14 08:56:28] INFO root fetch - processPackages [midjourney-unofficial-api]: executing diffoscope
+[2023-06-14 08:56:28] INFO root fetch - processPackages [midjourney-unofficial-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midjourney_unofficial_api-1.0.tar.gz tmp/midjourney_unofficial_api-1.2.tar.gz --markdown 20230614/m/midjourney-unofficial-api/1.0-1.2/diff.md --exclude *.pyd
+[2023-06-14 08:56:28] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/7c/84/068b3ff986521ea1f0ff9998926abfd3fe6534d9b5e3ec494d2d35c321c8/akerbp.mlops-3.2.0a3.tar.gz
+[2023-06-14 08:56:28] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2023-06-14 08:56:28] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/0e/9c/5ba52c312bd56598b3625675b062eed876f9e2248d957e47c58050cad31a/stim-1.9.dev1657429876.tar.gz
+[2023-06-14 08:56:28] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-06-14 08:56:28] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.2.0a2.tar.gz tmp/akerbp.mlops-3.2.0a3.tar.gz --markdown 20230614/a/akerbp.mlops/3.2.0a2-3.2.0a3/diff.md --exclude *.pyd
+[2023-06-14 08:56:28] INFO root fetch - processPackages [stim]: executing diffoscope
+[2023-06-14 08:56:28] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.9.dev1656756326.tar.gz tmp/stim-1.9.dev1657429876.tar.gz --markdown 20230614/s/stim/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-14 08:56:28] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2023-06-14 08:56:28] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20230614/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-14 08:56:29] INFO root fetch - processPackages [midjourney-unofficial-api]: Remove: archive file [/home/abi/fetcher/tmp/midjourney_unofficial_api-1.0.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [midjourney-unofficial-api]: Remove: archive file [/home/abi/fetcher/tmp/midjourney_unofficial_api-1.2.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [midjourney-unofficial-api]: Start processing: sinter
+[2023-06-14 08:56:29] INFO root fetch - main [MainThread]: End processing [midjourney-unofficial-api]: success
+[2023-06-14 08:56:29] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.1a3-py3-none-any.whl.zip]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.1rc1-py3-none-any.whl.zip]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [steampunk-spotter]: Start processing: power-grid-model
+[2023-06-14 08:56:29] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-06-14 08:56:29] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.8.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [checkmk-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/checkmk_dev_tools-0.1.9.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [checkmk-dev-tools]: Start processing: UC2-REST
+[2023-06-14 08:56:29] INFO root fetch - main [MainThread]: End processing [checkmk-dev-tools]: success
+[2023-06-14 08:56:29] INFO root fetch - processPackages [UC2-REST]: New version: [0.2.0.9] Old Version: [0.2.0.8]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9175313495131] Old Version: [1.5.0rc9174911844893]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/3d/67/0ecba185ee8a924b442dd239c5d356f03b0a7d93ac51620b0171bc272b08/power-grid-model-1.5.0rc9174911844893.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [conflog]: Remove: archive file [/home/abi/fetcher/tmp/conflog-1.1.0.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [conflog]: Remove: archive file [/home/abi/fetcher/tmp/conflog-1.2.0.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [conflog]: Start processing: ofx-processor
+[2023-06-14 08:56:29] INFO root fetch - main [MainThread]: End processing [conflog]: success
+[2023-06-14 08:56:29] INFO root fetch - processPackages [ofx-processor]: New version: [4.4.3] Old Version: [4.4.2]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [UC2-REST]: Downloading https://files.pythonhosted.org/packages/28/0f/24748d18223813df83aadd9700ba4e0195dcb0fa9b4080c27e7f47974bb3/UC2%20REST-0.2.0.8.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/4b/ac/10341434290935a2573e4510ab5b95c650f4961a5513e6fd2de1c6114efa/ofx_processor-4.4.2.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/09/66/1466c8a183aed2370b9de47dc0fc3c3cf5041314b524802af7a155c12872/power-grid-model-1.5.0rc9175313495131.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [xj-finance]: Start processing: qsm-forward
+[2023-06-14 08:56:29] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-14 08:56:29] INFO root fetch - processPackages [qsm-forward]: New version: [0.5] Old Version: [0.4]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/33/21/957375aa626cd02937051f101bd811bad0acd01772fe2ab19ad0f55a29d2/qsm-forward-0.4.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/2d/0c/2572c8bee628a4f9783a14efcccf9152becf304225d0dacdc4ae1b7e21d8/ofx_processor-4.4.3.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a2.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [akerbp.mlops]: Remove: archive file [/home/abi/fetcher/tmp/akerbp.mlops-3.2.0a3.tar.gz]
+[2023-06-14 08:56:29] INFO root fetch - processPackages [akerbp.mlops]: Start processing: asm-opcode-analyzer
+[2023-06-14 08:56:29] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-06-14 08:56:29] INFO root fetch - processPackages [UC2-REST]: Downloading https://files.pythonhosted.org/packages/e0/14/f33b50950796abde8462ca47a77e01b789e4c8fff7f2ab21521031f1a053/UC2%20REST-0.2.0.9.tar.gz
+[2023-06-14 08:56:29] INFO root fetch - processPackages [ofx-processor]: executing diffoscope
+[2023-06-14 08:56:29] INFO root fetch - processPackages [ofx-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofx_processor-4.4.2.tar.gz tmp/ofx_processor-4.4.3.tar.gz --markdown 20230614/o/ofx-processor/4.4.2-4.4.3/diff.md --exclude *.pyd
+[2023-06-14 08:56:29] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-14 08:56:29] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9174911844893.tar.gz tmp/power-grid-model-1.5.0rc9175313495131.tar.gz --markdown 20230614/p/power-grid-model/1.5.0rc9174911844893-1.5.0rc9175313495131/diff.md --exclude *.pyd
+[2023-06-14 08:56:30] INFO root fetch - processPackages [UC2-REST]: executing diffoscope
+[2023-06-14 08:56:30] INFO root fetch - processPackages [UC2-REST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UC2 REST-0.2.0.8.tar.gz tmp/UC2 REST-0.2.0.9.tar.gz --markdown 20230614/U/UC2-REST/0.2.0.8-0.2.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:56:30] INFO root fetch - processPackages [asm-opcode-analyzer]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-14 08:56:30] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/a1/69/c42e622ea09188e7464cb0bef908868adfdcd1c98cb165f0d9b62dc83245/qsm-forward-0.5.tar.gz
+[2023-06-14 08:56:30] INFO root fetch - processPackages [asm-opcode-analyzer]: Downloading https://files.pythonhosted.org/packages/de/c0/902d5def86c3dc820ee0c3d3740250c01b02b8d8164b0e2ea23308087744/asm-opcode-analyzer-1.0.0.tar.gz
+[2023-06-14 08:56:30] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-14 08:56:30] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.4.tar.gz tmp/qsm-forward-0.5.tar.gz --markdown 20230614/q/qsm-forward/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-14 08:56:30] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2023-06-14 08:56:30] INFO root fetch - processPackages [asm-opcode-analyzer]: Downloading https://files.pythonhosted.org/packages/05/fc/033aacde8ac52b51e1e3c754dbda75302c2e84a6ac152ec59e4759d3b105/asm-opcode-analyzer-1.1.0.tar.gz
+[2023-06-14 08:56:30] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2023-06-14 08:56:30] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20230614/s/sinter/1.9.dev1656756326-1.9.dev1657429876/diff.md --exclude *.pyd
+[2023-06-14 08:56:30] INFO root fetch - processPackages [asm-opcode-analyzer]: executing diffoscope
+[2023-06-14 08:56:30] INFO root fetch - processPackages [asm-opcode-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asm-opcode-analyzer-1.0.0.tar.gz tmp/asm-opcode-analyzer-1.1.0.tar.gz --markdown 20230614/a/asm-opcode-analyzer/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:56:30] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2023-06-14 08:56:30] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2023-06-14 08:56:30] INFO root fetch - processPackages [stimcirq]: Start processing: hello2
+[2023-06-14 08:56:30] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2023-06-14 08:56:30] INFO root fetch - processPackages [hello2]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-14 08:56:30] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/1f/68/29b270edecc6e1da0420b41f7747f8daad5593471f069d90774036932468/hello2-1.9.2.tar.gz
+[2023-06-14 08:56:30] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/33/1b/431e6045b653bc557e33e15b0639076f40c630621d2131ea3851c418c343/hello2-1.9.3.tar.gz
+[2023-06-14 08:56:30] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-14 08:56:30] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.9.2.tar.gz tmp/hello2-1.9.3.tar.gz --markdown 20230614/h/hello2/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-14 08:56:31] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.2.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.3.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [ofx-processor]: Start processing: ezbeq
+[2023-06-14 08:56:31] INFO root fetch - main [MainThread]: End processing [ofx-processor]: success
+[2023-06-14 08:56:31] INFO root fetch - processPackages [ezbeq]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [UC2-REST]: Remove: archive file [/home/abi/fetcher/tmp/UC2 REST-0.2.0.8.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [UC2-REST]: Remove: archive file [/home/abi/fetcher/tmp/UC2 REST-0.2.0.9.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [UC2-REST]: Start processing: SimuBox
+[2023-06-14 08:56:31] INFO root fetch - main [MainThread]: End processing [UC2-REST]: success
+[2023-06-14 08:56:31] WARNING root fetch - processPackages [SimuBox]: Skipping, unable to determine old version
+[2023-06-14 08:56:31] INFO root fetch - main [MainThread]: End processing [SimuBox] error
+[2023-06-14 08:56:31] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/2b/56/aca09f3d33c2ad9d38d2cb54703fd8ae328f8006f888629cd24cab9d6ef9/ezbeq-1.0.1.tar.gz
+[2023-06-14 08:56:31] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.4.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.5.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-14 08:56:31] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/03/6f/1d204bb69e4b742877716e347b1a487cb79bf5b6f3c162fb114d9e2c80ec/ezbeq-1.0.2.tar.gz
+[2023-06-14 08:56:31] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1656756326.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.dev1657429876.tar.gz]
+[2023-06-14 08:56:31] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2023-06-14 08:56:32] INFO root fetch - processPackages [asm-opcode-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/asm-opcode-analyzer-1.0.0.tar.gz]
+[2023-06-14 08:56:32] INFO root fetch - processPackages [asm-opcode-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/asm-opcode-analyzer-1.1.0.tar.gz]
+[2023-06-14 08:56:32] INFO root fetch - main [MainThread]: End processing [asm-opcode-analyzer]: success
+[2023-06-14 08:56:32] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.58.tar.gz]
+[2023-06-14 08:56:32] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.59.tar.gz]
+[2023-06-14 08:56:32] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-14 08:56:32] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-06-14 08:56:32] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.1.tar.gz tmp/ezbeq-1.0.2.tar.gz --markdown 20230614/e/ezbeq/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 08:56:32] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2023-06-14 08:56:32] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2023-06-14 08:56:32] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2023-06-14 08:56:33] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.1.tar.gz]
+[2023-06-14 08:56:33] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.2.tar.gz]
+[2023-06-14 08:56:33] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-06-14 08:56:34] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9174911844893.tar.gz]
+[2023-06-14 08:56:34] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9175313495131.tar.gz]
+[2023-06-14 08:56:34] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-14 08:56:34] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.2.tar.gz]
+[2023-06-14 08:56:34] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.9.3.tar.gz]
+[2023-06-14 08:56:34] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-14 08:56:35] INFO root fetch - processPackages [wllegal]: Remove: archive file [/home/abi/fetcher/tmp/wllegal-2023.3.tar.gz]
+[2023-06-14 08:56:35] INFO root fetch - processPackages [wllegal]: Remove: archive file [/home/abi/fetcher/tmp/wllegal-2023.4.tar.gz]
+[2023-06-14 08:56:35] INFO root fetch - main [MainThread]: End processing [wllegal]: success
+[2023-06-14 08:56:35] INFO root fetch - main [MainThread]: Store serial: [18497256]
