@@ -11034,3 +11034,158 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 05:20:14] INFO root fetch - processPackages [je-editor-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_editor_dev-0.0.99.tar.gz]
 [2023-06-14 05:20:14] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
 [2023-06-14 05:20:14] INFO root fetch - main [MainThread]: Store serial: [18495641]
+[2023-06-14 05:25:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495641]
+[2023-06-14 05:25:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thefriendlystars
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-event-session
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-event
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: publicsuffixlist
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgtoolsinsta
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiida-shell
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundation-cancer-image-biomarker
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-fieldservice-sale
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-fieldservice
+[2023-06-14 05:25:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-field-service
+[2023-06-14 05:25:23] INFO root fetch - processPackages [thefriendlystars]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230613.0] Old Version: [16.0.20230202.1]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [15.0.1.0.0.7] Old Version: [15.0.1.0.0.5]
+[2023-06-14 05:25:23] WARNING root fetch - processPackages [tgtoolsinsta]: Skipping, unable to determine old version
+[2023-06-14 05:25:23] INFO root fetch - processPackages [tgtoolsinsta]: Start processing: bdpycmd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [15.0.20230613.0] Old Version: [15.0.20230516.0]
+[2023-06-14 05:25:23] INFO root fetch - main [MainThread]: End processing [tgtoolsinsta] error
+[2023-06-14 05:25:23] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [aiida-shell]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [bdpycmd]: New version: [1.3.5] Old Version: [1.3.15]
+[2023-06-14 05:25:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/60/6d/76d0232ac83f8f948f5c1aefb020061b6b2ced4b2ca5e9fb56cb72fc9b9a/foundation_cancer_image_biomarker-0.0.1a8.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/38/92/f08fe9daaf94fcb5384e25277c45aa8b6cc119975c49a2f116e9900996d9/odoo_addon_fieldservice_sale-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/6c/34/1746fec3b86faa4a60c815ef5f588ca3b72c2caa56810071f1749045ec0a/odoo_addon_event_session-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/69/3f/cf5e506844d4a51fd0ce41585bb97e27a1f24b6cc798783ffadce3690e6b/bdpycmd-1.3.15.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [thefriendlystars]: Downloading https://files.pythonhosted.org/packages/cf/4f/a26f5dbd83e48024d3b46f28c033644914465aaa32268d8afb35e4e47b26/thefriendlystars-0.0.2.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/0a/fc/7ec544e2bb35a46820c49ce772ac38ee1dd9bfa9bd86aeae41e9ea76ca28/odoo_addons_oca_field_service-16.0.20230202.1-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/e4/33/e4884854907ac7b3cce2e399455823977eb04e286c60942ef14384aa45b5/odoo_addons_oca_event-15.0.20230516.0-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/09/57/ed4a9efdc31fff38f7d6810756943aae399a99702c94c0bd67d7c53f5684/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/ac/62/c300521d58b2f512be712a6600b77097bfb7cfa868b9c5210635057c0fba/aiida-shell-0.5.2.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/a8/92/24715f35af53f45dcaeea9169c15617771e0a99f9729e39ea23bdc058ec1/foundation_cancer_image_biomarker-0.0.1a9.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/4d/a9/5288973642f6e677137d3310974c077c2d1a3da30cb19f6f5b42c0143dae/odoo_addon_fieldservice_sale-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz --markdown 20230614/f/foundation-cancer-image-biomarker/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [bdpycmd]: Downloading https://files.pythonhosted.org/packages/06/2e/64a0dc4c6af3c9a8b101f9890c412405d76cb89759707de9a5493a9d37af/bdpycmd-1.3.5.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/3b/fa/b48991282f8906251f08d441f6bdef5d65e05ff5b78417d90485e783d615/odoo_addons_oca_event-15.0.20230613.0-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-fieldservice-sale/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [thefriendlystars]: Downloading https://files.pythonhosted.org/packages/e5/8e/94223f05ecda138cebf0c550d9d33d844761634e10cf4c8e2a7ee900c241/thefriendlystars-0.1.0.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [bdpycmd]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [bdpycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpycmd-1.3.15.tar.gz tmp/bdpycmd-1.3.5.tar.gz --markdown 20230614/b/bdpycmd/1.3.15-1.3.5/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/1e/46/a7927e19ada2e0fc3c7c007d4dfca7e7f08541a6a4d4a541bc60c8f58a35/odoo_addon_event_session-15.0.1.0.0.7-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/d7/fa/0fbcc0f819fc7d9e8a176acfbf015f62c4ec7ee236eefe7a84408b6139d5/odoo_addons_oca_field_service-16.0.20230613.0-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [aiida-shell]: Downloading https://files.pythonhosted.org/packages/02/ed/7471b545d4cc00663c251081acf97cf261280e29cb073956ff2b526126f1/aiida_shell-0.5.3.tar.gz
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-15.0.20230516.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-15.0.20230613.0-py3-none-any.whl.zip --markdown 20230614/o/odoo-addons-oca-event/15.0.20230516.0-15.0.20230613.0/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [thefriendlystars]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [thefriendlystars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thefriendlystars-0.0.2.tar.gz tmp/thefriendlystars-0.1.0.tar.gz --markdown 20230614/t/thefriendlystars/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_event_session-15.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-event-session/15.0.1.0.0.5-15.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230202.1-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230613.0-py3-none-any.whl.zip --markdown 20230614/o/odoo-addons-oca-field-service/16.0.20230202.1-16.0.20230613.0/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20230614/p/publicsuffixlist/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [aiida-shell]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [aiida-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-shell-0.5.2.tar.gz tmp/aiida_shell-0.5.3.tar.gz --markdown 20230614/a/aiida-shell/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/bc/3d/11a8f7e067c2d86acfde953d26ca1bb6972c5badbcb23298205f5d451181/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2023-06-14 05:25:23] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-fieldservice/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2023-06-14 05:25:25] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Start processing: djangofoundry
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-14 05:25:25] INFO root fetch - processPackages [djangofoundry]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [djangofoundry]: Downloading https://files.pythonhosted.org/packages/ef/00/e975479600fb93828e716b91de47459e383e8918e43065d235ffb1624a92/djangofoundry-0.0.3.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-15.0.20230516.0-py3-none-any.whl.zip]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-15.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addons-oca-event]: Start processing: coiled
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2023-06-14 05:25:25] INFO root fetch - processPackages [coiled]: New version: [0.7.5.dev3] Old Version: [0.7.5.dev2]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230202.1-py3-none-any.whl.zip]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Start processing: spaceone-core
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-06-14 05:25:25] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9b/ab/772e14557bf9307ad244fd6b6587841e39363f581e4413266ce2cc25f0ee/coiled-0.7.5.dev2.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [thefriendlystars]: Remove: archive file [/home/abi/fetcher/tmp/thefriendlystars-0.0.2.tar.gz]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [thefriendlystars]: Remove: archive file [/home/abi/fetcher/tmp/thefriendlystars-0.1.0.tar.gz]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [thefriendlystars]: Start processing: yt-supercut
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [thefriendlystars]: success
+[2023-06-14 05:25:25] INFO root fetch - processPackages [yt-supercut]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Start processing: spyder-kernels
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-sale]: success
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-14 05:25:25] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.15.tar.gz]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [bdpycmd]: Remove: archive file [/home/abi/fetcher/tmp/bdpycmd-1.3.5.tar.gz]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [bdpycmd]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [bdpycmd]: success
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spyder-kernels]: New version: [3.0.0b1] Old Version: [2.4.3]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [djangofoundry]: Downloading https://files.pythonhosted.org/packages/32/8a/77c75996c0c20496fc63e725b49e0c89836d5237ae910a2cbcc3c1d6c211/djangofoundry-0.0.4.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/9b/9d/e0b01f09029cc3275b5cbb982ad82eb722a32dabcd2db0b85d04e5e1e95e/aws_prototyping_sdk.aws_arch-0.19.8.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [yt-supercut]: Downloading https://files.pythonhosted.org/packages/f9/a8/d4eb3848afca568f1cae5bc1ff6abd3584555e2e0cc1fb61bb414da53ed1/yt_supercut-0.1.0.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [djangofoundry]: executing diffoscope
+[2023-06-14 05:25:25] INFO root fetch - processPackages [djangofoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangofoundry-0.0.3.tar.gz tmp/djangofoundry-0.0.4.tar.gz --markdown 20230614/d/djangofoundry/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-14 05:25:25] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19300041>=10485760
+[2023-06-14 05:25:25] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-06-14 05:25:25] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-14 05:25:25] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/83/ab/b098e5f67c62213df434d6eab07017e4572ba669c765be749a87556831ed/coiled-0.7.5.dev3.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-14 05:25:25] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/89/4d/0cfe83cf0a1839adc268021cacce00587ffd6e3e033f30a3109817ac616e/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spyder-kernels]: Downloading https://files.pythonhosted.org/packages/73/79/a705ad9c3f43862c7bb07eab9e31bf459de4b16728d1d7067adeea92ab35/spyder-kernels-2.4.3.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-14 05:25:25] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.5.dev2.tar.gz tmp/coiled-0.7.5.dev3.tar.gz --markdown 20230614/c/coiled/0.7.5.dev2-0.7.5.dev3/diff.md --exclude *.pyd
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-14 05:25:25] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230614/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-14 05:25:25] INFO root fetch - processPackages [yt-supercut]: Downloading https://files.pythonhosted.org/packages/d5/12/34f17cae06d0c45deec0902b9f97df26da8455d0181619611e8a89b74f02/yt_supercut-0.1.1.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Downloading https://files.pythonhosted.org/packages/f7/be/7cbad907d8e6a591b873fd439e612fd865cdc76a1042feba71c36cd4bed5/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz
+[2023-06-14 05:25:25] INFO root fetch - processPackages [yt-supercut]: executing diffoscope
+[2023-06-14 05:25:25] INFO root fetch - processPackages [yt-supercut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_supercut-0.1.0.tar.gz tmp/yt_supercut-0.1.1.tar.gz --markdown 20230614/y/yt-supercut/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 05:25:26] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-06-14 05:25:26] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230614/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 05:25:26] INFO root fetch - processPackages [spyder-kernels]: Downloading https://files.pythonhosted.org/packages/f3/6d/c7c5a9471cfc9f5714422996525487858a0e2a3d78a6465b51bbc38ffb5c/spyder-kernels-3.0.0b1.tar.gz
+[2023-06-14 05:25:26] INFO root fetch - processPackages [spyder-kernels]: executing diffoscope
+[2023-06-14 05:25:26] INFO root fetch - processPackages [spyder-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder-kernels-2.4.3.tar.gz tmp/spyder-kernels-3.0.0b1.tar.gz --markdown 20230614/s/spyder-kernels/2.4.3-3.0.0b1/diff.md --exclude *.pyd
+[2023-06-14 05:25:26] INFO root fetch - processPackages [aiida-shell]: Remove: archive file [/home/abi/fetcher/tmp/aiida-shell-0.5.2.tar.gz]
+[2023-06-14 05:25:26] INFO root fetch - processPackages [aiida-shell]: Remove: archive file [/home/abi/fetcher/tmp/aiida_shell-0.5.3.tar.gz]
+[2023-06-14 05:25:26] INFO root fetch - main [MainThread]: End processing [aiida-shell]: success
+[2023-06-14 05:25:26] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-14 05:25:26] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-14 05:25:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2023-06-14 05:25:26] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2023-06-14 05:25:26] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2023-06-14 05:25:26] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2023-06-14 05:25:26] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-06-14 05:25:26] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2023-06-14 05:25:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2023-06-14 05:25:27] INFO root fetch - processPackages [yt-supercut]: Remove: archive file [/home/abi/fetcher/tmp/yt_supercut-0.1.0.tar.gz]
+[2023-06-14 05:25:27] INFO root fetch - processPackages [yt-supercut]: Remove: archive file [/home/abi/fetcher/tmp/yt_supercut-0.1.1.tar.gz]
+[2023-06-14 05:25:27] INFO root fetch - main [MainThread]: End processing [yt-supercut]: success
+[2023-06-14 05:25:27] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz]
+[2023-06-14 05:25:27] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz]
+[2023-06-14 05:25:27] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-06-14 05:25:27] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-14 05:25:27] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-14 05:25:27] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-14 05:25:27] INFO root fetch - processPackages [spyder-kernels]: Remove: archive file [/home/abi/fetcher/tmp/spyder-kernels-2.4.3.tar.gz]
+[2023-06-14 05:25:27] INFO root fetch - processPackages [spyder-kernels]: Remove: archive file [/home/abi/fetcher/tmp/spyder-kernels-3.0.0b1.tar.gz]
+[2023-06-14 05:25:27] INFO root fetch - main [MainThread]: End processing [spyder-kernels]: success
+[2023-06-14 05:25:28] INFO root fetch - processPackages [djangofoundry]: Remove: archive file [/home/abi/fetcher/tmp/djangofoundry-0.0.3.tar.gz]
+[2023-06-14 05:25:28] INFO root fetch - processPackages [djangofoundry]: Remove: archive file [/home/abi/fetcher/tmp/djangofoundry-0.0.4.tar.gz]
+[2023-06-14 05:25:28] INFO root fetch - main [MainThread]: End processing [djangofoundry]: success
+[2023-06-14 05:25:28] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev2.tar.gz]
+[2023-06-14 05:25:28] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.5.dev3.tar.gz]
+[2023-06-14 05:25:28] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-14 05:25:28] INFO root fetch - main [MainThread]: Store serial: [18495691]
