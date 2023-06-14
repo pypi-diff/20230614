@@ -22070,3 +22070,150 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:27:49] INFO root fetch - processPackages [spatial-moto]: Remove: archive file [/home/abi/fetcher/tmp/spatial-moto-0.0.3.tar.gz]
 [2023-06-14 13:27:49] INFO root fetch - main [MainThread]: End processing [spatial-moto]: success
 [2023-06-14 13:27:49] INFO root fetch - main [MainThread]: Store serial: [18500431]
+[2023-06-14 13:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500431]
+[2023-06-14 13:33:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-surface-theme
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchrec-nightly
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-cli
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-dso
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bagbag
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-libs
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-whd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-oci
+[2023-06-14 13:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tb-nightly
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2079.0] Old Version: [1.2078.0]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [bagbag]: New version: [0.60.3] Old Version: [0.60.2]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2079.0] Old Version: [1.2078.0]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2079.0] Old Version: [1.2078.0]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2079.0] Old Version: [1.2078.0]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [django-surface-theme]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2079.0] Old Version: [1.2078.0]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/df/ef/fb1073e25cb8a77dd14945f74bc041179de63d5cc4bc3fe5862732ed14a4/gardener-cicd-whd-1.2078.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/8d/7b/123a9a4799e4df6b19599374a3d1ff38c46ba0076c3cb764130c1f951b53/gardener-cicd-libs-1.2078.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/ba/6a/eeb7b5f8746c385a6edfe98edccd9c58676deb7d8a84ac4f15d6f0809262/gardener-cicd-base-1.2078.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/29/c7/958366b0f6142d6ff8feef8fa85d4195e24c26834b795b86dfa0688b37ba/gardener-cicd-cli-1.2078.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/eb/d8/d7c267deed8f3eed2929919bb637517ecf31e3a15742134f97273dc910f9/bagbag-0.60.2.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f9/02/49e098cca6dce4031eff913f5e6691956b3bf40ddf1e0064c23e727a1142/gardener-cicd-dso-1.2078.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [django-surface-theme]: Downloading https://files.pythonhosted.org/packages/99/d0/9f3ea65c29f72561138d2f50ee4c3f8ee3f7f7b97f6e976fe16ca47388df/django-surface-theme-0.0.8.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-14 13:33:00] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/91/c6/d57c712eef951e5889cc42cba904e3b4623c3618eea80e54f3153275a070/torchrec_nightly-2023.6.8-py39-none-any.whl
+[2023-06-14 13:33:00] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/6e/d6/94545d63d06a4cf619427cd374dd84001a0e78d2b7cf67c9d38657e82964/bagbag-0.60.3.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/89/dc/ee086822efe1fc5b90a7fd1ed279690d6376fb5f04924360511d2d0b3fec/gardener-cicd-whd-1.2079.0.tar.gz
+[2023-06-14 13:33:00] WARNING root fetch - processPackages [django-surface-theme]: Skipping package: exceeds size limit 31541825>=10485760
+[2023-06-14 13:33:00] INFO root fetch - processPackages [django-surface-theme]: Start processing: LaueTools
+[2023-06-14 13:33:00] INFO root fetch - main [MainThread]: End processing [django-surface-theme] error
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/05/00/209f5c4ae554b1c518ce62fc4a02cf904bc1013887d7a905dc1a8fc15b1b/gardener-cicd-base-1.2079.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/b4/65/a876642ff64b13220519ba4497853318b0601048f734db493381a47b6e5f/gardener-cicd-cli-1.2079.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/fa/2b/946f0b017c6fa77fb884620b9de24a4c3d0f6886e90a88e1bff8495e33e4/gardener-cicd-dso-1.2079.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/90/e2/d8fb84e64e1a34165525ac0842a2d9b3eefe0a6421fa0ea0fd64484c5e19/gardener-cicd-libs-1.2079.0.tar.gz
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230614/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.60.2.tar.gz tmp/bagbag-0.60.3.tar.gz --markdown 20230614/b/bagbag/0.60.2-0.60.3/diff.md --exclude *.pyd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2078.0.tar.gz tmp/gardener-cicd-base-1.2079.0.tar.gz --markdown 20230614/g/gardener-cicd-base/1.2078.0-1.2079.0/diff.md --exclude *.pyd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [LaueTools]: New version: [3.0.67] Old Version: [3.0.66]
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2078.0.tar.gz tmp/gardener-cicd-whd-1.2079.0.tar.gz --markdown 20230614/g/gardener-cicd-whd/1.2078.0-1.2079.0/diff.md --exclude *.pyd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2078.0.tar.gz tmp/gardener-cicd-libs-1.2079.0.tar.gz --markdown 20230614/g/gardener-cicd-libs/1.2078.0-1.2079.0/diff.md --exclude *.pyd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2078.0.tar.gz tmp/gardener-cicd-cli-1.2079.0.tar.gz --markdown 20230614/g/gardener-cicd-cli/1.2078.0-1.2079.0/diff.md --exclude *.pyd
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-06-14 13:33:00] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2078.0.tar.gz tmp/gardener-cicd-dso-1.2079.0.tar.gz --markdown 20230614/g/gardener-cicd-dso/1.2078.0-1.2079.0/diff.md --exclude *.pyd
+[2023-06-14 13:33:01] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/04/c2/8bc2408f10b66a9f096323e663a67f541486c62d4a69e7cc8052175447e1/torchrec_nightly-2023.6.9-py39-none-any.whl
+[2023-06-14 13:33:01] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-14 13:33:01] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip --markdown 20230614/t/torchrec-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-14 13:33:01] INFO root fetch - processPackages [LaueTools]: Downloading https://files.pythonhosted.org/packages/73/2d/17a951041be6216fcf787448ce5ef044e51d9887c7f1fe12fb0ee10543c6/LaueTools-3.0.66.tar.gz
+[2023-06-14 13:33:01] WARNING root fetch - processPackages [LaueTools]: Skipping package: exceeds size limit 48279387>=10485760
+[2023-06-14 13:33:01] INFO root fetch - processPackages [LaueTools]: Start processing: specmatic
+[2023-06-14 13:33:01] INFO root fetch - main [MainThread]: End processing [LaueTools] error
+[2023-06-14 13:33:01] INFO root fetch - processPackages [specmatic]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-14 13:33:01] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/9a/45/3c1a6ed88fbd10f3366eb99a47f15605c8d55fd09589100d9f0d74be7940/specmatic-0.9.0.tar.gz
+[2023-06-14 13:33:01] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 79091199>=10485760
+[2023-06-14 13:33:01] INFO root fetch - processPackages [specmatic]: Start processing: udata-front
+[2023-06-14 13:33:01] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2023-06-14 13:33:01] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev11125] Old Version: [3.2.4.dev11033]
+[2023-06-14 13:33:01] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/0c/1f/dadd6325ae986122ffc81e92454857f1c42bedc8d0281e379b9923d73b4c/udata_front-3.2.4.dev11033-py2.py3-none-any.whl
+[2023-06-14 13:33:01] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-14 13:33:02] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-14 13:33:02] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230614/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-14 13:33:02] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2078.0.tar.gz]
+[2023-06-14 13:33:02] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2079.0.tar.gz]
+[2023-06-14 13:33:02] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: UComp
+[2023-06-14 13:33:02] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-06-14 13:33:02] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2023-06-14 13:33:02] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2023-06-14 13:33:02] INFO root fetch - processPackages [gardener-oci]: Start processing: libtw2-huffman
+[2023-06-14 13:33:02] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-06-14 13:33:02] INFO root fetch - processPackages [UComp]: New version: [1.0.57] Old Version: [1.0.56]
+[2023-06-14 13:33:02] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/f6/ea/886d678165e72b6ff92e37020206f835d152a4f9719c980a5a9451b8ba57/UComp-1.0.56.tar.gz
+[2023-06-14 13:33:03] WARNING root fetch - processPackages [libtw2-huffman]: Skipping, unable to determine old version
+[2023-06-14 13:33:03] INFO root fetch - processPackages [libtw2-huffman]: Start processing: nucliadb-contributor-assets
+[2023-06-14 13:33:03] INFO root fetch - main [MainThread]: End processing [libtw2-huffman] error
+[2023-06-14 13:33:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post838] Old Version: [1.0.0.post836]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2078.0.tar.gz]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2079.0.tar.gz]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: league-client
+[2023-06-14 13:33:03] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-06-14 13:33:03] INFO root fetch - processPackages [league-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/fb/90/27b3259c3738b995ed245aba01edde5bcca10021cec27dfae6dbe99206f0/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl
+[2023-06-14 13:33:03] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/03/58/1c86746f52dc73043d7c3214c8e9ac042d4102588985823b246fba3e46e0/UComp-1.0.57.tar.gz
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2078.0.tar.gz]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2079.0.tar.gz]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-dso]: Start processing: social-gpt
+[2023-06-14 13:33:03] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-06-14 13:33:03] INFO root fetch - processPackages [social-gpt]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/52/a0/de97903794a2ca66d1a8870e65a22236c66e73cbf7edd979e60261eff667/social_gpt-0.0.7.tar.gz
+[2023-06-14 13:33:03] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/6c/04/9929e1e274fb1b8465e5b0a422d4b94ed7344109af5a65de3a94a0f20cbc/league_client-1.0.8-py3-none-any.whl
+[2023-06-14 13:33:03] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-14 13:33:03] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.56.tar.gz tmp/UComp-1.0.57.tar.gz --markdown 20230614/U/UComp/1.0.56-1.0.57/diff.md --exclude *.pyd
+[2023-06-14 13:33:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/1f/73/48704d31a98717f5671c0e80a2abf3c7e36d6ace4623ed68a0a5020d1875/nucliadb_contributor_assets-1.0.0.post838-py3-none-any.whl
+[2023-06-14 13:33:03] INFO root fetch - processPackages [social-gpt]: Downloading https://files.pythonhosted.org/packages/07/4e/2b0195a12693063ab1217cc3877ec88c153622f89ff6ce3422c43d56c871/social_gpt-0.0.8.tar.gz
+[2023-06-14 13:33:03] INFO root fetch - processPackages [social-gpt]: executing diffoscope
+[2023-06-14 13:33:03] INFO root fetch - processPackages [social-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_gpt-0.0.7.tar.gz tmp/social_gpt-0.0.8.tar.gz --markdown 20230614/s/social-gpt/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2078.0.tar.gz]
+[2023-06-14 13:33:03] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2079.0.tar.gz]
+[2023-06-14 13:33:03] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-06-14 13:33:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-14 13:33:03] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post838-py3-none-any.whl.zip --markdown 20230614/n/nucliadb-contributor-assets/1.0.0.post836-1.0.0.post838/diff.md --exclude *.pyd
+[2023-06-14 13:33:03] INFO root fetch - processPackages [league-client]: Downloading https://files.pythonhosted.org/packages/aa/87/fc183fd3ed892333e3d73e72ce9a6cd78d3516202fe299f819159565d8a5/league-client-1.0.9.tar.gz
+[2023-06-14 13:33:04] INFO root fetch - processPackages [league-client]: executing diffoscope
+[2023-06-14 13:33:04] INFO root fetch - processPackages [league-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league_client-1.0.8-py3-none-any.whl.zip tmp/league-client-1.0.9.tar.gz --markdown 20230614/l/league-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 13:33:04] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/e0/35/f21db078fe773bf53543b7ffb7b810299f26cce1d845b75d00d52a61b6ca/udata_front-3.2.4.dev11125-py2.py3-none-any.whl
+[2023-06-14 13:33:04] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-14 13:33:04] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev11125-py2.py3-none-any.whl.zip --markdown 20230614/u/udata-front/3.2.4.dev11033-3.2.4.dev11125/diff.md --exclude *.pyd
+[2023-06-14 13:33:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.8-py39-none-any.whl.zip]
+[2023-06-14 13:33:04] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.9-py39-none-any.whl.zip]
+[2023-06-14 13:33:04] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-14 13:33:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.2.tar.gz]
+[2023-06-14 13:33:04] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.60.3.tar.gz]
+[2023-06-14 13:33:04] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-14 13:33:05] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.7.tar.gz]
+[2023-06-14 13:33:05] INFO root fetch - processPackages [social-gpt]: Remove: archive file [/home/abi/fetcher/tmp/social_gpt-0.0.8.tar.gz]
+[2023-06-14 13:33:05] INFO root fetch - main [MainThread]: End processing [social-gpt]: success
+[2023-06-14 13:33:05] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league_client-1.0.8-py3-none-any.whl.zip]
+[2023-06-14 13:33:05] INFO root fetch - processPackages [league-client]: Remove: archive file [/home/abi/fetcher/tmp/league-client-1.0.9.tar.gz]
+[2023-06-14 13:33:05] INFO root fetch - main [MainThread]: End processing [league-client]: success
+[2023-06-14 13:33:06] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-14 13:33:06] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-14 13:33:06] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-14 13:33:08] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2078.0.tar.gz]
+[2023-06-14 13:33:08] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2079.0.tar.gz]
+[2023-06-14 13:33:08] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-06-14 13:33:10] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.56.tar.gz]
+[2023-06-14 13:33:10] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.57.tar.gz]
+[2023-06-14 13:33:10] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-14 13:33:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post836-py3-none-any.whl.zip]
+[2023-06-14 13:33:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post838-py3-none-any.whl.zip]
+[2023-06-14 13:33:20] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-14 13:33:38] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip]
+[2023-06-14 13:33:38] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11125-py2.py3-none-any.whl.zip]
+[2023-06-14 13:33:38] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-14 13:33:38] INFO root fetch - main [MainThread]: Store serial: [18500483]
