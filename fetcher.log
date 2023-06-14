@@ -13844,3 +13844,116 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:50:02] INFO root fetch - processPackages [pyhyypapihawkmod]: Remove: archive file [/home/abi/fetcher/tmp/pyhyypapihawkmod-1.1.3.tar.gz]
 [2023-06-14 07:50:02] INFO root fetch - main [MainThread]: End processing [pyhyypapihawkmod]: success
 [2023-06-14 07:50:02] INFO root fetch - main [MainThread]: Store serial: [18496688]
+[2023-06-14 07:55:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496688]
+[2023-06-14 07:55:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-tvm
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vizmath
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-company-color
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qsm-forward
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flywheel-sdk
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hardyweinbergcalculator
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mobio-notify-sdk-test
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-rabbitmq-utils
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: paper-qa
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ats-case
+[2023-06-14 07:55:11] WARNING root fetch - processPackages [vizmath]: Skipping, unable to determine old version
+[2023-06-14 07:55:11] INFO root fetch - processPackages [vizmath]: Start processing: whatsapp-api-client-python
+[2023-06-14 07:55:11] INFO root fetch - main [MainThread]: End processing [vizmath] error
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ats-case]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [hardyweinbergcalculator]: New version: [0.3.1.post20230614] Old Version: [0.3.0.post20230614]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [qsm-forward]: New version: [0.4] Old Version: [0.3]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [odoo-addon-web-company-color]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.2]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [mobio-notify-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev74]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [paper-qa]: New version: [3.0.0.dev2] Old Version: [3.0.0.dev1]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [flywheel-sdk]: New version: [9.0.3] Old Version: [9.0.2]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [whatsapp-api-client-python]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/be/50/d2bcdb2a22c8333fdccbd96c98dc7a8a83d2ff19eebef7fb763ac761bf5c/paper-qa-3.0.0.dev1.tar.gz
+[2023-06-14 07:55:11] WARNING root fetch - processPackages [django-rabbitmq-utils]: Skipping, unable to determine old version
+[2023-06-14 07:55:11] INFO root fetch - processPackages [django-rabbitmq-utils]: Start processing: NonlinearLeastSquares
+[2023-06-14 07:55:11] INFO root fetch - main [MainThread]: End processing [django-rabbitmq-utils] error
+[2023-06-14 07:55:11] INFO root fetch - processPackages [NonlinearLeastSquares]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/e7/4f/48e79f1538331b427af1eb286b00e6f57a5e8f6b153f7b789577e7d35a17/hardyweinbergcalculator-0.3.0.post20230614.zip
+[2023-06-14 07:55:11] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/94/b5/0a82918b3166cc65349bdeccb110120648b739c19cf159ecc9e2ad6f9a11/qsm-forward-0.3.tar.gz
+[2023-06-14 07:55:11] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/78/01/52030dc4e8ee4dca2ee5d2616a7fc39a6ec0ca3c51b2659100905e49a905/ats_case-0.8.1.tar.gz
+[2023-06-14 07:55:11] INFO root fetch - processPackages [odoo-addon-web-company-color]: Downloading https://files.pythonhosted.org/packages/26/a6/be6df542ea6eaf06c660c7faeb245369c48308259f06a7e3a058d6f1a2e7/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-14 07:55:11] INFO root fetch - processPackages [flywheel-sdk]: Downloading https://files.pythonhosted.org/packages/65/c2/e9b249e776d0a15d8c5b788c3afe744242444832720e30251ab4357fa82a/flywheel_sdk-9.0.2-py2.py3-none-any.whl
+[2023-06-14 07:55:11] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/57/7a/0e255cdf4cdfcca6b5e06c1ebe9b4c9178b3919cfeb0251f35b0977d59c3/apache_tvm-0.13.dev74-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-14 07:55:11] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/f1/b6/1444ecc2f28913c8e79d4c79becb091db24a55dabf176d9a5082edb8fb0f/whatsapp-api-client-python-0.0.35.tar.gz
+[2023-06-14 07:55:11] INFO root fetch - processPackages [mobio-notify-sdk-test]: Downloading https://files.pythonhosted.org/packages/58/01/157512ff9ffbd592266145fd920d0a3e9b21e910b14589d2cd888857f7ad/mobio-notify-sdk-test-1.0.8.tar.gz
+[2023-06-14 07:55:11] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48354866>=10485760
+[2023-06-14 07:55:11] INFO root fetch - processPackages [apache-tvm]: Start processing: agsi
+[2023-06-14 07:55:11] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-06-14 07:55:11] INFO root fetch - processPackages [NonlinearLeastSquares]: Downloading https://files.pythonhosted.org/packages/89/39/48fe5c7b6f6da4e7027fba6a153947b768ab9a50ec95236637cb6f387250/NonlinearLeastSquares-2.0.0.tar.gz
+[2023-06-14 07:55:11] INFO root fetch - processPackages [paper-qa]: Downloading https://files.pythonhosted.org/packages/21/ba/7842111ef347d8661b5a02f088e7dd209812a347bd9c467fedbd7b9dfc39/paper-qa-3.0.0.dev2.tar.gz
+[2023-06-14 07:55:11] INFO root fetch - processPackages [agsi]: New version: [2.1] Old Version: [2.0]
+[2023-06-14 07:55:11] INFO root fetch - processPackages [odoo-addon-web-company-color]: Downloading https://files.pythonhosted.org/packages/8e/e6/2652202fc17ebbf7eb80de4e46867e2932b22fedbc11d71461d6a4c04f26/odoo_addon_web_company_color-16.0.1.1.0-py3-none-any.whl
+[2023-06-14 07:55:11] INFO root fetch - processPackages [hardyweinbergcalculator]: Downloading https://files.pythonhosted.org/packages/61/aa/6aef5079f52b686cb1d4a830aca6efbd80c8123e599d1fa86a73fdd245f1/hardyweinbergcalculator-0.3.1.post20230614.zip
+[2023-06-14 07:55:11] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/33/21/957375aa626cd02937051f101bd811bad0acd01772fe2ab19ad0f55a29d2/qsm-forward-0.4.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [paper-qa]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [paper-qa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-qa-3.0.0.dev1.tar.gz tmp/paper-qa-3.0.0.dev2.tar.gz --markdown 20230614/p/paper-qa/3.0.0.dev1-3.0.0.dev2/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/6a/b2/d76b7416885e02ebdb29b129e2d13e6b5c0e60b5f02bf8b291c4a1622a32/ats_case-0.8.2.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [whatsapp-api-client-python]: Downloading https://files.pythonhosted.org/packages/17/13/3e4a23b3f767c9979cb6a04f8aff9efefcca8c0b7300c69d3eb18d022941/whatsapp-api-client-python-0.0.36.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [odoo-addon-web-company-color]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [odoo-addon-web-company-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_company_color-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-web-company-color/16.0.1.0.0.2-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/07/c1/2b7f2ebc9044bb36976fd38d83772d4ef01aab9b440baf19d7ec48157f1a/agsi-2.0.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [whatsapp-api-client-python]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [whatsapp-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatsapp-api-client-python-0.0.35.tar.gz tmp/whatsapp-api-client-python-0.0.36.tar.gz --markdown 20230614/w/whatsapp-api-client-python/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.8.1.tar.gz tmp/ats_case-0.8.2.tar.gz --markdown 20230614/a/ats-case/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.3.tar.gz tmp/qsm-forward-0.4.tar.gz --markdown 20230614/q/qsm-forward/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [hardyweinbergcalculator]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [hardyweinbergcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardyweinbergcalculator-0.3.0.post20230614.zip tmp/hardyweinbergcalculator-0.3.1.post20230614.zip --markdown 20230614/h/hardyweinbergcalculator/0.3.0.post20230614-0.3.1.post20230614/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [mobio-notify-sdk-test]: Downloading https://files.pythonhosted.org/packages/93/c3/2e87b85b34c531743d76278a568cbf82d2db79afb5de1e39462fdf0eb56e/mobio-notify-sdk-test-1.0.9.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [NonlinearLeastSquares]: Downloading https://files.pythonhosted.org/packages/d6/f1/b3880b2147f53bd72cae582173233758d0a56b05bd849364dc64822dd8ec/NonlinearLeastSquares-2.0.1.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [mobio-notify-sdk-test]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [mobio-notify-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-notify-sdk-test-1.0.8.tar.gz tmp/mobio-notify-sdk-test-1.0.9.tar.gz --markdown 20230614/m/mobio-notify-sdk-test/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [NonlinearLeastSquares]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [NonlinearLeastSquares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NonlinearLeastSquares-2.0.0.tar.gz tmp/NonlinearLeastSquares-2.0.1.tar.gz --markdown 20230614/N/NonlinearLeastSquares/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/fb/6b/e114815e66460bdb4b55815485c24071890c318e9cbdfc8a7326a5df7467/agsi-2.1.tar.gz
+[2023-06-14 07:55:12] INFO root fetch - processPackages [flywheel-sdk]: Downloading https://files.pythonhosted.org/packages/47/bc/9ea49bbd7fa672c57d00f2fc4ed9e510c60b70d9c4d6846f245c3eac8df2/flywheel_sdk-9.0.3-py2.py3-none-any.whl
+[2023-06-14 07:55:12] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-2.0.tar.gz tmp/agsi-2.1.tar.gz --markdown 20230614/a/agsi/2.0-2.1/diff.md --exclude *.pyd
+[2023-06-14 07:55:12] INFO root fetch - processPackages [flywheel-sdk]: executing diffoscope
+[2023-06-14 07:55:12] INFO root fetch - processPackages [flywheel-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_sdk-9.0.2-py2.py3-none-any.whl.zip tmp/flywheel_sdk-9.0.3-py2.py3-none-any.whl.zip --markdown 20230614/f/flywheel-sdk/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2023-06-14 07:55:13] INFO root fetch - processPackages [odoo-addon-web-company-color]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_company_color-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [odoo-addon-web-company-color]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_company_color-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [odoo-addon-web-company-color]: Start processing: lazer
+[2023-06-14 07:55:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-company-color]: success
+[2023-06-14 07:55:13] INFO root fetch - processPackages [lazer]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/ad/e4/da7e29df16b322c0f8b155c665172e0b6b97e06a8ceea6a535b7f9ef9a78/lazer-0.1.4.tar.gz
+[2023-06-14 07:55:13] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.1.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.8.2.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-14 07:55:13] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev1.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [paper-qa]: Remove: archive file [/home/abi/fetcher/tmp/paper-qa-3.0.0.dev2.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - main [MainThread]: End processing [paper-qa]: success
+[2023-06-14 07:55:13] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.0.post20230614.zip]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [hardyweinbergcalculator]: Remove: archive file [/home/abi/fetcher/tmp/hardyweinbergcalculator-0.3.1.post20230614.zip]
+[2023-06-14 07:55:13] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator]: success
+[2023-06-14 07:55:13] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.3.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.4.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-14 07:55:13] INFO root fetch - processPackages [mobio-notify-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-notify-sdk-test-1.0.8.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - processPackages [mobio-notify-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-notify-sdk-test-1.0.9.tar.gz]
+[2023-06-14 07:55:13] INFO root fetch - main [MainThread]: End processing [mobio-notify-sdk-test]: success
+[2023-06-14 07:55:14] INFO root fetch - processPackages [lazer]: Downloading https://files.pythonhosted.org/packages/3c/17/4bed5c3e0520af9d9f18cf224c558d17ce209b1e5665769b6d2c23966bbb/lazer-0.1.5.tar.gz
+[2023-06-14 07:55:14] INFO root fetch - processPackages [whatsapp-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-client-python-0.0.35.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - processPackages [whatsapp-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/whatsapp-api-client-python-0.0.36.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - main [MainThread]: End processing [whatsapp-api-client-python]: success
+[2023-06-14 07:55:14] INFO root fetch - processPackages [lazer]: executing diffoscope
+[2023-06-14 07:55:14] INFO root fetch - processPackages [lazer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazer-0.1.4.tar.gz tmp/lazer-0.1.5.tar.gz --markdown 20230614/l/lazer/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 07:55:14] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.0.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.1.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-14 07:55:14] INFO root fetch - processPackages [NonlinearLeastSquares]: Remove: archive file [/home/abi/fetcher/tmp/NonlinearLeastSquares-2.0.0.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - processPackages [NonlinearLeastSquares]: Remove: archive file [/home/abi/fetcher/tmp/NonlinearLeastSquares-2.0.1.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - main [MainThread]: End processing [NonlinearLeastSquares]: success
+[2023-06-14 07:55:14] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.4.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - processPackages [lazer]: Remove: archive file [/home/abi/fetcher/tmp/lazer-0.1.5.tar.gz]
+[2023-06-14 07:55:14] INFO root fetch - main [MainThread]: End processing [lazer]: success
+[2023-06-14 07:55:24] INFO root fetch - processPackages [flywheel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_sdk-9.0.2-py2.py3-none-any.whl.zip]
+[2023-06-14 07:55:24] INFO root fetch - processPackages [flywheel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_sdk-9.0.3-py2.py3-none-any.whl.zip]
+[2023-06-14 07:55:24] INFO root fetch - main [MainThread]: End processing [flywheel-sdk]: success
+[2023-06-14 07:55:24] INFO root fetch - main [MainThread]: Store serial: [18496739]
