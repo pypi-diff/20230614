@@ -11553,3 +11553,265 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-06-14 05:47:33] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.1.1-py3-none-any.whl.zip]
 [2023-06-14 05:47:33] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-06-14 05:47:33] INFO root fetch - main [MainThread]: Store serial: [18495842]
+[2023-06-14 05:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495842]
+[2023-06-14 05:52:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DigiCore
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trulens-eval
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gauge-llm
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulpcore-client
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulpcore
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulpcore-client
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foundation-cancer-image-biomarker
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sftpoeb
+[2023-06-14 05:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: heaserver-registry
+[2023-06-14 05:52:44] WARNING root fetch - processPackages [DigiCore]: Skipping, unable to determine old version
+[2023-06-14 05:52:44] INFO root fetch - processPackages [DigiCore]: Start processing: metacountregressor
+[2023-06-14 05:52:44] INFO root fetch - main [MainThread]: End processing [DigiCore] error
+[2023-06-14 05:52:44] INFO root fetch - processPackages [trulens-eval]: New version: [0.2.1a0] Old Version: [0.2.1]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [gauge-llm]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [heaserver-registry]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [sftpoeb]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/c7/9b/fa95f5f9e8328b7f6cda9e73d67449d54b9963d0f96cbf300a71a2a15e05/metacountregressor-0.1.7-py3-none-any.whl
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-14 05:52:44] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/60/6d/76d0232ac83f8f948f5c1aefb020061b6b2ced4b2ca5e9fb56cb72fc9b9a/foundation_cancer_image_biomarker-0.0.1a8.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/28/be/6fb54cc8e1ae9d7f5847b049840cf72a486dab36faf779f3915a84ffa1bb/sftpoeb-0.0.6.tar.gz
+[2023-06-14 05:52:44] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883265>=10485760
+[2023-06-14 05:52:44] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 05:52:44] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/db/71/65edbb5e951236ff3556c9e5498bbea77535a8071ab7e5f59b1f58c3c725/trulens_eval-0.2.1-py3-none-any.whl
+[2023-06-14 05:52:44] INFO root fetch - processPackages [gauge-llm]: Downloading https://files.pythonhosted.org/packages/aa/d7/392c2e91db8718d5bba109dd209a9a5b41f0e61d71c60afa18b1460e580b/gauge_llm-0.0.11.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/a8/92/24715f35af53f45dcaeea9169c15617771e0a99f9729e39ea23bdc058ec1/foundation_cancer_image_biomarker-0.0.1a9.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [heaserver-registry]: Downloading https://files.pythonhosted.org/packages/98/4b/c40e939aea5ec5fb0b932817939a08f68c53a2d738d25edaa16367ce5ea9/heaserver-registry-1.0.0a8.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [sftpoeb]: Downloading https://files.pythonhosted.org/packages/78/23/2334620d6a8c356a34e0e8c57abf7acae9fb37bf70bf50fca5afaf92819f/sftpoeb-0.0.7.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-14 05:52:44] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz --markdown 20230614/f/foundation-cancer-image-biomarker/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-06-14 05:52:44] INFO root fetch - processPackages [sftpoeb]: executing diffoscope
+[2023-06-14 05:52:44] INFO root fetch - processPackages [sftpoeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpoeb-0.0.6.tar.gz tmp/sftpoeb-0.0.7.tar.gz --markdown 20230614/s/sftpoeb/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 05:52:44] INFO root fetch - processPackages [gauge-llm]: Downloading https://files.pythonhosted.org/packages/5c/1c/687d21a11efe6ece6f21b3c0ead18d361225d58fca0ee73a3192c80f1b4e/gauge_llm-0.0.12.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [trulens-eval]: Downloading https://files.pythonhosted.org/packages/a2/3b/9569f55e66ab8da942e7e18ed99bceee4fea754dbb83fb5bc86defabf61f/trulens_eval-0.2.1a0-py3-none-any.whl
+[2023-06-14 05:52:44] INFO root fetch - processPackages [trulens-eval]: executing diffoscope
+[2023-06-14 05:52:44] INFO root fetch - processPackages [trulens-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulens_eval-0.2.1-py3-none-any.whl.zip tmp/trulens_eval-0.2.1a0-py3-none-any.whl.zip --markdown 20230614/t/trulens-eval/0.2.1-0.2.1a0/diff.md --exclude *.pyd
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [gauge-llm]: executing diffoscope
+[2023-06-14 05:52:44] INFO root fetch - processPackages [gauge-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauge_llm-0.0.11.tar.gz tmp/gauge_llm-0.0.12.tar.gz --markdown 20230614/g/gauge-llm/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [heaserver-registry]: Downloading https://files.pythonhosted.org/packages/40/5a/8b173c9d77ab6035656e7b50cc8d607d0d03f319c842a03f90924993be18/heaserver-registry-1.0.0a9.tar.gz
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230614/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-14 05:52:44] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230614/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 05:52:45] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-14 05:52:45] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230614/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 05:52:45] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-14 05:52:45] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230614/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 05:52:45] INFO root fetch - processPackages [heaserver-registry]: executing diffoscope
+[2023-06-14 05:52:45] INFO root fetch - processPackages [heaserver-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-registry-1.0.0a8.tar.gz tmp/heaserver-registry-1.0.0a9.tar.gz --markdown 20230614/h/heaserver-registry/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-14 05:52:45] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a8.tar.gz]
+[2023-06-14 05:52:45] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a9.tar.gz]
+[2023-06-14 05:52:45] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-14 05:52:46] INFO root fetch - processPackages [gauge-llm]: Remove: archive file [/home/abi/fetcher/tmp/gauge_llm-0.0.11.tar.gz]
+[2023-06-14 05:52:46] INFO root fetch - processPackages [gauge-llm]: Remove: archive file [/home/abi/fetcher/tmp/gauge_llm-0.0.12.tar.gz]
+[2023-06-14 05:52:46] INFO root fetch - main [MainThread]: End processing [gauge-llm]: success
+[2023-06-14 05:52:46] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.6.tar.gz]
+[2023-06-14 05:52:46] INFO root fetch - processPackages [sftpoeb]: Remove: archive file [/home/abi/fetcher/tmp/sftpoeb-0.0.7.tar.gz]
+[2023-06-14 05:52:46] INFO root fetch - main [MainThread]: End processing [sftpoeb]: success
+[2023-06-14 05:52:46] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.2.1-py3-none-any.whl.zip]
+[2023-06-14 05:52:46] INFO root fetch - processPackages [trulens-eval]: Remove: archive file [/home/abi/fetcher/tmp/trulens_eval-0.2.1a0-py3-none-any.whl.zip]
+[2023-06-14 05:52:46] INFO root fetch - main [MainThread]: End processing [trulens-eval]: success
+[2023-06-14 05:52:46] INFO root fetch - processPackages [heaserver-registry]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-registry-1.0.0a8.tar.gz]
+[2023-06-14 05:52:46] INFO root fetch - processPackages [heaserver-registry]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-registry-1.0.0a9.tar.gz]
+[2023-06-14 05:52:46] INFO root fetch - main [MainThread]: End processing [heaserver-registry]: success
+[2023-06-14 05:52:47] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-06-14 05:52:47] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-06-14 05:52:47] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-14 05:52:47] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-06-14 05:52:47] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-06-14 05:52:47] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-14 05:52:48] ERROR root fetch - processPackages [pulpcore]: Diffoscope failed: gzip: tmp/pulpcore-3.9.1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/pulpcore-3.9.1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-14 05:52:48] INFO root fetch - main [MainThread]: End processing [pulpcore] error
+[2023-06-14 05:52:48] ERROR root fetch - processPackages [pulpcore-client]: Diffoscope failed: gzip: tmp/pulpcore-client-3.9.1.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/pulpcore-client-3.9.1.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-14 05:52:48] INFO root fetch - main [MainThread]: End processing [pulpcore-client] error
+[2023-06-14 05:52:48] INFO root fetch - main [MainThread]: Store serial: [18495886]
