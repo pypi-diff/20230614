@@ -13057,3 +13057,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 06:58:28] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.611.0.tar.gz]
 [2023-06-14 06:58:28] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
 [2023-06-14 06:58:28] INFO root fetch - main [MainThread]: Store serial: [18496400]
+[2023-06-14 07:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496400]
+[2023-06-14 07:03:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-force-invoiced
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antchain-nftx
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hardyweinbergcalculator
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bullet-safety-gym
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-vault-share
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qsm-forward
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo8-addon-base-mixin-restrict-field-access
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo9-addon-auto-backup
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netunicorn-library
+[2023-06-14 07:03:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo8-addon-auto-backup
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [qsm-forward]: New version: [0.3] Old Version: [0.2.post4]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [bullet-safety-gym]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-14 07:03:37] WARNING root fetch - processPackages [hardyweinbergcalculator]: Skipping, unable to determine old version
+[2023-06-14 07:03:37] INFO root fetch - processPackages [antchain-nftx]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo9-addon-auto-backup]: New version: [9.0.1.1.1.99.dev7] Old Version: [9.0.1.1.1.99.dev6]
+[2023-06-14 07:03:37] INFO root fetch - main [MainThread]: End processing [hardyweinbergcalculator] error
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo8-addon-auto-backup]: New version: [8.0.1.0.4.99.dev6] Old Version: [8.0.1.0.4.99.dev5]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo-addon-vault-share]: New version: [15.0.1.1.0.8] Old Version: [15.0.1.1.0.7]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/51/7d/948bccf31819c6690616aa0249462962806e70fa56660b2750258f9badbb/qsm-forward-0.2.post4.tar.gz
+[2023-06-14 07:03:37] INFO root fetch - processPackages [netunicorn-library]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/45/10/15a40cb8f8aff1d00378ffb72168d7d46692903d1456e36b3043ace48a1e/odoo_addon_sale_force_invoiced-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/b5/b1/e9b6c1f81e586341cdbbd07ef099b8e7e0739ca916ed4e7ca4adbb3912c6/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl
+[2023-06-14 07:03:37] INFO root fetch - processPackages [bullet-safety-gym]: Downloading https://files.pythonhosted.org/packages/28/b7/d6d3866aa18acc607d70ad22179eca5716b330b4f1c9dc52f49edd1355ea/bullet_safety_gym-1.3.0.tar.gz
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo8-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/ab/7a/1520cbf3f75816d36701bc482c4e238fe8980bbbb2010e2de49c3db4b270/odoo8_addon_auto_backup-8.0.1.0.4.99.dev5-py2-none-any.whl
+[2023-06-14 07:03:37] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/1f/2d/532ac40933f481f16e885bbefb0c53b27c57f77c4533dd756620c35b640f/antchain_nftx-1.8.2.tar.gz
+[2023-06-14 07:03:37] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: Downloading https://files.pythonhosted.org/packages/d3/b6/7f31046a2dbf17953d16f1e93e2ee2e550855051c860882cc57ce625c189/odoo8_addon_base_mixin_restrict_field_access-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-vault-share]: Downloading https://files.pythonhosted.org/packages/b4/e0/307e79852e929cd63341a43d1ce3ba27fe1f0772256e4495883cf929a63d/odoo_addon_vault_share-15.0.1.1.0.7-py3-none-any.whl
+[2023-06-14 07:03:38] INFO root fetch - processPackages [netunicorn-library]: Downloading https://files.pythonhosted.org/packages/b4/36/7ffd0311900b2137bc81adc5fa67c07dce06858d1c824fe799823c645542/netunicorn-library-0.3.2.tar.gz
+[2023-06-14 07:03:38] INFO root fetch - processPackages [qsm-forward]: Downloading https://files.pythonhosted.org/packages/94/b5/0a82918b3166cc65349bdeccb110120648b739c19cf159ecc9e2ad6f9a11/qsm-forward-0.3.tar.gz
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/ae/4e/6237e7e2b8f8284fe09152fba514a2b3215aa12f340efd0493af51d9790f/odoo_addon_sale_force_invoiced-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-14 07:03:38] WARNING root fetch - processPackages [bullet-safety-gym]: Skipping package: exceeds size limit 11831560>=10485760
+[2023-06-14 07:03:38] INFO root fetch - main [MainThread]: End processing [bullet-safety-gym] error
+[2023-06-14 07:03:38] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/ac/ac/7b9b269efcdcb3c320fe216a76fed2c906984e4be081e0eea9e7b4c376f6/antchain_nftx-1.8.3.tar.gz
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-vault-share]: Downloading https://files.pythonhosted.org/packages/1d/d7/3a08f511e45c8aea8b39f10718b43cad5784cc0b598d1ada0fe838072b35/odoo_addon_vault_share-15.0.1.1.0.8-py3-none-any.whl
+[2023-06-14 07:03:38] INFO root fetch - processPackages [qsm-forward]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [qsm-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsm-forward-0.2.post4.tar.gz tmp/qsm-forward-0.3.tar.gz --markdown 20230614/q/qsm-forward/0.2.post4-0.3/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-sale-force-invoiced/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/36/f9/fc8f26956a3c3b9c409b1c88dd4902b068abae0ad46b7f9d2e5ee07b69f6/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl
+[2023-06-14 07:03:38] INFO root fetch - processPackages [netunicorn-library]: Downloading https://files.pythonhosted.org/packages/59/54/08d2abc6591988532f2b1468950240768dee71804f14632204817e1a66e9/netunicorn-library-0.3.3.tar.gz
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo8-addon-auto-backup]: Downloading https://files.pythonhosted.org/packages/d4/96/3f7cd9bf9c6837f0ca6c77fffc82149d0cc9df10745c1589cb9ad6faba97/odoo8_addon_auto_backup-8.0.1.0.4.99.dev6-py2-none-any.whl
+[2023-06-14 07:03:38] INFO root fetch - processPackages [antchain-nftx]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [antchain-nftx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftx-1.8.2.tar.gz tmp/antchain_nftx-1.8.3.tar.gz --markdown 20230614/a/antchain-nftx/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-vault-share]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo-addon-vault-share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_vault_share-15.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_vault_share-15.0.1.1.0.8-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-vault-share/15.0.1.1.0.7-15.0.1.1.0.8/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [netunicorn-library]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [netunicorn-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-library-0.3.2.tar.gz tmp/netunicorn-library-0.3.3.tar.gz --markdown 20230614/n/netunicorn-library/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: Downloading https://files.pythonhosted.org/packages/46/99/f3aa40f05202b49a6f762b5f499847c5d006b9685a10be280255fb697a89/odoo8_addon_base_mixin_restrict_field_access-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo9-addon-auto-backup]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo9-addon-auto-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl.zip --markdown 20230614/o/odoo9-addon-auto-backup/9.0.1.1.1.99.dev6-9.0.1.1.1.99.dev7/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_base_mixin_restrict_field_access-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_base_mixin_restrict_field_access-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-base-mixin-restrict-field-access/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo8-addon-auto-backup]: executing diffoscope
+[2023-06-14 07:03:38] INFO root fetch - processPackages [odoo8-addon-auto-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_auto_backup-8.0.1.0.4.99.dev5-py2-none-any.whl.zip tmp/odoo8_addon_auto_backup-8.0.1.0.4.99.dev6-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-auto-backup/8.0.1.0.4.99.dev5-8.0.1.0.4.99.dev6/diff.md --exclude *.pyd
+[2023-06-14 07:03:39] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.2.post4.tar.gz]
+[2023-06-14 07:03:39] INFO root fetch - processPackages [qsm-forward]: Remove: archive file [/home/abi/fetcher/tmp/qsm-forward-0.3.tar.gz]
+[2023-06-14 07:03:39] INFO root fetch - main [MainThread]: End processing [qsm-forward]: success
+[2023-06-14 07:03:39] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-14 07:03:39] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-14 07:03:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2023-06-14 07:03:39] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.2.tar.gz]
+[2023-06-14 07:03:39] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.3.tar.gz]
+[2023-06-14 07:03:39] INFO root fetch - main [MainThread]: End processing [antchain-nftx]: success
+[2023-06-14 07:03:39] INFO root fetch - processPackages [odoo-addon-vault-share]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault_share-15.0.1.1.0.7-py3-none-any.whl.zip]
+[2023-06-14 07:03:39] INFO root fetch - processPackages [odoo-addon-vault-share]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_vault_share-15.0.1.1.0.8-py3-none-any.whl.zip]
+[2023-06-14 07:03:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-vault-share]: success
+[2023-06-14 07:03:40] INFO root fetch - processPackages [netunicorn-library]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-library-0.3.2.tar.gz]
+[2023-06-14 07:03:40] INFO root fetch - processPackages [netunicorn-library]: Remove: archive file [/home/abi/fetcher/tmp/netunicorn-library-0.3.3.tar.gz]
+[2023-06-14 07:03:40] INFO root fetch - main [MainThread]: End processing [netunicorn-library]: success
+[2023-06-14 07:03:40] INFO root fetch - processPackages [odoo8-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_auto_backup-8.0.1.0.4.99.dev5-py2-none-any.whl.zip]
+[2023-06-14 07:03:40] INFO root fetch - processPackages [odoo8-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_auto_backup-8.0.1.0.4.99.dev6-py2-none-any.whl.zip]
+[2023-06-14 07:03:40] INFO root fetch - main [MainThread]: End processing [odoo8-addon-auto-backup]: success
+[2023-06-14 07:03:40] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev6-py2-none-any.whl.zip]
+[2023-06-14 07:03:40] INFO root fetch - processPackages [odoo9-addon-auto-backup]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_auto_backup-9.0.1.1.1.99.dev7-py2-none-any.whl.zip]
+[2023-06-14 07:03:40] INFO root fetch - main [MainThread]: End processing [odoo9-addon-auto-backup]: success
+[2023-06-14 07:03:40] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_mixin_restrict_field_access-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-14 07:03:40] INFO root fetch - processPackages [odoo8-addon-base-mixin-restrict-field-access]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_mixin_restrict_field_access-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-14 07:03:40] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-mixin-restrict-field-access]: success
+[2023-06-14 07:03:40] INFO root fetch - main [MainThread]: Store serial: [18496432]
