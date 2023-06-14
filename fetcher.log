@@ -15540,3 +15540,135 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:07:17] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.3.0b1.tar.gz]
 [2023-06-14 09:07:17] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
 [2023-06-14 09:07:17] INFO root fetch - main [MainThread]: Store serial: [18497389]
+[2023-06-14 09:12:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497389]
+[2023-06-14 09:12:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mykit
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weaviate-client
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpcm
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omkar-temp-mail
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zensvi
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yplib
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrdfj2
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: t2iapi
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytorch-partial-tagger
+[2023-06-14 09:12:29] INFO root fetch - processPackages [weaviate-client]: New version: [3.9.0b0] Old Version: [3.9.0.dev2]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [rpcm]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pytorch-partial-tagger]: New version: [0.18.0] Old Version: [0.1.7]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [mykit]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [zensvi]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [yplib]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [omkar-temp-mail]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev184] Old Version: [3.0.0.dev175]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/88/e4/8b88658153c0c7b62d06362625bb3ab228b183a04ccb96d371e7d9a99b04/mykit-2.0.1.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/9c/90/e3d0472650b88c5fb8b7770dee3678c7c302653b2bf784f3656a2768b4dd/yplib-1.1.6.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-14 09:12:29] WARNING root fetch - processPackages [pyrdfj2]: Skipping, unable to determine old version
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pyrdfj2]: Start processing: ezbeq
+[2023-06-14 09:12:29] INFO root fetch - main [MainThread]: End processing [pyrdfj2] error
+[2023-06-14 09:12:29] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/4b/2d/1102e4cb6d6bd7a9f32e7f91d0ae15799caeaef064d8d8ada8890d104d7c/omkar_temp_mail-1.0.4.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ezbeq]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/03/6f/1d204bb69e4b742877716e347b1a487cb79bf5b6f3c162fb114d9e2c80ec/ezbeq-1.0.2.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/b4/d2/3e7651bf6ebbd4c5141f27ca2461b71dbd13d558d0f5f08e99de28600bff/pytorch_partial_tagger-0.1.7.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [rpcm]: Downloading https://files.pythonhosted.org/packages/1f/c3/53ad973288b8fb71b6d5fa110ab4afad777147a9ea16232e5ac2f29882f4/rpcm-1.4.8.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/a8/cb/8ca3061906481a9a6997baefa6ecc800dcaed0f08e1c84c55c609182fe2b/weaviate-client-3.9.0.dev2.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/57/3c/58693de40fc653aae6f4512723ec519bd145f5063d39973032f0a50ce67a/t2iapi-3.0.0.dev175.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/45/bc/9a042fb9ac6e0c00039345625d4a1e49d4ef3a0e033b791ada90f0bca100/zensvi-0.6.0.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/20/24/54670e6757f03617500b2bcaf35a13cc84e89c3e21eed6ee1ef83cf89e2e/yplib-1.1.7.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230614/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-14 09:12:29] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/8c/52/108fc34bc00d994e0c0ebc567d8cc0bf55d62391da1f661c2c403d02c2dd/omkar_temp_mail-1.0.5.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/1f/2d/625809db24ef2710b8118e442140907071a227a95289e8bbffff985ad230/mykit-2.0.2.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [rpcm]: Downloading https://files.pythonhosted.org/packages/03/18/f694dca4042d76b4396549586be91f457a5ea403c75e6ca3fab1bd5a81a3/rpcm-1.4.9.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/33/42/a99cc0f0df05572640697e050b3366fa267e6f1eecbd41d7415e9ab42e3c/t2iapi-3.0.0.dev184.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-06-14 09:12:29] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-1.1.6.tar.gz tmp/yplib-1.1.7.tar.gz --markdown 20230614/y/yplib/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-14 09:12:29] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-14 09:12:29] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-2.0.1.tar.gz tmp/mykit-2.0.2.tar.gz --markdown 20230614/m/mykit/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-14 09:12:29] INFO root fetch - processPackages [ezbeq]: Downloading https://files.pythonhosted.org/packages/21/c3/34044c05dddf5e7a639114bd3ae920dd07a49f2eed4ae8bc1dd53a5e3050/ezbeq-1.0.3.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [omkar-temp-mail]: executing diffoscope
+[2023-06-14 09:12:29] INFO root fetch - processPackages [omkar-temp-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar_temp_mail-1.0.4.tar.gz tmp/omkar_temp_mail-1.0.5.tar.gz --markdown 20230614/o/omkar-temp-mail/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-14 09:12:29] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/b8/cf/77dc9b4a09862933245d214918e3cfdce0f2bbb77c22075570f212d5269d/zensvi-0.6.1.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [pytorch-partial-tagger]: Downloading https://files.pythonhosted.org/packages/bb/2f/f3b267e1b1baa5c7c18ec4844178179c5f568fc169ca045444f831a3f8c3/pytorch_partial_tagger-0.18.0.tar.gz
+[2023-06-14 09:12:29] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/10/6b/0e242b95dd9ee12ed89f4af97e7bd0c82317c708e5a1de27406f7832d4e2/weaviate-client-3.9.0b0.tar.gz
+[2023-06-14 09:12:30] INFO root fetch - processPackages [rpcm]: executing diffoscope
+[2023-06-14 09:12:30] INFO root fetch - processPackages [rpcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcm-1.4.8.tar.gz tmp/rpcm-1.4.9.tar.gz --markdown 20230614/r/rpcm/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-14 09:12:30] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-14 09:12:30] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev175.tar.gz tmp/t2iapi-3.0.0.dev184.tar.gz --markdown 20230614/t/t2iapi/3.0.0.dev175-3.0.0.dev184/diff.md --exclude *.pyd
+[2023-06-14 09:12:30] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-06-14 09:12:30] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.6.0.tar.gz tmp/zensvi-0.6.1.tar.gz --markdown 20230614/z/zensvi/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-14 09:12:30] INFO root fetch - processPackages [pytorch-partial-tagger]: executing diffoscope
+[2023-06-14 09:12:30] INFO root fetch - processPackages [pytorch-partial-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_partial_tagger-0.1.7.tar.gz tmp/pytorch_partial_tagger-0.18.0.tar.gz --markdown 20230614/p/pytorch-partial-tagger/0.1.7-0.18.0/diff.md --exclude *.pyd
+[2023-06-14 09:12:30] INFO root fetch - processPackages [ezbeq]: executing diffoscope
+[2023-06-14 09:12:30] INFO root fetch - processPackages [ezbeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezbeq-1.0.2.tar.gz tmp/ezbeq-1.0.3.tar.gz --markdown 20230614/e/ezbeq/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 09:12:30] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2023-06-14 09:12:30] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate-client-3.9.0.dev2.tar.gz tmp/weaviate-client-3.9.0b0.tar.gz --markdown 20230614/w/weaviate-client/3.9.0.dev2-3.9.0b0/diff.md --exclude *.pyd
+[2023-06-14 09:12:31] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.4.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.5.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [omkar-temp-mail]: Start processing: tpaw
+[2023-06-14 09:12:31] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail]: success
+[2023-06-14 09:12:31] INFO root fetch - processPackages [tpaw]: New version: [0.0.1a2] Old Version: [0.0.1a0]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.6.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-1.1.7.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [yplib]: Start processing: planetmint-transactions
+[2023-06-14 09:12:31] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-06-14 09:12:31] INFO root fetch - processPackages [planetmint-transactions]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [tpaw]: Downloading https://files.pythonhosted.org/packages/c0/db/3adf9cc4c2bd090b3d8ec2d3fefb5f717993bf7ae3308ca63e4dd4b50f03/tpaw-0.0.1a0.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: eotdl-cli
+[2023-06-14 09:12:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-14 09:12:31] INFO root fetch - processPackages [planetmint-transactions]: Downloading https://files.pythonhosted.org/packages/ec/2f/d8ea020fd9dcc9e3561935e2128968d2e84cf3c74f43686677555777666a/planetmint_transactions-0.8.1.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [tpaw]: Downloading https://files.pythonhosted.org/packages/e6/fb/8a8249c827348ca33e49d5d0e8446939c60e64d64eabcea9fc947dc7f15a/tpaw-0.0.1a2.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/ac/a0/66b67a4cfefa0a7dd50def0e2152e881c6f3fd62447006a9c1e1bfcc69bc/eotdl-cli-2023.6.8.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [rpcm]: Remove: archive file [/home/abi/fetcher/tmp/rpcm-1.4.8.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [rpcm]: Remove: archive file [/home/abi/fetcher/tmp/rpcm-1.4.9.tar.gz]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [rpcm]: Start processing: autoxx
+[2023-06-14 09:12:31] INFO root fetch - main [MainThread]: End processing [rpcm]: success
+[2023-06-14 09:12:31] INFO root fetch - processPackages [autoxx]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-06-14 09:12:31] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/e5/a4/b61b0217e3433f33970503921be6c01117741e27b92f3250ad570b9d471c/autoxx-0.0.30.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/44/e3/51f1ea9dce2ed636cce64809918116e7d16aad6c784910df3b8212ea7ba6/eotdl-cli-2023.6.9.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [tpaw]: executing diffoscope
+[2023-06-14 09:12:31] INFO root fetch - processPackages [tpaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpaw-0.0.1a0.tar.gz tmp/tpaw-0.0.1a2.tar.gz --markdown 20230614/t/tpaw/0.0.1a0-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-14 09:12:31] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-06-14 09:12:31] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-2023.6.8.tar.gz tmp/eotdl-cli-2023.6.9.tar.gz --markdown 20230614/e/eotdl-cli/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-14 09:12:31] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/28/26/56b56f56e33ba954e7c8da9e43d7527df45d604f6f59fa40a224d7fa60ba/autoxx-0.0.31.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [planetmint-transactions]: Downloading https://files.pythonhosted.org/packages/cf/e4/69691bce9a45b37cf115bc185f07a458498158551e544320990f7f0b2670/planetmint_transactions-0.8.2.tar.gz
+[2023-06-14 09:12:31] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-14 09:12:31] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.30.tar.gz tmp/autoxx-0.0.31.tar.gz --markdown 20230614/a/autoxx/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-06-14 09:12:32] INFO root fetch - processPackages [planetmint-transactions]: executing diffoscope
+[2023-06-14 09:12:32] INFO root fetch - processPackages [planetmint-transactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint_transactions-0.8.1.tar.gz tmp/planetmint_transactions-0.8.2.tar.gz --markdown 20230614/p/planetmint-transactions/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-14 09:12:32] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.1.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.2.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-14 09:12:32] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.1.7.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - processPackages [pytorch-partial-tagger]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_partial_tagger-0.18.0.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - main [MainThread]: End processing [pytorch-partial-tagger]: success
+[2023-06-14 09:12:32] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0.dev2.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate-client-3.9.0b0.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2023-06-14 09:12:32] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev175.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev184.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-14 09:12:32] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.0.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.1.tar.gz]
+[2023-06-14 09:12:32] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-06-14 09:12:33] INFO root fetch - processPackages [tpaw]: Remove: archive file [/home/abi/fetcher/tmp/tpaw-0.0.1a0.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - processPackages [tpaw]: Remove: archive file [/home/abi/fetcher/tmp/tpaw-0.0.1a2.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - main [MainThread]: End processing [tpaw]: success
+[2023-06-14 09:12:33] INFO root fetch - processPackages [eotdl-cli]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-cli-2023.6.8.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - processPackages [eotdl-cli]: Remove: archive file [/home/abi/fetcher/tmp/eotdl-cli-2023.6.9.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-06-14 09:12:33] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.30.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.31.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-14 09:12:33] INFO root fetch - processPackages [planetmint-transactions]: Remove: archive file [/home/abi/fetcher/tmp/planetmint_transactions-0.8.1.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - processPackages [planetmint-transactions]: Remove: archive file [/home/abi/fetcher/tmp/planetmint_transactions-0.8.2.tar.gz]
+[2023-06-14 09:12:33] INFO root fetch - main [MainThread]: End processing [planetmint-transactions]: success
+[2023-06-14 09:12:41] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.2.tar.gz]
+[2023-06-14 09:12:41] INFO root fetch - processPackages [ezbeq]: Remove: archive file [/home/abi/fetcher/tmp/ezbeq-1.0.3.tar.gz]
+[2023-06-14 09:12:41] INFO root fetch - main [MainThread]: End processing [ezbeq]: success
+[2023-06-14 09:12:41] INFO root fetch - main [MainThread]: Store serial: [18497449]
