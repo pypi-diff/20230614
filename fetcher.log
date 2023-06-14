@@ -16125,3 +16125,83 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:38:57] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
 [2023-06-14 09:38:57] INFO root fetch - main [MainThread]: End processing [encord-active]: success
 [2023-06-14 09:38:57] INFO root fetch - main [MainThread]: Store serial: [18497639]
+[2023-06-14 09:44:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497639]
+[2023-06-14 09:44:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dblp-sax-parser
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-line-plotter
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cstore
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QuNet
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flagai
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitorch
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thefriendlystars
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libecalc
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhousf-lib
+[2023-06-14 09:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aunly-bbot
+[2023-06-14 09:44:08] WARNING root fetch - processPackages [dblp-sax-parser]: Skipping, unable to determine old version
+[2023-06-14 09:44:08] INFO root fetch - processPackages [dblp-sax-parser]: Start processing: TicTacToeAI
+[2023-06-14 09:44:08] INFO root fetch - main [MainThread]: End processing [dblp-sax-parser] error
+[2023-06-14 09:44:08] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-06-14 09:44:08] INFO root fetch - processPackages [zhousf-lib]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-14 09:44:08] INFO root fetch - processPackages [st-line-plotter]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 09:44:08] WARNING root fetch - processPackages [cstore]: Skipping, unable to determine old version
+[2023-06-14 09:44:08] INFO root fetch - processPackages [thefriendlystars]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 09:44:08] INFO root fetch - main [MainThread]: End processing [cstore] error
+[2023-06-14 09:44:08] INFO root fetch - processPackages [libecalc]: New version: [8.2.5] Old Version: [8.2.4]
+[2023-06-14 09:44:08] INFO root fetch - processPackages [flagai]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-06-14 09:44:08] INFO root fetch - processPackages [unitorch]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2023-06-14 09:44:08] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/a1/ba/32528b7db68aa5a7d27202c9cd74a4257ab0c0de87087aeda0d413f8fe26/zhousf-lib-0.7.0.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [thefriendlystars]: Downloading https://files.pythonhosted.org/packages/e5/8e/94223f05ecda138cebf0c550d9d33d844761634e10cf4c8e2a7ee900c241/thefriendlystars-0.1.0.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/98/6e/abd791584ebf3f4b96228777e680025a08d88674ec0ee3c8df76934f3d28/flagai-1.7.2.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [aunly-bbot]: New version: [1.5.0b1] Old Version: [1.4.1]
+[2023-06-14 09:44:08] WARNING root fetch - processPackages [TicTacToeAI]: Skipping, unable to determine old version
+[2023-06-14 09:44:08] INFO root fetch - main [MainThread]: End processing [TicTacToeAI] error
+[2023-06-14 09:44:08] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/39/40/65dbc7e9b8204380e3315d7bb820670e8f393a1781cc98eb1dd6ec44a628/QuNet-0.0.87-py3-none-any.whl
+[2023-06-14 09:44:08] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/d9/9d/300374bb31d6047df29fa37dc3790af2faa5e88c0ba9477d29d4e46d71ad/st_line_plotter-0.0.1.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/90/52/8b87c6ac4118baadf79a3ada96531fa93b89d043896fb5f931c5b69b22ea/libecalc-8.2.4.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [aunly-bbot]: Downloading https://files.pythonhosted.org/packages/c9/af/9a8251835a65176103c35c02b35947bd8a3f6134ee81a0019f580abc5894/aunly-bbot-1.4.1.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/6f/86/aa4fa549eb2a90fdf0fa2f9e4767126b06b7f8bb266f38cfd03bbe2edc1a/unitorch-0.0.0.2.tar.gz
+[2023-06-14 09:44:08] INFO root fetch - processPackages [thefriendlystars]: Downloading https://files.pythonhosted.org/packages/90/3e/c3a5f6aae6f79b24045179dc7a143b2adc321460ea21ee5f529815c2e8eb/thefriendlystars-0.1.1.tar.gz
+[2023-06-14 09:44:08] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 31022760>=10485760
+[2023-06-14 09:44:08] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2023-06-14 09:44:09] INFO root fetch - processPackages [flagai]: Downloading https://files.pythonhosted.org/packages/98/22/d2b1c5f142a8f53936648742c4cb1ada45830dd1d414a5eac2d03c990dae/flagai-1.7.3.tar.gz
+[2023-06-14 09:44:09] INFO root fetch - processPackages [thefriendlystars]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [thefriendlystars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thefriendlystars-0.1.0.tar.gz tmp/thefriendlystars-0.1.1.tar.gz --markdown 20230614/t/thefriendlystars/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 09:44:09] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-14 09:44:09] INFO root fetch - processPackages [st-line-plotter]: Downloading https://files.pythonhosted.org/packages/4a/c6/843db36e0ca5170b23c7e6fb46407bc0dd35f33d6878cb827ffdbb21d18e/st_line_plotter-0.0.2.tar.gz
+[2023-06-14 09:44:09] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.87-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230614/Q/QuNet/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 09:44:09] INFO root fetch - processPackages [flagai]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [flagai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flagai-1.7.2.tar.gz tmp/flagai-1.7.3.tar.gz --markdown 20230614/f/flagai/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-06-14 09:44:09] INFO root fetch - processPackages [aunly-bbot]: Downloading https://files.pythonhosted.org/packages/b0/d1/b3f50b98c623ff3558a6b17733884f9881e5e764b88e5861b5bb92e7502e/aunly-bbot-1.5.0b1.tar.gz
+[2023-06-14 09:44:09] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/58/67/b540307c86a81bc2a430328de10dc7482a509a750aef42d7284dc206356a/zhousf-lib-0.7.1.tar.gz
+[2023-06-14 09:44:09] INFO root fetch - processPackages [unitorch]: Downloading https://files.pythonhosted.org/packages/9e/04/7eeae495eee453f4eba9868cdf3ad4676f26f032a088d41b52b55fee1333/unitorch-0.0.0.3.tar.gz
+[2023-06-14 09:44:09] INFO root fetch - processPackages [st-line-plotter]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [st-line-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_line_plotter-0.0.1.tar.gz tmp/st_line_plotter-0.0.2.tar.gz --markdown 20230614/s/st-line-plotter/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-14 09:44:09] INFO root fetch - processPackages [aunly-bbot]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [aunly-bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aunly-bbot-1.4.1.tar.gz tmp/aunly-bbot-1.5.0b1.tar.gz --markdown 20230614/a/aunly-bbot/1.4.1-1.5.0b1/diff.md --exclude *.pyd
+[2023-06-14 09:44:09] INFO root fetch - processPackages [unitorch]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [unitorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitorch-0.0.0.2.tar.gz tmp/unitorch-0.0.0.3.tar.gz --markdown 20230614/u/unitorch/0.0.0.2-0.0.0.3/diff.md --exclude *.pyd
+[2023-06-14 09:44:09] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-14 09:44:09] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.7.0.tar.gz tmp/zhousf-lib-0.7.1.tar.gz --markdown 20230614/z/zhousf-lib/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-14 09:44:10] INFO root fetch - processPackages [thefriendlystars]: Remove: archive file [/home/abi/fetcher/tmp/thefriendlystars-0.1.0.tar.gz]
+[2023-06-14 09:44:10] INFO root fetch - processPackages [thefriendlystars]: Remove: archive file [/home/abi/fetcher/tmp/thefriendlystars-0.1.1.tar.gz]
+[2023-06-14 09:44:10] INFO root fetch - main [MainThread]: End processing [thefriendlystars]: success
+[2023-06-14 09:44:10] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.1.tar.gz]
+[2023-06-14 09:44:10] INFO root fetch - processPackages [st-line-plotter]: Remove: archive file [/home/abi/fetcher/tmp/st_line_plotter-0.0.2.tar.gz]
+[2023-06-14 09:44:10] INFO root fetch - main [MainThread]: End processing [st-line-plotter]: success
+[2023-06-14 09:44:10] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.87-py3-none-any.whl.zip]
+[2023-06-14 09:44:10] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 09:44:10] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-14 09:44:11] INFO root fetch - processPackages [aunly-bbot]: Remove: archive file [/home/abi/fetcher/tmp/aunly-bbot-1.4.1.tar.gz]
+[2023-06-14 09:44:11] INFO root fetch - processPackages [aunly-bbot]: Remove: archive file [/home/abi/fetcher/tmp/aunly-bbot-1.5.0b1.tar.gz]
+[2023-06-14 09:44:11] INFO root fetch - main [MainThread]: End processing [aunly-bbot]: success
+[2023-06-14 09:44:11] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.0.tar.gz]
+[2023-06-14 09:44:11] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.1.tar.gz]
+[2023-06-14 09:44:11] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-14 09:44:12] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.2.tar.gz]
+[2023-06-14 09:44:12] INFO root fetch - processPackages [flagai]: Remove: archive file [/home/abi/fetcher/tmp/flagai-1.7.3.tar.gz]
+[2023-06-14 09:44:12] INFO root fetch - main [MainThread]: End processing [flagai]: success
+[2023-06-14 09:44:14] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.2.tar.gz]
+[2023-06-14 09:44:14] INFO root fetch - processPackages [unitorch]: Remove: archive file [/home/abi/fetcher/tmp/unitorch-0.0.0.3.tar.gz]
+[2023-06-14 09:44:14] INFO root fetch - main [MainThread]: End processing [unitorch]: success
+[2023-06-14 09:44:14] INFO root fetch - main [MainThread]: Store serial: [18497676]
