@@ -16062,3 +16062,66 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:33:41] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.1.1.tar.gz]
 [2023-06-14 09:33:41] INFO root fetch - main [MainThread]: End processing [busy]: success
 [2023-06-14 09:33:41] INFO root fetch - main [MainThread]: Store serial: [18497602]
+[2023-06-14 09:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497602]
+[2023-06-14 09:38:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grpphati
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-simplejwt-additions
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encord-active
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airohit-fasterrcnn
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mfhpo-benchmark-api
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myl-discovery
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cashocs
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipproxy
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: filtro
+[2023-06-14 09:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dblp-sax-parser
+[2023-06-14 09:38:53] WARNING root fetch - processPackages [grpphati]: Skipping, unable to determine old version
+[2023-06-14 09:38:53] INFO root fetch - processPackages [drf-simplejwt-additions]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-14 09:38:53] INFO root fetch - main [MainThread]: End processing [grpphati] error
+[2023-06-14 09:38:53] WARNING root fetch - processPackages [airohit-fasterrcnn]: Skipping, unable to determine old version
+[2023-06-14 09:38:53] INFO root fetch - main [MainThread]: End processing [airohit-fasterrcnn] error
+[2023-06-14 09:38:53] WARNING root fetch - processPackages [ipproxy]: Skipping, unable to determine old version
+[2023-06-14 09:38:53] INFO root fetch - main [MainThread]: End processing [ipproxy] error
+[2023-06-14 09:38:53] INFO root fetch - processPackages [myl-discovery]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 09:38:53] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 09:38:53] INFO root fetch - processPackages [cashocs]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-06-14 09:38:53] INFO root fetch - processPackages [mfhpo-benchmark-api]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-06-14 09:38:53] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/26/18/01fcffcaadb1773609952ee77e9c22459ee2cc9741bf2c84d0becdbd7235/myl-discovery-0.1.0.tar.gz
+[2023-06-14 09:38:53] INFO root fetch - processPackages [drf-simplejwt-additions]: Downloading https://files.pythonhosted.org/packages/e2/7a/b3a3cd9d13f8a06c1665ad654579799cf1219d78d4e8d927497945cd7e61/drf-simplejwt-additions-1.1.1.tar.gz
+[2023-06-14 09:38:53] WARNING root fetch - processPackages [filtro]: Skipping, unable to determine old version
+[2023-06-14 09:38:53] INFO root fetch - main [MainThread]: End processing [filtro] error
+[2023-06-14 09:38:53] WARNING root fetch - processPackages [dblp-sax-parser]: Skipping, unable to determine old version
+[2023-06-14 09:38:53] INFO root fetch - main [MainThread]: End processing [dblp-sax-parser] error
+[2023-06-14 09:38:53] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/9f/e5/4fd10c4edb5d513b674ec442ac49dd93baa2a14f7531efa3a24b8cd1f024/mfhpo_benchmark_api-1.2.0-py3-none-any.whl
+[2023-06-14 09:38:53] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-06-14 09:38:53] INFO root fetch - processPackages [myl-discovery]: Downloading https://files.pythonhosted.org/packages/2c/1c/e79179ee1afe687d66d984f400528a997773b9ca1f285127992b4ebf15ea/myl-discovery-0.2.0.tar.gz
+[2023-06-14 09:38:53] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/03/8e/d77ec7e36ac0cd7de479ba863eafaec329d78493661a0b07e78165c961a5/cashocs-2.0.3.tar.gz
+[2023-06-14 09:38:53] INFO root fetch - processPackages [myl-discovery]: executing diffoscope
+[2023-06-14 09:38:53] INFO root fetch - processPackages [myl-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myl-discovery-0.1.0.tar.gz tmp/myl-discovery-0.2.0.tar.gz --markdown 20230614/m/myl-discovery/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 09:38:53] INFO root fetch - processPackages [drf-simplejwt-additions]: Downloading https://files.pythonhosted.org/packages/ff/e6/9f256d9df247969a20c31d8782afddf228263d806b4f99435c15d75bb6b8/drf-simplejwt-additions-1.1.2.tar.gz
+[2023-06-14 09:38:54] INFO root fetch - processPackages [drf-simplejwt-additions]: executing diffoscope
+[2023-06-14 09:38:54] INFO root fetch - processPackages [drf-simplejwt-additions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-simplejwt-additions-1.1.1.tar.gz tmp/drf-simplejwt-additions-1.1.2.tar.gz --markdown 20230614/d/drf-simplejwt-additions/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-14 09:38:54] INFO root fetch - processPackages [mfhpo-benchmark-api]: Downloading https://files.pythonhosted.org/packages/e9/9f/4fa933850f16d122b4c104328995bb282cf71322db2f52f06528795cb867/mfhpo_benchmark_api-2.0.0-py3-none-any.whl
+[2023-06-14 09:38:54] INFO root fetch - processPackages [cashocs]: Downloading https://files.pythonhosted.org/packages/37/12/91730a90d890ee4ccb24827f1b984e81cfe123379c47764cea391b2c1525/cashocs-2.0.4.tar.gz
+[2023-06-14 09:38:54] INFO root fetch - processPackages [mfhpo-benchmark-api]: executing diffoscope
+[2023-06-14 09:38:54] INFO root fetch - processPackages [mfhpo-benchmark-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfhpo_benchmark_api-1.2.0-py3-none-any.whl.zip tmp/mfhpo_benchmark_api-2.0.0-py3-none-any.whl.zip --markdown 20230614/m/mfhpo-benchmark-api/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-14 09:38:54] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-06-14 09:38:54] INFO root fetch - processPackages [cashocs]: executing diffoscope
+[2023-06-14 09:38:54] INFO root fetch - processPackages [cashocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashocs-2.0.3.tar.gz tmp/cashocs-2.0.4.tar.gz --markdown 20230614/c/cashocs/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-06-14 09:38:54] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-06-14 09:38:54] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230614/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-14 09:38:55] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.1.0.tar.gz]
+[2023-06-14 09:38:55] INFO root fetch - processPackages [myl-discovery]: Remove: archive file [/home/abi/fetcher/tmp/myl-discovery-0.2.0.tar.gz]
+[2023-06-14 09:38:55] INFO root fetch - main [MainThread]: End processing [myl-discovery]: success
+[2023-06-14 09:38:55] INFO root fetch - processPackages [drf-simplejwt-additions]: Remove: archive file [/home/abi/fetcher/tmp/drf-simplejwt-additions-1.1.1.tar.gz]
+[2023-06-14 09:38:55] INFO root fetch - processPackages [drf-simplejwt-additions]: Remove: archive file [/home/abi/fetcher/tmp/drf-simplejwt-additions-1.1.2.tar.gz]
+[2023-06-14 09:38:55] INFO root fetch - main [MainThread]: End processing [drf-simplejwt-additions]: success
+[2023-06-14 09:38:55] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-1.2.0-py3-none-any.whl.zip]
+[2023-06-14 09:38:55] INFO root fetch - processPackages [mfhpo-benchmark-api]: Remove: archive file [/home/abi/fetcher/tmp/mfhpo_benchmark_api-2.0.0-py3-none-any.whl.zip]
+[2023-06-14 09:38:55] INFO root fetch - main [MainThread]: End processing [mfhpo-benchmark-api]: success
+[2023-06-14 09:38:56] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.3.tar.gz]
+[2023-06-14 09:38:56] INFO root fetch - processPackages [cashocs]: Remove: archive file [/home/abi/fetcher/tmp/cashocs-2.0.4.tar.gz]
+[2023-06-14 09:38:56] INFO root fetch - main [MainThread]: End processing [cashocs]: success
+[2023-06-14 09:38:57] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.8.tar.gz]
+[2023-06-14 09:38:57] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
+[2023-06-14 09:38:57] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-06-14 09:38:57] INFO root fetch - main [MainThread]: Store serial: [18497639]
