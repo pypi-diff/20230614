@@ -14005,3 +14005,166 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:00:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230614055548.tar.gz]
 [2023-06-14 08:00:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-14 08:00:40] INFO root fetch - main [MainThread]: Store serial: [18496770]
+[2023-06-14 08:05:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496770]
+[2023-06-14 08:05:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dojo-truant
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3client
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytk-net
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ahjo
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zbxtool-cfomp
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-simplejwt-additions
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hrin-msb
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sense-opt
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytk-net
+[2023-06-14 08:05:51] INFO root fetch - processPackages [drf-simplejwt-additions]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [pytk-net]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ahjo]: New version: [3.2.0] Old Version: [3.1.5]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [pytk-net]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [web3client]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-14 08:05:51] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.13.0] Old Version: [2023.6.12.0]
+[2023-06-14 08:05:51] WARNING root fetch - processPackages [sense-opt]: Skipping, unable to determine old version
+[2023-06-14 08:05:51] INFO root fetch - main [MainThread]: End processing [sense-opt] error
+[2023-06-14 08:05:51] INFO root fetch - processPackages [drf-simplejwt-additions]: Downloading https://files.pythonhosted.org/packages/0d/3a/048a4d835138bad393b45267133184244b1e885d60e71afe3a6920ba7387/drf-simplejwt-additions-1.0.0.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/3d/d6/664a9a2a72bb42fb175f9ed50fd9c64a2dee3e7419ba665903eda570155a/pytk_net-0.0.4.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/3d/d6/664a9a2a72bb42fb175f9ed50fd9c64a2dee3e7419ba665903eda570155a/pytk_net-0.0.4.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [ahjo]: Downloading https://files.pythonhosted.org/packages/c7/21/05b5a6d80560a3a9a80fcea90636b31d597e17b65b72de97e40fa9204daf/ahjo-3.1.5-py3-none-any.whl
+[2023-06-14 08:05:51] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/dd/19/168188e8b67ed7ad4a69a9042bc68bf4bddaad170f9d145077749082ed85/web3client-1.1.8.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/13/4e/3d9064ceb6d2a10a9be639afa0d040020d966a15414025fc357e737b6b9e/dojo_truant-2023.6.12.0.tar.gz
+[2023-06-14 08:05:51] INFO root fetch - processPackages [drf-simplejwt-additions]: Downloading https://files.pythonhosted.org/packages/a6/fb/8686046ff66756d0fd0a0e74070a43d6fb50120c8368f096cece89d2c908/drf-simplejwt-additions-1.0.1.tar.gz
+[2023-06-14 08:05:52] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230614/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 08:05:52] INFO root fetch - processPackages [drf-simplejwt-additions]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [drf-simplejwt-additions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-simplejwt-additions-1.0.0.tar.gz tmp/drf-simplejwt-additions-1.0.1.tar.gz --markdown 20230614/d/drf-simplejwt-additions/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 08:05:52] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/eb/95/0699826bcb1d11148f562af8a09e1e3d597dbc46e4d8d087eaff6d1f6a77/pytk_net-0.1.0.tar.gz
+[2023-06-14 08:05:52] INFO root fetch - processPackages [pytk-net]: Downloading https://files.pythonhosted.org/packages/eb/95/0699826bcb1d11148f562af8a09e1e3d597dbc46e4d8d087eaff6d1f6a77/pytk_net-0.1.0.tar.gz
+[2023-06-14 08:05:52] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/77/1a/e7b0bc553b2ba8b4a23a50619a3fddc068428ab1e4335219f9428c768c22/dojo_truant-2023.6.13.0.tar.gz
+[2023-06-14 08:05:52] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.0.4.tar.gz tmp/pytk_net-0.1.0.tar.gz --markdown 20230614/p/pytk-net/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:05:52] INFO root fetch - processPackages [pytk-net]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [pytk-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytk_net-0.0.4.tar.gz tmp/pytk_net-0.1.0.tar.gz --markdown 20230614/p/pytk-net/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-14 08:05:52] INFO root fetch - processPackages [ahjo]: Downloading https://files.pythonhosted.org/packages/7b/b2/4a41d281e0f1df5ce18fc3201b3e27dcda2720c6440cc12ea11e42c4b50f/ahjo-3.2.0-py3-none-any.whl
+[2023-06-14 08:05:52] INFO root fetch - processPackages [ahjo]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [ahjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahjo-3.1.5-py3-none-any.whl.zip tmp/ahjo-3.2.0-py3-none-any.whl.zip --markdown 20230614/a/ahjo/3.1.5-3.2.0/diff.md --exclude *.pyd
+[2023-06-14 08:05:52] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-06-14 08:05:52] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.6.12.0.tar.gz tmp/dojo_truant-2023.6.13.0.tar.gz --markdown 20230614/d/dojo-truant/2023.6.12.0-2023.6.13.0/diff.md --exclude *.pyd
+[2023-06-14 08:05:52] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-06-14 08:05:52] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230614/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 08:05:53] INFO root fetch - processPackages [web3client]: Downloading https://files.pythonhosted.org/packages/7f/7f/4e0ff47d8a5473c01285a5aa69dd923bfe444e5dd6758f8fb0ac33b3d7e8/web3client-1.1.9.tar.gz
+[2023-06-14 08:05:53] INFO root fetch - processPackages [drf-simplejwt-additions]: Remove: archive file [/home/abi/fetcher/tmp/drf-simplejwt-additions-1.0.0.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - processPackages [drf-simplejwt-additions]: Remove: archive file [/home/abi/fetcher/tmp/drf-simplejwt-additions-1.0.1.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [drf-simplejwt-additions]: success
+[2023-06-14 08:05:53] INFO root fetch - processPackages [web3client]: executing diffoscope
+[2023-06-14 08:05:53] INFO root fetch - processPackages [web3client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3client-1.1.8.tar.gz tmp/web3client-1.1.9.tar.gz --markdown 20230614/w/web3client/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-14 08:05:53] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.0.4.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - processPackages [pytk-net]: Remove: archive file [/home/abi/fetcher/tmp/pytk_net-0.1.0.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [pytk-net]: success
+[2023-06-14 08:05:53] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.12.0.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.13.0.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-14 08:05:53] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-14 08:05:53] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-06-14 08:05:53] INFO root fetch - processPackages [ahjo]: Remove: archive file [/home/abi/fetcher/tmp/ahjo-3.1.5-py3-none-any.whl.zip]
+[2023-06-14 08:05:53] INFO root fetch - processPackages [ahjo]: Remove: archive file [/home/abi/fetcher/tmp/ahjo-3.2.0-py3-none-any.whl.zip]
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [ahjo]: success
+[2023-06-14 08:05:53] ERROR root fetch - processPackages [pytk-net]: Diffoscope failed: gzip: tmp/pytk_net-0.1.0.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/pytk_net-0.1.0.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-14 08:05:53] INFO root fetch - main [MainThread]: End processing [pytk-net] error
+[2023-06-14 08:05:54] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.8.tar.gz]
+[2023-06-14 08:05:54] INFO root fetch - processPackages [web3client]: Remove: archive file [/home/abi/fetcher/tmp/web3client-1.1.9.tar.gz]
+[2023-06-14 08:05:54] INFO root fetch - main [MainThread]: End processing [web3client]: success
+[2023-06-14 08:05:54] INFO root fetch - main [MainThread]: Store serial: [18496802]
