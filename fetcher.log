@@ -15282,3 +15282,139 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:56:35] INFO root fetch - processPackages [wllegal]: Remove: archive file [/home/abi/fetcher/tmp/wllegal-2023.4.tar.gz]
 [2023-06-14 08:56:35] INFO root fetch - main [MainThread]: End processing [wllegal]: success
 [2023-06-14 08:56:35] INFO root fetch - main [MainThread]: Store serial: [18497256]
+[2023-06-14 09:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497256]
+[2023-06-14 09:01:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midjourney-unofficial-api
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easydags
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdpyconsts
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ofx-processor
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volstreet
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weblate-language-data
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omkar-temp-mail
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: algokit
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: econbeautylib
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Python-dictionaries-deep-merge
+[2023-06-14 09:01:45] INFO root fetch - processPackages [midjourney-unofficial-api]: New version: [1.1] Old Version: [1.0]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [weblate-language-data]: New version: [2023.5] Old Version: [2023.4]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [algokit]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [omkar-temp-mail]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ofx-processor]: New version: [4.4.4] Old Version: [4.4.3]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [bdpyconsts]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [volstreet]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: New version: [1.1] Old Version: [1.0]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [easydags]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [econbeautylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 09:01:45] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/ce/f4/770b68166df974e39876dedb75319839834b29910dc48e87bb06006a9b47/omkar_temp_mail-1.0.1.tar.gz
+[2023-06-14 09:01:45] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/74/38/469197452247c662ac5ed0210d97840a89cd56b0c7bab9a6f6b0eab60a42/volstreet-0.9.8.tar.gz
+[2023-06-14 09:01:45] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/2d/0c/2572c8bee628a4f9783a14efcccf9152becf304225d0dacdc4ae1b7e21d8/ofx_processor-4.4.3.tar.gz
+[2023-06-14 09:01:45] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/54/15225f72625b525b291c5e4e51abc0c163a329360ab295d18516083fa47e/econbeautylib-0.0.8.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [midjourney-unofficial-api]: Downloading https://files.pythonhosted.org/packages/28/f3/9404d08136ecf7ea5b13d8e63667f298ba00eadc7799c0f66899fe53d747/midjourney_unofficial_api-1.0.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: Downloading https://files.pythonhosted.org/packages/ea/1c/3464e028ee5423aa1043d7bbdfb93843f10a031d16e748f7d2ece0e8a605/Python_dictionaries_deep_merge-1.0.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [bdpyconsts]: Downloading https://files.pythonhosted.org/packages/28/73/c9f97653b034c4c19a664be9b95a92677fe8ba0e486394d9400b93ca9c28/bdpyconsts-1.0.1.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [weblate-language-data]: Downloading https://files.pythonhosted.org/packages/24/ff/faed126636c65b05e133154a371811eb1470ae9f014cc3715cffa91f92e5/weblate-language-data-2023.4.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/47/18/ecaaa1b8c5e1dc10d989c256b521cac9f907086a8b40c6122493a7044c18/algokit-1.1.3-py3-none-any.whl
+[2023-06-14 09:01:46] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/a9/39/2c45bcf62e4e2d1c994f402c1506f4bd65f9ba8d645db56eb78343e233c1/easydags-0.1.2.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [econbeautylib]: Downloading https://files.pythonhosted.org/packages/49/dd/17a982baeba8ae643e6a7eca352e39d15629bdd9ea1067bad349087c4df8/econbeautylib-0.0.9.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [omkar-temp-mail]: Downloading https://files.pythonhosted.org/packages/b6/ef/d913896aa3556ceea03d29a56fa4689fcbabf9248646d1cd20544d85ad11/omkar-temp-mail-1.0.2.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a5/69/6d1420893bf88a95ed704efafd8a06fb46a548122583cb93e4d6a4f085a0/volstreet-0.9.9.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [econbeautylib]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [econbeautylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/econbeautylib-0.0.8.tar.gz tmp/econbeautylib-0.0.9.tar.gz --markdown 20230614/e/econbeautylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [ofx-processor]: Downloading https://files.pythonhosted.org/packages/7a/87/02a84c2e9bfad3226076b7b4bc67d7e8635fa66c0975f740d3cf7f2f2d61/ofx_processor-4.4.4.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [midjourney-unofficial-api]: Downloading https://files.pythonhosted.org/packages/e7/74/dc9da4f32bcbf4a074027e13c1037eb9cd3098094e43f1e9453d5812455b/midjourney_unofficial_api-1.1.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [omkar-temp-mail]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [omkar-temp-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omkar_temp_mail-1.0.1.tar.gz tmp/omkar-temp-mail-1.0.2.tar.gz --markdown 20230614/o/omkar-temp-mail/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.8.tar.gz tmp/volstreet-0.9.9.tar.gz --markdown 20230614/v/volstreet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [bdpyconsts]: Downloading https://files.pythonhosted.org/packages/14/56/c6803baed44aa606fda41f1e1ab00876b1f4a1f716e53f416c2f0a2403dc/bdpyconsts-1.1.0.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: Downloading https://files.pythonhosted.org/packages/65/df/a0321244601e31f9cf1f19864994c0771d769595ffd6cb953e8ff8eadd1e/Python_dictionaries_deep_merge-1.1-py3-none-any.whl
+[2023-06-14 09:01:46] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/3c/12/490080516b1e6975896f89b247897f43af2e8124b14479cae85b93f78d2a/easydags-1.0.0.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [weblate-language-data]: Downloading https://files.pythonhosted.org/packages/2e/cd/9121a09f060eafcdf9e1607751645cdb3d513080238475593eadddab56ca/weblate-language-data-2023.5.tar.gz
+[2023-06-14 09:01:46] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/a2/09/6ba8adf9eab8a75701100669c73e82d2c107cac0828252d700e1c2b7ee07/algokit-1.1.4-py3-none-any.whl
+[2023-06-14 09:01:46] INFO root fetch - processPackages [bdpyconsts]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [bdpyconsts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdpyconsts-1.0.1.tar.gz tmp/bdpyconsts-1.1.0.tar.gz --markdown 20230614/b/bdpyconsts/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [ofx-processor]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python_dictionaries_deep_merge-1.0.tar.gz tmp/Python_dictionaries_deep_merge-1.1-py3-none-any.whl.zip --markdown 20230614/P/Python-dictionaries-deep-merge/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [ofx-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofx_processor-4.4.3.tar.gz tmp/ofx_processor-4.4.4.tar.gz --markdown 20230614/o/ofx-processor/4.4.3-4.4.4/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-1.1.3-py3-none-any.whl.zip tmp/algokit-1.1.4-py3-none-any.whl.zip --markdown 20230614/a/algokit/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [midjourney-unofficial-api]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [midjourney-unofficial-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midjourney_unofficial_api-1.0.tar.gz tmp/midjourney_unofficial_api-1.1.tar.gz --markdown 20230614/m/midjourney-unofficial-api/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [weblate-language-data]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [weblate-language-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weblate-language-data-2023.4.tar.gz tmp/weblate-language-data-2023.5.tar.gz --markdown 20230614/w/weblate-language-data/2023.4-2023.5/diff.md --exclude *.pyd
+[2023-06-14 09:01:46] INFO root fetch - processPackages [easydags]: executing diffoscope
+[2023-06-14 09:01:46] INFO root fetch - processPackages [easydags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydags-0.1.2.tar.gz tmp/easydags-1.0.0.tar.gz --markdown 20230614/e/easydags/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 09:01:47] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar_temp_mail-1.0.1.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [omkar-temp-mail]: Remove: archive file [/home/abi/fetcher/tmp/omkar-temp-mail-1.0.2.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [omkar-temp-mail]: Start processing: xia-login-flask
+[2023-06-14 09:01:47] INFO root fetch - main [MainThread]: End processing [omkar-temp-mail]: success
+[2023-06-14 09:01:47] INFO root fetch - processPackages [xia-login-flask]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [bdpyconsts]: Remove: archive file [/home/abi/fetcher/tmp/bdpyconsts-1.0.1.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [bdpyconsts]: Remove: archive file [/home/abi/fetcher/tmp/bdpyconsts-1.1.0.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [bdpyconsts]: Start processing: dojo-truant
+[2023-06-14 09:01:47] INFO root fetch - main [MainThread]: End processing [bdpyconsts]: success
+[2023-06-14 09:01:47] INFO root fetch - processPackages [dojo-truant]: New version: [2023.6.13.1] Old Version: [2023.6.13.0]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/87/e4/5697f2d29ed74b96fb8c4b3087d4bd4678aa502064522c642f3b9a481be4/xia_login_flask-0.2.5-cp39-none-win_amd64.whl
+[2023-06-14 09:01:47] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/77/1a/e7b0bc553b2ba8b4a23a50619a3fddc068428ab1e4335219f9428c768c22/dojo_truant-2023.6.13.0.tar.gz
+[2023-06-14 09:01:47] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: Remove: archive file [/home/abi/fetcher/tmp/Python_dictionaries_deep_merge-1.0.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: Remove: archive file [/home/abi/fetcher/tmp/Python_dictionaries_deep_merge-1.1-py3-none-any.whl.zip]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [Python-dictionaries-deep-merge]: Start processing: easydags
+[2023-06-14 09:01:47] INFO root fetch - main [MainThread]: End processing [Python-dictionaries-deep-merge]: success
+[2023-06-14 09:01:47] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.8.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.9.tar.gz]
+[2023-06-14 09:01:47] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-06-14 09:01:47] INFO root fetch - processPackages [easydags]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-14 09:01:48] INFO root fetch - processPackages [easydags]: executing diffoscope
+[2023-06-14 09:01:48] INFO root fetch - processPackages [easydags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydags-0.1.2.tar.gz tmp/easydags-1.0.0.tar.gz --markdown 20230614/e/easydags/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-14 09:01:48] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.3-py3-none-any.whl.zip]
+[2023-06-14 09:01:48] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.4-py3-none-any.whl.zip]
+[2023-06-14 09:01:48] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2023-06-14 09:01:48] INFO root fetch - processPackages [midjourney-unofficial-api]: Remove: archive file [/home/abi/fetcher/tmp/midjourney_unofficial_api-1.0.tar.gz]
+[2023-06-14 09:01:48] INFO root fetch - processPackages [midjourney-unofficial-api]: Remove: archive file [/home/abi/fetcher/tmp/midjourney_unofficial_api-1.1.tar.gz]
+[2023-06-14 09:01:48] INFO root fetch - main [MainThread]: End processing [midjourney-unofficial-api]: success
+[2023-06-14 09:01:48] INFO root fetch - processPackages [dojo-truant]: Downloading https://files.pythonhosted.org/packages/ae/cd/2c082638dd6e8622469fdac007bd078c6c72613810b270d49a8611479ea4/dojo_truant-2023.6.13.1.tar.gz
+[2023-06-14 09:01:48] INFO root fetch - processPackages [xia-login-flask]: Downloading https://files.pythonhosted.org/packages/30/5a/7d2ba0513add181ec3d1088dad526a55c878532ac363c2bb9389d90266f7/xia_login_flask-0.2.6-cp39-none-macosx_11_0_x86_64.whl
+[2023-06-14 09:01:48] INFO root fetch - processPackages [xia-login-flask]: executing diffoscope
+[2023-06-14 09:01:48] INFO root fetch - processPackages [xia-login-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_login_flask-0.2.5-cp39-none-win_amd64.whl.zip tmp/xia_login_flask-0.2.6-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230614/x/xia-login-flask/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-14 09:01:48] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.3.tar.gz]
+[2023-06-14 09:01:48] INFO root fetch - processPackages [ofx-processor]: Remove: archive file [/home/abi/fetcher/tmp/ofx_processor-4.4.4.tar.gz]
+[2023-06-14 09:01:48] INFO root fetch - main [MainThread]: End processing [ofx-processor]: success
+[2023-06-14 09:01:48] INFO root fetch - processPackages [dojo-truant]: executing diffoscope
+[2023-06-14 09:01:48] INFO root fetch - processPackages [dojo-truant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_truant-2023.6.13.0.tar.gz tmp/dojo_truant-2023.6.13.1.tar.gz --markdown 20230614/d/dojo-truant/2023.6.13.0-2023.6.13.1/diff.md --exclude *.pyd
+[2023-06-14 09:01:48] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.1.2.tar.gz]
+[2023-06-14 09:01:48] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-1.0.0.tar.gz]
+[2023-06-14 09:01:48] INFO root fetch - main [MainThread]: End processing [easydags]: success
+[2023-06-14 09:01:48] ERROR root fetch - processPackages [easydags]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
+
+[2023-06-14 09:01:48] INFO root fetch - main [MainThread]: End processing [easydags] error
+[2023-06-14 09:01:49] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.8.tar.gz]
+[2023-06-14 09:01:49] INFO root fetch - processPackages [econbeautylib]: Remove: archive file [/home/abi/fetcher/tmp/econbeautylib-0.0.9.tar.gz]
+[2023-06-14 09:01:49] INFO root fetch - main [MainThread]: End processing [econbeautylib]: success
+[2023-06-14 09:01:49] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.5-cp39-none-win_amd64.whl.zip]
+[2023-06-14 09:01:49] INFO root fetch - processPackages [xia-login-flask]: Remove: archive file [/home/abi/fetcher/tmp/xia_login_flask-0.2.6-cp39-none-macosx_11_0_x86_64.whl.zip]
+[2023-06-14 09:01:49] INFO root fetch - main [MainThread]: End processing [xia-login-flask]: success
+[2023-06-14 09:01:49] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.13.0.tar.gz]
+[2023-06-14 09:01:49] INFO root fetch - processPackages [dojo-truant]: Remove: archive file [/home/abi/fetcher/tmp/dojo_truant-2023.6.13.1.tar.gz]
+[2023-06-14 09:01:49] INFO root fetch - main [MainThread]: End processing [dojo-truant]: success
+[2023-06-14 09:02:01] INFO root fetch - processPackages [weblate-language-data]: Remove: archive file [/home/abi/fetcher/tmp/weblate-language-data-2023.4.tar.gz]
+[2023-06-14 09:02:01] INFO root fetch - processPackages [weblate-language-data]: Remove: archive file [/home/abi/fetcher/tmp/weblate-language-data-2023.5.tar.gz]
+[2023-06-14 09:02:01] INFO root fetch - main [MainThread]: End processing [weblate-language-data]: success
+[2023-06-14 09:02:01] INFO root fetch - main [MainThread]: Store serial: [18497293]
