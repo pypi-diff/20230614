@@ -17942,3 +17942,153 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 10:47:16] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-14 10:47:16] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-14 10:47:16] INFO root fetch - main [MainThread]: Store serial: [18498495]
+[2023-06-14 10:52:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498495]
+[2023-06-14 10:52:25] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-14 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgcsdk
+[2023-06-14 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ppmil
+[2023-06-14 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: envd
+[2023-06-14 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: debug-cmd
+[2023-06-14 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AutoWSGR
+[2023-06-14 10:52:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jVMC
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tlgateway
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: QuNet
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytlgateway
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DigiCore
+[2023-06-14 10:52:26] INFO root fetch - processPackages [cgcsdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [jVMC]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ppmil]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [AutoWSGR]: New version: [0.2.1.1] Old Version: [0.2.1.0]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [DigiCore]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [debug-cmd]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [envd]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/e4/71/61c648bcad692893796b5bee0b10ea59b4d6a53e5bd4772d71d385673b3e/DigiCore-1.0.3.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ppmil]: Downloading https://files.pythonhosted.org/packages/02/47/4d7baac809b3cd2b27c98b6b167f0cf5802963793ba86a7e4d1c0890f53d/ppmil-0.1.1-py3-none-any.whl
+[2023-06-14 10:52:26] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/e9/6a/bda3e839bcaeca536582998bf0dffcc93ea0a77c73549b1ba6213a826307/cgcsdk-0.9.0.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/fe/e0/f7b11ef8a27acd6cb3f977bd4e1f12c5b1f6936d3dbb35754d6ef83bc24c/QuNet-0.0.88-py3-none-any.whl
+[2023-06-14 10:52:26] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/40/8f/ca38bcdc6fb6476b2f39f7447c21359ec87ef0ed65e589349a047ed332cd/envd-0.3.8.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/3b/e2/c84a0eeb38d6a04bb390cb0734df843df475536513fec59175196278732a/debug_cmd-1.0.2-py3-none-any.whl
+[2023-06-14 10:52:26] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/87/70/4ea7d32f6267a123d8ea9dec3666a6460175ded1e621c0b8438bcbfa22ea/jVMC-1.2.1.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [AutoWSGR]: Downloading https://files.pythonhosted.org/packages/a1/87/466b3e7f138014186ee837b5e0b28296c0bd587acf27fdf270908e3b1198/AutoWSGR-0.2.1.0.tar.gz
+[2023-06-14 10:52:26] WARNING root fetch - processPackages [AutoWSGR]: Skipping package: exceeds size limit 36407657>=10485760
+[2023-06-14 10:52:26] INFO root fetch - processPackages [AutoWSGR]: Start processing: macrometa-source-mongo
+[2023-06-14 10:52:26] INFO root fetch - main [MainThread]: End processing [AutoWSGR] error
+[2023-06-14 10:52:26] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/1c/47/328518b9c3e395bb2fc6dad998116edfd92270895f59d6dd2b0c4e7a49d6/DigiCore-1.0.4.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-06-14 10:52:26] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/54/58/cbef2a8ccded07bca6ecb72ab20606abf8e1a54d857d6505877d10eba14d/QuNet-0.0.9-py3-none-any.whl
+[2023-06-14 10:52:26] INFO root fetch - processPackages [DigiCore]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [DigiCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DigiCore-1.0.3.tar.gz tmp/DigiCore-1.0.4.tar.gz --markdown 20230614/D/DigiCore/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/11/e3/60629781a8c34baa111a4f59e38106d324f9caa86dc94b39e5b9f81589de/cgcsdk-0.9.1.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ppmil]: Downloading https://files.pythonhosted.org/packages/96/21/086b5a6dfd9f0a0cfec328d0d87670443dd34091d860d324bf239d7fae55/ppmil-0.2.0-py3-none-any.whl
+[2023-06-14 10:52:26] INFO root fetch - processPackages [jVMC]: Downloading https://files.pythonhosted.org/packages/48/c6/8441637aed91135a91392dcd4882ab8b079bde5f10dd3bd391be03a77eda/jVMC-1.2.2.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/b7/53/13ab2c709c89a8f6a890623f5f8f67eeb0514d78ce0e4bef76d9dc723e5a/macrometa-source-mongo-0.0.40.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/09/c9/c1c90a8cabab070638eb74acfa76a3c45277f653d7607dee0c29fddf5c2e/debug_cmd-1.0.3.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [cgcsdk]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.88-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230614/Q/QuNet/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [cgcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgcsdk-0.9.0.tar.gz tmp/cgcsdk-0.9.1.tar.gz --markdown 20230614/c/cgcsdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-06-14 10:52:26] INFO root fetch - processPackages [debug-cmd]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [debug-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debug_cmd-1.0.2-py3-none-any.whl.zip tmp/debug_cmd-1.0.3.tar.gz --markdown 20230614/d/debug-cmd/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ppmil]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [ppmil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppmil-0.1.1-py3-none-any.whl.zip tmp/ppmil-0.2.0-py3-none-any.whl.zip --markdown 20230614/p/ppmil/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [jVMC]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [jVMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jVMC-1.2.1.tar.gz tmp/jVMC-1.2.2.tar.gz --markdown 20230614/j/jVMC/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230614/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-06-14 10:52:26] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230614/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-14 10:52:26] INFO root fetch - processPackages [envd]: Downloading https://files.pythonhosted.org/packages/6f/e2/02e4db7e4affa6e54962dd795208ba1de5a9bbca208205fca85382498bfa/envd-0.3.9.tar.gz
+[2023-06-14 10:52:27] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/11/1e/012688ef8463d96e02f96f9db5544a5028c342c6512ccce8067f2083beba/macrometa-source-mongo-0.0.41.tar.gz
+[2023-06-14 10:52:27] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-06-14 10:52:27] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.40.tar.gz tmp/macrometa-source-mongo-0.0.41.tar.gz --markdown 20230614/m/macrometa-source-mongo/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-06-14 10:52:27] INFO root fetch - processPackages [envd]: executing diffoscope
+[2023-06-14 10:52:27] INFO root fetch - processPackages [envd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envd-0.3.8.tar.gz tmp/envd-0.3.9.tar.gz --markdown 20230614/e/envd/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-14 10:52:28] INFO root fetch - processPackages [debug-cmd]: Remove: archive file [/home/abi/fetcher/tmp/debug_cmd-1.0.2-py3-none-any.whl.zip]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [debug-cmd]: Remove: archive file [/home/abi/fetcher/tmp/debug_cmd-1.0.3.tar.gz]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [debug-cmd]: Start processing: gmltools
+[2023-06-14 10:52:28] INFO root fetch - main [MainThread]: End processing [debug-cmd]: success
+[2023-06-14 10:52:28] INFO root fetch - processPackages [gmltools]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [tlgateway]: Start processing: selis
+[2023-06-14 10:52:28] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-06-14 10:52:28] INFO root fetch - processPackages [selis]: New version: [1.1] Old Version: [1.0]
+[2023-06-14 10:52:28] ERROR root fetch - processPackages [gmltools]: Unable to fetch info: No such project/version 'gmltools' 0.0.77
+[2023-06-14 10:52:28] INFO root fetch - processPackages [gmltools]: Start processing: debug-cmd
+[2023-06-14 10:52:28] INFO root fetch - main [MainThread]: End processing [gmltools] error
+[2023-06-14 10:52:28] INFO root fetch - processPackages [debug-cmd]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.88-py3-none-any.whl.zip]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.9-py3-none-any.whl.zip]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [QuNet]: Start processing: fyle-integrations-platform-connector
+[2023-06-14 10:52:28] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-06-14 10:52:28] INFO root fetch - processPackages [fyle-integrations-platform-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/09/c9/c1c90a8cabab070638eb74acfa76a3c45277f653d7607dee0c29fddf5c2e/debug_cmd-1.0.3.tar.gz
+[2023-06-14 10:52:28] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.3.tar.gz]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.4.tar.gz]
+[2023-06-14 10:52:28] INFO root fetch - processPackages [DigiCore]: Start processing: openstack-sig-tool
+[2023-06-14 10:52:28] INFO root fetch - main [MainThread]: End processing [DigiCore]: success
+[2023-06-14 10:52:28] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/ef/45/b6799659adf7dac77e796baa7fab8a4bca44dbf1eaeaaed0b02c3ff39b3d/selis-1.0.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [openstack-sig-tool]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [ppmil]: Remove: archive file [/home/abi/fetcher/tmp/ppmil-0.1.1-py3-none-any.whl.zip]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [ppmil]: Remove: archive file [/home/abi/fetcher/tmp/ppmil-0.2.0-py3-none-any.whl.zip]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [ppmil]: Start processing: qoqo-braket
+[2023-06-14 10:52:29] INFO root fetch - main [MainThread]: End processing [ppmil]: success
+[2023-06-14 10:52:29] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [pytlgateway]: Start processing: odoo14-addon-energy-communities
+[2023-06-14 10:52:29] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-06-14 10:52:29] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/52/45/e5e38ed24c1622734daa77b91cc350bf11c44695b7aaaf9671f084870c76/fyle-integrations-platform-connector-1.8.0.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [debug-cmd]: Downloading https://files.pythonhosted.org/packages/f9/8a/0283f211cb0d238f38c904db13e56abbeb248e09e01bb4a7b000540d97cb/debug_cmd-1.0.4.tar.gz
+[2023-06-14 10:52:29] ERROR root fetch - processPackages [qoqo-braket]: Unable to get metadata: No such project 'qoqo-braket'
+[2023-06-14 10:52:29] INFO root fetch - main [MainThread]: End processing [qoqo-braket] error
+[2023-06-14 10:52:29] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/e7/e3/10b87a0611fb86d9d099516e1718e3378891826360b010697c16395fcb5c/selis-1.1.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [openstack-sig-tool]: Downloading https://files.pythonhosted.org/packages/cf/10/a0c8bebc2b258389b900fc55f3af58e0f8c12b95b404afbac8625b448037/openstack-sig-tool-1.1.0.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/37/51/afbc4374803319a2a3b6f4e622df6f2d3be20e4b916f42458871ea715cac/odoo14-addon-energy_communities-14.0.1.1.1.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-14 10:52:29] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-1.0.tar.gz tmp/selis-1.1.tar.gz --markdown 20230614/s/selis/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-14 10:52:29] INFO root fetch - processPackages [debug-cmd]: executing diffoscope
+[2023-06-14 10:52:29] INFO root fetch - processPackages [debug-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/debug_cmd-1.0.3.tar.gz tmp/debug_cmd-1.0.4.tar.gz --markdown 20230614/d/debug-cmd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 10:52:29] INFO root fetch - processPackages [macrometa-source-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mongo-0.0.40.tar.gz]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [macrometa-source-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mongo-0.0.41.tar.gz]
+[2023-06-14 10:52:29] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-06-14 10:52:29] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Downloading https://files.pythonhosted.org/packages/f3/0e/46ba46fd9bd58f328ec9642711a0147d790cb1af6dc1c7e9f72f99a87249/fyle-integrations-platform-connector-1.9.0.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [openstack-sig-tool]: Downloading https://files.pythonhosted.org/packages/68/07/b37923f50f0c5b67e82ab47cd80910f1379ce69ab395c7cd4dc71bc91457/openstack-sig-tool-1.2.0.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [fyle-integrations-platform-connector]: executing diffoscope
+[2023-06-14 10:52:29] INFO root fetch - processPackages [fyle-integrations-platform-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyle-integrations-platform-connector-1.8.0.tar.gz tmp/fyle-integrations-platform-connector-1.9.0.tar.gz --markdown 20230614/f/fyle-integrations-platform-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 10:52:29] INFO root fetch - processPackages [openstack-sig-tool]: executing diffoscope
+[2023-06-14 10:52:29] INFO root fetch - processPackages [openstack-sig-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstack-sig-tool-1.1.0.tar.gz tmp/openstack-sig-tool-1.2.0.tar.gz --markdown 20230614/o/openstack-sig-tool/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-14 10:52:29] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/63/6a/caed405575e068c8b592fe094eb7e260621a15660296b7a070891521d111/odoo14-addon-energy_communities-14.0.1.1.2.tar.gz
+[2023-06-14 10:52:29] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.2.1.tar.gz]
+[2023-06-14 10:52:29] INFO root fetch - processPackages [jVMC]: Remove: archive file [/home/abi/fetcher/tmp/jVMC-1.2.2.tar.gz]
+[2023-06-14 10:52:29] INFO root fetch - main [MainThread]: End processing [jVMC]: success
+[2023-06-14 10:52:29] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2023-06-14 10:52:29] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_communities-14.0.1.1.1.tar.gz tmp/odoo14-addon-energy_communities-14.0.1.1.2.tar.gz --markdown 20230614/o/odoo14-addon-energy-communities/14.0.1.1.1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-06-14 10:52:30] INFO root fetch - processPackages [debug-cmd]: Remove: archive file [/home/abi/fetcher/tmp/debug_cmd-1.0.3.tar.gz]
+[2023-06-14 10:52:30] INFO root fetch - processPackages [debug-cmd]: Remove: archive file [/home/abi/fetcher/tmp/debug_cmd-1.0.4.tar.gz]
+[2023-06-14 10:52:30] INFO root fetch - main [MainThread]: End processing [debug-cmd]: success
+[2023-06-14 10:52:30] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.0.tar.gz]
+[2023-06-14 10:52:30] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.1.tar.gz]
+[2023-06-14 10:52:30] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-14 10:52:31] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-0.9.0.tar.gz]
+[2023-06-14 10:52:31] INFO root fetch - processPackages [cgcsdk]: Remove: archive file [/home/abi/fetcher/tmp/cgcsdk-0.9.1.tar.gz]
+[2023-06-14 10:52:31] INFO root fetch - main [MainThread]: End processing [cgcsdk]: success
+[2023-06-14 10:52:31] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.8.0.tar.gz]
+[2023-06-14 10:52:31] INFO root fetch - processPackages [fyle-integrations-platform-connector]: Remove: archive file [/home/abi/fetcher/tmp/fyle-integrations-platform-connector-1.9.0.tar.gz]
+[2023-06-14 10:52:31] INFO root fetch - main [MainThread]: End processing [fyle-integrations-platform-connector]: success
+[2023-06-14 10:52:31] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.1.1.1.tar.gz]
+[2023-06-14 10:52:31] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.1.1.2.tar.gz]
+[2023-06-14 10:52:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2023-06-14 10:52:32] INFO root fetch - processPackages [openstack-sig-tool]: Remove: archive file [/home/abi/fetcher/tmp/openstack-sig-tool-1.1.0.tar.gz]
+[2023-06-14 10:52:32] INFO root fetch - processPackages [openstack-sig-tool]: Remove: archive file [/home/abi/fetcher/tmp/openstack-sig-tool-1.2.0.tar.gz]
+[2023-06-14 10:52:32] INFO root fetch - main [MainThread]: End processing [openstack-sig-tool]: success
+[2023-06-14 10:54:02] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.8.tar.gz]
+[2023-06-14 10:54:02] INFO root fetch - processPackages [envd]: Remove: archive file [/home/abi/fetcher/tmp/envd-0.3.9.tar.gz]
+[2023-06-14 10:54:02] INFO root fetch - main [MainThread]: End processing [envd]: success
+[2023-06-14 10:54:02] INFO root fetch - main [MainThread]: Store serial: [18498570]
