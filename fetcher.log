@@ -18806,3 +18806,193 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:16:42] INFO root fetch - processPackages [resc-helm-wizard]: Remove: archive file [/home/abi/fetcher/tmp/resc_helm_wizard-1.0.3.tar.gz]
 [2023-06-14 11:16:42] INFO root fetch - main [MainThread]: End processing [resc-helm-wizard]: success
 [2023-06-14 11:16:42] INFO root fetch - main [MainThread]: Store serial: [18498916]
+[2023-06-14 11:21:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18498916]
+[2023-06-14 11:21:52] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-shopinvader
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patato
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: configuraptor
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: je-mail-thunder-dev
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redgifs
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vdk-core
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ukrdc-schema
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-sale-promotion-rule
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: afex-sso
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ghga-service-commons
+[2023-06-14 11:21:52] WARNING root fetch - processPackages [odoo14-addon-sale-promotion-rule]: Skipping, unable to determine old version
+[2023-06-14 11:21:52] INFO root fetch - processPackages [odoo14-addon-sale-promotion-rule]: Start processing: thipster
+[2023-06-14 11:21:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-promotion-rule] error
+[2023-06-14 11:21:52] INFO root fetch - processPackages [redgifs]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [odoo14-addon-shopinvader]: New version: [14.0.5.9.3] Old Version: [14.0.5.9.2]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [je-mail-thunder-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ghga-service-commons]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-14 11:21:52] WARNING root fetch - processPackages [configuraptor]: Skipping, unable to determine old version
+[2023-06-14 11:21:52] INFO root fetch - processPackages [afex-sso]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [thipster]: New version: [0.16.7] Old Version: [0.16.6]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [configuraptor]: Start processing: pidgan
+[2023-06-14 11:21:52] INFO root fetch - main [MainThread]: End processing [configuraptor] error
+[2023-06-14 11:21:52] INFO root fetch - processPackages [vdk-core]: New version: [0.3.899446293] Old Version: [0.3.896750818]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ukrdc-schema]: New version: [3.3.1] Old Version: [3.3.0.post1]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [patato]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [pidgan]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-14 11:21:52] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/b4/be/8659d70a0a504a6517992c298a835dfa83eda162c58e469eccae5ef570a0/afex-sso-0.0.56.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/d9/2d/666cfbe7457d16fd8f9c298e28fd54c3ff6c7a5cb10d6ebd6397b2764c96/je_mail_thunder_dev-0.0.8.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/fc/88/cf6d2f2234b3394b5b33b91c62bb37e33767edf2a7b37fd6bf65b6e91155/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/b2/13/b614b560057688e3c9b3969150d3384959bff0550fbb29185df305b0d875/ghga_service_commons-0.4.1.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [redgifs]: Downloading https://files.pythonhosted.org/packages/71/b8/394f787dd980b12b699c8cbb360852c2c45b920cff225a2c10f2cfbc8960/redgifs-1.6.1.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/ed/a8/9743955c4b3ea9de3609f7345a7c51f658afa983fb8ff0fe1898503097c2/vdk-core-0.3.896750818.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/79/e5/7e9c0129c1674291c37d2b6542eab55501be8289efe22123ae9e170c4d22/thipster-0.16.6.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/ae/a4/3b7a99960cc9d0c82c760228e7383293124923d0c950b33b87b4ed9ce1ec/ukrdc_schema-3.3.0.post1-py3-none-any.whl
+[2023-06-14 11:21:52] INFO root fetch - processPackages [pidgan]: Downloading https://files.pythonhosted.org/packages/5e/df/4de6fd851a4b8d3f5cb8f0f24094d922771d2220cc323cea506e37fc2704/pidgan-0.0.0.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [patato]: Downloading https://files.pythonhosted.org/packages/72/16/1279b1b033dafb425d45027037d08d3c4e533d8d89f3389c55f3d857ab2f/patato-0.4.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-14 11:21:52] INFO root fetch - processPackages [je-mail-thunder-dev]: Downloading https://files.pythonhosted.org/packages/50/83/96de4dcb88c3fe1000dbe2a57639ee261684eff5193860f20204d5850501/je_mail_thunder_dev-0.0.9.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [je-mail-thunder-dev]: executing diffoscope
+[2023-06-14 11:21:52] INFO root fetch - processPackages [je-mail-thunder-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_mail_thunder_dev-0.0.8.tar.gz tmp/je_mail_thunder_dev-0.0.9.tar.gz --markdown 20230614/j/je-mail-thunder-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:21:52] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/0a/6e/21857bb65a288d6c9200de5641db89aa177e293b0083e37257845f235536/afex-sso-0.0.57.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Downloading https://files.pythonhosted.org/packages/0a/65/c2cbe26eff67bfb3b4fc527b907178f89a6e2dd6f2cd1b88632e2d76e20f/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/5f/a6/08266f6eaed7414966ed2c72485dee7ea3c8c18436c6863b74095ff7b244/ghga_service_commons-0.4.2.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [redgifs]: Downloading https://files.pythonhosted.org/packages/f2/2e/b9787386ed56f365db6e6cb8c0e0efb330d31404b12004238a86a9d67f01/redgifs-1.7.0.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-06-14 11:21:52] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.56.tar.gz tmp/afex-sso-0.0.57.tar.gz --markdown 20230614/a/afex-sso/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-06-14 11:21:52] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/5c/64/1d56a363ce61c5fe8ff5bbd64e8c7eac44ef79c273c075ab051faa3ae451/vdk-core-0.3.899446293.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [pidgan]: Downloading https://files.pythonhosted.org/packages/b7/7d/26bd8e47a42cba22e4cc5756d1809959d80752aaf63b06bded3980c3eeba/pidgan-0.0.1.tar.gz
+[2023-06-14 11:21:52] INFO root fetch - processPackages [ukrdc-schema]: Downloading https://files.pythonhosted.org/packages/71/8a/4414fe5fab4dbbce87619e21b5829942165bbc7e681f82cd6e8f33849767/ukrdc_schema-3.3.1-py3-none-any.whl
+[2023-06-14 11:21:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [odoo14-addon-shopinvader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-shopinvader/14.0.5.9.2-14.0.5.9.3/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/88/36/7bf7df1defe5699e5c1a043816ab9a4b892a920dff6fc40ea096fd055bb2/thipster-0.16.7.tar.gz
+[2023-06-14 11:21:53] INFO root fetch - processPackages [ghga-service-commons]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [ghga-service-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_service_commons-0.4.1.tar.gz tmp/ghga_service_commons-0.4.2.tar.gz --markdown 20230614/g/ghga-service-commons/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.896750818.tar.gz tmp/vdk-core-0.3.899446293.tar.gz --markdown 20230614/v/vdk-core/0.3.896750818-0.3.899446293/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [pidgan]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [pidgan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pidgan-0.0.0.tar.gz tmp/pidgan-0.0.1.tar.gz --markdown 20230614/p/pidgan/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [ukrdc-schema]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [ukrdc-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukrdc_schema-3.3.0.post1-py3-none-any.whl.zip tmp/ukrdc_schema-3.3.1-py3-none-any.whl.zip --markdown 20230614/u/ukrdc-schema/3.3.0.post1-3.3.1/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [redgifs]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [redgifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redgifs-1.6.1.tar.gz tmp/redgifs-1.7.0.tar.gz --markdown 20230614/r/redgifs/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.16.6.tar.gz tmp/thipster-0.16.7.tar.gz --markdown 20230614/t/thipster/0.16.6-0.16.7/diff.md --exclude *.pyd
+[2023-06-14 11:21:53] INFO root fetch - processPackages [patato]: Downloading https://files.pythonhosted.org/packages/ed/33/3632d6d7a79a38755dd69129ceff94e6b9849812df913c3bf1151ae8fc60/patato-0.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-14 11:21:53] INFO root fetch - processPackages [patato]: executing diffoscope
+[2023-06-14 11:21:53] INFO root fetch - processPackages [patato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patato-0.4.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/patato-0.5.0-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230614/p/patato/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 11:21:55] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.8.tar.gz]
+[2023-06-14 11:21:55] INFO root fetch - processPackages [je-mail-thunder-dev]: Remove: archive file [/home/abi/fetcher/tmp/je_mail_thunder_dev-0.0.9.tar.gz]
+[2023-06-14 11:21:55] INFO root fetch - processPackages [je-mail-thunder-dev]: Start processing: spanishconjugator
+[2023-06-14 11:21:55] INFO root fetch - main [MainThread]: End processing [je-mail-thunder-dev]: success
+[2023-06-14 11:21:55] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.56.tar.gz]
+[2023-06-14 11:21:55] INFO root fetch - processPackages [afex-sso]: Remove: archive file [/home/abi/fetcher/tmp/afex-sso-0.0.57.tar.gz]
+[2023-06-14 11:21:55] INFO root fetch - processPackages [afex-sso]: Start processing: spanishconjugator
+[2023-06-14 11:21:55] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230614/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-14 11:21:56] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230614/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-14 11:21:57] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-0.4.1.tar.gz]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-0.4.2.tar.gz]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [ghga-service-commons]: Start processing: datayoga-core
+[2023-06-14 11:21:57] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
+[2023-06-14 11:21:57] INFO root fetch - processPackages [datayoga-core]: New version: [1.9.0] Old Version: [1.87.0]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/95/71/67665bfe8eecf6c58e06a6ca51e0f35ab808b1fd4612f45584a4338e4919/datayoga_core-1.87.0.tar.gz
+[2023-06-14 11:21:57] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/c4/c3/5f207c438bbc89672565e2c01d8d647056616369d2a41dec1dde69c7068a/datayoga_core-1.9.0.tar.gz
+[2023-06-14 11:21:57] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.6.tar.gz]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.16.7.tar.gz]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [thipster]: Start processing: datayoga
+[2023-06-14 11:21:57] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-14 11:21:57] INFO root fetch - processPackages [datayoga-core]: executing diffoscope
+[2023-06-14 11:21:57] INFO root fetch - processPackages [datayoga-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga_core-1.87.0.tar.gz tmp/datayoga_core-1.9.0.tar.gz --markdown 20230614/d/datayoga-core/1.87.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 11:21:57] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.896750818.tar.gz]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.899446293.tar.gz]
+[2023-06-14 11:21:57] INFO root fetch - processPackages [vdk-core]: Start processing: selis
+[2023-06-14 11:21:57] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2023-06-14 11:21:57] INFO root fetch - processPackages [datayoga]: New version: [1.9.0] Old Version: [1.87.0]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [selis]: New version: [1.3] Old Version: [1.2]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [redgifs]: Remove: archive file [/home/abi/fetcher/tmp/redgifs-1.6.1.tar.gz]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [redgifs]: Remove: archive file [/home/abi/fetcher/tmp/redgifs-1.7.0.tar.gz]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [redgifs]: Start processing: soil-sdk
+[2023-06-14 11:21:58] INFO root fetch - main [MainThread]: End processing [redgifs]: success
+[2023-06-14 11:21:58] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [patato]: Remove: archive file [/home/abi/fetcher/tmp/patato-0.4.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/c0/21/58478cbd12b121d79f7dafc3e7056acd58bbfea3ce00a78658c017f46857/selis-1.2.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [patato]: Remove: archive file [/home/abi/fetcher/tmp/patato-0.5.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [patato]: Start processing: PyTestLog2DB
+[2023-06-14 11:21:58] INFO root fetch - main [MainThread]: End processing [patato]: success
+[2023-06-14 11:21:58] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/97/1c/3db4f38702a3e507c8e32ec6c29d88f05d9f685c67867a60e5dcf25c4858/datayoga-1.87.0.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [PyTestLog2DB]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/68f336f248034f5496c0f6133882d758ff76d98fbc108383165e5c203e35/soil-sdk-0.6.8.dev2.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [pidgan]: Remove: archive file [/home/abi/fetcher/tmp/pidgan-0.0.0.tar.gz]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [pidgan]: Remove: archive file [/home/abi/fetcher/tmp/pidgan-0.0.1.tar.gz]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [pidgan]: Start processing: validio-cli
+[2023-06-14 11:21:58] INFO root fetch - main [MainThread]: End processing [pidgan]: success
+[2023-06-14 11:21:58] INFO root fetch - processPackages [PyTestLog2DB]: Downloading https://files.pythonhosted.org/packages/23/cd/fc565b1e5011eb4fb27d5ec836e33e7190405b0846754dfa57f405f27f2c/PyTestLog2DB-0.2.5.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/2e/50/2163d1fe04552a7bb4c601e2e696fced7d6b8941028b1e3395954e741d58/selis-1.3.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [validio-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/2d/37/01977557580693bc06b316a396f1b34bdd6f8352df2bf0db283690e2292b/datayoga-1.9.0.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-14 11:21:58] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-1.2.tar.gz tmp/selis-1.3.tar.gz --markdown 20230614/s/selis/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-14 11:21:58] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader-14.0.5.9.2-py3-none-any.whl.zip]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopinvader-14.0.5.9.3-py3-none-any.whl.zip]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [odoo14-addon-shopinvader]: Start processing: validio-sdk
+[2023-06-14 11:21:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopinvader]: success
+[2023-06-14 11:21:58] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/95/a4/5d6fcf9c297529ccac89f00ed380d87a066c0f04eab9df8f4237645e0542/soil-sdk-0.6.9.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [datayoga]: executing diffoscope
+[2023-06-14 11:21:58] INFO root fetch - processPackages [datayoga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga-1.87.0.tar.gz tmp/datayoga-1.9.0.tar.gz --markdown 20230614/d/datayoga/1.87.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-14 11:21:58] INFO root fetch - processPackages [validio-sdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-14 11:21:58] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/51/80/bf00c2ca9a133a026ed034e7f57d32b0b2d4fe1309b5d24e72bfa77a36d3/validio_cli-0.1.0.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [PyTestLog2DB]: Downloading https://files.pythonhosted.org/packages/dc/50/60e5ca900f56dd6e59417413f408e844b37a14829b8ee395370a34792c06/PyTestLog2DB-0.2.6.tar.gz
+[2023-06-14 11:21:58] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2023-06-14 11:21:58] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20230614/s/soil-sdk/0.6.8.dev2-0.6.9/diff.md --exclude *.pyd
+[2023-06-14 11:21:59] INFO root fetch - processPackages [PyTestLog2DB]: executing diffoscope
+[2023-06-14 11:21:59] INFO root fetch - processPackages [PyTestLog2DB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTestLog2DB-0.2.5.tar.gz tmp/PyTestLog2DB-0.2.6.tar.gz --markdown 20230614/P/PyTestLog2DB/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/08/62/637d980b777c2a9cd35c01c8f26666fb4606450bc743662b93f7391117fc/validio_sdk-0.1.0.tar.gz
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/0b/51/3b839527a651ad5996a79201451e0ec1067350abb1381e1efd89253d53a7/validio_cli-0.2.0.tar.gz
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.1.0.tar.gz tmp/validio_cli-0.2.0.tar.gz --markdown 20230614/v/validio-cli/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/66/c4/cdfb2d3e6a32a9cdf67fe7f956e588fccefca99c50cd578a3146b1876314/validio_sdk-0.2.0.tar.gz
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2023-06-14 11:21:59] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.1.0.tar.gz tmp/validio_sdk-0.2.0.tar.gz --markdown 20230614/v/validio-sdk/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-14 11:22:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-14 11:22:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-14 11:22:00] INFO root fetch - processPackages [spanishconjugator]: Start processing: cstore
+[2023-06-14 11:22:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-14 11:22:00] WARNING root fetch - processPackages [cstore]: Skipping, unable to determine old version
+[2023-06-14 11:22:00] INFO root fetch - processPackages [cstore]: Start processing: pySSRSapi
+[2023-06-14 11:22:00] INFO root fetch - main [MainThread]: End processing [cstore] error
+[2023-06-14 11:22:00] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 11:22:00] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/c1/1f/3cdcbe16d3596d5f4c8b2bd2a676c177f21741fde5a400918310da0cf6ef/pySSRSapi-0.0.8.tar.gz
+[2023-06-14 11:22:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-14 11:22:00] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/28/33/55f9f8da569cf0d93252ba2a1cdba374c9c59c45ca96b8374e8925475457/pySSRSapi-0.0.9.tar.gz
+[2023-06-14 11:22:00] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-14 11:22:00] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.8.tar.gz tmp/pySSRSapi-0.0.9.tar.gz --markdown 20230614/p/pySSRSapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:22:01] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.2.tar.gz]
+[2023-06-14 11:22:01] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.3.tar.gz]
+[2023-06-14 11:22:01] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-14 11:22:01] INFO root fetch - processPackages [datayoga]: Remove: archive file [/home/abi/fetcher/tmp/datayoga-1.87.0.tar.gz]
+[2023-06-14 11:22:01] INFO root fetch - processPackages [datayoga]: Remove: archive file [/home/abi/fetcher/tmp/datayoga-1.9.0.tar.gz]
+[2023-06-14 11:22:01] INFO root fetch - main [MainThread]: End processing [datayoga]: success
+[2023-06-14 11:22:01] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.3.0.post1-py3-none-any.whl.zip]
+[2023-06-14 11:22:01] INFO root fetch - processPackages [ukrdc-schema]: Remove: archive file [/home/abi/fetcher/tmp/ukrdc_schema-3.3.1-py3-none-any.whl.zip]
+[2023-06-14 11:22:01] INFO root fetch - main [MainThread]: End processing [ukrdc-schema]: success
+[2023-06-14 11:22:01] INFO root fetch - processPackages [datayoga-core]: Remove: archive file [/home/abi/fetcher/tmp/datayoga_core-1.87.0.tar.gz]
+[2023-06-14 11:22:01] INFO root fetch - processPackages [datayoga-core]: Remove: archive file [/home/abi/fetcher/tmp/datayoga_core-1.9.0.tar.gz]
+[2023-06-14 11:22:01] INFO root fetch - main [MainThread]: End processing [datayoga-core]: success
+[2023-06-14 11:22:02] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.1.0.tar.gz]
+[2023-06-14 11:22:02] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.2.0.tar.gz]
+[2023-06-14 11:22:02] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2023-06-14 11:22:02] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.8.tar.gz]
+[2023-06-14 11:22:02] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.9.tar.gz]
+[2023-06-14 11:22:02] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-14 11:22:03] INFO root fetch - processPackages [PyTestLog2DB]: Remove: archive file [/home/abi/fetcher/tmp/PyTestLog2DB-0.2.5.tar.gz]
+[2023-06-14 11:22:03] INFO root fetch - processPackages [PyTestLog2DB]: Remove: archive file [/home/abi/fetcher/tmp/PyTestLog2DB-0.2.6.tar.gz]
+[2023-06-14 11:22:03] INFO root fetch - main [MainThread]: End processing [PyTestLog2DB]: success
+[2023-06-14 11:22:07] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.8.dev2.tar.gz]
+[2023-06-14 11:22:07] INFO root fetch - processPackages [soil-sdk]: Remove: archive file [/home/abi/fetcher/tmp/soil-sdk-0.6.9.tar.gz]
+[2023-06-14 11:22:07] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2023-06-14 11:22:07] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.1.0.tar.gz]
+[2023-06-14 11:22:07] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.2.0.tar.gz]
+[2023-06-14 11:22:07] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2023-06-14 11:22:07] INFO root fetch - main [MainThread]: Store serial: [18499016]
