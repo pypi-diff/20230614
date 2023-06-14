@@ -5341,3 +5341,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 02:46:11] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306130044.tar.gz]
 [2023-06-14 02:46:11] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-14 02:46:11] INFO root fetch - main [MainThread]: Store serial: [18493655]
+[2023-06-14 02:51:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18493655]
+[2023-06-14 02:51:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BBFinance
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kubric-nightly
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: egcst
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-comprehend-s3olap
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtmodel
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-slack-chatbot
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pcleaner
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: catencfamily
+[2023-06-14 02:51:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BBFinance
+[2023-06-14 02:51:21] INFO root fetch - processPackages [BBFinance]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [pcleaner]: New version: [1.7.4] Old Version: [1.7.3]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [dtmodel]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [BBFinance]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [egcst]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [catencfamily]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 02:51:21] INFO root fetch - processPackages [egcst]: Downloading https://files.pythonhosted.org/packages/f6/7b/68fe9ab6fcb978398c4fe198898a35361f914cb6a1f0302e74d2a2171a54/egcst-0.0.2.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/6b/af/5089b72cee8adc61a31fffacb8d87a883811ecb666f5494e66a3b15eff2d/catencfamily-0.0.72.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/dc/3e/e42e0691aa49b0e3d5176eee10531f7469cda78e2b586120528a27f33759/pcleaner-1.7.3.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/dc/15/de0d0fa32437f32e28bb2013c3c47b2e501cb50342c9ceff4b8435317612/BBFinance-1.5.3.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/c8/b2/6429d358efb291a369a5772d221810885361f98c9b421739427b75d9ccb5/dtmodel-0.1.0.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/dc/15/de0d0fa32437f32e28bb2013c3c47b2e501cb50342c9ceff4b8435317612/BBFinance-1.5.3.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [egcst]: Downloading https://files.pythonhosted.org/packages/ab/3a/b0337924140d8f8ceae918eadcb8e85c4c3697b7a8e2ae0bc6e0c2255b91/egcst-0.0.3.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [catencfamily]: Downloading https://files.pythonhosted.org/packages/85/04/8f7a9683902cf4ee987dd61c0c330676afc9d03743e17a7d406db8bbc499/catencfamily-0.0.73.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [dtmodel]: Downloading https://files.pythonhosted.org/packages/9b/e6/988dd94004817926c61c1ae4a52ddca7cfbaa8a269d462c54e5a84e5bc9b/dtmodel-0.1.1.tar.gz
+[2023-06-14 02:51:21] INFO root fetch - processPackages [egcst]: executing diffoscope
+[2023-06-14 02:51:21] INFO root fetch - processPackages [egcst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/egcst-0.0.2.tar.gz tmp/egcst-0.0.3.tar.gz --markdown 20230614/e/egcst/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 02:51:21] INFO root fetch - processPackages [dtmodel]: executing diffoscope
+[2023-06-14 02:51:21] INFO root fetch - processPackages [dtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtmodel-0.1.0.tar.gz tmp/dtmodel-0.1.1.tar.gz --markdown 20230614/d/dtmodel/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 02:51:21] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-14 02:51:21] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230614/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-14 02:51:21] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-14 02:51:22] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-14 02:51:22] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-14 02:51:22] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-14 02:51:22] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/40/5a/697f5782719784dac673706c694f204b5be52f3bf007ad6d49eb71a55d50/BBFinance-1.5.4.tar.gz
+[2023-06-14 02:51:22] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230614/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-14 02:51:22] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/40/5a/697f5782719784dac673706c694f204b5be52f3bf007ad6d49eb71a55d50/BBFinance-1.5.4.tar.gz
+[2023-06-14 02:51:22] INFO root fetch - processPackages [catencfamily]: executing diffoscope
+[2023-06-14 02:51:22] INFO root fetch - processPackages [catencfamily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catencfamily-0.0.72.tar.gz tmp/catencfamily-0.0.73.tar.gz --markdown 20230614/c/catencfamily/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-06-14 02:51:22] INFO root fetch - processPackages [BBFinance]: executing diffoscope
+[2023-06-14 02:51:22] INFO root fetch - processPackages [BBFinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BBFinance-1.5.3.tar.gz tmp/BBFinance-1.5.4.tar.gz --markdown 20230614/B/BBFinance/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-14 02:51:22] INFO root fetch - processPackages [BBFinance]: executing diffoscope
+[2023-06-14 02:51:22] INFO root fetch - processPackages [BBFinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BBFinance-1.5.3.tar.gz tmp/BBFinance-1.5.4.tar.gz --markdown 20230614/B/BBFinance/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-06-14 02:51:22] INFO root fetch - processPackages [pcleaner]: Downloading https://files.pythonhosted.org/packages/d9/fa/059378b5e05b6bd60a043afae9f91ea57940f7deae07999708a07b21540f/pcleaner-1.7.4.tar.gz
+[2023-06-14 02:51:22] INFO root fetch - processPackages [pcleaner]: executing diffoscope
+[2023-06-14 02:51:22] INFO root fetch - processPackages [pcleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcleaner-1.7.3.tar.gz tmp/pcleaner-1.7.4.tar.gz --markdown 20230614/p/pcleaner/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2023-06-14 02:51:22] INFO root fetch - processPackages [egcst]: Remove: archive file [/home/abi/fetcher/tmp/egcst-0.0.2.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - processPackages [egcst]: Remove: archive file [/home/abi/fetcher/tmp/egcst-0.0.3.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - main [MainThread]: End processing [egcst]: success
+[2023-06-14 02:51:23] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.0.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - processPackages [dtmodel]: Remove: archive file [/home/abi/fetcher/tmp/dtmodel-0.1.1.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - main [MainThread]: End processing [dtmodel]: success
+[2023-06-14 02:51:23] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-14 02:51:23] INFO root fetch - processPackages [BBFinance]: Remove: archive file [/home/abi/fetcher/tmp/BBFinance-1.5.3.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - processPackages [BBFinance]: Remove: archive file [/home/abi/fetcher/tmp/BBFinance-1.5.4.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - main [MainThread]: End processing [BBFinance]: success
+[2023-06-14 02:51:23] INFO root fetch - main [MainThread]: End processing [BBFinance]: success
+[2023-06-14 02:51:23] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-14 02:51:23] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-14 02:51:24] INFO root fetch - processPackages [pcleaner]: Remove: archive file [/home/abi/fetcher/tmp/pcleaner-1.7.3.tar.gz]
+[2023-06-14 02:51:24] INFO root fetch - processPackages [pcleaner]: Remove: archive file [/home/abi/fetcher/tmp/pcleaner-1.7.4.tar.gz]
+[2023-06-14 02:51:24] INFO root fetch - main [MainThread]: End processing [pcleaner]: success
+[2023-06-14 02:51:24] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.72.tar.gz]
+[2023-06-14 02:51:24] INFO root fetch - processPackages [catencfamily]: Remove: archive file [/home/abi/fetcher/tmp/catencfamily-0.0.73.tar.gz]
+[2023-06-14 02:51:24] INFO root fetch - main [MainThread]: End processing [catencfamily]: success
+[2023-06-14 02:51:24] INFO root fetch - main [MainThread]: Store serial: [18493690]
