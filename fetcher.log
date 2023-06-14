@@ -16314,3 +16314,146 @@ AssertionError: tmp/easydags-0.1.2.tar.gz does not exist
 [2023-06-14 09:49:36] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-14 09:49:36] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-14 09:49:36] INFO root fetch - main [MainThread]: Store serial: [18497712]
+[2023-06-14 09:54:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18497712]
+[2023-06-14 09:54:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ab-test-toolkit
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SimuBox
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TicTacToeAI
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bk-YOLOV5
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretflow
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretflow-lite
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkov
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cove-unified-logs
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: planetmint-driver
+[2023-06-14 09:54:46] INFO root fetch - processPackages [secretflow]: New version: [0.8.3b0] Old Version: [0.8.2b3]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [cove-unified-logs]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [TicTacToeAI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ab-test-toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [secretflow-lite]: New version: [0.8.3b0] Old Version: [0.8.2b3]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [SimuBox]: New version: [0.1.6] Old Version: [0.1.0]
+[2023-06-14 09:54:46] WARNING root fetch - processPackages [bk-YOLOV5]: Skipping, unable to determine old version
+[2023-06-14 09:54:46] INFO root fetch - processPackages [planetmint-driver]: New version: [0.9.4] Old Version: [0.9.1]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [bk-YOLOV5]: Start processing: collective.linguatags
+[2023-06-14 09:54:46] INFO root fetch - main [MainThread]: End processing [bk-YOLOV5] error
+[2023-06-14 09:54:46] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [collective.linguatags]: New version: [2.0.1] Old Version: [2.0]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230614] Old Version: [2.14.0.dev20230613]
+[2023-06-14 09:54:46] INFO root fetch - processPackages [cove-unified-logs]: Downloading https://files.pythonhosted.org/packages/b9/95/92f96d21026933de180428f07a92df42bd7e42616669bdf7bc3b2e672f86/cove_unified_logs-0.2.1.tar.gz
+[2023-06-14 09:54:46] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-06-14 09:54:46] INFO root fetch - processPackages [ab-test-toolkit]: Downloading https://files.pythonhosted.org/packages/88/86/148c1ee99ac301507ca0f2463e2b08391d5430e7e7e087df52b4a05af7bc/ab-test-toolkit-0.0.8.tar.gz
+[2023-06-14 09:54:46] INFO root fetch - processPackages [TicTacToeAI]: Downloading https://files.pythonhosted.org/packages/26/f5/d2061bbceb0490b345f9f8e3cdb70ae737182de8add2c33f57fde2a46513/TicTacToeAI-0.0.2.tar.gz
+[2023-06-14 09:54:46] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/3f/df/85d247c55dcad49c8ebbe1f0c5e80f739b2de45a2b3de482880bf99d41b4/secretflow-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl
+[2023-06-14 09:54:46] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/9f/ac/15f94936fced13b36537cf88189177e984190907fdc9dd533beaaf49a158/secretflow_lite-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl
+[2023-06-14 09:54:46] INFO root fetch - processPackages [planetmint-driver]: Downloading https://files.pythonhosted.org/packages/ae/ea/65b81a14a9adea381085b5439324c09b4ad122707ea8cbabc6c3acdb0692/planetmint_driver-0.9.1.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/06/2a/01bdab47eddb80fd93169cad67e9cd8759ee288771e2c43d21f5da5df156/SimuBox-0.1.0.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ec/2e/809fd2b8d2e3fd00ead2135c28ac85984123789259b1cde53e579d5b34a2/tf_nightly_cpu-2.14.0.dev20230613-cp39-cp39-win_amd64.whl
+[2023-06-14 09:54:47] INFO root fetch - processPackages [collective.linguatags]: Downloading https://files.pythonhosted.org/packages/5f/aa/64bc83b17910007d527023fc586d67c528cc91f51a158c45f4cb3a5894f6/collective.linguatags-2.0.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [cove-unified-logs]: Downloading https://files.pythonhosted.org/packages/26/77/46bacf4fcf3a8c53d26dac61cf1b2628b6990676c9728810f5eca9941719/cove_unified_logs-0.2.2.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [ab-test-toolkit]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [ab-test-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab-test-toolkit-0.0.8.tar.gz tmp/ab-test-toolkit-0.0.9.tar.gz --markdown 20230614/a/ab-test-toolkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [TicTacToeAI]: Downloading https://files.pythonhosted.org/packages/48/83/d8521b2bb14c389c937273656d7cf100cccec0895ca19ab92a5d674033e3/TicTacToeAI-0.0.3.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230614/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [cove-unified-logs]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [cove-unified-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cove_unified_logs-0.2.1.tar.gz tmp/cove_unified_logs-0.2.2.tar.gz --markdown 20230614/c/cove-unified-logs/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/e3/f9/5cf7e42d0014450bb458a729f37d2b181173b0395e2a4b7819fd5efbf1f6/SimuBox-0.1.6.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [collective.linguatags]: Downloading https://files.pythonhosted.org/packages/e8/a0/881982043c316211e4761fc83ad3290fef3201a021aa51302825e0cb3dfa/collective.linguatags-2.0.1.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fe/e2/bf14a5637de6d53e1a6dd472d52331b4722e8477b5d38918dc3af367847e/tf_nightly_cpu-2.14.0.dev20230614-cp39-cp39-win_amd64.whl
+[2023-06-14 09:54:47] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/77/c7/fb6e4d79bf4dd53781bc518b38943f1ee4351e03c459106c7d66f09196c6/secretflow-0.8.3b0-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-14 09:54:47] INFO root fetch - processPackages [TicTacToeAI]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/0e/73/8958c049e0b49be7660cc7b2acb6ac85b78c017d62804576e275f4d905a3/secretflow_lite-0.8.3b0-cp38-cp38-macosx_11_0_arm64.whl
+[2023-06-14 09:54:47] INFO root fetch - processPackages [TicTacToeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TicTacToeAI-0.0.2.tar.gz tmp/TicTacToeAI-0.0.3.tar.gz --markdown 20230614/T/TicTacToeAI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [collective.linguatags]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [collective.linguatags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.linguatags-2.0.tar.gz tmp/collective.linguatags-2.0.1.tar.gz --markdown 20230614/c/collective.linguatags/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [planetmint-driver]: Downloading https://files.pythonhosted.org/packages/22/18/b4614735d3bae2ad74060790413d45d42ccb1e9fd4b018a8224fc6db96a1/planetmint_driver-0.9.4.tar.gz
+[2023-06-14 09:54:47] INFO root fetch - processPackages [SimuBox]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [SimuBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimuBox-0.1.0.tar.gz tmp/SimuBox-0.1.6.tar.gz --markdown 20230614/S/SimuBox/0.1.0-0.1.6/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [planetmint-driver]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [planetmint-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint_driver-0.9.1.tar.gz tmp/planetmint_driver-0.9.4.tar.gz --markdown 20230614/p/planetmint-driver/0.9.1-0.9.4/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230613-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230614-cp39-cp39-win_amd64.whl.zip --markdown 20230614/t/tf-nightly-cpu/2.14.0.dev20230613-2.14.0.dev20230614/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow-0.8.3b0-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230614/s/secretflow/0.8.2b3-0.8.3b0/diff.md --exclude *.pyd
+[2023-06-14 09:54:47] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2023-06-14 09:54:47] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-0.8.3b0-cp38-cp38-macosx_11_0_arm64.whl.zip --markdown 20230614/s/secretflow-lite/0.8.2b3-0.8.3b0/diff.md --exclude *.pyd
+[2023-06-14 09:54:48] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.8.tar.gz]
+[2023-06-14 09:54:48] INFO root fetch - processPackages [ab-test-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab-test-toolkit-0.0.9.tar.gz]
+[2023-06-14 09:54:48] INFO root fetch - processPackages [ab-test-toolkit]: Start processing: autolabeling
+[2023-06-14 09:54:48] INFO root fetch - main [MainThread]: End processing [ab-test-toolkit]: success
+[2023-06-14 09:54:48] WARNING root fetch - processPackages [autolabeling]: Skipping, unable to determine old version
+[2023-06-14 09:54:48] INFO root fetch - processPackages [autolabeling]: Start processing: resolwe
+[2023-06-14 09:54:48] INFO root fetch - main [MainThread]: End processing [autolabeling] error
+[2023-06-14 09:54:48] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-06-14 09:54:48] INFO root fetch - processPackages [TicTacToeAI]: Remove: archive file [/home/abi/fetcher/tmp/TicTacToeAI-0.0.2.tar.gz]
+[2023-06-14 09:54:48] INFO root fetch - processPackages [TicTacToeAI]: Remove: archive file [/home/abi/fetcher/tmp/TicTacToeAI-0.0.3.tar.gz]
+[2023-06-14 09:54:48] INFO root fetch - processPackages [TicTacToeAI]: Start processing: dune-harmonizer
+[2023-06-14 09:54:48] INFO root fetch - main [MainThread]: End processing [TicTacToeAI]: success
+[2023-06-14 09:54:48] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-14 09:54:48] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-14 09:54:48] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [cove-unified-logs]: Remove: archive file [/home/abi/fetcher/tmp/cove_unified_logs-0.2.1.tar.gz]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [cove-unified-logs]: Remove: archive file [/home/abi/fetcher/tmp/cove_unified_logs-0.2.2.tar.gz]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [cove-unified-logs]: Start processing: publish-pypi-package
+[2023-06-14 09:54:49] INFO root fetch - main [MainThread]: End processing [cove-unified-logs]: success
+[2023-06-14 09:54:49] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [publish-pypi-package]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230613-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230614-cp39-cp39-win_amd64.whl.zip]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [tf-nightly-cpu]: Start processing: TicTacToeAI
+[2023-06-14 09:54:49] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-14 09:54:49] INFO root fetch - processPackages [publish-pypi-package]: Downloading https://files.pythonhosted.org/packages/1a/a4/9ee5fdd3e91bf66254c7f31abe6f85cb54de9fe70ce4ab9b241c3ca8124c/publish_pypi_package-0.1.0.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [TicTacToeAI]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-14 09:54:49] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230614/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-14 09:54:49] INFO root fetch - processPackages [TicTacToeAI]: Downloading https://files.pythonhosted.org/packages/26/f5/d2061bbceb0490b345f9f8e3cdb70ae737182de8add2c33f57fde2a46513/TicTacToeAI-0.0.2.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [TicTacToeAI]: Downloading https://files.pythonhosted.org/packages/48/83/d8521b2bb14c389c937273656d7cf100cccec0895ca19ab92a5d674033e3/TicTacToeAI-0.0.3.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [publish-pypi-package]: Downloading https://files.pythonhosted.org/packages/67/b2/d7238836403146fcdf260cf34c094eabdff9794dea74aa04912306c492ee/publish_pypi_package-0.1.3.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [TicTacToeAI]: executing diffoscope
+[2023-06-14 09:54:49] INFO root fetch - processPackages [TicTacToeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TicTacToeAI-0.0.2.tar.gz tmp/TicTacToeAI-0.0.3.tar.gz --markdown 20230614/T/TicTacToeAI/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 09:54:49] INFO root fetch - processPackages [publish-pypi-package]: executing diffoscope
+[2023-06-14 09:54:49] INFO root fetch - processPackages [publish-pypi-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publish_pypi_package-0.1.0.tar.gz tmp/publish_pypi_package-0.1.3.tar.gz --markdown 20230614/p/publish-pypi-package/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 09:54:49] INFO root fetch - processPackages [collective.linguatags]: Remove: archive file [/home/abi/fetcher/tmp/collective.linguatags-2.0.tar.gz]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [collective.linguatags]: Remove: archive file [/home/abi/fetcher/tmp/collective.linguatags-2.0.1.tar.gz]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [collective.linguatags]: Start processing: yuptools
+[2023-06-14 09:54:49] INFO root fetch - main [MainThread]: End processing [collective.linguatags]: success
+[2023-06-14 09:54:49] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-06-14 09:54:49] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230614/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-06-14 09:54:49] INFO root fetch - processPackages [yuptools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/1b/1f/33fad4162d2b87761132630fabefc93cba6f44b8a6dce422d282d2113602/yuptools-0.1.1.tar.gz
+[2023-06-14 09:54:49] INFO root fetch - processPackages [SimuBox]: Remove: archive file [/home/abi/fetcher/tmp/SimuBox-0.1.0.tar.gz]
+[2023-06-14 09:54:49] INFO root fetch - processPackages [SimuBox]: Remove: archive file [/home/abi/fetcher/tmp/SimuBox-0.1.6.tar.gz]
+[2023-06-14 09:54:49] INFO root fetch - main [MainThread]: End processing [SimuBox]: success
+[2023-06-14 09:54:50] INFO root fetch - processPackages [yuptools]: Downloading https://files.pythonhosted.org/packages/30/2a/1d48a970264efb81841628742b8defefed70465b299c9d2176a28e349295/yuptools-0.1.2.tar.gz
+[2023-06-14 09:54:50] INFO root fetch - processPackages [yuptools]: executing diffoscope
+[2023-06-14 09:54:50] INFO root fetch - processPackages [yuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuptools-0.1.1.tar.gz tmp/yuptools-0.1.2.tar.gz --markdown 20230614/y/yuptools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 09:54:50] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-14 09:54:50] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-14 09:54:50] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-14 09:54:50] INFO root fetch - processPackages [TicTacToeAI]: Remove: archive file [/home/abi/fetcher/tmp/TicTacToeAI-0.0.2.tar.gz]
+[2023-06-14 09:54:50] INFO root fetch - processPackages [TicTacToeAI]: Remove: archive file [/home/abi/fetcher/tmp/TicTacToeAI-0.0.3.tar.gz]
+[2023-06-14 09:54:50] INFO root fetch - main [MainThread]: End processing [TicTacToeAI]: success
+[2023-06-14 09:54:50] INFO root fetch - processPackages [publish-pypi-package]: Remove: archive file [/home/abi/fetcher/tmp/publish_pypi_package-0.1.0.tar.gz]
+[2023-06-14 09:54:50] INFO root fetch - processPackages [publish-pypi-package]: Remove: archive file [/home/abi/fetcher/tmp/publish_pypi_package-0.1.3.tar.gz]
+[2023-06-14 09:54:50] INFO root fetch - main [MainThread]: End processing [publish-pypi-package]: success
+[2023-06-14 09:54:51] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.1.tar.gz]
+[2023-06-14 09:54:51] INFO root fetch - processPackages [yuptools]: Remove: archive file [/home/abi/fetcher/tmp/yuptools-0.1.2.tar.gz]
+[2023-06-14 09:54:51] INFO root fetch - main [MainThread]: End processing [yuptools]: success
+[2023-06-14 09:54:51] INFO root fetch - processPackages [planetmint-driver]: Remove: archive file [/home/abi/fetcher/tmp/planetmint_driver-0.9.1.tar.gz]
+[2023-06-14 09:54:51] INFO root fetch - processPackages [planetmint-driver]: Remove: archive file [/home/abi/fetcher/tmp/planetmint_driver-0.9.4.tar.gz]
+[2023-06-14 09:54:51] INFO root fetch - main [MainThread]: End processing [planetmint-driver]: success
+[2023-06-14 09:54:52] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-06-14 09:54:52] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-0.8.3b0-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-14 09:54:52] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2023-06-14 09:54:52] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2023-06-14 09:54:52] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2023-06-14 09:54:52] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-06-14 09:54:52] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-0.8.2b3-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2023-06-14 09:54:52] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-0.8.3b0-cp38-cp38-macosx_11_0_arm64.whl.zip]
+[2023-06-14 09:54:52] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2023-06-14 09:55:31] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-14 09:55:31] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-14 09:55:31] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-14 09:55:31] INFO root fetch - main [MainThread]: Store serial: [18497765]
