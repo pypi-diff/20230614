@@ -11815,3 +11815,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-14 05:52:48] INFO root fetch - main [MainThread]: End processing [pulpcore-client] error
 [2023-06-14 05:52:48] INFO root fetch - main [MainThread]: Store serial: [18495886]
+[2023-06-14 05:57:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18495886]
+[2023-06-14 05:57:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metacountregressor
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coresets
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulpcore
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulpcore-client
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: srecli
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HawaData
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: searchlogit
+[2023-06-14 05:57:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cns
+[2023-06-14 05:57:57] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 05:57:57] INFO root fetch - processPackages [HawaData]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-14 05:57:57] WARNING root fetch - processPackages [coresets]: Skipping, unable to determine old version
+[2023-06-14 05:57:57] INFO root fetch - main [MainThread]: End processing [coresets] error
+[2023-06-14 05:57:57] INFO root fetch - processPackages [srecli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 05:57:57] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-14 05:57:57] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-14 05:57:57] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-06-14 05:57:57] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/2e/7a/1ee33278a9afb2e9f04678a02b2d90305d9215a81f2450fa58ed55513675/HawaData-0.6.4.tar.gz
+[2023-06-14 05:57:57] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-14 05:57:57] ERROR root fetch - processPackages [cns]: Unable to get metadata: No such project 'cns'
+[2023-06-14 05:57:57] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-14 05:57:57] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-06-14 05:57:57] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 05:57:57] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-06-14 05:57:57] INFO root fetch - processPackages [srecli]: Downloading https://files.pythonhosted.org/packages/4f/2a/70b41410ef0fcbc8b101ab6d70f6b2e4072a843afcd82cdb3576f4250e67/srecli-0.0.6.tar.gz
+[2023-06-14 05:57:57] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-14 05:57:57] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 05:57:57] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 05:57:58] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-14 05:57:58] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230614/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-14 05:57:58] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/9a/5e/c2ee4d1ac229bf0a7f3362058e18d0f644fce1a93b7cd08856cdd2484e11/HawaData-0.6.5.tar.gz
+[2023-06-14 05:57:58] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-06-14 05:57:58] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-06-14 05:57:58] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-14 05:57:58] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.6.4.tar.gz tmp/HawaData-0.6.5.tar.gz --markdown 20230614/H/HawaData/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-14 05:57:58] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-06-14 05:57:58] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230614/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 05:57:58] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-06-14 05:57:58] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230614/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-14 05:57:58] INFO root fetch - processPackages [srecli]: Downloading https://files.pythonhosted.org/packages/24/e0/8d2efb5de22ba10143e20681626e2fb5248742440fb923b7dcfe9d040b9d/srecli-0.0.7.tar.gz
+[2023-06-14 05:57:58] INFO root fetch - processPackages [srecli]: executing diffoscope
+[2023-06-14 05:57:58] INFO root fetch - processPackages [srecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srecli-0.0.6.tar.gz tmp/srecli-0.0.7.tar.gz --markdown 20230614/s/srecli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 05:57:59] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.4.tar.gz]
+[2023-06-14 05:57:59] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.6.5.tar.gz]
+[2023-06-14 05:57:59] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-14 05:57:59] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-14 05:57:59] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-14 05:57:59] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-14 05:57:59] INFO root fetch - processPackages [srecli]: Remove: archive file [/home/abi/fetcher/tmp/srecli-0.0.6.tar.gz]
+[2023-06-14 05:57:59] INFO root fetch - processPackages [srecli]: Remove: archive file [/home/abi/fetcher/tmp/srecli-0.0.7.tar.gz]
+[2023-06-14 05:57:59] INFO root fetch - main [MainThread]: End processing [srecli]: success
+[2023-06-14 05:58:00] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2023-06-14 05:58:00] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2023-06-14 05:58:00] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-06-14 05:58:00] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2023-06-14 05:58:00] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2023-06-14 05:58:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-06-14 05:58:00] INFO root fetch - main [MainThread]: Store serial: [18495909]
