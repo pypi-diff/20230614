@@ -1,0 +1,432 @@
+# Comparing `tmp/eotdl-2023.6.14.post7.tar.gz` & `tmp/eotdl-2023.6.14.post8.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "eotdl-2023.6.14.post7.tar", max compression
++gzip compressed data, was "eotdl-2023.6.14.post8.tar", max compression
+```
+
+## Comparing `eotdl-2023.6.14.post7.tar` & `eotdl-2023.6.14.post8.tar`
+
+### file list
+
+```diff
+@@ -1,55 +1,55 @@
+--rw-r--r--   0        0        0       55 2023-06-14 11:11:09.535553 eotdl-2023.6.14.post7/README.md
+--rw-r--r--   0        0        0      936 2023-06-14 10:31:27.997185 eotdl-2023.6.14.post7/eotdl/__init__.py
+--rw-r--r--   0        0        0      292 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/access/__init__.py
+--rw-r--r--   0        0        0      363 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/access/parameters.py
+--rw-r--r--   0        0        0      252 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/access/sentinelhub/__init__.py
+--rw-r--r--   0        0        0     7605 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/access/sentinelhub/client.py
+--rw-r--r--   0        0        0     6595 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/access/sentinelhub/utils.py
+--rw-r--r--   0        0        0       55 2023-06-14 11:05:23.616245 eotdl-2023.6.14.post7/eotdl/auth/__init__.py
+--rw-r--r--   0        0        0      768 2023-06-14 11:04:59.572173 eotdl-2023.6.14.post7/eotdl/auth/main.py
+--rw-r--r--   0        0        0        0 2023-06-14 10:24:15.563978 eotdl-2023.6.14.post7/eotdl/commands/__init__.py
+--rw-r--r--   0        0        0      933 2023-06-14 11:05:51.248453 eotdl-2023.6.14.post7/eotdl/commands/auth.py
+--rw-r--r--   0        0        0     1566 2023-06-14 11:06:23.168816 eotdl-2023.6.14.post7/eotdl/commands/datasets.py
+--rw-r--r--   0        0        0      270 2023-06-14 10:33:31.353776 eotdl-2023.6.14.post7/eotdl/curation/__init__.py
+--rw-r--r--   0        0        0     2929 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/curation/formatters.py
+--rw-r--r--   0        0        0     1552 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/curation/metadata.py
+--rw-r--r--   0        0        0      201 2023-06-14 09:35:56.383873 eotdl-2023.6.14.post7/eotdl/curation/stac/__init__.py
+--rw-r--r--   0        0        0     8495 2023-06-14 10:12:58.941969 eotdl-2023.6.14.post7/eotdl/curation/stac/dataframe.py
+--rw-r--r--   0        0        0     5231 2023-06-14 09:10:22.117884 eotdl-2023.6.14.post7/eotdl/curation/stac/extensions.py
+--rw-r--r--   0        0        0     1380 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/curation/stac/parsers.py
+--rw-r--r--   0        0        0    17796 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/curation/stac/stac.py
+--rw-r--r--   0        0        0     1855 2023-06-14 09:09:09.621596 eotdl-2023.6.14.post7/eotdl/curation/stac/utils.py
+--rw-r--r--   0        0        0      218 2023-06-14 11:17:55.402408 eotdl-2023.6.14.post7/eotdl/datasets/__init__.py
+--rw-r--r--   0        0        0      525 2023-06-14 11:04:21.308058 eotdl-2023.6.14.post7/eotdl/datasets/download.py
+--rw-r--r--   0        0        0      952 2023-06-14 11:18:53.114755 eotdl-2023.6.14.post7/eotdl/datasets/ingest.py
+--rw-r--r--   0        0        0      542 2023-06-14 11:03:39.503932 eotdl-2023.6.14.post7/eotdl/datasets/retrieve.py
+--rw-r--r--   0        0        0      326 2023-06-14 11:04:18.272049 eotdl-2023.6.14.post7/eotdl/datasets/update.py
+--rw-r--r--   0        0        0       74 2023-04-18 14:58:49.560135 eotdl-2023.6.14.post7/eotdl/hello.py
+--rw-r--r--   0        0        0      359 2023-06-14 11:02:07.315654 eotdl-2023.6.14.post7/eotdl/main.py
+--rw-r--r--   0        0        0        0 2023-06-14 10:24:20.807993 eotdl-2023.6.14.post7/eotdl/src/__init__.py
+--rw-r--r--   0        0        0        0 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post7/eotdl/src/errors/__init__.py
+--rw-r--r--   0        0        0      306 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post7/eotdl/src/errors/auth.py
+--rw-r--r--   0        0        0     9843 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post7/eotdl/src/repos/APIRepo.py
+--rw-r--r--   0        0        0      955 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post7/eotdl/src/repos/AuthRepo.py
+--rw-r--r--   0        0        0       59 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post7/eotdl/src/repos/__init__.py
+--rw-r--r--   0        0        0        0 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post7/eotdl/src/usecases/__init__.py
+--rw-r--r--   0        0        0     1587 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post7/eotdl/src/usecases/auth/Auth.py
+--rw-r--r--   0        0        0      332 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post7/eotdl/src/usecases/auth/IsLogged.py
+--rw-r--r--   0        0        0      420 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post7/eotdl/src/usecases/auth/Logout.py
+--rw-r--r--   0        0        0        0 2023-06-14 11:04:47.532137 eotdl-2023.6.14.post7/eotdl/src/usecases/auth/__init__.py
+--rw-r--r--   0        0        0      763 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/DownloadDataset.py
+--rw-r--r--   0        0        0      932 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/IngestDataset.py
+--rw-r--r--   0        0        0     1403 2023-06-14 11:04:20.232055 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/IngestLargeDataset.py
+--rw-r--r--   0        0        0     1595 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/IngestLargeDatasetParallel.py
+--rw-r--r--   0        0        0      421 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/RetrieveDataset.py
+--rw-r--r--   0        0        0      427 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/RetrieveDatasets.py
+--rw-r--r--   0        0        0      940 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/UpdateDataset.py
+--rw-r--r--   0        0        0        0 2023-06-14 10:51:58.909786 eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/__init__.py
+--rw-r--r--   0        0        0      479 2023-06-14 10:24:20.823993 eotdl-2023.6.14.post7/eotdl/src/utils.py
+--rw-r--r--   0        0        0      277 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/tools/__init__.py
+--rw-r--r--   0        0        0      215 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/tools/sen12floods/__init__.py
+--rw-r--r--   0        0        0     8124 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/tools/sen12floods/tools.py
+--rw-r--r--   0        0        0      636 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post7/eotdl/tools/stac.py
+--rw-r--r--   0        0        0      622 2023-06-14 11:19:04.606823 eotdl-2023.6.14.post7/pyproject.toml
+--rw-r--r--   0        0        0     1214 1970-01-01 00:00:00.000000 eotdl-2023.6.14.post7/setup.py
+--rw-r--r--   0        0        0      745 1970-01-01 00:00:00.000000 eotdl-2023.6.14.post7/PKG-INFO
++-rw-r--r--   0        0        0       55 2023-06-14 11:11:09.535553 eotdl-2023.6.14.post8/README.md
++-rw-r--r--   0        0        0      936 2023-06-14 11:29:35.346126 eotdl-2023.6.14.post8/eotdl/__init__.py
++-rw-r--r--   0        0        0      292 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/access/__init__.py
++-rw-r--r--   0        0        0      363 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/access/parameters.py
++-rw-r--r--   0        0        0      252 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/access/sentinelhub/__init__.py
++-rw-r--r--   0        0        0     7605 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/access/sentinelhub/client.py
++-rw-r--r--   0        0        0     6595 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/access/sentinelhub/utils.py
++-rw-r--r--   0        0        0       55 2023-06-14 11:05:23.616245 eotdl-2023.6.14.post8/eotdl/auth/__init__.py
++-rw-r--r--   0        0        0      776 2023-06-14 12:12:34.337586 eotdl-2023.6.14.post8/eotdl/auth/main.py
++-rw-r--r--   0        0        0      193 2023-06-14 12:17:22.982144 eotdl-2023.6.14.post8/eotdl/cli.py
++-rw-r--r--   0        0        0        0 2023-06-14 10:24:15.563978 eotdl-2023.6.14.post8/eotdl/commands/__init__.py
++-rw-r--r--   0        0        0      937 2023-06-14 12:12:41.917619 eotdl-2023.6.14.post8/eotdl/commands/auth.py
++-rw-r--r--   0        0        0     1569 2023-06-14 12:14:04.769935 eotdl-2023.6.14.post8/eotdl/commands/datasets.py
++-rw-r--r--   0        0        0      270 2023-06-14 10:33:31.353776 eotdl-2023.6.14.post8/eotdl/curation/__init__.py
++-rw-r--r--   0        0        0     2929 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/curation/formatters.py
++-rw-r--r--   0        0        0     1552 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/curation/metadata.py
++-rw-r--r--   0        0        0      201 2023-06-14 09:35:56.383873 eotdl-2023.6.14.post8/eotdl/curation/stac/__init__.py
++-rw-r--r--   0        0        0     8495 2023-06-14 10:12:58.941969 eotdl-2023.6.14.post8/eotdl/curation/stac/dataframe.py
++-rw-r--r--   0        0        0     5231 2023-06-14 09:10:22.117884 eotdl-2023.6.14.post8/eotdl/curation/stac/extensions.py
++-rw-r--r--   0        0        0     1380 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/curation/stac/parsers.py
++-rw-r--r--   0        0        0    17796 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/curation/stac/stac.py
++-rw-r--r--   0        0        0     1855 2023-06-14 09:09:09.621596 eotdl-2023.6.14.post8/eotdl/curation/stac/utils.py
++-rw-r--r--   0        0        0      211 2023-06-14 12:14:03.597934 eotdl-2023.6.14.post8/eotdl/datasets/__init__.py
++-rw-r--r--   0        0        0      529 2023-06-14 12:14:02.581934 eotdl-2023.6.14.post8/eotdl/datasets/download.py
++-rw-r--r--   0        0        0      824 2023-06-14 12:14:01.877933 eotdl-2023.6.14.post8/eotdl/datasets/ingest.py
++-rw-r--r--   0        0        0      548 2023-06-14 12:14:01.141933 eotdl-2023.6.14.post8/eotdl/datasets/retrieve.py
++-rw-r--r--   0        0        0      330 2023-06-14 12:14:00.433933 eotdl-2023.6.14.post8/eotdl/datasets/update.py
++-rw-r--r--   0        0        0       74 2023-04-18 14:58:49.560135 eotdl-2023.6.14.post8/eotdl/hello.py
++-rw-r--r--   0        0        0        0 2023-06-14 10:24:20.807993 eotdl-2023.6.14.post8/eotdl/src/__init__.py
++-rw-r--r--   0        0        0        0 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post8/eotdl/src/errors/__init__.py
++-rw-r--r--   0        0        0      306 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post8/eotdl/src/errors/auth.py
++-rw-r--r--   0        0        0     9843 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post8/eotdl/src/repos/APIRepo.py
++-rw-r--r--   0        0        0      955 2023-06-14 10:24:20.811993 eotdl-2023.6.14.post8/eotdl/src/repos/AuthRepo.py
++-rw-r--r--   0        0        0       59 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post8/eotdl/src/repos/__init__.py
++-rw-r--r--   0        0        0        0 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post8/eotdl/src/usecases/__init__.py
++-rw-r--r--   0        0        0     1587 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post8/eotdl/src/usecases/auth/Auth.py
++-rw-r--r--   0        0        0      332 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post8/eotdl/src/usecases/auth/IsLogged.py
++-rw-r--r--   0        0        0      420 2023-06-14 10:24:20.815993 eotdl-2023.6.14.post8/eotdl/src/usecases/auth/Logout.py
++-rw-r--r--   0        0        0        0 2023-06-14 11:04:47.532137 eotdl-2023.6.14.post8/eotdl/src/usecases/auth/__init__.py
++-rw-r--r--   0        0        0      767 2023-06-14 12:13:58.693932 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/DownloadDataset.py
++-rw-r--r--   0        0        0      932 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/IngestDataset.py
++-rw-r--r--   0        0        0     1407 2023-06-14 12:13:59.605932 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/IngestLargeDataset.py
++-rw-r--r--   0        0        0     1595 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/IngestLargeDatasetParallel.py
++-rw-r--r--   0        0        0      421 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/RetrieveDataset.py
++-rw-r--r--   0        0        0      427 2023-06-14 10:24:20.819993 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/RetrieveDatasets.py
++-rw-r--r--   0        0        0      944 2023-06-14 12:13:57.889932 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/UpdateDataset.py
++-rw-r--r--   0        0        0        0 2023-06-14 10:51:58.909786 eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/__init__.py
++-rw-r--r--   0        0        0      479 2023-06-14 10:24:20.823993 eotdl-2023.6.14.post8/eotdl/src/utils.py
++-rw-r--r--   0        0        0      277 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/tools/__init__.py
++-rw-r--r--   0        0        0      215 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/tools/sen12floods/__init__.py
++-rw-r--r--   0        0        0     8124 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/tools/sen12floods/tools.py
++-rw-r--r--   0        0        0      636 2023-06-14 08:30:42.023737 eotdl-2023.6.14.post8/eotdl/tools/stac.py
++-rw-r--r--   0        0        0      621 2023-06-14 12:17:43.342177 eotdl-2023.6.14.post8/pyproject.toml
++-rw-r--r--   0        0        0     1213 1970-01-01 00:00:00.000000 eotdl-2023.6.14.post8/setup.py
++-rw-r--r--   0        0        0      745 1970-01-01 00:00:00.000000 eotdl-2023.6.14.post8/PKG-INFO
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/__init__.py` & `eotdl-2023.6.14.post8/eotdl/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/access/sentinelhub/client.py` & `eotdl-2023.6.14.post8/eotdl/access/sentinelhub/client.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/access/sentinelhub/utils.py` & `eotdl-2023.6.14.post8/eotdl/access/sentinelhub/utils.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/auth/main.py` & `eotdl-2023.6.14.post8/eotdl/auth/main.py`
+
+ * *Files 17% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+-from src.repos import AuthRepo, APIRepo
+-from src.usecases.auth.IsLogged import IsLogged
+-from src.usecases.auth.Auth import Auth
+-from src.usecases.auth.Logout import Logout
++from ..src.repos import AuthRepo, APIRepo
++from ..src.usecases.auth.IsLogged import IsLogged
++from ..src.usecases.auth.Auth import Auth
++from ..src.usecases.auth.Logout import Logout
+ 
+ 
+ def is_logged():
+     repo = AuthRepo()
+     _is_logged = IsLogged(repo)
+     inputs = _is_logged.Inputs()
+     outputs = _is_logged(inputs)
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/commands/auth.py` & `eotdl-2023.6.14.post8/eotdl/commands/auth.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ import typer
+-from auth import is_logged, auth, generate_logout_url
+-from src.errors.auth import LoginError
++from ..auth import is_logged, auth, generate_logout_url
++from ..src.errors.auth import LoginError
+ 
+ app = typer.Typer()
+ 
+ 
+ @app.command()
+ def login():
+     """
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/commands/datasets.py` & `eotdl-2023.6.14.post8/eotdl/commands/datasets.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,16 +1,16 @@
+ import typer
+-from datasets import (
++from ..datasets import (
+     retrieve_datasets,
+     download_dataset,
+     update_dataset,
+     ingest_large_dataset,
+     # ingest_large_dataset_parallel,
+ )
+-from auth import auth
++from .auth import auth
+ 
+ app = typer.Typer()
+ 
+ 
+ @app.command()
+ def list():
+     """
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/formatters.py` & `eotdl-2023.6.14.post8/eotdl/curation/formatters.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/metadata.py` & `eotdl-2023.6.14.post8/eotdl/curation/metadata.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/stac/dataframe.py` & `eotdl-2023.6.14.post8/eotdl/curation/stac/dataframe.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/stac/extensions.py` & `eotdl-2023.6.14.post8/eotdl/curation/stac/extensions.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/stac/parsers.py` & `eotdl-2023.6.14.post8/eotdl/curation/stac/parsers.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/stac/stac.py` & `eotdl-2023.6.14.post8/eotdl/curation/stac/stac.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/curation/stac/utils.py` & `eotdl-2023.6.14.post8/eotdl/curation/stac/utils.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/datasets/download.py` & `eotdl-2023.6.14.post8/eotdl/datasets/download.py`
+
+ * *Files 23% similar despite different names*
+
+```diff
+@@ -1,9 +1,9 @@
+-from src.repos import APIRepo
+-from src.usecases.datasets.DownloadDataset import DownloadDataset
++from ..src.repos import APIRepo
++from ..src.usecases.datasets.DownloadDataset import DownloadDataset
+ from .retrieve import retrieve_dataset
+ 
+ 
+ def download_dataset(name, path, user, logger):
+     dataset = retrieve_dataset(name)
+     dataset_id = dataset["id"]
+     checksum = dataset["checksum"]
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/datasets/retrieve.py` & `eotdl-2023.6.14.post8/eotdl/datasets/retrieve.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+-from src.repos import APIRepo
+-from src.usecases.datasets.RetrieveDatasets import RetrieveDatasets
+-from src.usecases.datasets.RetrieveDataset import RetrieveDataset
++from ..src.repos import APIRepo
++from ..src.usecases.datasets.RetrieveDatasets import RetrieveDatasets
++from ..src.usecases.datasets.RetrieveDataset import RetrieveDataset
+ 
+ 
+ def retrieve_datasets():
+     api_repo = APIRepo()
+     retrieve = RetrieveDatasets(api_repo)
+     inputs = retrieve.Inputs()
+     outputs = retrieve(inputs)
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/repos/APIRepo.py` & `eotdl-2023.6.14.post8/eotdl/src/repos/APIRepo.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/repos/AuthRepo.py` & `eotdl-2023.6.14.post8/eotdl/src/repos/AuthRepo.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/usecases/auth/Auth.py` & `eotdl-2023.6.14.post8/eotdl/src/usecases/auth/Auth.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/DownloadDataset.py` & `eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/DownloadDataset.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,9 +1,9 @@
+ from pydantic import BaseModel
+-from src.utils import calculate_checksum
++from ....src.utils import calculate_checksum
+ 
+ 
+ class DownloadDataset:
+     def __init__(self, repo, logger):
+         self.repo = repo
+         self.logger = logger
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/IngestDataset.py` & `eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/IngestDataset.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/IngestLargeDataset.py` & `eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/IngestLargeDataset.py`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,9 +1,9 @@
+ from pydantic import BaseModel
+-from src.utils import calculate_checksum
++from ....src.utils import calculate_checksum
+ 
+ 
+ class IngestLargeDataset:
+     def __init__(self, repo, logger):
+         self.repo = repo
+         self.logger = logger
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/IngestLargeDatasetParallel.py` & `eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/IngestLargeDatasetParallel.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/src/usecases/datasets/UpdateDataset.py` & `eotdl-2023.6.14.post8/eotdl/src/usecases/datasets/UpdateDataset.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,9 +1,9 @@
+ from pydantic import BaseModel
+-from src.utils import calculate_checksum
++from ....src.utils import calculate_checksum
+ 
+ 
+ class UpdateDataset:
+     def __init__(self, repo, logger):
+         self.repo = repo
+         self.logger = logger
+```
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/tools/sen12floods/tools.py` & `eotdl-2023.6.14.post8/eotdl/tools/sen12floods/tools.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/eotdl/tools/stac.py` & `eotdl-2023.6.14.post8/eotdl/tools/stac.py`
+
+ * *Files identical despite different names*
+
+### Comparing `eotdl-2023.6.14.post7/pyproject.toml` & `eotdl-2023.6.14.post8/pyproject.toml`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,18 +1,18 @@
+ [tool.poetry]
+ name = "eotdl"
+-version = "2023.06.14-7"
++version = "2023.06.14-8"
+ description = "Earth Observation Training Data Lab"
+ authors = ["EarthPulse <it@earthpulse.es>"]
+ license = "MIT"
+ readme = "README.md"
+ packages = [{include = "eotdl"}]
+ 
+ [tool.poetry.scripts]
+-eotdl = "eotdl.main:app"
++eotdl = "eotdl.cli:app"
+ 
+ [tool.poetry.dependencies]
+ python = "^3.8"
+ typer = {extras = ["all"], version = "^0.7.0"}
+ requests = "^2.28.2"
+ pydantic = "^1.10.6"
+ tqdm = "^4.65.0"
+```
+
+### Comparing `eotdl-2023.6.14.post7/setup.py` & `eotdl-2023.6.14.post8/setup.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -26,19 +26,19 @@
+ ['pydantic>=1.10.6,<2.0.0',
+  'pyjwt>=2.6.0,<3.0.0',
+  'requests>=2.28.2,<3.0.0',
+  'tqdm>=4.65.0,<5.0.0',
+  'typer[all]>=0.7.0,<0.8.0']
+ 
+ entry_points = \
+-{'console_scripts': ['eotdl = eotdl.main:app']}
++{'console_scripts': ['eotdl = eotdl.cli:app']}
+ 
+ setup_kwargs = {
+     'name': 'eotdl',
+-    'version': '2023.6.14.post7',
++    'version': '2023.6.14.post8',
+     'description': 'Earth Observation Training Data Lab',
+     'long_description': '# eotdl \n\nThis is the main library and CLI for EOTDL.\n\n',
+     'author': 'EarthPulse',
+     'author_email': 'it@earthpulse.es',
+     'maintainer': 'None',
+     'maintainer_email': 'None',
+     'url': 'None',
+```
+
+### Comparing `eotdl-2023.6.14.post7/PKG-INFO` & `eotdl-2023.6.14.post8/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: eotdl
+-Version: 2023.6.14.post7
++Version: 2023.6.14.post8
+ Summary: Earth Observation Training Data Lab
+ License: MIT
+ Author: EarthPulse
+ Author-email: it@earthpulse.es
+ Requires-Python: >=3.8,<4.0
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Programming Language :: Python :: 3
+```
+
