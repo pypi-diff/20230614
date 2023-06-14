@@ -19390,3 +19390,233 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 11:38:38] INFO root fetch - processPackages [markdown-toc-segments]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_segments-0.0.4.tar.gz]
 [2023-06-14 11:38:38] INFO root fetch - main [MainThread]: End processing [markdown-toc-segments]: success
 [2023-06-14 11:38:38] INFO root fetch - main [MainThread]: Store serial: [18499163]
+[2023-06-14 11:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18499163]
+[2023-06-14 11:43:48] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anycluster
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: current-events-magnifier
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitelabs-connector-framework
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labeltransform2
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtailsnippetscopy
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conflog
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spacy-llm
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlrun
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ardupilot-log-reader
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kadaster-kikinzage-client
+[2023-06-14 11:43:48] INFO root fetch - processPackages [labeltransform2]: New version: [1.8] Old Version: [1.7]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ardupilot-log-reader]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 11:43:48] WARNING root fetch - processPackages [unitelabs-connector-framework]: Skipping, unable to determine old version
+[2023-06-14 11:43:48] INFO root fetch - processPackages [unitelabs-connector-framework]: Start processing: pyjls
+[2023-06-14 11:43:48] INFO root fetch - main [MainThread]: End processing [unitelabs-connector-framework] error
+[2023-06-14 11:43:48] INFO root fetch - processPackages [kadaster-kikinzage-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [spacy-llm]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [current-events-magnifier]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [wagtailsnippetscopy]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [conflog]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [anycluster]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [pyjls]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-14 11:43:48] INFO root fetch - processPackages [conflog]: Downloading https://files.pythonhosted.org/packages/7a/1d/b3a303fc818b9fcdb36dca4b11786365f751e812d023259a50c6b501d5f7/conflog-1.2.0.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/3f/55/88723da0edafe287da4af52836bd90f679f69d41ee7897b228896c295ca9/labeltransform2-1.7.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ardupilot-log-reader]: Downloading https://files.pythonhosted.org/packages/6b/7f/75a7e393e1bbbc42a8c08954710a46d82b7adf7eced4b7456c29a532b413/ardupilot_log_reader-0.1.0.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/69/98/595bdf0564f021df1d25e9806d894f3a9801f3fcea6ec3a8f22efba011f8/current_events_magnifier-0.1.6.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/74/9d/590527d3e82972c35ac9926dfd48569d832e233487cda7982bf870ce85f1/spacy-llm-0.2.1.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [kadaster-kikinzage-client]: Downloading https://files.pythonhosted.org/packages/35/0f/5cca70f2cc880093e506c5b906e08a54b7eb1d90c941a6cdc4c3b0e57dc0/kadaster_kikinzage_client-0.1.1.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [pyjls]: Downloading https://files.pythonhosted.org/packages/8e/8b/9789d97eed33bb28f3ee3114aa90fa6d1a8a19accba436c2c273891d44e4/pyjls-0.7.1.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/ad/86/dd193e4b04bab627c9adee0b470cd534c6891c4cc50f95c346958ff2f8c7/anycluster-2.3.2.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [wagtailsnippetscopy]: Downloading https://files.pythonhosted.org/packages/9a/0b/1a974ca0dd43ccfd1d4d216cce86bba64bbd1dc5e11d38206fc972e63d64/wagtailsnippetscopy-0.4.2.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [conflog]: Downloading https://files.pythonhosted.org/packages/f9/47/d5cd9bd12c952122681fd41372408e49a57333d64e077a7eaaa2e47e51f9/conflog-1.3.0.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/23/b6/bf5fb56b720f4ef35635316717ff4ea8998616831b384592068afb89f115/labeltransform2-1.8.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ardupilot-log-reader]: Downloading https://files.pythonhosted.org/packages/01/e8/d06ba4212e703c7ea7ff530cffcc5d6b0909a84ad6275ee3029dcf901e8a/ardupilot_log_reader-0.1.1.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-06-14 11:43:48] INFO root fetch - processPackages [conflog]: executing diffoscope
+[2023-06-14 11:43:48] INFO root fetch - processPackages [conflog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conflog-1.2.0.tar.gz tmp/conflog-1.3.0.tar.gz --markdown 20230614/c/conflog/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-14 11:43:48] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/d4/96/8afaffb3b41f140ba0ca81768d5616155af973119ef58310376227b58a27/spacy-llm-0.3.0.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-14 11:43:48] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.7.tar.gz tmp/labeltransform2-1.8.tar.gz --markdown 20230614/l/labeltransform2/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-14 11:43:48] INFO root fetch - processPackages [kadaster-kikinzage-client]: Downloading https://files.pythonhosted.org/packages/05/d9/c26b85c5aac2e32262fc6a1bd2cfbc72bbea9dd92cd7a5dfe520d5b4dca9/kadaster_kikinzage_client-0.1.2.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [current-events-magnifier]: Downloading https://files.pythonhosted.org/packages/1b/9a/c32868b543637e1c248a9350f5d5ecf081fb36d2dc88f6f849a95986ac56/current_events_magnifier-0.1.7.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/31/81/c635afcc8f1443e99f4d610a56405f4b3685812b91df252b2a3012be9de5/anycluster-2.3.3.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [wagtailsnippetscopy]: Downloading https://files.pythonhosted.org/packages/81/2d/03d25650081d75138a463c26f9fda2d1f63d61ed6683d30ad5cd255ef9b2/wagtailsnippetscopy-0.5.0.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [pyjls]: Downloading https://files.pythonhosted.org/packages/d8/a5/d68779024386e5c520edc956d3a2a64e8d1a985956d839a61c43224698dd/pyjls-0.7.2.tar.gz
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ardupilot-log-reader]: executing diffoscope
+[2023-06-14 11:43:48] INFO root fetch - processPackages [ardupilot-log-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardupilot_log_reader-0.1.0.tar.gz tmp/ardupilot_log_reader-0.1.1.tar.gz --markdown 20230614/a/ardupilot-log-reader/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [spacy-llm]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [spacy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-llm-0.2.1.tar.gz tmp/spacy-llm-0.3.0.tar.gz --markdown 20230614/s/spacy-llm/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [kadaster-kikinzage-client]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [kadaster-kikinzage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kadaster_kikinzage_client-0.1.1.tar.gz tmp/kadaster_kikinzage_client-0.1.2.tar.gz --markdown 20230614/k/kadaster-kikinzage-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [anycluster]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [anycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycluster-2.3.2.tar.gz tmp/anycluster-2.3.3.tar.gz --markdown 20230614/a/anycluster/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [wagtailsnippetscopy]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [wagtailsnippetscopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtailsnippetscopy-0.4.2.tar.gz tmp/wagtailsnippetscopy-0.5.0.tar.gz --markdown 20230614/w/wagtailsnippetscopy/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [pyjls]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [pyjls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjls-0.7.1.tar.gz tmp/pyjls-0.7.2.tar.gz --markdown 20230614/p/pyjls/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [current-events-magnifier]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [current-events-magnifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/current_events_magnifier-0.1.6.tar.gz tmp/current_events_magnifier-0.1.7.tar.gz --markdown 20230614/c/current-events-magnifier/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-14 11:43:49] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/eb/ad/9f5f871fcad9f8cb844bb52b41819c7f2f0813f9ea4390a2c38a5ed6f6b9/mlrun-1.4.0rc9-py3-none-any.whl
+[2023-06-14 11:43:49] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-06-14 11:43:49] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip --markdown 20230614/m/mlrun/1.4.0rc8-1.4.0rc9/diff.md --exclude *.pyd
+[2023-06-14 11:43:51] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.7.tar.gz]
+[2023-06-14 11:43:51] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.8.tar.gz]
+[2023-06-14 11:43:51] INFO root fetch - processPackages [labeltransform2]: Start processing: psat-server-web
+[2023-06-14 11:43:51] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-14 11:43:51] INFO root fetch - processPackages [psat-server-web]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-14 11:43:51] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/1d/25/aaaf9acd413eccd849530b73a4009bc3de450bca70dd3fd36e20f54f6f55/psat-server-web-0.1.3.tar.gz
+[2023-06-14 11:43:51] INFO root fetch - processPackages [conflog]: Remove: archive file [/home/abi/fetcher/tmp/conflog-1.2.0.tar.gz]
+[2023-06-14 11:43:51] INFO root fetch - processPackages [conflog]: Remove: archive file [/home/abi/fetcher/tmp/conflog-1.3.0.tar.gz]
+[2023-06-14 11:43:51] INFO root fetch - processPackages [conflog]: Start processing: flightdata
+[2023-06-14 11:43:51] INFO root fetch - main [MainThread]: End processing [conflog]: success
+[2023-06-14 11:43:51] INFO root fetch - processPackages [flightdata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/de/45/1df405bcf3e440519c9f5e4c178390a44add359e55560db4f3c9b17eaf4b/flightdata-0.1.0.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [ardupilot-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/ardupilot_log_reader-0.1.0.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [ardupilot-log-reader]: Remove: archive file [/home/abi/fetcher/tmp/ardupilot_log_reader-0.1.1.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [ardupilot-log-reader]: Start processing: chainner-ext
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [ardupilot-log-reader]: success
+[2023-06-14 11:43:52] WARNING root fetch - processPackages [chainner-ext]: Skipping, unable to determine old version
+[2023-06-14 11:43:52] INFO root fetch - processPackages [chainner-ext]: Start processing: labeltransform2
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [chainner-ext] error
+[2023-06-14 11:43:52] INFO root fetch - processPackages [kadaster-kikinzage-client]: Remove: archive file [/home/abi/fetcher/tmp/kadaster_kikinzage_client-0.1.1.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [kadaster-kikinzage-client]: Remove: archive file [/home/abi/fetcher/tmp/kadaster_kikinzage_client-0.1.2.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [kadaster-kikinzage-client]: Start processing: image-center
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [kadaster-kikinzage-client]: success
+[2023-06-14 11:43:52] INFO root fetch - processPackages [wagtailsnippetscopy]: Remove: archive file [/home/abi/fetcher/tmp/wagtailsnippetscopy-0.4.2.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [labeltransform2]: New version: [1.8] Old Version: [1.7]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/a7/7d/bda8b8c4fd888125477e986b567bafaace58f62a6433fb7d54a893e0fd0d/psat-server-web-0.1.4.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [wagtailsnippetscopy]: Remove: archive file [/home/abi/fetcher/tmp/wagtailsnippetscopy-0.5.0.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [wagtailsnippetscopy]: Start processing: biom3d
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [wagtailsnippetscopy]: success
+[2023-06-14 11:43:52] INFO root fetch - processPackages [image-center]: New version: [2023.6.14] Old Version: [1.1.2]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [biom3d]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/3f/55/88723da0edafe287da4af52836bd90f679f69d41ee7897b228896c295ca9/labeltransform2-1.7.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.6.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [current-events-magnifier]: Remove: archive file [/home/abi/fetcher/tmp/current_events_magnifier-0.1.7.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [current-events-magnifier]: Start processing: zhousf-lib
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [current-events-magnifier]: success
+[2023-06-14 11:43:52] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/ad/fc/e89c492593ebe7c45328d5cee8018b607fd928abfa47c3292908145848c6/image_center-1.1.2.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [zhousf-lib]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/4f/53/c25cedaf854e7754675041bd48cb20b71dfd8e97dd3d0b8c79f7e87b6a51/biom3d-0.0.7.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/36/57/b5d79961378e9a88b5827cd27cf062f289c9e44ceb8c185295b27b7412da/flightdata-0.1.1.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [psat-server-web]: executing diffoscope
+[2023-06-14 11:43:52] INFO root fetch - processPackages [psat-server-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psat-server-web-0.1.3.tar.gz tmp/psat-server-web-0.1.4.tar.gz --markdown 20230614/p/psat-server-web/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-14 11:43:52] INFO root fetch - processPackages [labeltransform2]: Downloading https://files.pythonhosted.org/packages/23/b6/bf5fb56b720f4ef35635316717ff4ea8998616831b384592068afb89f115/labeltransform2-1.8.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.3.2.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.3.3.tar.gz]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [anycluster]: Start processing: sim4rec
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [anycluster]: success
+[2023-06-14 11:43:52] INFO root fetch - processPackages [flightdata]: executing diffoscope
+[2023-06-14 11:43:52] INFO root fetch - processPackages [flightdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightdata-0.1.0.tar.gz tmp/flightdata-0.1.1.tar.gz --markdown 20230614/f/flightdata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 11:43:52] WARNING root fetch - processPackages [sim4rec]: Skipping, unable to determine old version
+[2023-06-14 11:43:52] INFO root fetch - processPackages [sim4rec]: Start processing: flightanalysis
+[2023-06-14 11:43:52] INFO root fetch - main [MainThread]: End processing [sim4rec] error
+[2023-06-14 11:43:52] INFO root fetch - processPackages [labeltransform2]: executing diffoscope
+[2023-06-14 11:43:52] INFO root fetch - processPackages [labeltransform2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labeltransform2-1.7.tar.gz tmp/labeltransform2-1.8.tar.gz --markdown 20230614/l/labeltransform2/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-14 11:43:52] INFO root fetch - processPackages [flightanalysis]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 11:43:52] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/fc/68/688454258eda9fa4d6e25a1d5a2b9f5a13a2df9e511e44bb79e29f945fc2/zhousf-lib-0.7.2.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [image-center]: Downloading https://files.pythonhosted.org/packages/5e/15/61b41b96872cb4c1a5551f3d7e12a6206311c02c427c7ae68b8b71c9a9ba/image_center-2023.6.14.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/09/7c/9b4dadb4eac4f211c19c0109b39fdce0bd3d7846db75a6549101b07c96ed/flightanalysis-0.1.0.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [image-center]: executing diffoscope
+[2023-06-14 11:43:52] INFO root fetch - processPackages [image-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_center-1.1.2.tar.gz tmp/image_center-2023.6.14.tar.gz --markdown 20230614/i/image-center/1.1.2-2023.6.14/diff.md --exclude *.pyd
+[2023-06-14 11:43:52] INFO root fetch - processPackages [biom3d]: Downloading https://files.pythonhosted.org/packages/b4/8d/1ccb9010d14d8a5e01159e7875fcc6fcdd100db65de19cfb377504cb21be/biom3d-0.0.9.tar.gz
+[2023-06-14 11:43:52] INFO root fetch - processPackages [biom3d]: executing diffoscope
+[2023-06-14 11:43:52] INFO root fetch - processPackages [biom3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biom3d-0.0.7.tar.gz tmp/biom3d-0.0.9.tar.gz --markdown 20230614/b/biom3d/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 11:43:53] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/fa/1d/43ee3d0a096ce2428d736c780d78f9804135c7993d196660c5050eef11f8/flightanalysis-0.1.1.tar.gz
+[2023-06-14 11:43:53] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.2.1.tar.gz]
+[2023-06-14 11:43:53] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.3.0.tar.gz]
+[2023-06-14 11:43:53] INFO root fetch - processPackages [spacy-llm]: Start processing: pytebis
+[2023-06-14 11:43:53] INFO root fetch - main [MainThread]: End processing [spacy-llm]: success
+[2023-06-14 11:43:53] INFO root fetch - processPackages [pytebis]: New version: [0.5.2] Old Version: [0.5.12]
+[2023-06-14 11:43:53] INFO root fetch - processPackages [flightanalysis]: executing diffoscope
+[2023-06-14 11:43:53] INFO root fetch - processPackages [flightanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightanalysis-0.1.0.tar.gz tmp/flightanalysis-0.1.1.tar.gz --markdown 20230614/f/flightanalysis/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 11:43:53] INFO root fetch - processPackages [pytebis]: Downloading https://files.pythonhosted.org/packages/4a/c6/5644334a656ec0896a66be4c20aca6f4ebde6e2de9d2511ade23e59079d1/pytebis-0.5.12.tar.gz
+[2023-06-14 11:43:53] INFO root fetch - processPackages [pytebis]: Downloading https://files.pythonhosted.org/packages/d2/2d/c5ea7c5b9f7fdc3f8f267058aee55b6dcf3327d37534462ea16e6cd71d59/pytebis-0.5.2.tar.gz
+[2023-06-14 11:43:53] INFO root fetch - processPackages [pytebis]: executing diffoscope
+[2023-06-14 11:43:53] INFO root fetch - processPackages [pytebis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytebis-0.5.12.tar.gz tmp/pytebis-0.5.2.tar.gz --markdown 20230614/p/pytebis/0.5.12-0.5.2/diff.md --exclude *.pyd
+[2023-06-14 11:43:53] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/86/a2/dd3c4af33150d8e475e001460563342d5c0258014e871f4f94c8e42ecf8c/zhousf-lib-0.7.3.tar.gz
+[2023-06-14 11:43:54] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.7.tar.gz]
+[2023-06-14 11:43:54] INFO root fetch - processPackages [labeltransform2]: Remove: archive file [/home/abi/fetcher/tmp/labeltransform2-1.8.tar.gz]
+[2023-06-14 11:43:54] INFO root fetch - processPackages [labeltransform2]: Start processing: pdocr-rpc
+[2023-06-14 11:43:54] INFO root fetch - main [MainThread]: End processing [labeltransform2]: success
+[2023-06-14 11:43:54] INFO root fetch - processPackages [pdocr-rpc]: New version: [2023.6.14] Old Version: [2.0.1]
+[2023-06-14 11:43:54] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/c5/97/27053cad53a9de4346c5481cfb231b51e850f2028754b29c56b354453758/pdocr_rpc-2.0.1.tar.gz
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.1.0.tar.gz]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightdata]: Remove: archive file [/home/abi/fetcher/tmp/flightdata-0.1.1.tar.gz]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightdata]: Start processing: flightplotting
+[2023-06-14 11:43:55] INFO root fetch - main [MainThread]: End processing [flightdata]: success
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightplotting]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-14 11:43:55] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.7.2.tar.gz tmp/zhousf-lib-0.7.3.tar.gz --markdown 20230614/z/zhousf-lib/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-14 11:43:55] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-1.1.2.tar.gz]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [image-center]: Remove: archive file [/home/abi/fetcher/tmp/image_center-2023.6.14.tar.gz]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [image-center]: Start processing: odoo14-addon-energy-selfconsumption
+[2023-06-14 11:43:55] INFO root fetch - main [MainThread]: End processing [image-center]: success
+[2023-06-14 11:43:55] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/7e/a6/335ae610828fa0d85a4c87dd44a900bc6301b5411d7ffe6054babd862a8d/pdocr_rpc-2023.6.14.tar.gz
+[2023-06-14 11:43:55] WARNING root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Skipping, unable to determine old version
+[2023-06-14 11:43:55] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Start processing: zhousf-lib
+[2023-06-14 11:43:55] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-selfconsumption] error
+[2023-06-14 11:43:55] INFO root fetch - processPackages [zhousf-lib]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightplotting]: Downloading https://files.pythonhosted.org/packages/0f/75/bea3aa0891c0502aac19a2ad82e5df77017ca9a0671460e3e9648b880b34/flightplotting-0.1.0.tar.gz
+[2023-06-14 11:43:55] INFO root fetch - processPackages [pyjls]: Remove: archive file [/home/abi/fetcher/tmp/pyjls-0.7.1.tar.gz]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [pyjls]: Remove: archive file [/home/abi/fetcher/tmp/pyjls-0.7.2.tar.gz]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2023-06-14 11:43:55] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr_rpc-2.0.1.tar.gz tmp/pdocr_rpc-2023.6.14.tar.gz --markdown 20230614/p/pdocr-rpc/2.0.1-2023.6.14/diff.md --exclude *.pyd
+[2023-06-14 11:43:55] INFO root fetch - processPackages [pyjls]: Start processing: mapchete
+[2023-06-14 11:43:55] INFO root fetch - main [MainThread]: End processing [pyjls]: success
+[2023-06-14 11:43:55] INFO root fetch - processPackages [mapchete]: New version: [2023.6.4] Old Version: [2023.6.3]
+[2023-06-14 11:43:55] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-14 11:43:55] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.7.2.tar.gz tmp/zhousf-lib-0.7.3.tar.gz --markdown 20230614/z/zhousf-lib/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-14 11:43:55] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/0a/f3/bbb8021da5fd92b8c5664117797228cc5ad30f656772953ae0f88229794d/mapchete-2023.6.3.tar.gz
+[2023-06-14 11:43:55] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/63/5b/686c014f6512a628e6451f949653f82ade43bc6399544f78b5def457c5d9/mapchete-2023.6.4.tar.gz
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightplotting]: Downloading https://files.pythonhosted.org/packages/b9/57/db7049033dbf9b0f95be8713b5f52ab5bfa2fb0b89ea716f54190e604241/flightplotting-0.1.1.tar.gz
+[2023-06-14 11:43:55] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2023-06-14 11:43:55] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2023.6.3.tar.gz tmp/mapchete-2023.6.4.tar.gz --markdown 20230614/m/mapchete/2023.6.3-2023.6.4/diff.md --exclude *.pyd
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightplotting]: executing diffoscope
+[2023-06-14 11:43:55] INFO root fetch - processPackages [flightplotting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightplotting-0.1.0.tar.gz tmp/flightplotting-0.1.1.tar.gz --markdown 20230614/f/flightplotting/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-14 11:43:56] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.7.tar.gz]
+[2023-06-14 11:43:56] INFO root fetch - processPackages [biom3d]: Remove: archive file [/home/abi/fetcher/tmp/biom3d-0.0.9.tar.gz]
+[2023-06-14 11:43:56] INFO root fetch - processPackages [biom3d]: Start processing: selis
+[2023-06-14 11:43:56] INFO root fetch - main [MainThread]: End processing [biom3d]: success
+[2023-06-14 11:43:56] INFO root fetch - processPackages [selis]: New version: [1.5] Old Version: [1.3]
+[2023-06-14 11:43:56] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/2e/50/2163d1fe04552a7bb4c601e2e696fced7d6b8941028b1e3395954e741d58/selis-1.3.tar.gz
+[2023-06-14 11:43:56] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/ea/8c/7c0a66c5950dc717050924c7fa18efc06032964a51e920a151f2c6df883d/selis-1.5.tar.gz
+[2023-06-14 11:43:56] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-14 11:43:56] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-1.3.tar.gz tmp/selis-1.5.tar.gz --markdown 20230614/s/selis/1.3-1.5/diff.md --exclude *.pyd
+[2023-06-14 11:43:56] INFO root fetch - processPackages [pytebis]: Remove: archive file [/home/abi/fetcher/tmp/pytebis-0.5.12.tar.gz]
+[2023-06-14 11:43:56] INFO root fetch - processPackages [pytebis]: Remove: archive file [/home/abi/fetcher/tmp/pytebis-0.5.2.tar.gz]
+[2023-06-14 11:43:56] INFO root fetch - processPackages [pytebis]: Start processing: funnylog
+[2023-06-14 11:43:56] INFO root fetch - main [MainThread]: End processing [pytebis]: success
+[2023-06-14 11:43:56] INFO root fetch - processPackages [funnylog]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-14 11:43:57] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.0.tar.gz]
+[2023-06-14 11:43:57] INFO root fetch - processPackages [flightanalysis]: Remove: archive file [/home/abi/fetcher/tmp/flightanalysis-0.1.1.tar.gz]
+[2023-06-14 11:43:57] INFO root fetch - processPackages [flightanalysis]: Start processing: xrpatcher
+[2023-06-14 11:43:57] INFO root fetch - main [MainThread]: End processing [flightanalysis]: success
+[2023-06-14 11:43:57] INFO root fetch - processPackages [funnylog]: Downloading https://files.pythonhosted.org/packages/02/30/2ac3eb5250db39391f2604ed70117c7264407b25edfafc03531710ef4734/funnylog-1.1.2.tar.gz
+[2023-06-14 11:43:57] WARNING root fetch - processPackages [xrpatcher]: Skipping, unable to determine old version
+[2023-06-14 11:43:57] INFO root fetch - main [MainThread]: End processing [xrpatcher] error
+[2023-06-14 11:43:57] INFO root fetch - processPackages [funnylog]: Downloading https://files.pythonhosted.org/packages/13/b9/1b8d801253c2683c5b2b37512acdf94eaccf4add6a992fabbc3f1258391f/funnylog-1.1.3.tar.gz
+[2023-06-14 11:43:57] INFO root fetch - processPackages [funnylog]: executing diffoscope
+[2023-06-14 11:43:57] INFO root fetch - processPackages [funnylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funnylog-1.1.2.tar.gz tmp/funnylog-1.1.3.tar.gz --markdown 20230614/f/funnylog/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-14 11:43:58] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2.0.1.tar.gz]
+[2023-06-14 11:43:58] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2023.6.14.tar.gz]
+[2023-06-14 11:43:58] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2023-06-14 11:43:59] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.3.tar.gz]
+[2023-06-14 11:43:59] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-1.5.tar.gz]
+[2023-06-14 11:43:59] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-14 11:43:59] INFO root fetch - processPackages [flightplotting]: Remove: archive file [/home/abi/fetcher/tmp/flightplotting-0.1.0.tar.gz]
+[2023-06-14 11:43:59] INFO root fetch - processPackages [flightplotting]: Remove: archive file [/home/abi/fetcher/tmp/flightplotting-0.1.1.tar.gz]
+[2023-06-14 11:43:59] INFO root fetch - main [MainThread]: End processing [flightplotting]: success
+[2023-06-14 11:44:00] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2023.6.3.tar.gz]
+[2023-06-14 11:44:00] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2023.6.4.tar.gz]
+[2023-06-14 11:44:00] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2023-06-14 11:44:00] INFO root fetch - processPackages [funnylog]: Remove: archive file [/home/abi/fetcher/tmp/funnylog-1.1.2.tar.gz]
+[2023-06-14 11:44:00] INFO root fetch - processPackages [funnylog]: Remove: archive file [/home/abi/fetcher/tmp/funnylog-1.1.3.tar.gz]
+[2023-06-14 11:44:00] INFO root fetch - main [MainThread]: End processing [funnylog]: success
+[2023-06-14 11:44:00] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.2.tar.gz]
+[2023-06-14 11:44:00] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.7.3.tar.gz]
+[2023-06-14 11:44:00] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-14 11:44:00] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-14 11:44:01] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip]
+[2023-06-14 11:44:01] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
+[2023-06-14 11:44:01] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-06-14 11:44:05] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.1.3.tar.gz]
+[2023-06-14 11:44:05] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.1.4.tar.gz]
+[2023-06-14 11:44:05] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
+[2023-06-14 11:44:05] INFO root fetch - main [MainThread]: Store serial: [18499300]
