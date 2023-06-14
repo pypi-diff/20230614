@@ -14494,3 +14494,87 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 08:22:11] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-7.0.1rc1.tar.gz]
 [2023-06-14 08:22:11] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
 [2023-06-14 08:22:11] INFO root fetch - main [MainThread]: Store serial: [18496935]
+[2023-06-14 08:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496935]
+[2023-06-14 08:27:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-to-s3
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: investor8-sdk
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python3-commons
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packagenil
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: git-dummy
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module-latest
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opengsl
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gladia-torchaudio
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: projectal
+[2023-06-14 08:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsp-tools
+[2023-06-14 08:27:21] WARNING root fetch - processPackages [gladia-torchaudio]: Skipping, unable to determine old version
+[2023-06-14 08:27:21] INFO root fetch - processPackages [gladia-torchaudio]: Start processing: pya2l
+[2023-06-14 08:27:21] INFO root fetch - main [MainThread]: End processing [gladia-torchaudio] error
+[2023-06-14 08:27:21] INFO root fetch - processPackages [projectal]: New version: [4.0.1] Old Version: [3.1.1]
+[2023-06-14 08:27:21] INFO root fetch - processPackages [python3-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 08:27:21] INFO root fetch - processPackages [dsp-tools]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-06-14 08:27:21] WARNING root fetch - processPackages [packagenil]: Skipping, unable to determine old version
+[2023-06-14 08:27:21] INFO root fetch - processPackages [packagenil]: Start processing: mailscrambler
+[2023-06-14 08:27:21] INFO root fetch - main [MainThread]: End processing [packagenil] error
+[2023-06-14 08:27:21] WARNING root fetch - processPackages [opengsl]: Skipping, unable to determine old version
+[2023-06-14 08:27:21] INFO root fetch - main [MainThread]: End processing [opengsl] error
+[2023-06-14 08:27:21] INFO root fetch - processPackages [git-dummy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 08:27:21] INFO root fetch - processPackages [pya2l]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-14 08:27:21] INFO root fetch - processPackages [mongo-to-s3]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-14 08:27:21] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.90] Old Version: [1.1.9]
+[2023-06-14 08:27:22] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230614] Old Version: [20230526]
+[2023-06-14 08:27:22] WARNING root fetch - processPackages [mailscrambler]: Skipping, unable to determine old version
+[2023-06-14 08:27:22] INFO root fetch - main [MainThread]: End processing [mailscrambler] error
+[2023-06-14 08:27:22] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/e1/47/bce97e7b7f029c51614461015e4e7e67b15aa1d08c9f6d2d8c3f7e259616/investor8-sdk-1.1.9.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/3d/47/77e98aabfd51b3e6f8909fb7a515d7978843cd537ee465aaa998ff7ef8ae/python3-commons-0.0.8.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/f6/2d/39550eff6977e738e4d18f5466ea32e1b5d0d3e62f778a41f24843766533/dsp_tools-2.3.2.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/6a/30/058f953b066a1e5ca109d0de8294ee38f158da5c19491e3493084f313b45/projectal-3.1.1.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [mongo-to-s3]: Downloading https://files.pythonhosted.org/packages/5f/8f/db552b6d27c344ee987bc41686ea21ee4a4acab4d8983c5914f959b0c204/mongo_to_s3-0.0.8.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [pya2l]: Downloading https://files.pythonhosted.org/packages/9b/9f/19ff0bb1dd9a6f57a982bbd55d2caf77bc06a5733f653be1318c92cbfaad/pya2l-0.0.1.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/ba/b9/d6d745f4827ef6926eacc4655d71486f27413c0c627ece36048e7834be3b/fake-bpy-module-latest-20230526.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [git-dummy]: Downloading https://files.pythonhosted.org/packages/5a/1e/ff2a121f21d661971851b38623dd861bce1b606fa24e67284b1ff54907cd/git-dummy-0.0.7.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/74/ee/7d3fb8017aebe1ad0ab7c913eb0aaefda577aa0cd57db770f561c3f6d484/dsp_tools-2.3.3.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [mongo-to-s3]: Downloading https://files.pythonhosted.org/packages/61/59/9e4ecdbdf998894100a9dc4476bf728f9a6f84dbdd4dd14284ca59808194/mongo_to_s3-0.0.9.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/e3/7b/08af1edd2c749761529c5cd187be7f29aae98c0e36ed0d403bad22c51458/investor8-sdk-1.1.90.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/40/1f/33ce3b41bcf5ac955a6b96649ba21cbf3774d4714e4b62c44cedf8c8d09f/projectal-4.0.1.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [pya2l]: Downloading https://files.pythonhosted.org/packages/ad/d6/91b639b2d632d6cbced2142cbefc1fb612d2c894f7676c84a470102c0740/pya2l-0.0.2.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [python3-commons]: Downloading https://files.pythonhosted.org/packages/5f/f3/d875107dc7e55fe5a35509025413eff64f7d978dbceb19982e18ba1a5ca3/python3-commons-0.0.9.tar.gz
+[2023-06-14 08:27:22] WARNING root fetch - processPackages [pya2l]: Skipping package: exceeds size limit 18237531>=10485760
+[2023-06-14 08:27:22] INFO root fetch - main [MainThread]: End processing [pya2l] error
+[2023-06-14 08:27:22] INFO root fetch - processPackages [mongo-to-s3]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5e/53/72bd4d892e9a9562fee15fcc00d70da29fe9deff12bb6671db312b480183/fake-bpy-module-latest-20230614.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [mongo-to-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_to_s3-0.0.8.tar.gz tmp/mongo_to_s3-0.0.9.tar.gz --markdown 20230614/m/mongo-to-s3/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:27:22] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-2.3.2.tar.gz tmp/dsp_tools-2.3.3.tar.gz --markdown 20230614/d/dsp-tools/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-06-14 08:27:22] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.9.tar.gz tmp/investor8-sdk-1.1.90.tar.gz --markdown 20230614/i/investor8-sdk/1.1.9-1.1.90/diff.md --exclude *.pyd
+[2023-06-14 08:27:22] INFO root fetch - processPackages [git-dummy]: Downloading https://files.pythonhosted.org/packages/e7/90/8d78fdf0ed527ca4f20291b21a4d8636933bab6e532f258a4767fd289374/git-dummy-0.0.8.tar.gz
+[2023-06-14 08:27:22] INFO root fetch - processPackages [python3-commons]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [python3-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-commons-0.0.8.tar.gz tmp/python3-commons-0.0.9.tar.gz --markdown 20230614/p/python3-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-14 08:27:22] INFO root fetch - processPackages [projectal]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [projectal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectal-3.1.1.tar.gz tmp/projectal-4.0.1.tar.gz --markdown 20230614/p/projectal/3.1.1-4.0.1/diff.md --exclude *.pyd
+[2023-06-14 08:27:22] INFO root fetch - processPackages [git-dummy]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-06-14 08:27:22] INFO root fetch - processPackages [git-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-dummy-0.0.7.tar.gz tmp/git-dummy-0.0.8.tar.gz --markdown 20230614/g/git-dummy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 08:27:22] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230526.tar.gz tmp/fake-bpy-module-latest-20230614.tar.gz --markdown 20230614/f/fake-bpy-module-latest/20230526-20230614/diff.md --exclude *.pyd
+[2023-06-14 08:27:23] INFO root fetch - processPackages [mongo-to-s3]: Remove: archive file [/home/abi/fetcher/tmp/mongo_to_s3-0.0.8.tar.gz]
+[2023-06-14 08:27:23] INFO root fetch - processPackages [mongo-to-s3]: Remove: archive file [/home/abi/fetcher/tmp/mongo_to_s3-0.0.9.tar.gz]
+[2023-06-14 08:27:23] INFO root fetch - main [MainThread]: End processing [mongo-to-s3]: success
+[2023-06-14 08:27:24] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.8.tar.gz]
+[2023-06-14 08:27:24] INFO root fetch - processPackages [python3-commons]: Remove: archive file [/home/abi/fetcher/tmp/python3-commons-0.0.9.tar.gz]
+[2023-06-14 08:27:24] INFO root fetch - main [MainThread]: End processing [python3-commons]: success
+[2023-06-14 08:27:24] INFO root fetch - processPackages [git-dummy]: Remove: archive file [/home/abi/fetcher/tmp/git-dummy-0.0.7.tar.gz]
+[2023-06-14 08:27:24] INFO root fetch - processPackages [git-dummy]: Remove: archive file [/home/abi/fetcher/tmp/git-dummy-0.0.8.tar.gz]
+[2023-06-14 08:27:24] INFO root fetch - main [MainThread]: End processing [git-dummy]: success
+[2023-06-14 08:27:26] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-3.1.1.tar.gz]
+[2023-06-14 08:27:26] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.0.1.tar.gz]
+[2023-06-14 08:27:26] INFO root fetch - main [MainThread]: End processing [projectal]: success
+[2023-06-14 08:27:28] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.9.tar.gz]
+[2023-06-14 08:27:28] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.90.tar.gz]
+[2023-06-14 08:27:28] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-14 08:27:34] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230526.tar.gz]
+[2023-06-14 08:27:34] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230614.tar.gz]
+[2023-06-14 08:27:34] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-06-14 08:28:18] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-2.3.2.tar.gz]
+[2023-06-14 08:28:18] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-2.3.3.tar.gz]
+[2023-06-14 08:28:18] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2023-06-14 08:28:18] INFO root fetch - main [MainThread]: Store serial: [18496979]
