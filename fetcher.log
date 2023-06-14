@@ -21912,3 +21912,161 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:22:32] INFO root fetch - processPackages [spatial-moto]: Remove: archive file [/home/abi/fetcher/tmp/spatial-moto-0.0.2.tar.gz]
 [2023-06-14 13:22:32] INFO root fetch - main [MainThread]: End processing [spatial-moto]: success
 [2023-06-14 13:22:32] INFO root fetch - main [MainThread]: Store serial: [18500344]
+[2023-06-14 13:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500344]
+[2023-06-14 13:27:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydis-core
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-tweet-queue
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcai-worker-sdk-media
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scsd
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: canarytrap
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-private-bucket
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: talk-codebase
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-testing-platform
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-chat-backend
+[2023-06-14 13:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: async-chat-front
+[2023-06-14 13:27:41] WARNING root fetch - processPackages [async-chat-backend]: Skipping, unable to determine old version
+[2023-06-14 13:27:41] INFO root fetch - processPackages [async-chat-backend]: Start processing: broadcast-service
+[2023-06-14 13:27:41] INFO root fetch - main [MainThread]: End processing [async-chat-backend] error
+[2023-06-14 13:27:41] WARNING root fetch - processPackages [async-chat-front]: Skipping, unable to determine old version
+[2023-06-14 13:27:41] INFO root fetch - processPackages [async-chat-front]: Start processing: torchserve-nightly
+[2023-06-14 13:27:41] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-14 13:27:41] INFO root fetch - main [MainThread]: End processing [async-chat-front] error
+[2023-06-14 13:27:41] INFO root fetch - processPackages [canarytrap]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [talk-codebase]: New version: [0.1.29] Old Version: [0.1.28]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [mcai-worker-sdk-media]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [scsd]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [pydis-core]: New version: [9.8.0] Old Version: [9.7.0]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/96/72/3873f61205a670ef64026d8c85eb0e7d8a7b4e86ca0247737d78a12e900d/raga-testing-platform-1.0.3.tar.gz
+[2023-06-14 13:27:41] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/f0/47/7cccb5ccfbbf86601e4210dfbfca2e25518aeea2b8e9ab8495cf7302eeec/talk_codebase-0.1.28.tar.gz
+[2023-06-14 13:27:41] INFO root fetch - processPackages [broadcast-service]: New version: [2.0.0] Old Version: [1.3.1]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 13:27:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-14 13:27:41] INFO root fetch - processPackages [canarytrap]: Downloading https://files.pythonhosted.org/packages/71/36/c43eae622f1f8dab7a9d7a71def257745acddc042345e49905073c96d93b/canarytrap-1.0.0.tar.gz
+[2023-06-14 13:27:41] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/ac/17/337cb25f0f71ec432dbb4bf39eed6d2a4dafd21d01d2144a5cb8372c5985/scsd-0.0.7.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-14 13:27:42] INFO root fetch - processPackages [mcai-worker-sdk-media]: Downloading https://files.pythonhosted.org/packages/17/19/6f4164f245f308664de5e42792e9e12879bcc2a864f17d2e3c27be0feb5f/mcai_worker_sdk_media-2.0.0rc8.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/fe/61/03cc09bf17511c40989698d885c94d3893765f6600d0aef327add593b44a/pydis_core-9.7.0.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/af/6892d1f490e1370709cef61ce037eda940f82f46f3761158b87e0988a9e8/raga-testing-platform-1.0.4.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [scsd]: Downloading https://files.pythonhosted.org/packages/73/23/a235ab52743256110c9399a7cd5232cd00d2be18aa57ea724b20fde057b3/scsd-0.0.8.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-14 13:27:42] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-06-14 13:27:42] INFO root fetch - processPackages [canarytrap]: Downloading https://files.pythonhosted.org/packages/07/33/9a6e7ad9b76f8c050d45bd07f16abd18345e9eb8e0d3fbb1f52361ce0746/canarytrap-1.0.1.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-14 13:27:42] INFO root fetch - processPackages [broadcast-service]: Downloading https://files.pythonhosted.org/packages/d0/c1/e05faa1034e7f86f358117d85701cc326a9e75ae8e50a806433cac44b70e/broadcast_service-1.3.1.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 13:27:42] INFO root fetch - processPackages [talk-codebase]: Downloading https://files.pythonhosted.org/packages/6c/80/2062bffa239ec9823a87b88d8007858bc519d29451fed50ccd20d8b50a32/talk_codebase-0.1.29.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [scsd]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [scsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scsd-0.0.7.tar.gz tmp/scsd-0.0.8.tar.gz --markdown 20230614/s/scsd/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230614/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [canarytrap]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [canarytrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canarytrap-1.0.0.tar.gz tmp/canarytrap-1.0.1.tar.gz --markdown 20230614/c/canarytrap/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-14 13:27:42] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.3.tar.gz tmp/raga-testing-platform-1.0.4.tar.gz --markdown 20230614/r/raga-testing-platform/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [talk-codebase]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [talk-codebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talk_codebase-0.1.28.tar.gz tmp/talk_codebase-0.1.29.tar.gz --markdown 20230614/t/talk-codebase/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230614/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pydis-core]: Downloading https://files.pythonhosted.org/packages/32/4a/56bbf2490068bddd7b1629ebd0035c022f8c743e3a2041c087eabcd6fa4d/pydis_core-9.8.0.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-14 13:27:42] INFO root fetch - processPackages [broadcast-service]: Downloading https://files.pythonhosted.org/packages/61/ff/746a9078193ec9f27ea383c4ff6169303536b57a0708681d106c2ee554d9/broadcast_service-2.0.0.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230614/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [mcai-worker-sdk-media]: Downloading https://files.pythonhosted.org/packages/7c/3b/c7a15eb86a16e71b36fd1f72ff113e5922cb0a5a1e1525ec938de12ecfa5/mcai_worker_sdk_media-2.0.0rc9.tar.gz
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pydis-core]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [pydis-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydis_core-9.7.0.tar.gz tmp/pydis_core-9.8.0.tar.gz --markdown 20230614/p/pydis-core/9.7.0-9.8.0/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [broadcast-service]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [broadcast-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broadcast_service-1.3.1.tar.gz tmp/broadcast_service-2.0.0.tar.gz --markdown 20230614/b/broadcast-service/1.3.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-14 13:27:42] INFO root fetch - processPackages [mcai-worker-sdk-media]: executing diffoscope
+[2023-06-14 13:27:42] INFO root fetch - processPackages [mcai-worker-sdk-media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcai_worker_sdk_media-2.0.0rc8.tar.gz tmp/mcai_worker_sdk_media-2.0.0rc9.tar.gz --markdown 20230614/m/mcai-worker-sdk-media/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-14 13:27:45] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.28.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [talk-codebase]: Remove: archive file [/home/abi/fetcher/tmp/talk_codebase-0.1.29.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [talk-codebase]: Start processing: torch-workflow-archiver-nightly
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [talk-codebase]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: spatial-moto
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-14 13:27:45] INFO root fetch - processPackages [spatial-moto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.7.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [scsd]: Remove: archive file [/home/abi/fetcher/tmp/scsd-0.0.8.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [scsd]: Start processing: archbuilder
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [scsd]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [spatial-moto]: Downloading https://files.pythonhosted.org/packages/97/1e/0545374c0de7d4a93e2afef4ae6e426f8d139ccdf5d537485793b50b210d/spatial-moto-0.0.2.tar.gz
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-14 13:27:45] INFO root fetch - processPackages [canarytrap]: Remove: archive file [/home/abi/fetcher/tmp/canarytrap-1.0.0.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [canarytrap]: Remove: archive file [/home/abi/fetcher/tmp/canarytrap-1.0.1.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [canarytrap]: Start processing: dbis-functional-dependencies
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [canarytrap]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: pyjava
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [archbuilder]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [dbis-functional-dependencies]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pyjava]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-14 13:27:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230614/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-14 13:27:45] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.3.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.4.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [raga-testing-platform]: Start processing: aicli
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [spatial-moto]: Downloading https://files.pythonhosted.org/packages/e7/ab/c5a97bb5f1716aca2369a5b16da61831cbb0d68dee94b4c86cd6eefcb320/spatial-moto-0.0.3.tar.gz
+[2023-06-14 13:27:45] INFO root fetch - processPackages [aicli]: New version: [99.0.202306141127] Old Version: [99.0.202306121925]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [archbuilder]: Downloading https://files.pythonhosted.org/packages/af/65/f5a288110465661bbfc8dd59718c14d598b0e55305a85836bba48aa9deb7/archbuilder-0.1.1.tar.gz
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.7.0.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pydis-core]: Remove: archive file [/home/abi/fetcher/tmp/pydis_core-9.8.0.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [pydis-core]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/b1/d7/a8126fa8fd8e8d6f112931f016db82f6fbcd3bffbe37e50fdd6cc2aced3e/pyjava-0.4.0.tar.gz
+[2023-06-14 13:27:45] INFO root fetch - processPackages [dbis-functional-dependencies]: Downloading https://files.pythonhosted.org/packages/b7/c4/41648e954bd8c578c2e72f18b0f1a065fd27d8b18150baab32bca8c1266c/dbis-functional-dependencies-0.0.5.tar.gz
+[2023-06-14 13:27:45] INFO root fetch - processPackages [spatial-moto]: executing diffoscope
+[2023-06-14 13:27:45] INFO root fetch - processPackages [spatial-moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatial-moto-0.0.2.tar.gz tmp/spatial-moto-0.0.3.tar.gz --markdown 20230614/s/spatial-moto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-14 13:27:45] INFO root fetch - processPackages [broadcast-service]: Remove: archive file [/home/abi/fetcher/tmp/broadcast_service-1.3.1.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - processPackages [broadcast-service]: Remove: archive file [/home/abi/fetcher/tmp/broadcast_service-2.0.0.tar.gz]
+[2023-06-14 13:27:45] INFO root fetch - main [MainThread]: End processing [broadcast-service]: success
+[2023-06-14 13:27:45] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/21/c8/f3f039099f7c50c2e996d0e3da1f375fae0a323dc4081482303f2cb35e37/aicli-99.0.202306121925-py3-none-any.whl
+[2023-06-14 13:27:45] INFO root fetch - processPackages [archbuilder]: Downloading https://files.pythonhosted.org/packages/78/c4/a476e65b4cab10c155db023fa9aae23355d163d3b4a23c8a8e6bee94514b/archbuilder-0.1.3.tar.gz
+[2023-06-14 13:27:46] INFO root fetch - processPackages [archbuilder]: executing diffoscope
+[2023-06-14 13:27:46] INFO root fetch - processPackages [archbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archbuilder-0.1.1.tar.gz tmp/archbuilder-0.1.3.tar.gz --markdown 20230614/a/archbuilder/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-14 13:27:46] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/b3/d4/b859d5e19fd08e7418eaf721d9d01ab8ec6ab955a1eee5651bebc72318b3/pyjava-0.5.0.tar.gz
+[2023-06-14 13:27:46] INFO root fetch - processPackages [aicli]: Downloading https://files.pythonhosted.org/packages/9b/31/4c0e85460e8f6f5f07004b1d34428d969dece2601e8156f0e7c02dc8c30a/aicli-99.0.202306141127-py3-none-any.whl
+[2023-06-14 13:27:46] INFO root fetch - processPackages [mcai-worker-sdk-media]: Remove: archive file [/home/abi/fetcher/tmp/mcai_worker_sdk_media-2.0.0rc8.tar.gz]
+[2023-06-14 13:27:46] INFO root fetch - processPackages [mcai-worker-sdk-media]: Remove: archive file [/home/abi/fetcher/tmp/mcai_worker_sdk_media-2.0.0rc9.tar.gz]
+[2023-06-14 13:27:46] INFO root fetch - main [MainThread]: End processing [mcai-worker-sdk-media]: success
+[2023-06-14 13:27:46] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-06-14 13:27:46] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.4.0.tar.gz tmp/pyjava-0.5.0.tar.gz --markdown 20230614/p/pyjava/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-14 13:27:46] INFO root fetch - processPackages [aicli]: executing diffoscope
+[2023-06-14 13:27:46] INFO root fetch - processPackages [aicli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicli-99.0.202306121925-py3-none-any.whl.zip tmp/aicli-99.0.202306141127-py3-none-any.whl.zip --markdown 20230614/a/aicli/99.0.202306121925-99.0.202306141127/diff.md --exclude *.pyd
+[2023-06-14 13:27:46] INFO root fetch - processPackages [dbis-functional-dependencies]: Downloading https://files.pythonhosted.org/packages/78/20/97854d85c8e5cefe85779a7f7d2e68e37b1eba78d6cd0329ea9255146d3c/dbis-functional-dependencies-0.0.7.tar.gz
+[2023-06-14 13:27:46] INFO root fetch - processPackages [dbis-functional-dependencies]: executing diffoscope
+[2023-06-14 13:27:46] INFO root fetch - processPackages [dbis-functional-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-functional-dependencies-0.0.5.tar.gz tmp/dbis-functional-dependencies-0.0.7.tar.gz --markdown 20230614/d/dbis-functional-dependencies/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 13:27:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-14 13:27:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-14 13:27:47] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-14 13:27:48] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.4.0.tar.gz]
+[2023-06-14 13:27:48] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.5.0.tar.gz]
+[2023-06-14 13:27:48] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-06-14 13:27:48] INFO root fetch - processPackages [archbuilder]: Remove: archive file [/home/abi/fetcher/tmp/archbuilder-0.1.1.tar.gz]
+[2023-06-14 13:27:48] INFO root fetch - processPackages [archbuilder]: Remove: archive file [/home/abi/fetcher/tmp/archbuilder-0.1.3.tar.gz]
+[2023-06-14 13:27:48] INFO root fetch - main [MainThread]: End processing [archbuilder]: success
+[2023-06-14 13:27:48] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202306121925-py3-none-any.whl.zip]
+[2023-06-14 13:27:48] INFO root fetch - processPackages [aicli]: Remove: archive file [/home/abi/fetcher/tmp/aicli-99.0.202306141127-py3-none-any.whl.zip]
+[2023-06-14 13:27:48] INFO root fetch - main [MainThread]: End processing [aicli]: success
+[2023-06-14 13:27:48] INFO root fetch - processPackages [dbis-functional-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/dbis-functional-dependencies-0.0.5.tar.gz]
+[2023-06-14 13:27:48] INFO root fetch - processPackages [dbis-functional-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/dbis-functional-dependencies-0.0.7.tar.gz]
+[2023-06-14 13:27:48] INFO root fetch - main [MainThread]: End processing [dbis-functional-dependencies]: success
+[2023-06-14 13:27:49] INFO root fetch - processPackages [spatial-moto]: Remove: archive file [/home/abi/fetcher/tmp/spatial-moto-0.0.2.tar.gz]
+[2023-06-14 13:27:49] INFO root fetch - processPackages [spatial-moto]: Remove: archive file [/home/abi/fetcher/tmp/spatial-moto-0.0.3.tar.gz]
+[2023-06-14 13:27:49] INFO root fetch - main [MainThread]: End processing [spatial-moto]: success
+[2023-06-14 13:27:49] INFO root fetch - main [MainThread]: Store serial: [18500431]
