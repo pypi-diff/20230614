@@ -13609,3 +13609,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-14 07:33:31] INFO root fetch - processPackages [tungstenkit]: Remove: archive file [/home/abi/fetcher/tmp/tungstenkit-0.1.0.tar.gz]
 [2023-06-14 07:33:31] INFO root fetch - main [MainThread]: End processing [tungstenkit]: success
 [2023-06-14 07:33:31] INFO root fetch - main [MainThread]: Store serial: [18496605]
+[2023-06-14 07:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18496605]
+[2023-06-14 07:38:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mykit
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: request-time-tracker
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neuroshape
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-web-offline-warning
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metacountregressor
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoxx
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-core
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-web-notify
+[2023-06-14 07:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-web-notify
+[2023-06-14 07:38:41] INFO root fetch - processPackages [autoxx]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.3.1] Old Version: [0.0.4.3]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [mykit]: New version: [2.0.1] Old Version: [2.0.0rc3]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: New version: [8.0.1.0.0.99.dev8] Old Version: [8.0.1.0.0.99.dev7]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [request-time-tracker]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo14-addon-web-notify]: New version: [14.0.1.0.2.dev6] Old Version: [14.0.1.0.2.dev5]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [spaceone-core]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-06-14 07:38:41] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/e5/a4/b61b0217e3433f33970503921be6c01117741e27b92f3250ad570b9d471c/autoxx-0.0.30.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/1f/6d/5cbc0264b2c1dd5f3ae609e7b61b5c5c8d54710e85e098c13db4552af976/spaceone_core-1.9.7.1-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/1c/21/17f6874490c31d7499bd086b94c5c0c4f213a617577d5f498e8d3bc4987f/metacountregressor-0.1.8-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/08/7e/83049707bc399a535974235e57dfcdc89ea4ecdbbc9f5b0e852b8bc2ce4e/mykit-2.0.0rc3.tar.gz
+[2023-06-14 07:38:41] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13883266>=10485760
+[2023-06-14 07:38:41] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-14 07:38:41] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/55/2b/74bf12369cc72866a94768c03c01805c700d1850abd59740a5b13d60e891/request-time-tracker-0.0.6.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo14-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/3e/f0/e685d0fe04938449f64a9390772fe17b6ba3a7610eb6cefbc2b20ae84efd/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/ec/18/d659e8fb1b21b72e48ec254f38537d8a0cf482000d64802115ad79d51800/neuroshape-0.0.4.3.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/d5/06/a8c2f1c57bb262dd7e663341e0bb1d92e936a0d1ae4e3f8cb69994ba38a0/odoo_addon_web_notify-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: Downloading https://files.pythonhosted.org/packages/ca/e3/74080eb13ce289c0fc6f551088307489b2f81f7faa431739d0a387ff31ce/odoo8_addon_web_offline_warning-8.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [autoxx]: Downloading https://files.pythonhosted.org/packages/28/26/56b56f56e33ba954e7c8da9e43d7527df45d604f6f59fa40a224d7fa60ba/autoxx-0.0.31.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/2f/7f/98bd3e0e1e14ec1a59e8d305c033978db48833658a8f1754c0458e77a3c4/spaceone_core-1.9.7rc1-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [mykit]: Downloading https://files.pythonhosted.org/packages/88/e4/8b88658153c0c7b62d06362625bb3ab228b183a04ccb96d371e7d9a99b04/mykit-2.0.1.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [request-time-tracker]: Downloading https://files.pythonhosted.org/packages/25/45/a86a985f8c1e3cb63fe3f456e23f49e57e0a50a44a23544686436b6adec5/request-time-tracker-0.0.7.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip --markdown 20230614/s/spaceone-core/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-06-14 07:38:41] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/6e/23/3033c12bcc52378fa4f8dee233e5ec9e93c5d34f658532c5e2f1a5c12c83/neuroshape-0.0.4.3.1.tar.gz
+[2023-06-14 07:38:41] INFO root fetch - processPackages [autoxx]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [autoxx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoxx-0.0.30.tar.gz tmp/autoxx-0.0.31.tar.gz --markdown 20230614/a/autoxx/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-06-14 07:38:41] INFO root fetch - processPackages [mykit]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [mykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mykit-2.0.0rc3.tar.gz tmp/mykit-2.0.1.tar.gz --markdown 20230614/m/mykit/2.0.0rc3-2.0.1/diff.md --exclude *.pyd
+[2023-06-14 07:38:41] INFO root fetch - processPackages [request-time-tracker]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [request-time-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-time-tracker-0.0.6.tar.gz tmp/request-time-tracker-0.0.7.tar.gz --markdown 20230614/r/request-time-tracker/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/65/1c/f1461c03e5a7420ef149678adb4deddb99c557f1dd6f61359a46a1ffae79/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo14-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/8e/ec/de686ea5ec5ec0fd05b008bf677cb9931ccc212c5376d2555de474245467/odoo14_addon_web_notify-14.0.1.0.2.dev6-py3-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.3.tar.gz tmp/neuroshape-0.0.4.3.1.tar.gz --markdown 20230614/n/neuroshape/0.0.4.3-0.0.4.3.1/diff.md --exclude *.pyd
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: Downloading https://files.pythonhosted.org/packages/0d/1e/c06202b83c6f3e1970377f5f9da8fb9ff41a4d97ba36844cb9e024d5a894/odoo8_addon_web_offline_warning-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230614/o/odoo-addon-web-notify/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo14-addon-web-notify]: executing diffoscope
+[2023-06-14 07:38:41] INFO root fetch - processPackages [odoo14-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_web_notify-14.0.1.0.2.dev6-py3-none-any.whl.zip --markdown 20230614/o/odoo14-addon-web-notify/14.0.1.0.2.dev5-14.0.1.0.2.dev6/diff.md --exclude *.pyd
+[2023-06-14 07:38:42] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: executing diffoscope
+[2023-06-14 07:38:42] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_web_offline_warning-8.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo8_addon_web_offline_warning-8.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230614/o/odoo8-addon-web-offline-warning/8.0.1.0.0.99.dev7-8.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-14 07:38:43] INFO root fetch - processPackages [request-time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/request-time-tracker-0.0.6.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [request-time-tracker]: Remove: archive file [/home/abi/fetcher/tmp/request-time-tracker-0.0.7.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [request-time-tracker]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [odoo14-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_notify-14.0.1.0.2.dev6-py3-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-notify]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.3.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.3.1.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7.1-py3-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone_core-1.9.7rc1-py3-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_web_offline_warning-8.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [odoo8-addon-web-offline-warning]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_web_offline_warning-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [odoo8-addon-web-offline-warning]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.30.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [autoxx]: Remove: archive file [/home/abi/fetcher/tmp/autoxx-0.0.31.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [autoxx]: success
+[2023-06-14 07:38:43] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.0rc3.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - processPackages [mykit]: Remove: archive file [/home/abi/fetcher/tmp/mykit-2.0.1.tar.gz]
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: End processing [mykit]: success
+[2023-06-14 07:38:43] INFO root fetch - main [MainThread]: Store serial: [18496627]
