@@ -22217,3 +22217,101 @@ AssertionError: tmp/betweens-1.2.1rc3.tar.gz does not exist
 [2023-06-14 13:33:38] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11125-py2.py3-none-any.whl.zip]
 [2023-06-14 13:33:38] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-06-14 13:33:38] INFO root fetch - main [MainThread]: Store serial: [18500483]
+[2023-06-14 13:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18500483]
+[2023-06-14 13:38:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cli-command-parser
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-habana
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypylon
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rustregression
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taranis-ng-shared
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bs-admin-utils
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xturing
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfeats
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyre-check-nightly
+[2023-06-14 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-nano
+[2023-06-14 13:38:48] INFO root fetch - processPackages [lightning-habana]: New version: [1.0.0rc1] Old Version: [1.0.0rc0]
+[2023-06-14 13:38:48] INFO root fetch - processPackages [cli-command-parser]: New version: [2023.6.14] Old Version: [2023.5.8]
+[2023-06-14 13:38:48] WARNING root fetch - processPackages [rustregression]: Skipping, unable to determine old version
+[2023-06-14 13:38:48] INFO root fetch - processPackages [rustregression]: Start processing: logni
+[2023-06-14 13:38:48] INFO root fetch - processPackages [taranis-ng-shared]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-14 13:38:48] INFO root fetch - main [MainThread]: End processing [rustregression] error
+[2023-06-14 13:38:48] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pyfeats]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pypylon]: New version: [2.2.0rc2] Old Version: [2.2.0rc1]
+[2023-06-14 13:38:48] INFO root fetch - processPackages [xturing]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-14 13:38:48] WARNING root fetch - processPackages [logni]: Skipping, unable to determine old version
+[2023-06-14 13:38:48] INFO root fetch - processPackages [logni]: Start processing: paytring
+[2023-06-14 13:38:48] INFO root fetch - main [MainThread]: End processing [logni] error
+[2023-06-14 13:38:48] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230614] Old Version: [2.4.0b20230613]
+[2023-06-14 13:38:48] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/55/2b/6d7a9667df023a1250cede9fc8ce10ae5b629f11106e5030b2cd207d9251/bs_admin_utils-1.0.7.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [xturing]: Downloading https://files.pythonhosted.org/packages/1d/e9/037b60e985f0947097495bef3b5c5b643b3107e9aa66e8506a56391f0919/xturing-0.1.4.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101686741063] Old Version: [0.0.101686654775]
+[2023-06-14 13:38:48] WARNING root fetch - processPackages [paytring]: Skipping, unable to determine old version
+[2023-06-14 13:38:48] INFO root fetch - processPackages [paytring]: Start processing: rubpy
+[2023-06-14 13:38:48] INFO root fetch - main [MainThread]: End processing [paytring] error
+[2023-06-14 13:38:48] INFO root fetch - processPackages [rubpy]: New version: [6.1.9] Old Version: [6.1.8]
+[2023-06-14 13:38:48] INFO root fetch - processPackages [lightning-habana]: Downloading https://files.pythonhosted.org/packages/36/94/b3a622b79e2cbfc58628fb539e7401dc0e36bdb1a9aaccec8c7ef8ad0f91/lightning-habana-1.0.0rc0.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [taranis-ng-shared]: Downloading https://files.pythonhosted.org/packages/8a/13/092637efe2e98f93c5afba38bc4f8bac3fa4f0ef433e7166ffbc79549844/taranis_ng_shared-0.1.7.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pyfeats]: Downloading https://files.pythonhosted.org/packages/5b/f1/4b942c6f424621d9de9e5d34fe347189c48ea26f264d6e0f07b51056f89b/pyfeats-1.0.0.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pypylon]: Downloading https://files.pythonhosted.org/packages/a5/95/4922ede56e20dfd5a2a3303161a309e9ad977286e34313b96977dab6dcc2/pypylon-2.2.0rc1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2023-06-14 13:38:48] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/10/48/2b27aa422b6f0dbb99734a5f88529d39c4c21e3f4d10632cabaa8bec532f/cli_command_parser-2023.5.8.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/32/f7/0007d0baf65e4ee6c52f94cd20bd5220d0b1b88049c1837c2dcda70e58ac/bigdl_nano-2.4.0b20230613-py3-none-win_amd64.whl
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/14/1c/bc6c207d93b38cc2767248961344aa97cee189795b1980ae4f859db6547b/pyre-check-nightly-0.0.101686654775.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [xturing]: Downloading https://files.pythonhosted.org/packages/52/8e/27d63640b7f0ebd78ad558aa3565193c6383bbf5babca5fa247992ff60e9/xturing-0.1.5.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/24/63/9faac02fd7f8ea1250a8dc240103c36f95131762ae8b619de56366271374/bs_admin_utils-1.0.8.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/25/f0/3c70ab0c89288f6f594dfc6c6b265026e1d53e4545f025d4c950aa9ba02b/rubpy-6.1.8.tar.gz
+[2023-06-14 13:38:48] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23501255>=10485760
+[2023-06-14 13:38:48] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-14 13:38:48] INFO root fetch - processPackages [taranis-ng-shared]: Downloading https://files.pythonhosted.org/packages/bc/b4/7c080e2cfa539f248b14197031051ca65ce7f3a3042e0f4d1751eba6d2cf/taranis_ng_shared-0.1.8.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [xturing]: executing diffoscope
+[2023-06-14 13:38:48] INFO root fetch - processPackages [xturing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xturing-0.1.4.tar.gz tmp/xturing-0.1.5.tar.gz --markdown 20230614/x/xturing/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-14 13:38:48] INFO root fetch - processPackages [lightning-habana]: Downloading https://files.pythonhosted.org/packages/c7/2e/fd3b984c6a9497c434dcfaac3881f3f26b4d5392729eeb69801e39a3cf60/lightning-habana-1.0.0rc1.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [pyfeats]: Downloading https://files.pythonhosted.org/packages/f6/4e/c70797fa5e47bd89438d97b587e747017292255c0c9ffddcb5375f085593/pyfeats-1.0.1.tar.gz
+[2023-06-14 13:38:48] INFO root fetch - processPackages [taranis-ng-shared]: executing diffoscope
+[2023-06-14 13:38:48] INFO root fetch - processPackages [taranis-ng-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taranis_ng_shared-0.1.7.tar.gz tmp/taranis_ng_shared-0.1.8.tar.gz --markdown 20230614/t/taranis-ng-shared/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-14 13:38:49] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5d/86/e4945cad23be0a4967e8ce026662608c3efdbfd485c217322df21e0af0b5/bigdl_nano-2.4.0b20230614-py3-none-win_amd64.whl
+[2023-06-14 13:38:49] INFO root fetch - processPackages [cli-command-parser]: Downloading https://files.pythonhosted.org/packages/2c/79/8a30c7721c9f854db0fd3b6785d9c7497ff838dddcbd0bed42d02233d4b2/cli_command_parser-2023.6.14.tar.gz
+[2023-06-14 13:38:49] INFO root fetch - processPackages [pyfeats]: executing diffoscope
+[2023-06-14 13:38:49] INFO root fetch - processPackages [pyfeats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfeats-1.0.0.tar.gz tmp/pyfeats-1.0.1.tar.gz --markdown 20230614/p/pyfeats/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-14 13:38:49] INFO root fetch - processPackages [lightning-habana]: executing diffoscope
+[2023-06-14 13:38:49] INFO root fetch - processPackages [lightning-habana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-habana-1.0.0rc0.tar.gz tmp/lightning-habana-1.0.0rc1.tar.gz --markdown 20230614/l/lightning-habana/1.0.0rc0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-06-14 13:38:49] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-14 13:38:49] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.0.7.tar.gz tmp/bs_admin_utils-1.0.8.tar.gz --markdown 20230614/b/bs-admin-utils/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-14 13:38:49] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/5d/04/3094bba356c37c318c7e251d4d174b4ce24788ce5bfb038f1cabeeb9ae4f/rubpy-6.1.9.tar.gz
+[2023-06-14 13:38:49] INFO root fetch - processPackages [cli-command-parser]: executing diffoscope
+[2023-06-14 13:38:49] INFO root fetch - processPackages [cli-command-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_command_parser-2023.5.8.tar.gz tmp/cli_command_parser-2023.6.14.tar.gz --markdown 20230614/c/cli-command-parser/2023.5.8-2023.6.14/diff.md --exclude *.pyd
+[2023-06-14 13:38:49] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-14 13:38:49] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230613-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230614-py3-none-win_amd64.whl.zip --markdown 20230614/b/bigdl-nano/2.4.0b20230613-2.4.0b20230614/diff.md --exclude *.pyd
+[2023-06-14 13:38:49] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2023-06-14 13:38:49] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-6.1.8.tar.gz tmp/rubpy-6.1.9.tar.gz --markdown 20230614/r/rubpy/6.1.8-6.1.9/diff.md --exclude *.pyd
+[2023-06-14 13:38:50] INFO root fetch - processPackages [pypylon]: Downloading https://files.pythonhosted.org/packages/44/1a/764f9c8441e820855367396d26ca4ee70aadf5ab02acb2c8275dc2c0c131/pypylon-2.2.0rc2-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+[2023-06-14 13:38:50] INFO root fetch - processPackages [taranis-ng-shared]: Remove: archive file [/home/abi/fetcher/tmp/taranis_ng_shared-0.1.7.tar.gz]
+[2023-06-14 13:38:50] INFO root fetch - processPackages [taranis-ng-shared]: Remove: archive file [/home/abi/fetcher/tmp/taranis_ng_shared-0.1.8.tar.gz]
+[2023-06-14 13:38:50] INFO root fetch - main [MainThread]: End processing [taranis-ng-shared]: success
+[2023-06-14 13:38:50] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.7.tar.gz]
+[2023-06-14 13:38:50] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.0.8.tar.gz]
+[2023-06-14 13:38:50] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-14 13:38:50] INFO root fetch - processPackages [lightning-habana]: Remove: archive file [/home/abi/fetcher/tmp/lightning-habana-1.0.0rc0.tar.gz]
+[2023-06-14 13:38:50] INFO root fetch - processPackages [lightning-habana]: Remove: archive file [/home/abi/fetcher/tmp/lightning-habana-1.0.0rc1.tar.gz]
+[2023-06-14 13:38:50] INFO root fetch - main [MainThread]: End processing [lightning-habana]: success
+[2023-06-14 13:38:51] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.1.8.tar.gz]
+[2023-06-14 13:38:51] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-6.1.9.tar.gz]
+[2023-06-14 13:38:51] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2023-06-14 13:38:51] INFO root fetch - processPackages [pyfeats]: Remove: archive file [/home/abi/fetcher/tmp/pyfeats-1.0.0.tar.gz]
+[2023-06-14 13:38:51] INFO root fetch - processPackages [pyfeats]: Remove: archive file [/home/abi/fetcher/tmp/pyfeats-1.0.1.tar.gz]
+[2023-06-14 13:38:51] INFO root fetch - main [MainThread]: End processing [pyfeats]: success
+[2023-06-14 13:38:52] INFO root fetch - processPackages [pypylon]: executing diffoscope
+[2023-06-14 13:38:52] INFO root fetch - processPackages [pypylon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230614:/home/abi/fetcher/20230614:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypylon-2.2.0rc1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip tmp/pypylon-2.2.0rc2-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip --markdown 20230614/p/pypylon/2.2.0rc1-2.2.0rc2/diff.md --exclude *.pyd
+[2023-06-14 13:38:52] INFO root fetch - processPackages [xturing]: Remove: archive file [/home/abi/fetcher/tmp/xturing-0.1.4.tar.gz]
+[2023-06-14 13:38:52] INFO root fetch - processPackages [xturing]: Remove: archive file [/home/abi/fetcher/tmp/xturing-0.1.5.tar.gz]
+[2023-06-14 13:38:52] INFO root fetch - main [MainThread]: End processing [xturing]: success
+[2023-06-14 13:38:52] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2023.5.8.tar.gz]
+[2023-06-14 13:38:52] INFO root fetch - processPackages [cli-command-parser]: Remove: archive file [/home/abi/fetcher/tmp/cli_command_parser-2023.6.14.tar.gz]
+[2023-06-14 13:38:52] INFO root fetch - main [MainThread]: End processing [cli-command-parser]: success
+[2023-06-14 13:38:54] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230613-py3-none-win_amd64.whl.zip]
+[2023-06-14 13:38:54] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230614-py3-none-win_amd64.whl.zip]
+[2023-06-14 13:38:54] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-14 13:39:10] INFO root fetch - processPackages [pypylon]: Remove: archive file [/home/abi/fetcher/tmp/pypylon-2.2.0rc1-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2023-06-14 13:39:10] INFO root fetch - processPackages [pypylon]: Remove: archive file [/home/abi/fetcher/tmp/pypylon-2.2.0rc2-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.zip]
+[2023-06-14 13:39:10] INFO root fetch - main [MainThread]: End processing [pypylon]: success
+[2023-06-14 13:39:10] INFO root fetch - main [MainThread]: Store serial: [18500527]
